@@ -1,0 +1,1 @@
+CREATE TABLE fixtures(Div TEXT,Date Date,HomeTeam TEXT,AwayTeam TEXT,PSH REAL,PSD REAL,PSA REAL);

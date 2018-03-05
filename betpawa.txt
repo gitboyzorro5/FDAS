@@ -1,0 +1,355 @@
+
+
+
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script><link href='https://fonts.googleapis.com/css?family=Roboto:400,700,700italic,400italic' rel='stylesheet' type='text/css' media="none" onload="if(media!='all')media='all'">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>The next 6 hours</title>
+        <meta name="description" content="The upcoming events the 6 hours on betPawa.co.ke">
+        <meta property="og:title" content="The next 6 hours"/>
+        <meta property="twitter:title" content="The next 6 hours"/>
+        <meta property="og:description" content="The upcoming events the 6 hours on betPawa.co.ke"/>
+        <meta property="twitter:description" content="The upcoming events the 6 hours on betPawa.co.ke"/>
+        <meta property="og:url" content="http://www.betpawa.co.ke/next-6" />
+        
+            <meta property="og:image" content="https://d36r55ftass5h5.cloudfront.net/m-k6kug73ymp5p6888"/>
+            <meta property="twitter:image" content="https://d36r55ftass5h5.cloudfront.net/m-k6kug73ymp5p6888"/>
+        
+        <meta name="keywords" content="betPawa.co.ke, betting, sport">
+        <meta name="robots" content="index, follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+        
+
+        
+            <link rel="alternate" href="http://www.betpawa.ug/next-6" hreflang="en-UG" />
+        
+            <link rel="alternate" href="http://www.wasere.com/next-6" hreflang="en-NG" />
+        
+            <link rel="alternate" href="http://www.betpawa.co.ke/next-6" hreflang="en-KE" />
+        
+            <link rel="alternate" href="http://www.betpawa.co.tz/next-6" hreflang="en-TZ" />
+        
+
+        
+        
+
+        <link rel="stylesheet" href="https://d36r55ftass5h5.cloudfront.net/style-min-465c1869b7cb5a921ac96c498c63f60fdd947782.css">
+
+
+        <noscript>
+            <style type="text/css">
+                .js-only {display: none !important;}
+            </style>
+        </noscript>
+        <script>
+            var States = {};
+            States.states = [];
+            var PayoutComponent = {};
+            (function(w){
+                w.agi_settings = {"components":{"netent":false,"rofus":false,"casino":false,"betting":true,"translate":false,"chat":false,"announcements":true,"payouts":true,"manual_deposits":true,"cms":true,"affiliates":true,"agents":true,"user_search_fields":[{"PlaceHolder":"Name","CriteriaName":"Name","Description":"Search for name","Model":"","isAdvanced":true},{"PlaceHolder":"Email","CriteriaName":"Email","Description":"Search for email","Model":"","isAdvanced":true},{"PlaceHolder":"Phone number","CriteriaName":"PhoneNumber","Description":"Search for phone number","Model":"","isAdvanced":false},{"PlaceHolder":"Username","CriteriaName":"Username","Description":"Search for username","Model":"","isAdvanced":true},{"PlaceHolder":"BetslipId","CriteriaName":"BetslipId","Description":"Search for betslip id","Model":"","isAdvanced":false},{"PlaceHolder":"DepositRef","CriteriaName":"DepositRef","Description":"Deposit reference","Model":"","isAdvanced":true}]},"formats":{"Ymd":"dd/MM yyyy","Ymdhm":"dd/MM yyyy hh:mma~L","Ymdhms":"dd/MM yyyy hh:mm:ssa","Md":"dd/MM","Mdhm":"dd/MM hh:mma~L","Mdhms":"dd/MM hh:mm:ssa~L","Hm":"hh:mma~L","Hms":"hh:mm:ssa~L"},"currency":{"code":"KES","id":46,"name":"Kenyan Shilling","format":"Ksh %s","minSportBet":1,"maxSportWin":2500000,"maxSportsItems":30,"minDepositAmount":null,"maxDepositAmount":null,"minWithdrawAmount":200,"maxWithdrawAmount":70000,"referralBonus":"Ksh 100"},"jurisdiction":{"id":5,"country":"KE","region":"County","language":"en","phonePrefix":254,"whatsApp":"+254707097883","facebookMessageLink":"http://m.me/betPawa.co.ke","zopimId":null,"smoochId":null,"firstLastNameNeeded":false,"brandName":"betPawa.co.ke","senderName":"betPawa","countryName":"Kenya","tax":null,"taxValue":1},"bonus":{"strategy":1},"freebet":{"available":true},"legBonus":{"perLeg":[null,null,null,null,null,0.10,0.10,0.10,0.10,0.10,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00],"id":7},"external":{"gaId":"UA-54216898-1","gaPage":"auto","hotJarId":"139635","hotJarEnabled":false}};
+                w.agi_settings.user = {"userId":null,"isAgent":false,"phoneNumber":null,"signedUp":null,"isVoucherAgent":false,"gsb":null};
+                w.sportMenuInitData = {"CategoryId":2,"Categories":[{"Id":2,"Name":"Football"},{"Id":3,"Name":"Basketball"},{"Id":452,"Name":"Tennis"},{"Id":453,"Name":"Rugby"},{"Id":458,"Name":"Rugby League"},{"Id":460,"Name":"Futsal"}],"Groups":{"Groups":[{"Id":384,"Text":"Premier League","Path":"group-384-premier-league","Region":"England","SportId":2,"SportName":"Football"},{"Id":424,"Text":"Champions League","Path":"group-424-champions-league","Region":"Europe","SportId":2,"SportName":"Football"},{"Id":423,"Text":"Europa League","Path":"group-423-europa-league","Region":"Europe","SportId":2,"SportName":"Football"},{"Id":1260,"Text":"World Cup Qualification","Path":"group-1260-world-cup-qualification","Region":"International","SportId":2,"SportName":"Football"},{"Id":382,"Text":"La Liga","Path":"group-382-la-liga","Region":"Spain","SportId":2,"SportName":"Football"},{"Id":391,"Text":"Primeira Liga","Path":"group-391-primeira-liga","Region":"Portugal","SportId":2,"SportName":"Football"},{"Id":383,"Text":"Serie A","Path":"group-383-serie-a","Region":"Italy","SportId":2,"SportName":"Football"},{"Id":381,"Text":"1. Bundesliga","Path":"group-381-1-bundesliga","Region":"Germany","SportId":2,"SportName":"Football"},{"Id":459,"Text":"Friendlies","Path":"group-459-friendlies","Region":"International","SportId":2,"SportName":"Football"},{"Id":388,"Text":"Ligue 1","Path":"group-388-ligue-1","Region":"France","SportId":2,"SportName":"Football"},{"Id":405,"Text":"Premiership","Path":"group-405-premiership","Region":"Scotland","SportId":2,"SportName":"Football"},{"Id":433,"Text":"FA Cup","Path":"group-433-fa-cup","Region":"England","SportId":2,"SportName":"Football"}]},"Countries":{"Popular":[{"Id":288,"Country":"England"},{"Id":1,"Country":"International"},{"Id":237,"Country":"Spain"},{"Id":22,"Country":"Europe"},{"Id":230,"Country":"Italy"},{"Id":242,"Country":"Germany"},{"Id":241,"Country":"France"},{"Id":233,"Country":"Portugal"},{"Id":290,"Country":"Scotland"},{"Id":246,"Country":"Netherlands"}],"Other":[{"Id":61,"Country":"Algeria"},{"Id":126,"Country":"Argentina"},{"Id":177,"Country":"Armenia"},{"Id":248,"Country":"Australia"},{"Id":239,"Country":"Austria"},{"Id":178,"Country":"Azerbaijan"},{"Id":240,"Country":"Belgium"},{"Id":127,"Country":"Bolivia"},{"Id":225,"Country":"Bosnia and Herzegovina"},{"Id":128,"Country":"Brazil"},{"Id":196,"Country":"Bulgaria"},{"Id":53,"Country":"Cameroon"},{"Id":129,"Country":"Chile"},{"Id":150,"Country":"China"},{"Id":130,"Country":"Colombia"},{"Id":119,"Country":"Costa Rica"},{"Id":226,"Country":"Croatia"},{"Id":180,"Country":"Cyprus"},{"Id":197,"Country":"Czech Republic"},{"Id":207,"Country":"Denmark"},{"Id":131,"Country":"Ecuador"},{"Id":62,"Country":"Egypt"},{"Id":120,"Country":"El Salvador"},{"Id":208,"Country":"Estonia"},{"Id":210,"Country":"Finland"},{"Id":227,"Country":"Gibraltar"},{"Id":228,"Country":"Greece"},{"Id":121,"Country":"Guatemala"},{"Id":122,"Country":"Honduras"},{"Id":151,"Country":"Hong Kong"},{"Id":198,"Country":"Hungary"},{"Id":160,"Country":"India"},{"Id":161,"Country":"Iran"},{"Id":213,"Country":"Ireland"},{"Id":183,"Country":"Israel"},{"Id":105,"Country":"Jamaica"},{"Id":154,"Country":"Japan"},{"Id":185,"Country":"Kuwait"},{"Id":217,"Country":"Lithuania"},{"Id":244,"Country":"Luxembourg"},{"Id":238,"Country":"Macedonia"},{"Id":170,"Country":"Malaysia"},{"Id":231,"Country":"Malta"},{"Id":123,"Country":"Mexico"},{"Id":232,"Country":"Montenegro"},{"Id":64,"Country":"Morocco"},{"Id":249,"Country":"New Zealand"},{"Id":85,"Country":"Nigeria"},{"Id":289,"Country":"Northern Ireland"},{"Id":218,"Country":"Norway"},{"Id":135,"Country":"Paraguay"},{"Id":136,"Country":"Peru"},{"Id":199,"Country":"Poland"},{"Id":188,"Country":"Qatar"},{"Id":156,"Country":"Republic of Korea"},{"Id":200,"Country":"Republic of Moldova"},{"Id":201,"Country":"Romania"},{"Id":202,"Country":"Russian Federation"},{"Id":189,"Country":"Saudi Arabia"},{"Id":235,"Country":"Serbia"},{"Id":203,"Country":"Slovakia"},{"Id":236,"Country":"Slovenia"},{"Id":71,"Country":"South Africa"},{"Id":221,"Country":"Sweden"},{"Id":247,"Country":"Switzerland"},{"Id":174,"Country":"Thailand"},{"Id":192,"Country":"Turkey"},{"Id":204,"Country":"Ukraine"},{"Id":193,"Country":"United Arab Emirates"},{"Id":138,"Country":"Uruguay"},{"Id":144,"Country":"USA"},{"Id":149,"Country":"Uzbekistan"},{"Id":139,"Country":"Venezuela"},{"Id":176,"Country":"Viet Nam"},{"Id":291,"Country":"Wales"}]},"ShowOnlyPopular":true,"ShowCountry":false};
+                w.userBalanceReportInit = {"userSignedIn":false,"mobile":false,"IsUserSignedIn":false,"BalanceReport":null,"IsAgent":false,"IsMobile":false,"EligibleBonuses":[]};
+                w.agent = w.agi_settings.user.isAgent;
+                
+                
+                
+                
+                    w.mobileStatmentsButton = '<span agi-template-field="3" class="cms-template-field"><a href="http://www.betpawa.co.ke/refer">Earn 100 Ksh</a></span>';
+                
+                
+                    w.logoSubtext = '<span agi-template-field="3" class="cms-template-field"><a href="http://www.betpawa.co.ke/deposit">M-PESA Pay Bill: 290020</a></span>';
+                
+            })(window);
+        </script>
+        
+
+        
+
+        <script src="https://d36r55ftass5h5.cloudfront.net/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="https://d36r55ftass5h5.cloudfront.net/js/jquery-1.10.1.min.js"></script>
+
+
+        
+
+        <script src="https://d36r55ftass5h5.cloudfront.net/all-min-465c1869b7cb5a921ac96c498c63f60fdd947782.js"></script>
+
+
+        
+
+        
+
+        <script>
+            $(document).ready(function() {
+                $("#whatsApp").val(window.agi_settings.jurisdiction.whatsApp);
+                $("#whatsApp").click(function () {
+                    $(this).select();
+                });
+                var selClass = "selected";
+                $.each($('a'), function(i, val){
+                    if($(val).attr('href') === bpLogin.getPath()){
+                        $(val).addClass(selClass)
+                    }else if($(val).attr('href') === "." && bpLogin.getPath() === ""){
+                        $('#home').addClass(selClass);
+                    }
+                });
+                var OTHER_COUNTRY_DROP_DOWN_COOKIE = "drop_down_state";
+                var otherCountryHeader = $('#other-country-switch');
+                var otherCountryContainer = $('#other-country-list');
+
+                otherCountryHeader.click(function () {
+                    var isOpen = !$(this).hasClass("arrow-to-right");
+                    var exp = new Date();
+                    exp.setTime(exp.getTime() + (60 * 60 * 1000));
+                    tools.cookie(OTHER_COUNTRY_DROP_DOWN_COOKIE, isOpen, {'expires': exp});
+                });
+
+
+
+                if(tools.cookie('drop_down_state') === 'true'){
+                    otherCountryHeader.removeClass("arrow-to-right");
+                    otherCountryHeader.addClass("arrow-down");
+                    otherCountryContainer.slideDown();
+                }
+            });
+        </script>
+
+        <link rel="shortcut icon" type="image/x-icon" href="https://d36r55ftass5h5.cloudfront.net/m-80k8amqus90y6hk6kg4qq4ygd"/>
+    </head>
+    <body>
+        <!-- Header BEGIN -->
+        <script>svg4everybody();</script>
+        <div class="header-container bp-fixed-top">
+            
+            <header class="wrapper clearfix">
+                <div class="topbar clearfix">
+                    <div class="topbar-nav clearfix">
+                        <div class="topbar-nav-left">
+                            <a href="#" class="bp-icon menu js-only" id="Left-Menu-Button">Sport</a>
+                            <div class="web-only" id="mobile-logo">
+                                
+
+<a href="."><img class="bp-logo" src="https://d36r55ftass5h5.cloudfront.net/m-4mke2uukxdtvfjt6im86l6yiv" onerror="this.src='https://d36r55ftass5h5.cloudfront.net/m-7bj84wj8j2kq0u6c2imlvrg19'; this.onerror=null;"></a>
+
+                            </div>
+                        </div>
+                        <div class="topbar-nav-right js-only">
+                            <a href="#" class="icons mobile-only" id="Toggle-Search-Button" >
+                                <svg viewBox="0 0 32 32" class="icon-top-bar-mobile" role="img" title="Search">
+                                    search
+                                        <path d="M31.51,29.15,20.77,18.41A11.52,11.52,0,0,0,11.53,0,11.53,11.53,0,0,0,3.37,19.69a11.51,11.51,0,0,0,15,1.09L29.14,31.51a1.67,1.67,0,0,0,2.36-2.36ZM5.74,17.32a8.18,8.18,0,1,1,5.79,2.4A8.2,8.2,0,0,1,5.74,17.32Z"/>
+
+                                </svg>
+                            </a>
+                            <a href="#" class="icons mobile-only" id="Toggle-Contact-Button">
+                                <svg viewBox="0 0 32 32" class="icon-top-bar-mobile" role="img" title="Chat">
+                                    chat
+                                        <g id="one" data-name="one"><path d="M0,32,3.24,21.58A15.06,15.06,0,0,1,4.75,6,15,15,0,1,1,10.59,28.7ZM16.75,2.36A12.86,12.86,0,0,0,15,2.48,12.58,12.58,0,0,0,6.61,7.4,12.72,12.72,0,0,0,5.53,20.93l.23.43L3.55,28.45l7.23-2.25.42.2A12.66,12.66,0,1,0,16.75,2.36Z"/></g>
+                                        <g id="two" data-name="two"><path d="M17.51,24.65V15.84h3l.42-3.36H17.51V10.3c0-1,.25-1.68,1.68-1.68H21V5.52a16,16,0,0,0-2.68-.17c-2.68,0-4.45,1.59-4.45,4.53V12.4H11v3.44h3v8.81Z"/></g>
+
+                                </svg>
+                            </a>
+                            <a href="javascript:void(0);" class="bp-icon account" id="Main-Menu-Button">Menu</a>
+                            <a href="#" class="bp-icon betslip" id="Bet-Slip-Topbar-Icon"><span class="counter" id ="Betslip-Selected-Count">0</span></a>
+                            <div class="bp-dropdown">
+                                <div class="bp-dropdown-wrapper">
+                                    <ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="topbar-nav-search web-only js-only">
+                            <span class="searchbox-middle">
+                                <form action="#" class="searchbox-middle-form">
+                                    <input type="text" placeholder="Search for events and tournaments..." name="" id="" class="bp-search-input">
+                                </form>
+                            </span>
+                        </div>
+                    </div>
+                    <div id="topbar_search" class="topbar-search mobile-only js-only" style="display:none;">
+                        <form action="#" class="edit search-form" id="Mobile-Search-Form">
+                            <div class="element clearfix">
+                                <input type="text" name="" placeholder="Search..." id="Mobile-Search-Value">
+                                <input type="submit" value="Search" id="Mobile-Search-Button" class="button">
+                            </div>
+                        </form>
+                    </div>
+                    <div id="topbar_contact" class="topbar-contact mobile-only js-only" style="display:none;">
+                        <div class="element clearfix">
+                            <!-- Contact us on WhatsApp: <input id="whatsApp" class="invisible" /><br />-->
+                            
+                            Chat with us on <a href="http://m.me/betPawa.co.ke" target="_blank">Facebook Messenger</a><br />
+                            
+                            Check out <a href="help">help</a> for more contact options.
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <!-- Header END -->
+	    <div class="main-container bp-after-fixed" style="width:100%;">
+            <div class="main wrapper clearfix">
+                
+<div class="sidebar js-only">
+    <!-- Slider Left - Navigation BEGIN -->
+    <div class="bp-slider bp-slider-vertical bp-slider-left">
+        <div id="left-side-sports" class="bp-slider-wrapper">
+            <div class="bp-slider-top hidden">
+                <div class="bp-selector">
+                    <select name="" id="sport-selector" class="bp-select"></select>
+                    <a href="#" class="mobile-only" id="Close-Left-Menu">Close</a>
+                </div>
+            </div>
+            <div class="bp-slider-nav">
+                <ul class="nav">
+                    <li><a id="home" href=".">Home</a></li>
+                    <li>
+                        <a href="live">
+                            <svg viewBox="0 0 32 32" class="icon-status" role="img" title="Live">
+                                <path d="M14.72,28h0a1.34,1.34,0,0,1-1.29-1L11.09,16.54,9.86,18.72a1.34,1.34,0,0,1-1.17.68H1.34a1.34,1.34,0,0,1,0-2.68H7.91l2.56-4.54a1.34,1.34,0,0,1,2.48.37l1.87,8.38L18.91,5a1.34,1.34,0,0,1,2.61.06L24,16.72h6.68a1.34,1.34,0,0,1,0,2.68H22.89a1.34,1.34,0,0,1-1.31-1.07l-1.49-7.11L16,27A1.34,1.34,0,0,1,14.72,28Z"/>
+                            </svg>
+                            Live Now (15)
+                        </a>
+                    </li>
+                    <li><a href="next-6">Next 6 Hours</a></li>
+                    <li><a href="next-48">Next 48 Hours</a></li>
+                    <li>
+                        <a href="popular">
+                            <svg viewBox="0 0 32 32" class="icon-status" role="img" title="Popular">
+                                <path id="Shape" d="M8.07,13.28C15.52,4.64,14.41,5.79,13.95,0c0,0,23.93,17.59,6.66,32,0,0,3-4.86.92-8.25S16.6,18.3,17.33,15c-6.85,4.75-7.57,10.26-2.92,17C9,30.78.62,21.92,8.07,13.28Z"/>
+                            </svg>
+                        Popular Bets
+                        </a>
+                    </li>
+                </ul>
+                <h3 class="separator hidden" id="Sport-As-List-Header">Sports</h3>
+                <ul class="nav hidden" id="Sport-As-List">
+                </ul>
+                <h3 class="separator" id="tournament-switch">Tournaments</h3>
+                <ul class="nav" id="Popular-League-List">
+                    <li>Loading list...</li>
+                </ul>
+                <h3 class="separator arrow-down" id="popular-country-switch">Popular countries</h3>
+                <ul class="nav" id="popular-country-list">
+                    <li>Loading list...</li>
+                </ul>
+                <h3 class="separator arrow-to-right" id="other-country-switch">Other countries</h3>
+                <ul class="nav" id="other-country-list">
+                    <li>Loading list...</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Slider Left Navigation END -->
+</div>
+                <div class="rightside-wide clearfix">                    
+                    <div class="leftside">
+                        <div class="logobar clearfix mobile-only" id="mobile-logobar">
+                            
+
+<a href="."><img class="bp-logo" src="https://d36r55ftass5h5.cloudfront.net/m-4mke2uukxdtvfjt6im86l6yiv" onerror="this.src='https://d36r55ftass5h5.cloudfront.net/m-7bj84wj8j2kq0u6c2imlvrg19'; this.onerror=null;"></a>
+
+                        </div>
+                        <noscript>
+                            <div style="margin: 20px auto; width: 80%;"><span agi-template-field="3" class="cms-template-field"><h3>JavaScript Required to use betPawa!</h3><p>To provide you with the best possible product, our website requires JavaScript to function. betPawa delivers a unique experience with extensive live-betting, and unfortunately we are not able to deliver that without the use of JavaScript.</p><h3>How to enable JavaScript</h3><p>It might be possible for you to enable JavaScript in your browser. How this is done, varies from browser to browser.</p><p><a href="http://www.wikihow.com/Enable-JavaScript-on-an-Android-Phone" target="_blank">WikiHow.com has written a guide on how to enable JavaScript on Android Phones</a>. For other devices, please ask the store where you bought it, or try searching on <a href="http://www.google.com" target="_blank">google.com</a>.</p><p><b>As soon as JavaScript is enabled, you will see the full website. Welcome to betPawa.co.ke!</b></p></span></div>
+                        </noscript>
+                        
+                        <div class="searched-events"></div>
+                        
+                        <div class="events-wrapper">
+                            <div class="page-loading js-only"></div>
+                        </div>
+                    </div>
+                    <!-- Slider Right Betslip BEGIN -->
+<div class="bp-slider bp-slip bp-slider-vertical bp-slider-right js-only" id="right-slide-betslips">
+    <div id="Bonus-Box" style="display: none;" class="bonusbox"></div>
+    <div class="bp-slip-wrapper" id="bet_initial">
+        <div class="bp-slip-top clearfix">
+            <div class="balance">
+                <span class="title">Your Balance:</span>
+                <span class="count">Loading</span>
+            </div>
+        </div>
+
+        <div class="bp-slip-content">
+            <div class="tabbar clearfix" style="display: none;">
+                <ul class="tabs tabs-2">
+                    <li class="active"><a href="#">Multi</a></li>
+                    <!-- <li><a href="#">Single</a></li> -->
+                </ul>
+            </div>
+            <div class="hidden notify notice" id="Bp-Leg-Bonus-Info"></div>
+        </div>
+        <div class="bp-slip-bottom"></div>
+    </div>
+</div>
+<!-- Slider Right Betslip END -->
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-container">
+            <footer class="wrapper">
+                <div class="footer-top"></div>
+                <div class="footer-bottom">
+                    <ul id="footer-selector" class="footer-menu-selector"></ul>
+
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/betPawa.co.ke" class="icons" id="Toggle-Search-Button" target="_blank">
+                            <svg viewBox="0 0 32 32" class="icon-footer" role="img" title="Search">
+                                Facebook
+                                <path d="M16,0L16,0c8.8,0,16,7.2,16,16l0,0c0,8.8-7.2,16-16,16l0,0C7.2,32,0,24.8,0,16l0,0C0,7.2,7.2,0,16,0z M16.8,27.5V17h3.6
+	l0.5-4h-4.1v-2.6c0-1.2,0.3-2,2-2H21V4.7c-0.4-0.1-1.7-0.2-3.2-0.2c-3.2,0-5.3,1.9-5.3,5.4v3H9V17h3.6v10.5H16.8L16.8,27.5z"/>
+                            </svg>
+                        </a>
+
+                        <a href="https://twitter.com/betPawa_Kenya" class="icons" id="Toggle-Search-Button" target="_blank">
+                            <svg viewBox="0 0 32 32" class="icon-footer" role="img" title="Search">
+                                Twitter
+                                <path d="M16,0L16,0c8.8,0,16,7.2,16,16l0,0c0,8.8-7.2,16-16,16l0,0C7.2,32,0,24.8,0,16l0,0C0,7.2,7.2,0,16,0z M19.7,8.2
+	c-2.2,0.1-4,1.8-4,3.9c0,0.3,0,0.6,0.1,0.9c-3.4-0.2-6.4-1.8-8.4-4.1c-0.4,0.6-0.6,1.2-0.6,2c0,1.3,0.7,2.6,1.8,3.3
+	c-0.6,0-1.3-0.2-1.8-0.5l0,0c0,2,1.4,3.5,3.3,3.9c-0.3,0.1-0.7,0.1-1.1,0.1c-0.2,0-0.5,0-0.7-0.1c0.5,1.6,2,2.7,3.9,2.8
+	c-1.4,1-3.2,1.7-5.1,1.7c-0.3,0-0.6,0-1-0.1c1.8,1.1,4,1.8,6.3,1.8c7.5,0,11.7-6,11.7-11.3c0-0.2,0-0.3,0-0.5c0.7-0.5,1.5-1.2,2-2.1
+	c-0.7,0.3-1.5,0.5-2.4,0.6c0.9-0.5,1.5-1.2,1.8-2.2c-0.7,0.4-1.7,0.8-2.6,0.9C22,8.8,21,8.2,19.7,8.2C19.8,8.2,19.7,8.2,19.7,8.2
+	L19.7,8.2z"/>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <ul class="footer-menu footer-menu-bottom">
+                    </ul>
+                    <ul class="footer-menu js-only">
+                        <li><a href=".">Home</a></li><li><a href="about">About</a></li><li><a href="terms">Terms</a></li><li><a href="rules">Rules</a></li><li><a href="help">Help</a></li><li><a href="responsible-gambling">Responsible Gambling</a></li>
+                    </ul>
+                    <div class="bp-logo-footer">
+                        
+
+<a href="."><img class="bp-logo" src="https://d36r55ftass5h5.cloudfront.net/m-4mke2uukxdtvfjt6im86l6yiv" onerror="this.src='https://d36r55ftass5h5.cloudfront.net/m-7bj84wj8j2kq0u6c2imlvrg19'; this.onerror=null;"></a>
+
+                    </div>
+                    <div class="footer-menu region-change KE-flag"><span class="bold">Kenya</span>
+                        <a href="javascript:void(0);" onclick = "redirectToLandingPage()"> Change</a></div>
+                    <div id="footer-component js-only" class="footer-copy">
+                        <span><span agi-template-field="3" class="cms-template-field">Gaming International (K) Ltd, trading as betPawa, BCLB Licence # 809</span></span>
+                    </div>
+                </div>
+                <noscript>
+                    <img src="https://www.google-analytics.com/collect?v=1&t=pageview&dl=http://www.betpawa.co.ke/noscript/next-6&dt=No%20JavaScript&cid=1625695960&tid=UA-54216898-1"/>
+                </noscript>
+            </footer>
+        </div>
+
+        
+            <div class="facebook-messenger only-for-desktop">
+                <a href="http://m.me/betPawa.co.ke" target="_blank">Talk to us on Facebook messenger!</a>
+            </div>
+        
+    
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"838eb5921b","agent":"","beacon":"bam.nr-data.net","applicationTime":14,"applicationID":"16045661","transactionName":"YlEBY0VUWEEHUxYLDVsbMEdFXFhVJV8MFhBaWA9SRRpVXRNeFhAbGE8KU0oYTVEJRQwWEEx6AlpSSBYaNn8xNks=","queueTime":0}</script></body>
+</html>
+ 
