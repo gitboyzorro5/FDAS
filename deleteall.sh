@@ -28,4 +28,4 @@ sed -i '1,$d' cs.txt
 sed -i '1,$d' tempallmatches0.txt
 sed -i '1,$d' tempallmatches1.txt
 sed -i '1,$d' tempallmatches2.txt
-sed -i '2,$d' allmatches.csv
+sed -i '2,$d' allmatches.txt

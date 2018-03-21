@@ -432,3 +432,15 @@ INSERT INTO E3 VALUES('E3','10/03/18','Yeovil','Newport County','0','2','A','0',
 INSERT INTO E3 VALUES('E3','13/03/18','Barnet','Port Vale','1','1','D','1','0','H','2.53','3.18','3.13');
 INSERT INTO E3 VALUES('E3','13/03/18','Coventry','Luton','2','2','D','2','0','H','3.68','3.27','2.21');
 INSERT INTO E3 VALUES('E3','13/03/18','Exeter','Yeovil','0','0','D','0','0','D','2.16','3.48','3.57');
+INSERT INTO E3 VALUES('E3','17/03/18','Accrington','Forest Green','3','1','H','1','0','H','1.84','3.79','4.47');
+INSERT INTO E3 VALUES('E3','17/03/18','Barnet','Wycombe','0','2','A','0','0','D','3.44','3.43','2.24');
+INSERT INTO E3 VALUES('E3','17/03/18','Cambridge','Swindon','1','3','A','0','1','A','2.46','3.39','3.07');
+INSERT INTO E3 VALUES('E3','17/03/18','Carlisle','Crawley Town','2','2','D','1','0','H','2.01','3.5','4.03');
+INSERT INTO E3 VALUES('E3','17/03/18','Cheltenham','Chesterfield','1','1','D','0','0','D','1.74','3.93','4.92');
+INSERT INTO E3 VALUES('E3','17/03/18','Colchester','Yeovil','0','1','A','0','1','A','1.93','3.65','4.21');
+INSERT INTO E3 VALUES('E3','17/03/18','Crewe','Coventry','1','2','A','1','2','A','3.11','3.28','2.48');
+INSERT INTO E3 VALUES('E3','17/03/18','Lincoln','Grimsby','3','1','H','3','1','H','1.73','3.85','5.19');
+INSERT INTO E3 VALUES('E3','17/03/18','Morecambe','Exeter','2','1','H','1','1','D','2.76','3.34','2.72');
+INSERT INTO E3 VALUES('E3','17/03/18','Newport County','Luton','1','1','D','1','1','D','3.84','3.53','2.06');
+INSERT INTO E3 VALUES('E3','17/03/18','Notts County','Mansfield','1','1','D','1','0','H','2.78','3.34','2.7');
+INSERT INTO E3 VALUES('E3','17/03/18','Port Vale','Stevenage','2','2','D','0','1','A','2.18','3.34','3.68');

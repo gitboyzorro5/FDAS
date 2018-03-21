@@ -232,3 +232,12 @@ INSERT INTO D2 VALUES('D2','10/03/18','St Pauli','Braunschweig','0','0','D','0',
 INSERT INTO D2 VALUES('D2','11/03/18','Duisburg','Fortuna Dusseldorf','1','2','A','0','1','A','2.39','3.1','3.1');
 INSERT INTO D2 VALUES('D2','11/03/18','Regensburg','Sandhausen','2','1','H','1','0','H','2.1','3.29','3.5');
 INSERT INTO D2 VALUES('D2','11/03/18','Union Berlin','Erzgebirge Aue','0','0','D','0','0','D','1.61','3.75','5.5');
+INSERT INTO D2 VALUES('D2','16/03/18','Fortuna Dusseldorf','Bielefeld','4','2','H','1','1','D','2.1','3.5','3.29');
+INSERT INTO D2 VALUES('D2','16/03/18','Holstein Kiel','Heidenheim','2','1','H','2','0','H','1.55','4.33','5.25');
+INSERT INTO D2 VALUES('D2','17/03/18','Kaiserslautern','St Pauli','1','1','D','0','0','D','2.37','3.2','3');
+INSERT INTO D2 VALUES('D2','17/03/18','Sandhausen','Bochum','2','3','A','2','1','H','2.6','3','2.89');
+INSERT INTO D2 VALUES('D2','17/03/18','Union Berlin','Regensburg','2','2','D','1','0','H','1.9','3.6','3.79');
+INSERT INTO D2 VALUES('D2','18/03/18','Braunschweig','Duisburg','3','2','H','3','0','H','2','3.5','3.6');
+INSERT INTO D2 VALUES('D2','18/03/18','Ingolstadt','Dresden','4','2','H','2','0','H','1.83','3.6','4.2');
+INSERT INTO D2 VALUES('D2','18/03/18','Nurnberg','Darmstadt','1','1','D','0','1','A','1.75','3.75','4.33');
+INSERT INTO D2 VALUES('D2','19/03/18','Erzgebirge Aue','Greuther Furth','2','1','H','2','0','H','2.45','3.39','2.75');

@@ -179,6 +179,7 @@ INSERT INTO G1 VALUES('G1','24/02/18','Panathinaikos','Lamia','2','0','H','0','0
 INSERT INTO G1 VALUES('G1','24/02/18','Panionios','Asteras Tripolis','0','0','D','0','0','D','1.95','3.2','4.2');
 INSERT INTO G1 VALUES('G1','25/02/18','Larisa','Platanias','1','0','H','0','0','D','1.83','3.25','4.75');
 INSERT INTO G1 VALUES('G1','25/02/18','Panetolikos','Kerkyra','1','0','H','1','0','H','1.53','3.6','7.5');
+INSERT INTO G1 VALUES('G1','25/02/18','PAOK','Olympiakos','0','3','A','','','','1.7','3.39','5.5');
 INSERT INTO G1 VALUES('G1','25/02/18','Xanthi','Apollon','2','0','H','0','0','D','1.8','3.2','5');
 INSERT INTO G1 VALUES('G1','26/02/18','Atromitos','AEK','1','1','D','0','0','D','3.5','3.1','2.2');
 INSERT INTO G1 VALUES('G1','03/03/18','Atromitos','Xanthi','1','0','H','1','0','H','1.53','3.75','6.5');

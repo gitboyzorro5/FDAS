@@ -140,3 +140,8 @@ INSERT INTO SC2 VALUES('SC2','13/03/18','Albion Rvs','Queens Park','1','1','D','
 INSERT INTO SC2 VALUES('SC2','13/03/18','Alloa','East Fife','1','2','A','0','0','D','0','1.85','3.6');
 INSERT INTO SC2 VALUES('SC2','13/03/18','Forfar','Raith Rvs','2','1','H','0','0','D','0','4.75','4.2');
 INSERT INTO SC2 VALUES('SC2','14/03/18','Arbroath','Ayr','1','1','D','1','0','H','0','3','3.5');
+INSERT INTO SC2 VALUES('SC2','17/03/18','Albion Rvs','Arbroath','1','2','A','1','1','D','0','4.2','3.75');
+INSERT INTO SC2 VALUES('SC2','17/03/18','Alloa','Airdrie Utd','2','2','D','2','1','H','0','1.72','3.75');
+INSERT INTO SC2 VALUES('SC2','17/03/18','Forfar','Ayr','0','2','A','0','1','A','0','6.5','4.09');
+INSERT INTO SC2 VALUES('SC2','17/03/18','Stranraer','Queens Park','2','3','A','0','2','A','0','2.2','3.6');
+INSERT INTO SC2 VALUES('','','','','','','','','','','','','');
