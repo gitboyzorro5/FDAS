@@ -26,4 +26,6 @@ awk -F, -f in_SC1.awk ~/SQLITE/SC1.csv | sed '1d' >> ~/SQLITE/sc1ib.sql
 awk -F, -f in_SC2.awk ~/SQLITE/SC2.csv | sed '1d' >> ~/SQLITE/sc2ib.sql
 awk -F, -f in_SC3.awk ~/SQLITE/SC3.csv | sed '1d' >> ~/SQLITE/sc3ib.sql
 #insert into fixtures
-awk -F, -f in_fixtures.awk ~/SQLITE/fixtures.csv | sed '1d'| sed "s/'Nott'm Forest'/'Nottm Forest'/g" | sed  "s/'M'gladbach'/'Mgladbach'/g" >> ~/SQLITE/fixtures.sql	
+awk -F, -f in_fixtures.awk ~/SQLITE/fixtures.csv | sed '1d'| sed "s/'Nott'm Forest'/'Nottm Forest'/g" | sed  "s/'M'gladbach'/'Mgladbach'/g" >> ~/SQLITE/fixtures.SQLITE
+awk -F, -f htcs.awk ~/SQLITE/tempallmatches0.txt | sed '1d' >> htcs.txt
+awk -F, -f cs.awk ~/SQLITE/tempallmatches0.txt | sed '1d' >> cs.txt

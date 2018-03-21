@@ -1,4 +1,4 @@
-#! /bin/bash 
+#! /bin/bash
 sed -i '1,$d' eoib.sql
 sed -i '1,$d' e1ib.sql
 sed -i '1,$d' e2ib.sql
@@ -23,3 +23,9 @@ sed -i '1,$d' sc2ib.sql
 sed -i '1,$d' sc3ib.sql
 sed -i '1,$d' fixtures.sql
 sed -i '1,$d' INSERTALL.sql
+sed -i '1,$d' htcs.txt
+sed -i '1,$d' cs.txt
+sed -i '1,$d' tempallmatches0.txt
+sed -i '1,$d' tempallmatches1.txt
+sed -i '1,$d' tempallmatches2.txt
+sed -i '2,$d' allmatches.csv

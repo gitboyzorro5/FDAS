@@ -21,3 +21,4 @@ cat sc0ib.sql >> INSERTALL.sql
 cat sc1ib.sql >> INSERTALL.sql 
 cat sc2ib.sql >> INSERTALL.sql 
 cat sc3ib.sql >> INSERTALL.sql
+#cat fixtures.sql >> INSERTALL.sql
