@@ -1,4 +1,4 @@
-#! /data/data/com.spartacusrex.spartacuside/files/system/bin/bash	
+#! /bin/bash	
 ./deleteall.sh 
 rm *.csv
 ./download.sh
