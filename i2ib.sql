@@ -371,4 +371,4 @@ INSERT INTO I2 VALUES('I2','07/04/18','Ternana','Cittadella','5','1','H','2','1'
 INSERT INTO I2 VALUES('I2','08/04/18','Cesena','Virtus Entella','3','0','H','2','0','H','2.14','3.2','3.5');
 INSERT INTO I2 VALUES('I2','08/04/18','Pro Vercelli','Novara','0','0','D','0','0','D','2.45','3','3.1');
 INSERT INTO I2 VALUES('I2','08/04/18','Venezia','Brescia','1','2','A','0','1','A','1.85','3.29','4.5');
-INSERT INTO I2 VALUES('I2','09/04/18','Avellino','Perugia','','','','','','','3.1','3.1','2.37');
+INSERT INTO I2 VALUES('I2','09/04/18','Avellino','Perugia','2','0','H','1','0','H','3.1','3.1','2.37');

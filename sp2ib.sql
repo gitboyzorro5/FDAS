@@ -371,3 +371,4 @@ INSERT INTO SP2 VALUES('SP2','08/04/18','Gimnastic','Valladolid','1','0','H','0'
 INSERT INTO SP2 VALUES('SP2','08/04/18','Lugo','Oviedo','0','1','A','0','0','D','2.6','3','2.87');
 INSERT INTO SP2 VALUES('SP2','08/04/18','Sp Gijon','Reus Deportiu','2','1','H','2','0','H','1.44','4','8');
 INSERT INTO SP2 VALUES('SP2','08/04/18','Tenerife','Sevilla B','2','0','H','0','0','D','1.44','4.2','7.5');
+INSERT INTO SP2 VALUES('SP2','12/04/18','Huesca','Albacete','0','0','D','0','0','D','1.61','3.39','5');

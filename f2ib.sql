@@ -316,4 +316,4 @@ INSERT INTO F2 VALUES('F2','06/04/18','Clermont','Niort','2','2','D','1','0','H'
 INSERT INTO F2 VALUES('F2','06/04/18','Lorient','Paris FC','2','0','H','0','0','D','1.75','3.5','4.75');
 INSERT INTO F2 VALUES('F2','06/04/18','Quevilly Rouen','Nimes','1','3','A','0','1','A','4.75','3.5','1.75');
 INSERT INTO F2 VALUES('F2','06/04/18','Sochaux','Orleans','3','2','H','1','0','H','1.9','3.25','4.33');
-INSERT INTO F2 VALUES('F2','09/04/18','Lens','Nancy','','','','','','','1.83','3.2','4.75');
+INSERT INTO F2 VALUES('F2','09/04/18','Lens','Nancy','1','1','D','1','1','D','1.83','3.2','4.75');

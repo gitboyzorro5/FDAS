@@ -258,4 +258,4 @@ INSERT INTO D1 VALUES('D1','07/04/18','Hamburg','Schalke 04','3','2','H','1','1'
 INSERT INTO D1 VALUES('D1','07/04/18','Mgladbach','Hertha','2','1','H','0','1','A','1.76','3.77','5.24');
 INSERT INTO D1 VALUES('D1','08/04/18','Dortmund','Stuttgart','3','0','H','1','0','H','1.59','4.19','6.3');
 INSERT INTO D1 VALUES('D1','08/04/18','Ein Frankfurt','Hoffenheim','1','1','D','0','0','D','2.55','3.5','2.88');
-INSERT INTO D1 VALUES('D1','09/04/18','RB Leipzig','Leverkusen','','','','','','','2.32','3.57','3.18');
+INSERT INTO D1 VALUES('D1','09/04/18','RB Leipzig','Leverkusen','1','4','A','1','1','D','2.32','3.57','3.18');

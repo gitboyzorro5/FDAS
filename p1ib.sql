@@ -258,4 +258,4 @@ INSERT INTO P1 VALUES('P1','07/04/18','Tondela','Portimonense','2','2','D','2','
 INSERT INTO P1 VALUES('P1','08/04/18','Chaves','Belenenses','1','1','D','0','0','D','2.2','3','3.6');
 INSERT INTO P1 VALUES('P1','08/04/18','Porto','Aves','2','0','H','2','0','H','1.12','8','19');
 INSERT INTO P1 VALUES('P1','08/04/18','Sp Lisbon','Pacos Ferreira','2','0','H','1','0','H','1.14','7.5','17');
-INSERT INTO P1 VALUES('P1','09/04/18','Moreirense','Boavista','','','','','','','2.5','3','3');
+INSERT INTO P1 VALUES('P1','09/04/18','Moreirense','Boavista','1','0','H','0','0','D','2.5','3','3');

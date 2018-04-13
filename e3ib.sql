@@ -491,3 +491,6 @@ INSERT INTO E3 VALUES('E3','07/04/18','Notts County','Coventry','2','1','H','0',
 INSERT INTO E3 VALUES('E3','07/04/18','Port Vale','Crawley Town','1','2','A','1','1','D','2.14','3.36','3.78');
 INSERT INTO E3 VALUES('E3','07/04/18','Swindon','Carlisle','0','0','D','0','0','D','2.34','3.57','3.09');
 INSERT INTO E3 VALUES('E3','07/04/18','Yeovil','Luton','0','3','A','0','3','A','5.26','3.7','1.75');
+INSERT INTO E3 VALUES('E3','10/04/18','Morecambe','Chesterfield','2','2','D','2','0','H','2.6','3.38','2.86');
+INSERT INTO E3 VALUES('E3','10/04/18','Stevenage','Mansfield','1','1','D','1','0','H','2.93','3.35','2.56');
+INSERT INTO E3 VALUES('E3','10/04/18','Swindon','Yeovil','2','2','D','1','0','H','1.69','4.09','5.13');

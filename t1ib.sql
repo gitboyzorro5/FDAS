@@ -249,4 +249,4 @@ INSERT INTO T1 VALUES('T1','08/04/18','Alanyaspor','Akhisar Belediyespor','3','1
 INSERT INTO T1 VALUES('T1','08/04/18','Bursaspor','Kasimpasa','0','1','A','0','1','A','2','3.29','3.75');
 INSERT INTO T1 VALUES('T1','08/04/18','Fenerbahce','Osmanlispor','2','0','H','0','0','D','1.28','5','11');
 INSERT INTO T1 VALUES('T1','08/04/18','Konyaspor','Sivasspor','5','0','H','1','0','H','1.95','3.29','4');
-INSERT INTO T1 VALUES('T1','09/04/18','Genclerbirligi','Galatasaray','','','','','','','7.5','3.79','1.5');
+INSERT INTO T1 VALUES('T1','09/04/18','Genclerbirligi','Galatasaray','1','0','H','0','0','D','7.5','3.79','1.5');

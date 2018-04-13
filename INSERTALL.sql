@@ -812,6 +812,18 @@ INSERT INTO E1 VALUES('E1','07/04/18','Millwall','Bristol City','2','0','H','1',
 INSERT INTO E1 VALUES('E1','07/04/18','Norwich','Aston Villa','3','1','H','1','0','H','3.02','3.31','2.55');
 INSERT INTO E1 VALUES('E1','07/04/18','Reading','Preston','1','0','H','1','0','H','3.55','3.37','2.24');
 INSERT INTO E1 VALUES('E1','07/04/18','Sheffield Weds','Fulham','0','1','A','0','0','D','4.31','3.97','1.85');
+INSERT INTO E1 VALUES('E1','10/04/18','Aston Villa','Cardiff','1','0','H','0','0','D','2.33','3.42','3.29');
+INSERT INTO E1 VALUES('E1','10/04/18','Bolton','Millwall','0','2','A','0','1','A','4.15','3.43','2.03');
+INSERT INTO E1 VALUES('E1','10/04/18','Bristol City','Birmingham','3','1','H','2','1','H','2.06','3.5','3.94');
+INSERT INTO E1 VALUES('E1','10/04/18','Burton','Hull','0','5','A','0','2','A','4.25','3.52','1.98');
+INSERT INTO E1 VALUES('E1','10/04/18','Fulham','Reading','1','0','H','1','0','H','1.34','5.67','9.79');
+INSERT INTO E1 VALUES('E1','10/04/18','Ipswich','Barnsley','1','0','H','0','0','D','2.75','3.32','2.78');
+INSERT INTO E1 VALUES('E1','10/04/18','Nottm Forest','Brentford','0','1','A','0','0','D','3.41','3.59','2.21');
+INSERT INTO E1 VALUES('E1','10/04/18','Preston','Leeds','3','1','H','0','1','A','1.75','3.97','4.93');
+INSERT INTO E1 VALUES('E1','10/04/18','QPR','Sheffield Weds','4','2','H','3','0','H','1.96','3.68','4.13');
+INSERT INTO E1 VALUES('E1','10/04/18','Sheffield United','Middlesbrough','2','1','H','2','0','H','2.34','3.34','3.35');
+INSERT INTO E1 VALUES('E1','10/04/18','Sunderland','Norwich','1','1','D','0','0','D','2.74','3.51','2.67');
+INSERT INTO E1 VALUES('E1','11/04/18','Wolves','Derby','2','0','H','1','0','H','1.63','3.95','6.3');
 INSERT INTO E2 VALUES('E2','05/08/17','Bradford','Blackpool','2','1','H','1','1','D','1.61','3.84','6.88');
 INSERT INTO E2 VALUES('E2','05/08/17','Bury','Walsall','1','0','H','1','0','H','2.06','3.53','3.9');
 INSERT INTO E2 VALUES('E2','05/08/17','Charlton','Bristol Rvs','1','0','H','1','0','H','2.31','3.54','3.23');
@@ -1295,6 +1307,13 @@ INSERT INTO E2 VALUES('E2','07/04/18','Rochdale','Portsmouth','3','3','D','1','1
 INSERT INTO E2 VALUES('E2','07/04/18','Rotherham','Fleetwood Town','3','2','H','1','1','D','1.71','3.96','5.21');
 INSERT INTO E2 VALUES('E2','07/04/18','Walsall','Bury','1','0','H','0','0','D','2.34','3.54','3.13');
 INSERT INTO E2 VALUES('E2','07/04/18','Wigan','Milton Keynes Dons','5','1','H','2','1','H','1.37','5.01','9.76');
+INSERT INTO E2 VALUES('E2','10/04/18','AFC Wimbledon','Charlton','1','0','H','1','0','H','3.22','3.38','2.36');
+INSERT INTO E2 VALUES('E2','10/04/18','Blackpool','Northampton','3','0','H','1','0','H','1.7','3.85','5.51');
+INSERT INTO E2 VALUES('E2','10/04/18','Gillingham','Blackburn','0','0','D','0','0','D','6.2','4.05','1.61');
+INSERT INTO E2 VALUES('E2','10/04/18','Oxford','Fleetwood Town','0','1','A','0','0','D','2.56','3.35','2.94');
+INSERT INTO E2 VALUES('E2','10/04/18','Rochdale','Wigan','1','4','A','0','1','A','4.56','3.42','1.93');
+INSERT INTO E2 VALUES('E2','11/04/18','Oldham','Walsall','1','1','D','1','1','D','1.99','3.56','4.05');
+INSERT INTO E2 VALUES('E2','12/04/18','Bradford','Shrewsbury','0','0','D','0','0','D','3.28','3.39','2.32');
 INSERT INTO E3 VALUES('E3','05/08/17','Accrington','Colchester','3','1','H','2','0','H','2.15','3.52','3.62');
 INSERT INTO E3 VALUES('E3','05/08/17','Carlisle','Swindon','1','2','A','0','1','A','2.53','3.47','2.93');
 INSERT INTO E3 VALUES('E3','05/08/17','Chesterfield','Grimsby','1','3','A','0','2','A','2.21','3.5','3.47');
@@ -1788,6 +1807,9 @@ INSERT INTO E3 VALUES('E3','07/04/18','Notts County','Coventry','2','1','H','0',
 INSERT INTO E3 VALUES('E3','07/04/18','Port Vale','Crawley Town','1','2','A','1','1','D','2.14','3.36','3.78');
 INSERT INTO E3 VALUES('E3','07/04/18','Swindon','Carlisle','0','0','D','0','0','D','2.34','3.57','3.09');
 INSERT INTO E3 VALUES('E3','07/04/18','Yeovil','Luton','0','3','A','0','3','A','5.26','3.7','1.75');
+INSERT INTO E3 VALUES('E3','10/04/18','Morecambe','Chesterfield','2','2','D','2','0','H','2.6','3.38','2.86');
+INSERT INTO E3 VALUES('E3','10/04/18','Stevenage','Mansfield','1','1','D','1','0','H','2.93','3.35','2.56');
+INSERT INTO E3 VALUES('E3','10/04/18','Swindon','Yeovil','2','2','D','1','0','H','1.69','4.09','5.13');
 INSERT INTO EC VALUES('EC','05/08/17','Bromley','Eastleigh','0','0','D','0','0','D','2.9','3.49','2.54');
 INSERT INTO EC VALUES('EC','05/08/17','Dag and Red','Barrow','2','1','H','2','0','H','2.07','3.56','3.84');
 INSERT INTO EC VALUES('EC','05/08/17','Fylde','Boreham Wood','2','2','D','1','1','D','1.88','3.69','4.48');
@@ -2281,6 +2303,16 @@ INSERT INTO EC VALUES('EC','07/04/18','Guiseley','Maidstone','0','0','D','0','0'
 INSERT INTO EC VALUES('EC','07/04/18','Halifax','Boreham Wood','2','1','H','1','0','H','3.57','3.34','2.22');
 INSERT INTO EC VALUES('EC','07/04/18','Hartlepool','Solihull','0','1','A','0','0','D','2.69','3.42','2.72');
 INSERT INTO EC VALUES('EC','07/04/18','Leyton Orient','Barrow','4','1','H','1','1','D','1.87','3.68','4.47');
+INSERT INTO EC VALUES('EC','10/04/18','Barrow','Eastleigh','3','2','H','1','0','H','2.12','3.5','3.66');
+INSERT INTO EC VALUES('EC','10/04/18','Boreham Wood','Macclesfield','0','2','A','0','1','A','2.29','3.27','3.49');
+INSERT INTO EC VALUES('EC','10/04/18','Chester','Bromley','3','2','H','1','0','H','4.4','3.61','1.9');
+INSERT INTO EC VALUES('EC','10/04/18','Ebbsfleet','Wrexham','3','0','H','0','0','D','2.4','3.33','3.2');
+INSERT INTO EC VALUES('EC','10/04/18','Halifax','Sutton','2','1','H','1','0','H','4.17','3.53','1.97');
+INSERT INTO EC VALUES('EC','10/04/18','Maidenhead','Woking','2','1','H','0','0','D','2.05','3.7','3.68');
+INSERT INTO EC VALUES('EC','10/04/18','Solihull','Maidstone','1','0','H','1','0','H','2.06','3.38','4.01');
+INSERT INTO EC VALUES('EC','10/04/18','Torquay','Fylde','1','3','A','1','2','A','3.61','3.58','2.11');
+INSERT INTO EC VALUES('EC','10/04/18','Tranmere','Gateshead','4','2','H','1','2','A','1.37','5.14','9.49');
+INSERT INTO EC VALUES('EC','12/04/18','Halifax','Gateshead','2','2','D','0','1','A','2.55','3.27','3.01');
 INSERT INTO SP1 VALUES('SP1','18/08/17','Leganes','Alaves','1','0','H','1','0','H','2.03','3.25','4.52');
 INSERT INTO SP1 VALUES('SP1','18/08/17','Valencia','Las Palmas','1','0','H','1','0','H','1.78','4.01','4.83');
 INSERT INTO SP1 VALUES('SP1','19/08/17','Celta','Sociedad','2','3','A','1','1','D','2.44','3.4','3.16');
@@ -2590,7 +2622,7 @@ INSERT INTO SP1 VALUES('SP1','08/04/18','Levante','Las Palmas','2','1','H','1','
 INSERT INTO SP1 VALUES('SP1','08/04/18','Real Madrid','Ath Madrid','1','1','D','0','0','D','1.71','3.91','5.31');
 INSERT INTO SP1 VALUES('SP1','08/04/18','Sociedad','Girona','5','0','H','2','0','H','1.93','3.79','4.13');
 INSERT INTO SP1 VALUES('SP1','08/04/18','Valencia','Espanol','1','0','H','1','0','H','1.51','4.34','7.72');
-INSERT INTO SP1 VALUES('SP1','09/04/18','Villarreal','Ath Bilbao','','','','','','','1.89','3.47','4.8');
+INSERT INTO SP1 VALUES('SP1','09/04/18','Villarreal','Ath Bilbao','1','3','A','0','1','A','1.89','3.47','4.8');
 INSERT INTO SP2 VALUES('SP2','18/08/17','Lorca','Leonesa','2','0','H','1','0','H','2.45','3.1','3');
 INSERT INTO SP2 VALUES('SP2','18/08/17','Tenerife','Zaragoza','1','0','H','0','0','D','1.95','3.1','4.33');
 INSERT INTO SP2 VALUES('SP2','19/08/17','Alcorcon','Sp Gijon','0','0','D','0','0','D','2.5','3','3');
@@ -2964,6 +2996,7 @@ INSERT INTO SP2 VALUES('SP2','08/04/18','Gimnastic','Valladolid','1','0','H','0'
 INSERT INTO SP2 VALUES('SP2','08/04/18','Lugo','Oviedo','0','1','A','0','0','D','2.6','3','2.87');
 INSERT INTO SP2 VALUES('SP2','08/04/18','Sp Gijon','Reus Deportiu','2','1','H','2','0','H','1.44','4','8');
 INSERT INTO SP2 VALUES('SP2','08/04/18','Tenerife','Sevilla B','2','0','H','0','0','D','1.44','4.2','7.5');
+INSERT INTO SP2 VALUES('SP2','12/04/18','Huesca','Albacete','0','0','D','0','0','D','1.61','3.39','5');
 INSERT INTO D1 VALUES('D1','18/08/17','Bayern Munich','Leverkusen','3','1','H','2','0','H','1.26','6.75','12.3');
 INSERT INTO D1 VALUES('D1','19/08/17','Hamburg','Augsburg','1','0','H','1','0','H','2.19','3.35','3.7');
 INSERT INTO D1 VALUES('D1','19/08/17','Hertha','Stuttgart','2','0','H','0','0','D','2.07','3.58','3.82');
@@ -3224,7 +3257,7 @@ INSERT INTO D1 VALUES('D1','07/04/18','Hamburg','Schalke 04','3','2','H','1','1'
 INSERT INTO D1 VALUES('D1','07/04/18','Mgladbach','Hertha','2','1','H','0','1','A','1.76','3.77','5.24');
 INSERT INTO D1 VALUES('D1','08/04/18','Dortmund','Stuttgart','3','0','H','1','0','H','1.59','4.19','6.3');
 INSERT INTO D1 VALUES('D1','08/04/18','Ein Frankfurt','Hoffenheim','1','1','D','0','0','D','2.55','3.5','2.88');
-INSERT INTO D1 VALUES('D1','09/04/18','RB Leipzig','Leverkusen','','','','','','','2.32','3.57','3.18');
+INSERT INTO D1 VALUES('D1','09/04/18','RB Leipzig','Leverkusen','1','4','A','1','1','D','2.32','3.57','3.18');
 INSERT INTO D2 VALUES('D2','28/07/17','Bochum','St Pauli','0','1','A','0','0','D','2.38','3.3','2.9');
 INSERT INTO D2 VALUES('D2','29/07/17','Bielefeld','Regensburg','2','1','H','1','1','D','2','3.5','3.6');
 INSERT INTO D2 VALUES('D2','29/07/17','Darmstadt','Greuther Furth','1','0','H','0','0','D','2.05','3.25','3.75');
@@ -4124,7 +4157,7 @@ INSERT INTO F2 VALUES('F2','06/04/18','Clermont','Niort','2','2','D','1','0','H'
 INSERT INTO F2 VALUES('F2','06/04/18','Lorient','Paris FC','2','0','H','0','0','D','1.75','3.5','4.75');
 INSERT INTO F2 VALUES('F2','06/04/18','Quevilly Rouen','Nimes','1','3','A','0','1','A','4.75','3.5','1.75');
 INSERT INTO F2 VALUES('F2','06/04/18','Sochaux','Orleans','3','2','H','1','0','H','1.9','3.25','4.33');
-INSERT INTO F2 VALUES('F2','09/04/18','Lens','Nancy','','','','','','','1.83','3.2','4.75');
+INSERT INTO F2 VALUES('F2','09/04/18','Lens','Nancy','1','1','D','1','1','D','1.83','3.2','4.75');
 INSERT INTO I1 VALUES('I1','19/08/17','Juventus','Cagliari','3','0','H','2','0','H','1.16','8.29','24.44');
 INSERT INTO I1 VALUES('I1','19/08/17','Verona','Napoli','1','3','A','0','2','A','8.46','5.08','1.42');
 INSERT INTO I1 VALUES('I1','20/08/17','Atalanta','Roma','0','1','A','0','1','A','3.17','3.56','2.36');
@@ -4808,7 +4841,7 @@ INSERT INTO I2 VALUES('I2','07/04/18','Ternana','Cittadella','5','1','H','2','1'
 INSERT INTO I2 VALUES('I2','08/04/18','Cesena','Virtus Entella','3','0','H','2','0','H','2.14','3.2','3.5');
 INSERT INTO I2 VALUES('I2','08/04/18','Pro Vercelli','Novara','0','0','D','0','0','D','2.45','3','3.1');
 INSERT INTO I2 VALUES('I2','08/04/18','Venezia','Brescia','1','2','A','0','1','A','1.85','3.29','4.5');
-INSERT INTO I2 VALUES('I2','09/04/18','Avellino','Perugia','','','','','','','3.1','3.1','2.37');
+INSERT INTO I2 VALUES('I2','09/04/18','Avellino','Perugia','2','0','H','1','0','H','3.1','3.1','2.37');
 INSERT INTO P1 VALUES('P1','06/08/17','Aves','Sp Lisbon','0','2','A','0','1','A','9','4.2','1.4');
 INSERT INTO P1 VALUES('P1','06/08/17','Setubal','Moreirense','1','1','D','1','0','H','2.5','3','3');
 INSERT INTO P1 VALUES('P1','07/08/17','Feirense','Tondela','1','1','D','0','1','A','2.2','3.2','3.4');
@@ -5069,7 +5102,7 @@ INSERT INTO P1 VALUES('P1','07/04/18','Tondela','Portimonense','2','2','D','2','
 INSERT INTO P1 VALUES('P1','08/04/18','Chaves','Belenenses','1','1','D','0','0','D','2.2','3','3.6');
 INSERT INTO P1 VALUES('P1','08/04/18','Porto','Aves','2','0','H','2','0','H','1.12','8','19');
 INSERT INTO P1 VALUES('P1','08/04/18','Sp Lisbon','Pacos Ferreira','2','0','H','1','0','H','1.14','7.5','17');
-INSERT INTO P1 VALUES('P1','09/04/18','Moreirense','Boavista','','','','','','','2.5','3','3');
+INSERT INTO P1 VALUES('P1','09/04/18','Moreirense','Boavista','1','0','H','0','0','D','2.5','3','3');
 INSERT INTO N1 VALUES('N1','11/08/17','Den Haag','Utrecht','0','3','A','0','1','A','3.6','3.4','2.05');
 INSERT INTO N1 VALUES('N1','12/08/17','Heracles','Ajax','2','1','H','0','0','D','7','4.33','1.44');
 INSERT INTO N1 VALUES('N1','12/08/17','PSV Eindhoven','AZ Alkmaar','3','2','H','1','1','D','1.4','4.75','7');
@@ -5831,7 +5864,7 @@ INSERT INTO T1 VALUES('T1','08/04/18','Alanyaspor','Akhisar Belediyespor','3','1
 INSERT INTO T1 VALUES('T1','08/04/18','Bursaspor','Kasimpasa','0','1','A','0','1','A','2','3.29','3.75');
 INSERT INTO T1 VALUES('T1','08/04/18','Fenerbahce','Osmanlispor','2','0','H','0','0','D','1.28','5','11');
 INSERT INTO T1 VALUES('T1','08/04/18','Konyaspor','Sivasspor','5','0','H','1','0','H','1.95','3.29','4');
-INSERT INTO T1 VALUES('T1','09/04/18','Genclerbirligi','Galatasaray','','','','','','','7.5','3.79','1.5');
+INSERT INTO T1 VALUES('T1','09/04/18','Genclerbirligi','Galatasaray','1','0','H','0','0','D','7.5','3.79','1.5');
 INSERT INTO G1 VALUES('G1','19/08/17','Asteras Tripolis','Giannina','1','2','A','0','2','A','1.7','3.4','5.5');
 INSERT INTO G1 VALUES('G1','19/08/17','Olympiakos','Larisa','4','1','H','1','0','H','1.17','7','15');
 INSERT INTO G1 VALUES('G1','19/08/17','Xanthi','Lamia','0','0','D','0','0','D','1.67','3.3','6');
@@ -6394,6 +6427,9 @@ INSERT INTO SC1 VALUES('SC1','07/04/18','Dumbarton','Dundee United','3','2','H',
 INSERT INTO SC1 VALUES('SC1','07/04/18','Falkirk','Dunfermline','1','2','A','0','1','A','0','2.37','3.39');
 INSERT INTO SC1 VALUES('SC1','07/04/18','Livingston','Morton','3','2','H','1','1','D','0','2','3.5');
 INSERT INTO SC1 VALUES('SC1','07/04/18','Queen of Sth','Inverness C','0','2','A','0','2','A','0','2.37','3.39');
+INSERT INTO SC1 VALUES('SC1','10/04/18','Dundee United','St Mirren','1','0','H','1','0','H','0','2.54','3.39');
+INSERT INTO SC1 VALUES('SC1','10/04/18','Inverness C','Falkirk','1','0','H','0','0','D','0','2','3.5');
+INSERT INTO SC1 VALUES('SC1','10/04/18','Morton','Dumbarton','3','2','H','0','0','D','0','1.39','4.75');
 INSERT INTO SC2 VALUES('SC2','05/08/17','Albion Rvs','Ayr','1','5','A','0','3','A','0','5.25','4');
 INSERT INTO SC2 VALUES('SC2','05/08/17','Alloa','Raith Rvs','1','1','D','1','0','H','0','2.6','3.3');
 INSERT INTO SC2 VALUES('SC2','05/08/17','Arbroath','Queens Park','2','0','H','1','0','H','0','2.15','3.4');
@@ -6721,3 +6757,4 @@ INSERT INTO SC3 VALUES('SC3','07/04/18','Berwick','Peterhead','1','3','A','0','2
 INSERT INTO SC3 VALUES('SC3','07/04/18','Cowdenbeath','Clyde','1','0','H','0','0','D','0','4.33','3.5');
 INSERT INTO SC3 VALUES('SC3','07/04/18','Edinburgh City','Stenhousemuir','1','4','A','0','2','A','0','3.89','3.5');
 INSERT INTO SC3 VALUES('SC3','07/04/18','Stirling','Montrose','0','5','A','0','1','A','0','2.89','3.6');
+INSERT INTO SC3 VALUES('SC3','10/04/18','Cowdenbeath','Montrose','0','3','A','0','1','A','0','4','3.5');
