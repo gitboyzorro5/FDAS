@@ -195,3 +195,4 @@ INSERT INTO SC0 VALUES('SC0','07/04/18','Rangers','Dundee','4','0','H','1','0','
 INSERT INTO SC0 VALUES('SC0','07/04/18','Ross County','Hibernian','1','1','D','1','0','H','4.34','3.65','1.92');
 INSERT INTO SC0 VALUES('SC0','07/04/18','St Johnstone','Motherwell','0','0','D','0','0','D','2.73','3.34','2.79');
 INSERT INTO SC0 VALUES('SC0','08/04/18','Hamilton','Celtic','1','2','A','1','1','D','16.72','7.05','1.21');
+INSERT INTO SC0 VALUES('SC0','14/04/18','Hamilton','Kilmarnock','1','2','A','0','0','D','4.92','3.7','1.81');

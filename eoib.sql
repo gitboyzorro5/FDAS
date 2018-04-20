@@ -322,3 +322,17 @@ INSERT INTO E0 VALUES('E0','07/04/18','Watford','Burnley','1','2','A','0','0','D
 INSERT INTO E0 VALUES('E0','07/04/18','West Brom','Swansea','1','1','D','0','0','D','2.35','3.25','3.49');
 INSERT INTO E0 VALUES('E0','08/04/18','Arsenal','Southampton','3','2','H','2','1','H','1.56','4.45','6.44');
 INSERT INTO E0 VALUES('E0','08/04/18','Chelsea','West Ham','1','1','D','1','0','H','1.28','6.34','11.91');
+INSERT INTO E0 VALUES('E0','14/04/18','Burnley','Leicester','2','1','H','2','0','H','2.67','3.19','3.01');
+INSERT INTO E0 VALUES('E0','14/04/18','Crystal Palace','Brighton','3','2','H','3','2','H','1.91','3.56','4.64');
+INSERT INTO E0 VALUES('E0','14/04/18','Huddersfield','Watford','1','0','H','0','0','D','2.72','3.14','2.9');
+INSERT INTO E0 VALUES('E0','14/04/18','Liverpool','Bournemouth','3','0','H','1','0','H','1.25','7.15','12.89');
+INSERT INTO E0 VALUES('E0','14/04/18','Southampton','Chelsea','2','3','A','1','0','H','4.48','3.74','1.88');
+INSERT INTO E0 VALUES('E0','14/04/18','Swansea','Everton','1','1','D','0','1','A','2.61','3.13','3.15');
+INSERT INTO E0 VALUES('E0','14/04/18','Tottenham','Man City','1','3','A','1','2','A','2.7','3.61','2.68');
+INSERT INTO E0 VALUES('E0','15/04/18','Man United','West Brom','0','1','A','0','0','D','1.22','7.05','17.85');
+INSERT INTO E0 VALUES('E0','15/04/18','Newcastle','Arsenal','2','1','H','1','1','D','3.27','3.65','2.27');
+INSERT INTO E0 VALUES('E0','16/04/18','West Ham','Stoke','1','1','D','0','0','D','2.01','3.52','4.19');
+INSERT INTO E0 VALUES('E0','17/04/18','Brighton','Tottenham','1','1','D','0','0','D','6.56','4.35','1.57');
+INSERT INTO E0 VALUES('E0','18/04/18','Bournemouth','Man United','0','2','A','0','1','A','4.99','4.07','1.74');
+INSERT INTO E0 VALUES('E0','19/04/18','Burnley','Chelsea','1','2','A','0','1','A','4.64','3.55','1.91');
+INSERT INTO E0 VALUES('E0','19/04/18','Leicester','Southampton','0','0','D','0','0','D','2.42','3.53','3.08');

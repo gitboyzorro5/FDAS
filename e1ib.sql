@@ -500,3 +500,15 @@ INSERT INTO E1 VALUES('E1','10/04/18','QPR','Sheffield Weds','4','2','H','3','0'
 INSERT INTO E1 VALUES('E1','10/04/18','Sheffield United','Middlesbrough','2','1','H','2','0','H','2.34','3.34','3.35');
 INSERT INTO E1 VALUES('E1','10/04/18','Sunderland','Norwich','1','1','D','0','0','D','2.74','3.51','2.67');
 INSERT INTO E1 VALUES('E1','11/04/18','Wolves','Derby','2','0','H','1','0','H','1.63','3.95','6.3');
+INSERT INTO E1 VALUES('E1','13/04/18','Aston Villa','Leeds','1','0','H','1','0','H','1.46','4.64','8.11');
+INSERT INTO E1 VALUES('E1','14/04/18','Barnsley','Bolton','2','2','D','1','0','H','1.93','3.6','4.37');
+INSERT INTO E1 VALUES('E1','14/04/18','Burton','Derby','3','1','H','2','1','H','5.36','3.74','1.75');
+INSERT INTO E1 VALUES('E1','14/04/18','Fulham','Brentford','1','1','D','0','0','D','1.76','4.24','4.54');
+INSERT INTO E1 VALUES('E1','14/04/18','Hull','Sheffield Weds','0','1','A','0','1','A','1.71','3.98','5.29');
+INSERT INTO E1 VALUES('E1','14/04/18','Middlesbrough','Bristol City','2','1','H','1','1','D','1.92','3.48','4.62');
+INSERT INTO E1 VALUES('E1','14/04/18','Norwich','Cardiff','0','2','A','0','0','D','3.05','3.45','2.45');
+INSERT INTO E1 VALUES('E1','14/04/18','Nottm Forest','Ipswich','2','1','H','0','1','A','1.82','3.73','4.82');
+INSERT INTO E1 VALUES('E1','14/04/18','QPR','Preston','1','2','A','1','1','D','2.94','3.51','2.5');
+INSERT INTO E1 VALUES('E1','14/04/18','Reading','Sunderland','2','2','D','1','0','H','2.37','3.43','3.21');
+INSERT INTO E1 VALUES('E1','14/04/18','Sheffield United','Millwall','1','1','D','0','0','D','2.17','3.44','3.66');
+INSERT INTO E1 VALUES('E1','15/04/18','Wolves','Birmingham','2','0','H','1','0','H','1.41','4.62','10.2');

@@ -494,3 +494,18 @@ INSERT INTO E3 VALUES('E3','07/04/18','Yeovil','Luton','0','3','A','0','3','A','
 INSERT INTO E3 VALUES('E3','10/04/18','Morecambe','Chesterfield','2','2','D','2','0','H','2.6','3.38','2.86');
 INSERT INTO E3 VALUES('E3','10/04/18','Stevenage','Mansfield','1','1','D','1','0','H','2.93','3.35','2.56');
 INSERT INTO E3 VALUES('E3','10/04/18','Swindon','Yeovil','2','2','D','1','0','H','1.69','4.09','5.13');
+INSERT INTO E3 VALUES('E3','14/04/18','Accrington','Exeter','1','1','D','1','1','D','1.74','3.94','5');
+INSERT INTO E3 VALUES('E3','14/04/18','Cheltenham','Forest Green','0','1','A','0','1','A','1.91','3.81','4.1');
+INSERT INTO E3 VALUES('E3','14/04/18','Chesterfield','Mansfield','0','1','A','0','0','D','3.15','3.42','2.38');
+INSERT INTO E3 VALUES('E3','14/04/18','Colchester','Notts County','1','3','A','1','0','H','2.46','3.32','3.1');
+INSERT INTO E3 VALUES('E3','14/04/18','Crawley Town','Coventry','1','2','A','1','1','D','3.66','3.54','2.11');
+INSERT INTO E3 VALUES('E3','14/04/18','Grimsby','Barnet','2','2','D','1','0','H','2.55','3.32','2.97');
+INSERT INTO E3 VALUES('E3','14/04/18','Luton','Crewe','3','1','H','2','1','H','1.39','5.22','8.25');
+INSERT INTO E3 VALUES('E3','14/04/18','Morecambe','Carlisle','1','1','D','1','1','D','3.63','3.5','2.13');
+INSERT INTO E3 VALUES('E3','14/04/18','Newport County','Swindon','2','1','H','2','0','H','3.17','3.53','2.32');
+INSERT INTO E3 VALUES('E3','14/04/18','Port Vale','Lincoln','1','0','H','0','0','D','3.52','3.38','2.22');
+INSERT INTO E3 VALUES('E3','14/04/18','Stevenage','Cambridge','0','2','A','0','0','D','2.58','3.42','2.85');
+INSERT INTO E3 VALUES('E3','14/04/18','Yeovil','Wycombe','0','1','A','0','0','D','6.04','3.84','1.65');
+INSERT INTO E3 VALUES('E3','17/04/18','Accrington','Yeovil','2','0','H','2','0','H','1.5','4.4','7.45');
+INSERT INTO E3 VALUES('E3','17/04/18','Exeter','Chesterfield','2','1','H','1','0','H','2.05','3.54','3.86');
+INSERT INTO E3 VALUES('E3','17/04/18','Lincoln','Wycombe','0','0','D','0','0','D','2.37','3.43','3.15');
