@@ -328,3 +328,11 @@ INSERT INTO SP1 VALUES('SP1','19/04/18','Alaves','Girona','1','2','A','0','0','D
 INSERT INTO SP1 VALUES('SP1','19/04/18','Betis','Las Palmas','1','0','H','0','0','D','1.38','5.5','8.45');
 INSERT INTO SP1 VALUES('SP1','19/04/18','Levante','Malaga','1','0','H','0','0','D','1.85','3.56','4.92');
 INSERT INTO SP1 VALUES('SP1','19/04/18','Sociedad','Ath Madrid','3','0','H','1','0','H','3.36','3.38','2.32');
+INSERT INTO SP1 VALUES('SP1','20/04/18','Leganes','La Coruna','0','0','D','0','0','D','2.49','3.27','3.14');
+INSERT INTO SP1 VALUES('SP1','21/04/18','Celta','Valencia','1','1','D','0','0','D','2.74','3.46','2.7');
+INSERT INTO SP1 VALUES('SP1','21/04/18','Eibar','Getafe','0','1','A','0','1','A','2.14','3.24','4');
+INSERT INTO SP1 VALUES('SP1','22/04/18','Ath Madrid','Betis','0','0','D','0','0','D','1.63','3.93','6.36');
+INSERT INTO SP1 VALUES('SP1','22/04/18','Girona','Espanol','0','2','A','0','1','A','2.12','3.28','4.04');
+INSERT INTO SP1 VALUES('SP1','22/04/18','Las Palmas','Alaves','0','4','A','0','0','D','3.17','3.34','2.44');
+INSERT INTO SP1 VALUES('SP1','22/04/18','Malaga','Sociedad','2','0','H','2','0','H','5.55','3.63','1.76');
+INSERT INTO SP1 VALUES('SP1','23/04/18','Ath Bilbao','Levante','','','','','','','1.68','3.7','6.32');

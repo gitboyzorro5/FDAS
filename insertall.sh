@@ -26,6 +26,6 @@ awk -F, -f in_SC1.awk SC1.csv | sed '1d' >> sc1ib.sql
 awk -F, -f in_SC2.awk SC2.csv | sed '1d' >> sc2ib.sql
 awk -F, -f in_SC3.awk SC3.csv | sed '1d' >> sc3ib.sql
 #insert into fixtures
-awk -F, -f in_fixtures.awk fixtures.csv | sed '1d'| sed "s/'Nott'm Forest'/'Nottm Forest'/g" | sed  "s/'M'gladbach'/'Mgladbach'/g" >> fixtures.
+#awk -F, -f in_fixtures.awk fixtures.csv | sed '1d'| sed "s/'Nott'm Forest'/'Nottm Forest'/g" | sed  "s/'M'gladbach'/'Mgladbach'/g" >> fixtures.
 awk -F, -f htcs.awk tempallmatches0.txt | sed '1d' >> htcs.txt
 awk -F, -f cs.awk tempallmatches0.txt | sed '1d' >> cs.txt

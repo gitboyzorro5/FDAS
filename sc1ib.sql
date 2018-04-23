@@ -167,3 +167,8 @@ INSERT INTO SC1 VALUES('SC1','14/04/18','St Mirren','Livingston','0','0','D','0'
 INSERT INTO SC1 VALUES('SC1','17/04/18','Brechin','Dundee United','0','5','A','0','0','D','0','13','7');
 INSERT INTO SC1 VALUES('SC1','17/04/18','St Mirren','Falkirk','1','2','A','0','0','D','0','1.85','3.5');
 INSERT INTO SC1 VALUES('SC1','18/04/18','Dumbarton','Inverness C','0','1','A','0','0','D','0','6.5','4.5');
+INSERT INTO SC1 VALUES('SC1','21/04/18','Dumbarton','Falkirk','2','5','A','1','1','D','0','3.6','3.29');
+INSERT INTO SC1 VALUES('SC1','21/04/18','Inverness C','Dunfermline','2','2','D','1','1','D','0','2.25','3.25');
+INSERT INTO SC1 VALUES('SC1','21/04/18','Livingston','Brechin','3','0','H','0','0','D','0','1.16','7.5');
+INSERT INTO SC1 VALUES('SC1','21/04/18','Queen of Sth','Dundee United','3','0','H','2','0','H','0','3.29','3.29');
+INSERT INTO SC1 VALUES('SC1','21/04/18','St Mirren','Morton','2','1','H','1','1','D','0','2.04','3.29');
