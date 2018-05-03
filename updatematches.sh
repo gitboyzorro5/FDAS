@@ -2,7 +2,7 @@
 sed -i '54539,$d' allteams2010-present.csv
 ./deleteall.sh 
 #backup the allteams2010-present data
-cat allteams2010-present.csv >> allteams2010-present.backup
+#cat allteams2010-present.csv >> allteams2010-present.backup
 rm *.csv
 ./download.sh
 ./insertall.sh 

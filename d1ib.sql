@@ -277,3 +277,12 @@ INSERT INTO D1 VALUES('D1','21/04/18','RB Leipzig','Hoffenheim','2','5','A','0',
 INSERT INTO D1 VALUES('D1','21/04/18','Stuttgart','Werder Bremen','2','0','H','1','0','H','2.45','3.43','3.07');
 INSERT INTO D1 VALUES('D1','22/04/18','Augsburg','Mainz','2','0','H','1','0','H','2.32','3.28','3.45');
 INSERT INTO D1 VALUES('D1','22/04/18','FC Koln','Schalke 04','2','2','D','1','2','A','3.9','3.69','2.01');
+INSERT INTO D1 VALUES('D1','27/04/18','Hoffenheim','Hannover','3','1','H','1','1','D','1.3','6.43','9.91');
+INSERT INTO D1 VALUES('D1','28/04/18','Bayern Munich','Ein Frankfurt','4','1','H','1','0','H','1.62','4.25','5.84');
+INSERT INTO D1 VALUES('D1','28/04/18','Freiburg','FC Koln','3','2','H','1','0','H','2.15','3.56','3.58');
+INSERT INTO D1 VALUES('D1','28/04/18','Hertha','Augsburg','2','2','D','0','1','A','2.09','3.58','3.74');
+INSERT INTO D1 VALUES('D1','28/04/18','Leverkusen','Stuttgart','0','1','A','0','0','D','1.43','4.98','8.07');
+INSERT INTO D1 VALUES('D1','28/04/18','Schalke 04','Mgladbach','1','1','D','1','1','D','1.88','3.73','4.49');
+INSERT INTO D1 VALUES('D1','28/04/18','Wolfsburg','Hamburg','1','3','A','0','2','A','2.26','3.38','3.48');
+INSERT INTO D1 VALUES('D1','29/04/18','Mainz','RB Leipzig','3','0','H','1','0','H','3.66','3.65','2.1');
+INSERT INTO D1 VALUES('D1','29/04/18','Werder Bremen','Dortmund','1','1','D','1','1','D','3.76','3.86','2');
