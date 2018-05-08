@@ -359,7 +359,7 @@ INSERT INTO I2 VALUES('I2','02/04/18','Avellino','Bari','1','2','A','1','0','H',
 INSERT INTO I2 VALUES('I2','02/04/18','Carpi','Venezia','0','0','D','0','0','D','2.54','2.89','3');
 INSERT INTO I2 VALUES('I2','02/04/18','Foggia','Empoli','0','3','A','0','1','A','3.6','3.25','2.04');
 INSERT INTO I2 VALUES('I2','02/04/18','Parma','Palermo','3','2','H','2','0','H','2.54','2.87','3.1');
-INSERT INTO I2 VALUES('I2','03/04/18','Brescia','Entella','0','0','D','0','0','D','2.04','3.1','4');
+INSERT INTO I2 VALUES('I2','03/04/18','Brescia','Virtus Entella','0','0','D','0','0','D','2.04','3.1','4');
 INSERT INTO I2 VALUES('I2','03/04/18','Pro Vercelli','Perugia','0','2','A','0','0','D','3.1','3','2.45');
 INSERT INTO I2 VALUES('I2','07/04/18','Ascoli','Carpi','2','0','H','2','0','H','2.45','2.87','3.25');
 INSERT INTO I2 VALUES('I2','07/04/18','Bari','Salernitana','1','1','D','1','0','H','1.6','3.5','6.5');
@@ -427,3 +427,14 @@ INSERT INTO I2 VALUES('I2','01/05/18','Perugia','Salernitana','1','1','D','0','1
 INSERT INTO I2 VALUES('I2','01/05/18','Pescara','Cesena','0','0','D','0','0','D','2.1','3.2','3.6');
 INSERT INTO I2 VALUES('I2','01/05/18','Pro Vercelli','Venezia','0','2','A','0','1','A','2.89','3.1','2.5');
 INSERT INTO I2 VALUES('I2','01/05/18','Virtus Entella','Ascoli','1','1','D','0','1','A','2.1','3.1','3.79');
+INSERT INTO I2 VALUES('I2','05/05/18','Ascoli','Avellino','1','1','D','1','1','D','2.25','3.1','3.39');
+INSERT INTO I2 VALUES('I2','05/05/18','Bari','Perugia','3','1','H','1','0','H','2.2','3.1','3.5');
+INSERT INTO I2 VALUES('I2','05/05/18','Cittadella','Brescia','2','2','D','1','1','D','1.61','3.75','5.75');
+INSERT INTO I2 VALUES('I2','05/05/18','Frosinone','Carpi','1','0','H','1','0','H','1.44','4.33','7');
+INSERT INTO I2 VALUES('I2','05/05/18','Novara','Pescara','1','1','D','1','0','H','1.9','3.25','4.33');
+INSERT INTO I2 VALUES('I2','05/05/18','Salernitana','Virtus Entella','1','0','H','0','0','D','2.45','3','3.1');
+INSERT INTO I2 VALUES('I2','05/05/18','Spezia','Pro Vercelli','5','1','H','2','1','H','2.37','3','3.2');
+INSERT INTO I2 VALUES('I2','05/05/18','Ternana','Palermo','2','3','A','0','2','A','3.75','3.2','2.04');
+INSERT INTO I2 VALUES('I2','05/05/18','Venezia','Foggia','2','1','H','1','0','H','1.95','3.39','4');
+INSERT INTO I2 VALUES('I2','06/05/18','Cesena','Parma','2','1','H','0','0','D','3.39','3.2','2.2');
+INSERT INTO I2 VALUES('I2','07/05/18','Empoli','Cremonese','1','1','D','0','0','D','1.8','3.5','4.5');

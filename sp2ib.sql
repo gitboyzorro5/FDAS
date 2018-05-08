@@ -405,3 +405,14 @@ INSERT INTO SP2 VALUES('SP2','29/04/18','Lorca','Gimnastic','1','0','H','0','0',
 INSERT INTO SP2 VALUES('SP2','29/04/18','Numancia','Oviedo','3','0','H','2','0','H','2','3.2','4');
 INSERT INTO SP2 VALUES('SP2','29/04/18','Sp Gijon','Albacete','2','1','H','1','1','D','1.64','3.6','5.5');
 INSERT INTO SP2 VALUES('SP2','29/04/18','Vallecano','Tenerife','3','1','H','1','1','D','1.61','3.75','5.5');
+INSERT INTO SP2 VALUES('SP2','04/05/18','Alcorcon','Leonesa','0','0','D','0','0','D','1.9','3','5');
+INSERT INTO SP2 VALUES('SP2','05/05/18','Barcelona B','Reus Deportiu','0','1','A','0','1','A','1.75','3.29','5.25');
+INSERT INTO SP2 VALUES('SP2','05/05/18','Cordoba','Huesca','2','4','A','0','2','A','2.54','3.1','2.87');
+INSERT INTO SP2 VALUES('SP2','05/05/18','Numancia','Valladolid','0','1','A','0','0','D','2.04','3.29','3.6');
+INSERT INTO SP2 VALUES('SP2','05/05/18','Tenerife','Almeria','0','0','D','0','0','D','1.5','3.75','7.5');
+INSERT INTO SP2 VALUES('SP2','05/05/18','Zaragoza','Sp Gijon','2','1','H','2','0','H','2.7','3.1','2.7');
+INSERT INTO SP2 VALUES('SP2','06/05/18','Albacete','Cadiz','1','1','D','1','1','D','2.75','2.62','3.1');
+INSERT INTO SP2 VALUES('SP2','06/05/18','Gimnastic','Osasuna','0','2','A','0','2','A','2.87','2.89','2.7');
+INSERT INTO SP2 VALUES('SP2','06/05/18','Lugo','Sevilla B','1','0','H','1','0','H','1.66','3.5','5.5');
+INSERT INTO SP2 VALUES('SP2','06/05/18','Oviedo','Lorca','2','0','H','1','0','H','1.36','4.33','10');
+INSERT INTO SP2 VALUES('SP2','07/05/18','Granada','Vallecano','0','2','A','0','0','D','2.62','3.2','2.7');

@@ -348,3 +348,13 @@ INSERT INTO I1 VALUES('I1','29/04/18','Fiorentina','Napoli','3','0','H','1','0',
 INSERT INTO I1 VALUES('I1','29/04/18','Sampdoria','Cagliari','4','1','H','3','0','H','1.93','3.66','4.27');
 INSERT INTO I1 VALUES('I1','29/04/18','Torino','Lazio','0','1','A','0','0','D','4.99','4.2','1.7');
 INSERT INTO I1 VALUES('I1','29/04/18','Verona','Spal','1','3','A','1','1','D','3.42','3.35','2.3');
+INSERT INTO I1 VALUES('I1','05/05/18','Juventus','Bologna','3','1','H','0','1','A','1.16','8.61','20.11');
+INSERT INTO I1 VALUES('I1','05/05/18','Milan','Verona','4','1','H','2','0','H','1.15','9.1','21.95');
+INSERT INTO I1 VALUES('I1','06/05/18','Cagliari','Roma','0','1','A','0','1','A','8.48','4.95','1.42');
+INSERT INTO I1 VALUES('I1','06/05/18','Chievo','Crotone','2','1','H','1','0','H','2.42','2.97','3.64');
+INSERT INTO I1 VALUES('I1','06/05/18','Genoa','Fiorentina','2','3','A','0','1','A','3.75','3.58','2.09');
+INSERT INTO I1 VALUES('I1','06/05/18','Lazio','Atalanta','1','1','D','1','1','D','2.03','3.57','3.96');
+INSERT INTO I1 VALUES('I1','06/05/18','Napoli','Torino','2','2','D','1','0','H','1.24','6.71','14.26');
+INSERT INTO I1 VALUES('I1','06/05/18','Sassuolo','Sampdoria','1','0','H','0','0','D','2.4','3.56','3.05');
+INSERT INTO I1 VALUES('I1','06/05/18','Spal','Benevento','2','0','H','1','0','H','1.51','4.69','6.79');
+INSERT INTO I1 VALUES('I1','06/05/18','Udinese','Inter','0','4','A','0','3','A','6.39','4.08','1.61');

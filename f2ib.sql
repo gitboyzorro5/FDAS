@@ -358,3 +358,13 @@ INSERT INTO F2 VALUES('F2','27/04/18','Sochaux','Lorient','0','2','A','0','1','A
 INSERT INTO F2 VALUES('F2','28/04/18','Clermont','Nimes','1','1','D','0','0','D','3.29','3.25','2.2');
 INSERT INTO F2 VALUES('F2','30/04/18','Lens','Paris FC','1','0','H','0','0','D','2.2','3.2','3.39');
 INSERT INTO F2 VALUES('F2','30/04/18','Reims','Le Havre','0','1','A','0','1','A','1.8','3.29','4.75');
+INSERT INTO F2 VALUES('F2','04/05/18','Auxerre','Ajaccio','1','1','D','0','1','A','3.5','3.2','2.14');
+INSERT INTO F2 VALUES('F2','04/05/18','Brest','Quevilly Rouen','2','0','H','2','0','H','1.5','4.33','6');
+INSERT INTO F2 VALUES('F2','04/05/18','Lorient','Bourg Peronnas','6','0','H','3','0','H','1.39','4.75','7');
+INSERT INTO F2 VALUES('F2','04/05/18','Nimes','Ajaccio GFCO','4','0','H','2','0','H','1.22','6','12');
+INSERT INTO F2 VALUES('F2','04/05/18','Niort','Le Havre','0','1','A','0','1','A','5.5','4','1.57');
+INSERT INTO F2 VALUES('F2','04/05/18','Orleans','Chateauroux','1','1','D','0','0','D','2.62','3.29','2.62');
+INSERT INTO F2 VALUES('F2','04/05/18','Paris FC','Nancy','2','1','H','1','0','H','2.39','3.2','3');
+INSERT INTO F2 VALUES('F2','04/05/18','Sochaux','Clermont','1','3','A','1','1','D','3.79','3.39','2');
+INSERT INTO F2 VALUES('F2','04/05/18','Tours','Lens','4','2','H','3','1','H','3.29','3.39','2.14');
+INSERT INTO F2 VALUES('F2','04/05/18','Valenciennes','Reims','1','3','A','1','2','A','4.2','4','1.72');

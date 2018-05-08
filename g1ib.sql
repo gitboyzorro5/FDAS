@@ -194,6 +194,7 @@ INSERT INTO G1 VALUES('G1','10/03/18','Larisa','Kerkyra','0','0','D','0','0','D'
 INSERT INTO G1 VALUES('G1','10/03/18','Panathinaikos','Asteras Tripolis','1','1','D','0','0','D','2.04','3.25','3.75');
 INSERT INTO G1 VALUES('G1','10/03/18','Panionios','Atromitos','2','2','D','0','0','D','2.89','3','2.6');
 INSERT INTO G1 VALUES('G1','11/03/18','Lamia','Levadeiakos','1','1','D','1','1','D','1.66','3.6','5.25');
+INSERT INTO G1 VALUES('G1','11/03/18','PAOK','AEK','0','3','A','','','','1.64','3.75','5.25');
 INSERT INTO G1 VALUES('G1','11/03/18','Platanias','Olympiakos','0','4','A','0','3','A','10','6','1.25');
 INSERT INTO G1 VALUES('G1','11/03/18','Xanthi','Panetolikos','1','0','H','1','0','H','2.1','3.25','3.5');
 INSERT INTO G1 VALUES('G1','31/03/18','Atromitos','PAOK','0','2','A','0','1','A','5','3.5','1.72');
@@ -229,3 +230,11 @@ INSERT INTO G1 VALUES('G1','29/04/18','Olympiakos','Panetolikos','4','0','H','3'
 INSERT INTO G1 VALUES('G1','29/04/18','Panathinaikos','PAOK','0','3','A','0','1','A','6','3.75','1.57');
 INSERT INTO G1 VALUES('G1','29/04/18','Platanias','Panionios','1','2','A','0','0','D','6','4','1.55');
 INSERT INTO G1 VALUES('G1','29/04/18','Xanthi','Larisa','1','0','H','0','0','D','1.28','4.75','13');
+INSERT INTO G1 VALUES('G1','05/05/18','Apollon','AEK','0','1','A','0','1','A','5','3.6','1.61');
+INSERT INTO G1 VALUES('G1','05/05/18','Atromitos','Kerkyra','4','0','H','2','0','H','1.12','7','17');
+INSERT INTO G1 VALUES('G1','05/05/18','Larisa','Lamia','1','1','D','0','0','D','1.6','3.75','5');
+INSERT INTO G1 VALUES('G1','05/05/18','PAOK','Platanias','3','0','H','2','0','H','1.02','13','41');
+INSERT INTO G1 VALUES('G1','06/05/18','Giannina','Olympiakos','3','0','H','0','0','D','4.33','3.5','1.72');
+INSERT INTO G1 VALUES('G1','06/05/18','Panetolikos','Asteras Tripolis','0','2','A','0','1','A','4.33','3.5','1.72');
+INSERT INTO G1 VALUES('G1','06/05/18','Panionios','Levadeiakos','2','0','H','1','0','H','1.57','3.75','5.25');
+INSERT INTO G1 VALUES('G1','07/05/18','Panathinaikos','Xanthi','1','2','A','1','1','D','2.5','3.1','2.7');
