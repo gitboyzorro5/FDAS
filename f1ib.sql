@@ -368,3 +368,13 @@ INSERT INTO F1 VALUES('F1','12/05/18','Montpellier','Troyes','1','1','D','0','1'
 INSERT INTO F1 VALUES('F1','12/05/18','Nice','Caen','4','1','H','3','0','H','1.63','4.01','6.13');
 INSERT INTO F1 VALUES('F1','12/05/18','Paris SG','Rennes','0','2','A','0','0','D','1.29','6.42','10.13');
 INSERT INTO F1 VALUES('F1','12/05/18','Strasbourg','Lyon','3','2','H','1','0','H','6.2','4.8','1.53');
+INSERT INTO F1 VALUES('F1','19/05/18','Caen','Paris SG','0','0','D','0','0','D','5.16','3.7','1.72');
+INSERT INTO F1 VALUES('F1','19/05/18','Dijon','Angers','2','1','H','1','0','H','2.32','3.74','3.08');
+INSERT INTO F1 VALUES('F1','19/05/18','Lyon','Nice','3','2','H','0','1','A','1.45','5.31','6.74');
+INSERT INTO F1 VALUES('F1','19/05/18','Marseille','Amiens','2','1','H','2','1','H','1.26','6.66','12');
+INSERT INTO F1 VALUES('F1','19/05/18','Metz','Bordeaux','0','4','A','0','3','A','7.36','4.79','1.46');
+INSERT INTO F1 VALUES('F1','19/05/18','Nantes','Strasbourg','1','0','H','1','0','H','1.81','3.71','4.81');
+INSERT INTO F1 VALUES('F1','19/05/18','Rennes','Montpellier','1','1','D','1','1','D','1.89','3.55','4.65');
+INSERT INTO F1 VALUES('F1','19/05/18','St Etienne','Lille','5','0','H','3','0','H','1.54','4.48','6.57');
+INSERT INTO F1 VALUES('F1','19/05/18','Toulouse','Guingamp','2','1','H','0','0','D','1.58','4.36','6.24');
+INSERT INTO F1 VALUES('F1','19/05/18','Troyes','Monaco','0','3','A','0','1','A','5.56','4.47','1.6');
