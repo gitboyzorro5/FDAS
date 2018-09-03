@@ -38,3 +38,11 @@ INSERT INTO B1 VALUES('B1','25/08/18','Standard','St Truiden','3','2','H','1','1
 INSERT INTO B1 VALUES('B1','26/08/18','Club Brugge','Anderlecht','2','1','H','2','1','H','1.8','3.75','4.2');
 INSERT INTO B1 VALUES('B1','26/08/18','Genk','Waasland-Beveren','3','2','H','1','0','H','1.2','6','15');
 INSERT INTO B1 VALUES('B1','26/08/18','Gent','Lokeren','2','1','H','0','0','D','1.28','5.25','10');
+INSERT INTO B1 VALUES('B1','31/08/18','Waregem','Club Brugge','2','5','A','0','3','A','3.1','3.5','2.2');
+INSERT INTO B1 VALUES('B1','01/09/18','Charleroi','Mouscron','3','1','H','2','0','H','1.57','4.2','5.25');
+INSERT INTO B1 VALUES('B1','01/09/18','Eupen','Standard','2','1','H','0','1','A','5.25','4.2','1.57');
+INSERT INTO B1 VALUES('B1','01/09/18','Lokeren','Waasland-Beveren','1','0','H','0','0','D','2.14','3.4','3.3');
+INSERT INTO B1 VALUES('B1','01/09/18','St Truiden','Oostende','1','0','H','0','0','D','1.95','3.5','3.8');
+INSERT INTO B1 VALUES('B1','02/09/18','Anderlecht','Antwerp','1','1','D','1','0','H','1.66','4','4.75');
+INSERT INTO B1 VALUES('B1','02/09/18','Cercle Brugge','Gent','0','3','A','0','1','A','3.3','3.5','2.1');
+INSERT INTO B1 VALUES('B1','02/09/18','Kortrijk','Genk','3','3','D','0','0','D','4.2','4','1.75');

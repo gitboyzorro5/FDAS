@@ -46,4 +46,14 @@ INSERT INTO F2 VALUES('F2','24/08/18','Nancy','Niort','0','1','A','0','0','D','2
 INSERT INTO F2 VALUES('F2','24/08/18','Orleans','Paris FC','4','0','H','2','0','H','3.25','2.9','2.4');
 INSERT INTO F2 VALUES('F2','24/08/18','Red Star','Auxerre','1','0','H','0','0','D','2.87','3','2.62');
 INSERT INTO F2 VALUES('F2','24/08/18','Troyes','Metz','0','1','A','0','1','A','3.3','3.3','2.2');
-INSERT INTO F2 VALUES('F2','27/08/18','Valenciennes','Ajaccio GFCO','','','','','','','2.1','3.1','3.75');
+INSERT INTO F2 VALUES('F2','27/08/18','Valenciennes','Ajaccio GFCO','0','0','D','0','0','D','2.1','3.1','3.75');
+INSERT INTO F2 VALUES('F2','31/08/18','Ajaccio GFCO','Red Star','2','1','H','1','0','H','2.87','3','2.62');
+INSERT INTO F2 VALUES('F2','31/08/18','Auxerre','Brest','0','2','A','0','0','D','2.04','3.2','3.8');
+INSERT INTO F2 VALUES('F2','31/08/18','Chateauroux','Nancy','1','0','H','1','0','H','2','3','4.33');
+INSERT INTO F2 VALUES('F2','31/08/18','Le Havre','Orleans','3','1','H','2','0','H','1.7','3.6','5');
+INSERT INTO F2 VALUES('F2','31/08/18','Niort','Ajaccio','2','0','H','0','0','D','2.25','3.2','3.2');
+INSERT INTO F2 VALUES('F2','31/08/18','Paris FC','Troyes','2','0','H','1','0','H','2.2','3.1','3.5');
+INSERT INTO F2 VALUES('F2','31/08/18','Sochaux','Beziers','1','0','H','1','0','H','2.14','3','3.8');
+INSERT INTO F2 VALUES('F2','31/08/18','Valenciennes','Clermont','0','4','A','0','3','A','2.54','3.1','2.87');
+INSERT INTO F2 VALUES('F2','01/09/18','Metz','Lens','2','0','H','0','0','D','2.1','3.1','3.8');
+INSERT INTO F2 VALUES('F2','03/09/18','Lorient','Grenoble','','','','','','','1.83','3.4','4.5');

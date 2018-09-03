@@ -5,4 +5,12 @@ INSERT INTO G1 VALUES('G1','25/08/18','PAOK','Asteras Tripolis','1','0','H','0',
 INSERT INTO G1 VALUES('G1','26/08/18','Olympiakos','Levadeiakos','1','0','H','0','0','D','1.14','7.5','19');
 INSERT INTO G1 VALUES('G1','26/08/18','Panionios','OFI Crete','2','2','D','2','2','D','2','3.3','3.8');
 INSERT INTO G1 VALUES('G1','26/08/18','Xanthi','Panathinaikos','0','1','A','0','0','D','2','3','4.33');
-INSERT INTO G1 VALUES('G1','27/08/18','Lamia','Aris','','','','','','','2.45','2.9','3.2');
+INSERT INTO G1 VALUES('G1','27/08/18','Lamia','Aris','0','3','A','0','0','D','2.45','2.9','3.2');
+INSERT INTO G1 VALUES('G1','01/09/18','Asteras Tripolis','AEK','0','1','A','0','1','A','4','3.1','2.05');
+INSERT INTO G1 VALUES('G1','01/09/18','Atromitos','Xanthi','0','0','D','0','0','D','1.75','3.3','5.25');
+INSERT INTO G1 VALUES('G1','01/09/18','Panathinaikos','Lamia','3','1','H','1','1','D','1.57','3.5','7');
+INSERT INTO G1 VALUES('G1','02/09/18','Aris','Larisa','2','0','H','0','0','D','1.66','3.4','6');
+INSERT INTO G1 VALUES('G1','02/09/18','Olympiakos','Giannina','5','0','H','2','0','H','1.25','5.25','13');
+INSERT INTO G1 VALUES('G1','02/09/18','Panionios','PAOK','0','1','A','0','0','D','8','3.8','1.45');
+INSERT INTO G1 VALUES('G1','03/09/18','Levadeiakos','Apollon','','','','','','','2.3','3','3.4');
+INSERT INTO G1 VALUES('G1','03/09/18','Panetolikos','OFI Crete','','','','','','','2.3','2.9','3.5');
