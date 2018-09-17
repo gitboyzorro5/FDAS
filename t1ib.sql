@@ -34,3 +34,12 @@ INSERT INTO T1 VALUES('T1','02/09/18','Antalyaspor','Rizespor','2','1','H','0','
 INSERT INTO T1 VALUES('T1','02/09/18','Bursaspor','Besiktas','1','1','D','0','0','D','5.25','4','1.6');
 INSERT INTO T1 VALUES('T1','02/09/18','Erzurum BB','Buyuksehyr','0','1','A','0','1','A','5.5','4','1.57');
 INSERT INTO T1 VALUES('T1','02/09/18','Kasimpasa','Ankaragucu','2','1','H','1','0','H','1.9','3.6','3.8');
+INSERT INTO T1 VALUES('T1','14/09/18','Galatasaray','Kasimpasa','0','0','D','4','1','H','1.55','4.33','5.25');
+INSERT INTO T1 VALUES('T1','15/09/18','Ankaragucu','Akhisar Belediyespor','1','0','H','1','0','H','2.3','3.3','3');
+INSERT INTO T1 VALUES('T1','15/09/18','Besiktas','Yeni Malatyaspor','0','0','D','2','1','H','1.33','5.25','8');
+INSERT INTO T1 VALUES('T1','15/09/18','Goztep','Kayserispor','2','0','H','2','0','H','2.2','3.25','3.3');
+INSERT INTO T1 VALUES('T1','16/09/18','Buyuksehyr','Antalyaspor','1','0','H','4','0','H','1.4','4.5','7.5');
+INSERT INTO T1 VALUES('T1','16/09/18','Konyaspor','Fenerbahce','0','0','D','0','1','A','3.5','3.5','2.04');
+INSERT INTO T1 VALUES('T1','16/09/18','Rizespor','Bursaspor','0','1','A','1','1','D','2','3.4','3.75');
+INSERT INTO T1 VALUES('T1','16/09/18','Sivasspor','Erzurum BB','1','1','D','2','2','D','1.72','3.75','4.5');
+INSERT INTO T1 VALUES('T1','17/09/18','Alanyaspor','Trabzonspor','','','','','','','3','3.5','2.25');

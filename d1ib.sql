@@ -16,3 +16,12 @@ INSERT INTO D1 VALUES('D1','01/09/18','Nurnberg','Mainz','1','1','D','0','1','A'
 INSERT INTO D1 VALUES('D1','01/09/18','Stuttgart','Bayern Munich','0','3','A','0','1','A','10.3','5.96','1.31');
 INSERT INTO D1 VALUES('D1','02/09/18','RB Leipzig','Fortuna Dusseldorf','1','1','D','0','0','D','1.41','4.92','8.87');
 INSERT INTO D1 VALUES('D1','02/09/18','Schalke 04','Hertha','0','2','A','0','1','A','1.79','3.53','5.53');
+INSERT INTO D1 VALUES('D1','14/09/18','Dortmund','Ein Frankfurt','1','0','H','3','1','H','1.44','4.77','8.02');
+INSERT INTO D1 VALUES('D1','15/09/18','Bayern Munich','Leverkusen','2','1','H','3','1','H','1.23','6.86','13.74');
+INSERT INTO D1 VALUES('D1','15/09/18','Fortuna Dusseldorf','Hoffenheim','1','0','H','2','1','H','4.06','3.92','1.89');
+INSERT INTO D1 VALUES('D1','15/09/18','Mainz','Augsburg','0','0','D','2','1','H','2.73','3.2','2.85');
+INSERT INTO D1 VALUES('D1','15/09/18','Mgladbach','Schalke 04','1','0','H','2','1','H','2.51','3.34','3.05');
+INSERT INTO D1 VALUES('D1','15/09/18','RB Leipzig','Hannover','2','1','H','3','2','H','1.56','4.42','6.17');
+INSERT INTO D1 VALUES('D1','15/09/18','Wolfsburg','Hertha','0','0','D','2','2','D','2.12','3.22','4.05');
+INSERT INTO D1 VALUES('D1','16/09/18','Freiburg','Stuttgart','1','1','D','3','3','D','2.76','3.17','2.87');
+INSERT INTO D1 VALUES('D1','16/09/18','Werder Bremen','Nurnberg','1','0','H','1','1','D','1.68','4.05','5.39');
