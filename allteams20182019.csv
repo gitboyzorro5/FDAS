@@ -39,16 +39,26 @@ E0,01/09/18,West Ham,Wolves,0,1,A,0,0,D,2.58,3.44,2.91,0-0,0-1
 E0,02/09/18,Burnley,Man United,0,2,A,0,2,A,5.94,3.85,1.68,0-2,0-2
 E0,02/09/18,Cardiff,Arsenal,2,3,A,1,1,D,6.35,4.54,1.55,1-1,2-3
 E0,02/09/18,Watford,Tottenham,2,1,H,0,0,D,5.5,4.19,1.66,0-0,2-1
-E0,15/09/18,Bournemouth,Leicester,3,0,H,4,2,H,2.43,3.46,3.13,4-2,3-0
-E0,15/09/18,Chelsea,Cardiff,2,1,H,4,1,H,1.19,7.4,18.5,4-1,2-1
+E0,15/09/18,Bournemouth,Leicester,4,2,H,3,0,H,2.43,3.46,3.13,3-0,4-2
+E0,15/09/18,Chelsea,Cardiff,4,1,H,2,1,H,1.19,7.4,18.5,2-1,4-1
 E0,15/09/18,Huddersfield,Crystal Palace,0,1,A,0,1,A,3.25,3.23,2.48,0-1,0-1
-E0,15/09/18,Man City,Fulham,2,0,H,3,0,H,1.13,10.17,20.82,3-0,2-0
-E0,15/09/18,Newcastle,Arsenal,0,0,D,1,2,A,4.2,3.83,1.92,1-2,0-0
-E0,15/09/18,Tottenham,Liverpool,0,1,A,1,2,A,3.03,3.71,2.37,1-2,0-1
-E0,15/09/18,Watford,Man United,0,2,A,1,2,A,4.18,3.65,1.97,1-2,0-2
-E0,16/09/18,Everton,West Ham,1,2,A,1,3,A,2.07,3.69,3.76,1-3,1-2
-E0,16/09/18,Wolves,Burnley,0,0,D,1,0,H,1.74,3.65,5.82,1-0,0-0
-E0,17/09/18,Southampton,Brighton,,,,,,,2.12,3.36,3.98,0-0,0-0
+E0,15/09/18,Man City,Fulham,3,0,H,2,0,H,1.13,10.17,20.82,2-0,3-0
+E0,15/09/18,Newcastle,Arsenal,1,2,A,0,0,D,4.2,3.83,1.92,0-0,1-2
+E0,15/09/18,Tottenham,Liverpool,1,2,A,0,1,A,3.03,3.71,2.37,0-1,1-2
+E0,15/09/18,Watford,Man United,1,2,A,0,2,A,4.18,3.65,1.97,0-2,1-2
+E0,16/09/18,Everton,West Ham,1,3,A,1,2,A,2.07,3.69,3.76,1-2,1-3
+E0,16/09/18,Wolves,Burnley,1,0,H,0,0,D,1.74,3.65,5.82,0-0,1-0
+E0,17/09/18,Southampton,Brighton,2,2,D,1,0,H,2.12,3.36,3.98,1-0,2-2
+E0,22/09/18,Brighton,Tottenham,1,2,A,0,1,A,4.99,3.93,1.76,0-1,1-2
+E0,22/09/18,Burnley,Bournemouth,4,0,H,2,0,H,2.95,3.42,2.59,2-0,4-0
+E0,22/09/18,Cardiff,Man City,0,5,A,0,3,A,21.06,7.97,1.18,0-3,0-5
+E0,22/09/18,Crystal Palace,Newcastle,0,0,D,0,0,D,2.18,3.38,3.77,0-0,0-0
+E0,22/09/18,Fulham,Watford,1,1,D,0,1,A,2.48,3.49,2.92,0-1,1-1
+E0,22/09/18,Leicester,Huddersfield,3,1,H,1,1,D,1.62,3.91,6.72,1-1,3-1
+E0,22/09/18,Liverpool,Southampton,3,0,H,3,0,H,1.2,7.42,18.51,3-0,3-0
+E0,22/09/18,Man United,Wolves,1,1,D,1,0,H,1.59,4.19,6.52,1-0,1-1
+E0,23/09/18,Arsenal,Everton,2,0,H,0,0,D,1.49,4.93,6.88,0-0,2-0
+E0,23/09/18,West Ham,Chelsea,0,0,D,0,0,D,5.72,4.41,1.61,0-0,0-0
 E1,03/08/18,Reading,Derby,1,2,A,0,0,D,3.61,3.33,2.23,0-0,1-2
 E1,04/08/18,Birmingham,Norwich,2,2,D,0,0,D,2.61,3.2,3.04,0-0,2-2
 E1,04/08/18,Brentford,Rotherham,5,1,H,2,0,H,1.52,4.45,6.92,2-0,5-1
@@ -122,17 +132,41 @@ E1,01/09/18,Wigan,Rotherham,1,0,H,0,0,D,1.56,4.3,6.69,0-0,1-0
 E1,02/09/18,Bristol City,Blackburn,4,1,H,1,1,D,2.42,3.2,3.33,1-1,4-1
 E1,02/09/18,Ipswich,Norwich,1,1,D,0,0,D,2.93,3.29,2.63,0-0,1-1
 E1,14/09/18,Birmingham,West Brom,1,1,D,1,1,D,3.64,3.34,2.22,1-1,1-1
-E1,15/09/18,Blackburn,Aston Villa,0,0,D,1,1,D,2.82,3.21,2.78,1-1,0-0
-E1,15/09/18,Bolton,QPR,0,1,A,1,2,A,2.89,3.29,2.63,1-2,0-1
-E1,15/09/18,Brentford,Wigan,1,0,H,2,0,H,1.83,3.91,4.42,2-0,1-0
-E1,15/09/18,Bristol City,Sheffield United,0,0,D,1,0,H,2.66,3.38,2.8,1-0,0-0
-E1,15/09/18,Hull,Ipswich,1,0,H,2,0,H,2.26,3.31,3.5,2-0,1-0
-E1,15/09/18,Millwall,Leeds,0,0,D,1,1,D,2.95,3.39,2.53,1-1,0-0
-E1,15/09/18,Norwich,Middlesbrough,0,0,D,1,0,H,3.09,3.18,2.56,1-0,0-0
-E1,15/09/18,Preston,Reading,1,1,D,2,3,A,1.87,3.46,4.87,2-3,1-1
-E1,15/09/18,Rotherham,Derby,0,0,D,1,0,H,3.89,3.25,2.15,1-0,0-0
-E1,15/09/18,Sheffield Weds,Stoke,1,2,A,2,2,D,3.08,3.29,2.49,2-2,1-2
+E1,15/09/18,Blackburn,Aston Villa,1,1,D,0,0,D,2.82,3.21,2.78,0-0,1-1
+E1,15/09/18,Bolton,QPR,1,2,A,0,1,A,2.89,3.29,2.63,0-1,1-2
+E1,15/09/18,Brentford,Wigan,2,0,H,1,0,H,1.83,3.91,4.42,1-0,2-0
+E1,15/09/18,Bristol City,Sheffield United,1,0,H,0,0,D,2.66,3.38,2.8,0-0,1-0
+E1,15/09/18,Hull,Ipswich,2,0,H,1,0,H,2.26,3.31,3.5,1-0,2-0
+E1,15/09/18,Millwall,Leeds,1,1,D,0,0,D,2.95,3.39,2.53,0-0,1-1
+E1,15/09/18,Norwich,Middlesbrough,1,0,H,0,0,D,3.09,3.18,2.56,0-0,1-0
+E1,15/09/18,Preston,Reading,2,3,A,1,1,D,1.87,3.46,4.87,1-1,2-3
+E1,15/09/18,Rotherham,Derby,1,0,H,0,0,D,3.89,3.25,2.15,0-0,1-0
+E1,15/09/18,Sheffield Weds,Stoke,2,2,D,1,2,A,3.08,3.29,2.49,1-2,2-2
 E1,15/09/18,Swansea,Nottm Forest,0,0,D,0,0,D,2.25,3.39,3.45,0-0,0-0
+E1,18/09/18,Aston Villa,Rotherham,2,0,H,1,0,H,1.48,4.48,7.75,1-0,2-0
+E1,18/09/18,Derby,Blackburn,0,0,D,0,0,D,2.28,3.22,3.57,0-0,0-0
+E1,18/09/18,Ipswich,Brentford,1,1,D,0,1,A,4.47,3.69,1.87,0-1,1-1
+E1,18/09/18,Leeds,Preston,3,0,H,1,0,H,2,3.31,4.42,1-0,3-0
+E1,18/09/18,Stoke,Swansea,1,0,H,0,0,D,1.84,3.72,4.6,0-0,1-0
+E1,18/09/18,West Brom,Bristol City,4,2,H,3,0,H,1.93,3.62,4.28,3-0,4-2
+E1,18/09/18,Wigan,Hull,2,1,H,2,1,H,2.04,3.5,3.96,2-1,2-1
+E1,19/09/18,Middlesbrough,Bolton,2,0,H,1,0,H,1.42,4.55,9.32,1-0,2-0
+E1,19/09/18,Nottm Forest,Sheffield Weds,2,1,H,1,0,H,1.93,3.51,4.42,1-0,2-1
+E1,19/09/18,QPR,Millwall,2,0,H,2,0,H,2.59,3.16,3.06,2-0,2-0
+E1,19/09/18,Reading,Norwich,1,2,A,0,1,A,2.92,3.2,2.67,0-1,1-2
+E1,19/09/18,Sheffield United,Birmingham,0,0,D,0,0,D,1.9,3.44,4.69,0-0,0-0
+E1,21/09/18,Wigan,Bristol City,1,0,H,0,0,D,2.3,3.47,3.27,0-0,1-0
+E1,22/09/18,Aston Villa,Sheffield Weds,1,2,A,0,0,D,1.56,4.4,6.13,0-0,1-2
+E1,22/09/18,Derby,Brentford,3,1,H,3,1,H,3.21,3.5,2.31,3-1,3-1
+E1,22/09/18,Ipswich,Bolton,0,0,D,0,0,D,1.97,3.42,4.37,0-0,0-0
+E1,22/09/18,Leeds,Birmingham,1,2,A,0,2,A,1.85,3.54,4.88,0-2,1-2
+E1,22/09/18,Middlesbrough,Swansea,0,0,D,0,0,D,1.67,3.93,5.68,0-0,0-0
+E1,22/09/18,Nottm Forest,Rotherham,1,0,H,0,0,D,1.68,3.75,5.97,0-0,1-0
+E1,22/09/18,QPR,Norwich,0,1,A,0,0,D,2.5,3.41,2.97,0-0,0-1
+E1,22/09/18,Reading,Hull,3,0,H,1,0,H,2.58,3.25,2.98,1-0,3-0
+E1,22/09/18,Sheffield United,Preston,3,2,H,1,0,H,1.86,3.73,4.47,1-0,3-2
+E1,22/09/18,Stoke,Blackburn,2,3,A,0,2,A,2.03,3.41,4.11,0-2,2-3
+E1,22/09/18,West Brom,Millwall,2,0,H,0,0,D,1.74,3.92,5.01,0-0,2-0
 E2,04/08/18,Accrington,Gillingham,0,2,A,0,2,A,2.29,3.4,3.23,0-2,0-2
 E2,04/08/18,Barnsley,Oxford,4,0,H,2,0,H,1.94,3.64,3.99,2-0,4-0
 E2,04/08/18,Burton,Rochdale,1,2,A,0,2,A,2.17,3.46,3.45,0-2,1-2
@@ -217,18 +251,29 @@ E2,08/09/18,Scunthorpe,Rochdale,3,3,D,2,0,H,2.89,3.45,2.52,2-0,3-3
 E2,08/09/18,Southend,Peterboro,2,3,A,0,1,A,2.3,3.62,3.1,0-1,2-3
 E2,08/09/18,Sunderland,Fleetwood Town,1,1,D,1,1,D,1.93,3.6,4.19,1-1,1-1
 E2,09/09/18,Oxford,Coventry,1,2,A,0,0,D,2.36,3.37,3.12,0-0,1-2
-E2,15/09/18,AFC Wimbledon,Scunthorpe,0,2,A,2,3,A,1.82,3.7,4.68,2-3,0-2
-E2,15/09/18,Bradford,Charlton,0,1,A,0,2,A,3.08,3.35,2.44,0-2,0-1
-E2,15/09/18,Burton,Sunderland,2,0,H,2,1,H,3.47,3.36,2.23,2-1,2-0
-E2,15/09/18,Coventry,Barnsley,0,0,D,1,0,H,3.92,3.78,1.94,1-0,0-0
-E2,15/09/18,Fleetwood Town,Accrington,1,0,H,1,1,D,2.02,3.58,3.86,1-1,1-0
-E2,15/09/18,Luton,Bristol Rvs,0,0,D,1,0,H,1.85,3.82,4.3,1-0,0-0
-E2,15/09/18,Peterboro,Portsmouth,0,0,D,1,2,A,2.6,3.65,2.68,1-2,0-0
+E2,15/09/18,AFC Wimbledon,Scunthorpe,2,3,A,0,2,A,1.82,3.7,4.68,0-2,2-3
+E2,15/09/18,Bradford,Charlton,0,2,A,0,1,A,3.08,3.35,2.44,0-1,0-2
+E2,15/09/18,Burton,Sunderland,2,1,H,2,0,H,3.47,3.36,2.23,2-0,2-1
+E2,15/09/18,Coventry,Barnsley,1,0,H,0,0,D,3.92,3.78,1.94,0-0,1-0
+E2,15/09/18,Fleetwood Town,Accrington,1,1,D,1,0,H,2.02,3.58,3.86,1-0,1-1
+E2,15/09/18,Luton,Bristol Rvs,1,0,H,0,0,D,1.85,3.82,4.3,0-0,1-0
+E2,15/09/18,Peterboro,Portsmouth,1,2,A,0,0,D,2.6,3.65,2.68,0-0,1-2
 E2,15/09/18,Plymouth,Blackpool,0,1,A,0,1,A,2.91,3.32,2.58,0-1,0-1
-E2,15/09/18,Rochdale,Gillingham,2,0,H,3,0,H,1.8,3.95,4.46,3-0,2-0
+E2,15/09/18,Rochdale,Gillingham,3,0,H,2,0,H,1.8,3.95,4.46,2-0,3-0
 E2,15/09/18,Shrewsbury,Southend,2,0,H,2,0,H,2.44,3.33,3.1,2-0,2-0
-E2,15/09/18,Walsall,Doncaster,1,1,D,1,4,A,2.75,3.45,2.64,1-4,1-1
+E2,15/09/18,Walsall,Doncaster,1,4,A,1,1,D,2.75,3.45,2.64,1-1,1-4
 E2,15/09/18,Wycombe,Oxford,0,0,D,0,0,D,2.31,3.58,3.11,0-0,0-0
+E2,22/09/18,Accrington,AFC Wimbledon,2,1,H,1,0,H,2.43,3.24,3.09,1-0,2-1
+E2,22/09/18,Blackpool,Luton,0,0,D,0,0,D,2.95,3.57,2.35,0-0,0-0
+E2,22/09/18,Bristol Rvs,Coventry,3,1,H,3,1,H,2.42,3.4,2.97,3-1,3-1
+E2,22/09/18,Charlton,Plymouth,2,1,H,1,1,D,1.89,3.6,4.21,1-1,2-1
+E2,22/09/18,Doncaster,Bradford,2,1,H,1,0,H,1.68,3.95,5.17,1-0,2-1
+E2,22/09/18,Gillingham,Peterboro,2,4,A,0,1,A,2.87,3.75,2.33,0-1,2-4
+E2,22/09/18,Oxford,Walsall,1,2,A,0,1,A,2.31,3.55,3.03,0-1,1-2
+E2,22/09/18,Portsmouth,Wycombe,2,2,D,0,1,A,1.67,3.98,5.18,0-1,2-2
+E2,22/09/18,Scunthorpe,Shrewsbury,1,0,H,0,0,D,3.09,3.46,2.32,0-0,1-0
+E2,22/09/18,Southend,Fleetwood Town,1,0,H,0,0,D,1.93,3.46,4.23,0-0,1-0
+E2,22/09/18,Sunderland,Rochdale,4,1,H,3,0,H,2.1,3.67,3.38,3-0,4-1
 E3,04/08/18,Bury,Yeovil,1,0,H,0,0,D,1.86,3.57,4.48,0-0,1-0
 E3,04/08/18,Cheltenham,Crawley Town,0,1,A,0,0,D,1.98,3.67,3.81,0-0,0-1
 E3,04/08/18,Crewe,Morecambe,6,0,H,2,0,H,1.93,3.71,3.98,2-0,6-0
@@ -311,18 +356,31 @@ E3,08/09/18,Northampton,Cheltenham,1,3,A,0,1,A,1.68,4.14,5.08,0-1,1-3
 E3,08/09/18,Oldham,Newport County,0,1,A,0,0,D,2.42,3.31,3.15,0-0,0-1
 E3,08/09/18,Stevenage,Macclesfield,1,0,H,1,0,H,2.07,3.58,3.68,1-0,1-0
 E3,08/09/18,Tranmere,Colchester,1,1,D,1,0,H,2.68,3.41,2.73,1-0,1-1
-E3,15/09/18,Carlisle,Tranmere,0,0,D,0,2,A,2.76,3.57,2.56,0-2,0-0
+E3,15/09/18,Carlisle,Tranmere,0,2,A,0,0,D,2.76,3.57,2.56,0-0,0-2
 E3,15/09/18,Cheltenham,Crewe,0,0,D,0,0,D,2.28,3.63,3.13,0-0,0-0
-E3,15/09/18,Colchester,Cambridge,2,0,H,3,0,H,2.02,3.6,3.83,3-0,2-0
-E3,15/09/18,Crawley Town,Morecambe,0,0,D,2,0,H,1.92,3.67,4.18,2-0,0-0
-E3,15/09/18,Grimsby,Oldham,0,0,D,0,3,A,3.06,3.22,2.53,0-3,0-0
-E3,15/09/18,Macclesfield,Lincoln,0,1,A,1,2,A,3.7,3.51,2.09,1-2,0-1
-E3,15/09/18,Mansfield,Exeter,0,1,A,1,2,A,1.81,3.89,4.48,1-2,0-1
-E3,15/09/18,Milton Keynes Dons,Forest Green,1,0,H,1,1,D,2.14,3.37,3.71,1-1,1-0
-E3,15/09/18,Newport County,Yeovil,0,3,A,0,6,A,2.39,3.17,3.34,0-6,0-3
-E3,15/09/18,Notts County,Stevenage,2,2,D,3,3,D,2.35,3.53,3.09,3-3,2-2
-E3,15/09/18,Port Vale,Northampton,1,0,H,2,0,H,2.89,3.44,2.52,2-0,1-0
-E3,15/09/18,Swindon,Bury,0,1,A,1,2,A,2.75,3.54,2.59,1-2,0-1
+E3,15/09/18,Colchester,Cambridge,3,0,H,2,0,H,2.02,3.6,3.83,2-0,3-0
+E3,15/09/18,Crawley Town,Morecambe,2,0,H,0,0,D,1.92,3.67,4.18,0-0,2-0
+E3,15/09/18,Grimsby,Oldham,0,3,A,0,0,D,3.06,3.22,2.53,0-0,0-3
+E3,15/09/18,Macclesfield,Lincoln,1,2,A,0,1,A,3.7,3.51,2.09,0-1,1-2
+E3,15/09/18,Mansfield,Exeter,1,2,A,0,1,A,1.81,3.89,4.48,0-1,1-2
+E3,15/09/18,Milton Keynes Dons,Forest Green,1,1,D,1,0,H,2.14,3.37,3.71,1-0,1-1
+E3,15/09/18,Newport County,Yeovil,0,6,A,0,3,A,2.39,3.17,3.34,0-3,0-6
+E3,15/09/18,Notts County,Stevenage,3,3,D,2,2,D,2.35,3.53,3.09,2-2,3-3
+E3,15/09/18,Port Vale,Northampton,2,0,H,1,0,H,2.89,3.44,2.52,1-0,2-0
+E3,15/09/18,Swindon,Bury,1,2,A,0,1,A,2.75,3.54,2.59,0-1,1-2
+E3,22/09/18,Bury,Carlisle,0,1,A,0,0,D,1.76,3.9,4.54,0-0,0-1
+E3,22/09/18,Cambridge,Mansfield,1,1,D,0,1,A,2.84,3.46,2.49,0-1,1-1
+E3,22/09/18,Crewe,Port Vale,0,1,A,0,0,D,2.94,3.3,2.49,0-0,0-1
+E3,22/09/18,Exeter,Cheltenham,3,1,H,0,1,A,1.98,3.48,3.97,0-1,3-1
+E3,22/09/18,Forest Green,Crawley Town,1,0,H,0,0,D,1.86,3.75,4.18,0-0,1-0
+E3,22/09/18,Lincoln,Milton Keynes Dons,2,1,H,0,0,D,2.04,3.49,3.73,0-0,2-1
+E3,22/09/18,Morecambe,Macclesfield,2,1,H,0,0,D,2.53,3.34,2.87,0-0,2-1
+E3,22/09/18,Northampton,Notts County,0,0,D,0,0,D,2.05,3.64,3.56,0-0,0-0
+E3,22/09/18,Oldham,Colchester,3,3,D,0,1,A,2.66,3.26,2.77,0-1,3-3
+E3,22/09/18,Stevenage,Grimsby,1,0,H,0,0,D,1.91,3.58,4.16,0-0,1-0
+E3,22/09/18,Tranmere,Newport County,0,1,A,0,1,A,2.01,3.47,3.87,0-1,0-1
+E3,22/09/18,Yeovil,Swindon,0,3,A,0,0,D,2.08,3.74,3.39,0-0,0-3
+E3,25/09/18,Yeovil,Milton Keynes Dons,1,1,D,0,1,A,2.86,3.35,2.58,0-1,1-1
 EC,04/08/18,Aldershot,Barnet,0,0,D,0,0,D,2.67,3.37,2.77,0-0,0-0
 EC,04/08/18,Barrow,Havant & Waterlooville,3,0,H,1,0,H,2.75,3.31,2.72,1-0,3-0
 EC,04/08/18,Boreham Wood,Dag and Red,1,0,H,0,0,D,1.88,3.74,4.26,0-0,1-0
@@ -442,18 +500,43 @@ EC,08/09/18,Halifax,Leyton Orient,1,1,D,0,0,D,2.93,3.42,2.51,0-0,1-1
 EC,08/09/18,Harrogate,Havant & Waterlooville,3,2,H,1,1,D,1.9,3.84,4.07,1-1,3-2
 EC,08/09/18,Salford,Maidstone,1,0,H,0,0,D,1.56,4.33,6.28,0-0,1-0
 EC,08/09/18,Solihull,Hartlepool,0,1,A,0,0,D,2.35,3.34,3.24,0-0,0-1
-EC,15/09/18,Boreham Wood,Barrow,0,0,D,1,1,D,1.96,3.64,4.04,1-1,0-0
-EC,15/09/18,Bromley,Salford,0,1,A,0,2,A,3.01,3.6,2.37,0-2,0-1
-EC,15/09/18,Dag and Red,Chesterfield,0,1,A,1,1,D,3.2,3.56,2.28,1-1,0-1
-EC,15/09/18,Dover Athletic,Solihull,0,0,D,0,2,A,2.56,3.42,2.86,0-2,0-0
-EC,15/09/18,Fylde,Aldershot,2,0,H,3,0,H,1.8,3.86,4.56,3-0,2-0
-EC,15/09/18,Gateshead,Braintree Town,0,0,D,0,1,A,1.58,4.17,6.22,0-1,0-0
-EC,15/09/18,Hartlepool,Eastleigh,1,0,H,1,1,D,1.93,3.75,4,1-1,1-0
-EC,15/09/18,Havant & Waterlooville,Sutton,1,0,H,1,2,A,2.89,3.45,2.52,1-2,1-0
-EC,15/09/18,Leyton Orient,Barnet,1,1,D,3,1,H,2.17,3.46,3.44,3-1,1-1
+EC,15/09/18,Boreham Wood,Barrow,1,1,D,0,0,D,1.96,3.64,4.04,0-0,1-1
+EC,15/09/18,Bromley,Salford,0,2,A,0,1,A,3.01,3.6,2.37,0-1,0-2
+EC,15/09/18,Dag and Red,Chesterfield,1,1,D,0,1,A,3.2,3.56,2.28,0-1,1-1
+EC,15/09/18,Dover Athletic,Solihull,0,2,A,0,0,D,2.56,3.42,2.86,0-0,0-2
+EC,15/09/18,Fylde,Aldershot,3,0,H,2,0,H,1.8,3.86,4.56,2-0,3-0
+EC,15/09/18,Gateshead,Braintree Town,0,1,A,0,0,D,1.58,4.17,6.22,0-0,0-1
+EC,15/09/18,Hartlepool,Eastleigh,1,1,D,1,0,H,1.93,3.75,4,1-0,1-1
+EC,15/09/18,Havant & Waterlooville,Sutton,1,2,A,1,0,H,2.89,3.45,2.52,1-0,1-2
+EC,15/09/18,Leyton Orient,Barnet,3,1,H,1,1,D,2.17,3.46,3.44,1-1,3-1
 EC,15/09/18,Maidenhead,Halifax,3,0,H,3,0,H,2.5,3.39,2.96,3-0,3-0
 EC,15/09/18,Maidstone,Harrogate,0,2,A,0,2,A,3.68,3.66,2.05,0-2,0-2
-EC,15/09/18,Wrexham,Ebbsfleet,4,0,H,4,1,H,2.35,3.19,3.39,4-1,4-0
+EC,15/09/18,Wrexham,Ebbsfleet,4,1,H,4,0,H,2.35,3.19,3.39,4-0,4-1
+EC,18/09/18,Sutton,Boreham Wood,0,4,A,0,3,A,2.04,3.39,4.04,0-3,0-4
+EC,22/09/18,Aldershot,Dover Athletic,2,0,H,1,0,H,2.08,3.48,3.62,1-0,2-0
+EC,22/09/18,Barnet,Fylde,1,1,D,1,1,D,2.24,3.49,3.21,1-1,1-1
+EC,22/09/18,Barrow,Maidenhead,2,0,H,1,0,H,2.15,3.47,3.44,1-0,2-0
+EC,22/09/18,Braintree Town,Maidstone,0,1,A,0,0,D,2.62,3.26,2.81,0-0,0-1
+EC,22/09/18,Chesterfield,Gateshead,0,3,A,0,2,A,1.86,3.51,4.5,0-2,0-3
+EC,22/09/18,Eastleigh,Dag and Red,1,0,H,0,0,D,2.16,3.36,3.63,0-0,1-0
+EC,22/09/18,Ebbsfleet,Havant & Waterlooville,1,1,D,1,1,D,1.82,3.93,4.19,1-1,1-1
+EC,22/09/18,Halifax,Hartlepool,1,2,A,0,0,D,2.64,3.24,2.81,0-0,1-2
+EC,22/09/18,Harrogate,Leyton Orient,0,3,A,0,2,A,2.58,3.48,2.7,0-2,0-3
+EC,22/09/18,Salford,Boreham Wood,3,1,H,2,0,H,1.84,3.7,4.36,2-0,3-1
+EC,22/09/18,Solihull,Bromley,5,0,H,4,0,H,1.99,3.66,3.73,4-0,5-0
+EC,22/09/18,Sutton,Wrexham,3,0,H,2,0,H,2.12,3.48,3.5,2-0,3-0
+EC,25/09/18,Aldershot,Maidstone,0,1,A,0,1,A,1.88,3.67,4.35,0-1,0-1
+EC,25/09/18,Barnet,Havant & Waterlooville,2,2,D,1,0,H,1.83,3.75,4.5,1-0,2-2
+EC,25/09/18,Barrow,Gateshead,1,2,A,1,1,D,2.5,3.34,3.01,1-1,1-2
+EC,25/09/18,Braintree Town,Leyton Orient,1,5,A,1,2,A,6.13,4.13,1.58,1-2,1-5
+EC,25/09/18,Chesterfield,Maidenhead,1,3,A,0,2,A,1.9,3.54,4.44,0-2,1-3
+EC,25/09/18,Eastleigh,Boreham Wood,1,0,H,0,0,D,2.89,3.31,2.61,0-0,1-0
+EC,25/09/18,Ebbsfleet,Bromley,1,2,A,1,2,A,1.93,3.65,4.14,1-2,1-2
+EC,25/09/18,Halifax,Fylde,0,0,D,0,0,D,3.19,3.58,2.28,0-0,0-0
+EC,25/09/18,Harrogate,Wrexham,0,0,D,0,0,D,2.24,3.43,3.41,0-0,0-0
+EC,25/09/18,Salford,Hartlepool,3,0,H,0,0,D,1.82,3.76,4.57,0-0,3-0
+EC,25/09/18,Solihull,Dag and Red,2,0,H,1,0,H,1.79,3.82,4.68,1-0,2-0
+EC,25/09/18,Sutton,Dover Athletic,2,2,D,2,1,H,1.79,3.75,4.73,2-1,2-2
 SP1,17/08/18,Betis,Levante,0,3,A,0,1,A,1.69,4.19,5.11,0-1,0-3
 SP1,17/08/18,Girona,Valladolid,0,0,D,0,0,D,1.8,3.7,4.99,0-0,0-0
 SP1,18/08/18,Barcelona,Alaves,3,0,H,0,0,D,1.11,11.27,25.4,0-0,3-0
@@ -484,15 +567,35 @@ SP1,02/09/18,Barcelona,Huesca,8,2,H,3,2,H,1.09,13.22,30.82,3-2,8-2
 SP1,02/09/18,Betis,Sevilla,1,0,H,0,0,D,2.77,3.87,2.46,0-0,1-0
 SP1,02/09/18,Levante,Valencia,2,2,D,2,1,H,3.61,3.59,2.13,2-1,2-2
 SP1,14/09/18,Huesca,Vallecano,0,1,A,0,1,A,2.26,3.57,3.3,0-1,0-1
-SP1,15/09/18,Ath Bilbao,Real Madrid,1,0,H,1,1,D,5.46,4.7,1.58,1-1,1-0
-SP1,15/09/18,Ath Madrid,Eibar,0,0,D,1,1,D,1.36,4.78,11.13,1-1,0-0
-SP1,15/09/18,Sociedad,Barcelona,1,0,H,1,2,A,7.05,5.46,1.41,1-2,1-0
+SP1,15/09/18,Ath Bilbao,Real Madrid,1,1,D,1,0,H,5.46,4.7,1.58,1-0,1-1
+SP1,15/09/18,Ath Madrid,Eibar,1,1,D,0,0,D,1.36,4.78,11.13,0-0,1-1
+SP1,15/09/18,Sociedad,Barcelona,1,2,A,1,0,H,7.05,5.46,1.41,1-0,1-2
 SP1,15/09/18,Valencia,Betis,0,0,D,0,0,D,1.75,4.06,4.72,0-0,0-0
-SP1,16/09/18,Espanol,Levante,0,0,D,1,0,H,1.79,3.8,4.86,1-0,0-0
-SP1,16/09/18,Leganes,Villarreal,0,0,D,0,1,A,3.08,3.19,2.59,0-1,0-0
+SP1,16/09/18,Espanol,Levante,1,0,H,0,0,D,1.79,3.8,4.86,0-0,1-0
+SP1,16/09/18,Leganes,Villarreal,0,1,A,0,0,D,3.08,3.19,2.59,0-0,0-1
 SP1,16/09/18,Sevilla,Getafe,0,2,A,0,2,A,1.56,4.18,6.65,0-2,0-2
-SP1,16/09/18,Valladolid,Alaves,0,0,D,0,1,A,2.25,3.13,3.83,0-1,0-0
-SP1,17/09/18,Girona,Celta,,,,,,,2.42,3.53,3.02,0-0,0-0
+SP1,16/09/18,Valladolid,Alaves,0,1,A,0,0,D,2.25,3.13,3.83,0-0,0-1
+SP1,17/09/18,Girona,Celta,3,2,H,2,1,H,2.42,3.53,3.02,2-1,3-2
+SP1,21/09/18,Huesca,Sociedad,0,1,A,0,0,D,3.75,3.53,2.1,0-0,0-1
+SP1,22/09/18,Celta,Valladolid,3,3,D,2,1,H,1.74,3.65,5.56,2-1,3-3
+SP1,22/09/18,Eibar,Leganes,1,0,H,0,0,D,2.08,3.35,4.02,0-0,1-0
+SP1,22/09/18,Getafe,Ath Madrid,0,2,A,0,1,A,5.22,3.32,1.86,0-1,0-2
+SP1,22/09/18,Real Madrid,Espanol,1,0,H,1,0,H,1.2,7.17,17.23,1-0,1-0
+SP1,22/09/18,Vallecano,Alaves,1,5,A,1,2,A,2.16,3.54,3.53,1-2,1-5
+SP1,23/09/18,Barcelona,Girona,2,2,D,1,1,D,1.08,13.12,36.83,1-1,2-2
+SP1,23/09/18,Betis,Ath Bilbao,2,2,D,0,2,A,2.21,3.49,3.46,0-2,2-2
+SP1,23/09/18,Levante,Sevilla,2,6,A,1,4,A,3.34,3.7,2.17,1-4,2-6
+SP1,23/09/18,Villarreal,Valencia,0,0,D,0,0,D,2.31,3.44,3.26,0-0,0-0
+SP1,25/09/18,Ath Madrid,Huesca,3,0,H,3,0,H,1.24,6.1,16.21,3-0,3-0
+SP1,25/09/18,Espanol,Eibar,1,0,H,0,0,D,1.96,3.33,4.63,0-0,1-0
+SP1,25/09/18,Sociedad,Vallecano,2,2,D,1,2,A,1.69,3.98,5.41,1-2,2-2
+SP1,26/09/18,Ath Bilbao,Villarreal,0,3,A,0,0,D,2.17,3.5,3.53,0-0,0-3
+SP1,26/09/18,Leganes,Barcelona,2,1,H,0,1,A,12.3,6.21,1.27,0-1,2-1
+SP1,26/09/18,Sevilla,Real Madrid,3,0,H,3,0,H,4.23,4.27,1.79,3-0,3-0
+SP1,26/09/18,Valencia,Celta,1,1,D,1,0,H,1.71,4.17,4.84,1-0,1-1
+SP1,27/09/18,Alaves,Getafe,1,1,D,0,0,D,2.84,3.02,2.89,0-0,1-1
+SP1,27/09/18,Girona,Betis,0,1,A,0,0,D,2.55,3.54,2.82,0-0,0-1
+SP1,27/09/18,Valladolid,Levante,2,1,H,0,0,D,2.09,3.64,3.63,0-0,2-1
 SP2,17/08/18,Albacete,La Coruna,1,1,D,0,0,D,2.9,3,2.6,0-0,1-1
 SP2,17/08/18,Cadiz,Almeria,1,0,H,0,0,D,1.61,3.6,6,0-0,1-0
 SP2,18/08/18,Alcorcon,Sp Gijon,1,1,D,0,0,D,2.4,3.2,3,0-0,1-1
@@ -538,16 +641,27 @@ SP2,09/09/18,Numancia,Elche,1,0,H,1,0,H,1.8,3.3,4.75,1-0,1-0
 SP2,09/09/18,Reus Deportiu,Albacete,1,2,A,0,1,A,3.1,2.9,2.5,0-1,1-2
 SP2,10/09/18,Rayo Majadahonda,Lugo,1,0,H,1,0,H,2.62,3,2.87,1-0,1-0
 SP2,15/09/18,Alcorcon,La Coruna,1,0,H,1,0,H,2.6,2.87,3.1,1-0,1-0
-SP2,15/09/18,Gimnastic,Osasuna,0,0,D,1,0,H,3.2,2.87,2.5,1-0,0-0
-SP2,15/09/18,Malaga,Cordoba,2,0,H,3,0,H,1.53,4,7,3-0,2-0
-SP2,15/09/18,Tenerife,Reus Deportiu,0,0,D,0,1,A,1.64,3.3,6.5,0-1,0-0
-SP2,16/09/18,Almeria,Zaragoza,0,0,D,2,1,H,3.25,3.1,2.3,2-1,0-0
-SP2,16/09/18,Elche,Mallorca,0,1,A,1,1,D,2.5,2.87,3.2,1-1,0-1
-SP2,16/09/18,Extremadura UD,Las Palmas,1,1,D,1,2,A,3.8,3.1,2.1,1-2,1-1
-SP2,16/09/18,Granada,Rayo Majadahonda,2,0,H,3,0,H,1.7,3.5,5.25,3-0,2-0
-SP2,16/09/18,Lugo,Oviedo,0,1,A,0,2,A,2.62,3,2.87,0-2,0-1
+SP2,15/09/18,Gimnastic,Osasuna,1,0,H,0,0,D,3.2,2.87,2.5,0-0,1-0
+SP2,15/09/18,Malaga,Cordoba,3,0,H,2,0,H,1.53,4,7,2-0,3-0
+SP2,15/09/18,Tenerife,Reus Deportiu,0,1,A,0,0,D,1.64,3.3,6.5,0-0,0-1
+SP2,16/09/18,Almeria,Zaragoza,2,1,H,0,0,D,3.25,3.1,2.3,0-0,2-1
+SP2,16/09/18,Elche,Mallorca,1,1,D,0,1,A,2.5,2.87,3.2,0-1,1-1
+SP2,16/09/18,Extremadura UD,Las Palmas,1,2,A,1,1,D,3.8,3.1,2.1,1-1,1-2
+SP2,16/09/18,Granada,Rayo Majadahonda,3,0,H,2,0,H,1.7,3.5,5.25,2-0,3-0
+SP2,16/09/18,Lugo,Oviedo,0,2,A,0,1,A,2.62,3,2.87,0-1,0-2
 SP2,16/09/18,Sp Gijon,Numancia,1,1,D,1,1,D,1.9,3.25,4.33,1-1,1-1
-SP2,17/09/18,Albacete,Cadiz,,,,,,,2.4,2.8,3.4,0-0,0-0
+SP2,17/09/18,Albacete,Cadiz,1,1,D,1,0,H,2.4,2.8,3.4,1-0,1-1
+SP2,22/09/18,Cordoba,Tenerife,1,1,D,0,1,A,2.87,3,2.6,0-1,1-1
+SP2,22/09/18,Osasuna,Sp Gijon,1,0,H,0,0,D,2.25,3,3.5,0-0,1-0
+SP2,22/09/18,Rayo Majadahonda,Extremadura UD,1,4,A,0,2,A,1.95,3.3,4,0-2,1-4
+SP2,22/09/18,Zaragoza,Lugo,0,2,A,0,1,A,1.57,3.6,6.5,0-1,0-2
+SP2,23/09/18,Cadiz,Alcorcon,0,2,A,0,2,A,2.04,3.2,3.75,0-2,0-2
+SP2,23/09/18,Las Palmas,Malaga,1,0,H,0,0,D,2.3,3,3.4,0-0,1-0
+SP2,23/09/18,Mallorca,Albacete,1,3,A,0,1,A,2.04,3.2,3.75,0-1,1-3
+SP2,23/09/18,Numancia,Almeria,0,2,A,0,1,A,1.9,3.2,4.33,0-1,0-2
+SP2,23/09/18,Oviedo,Elche,1,1,D,1,1,D,1.8,3.4,4.6,1-1,1-1
+SP2,23/09/18,Reus Deportiu,Gimnastic,1,1,D,0,1,A,2.1,3,4,0-1,1-1
+SP2,24/09/18,La Coruna,Granada,2,1,H,0,0,D,1.9,3.2,4.33,0-0,2-1
 D1,24/08/18,Bayern Munich,Hoffenheim,3,1,H,1,0,H,1.2,7.86,14.9,1-0,3-1
 D1,25/08/18,Fortuna Dusseldorf,Augsburg,1,2,A,1,0,H,2.51,3.32,3.06,1-0,1-2
 D1,25/08/18,Freiburg,Ein Frankfurt,0,2,A,0,1,A,2.34,3.4,3.28,0-1,0-2
@@ -566,15 +680,33 @@ D1,01/09/18,Nurnberg,Mainz,1,1,D,0,1,A,2.37,3.23,3.39,0-1,1-1
 D1,01/09/18,Stuttgart,Bayern Munich,0,3,A,0,1,A,10.3,5.96,1.31,0-1,0-3
 D1,02/09/18,RB Leipzig,Fortuna Dusseldorf,1,1,D,0,0,D,1.41,4.92,8.87,0-0,1-1
 D1,02/09/18,Schalke 04,Hertha,0,2,A,0,1,A,1.79,3.53,5.53,0-1,0-2
-D1,14/09/18,Dortmund,Ein Frankfurt,1,0,H,3,1,H,1.44,4.77,8.02,3-1,1-0
-D1,15/09/18,Bayern Munich,Leverkusen,2,1,H,3,1,H,1.23,6.86,13.74,3-1,2-1
-D1,15/09/18,Fortuna Dusseldorf,Hoffenheim,1,0,H,2,1,H,4.06,3.92,1.89,2-1,1-0
-D1,15/09/18,Mainz,Augsburg,0,0,D,2,1,H,2.73,3.2,2.85,2-1,0-0
-D1,15/09/18,Mgladbach,Schalke 04,1,0,H,2,1,H,2.51,3.34,3.05,2-1,1-0
-D1,15/09/18,RB Leipzig,Hannover,2,1,H,3,2,H,1.56,4.42,6.17,3-2,2-1
-D1,15/09/18,Wolfsburg,Hertha,0,0,D,2,2,D,2.12,3.22,4.05,2-2,0-0
-D1,16/09/18,Freiburg,Stuttgart,1,1,D,3,3,D,2.76,3.17,2.87,3-3,1-1
-D1,16/09/18,Werder Bremen,Nurnberg,1,0,H,1,1,D,1.68,4.05,5.39,1-1,1-0
+D1,14/09/18,Dortmund,Ein Frankfurt,3,1,H,1,0,H,1.44,4.77,8.02,1-0,3-1
+D1,15/09/18,Bayern Munich,Leverkusen,3,1,H,2,1,H,1.23,6.86,13.74,2-1,3-1
+D1,15/09/18,Fortuna Dusseldorf,Hoffenheim,2,1,H,1,0,H,4.06,3.92,1.89,1-0,2-1
+D1,15/09/18,Mainz,Augsburg,2,1,H,0,0,D,2.73,3.2,2.85,0-0,2-1
+D1,15/09/18,Mgladbach,Schalke 04,2,1,H,1,0,H,2.51,3.34,3.05,1-0,2-1
+D1,15/09/18,RB Leipzig,Hannover,3,2,H,2,1,H,1.56,4.42,6.17,2-1,3-2
+D1,15/09/18,Wolfsburg,Hertha,2,2,D,0,0,D,2.12,3.22,4.05,0-0,2-2
+D1,16/09/18,Freiburg,Stuttgart,3,3,D,1,1,D,2.76,3.17,2.87,1-1,3-3
+D1,16/09/18,Werder Bremen,Nurnberg,1,1,D,1,0,H,1.68,4.05,5.39,1-0,1-1
+D1,21/09/18,Stuttgart,Fortuna Dusseldorf,0,0,D,0,0,D,1.78,3.84,4.81,0-0,0-0
+D1,22/09/18,Augsburg,Werder Bremen,2,3,A,1,2,A,2.53,3.48,2.89,1-2,2-3
+D1,22/09/18,Hertha,Mgladbach,4,2,H,2,1,H,2.51,3.39,2.97,2-1,4-2
+D1,22/09/18,Hoffenheim,Dortmund,1,1,D,1,0,H,2.72,3.73,2.54,1-0,1-1
+D1,22/09/18,Nurnberg,Hannover,2,0,H,0,0,D,2.48,3.37,3.03,0-0,2-0
+D1,22/09/18,Schalke 04,Bayern Munich,0,2,A,0,1,A,8.56,4.94,1.41,0-1,0-2
+D1,22/09/18,Wolfsburg,Freiburg,1,3,A,0,2,A,1.75,3.73,5.26,0-2,1-3
+D1,23/09/18,Ein Frankfurt,RB Leipzig,1,1,D,1,0,H,3.14,3.56,2.32,1-0,1-1
+D1,23/09/18,Leverkusen,Mainz,1,0,H,0,0,D,1.6,4.17,6.11,0-0,1-0
+D1,25/09/18,Bayern Munich,Augsburg,1,1,D,0,0,D,1.12,10.15,24.78,0-0,1-1
+D1,25/09/18,Freiburg,Schalke 04,1,0,H,0,0,D,3.55,3.2,2.32,0-0,1-0
+D1,25/09/18,Hannover,Hoffenheim,1,3,A,0,1,A,3.57,3.97,2.02,0-1,1-3
+D1,25/09/18,Werder Bremen,Hertha,3,1,H,2,0,H,2.12,3.5,3.74,2-0,3-1
+D1,26/09/18,Dortmund,Nurnberg,7,0,H,2,0,H,1.31,5.59,11.6,2-0,7-0
+D1,26/09/18,Fortuna Dusseldorf,Leverkusen,1,2,A,0,0,D,4.04,3.87,1.91,0-0,1-2
+D1,26/09/18,Mainz,Wolfsburg,0,0,D,0,0,D,2.61,3.26,2.95,0-0,0-0
+D1,26/09/18,Mgladbach,Ein Frankfurt,3,1,H,0,0,D,1.77,3.86,4.86,0-0,3-1
+D1,26/09/18,RB Leipzig,Stuttgart,2,0,H,1,0,H,1.71,4.19,4.82,1-0,2-0
 D2,03/08/18,Hamburg,Holstein Kiel,0,3,A,0,0,D,1.7,3.6,5,0-0,0-3
 D2,04/08/18,Bochum,FC Koln,0,2,A,0,1,A,2.8,3.1,2.6,0-1,0-2
 D2,04/08/18,Greuther Furth,Sandhausen,3,1,H,0,0,D,2.25,3.2,3.3,0-0,3-1
@@ -610,15 +742,34 @@ D2,02/09/18,Heidenheim,Darmstadt,0,1,A,0,1,A,2.25,3.5,3,0-1,0-1
 D2,02/09/18,Sandhausen,Union Berlin,0,0,D,0,0,D,2.5,3.2,2.8,0-0,0-0
 D2,02/09/18,St Pauli,FC Koln,3,5,A,2,2,D,3.75,3.4,2,2-2,3-5
 D2,03/09/18,Holstein Kiel,Magdeburg,2,1,H,0,0,D,1.83,3.6,4.2,0-0,2-1
-D2,14/09/18,Regensburg,Dresden,0,1,A,0,2,A,2.14,3.6,3.1,0-2,0-1
-D2,14/09/18,Union Berlin,Duisburg,1,0,H,2,2,D,1.66,3.75,5,2-2,1-0
-D2,15/09/18,Darmstadt,Sandhausen,0,0,D,1,1,D,2.04,3.25,3.75,1-1,0-0
-D2,15/09/18,Greuther Furth,Holstein Kiel,0,0,D,4,1,H,3,3.5,2.25,4-1,0-0
-D2,15/09/18,Hamburg,Heidenheim,0,0,D,3,2,H,1.55,4,6,3-2,0-0
-D2,16/09/18,Bochum,Ingolstadt,3,0,H,6,0,H,2.37,3.4,2.87,6-0,3-0
-D2,16/09/18,Erzgebirge Aue,St Pauli,2,1,H,3,1,H,2.7,3.25,2.6,3-1,2-1
-D2,16/09/18,FC Koln,Paderborn,1,1,D,3,5,A,1.57,3.8,6,3-5,1-1
-D2,17/09/18,Magdeburg,Bielefeld,,,,,,,2.3,3.3,3.1,0-0,0-0
+D2,14/09/18,Regensburg,Dresden,0,2,A,0,1,A,2.14,3.6,3.1,0-1,0-2
+D2,14/09/18,Union Berlin,Duisburg,2,2,D,1,0,H,1.66,3.75,5,1-0,2-2
+D2,15/09/18,Darmstadt,Sandhausen,1,1,D,0,0,D,2.04,3.25,3.75,0-0,1-1
+D2,15/09/18,Greuther Furth,Holstein Kiel,4,1,H,0,0,D,3,3.5,2.25,0-0,4-1
+D2,15/09/18,Hamburg,Heidenheim,3,2,H,0,0,D,1.55,4,6,0-0,3-2
+D2,16/09/18,Bochum,Ingolstadt,6,0,H,3,0,H,2.37,3.4,2.87,3-0,6-0
+D2,16/09/18,Erzgebirge Aue,St Pauli,3,1,H,2,1,H,2.7,3.25,2.6,2-1,3-1
+D2,16/09/18,FC Koln,Paderborn,3,5,A,1,1,D,1.57,3.8,6,1-1,3-5
+D2,17/09/18,Magdeburg,Bielefeld,0,0,D,0,0,D,2.3,3.3,3.1,0-0,0-0
+D2,18/09/18,Dresden,Hamburg,0,1,A,0,0,D,3,3.3,2.3,0-0,0-1
+D2,21/09/18,Ingolstadt,St Pauli,0,1,A,0,0,D,2,3.4,3.75,0-0,0-1
+D2,21/09/18,Sandhausen,FC Koln,0,2,A,0,1,A,4,3.4,1.9,0-1,0-2
+D2,22/09/18,Bielefeld,Union Berlin,1,1,D,0,1,A,2.5,3.3,2.75,0-1,1-1
+D2,22/09/18,Dresden,Darmstadt,4,1,H,1,1,D,2.2,3.4,3.2,1-1,4-1
+D2,22/09/18,Holstein Kiel,Bochum,2,2,D,0,1,A,2.14,3.5,3.2,0-1,2-2
+D2,23/09/18,Duisburg,Erzgebirge Aue,1,2,A,1,0,H,2,3.3,3.75,1-0,1-2
+D2,23/09/18,Hamburg,Regensburg,0,5,A,0,3,A,1.57,4.2,5.25,0-3,0-5
+D2,23/09/18,Heidenheim,Greuther Furth,2,0,H,0,0,D,2.2,3.4,3.2,0-0,2-0
+D2,23/09/18,Paderborn,Magdeburg,4,4,D,2,1,H,1.85,3.6,4,2-1,4-4
+D2,25/09/18,Bochum,Dresden,0,1,A,0,1,A,2.14,3.4,3.3,0-1,0-1
+D2,25/09/18,Darmstadt,Bielefeld,1,2,A,0,0,D,2.3,3.25,3.1,0-0,1-2
+D2,25/09/18,FC Koln,Ingolstadt,2,1,H,0,0,D,1.53,4,6,0-0,2-1
+D2,25/09/18,Union Berlin,Holstein Kiel,2,0,H,0,0,D,2,3.4,3.75,0-0,2-0
+D2,26/09/18,Erzgebirge Aue,Sandhausen,0,2,A,0,1,A,2.4,3.2,3,0-1,0-2
+D2,26/09/18,Magdeburg,Duisburg,3,3,D,0,1,A,2.14,3.3,3.4,0-1,3-3
+D2,26/09/18,Regensburg,Heidenheim,2,1,H,2,1,H,2.04,3.4,3.6,2-1,2-1
+D2,26/09/18,St Pauli,Paderborn,2,1,H,1,1,D,2.45,3.2,2.9,1-1,2-1
+D2,27/09/18,Greuther Furth,Hamburg,0,0,D,0,0,D,3.1,3.4,2.25,0-0,0-0
 F1,10/08/18,Marseille,Toulouse,4,0,H,1,0,H,1.47,4.62,7.79,1-0,4-0
 F1,11/08/18,Angers,Nimes,3,4,A,1,1,D,2.3,3.38,3.4,1-1,3-4
 F1,11/08/18,Lille,Rennes,3,1,H,1,1,D,2.56,3.35,2.97,1-1,3-1
@@ -659,16 +810,36 @@ F1,01/09/18,Strasbourg,Nantes,2,3,A,1,2,A,2.4,3.11,3.48,1-2,2-3
 F1,02/09/18,Monaco,Marseille,2,3,A,0,1,A,2.71,3.85,2.53,0-1,2-3
 F1,02/09/18,Rennes,Bordeaux,2,0,H,2,0,H,2.13,3.36,3.86,2-0,2-0
 F1,02/09/18,St Etienne,Amiens,0,0,D,0,0,D,1.65,3.85,6.32,0-0,0-0
-F1,14/09/18,Nice,Rennes,0,0,D,2,1,H,2.75,3.14,2.92,2-1,0-0
-F1,14/09/18,Paris SG,St Etienne,1,0,H,4,0,H,1.25,6.51,12.83,4-0,1-0
-F1,15/09/18,Amiens,Lille,0,1,A,2,3,A,3.39,3.19,2.4,2-3,0-1
-F1,15/09/18,Caen,Lyon,0,1,A,2,2,D,5.3,4,1.7,2-2,0-1
+F1,14/09/18,Nice,Rennes,2,1,H,0,0,D,2.75,3.14,2.92,0-0,2-1
+F1,14/09/18,Paris SG,St Etienne,4,0,H,1,0,H,1.25,6.51,12.83,1-0,4-0
+F1,15/09/18,Amiens,Lille,2,3,A,0,1,A,3.39,3.19,2.4,0-1,2-3
+F1,15/09/18,Caen,Lyon,2,2,D,0,1,A,5.3,4,1.7,0-1,2-2
 F1,15/09/18,Dijon,Angers,1,3,A,1,3,A,2.15,3.52,3.61,1-3,1-3
-F1,15/09/18,Montpellier,Strasbourg,0,0,D,1,1,D,1.93,3.47,4.55,1-1,0-0
-F1,15/09/18,Toulouse,Monaco,0,0,D,1,1,D,2.87,3.59,2.51,1-1,0-0
-F1,16/09/18,Bordeaux,Nimes,1,2,A,3,3,D,1.85,3.67,4.73,3-3,1-2
-F1,16/09/18,Marseille,Guingamp,0,0,D,4,0,H,1.32,6.11,9.28,4-0,0-0
+F1,15/09/18,Montpellier,Strasbourg,1,1,D,0,0,D,1.93,3.47,4.55,0-0,1-1
+F1,15/09/18,Toulouse,Monaco,1,1,D,0,0,D,2.87,3.59,2.51,0-0,1-1
+F1,16/09/18,Bordeaux,Nimes,3,3,D,1,2,A,1.85,3.67,4.73,1-2,3-3
+F1,16/09/18,Marseille,Guingamp,4,0,H,0,0,D,1.32,6.11,9.28,0-0,4-0
 F1,16/09/18,Nantes,Reims,0,0,D,0,0,D,1.93,3.67,4.21,0-0,0-0
+F1,21/09/18,Monaco,Nimes,1,1,D,1,1,D,1.84,3.71,4.63,1-1,1-1
+F1,22/09/18,Angers,Toulouse,0,0,D,0,0,D,2.2,3.36,3.61,0-0,0-0
+F1,22/09/18,Lille,Nantes,2,1,H,1,0,H,1.9,3.61,4.41,1-0,2-1
+F1,22/09/18,Montpellier,Nice,1,0,H,1,0,H,2.33,3.06,3.66,1-0,1-0
+F1,22/09/18,Reims,Dijon,0,0,D,0,0,D,2.17,3.44,3.6,0-0,0-0
+F1,22/09/18,St Etienne,Caen,2,1,H,0,1,A,1.7,3.72,5.8,0-1,2-1
+F1,22/09/18,Strasbourg,Amiens,3,1,H,0,1,A,1.81,3.42,5.45,0-1,3-1
+F1,23/09/18,Guingamp,Bordeaux,1,3,A,0,0,D,2.45,3.28,3.17,0-0,1-3
+F1,23/09/18,Lyon,Marseille,4,2,H,1,1,D,2.04,3.85,3.58,1-1,4-2
+F1,23/09/18,Rennes,Paris SG,1,3,A,1,1,D,7.11,5.34,1.43,1-1,1-3
+F1,25/09/18,Monaco,Angers,0,1,A,0,1,A,1.76,3.83,5.01,0-1,0-1
+F1,25/09/18,Nantes,Nice,1,2,A,0,1,A,2.36,3.31,3.34,0-1,1-2
+F1,25/09/18,Toulouse,St Etienne,2,3,A,0,1,A,2.61,3.22,3.02,0-1,2-3
+F1,26/09/18,Amiens,Rennes,2,1,H,0,0,D,3.25,3.35,2.39,0-0,2-1
+F1,26/09/18,Bordeaux,Lille,1,0,H,1,0,H,2.53,3.32,3.05,1-0,1-0
+F1,26/09/18,Caen,Montpellier,2,2,D,1,1,D,3.07,3.14,2.63,1-1,2-2
+F1,26/09/18,Dijon,Lyon,0,3,A,0,3,A,5.56,4.51,1.59,0-3,0-3
+F1,26/09/18,Marseille,Strasbourg,3,2,H,2,1,H,1.43,4.94,7.75,2-1,3-2
+F1,26/09/18,Nimes,Guingamp,0,0,D,0,0,D,1.95,3.85,3.93,0-0,0-0
+F1,26/09/18,Paris SG,Reims,4,1,H,3,1,H,1.13,9.38,22.41,3-1,4-1
 F2,27/07/18,Ajaccio,Troyes,0,1,A,0,1,A,2.14,3.1,3.6,0-1,0-1
 F2,27/07/18,Ajaccio GFCO,Paris FC,1,1,D,0,1,A,3.2,2.87,2.5,0-1,1-1
 F2,27/07/18,Clermont,Chateauroux,0,0,D,0,0,D,1.8,3.3,4.75,0-0,0-0
@@ -729,15 +900,25 @@ F2,31/08/18,Valenciennes,Clermont,0,4,A,0,3,A,2.54,3.1,2.87,0-3,0-4
 F2,01/09/18,Metz,Lens,2,0,H,0,0,D,2.1,3.1,3.8,0-0,2-0
 F2,03/09/18,Lorient,Grenoble,1,0,H,1,0,H,1.83,3.4,4.5,1-0,1-0
 F2,14/09/18,Ajaccio,Paris FC,0,0,D,0,0,D,2.62,2.87,3,0-0,0-0
-F2,14/09/18,Brest,Ajaccio GFCO,2,1,H,4,1,H,1.64,3.4,6,4-1,2-1
-F2,14/09/18,Clermont,Auxerre,1,0,H,2,0,H,2.25,3.2,3.3,2-0,1-0
-F2,14/09/18,Grenoble,Valenciennes,2,1,H,4,2,H,1.85,3.2,4.75,4-2,2-1
+F2,14/09/18,Brest,Ajaccio GFCO,4,1,H,2,1,H,1.64,3.4,6,2-1,4-1
+F2,14/09/18,Clermont,Auxerre,2,0,H,1,0,H,2.25,3.2,3.3,1-0,2-0
+F2,14/09/18,Grenoble,Valenciennes,4,2,H,2,1,H,1.85,3.2,4.75,2-1,4-2
 F2,14/09/18,Nancy,Le Havre,0,1,A,0,1,A,3.2,3,2.45,0-1,0-1
-F2,14/09/18,Orleans,Chateauroux,1,0,H,2,0,H,2.37,3.1,3.1,2-0,1-0
-F2,14/09/18,Red Star,Lorient,0,2,A,0,3,A,3.5,3,2.25,0-3,0-2
-F2,14/09/18,Troyes,Niort,1,0,H,2,0,H,2.25,2.8,3.8,2-0,1-0
-F2,15/09/18,Lens,Sochaux,1,0,H,2,0,H,1.9,3.1,4.5,2-0,1-0
-F2,17/09/18,Beziers,Metz,,,,,,,4.5,3.1,1.9,0-0,0-0
+F2,14/09/18,Orleans,Chateauroux,2,0,H,1,0,H,2.37,3.1,3.1,1-0,2-0
+F2,14/09/18,Red Star,Lorient,0,3,A,0,2,A,3.5,3,2.25,0-2,0-3
+F2,14/09/18,Troyes,Niort,2,0,H,1,0,H,2.25,2.8,3.8,1-0,2-0
+F2,15/09/18,Lens,Sochaux,2,0,H,1,0,H,1.9,3.1,4.5,1-0,2-0
+F2,17/09/18,Beziers,Metz,1,3,A,0,0,D,4.5,3.1,1.9,0-0,1-3
+F2,21/09/18,Ajaccio GFCO,Nancy,0,1,A,0,0,D,2.14,3.2,3.5,0-0,0-1
+F2,21/09/18,Auxerre,Ajaccio,0,0,D,0,0,D,1.9,3.1,4.5,0-0,0-0
+F2,21/09/18,Chateauroux,Beziers,2,0,H,1,0,H,2.2,3.1,3.5,1-0,2-0
+F2,21/09/18,Grenoble,Brest,1,2,A,1,1,D,2.3,3,3.4,1-1,1-2
+F2,21/09/18,Le Havre,Troyes,1,1,D,1,0,H,1.8,3.4,4.75,1-0,1-1
+F2,21/09/18,Lorient,Clermont,0,0,D,0,0,D,1.72,3.4,5.25,0-0,0-0
+F2,21/09/18,Sochaux,Orleans,0,1,A,0,1,A,1.95,3.3,4,0-1,0-1
+F2,21/09/18,Valenciennes,Red Star,4,1,H,3,1,H,2.4,3.1,3.1,3-1,4-1
+F2,22/09/18,Paris FC,Metz,2,1,H,2,0,H,3.4,3,2.3,2-0,2-1
+F2,24/09/18,Niort,Lens,1,2,A,1,1,D,3.4,3,2.3,1-1,1-2
 I1,18/08/18,Chievo,Juventus,2,3,A,1,1,D,15.87,6.21,1.25,1-1,2-3
 I1,18/08/18,Lazio,Napoli,1,2,A,1,1,D,2.9,3.59,2.48,1-1,1-2
 I1,19/08/18,Bologna,Spal,0,1,A,0,0,D,2.32,3.16,3.58,0-0,0-1
@@ -766,16 +947,37 @@ I1,02/09/18,Lazio,Frosinone,1,0,H,0,0,D,1.21,7.09,16.74,0-0,1-0
 I1,02/09/18,Sampdoria,Napoli,3,0,H,2,0,H,6.51,4.29,1.56,2-0,3-0
 I1,02/09/18,Sassuolo,Genoa,5,3,H,4,1,H,2.15,3.3,3.89,4-1,5-3
 I1,02/09/18,Torino,Spal,1,0,H,0,0,D,1.66,3.96,5.9,0-0,1-0
-I1,15/09/18,Frosinone,Sampdoria,0,1,A,0,5,A,3.66,3.41,2.18,0-5,0-1
-I1,15/09/18,Inter,Parma,0,0,D,0,1,A,1.26,6.03,14.48,0-1,0-0
-I1,15/09/18,Napoli,Fiorentina,0,0,D,1,0,H,1.58,4.41,5.96,1-0,0-0
-I1,16/09/18,Cagliari,Milan,1,0,H,1,1,D,5.06,3.72,1.79,1-1,1-0
-I1,16/09/18,Empoli,Lazio,0,0,D,0,1,A,4.83,4.11,1.74,0-1,0-0
-I1,16/09/18,Genoa,Bologna,0,0,D,1,0,H,1.97,3.37,4.51,1-0,0-0
-I1,16/09/18,Juventus,Sassuolo,0,0,D,2,1,H,1.21,7.18,16.16,2-1,0-0
-I1,16/09/18,Roma,Chievo,2,0,H,2,2,D,1.24,6.71,13.78,2-2,2-0
-I1,16/09/18,Udinese,Torino,1,0,H,1,1,D,2.97,3.41,2.53,1-1,1-0
-I1,17/09/18,Spal,Atalanta,,,,,,,4.51,3.53,1.92,0-0,0-0
+I1,15/09/18,Frosinone,Sampdoria,0,5,A,0,1,A,3.66,3.41,2.18,0-1,0-5
+I1,15/09/18,Inter,Parma,0,1,A,0,0,D,1.26,6.03,14.48,0-0,0-1
+I1,15/09/18,Napoli,Fiorentina,1,0,H,0,0,D,1.58,4.41,5.96,0-0,1-0
+I1,16/09/18,Cagliari,Milan,1,1,D,1,0,H,5.06,3.72,1.79,1-0,1-1
+I1,16/09/18,Empoli,Lazio,0,1,A,0,0,D,4.83,4.11,1.74,0-0,0-1
+I1,16/09/18,Genoa,Bologna,1,0,H,0,0,D,1.97,3.37,4.51,0-0,1-0
+I1,16/09/18,Juventus,Sassuolo,2,1,H,0,0,D,1.21,7.18,16.16,0-0,2-1
+I1,16/09/18,Roma,Chievo,2,2,D,2,0,H,1.24,6.71,13.78,2-0,2-2
+I1,16/09/18,Udinese,Torino,1,1,D,1,0,H,2.97,3.41,2.53,1-0,1-1
+I1,17/09/18,Spal,Atalanta,2,0,H,0,0,D,4.51,3.53,1.92,0-0,2-0
+I1,19/09/18,Sampdoria,Fiorentina,1,1,D,0,1,A,2.87,3.42,2.58,0-1,1-1
+I1,21/09/18,Sassuolo,Empoli,3,1,H,1,1,D,2.17,3.47,3.62,1-1,3-1
+I1,22/09/18,Fiorentina,Spal,3,0,H,2,0,H,1.63,3.83,6.43,2-0,3-0
+I1,22/09/18,Parma,Cagliari,2,0,H,1,0,H,2.39,3.29,3.28,1-0,2-0
+I1,22/09/18,Sampdoria,Inter,0,1,A,0,0,D,4.3,3.91,1.85,0-0,0-1
+I1,23/09/18,Bologna,Roma,2,0,H,1,0,H,5.57,3.76,1.71,1-0,2-0
+I1,23/09/18,Chievo,Udinese,0,2,A,0,0,D,3.04,3.21,2.57,0-0,0-2
+I1,23/09/18,Frosinone,Juventus,0,2,A,0,0,D,16.77,7.56,1.19,0-0,0-2
+I1,23/09/18,Lazio,Genoa,4,1,H,2,0,H,1.46,4.85,7.26,2-0,4-1
+I1,23/09/18,Milan,Atalanta,2,2,D,1,0,H,2.06,3.44,3.94,1-0,2-2
+I1,23/09/18,Torino,Napoli,1,3,A,0,2,A,4.69,3.84,1.8,0-2,1-3
+I1,25/09/18,Inter,Fiorentina,2,1,H,1,0,H,1.66,3.98,5.66,1-0,2-1
+I1,26/09/18,Atalanta,Torino,0,0,D,0,0,D,1.83,3.84,4.52,0-0,0-0
+I1,26/09/18,Cagliari,Sampdoria,0,0,D,0,0,D,2.66,3.32,2.84,0-0,0-0
+I1,26/09/18,Genoa,Chievo,2,0,H,1,0,H,1.79,3.51,5.33,1-0,2-0
+I1,26/09/18,Juventus,Bologna,2,0,H,2,0,H,1.16,8.13,23.18,2-0,2-0
+I1,26/09/18,Napoli,Parma,3,0,H,1,0,H,1.2,7.16,18.44,1-0,3-0
+I1,26/09/18,Roma,Frosinone,4,0,H,3,0,H,1.19,7.37,17.67,3-0,4-0
+I1,26/09/18,Udinese,Lazio,1,2,A,0,0,D,4.25,3.73,1.9,0-0,1-2
+I1,27/09/18,Empoli,Milan,1,1,D,0,1,A,5.2,4.03,1.7,0-1,1-1
+I1,27/09/18,Spal,Sassuolo,0,2,A,0,0,D,2.67,3.25,2.88,0-0,0-2
 I2,24/08/18,Brescia,Perugia,1,1,D,1,0,H,2.2,3.2,3.4,1-0,1-1
 I2,25/08/18,Cremonese,Pescara,1,1,D,1,0,H,2.1,3.25,3.6,1-0,1-1
 I2,25/08/18,Salernitana,Palermo,0,0,D,0,0,D,3.2,3,2.4,0-0,0-0
@@ -793,15 +995,33 @@ I2,02/09/18,Crotone,Foggia,4,1,H,1,0,H,2.2,3,3.6,1-0,4-1
 I2,02/09/18,Lecce,Salernitana,2,2,D,1,0,H,2.3,3,3.4,1-0,2-2
 I2,02/09/18,Perugia,Ascoli,2,0,H,1,0,H,1.75,3.25,5.25,1-0,2-0
 I2,02/09/18,Pescara,Livorno,2,1,H,0,0,D,2,3.1,4.2,0-0,2-1
-I2,14/09/18,Venezia,Benevento,0,2,A,2,3,A,2.75,2.9,2.9,2-3,0-2
-I2,15/09/18,Ascoli,Lecce,0,0,D,1,0,H,2.54,2.9,3,1-0,0-0
-I2,15/09/18,Brescia,Pescara,0,0,D,1,1,D,2.14,3.2,3.5,1-1,0-0
-I2,15/09/18,Cittadella,Cosenza,0,0,D,2,0,H,1.8,3.4,4.75,2-0,0-0
+I2,14/09/18,Venezia,Benevento,2,3,A,0,2,A,2.75,2.9,2.9,0-2,2-3
+I2,15/09/18,Ascoli,Lecce,1,0,H,0,0,D,2.54,2.9,3,0-0,1-0
+I2,15/09/18,Brescia,Pescara,1,1,D,0,0,D,2.14,3.2,3.5,0-0,1-1
+I2,15/09/18,Cittadella,Cosenza,2,0,H,0,0,D,1.8,3.4,4.75,0-0,2-0
 I2,15/09/18,Cremonese,Spezia,2,0,H,2,0,H,2.25,3,3.5,2-0,2-0
-I2,16/09/18,Foggia,Palermo,1,0,H,1,2,A,2.5,3.1,2.9,1-2,1-0
-I2,16/09/18,Salernitana,Padova,1,0,H,3,0,H,2.25,3.1,3.4,3-0,1-0
-I2,16/09/18,Verona,Carpi,2,0,H,4,1,H,1.75,3.4,5,4-1,2-0
-I2,17/09/18,Livorno,Crotone,,,,,,,3.4,3,2.3,0-0,0-0
+I2,16/09/18,Foggia,Palermo,1,2,A,1,0,H,2.5,3.1,2.9,1-0,1-2
+I2,16/09/18,Salernitana,Padova,3,0,H,1,0,H,2.25,3.1,3.4,1-0,3-0
+I2,16/09/18,Verona,Carpi,4,1,H,2,0,H,1.75,3.4,5,2-0,4-1
+I2,17/09/18,Livorno,Crotone,0,1,A,0,0,D,3.4,3,2.3,0-0,0-1
+I2,21/09/18,Benevento,Salernitana,4,0,H,1,0,H,1.83,3.25,4.75,1-0,4-0
+I2,22/09/18,Carpi,Brescia,1,1,D,1,1,D,2.5,2.9,3.1,1-1,1-1
+I2,22/09/18,Cosenza,Livorno,1,1,D,1,0,H,2.1,3.1,3.8,1-0,1-1
+I2,22/09/18,Crotone,Verona,1,2,A,0,1,A,1.9,3.25,4.33,0-1,1-2
+I2,22/09/18,Lecce,Venezia,2,1,H,0,0,D,2.2,3.1,3.5,0-0,2-1
+I2,22/09/18,Palermo,Perugia,4,1,H,2,0,H,1.8,3.25,5,2-0,4-1
+I2,22/09/18,Pescara,Foggia,1,0,H,0,0,D,2.14,3.3,3.4,0-0,1-0
+I2,22/09/18,Spezia,Cittadella,1,0,H,0,0,D,2.3,3,3.4,0-0,1-0
+I2,23/09/18,Padova,Cremonese,1,1,D,1,0,H,2.25,3.1,3.4,1-0,1-1
+I2,25/09/18,Brescia,Palermo,2,1,H,2,0,H,2.87,3,2.6,2-0,2-1
+I2,25/09/18,Cittadella,Benevento,0,1,A,0,1,A,2.75,3.1,2.62,0-1,0-1
+I2,25/09/18,Livorno,Lecce,0,3,A,0,1,A,2.37,3.1,3.1,0-1,0-3
+I2,25/09/18,Perugia,Carpi,0,1,A,0,0,D,1.85,3.2,4.5,0-0,0-1
+I2,25/09/18,Pescara,Crotone,2,1,H,1,0,H,2.6,3.1,2.8,1-0,2-1
+I2,25/09/18,Salernitana,Ascoli,1,1,D,0,1,A,2.04,3.2,3.75,0-1,1-1
+I2,25/09/18,Verona,Spezia,2,1,H,1,1,D,1.85,3.25,4.5,1-1,2-1
+I2,26/09/18,Cremonese,Cosenza,2,0,H,1,0,H,1.85,3.1,4.75,1-0,2-0
+I2,26/09/18,Foggia,Padova,2,1,H,0,1,A,1.9,3.25,4.2,0-1,2-1
 P1,10/08/18,Benfica,Guimaraes,3,2,H,3,0,H,1.25,5.75,11,3-0,3-2
 P1,11/08/18,Porto,Chaves,5,0,H,3,0,H,1.14,7,21,3-0,5-0
 P1,11/08/18,Setubal,Aves,2,0,H,1,0,H,2.25,3.1,3.4,1-0,2-0
@@ -838,6 +1058,16 @@ P1,02/09/18,Aves,Maritimo,0,1,A,0,1,A,2.4,3,3.2,0-1,0-1
 P1,02/09/18,Nacional,Benfica,0,4,A,0,2,A,8.5,4.75,1.36,0-2,0-4
 P1,02/09/18,Porto,Moreirense,3,0,H,2,0,H,1.14,7.5,21,2-0,3-0
 P1,02/09/18,Rio Ave,Portimonense,2,1,H,0,1,A,2.04,3.3,3.6,0-1,2-1
+P1,21/09/18,Boavista,Chaves,1,2,A,0,1,A,2.2,3.1,3.5,0-1,1-2
+P1,22/09/18,Maritimo,Belenenses,0,0,D,0,0,D,1.95,3.3,4,0-0,0-0
+P1,22/09/18,Santa Clara,Rio Ave,1,3,A,0,0,D,2.5,3.1,2.9,0-0,1-3
+P1,22/09/18,Setubal,Porto,0,2,A,0,1,A,12,5,1.28,0-1,0-2
+P1,23/09/18,Benfica,Aves,2,0,H,1,0,H,1.16,7,15,1-0,2-0
+P1,23/09/18,Feirense,Nacional,0,0,D,0,0,D,1.95,3.2,4.2,0-0,0-0
+P1,23/09/18,Portimonense,Guimaraes,3,2,H,1,0,H,2.45,3.1,3,1-0,3-2
+P1,23/09/18,Tondela,Moreirense,2,0,H,1,0,H,2.2,3.1,3.5,1-0,2-0
+P1,24/09/18,Sp Braga,Sp Lisbon,1,0,H,0,0,D,2.5,3.2,2.87,0-0,1-0
+P1,27/09/18,Chaves,Benfica,2,2,D,0,1,A,10,4.75,1.33,0-1,2-2
 N1,10/08/18,Zwolle,Heerenveen,2,3,A,1,3,A,2.4,3.6,2.7,1-3,2-3
 N1,11/08/18,Ajax,Heracles,1,1,D,0,0,D,1.12,8,19,0-0,1-1
 N1,11/08/18,Excelsior,For Sittard,1,1,D,1,0,H,2.1,3.5,3.3,1-0,1-1
@@ -874,15 +1104,24 @@ N1,02/09/18,Feyenoord,NAC Breda,4,2,H,1,1,D,1.16,7.5,13,1-1,4-2
 N1,02/09/18,Groningen,Zwolle,0,1,A,0,0,D,2.04,3.5,3.4,0-0,0-1
 N1,02/09/18,Heracles,AZ Alkmaar,3,2,H,1,1,D,5.75,4,1.57,1-1,3-2
 N1,02/09/18,Vitesse,Ajax,0,4,A,0,3,A,5,4.2,1.6,0-3,0-4
-N1,15/09/18,Ajax,Groningen,1,0,H,3,0,H,1.14,7.5,17,3-0,1-0
-N1,15/09/18,Den Haag,PSV Eindhoven,0,2,A,0,7,A,5.75,5,1.44,0-7,0-2
-N1,15/09/18,Graafschap,VVV Venlo,0,2,A,1,2,A,2.37,3.4,2.87,1-2,0-2
-N1,15/09/18,Willem II,Excelsior,0,1,A,2,2,D,1.83,3.6,4.2,2-2,0-1
+N1,15/09/18,Ajax,Groningen,3,0,H,1,0,H,1.14,7.5,17,1-0,3-0
+N1,15/09/18,Den Haag,PSV Eindhoven,0,7,A,0,2,A,5.75,5,1.44,0-2,0-7
+N1,15/09/18,Graafschap,VVV Venlo,1,2,A,0,2,A,2.37,3.4,2.87,0-2,1-2
+N1,15/09/18,Willem II,Excelsior,2,2,D,0,1,A,1.83,3.6,4.2,0-1,2-2
 N1,16/09/18,AZ Alkmaar,Feyenoord,1,1,D,1,1,D,2.6,3.75,2.4,1-1,1-1
-N1,16/09/18,Heerenveen,Heracles,1,1,D,3,5,A,1.72,4,4.33,3-5,1-1
-N1,16/09/18,NAC Breda,For Sittard,1,1,D,2,3,A,2.04,3.4,3.5,2-3,1-1
-N1,16/09/18,Utrecht,FC Emmen,1,0,H,1,2,A,1.44,4.5,6.5,1-2,1-0
+N1,16/09/18,Heerenveen,Heracles,3,5,A,1,1,D,1.72,4,4.33,1-1,3-5
+N1,16/09/18,NAC Breda,For Sittard,2,3,A,1,1,D,2.04,3.4,3.5,1-1,2-3
+N1,16/09/18,Utrecht,FC Emmen,1,2,A,1,0,H,1.44,4.5,6.5,1-0,1-2
 N1,16/09/18,Zwolle,Vitesse,0,2,A,0,2,A,3.4,3.5,2.04,0-2,0-2
+N1,21/09/18,Heracles,Graafschap,4,0,H,1,0,H,1.44,4.5,6.25,1-0,4-0
+N1,22/09/18,Excelsior,Heerenveen,3,3,D,2,0,H,2.87,3.4,2.35,2-0,3-3
+N1,22/09/18,For Sittard,Willem II,4,4,D,2,2,D,2.3,3.5,2.87,2-2,4-4
+N1,22/09/18,Vitesse,Den Haag,1,1,D,1,0,H,1.5,4,7.5,1-0,1-1
+N1,22/09/18,VVV Venlo,NAC Breda,3,0,H,2,0,H,1.83,3.6,4.2,2-0,3-0
+N1,23/09/18,FC Emmen,Zwolle,0,1,A,0,1,A,2.7,3.4,2.5,0-1,0-1
+N1,23/09/18,Feyenoord,Utrecht,1,0,H,0,0,D,1.44,4.33,7,0-0,1-0
+N1,23/09/18,Groningen,AZ Alkmaar,1,3,A,1,1,D,3.5,3.8,1.95,1-1,1-3
+N1,23/09/18,PSV Eindhoven,Ajax,3,0,H,3,0,H,2.5,3.3,2.8,3-0,3-0
 B1,27/07/18,Standard,Gent,3,2,H,1,1,D,2.14,3.4,3.25,1-1,3-2
 B1,28/07/18,Kortrijk,Anderlecht,1,4,A,0,2,A,4.5,3.8,1.72,0-2,1-4
 B1,28/07/18,Oostende,Mouscron,2,1,H,0,1,A,1.53,3.75,7,0-1,2-1
@@ -931,14 +1170,22 @@ B1,01/09/18,St Truiden,Oostende,1,0,H,0,0,D,1.95,3.5,3.8,0-0,1-0
 B1,02/09/18,Anderlecht,Antwerp,1,1,D,1,0,H,1.66,4,4.75,1-0,1-1
 B1,02/09/18,Cercle Brugge,Gent,0,3,A,0,1,A,3.3,3.5,2.1,0-1,0-3
 B1,02/09/18,Kortrijk,Genk,3,3,D,0,0,D,4.2,4,1.75,0-0,3-3
-B1,14/09/18,Club Brugge,Lokeren,0,1,A,2,1,H,1.16,7.5,13,2-1,0-1
-B1,15/09/18,Genk,Anderlecht,0,0,D,1,0,H,1.85,4,3.6,1-0,0-0
-B1,15/09/18,Oostende,Cercle Brugge,0,0,D,1,1,D,2.1,3.4,3.4,1-1,0-0
+B1,14/09/18,Club Brugge,Lokeren,2,1,H,0,1,A,1.16,7.5,13,0-1,2-1
+B1,15/09/18,Genk,Anderlecht,1,0,H,0,0,D,1.85,4,3.6,0-0,1-0
+B1,15/09/18,Oostende,Cercle Brugge,1,1,D,0,0,D,2.1,3.4,3.4,0-0,1-1
 B1,15/09/18,Standard,Charleroi,0,0,D,0,0,D,1.55,3.8,6.5,0-0,0-0
 B1,15/09/18,Waasland-Beveren,Eupen,0,0,D,0,0,D,2.2,3.5,3.1,0-0,0-0
-B1,16/09/18,Antwerp,Waregem,3,0,H,5,1,H,1.9,3.5,4,5-1,3-0
-B1,16/09/18,Gent,St Truiden,0,1,A,1,2,A,1.5,4.33,6,1-2,0-1
+B1,16/09/18,Antwerp,Waregem,5,1,H,3,0,H,1.9,3.5,4,3-0,5-1
+B1,16/09/18,Gent,St Truiden,1,2,A,0,1,A,1.5,4.33,6,0-1,1-2
 B1,16/09/18,Mouscron,Kortrijk,1,0,H,1,0,H,3.1,3.4,2.25,1-0,1-0
+B1,21/09/18,Waregem,Kortrijk,0,2,A,0,0,D,1.64,4.2,4.75,0-0,0-2
+B1,22/09/18,Eupen,Oostende,1,2,A,0,1,A,2.25,3.5,3,0-1,1-2
+B1,22/09/18,Lokeren,Mouscron,0,0,D,0,0,D,2.04,3.6,3.4,0-0,0-0
+B1,22/09/18,St Truiden,Antwerp,2,0,H,0,0,D,2.8,3.4,2.4,0-0,2-0
+B1,22/09/18,Waasland-Beveren,Charleroi,1,1,D,0,1,A,3.2,3.6,2.1,0-1,1-1
+B1,23/09/18,Anderlecht,Standard,2,1,H,0,1,A,2.1,3.5,3.3,0-1,2-1
+B1,23/09/18,Cercle Brugge,Genk,2,5,A,1,2,A,5,3.8,1.66,1-2,2-5
+B1,23/09/18,Gent,Club Brugge,0,4,A,0,1,A,2.8,3.4,2.4,0-1,0-4
 T1,10/08/18,Ankaragucu,Galatasaray,1,3,A,1,2,A,4.5,4,1.72,1-2,1-3
 T1,11/08/18,Fenerbahce,Bursaspor,2,1,H,2,1,H,1.36,5,7.5,2-1,2-1
 T1,11/08/18,Rizespor,Kasimpasa,2,3,A,1,0,H,2.3,3.4,3,1-0,2-3
@@ -975,15 +1222,24 @@ T1,02/09/18,Antalyaspor,Rizespor,2,1,H,0,1,A,2.4,3.3,2.87,0-1,2-1
 T1,02/09/18,Bursaspor,Besiktas,1,1,D,0,0,D,5.25,4,1.6,0-0,1-1
 T1,02/09/18,Erzurum BB,Buyuksehyr,0,1,A,0,1,A,5.5,4,1.57,0-1,0-1
 T1,02/09/18,Kasimpasa,Ankaragucu,2,1,H,1,0,H,1.9,3.6,3.8,1-0,2-1
-T1,14/09/18,Galatasaray,Kasimpasa,0,0,D,4,1,H,1.55,4.33,5.25,4-1,0-0
+T1,14/09/18,Galatasaray,Kasimpasa,4,1,H,0,0,D,1.55,4.33,5.25,0-0,4-1
 T1,15/09/18,Ankaragucu,Akhisar Belediyespor,1,0,H,1,0,H,2.3,3.3,3,1-0,1-0
-T1,15/09/18,Besiktas,Yeni Malatyaspor,0,0,D,2,1,H,1.33,5.25,8,2-1,0-0
+T1,15/09/18,Besiktas,Yeni Malatyaspor,2,1,H,0,0,D,1.33,5.25,8,0-0,2-1
 T1,15/09/18,Goztep,Kayserispor,2,0,H,2,0,H,2.2,3.25,3.3,2-0,2-0
-T1,16/09/18,Buyuksehyr,Antalyaspor,1,0,H,4,0,H,1.4,4.5,7.5,4-0,1-0
-T1,16/09/18,Konyaspor,Fenerbahce,0,0,D,0,1,A,3.5,3.5,2.04,0-1,0-0
-T1,16/09/18,Rizespor,Bursaspor,0,1,A,1,1,D,2,3.4,3.75,1-1,0-1
-T1,16/09/18,Sivasspor,Erzurum BB,1,1,D,2,2,D,1.72,3.75,4.5,2-2,1-1
-T1,17/09/18,Alanyaspor,Trabzonspor,,,,,,,3,3.5,2.25,0-0,0-0
+T1,16/09/18,Buyuksehyr,Antalyaspor,4,0,H,1,0,H,1.4,4.5,7.5,1-0,4-0
+T1,16/09/18,Konyaspor,Fenerbahce,0,1,A,0,0,D,3.5,3.5,2.04,0-0,0-1
+T1,16/09/18,Rizespor,Bursaspor,1,1,D,0,1,A,2,3.4,3.75,0-1,1-1
+T1,16/09/18,Sivasspor,Erzurum BB,2,2,D,1,1,D,1.72,3.75,4.5,1-1,2-2
+T1,17/09/18,Alanyaspor,Trabzonspor,1,0,H,1,0,H,3,3.5,2.25,1-0,1-0
+T1,21/09/18,Bursaspor,Buyuksehyr,0,0,D,0,0,D,3.4,3.3,2.14,0-0,0-0
+T1,21/09/18,Erzurum BB,Ankaragucu,0,1,A,0,0,D,2,3.6,3.5,0-0,0-1
+T1,22/09/18,Kayserispor,Konyaspor,0,2,A,0,2,A,2.3,3.2,3.2,0-2,0-2
+T1,22/09/18,Trabzonspor,Goztep,1,2,A,0,2,A,1.6,4,5.25,0-2,1-2
+T1,22/09/18,Yeni Malatyaspor,Rizespor,1,0,H,1,0,H,1.83,3.6,4.2,1-0,1-0
+T1,23/09/18,Akhisar Belediyespor,Galatasaray,3,0,H,0,0,D,5,3.6,1.7,0-0,3-0
+T1,23/09/18,Antalyaspor,Sivasspor,2,1,H,2,1,H,2.4,3.4,2.8,2-1,2-1
+T1,23/09/18,Kasimpasa,Alanyaspor,1,2,A,0,1,A,1.7,3.75,4.75,0-1,1-2
+T1,24/09/18,Fenerbahce,Besiktas,1,1,D,0,1,A,2.4,3.4,2.87,0-1,1-1
 G1,25/08/18,AEK,Giannina,2,0,H,1,0,H,1.36,4.33,10,1-0,2-0
 G1,25/08/18,Apollon,Larisa,0,1,A,0,1,A,2.3,3,3.4,0-1,0-1
 G1,25/08/18,Panetolikos,Atromitos,1,2,A,1,1,D,3,3,2.5,1-1,1-2
@@ -1000,14 +1256,22 @@ G1,02/09/18,Olympiakos,Giannina,5,0,H,2,0,H,1.25,5.25,13,2-0,5-0
 G1,02/09/18,Panionios,PAOK,0,1,A,0,0,D,8,3.8,1.45,0-0,0-1
 G1,03/09/18,Levadeiakos,Apollon,1,0,H,0,0,D,2.3,3,3.4,0-0,1-0
 G1,03/09/18,Panetolikos,OFI Crete,2,1,H,1,0,H,2.3,2.9,3.5,1-0,2-1
-G1,15/09/18,AEK,Panionios,1,0,H,4,0,H,1.36,4.5,9.5,4-0,1-0
-G1,15/09/18,Apollon,Giannina,0,1,A,1,2,A,2.37,2.9,3.4,1-2,0-1
-G1,15/09/18,OFI Crete,PAOK,1,2,A,1,3,A,9,4.2,1.4,1-3,1-2
+G1,15/09/18,AEK,Panionios,4,0,H,1,0,H,1.36,4.5,9.5,1-0,4-0
+G1,15/09/18,Apollon,Giannina,1,2,A,0,1,A,2.37,2.9,3.4,0-1,1-2
+G1,15/09/18,OFI Crete,PAOK,1,3,A,1,2,A,9,4.2,1.4,1-2,1-3
 G1,16/09/18,Atromitos,Lamia,1,0,H,1,0,H,1.33,4.5,11,1-0,1-0
-G1,16/09/18,Larisa,Panathinaikos,0,1,A,1,3,A,2.87,2.87,2.7,1-3,0-1
-G1,16/09/18,Olympiakos,Asteras Tripolis,1,0,H,2,1,H,1.36,4.5,9,2-1,1-0
+G1,16/09/18,Larisa,Panathinaikos,1,3,A,0,1,A,2.87,2.87,2.7,0-1,1-3
+G1,16/09/18,Olympiakos,Asteras Tripolis,2,1,H,1,0,H,1.36,4.5,9,1-0,2-1
 G1,16/09/18,Xanthi,Panetolikos,1,1,D,1,1,D,2,3.1,4.2,1-1,1-1
-G1,17/09/18,Aris,Levadeiakos,,,,,,,1.55,3.5,7.5,0-0,0-0
+G1,17/09/18,Aris,Levadeiakos,2,0,H,1,0,H,1.55,3.5,7.5,1-0,2-0
+G1,22/09/18,Asteras Tripolis,Apollon,2,0,H,2,0,H,1.44,3.6,10,2-0,2-0
+G1,22/09/18,Atromitos,Larisa,2,0,H,0,0,D,1.6,3.4,7,0-0,2-0
+G1,22/09/18,Giannina,Aris,1,0,H,0,0,D,3.1,3.2,2.37,0-0,1-0
+G1,23/09/18,Panathinaikos,Levadeiakos,3,0,H,2,0,H,1.55,3.6,7,2-0,3-0
+G1,23/09/18,PAOK,AEK,2,0,H,1,0,H,1.8,3.5,4.5,1-0,2-0
+G1,23/09/18,Xanthi,OFI Crete,3,0,H,2,0,H,2.04,3.2,3.75,2-0,3-0
+G1,24/09/18,Panetolikos,Lamia,2,2,D,1,0,H,1.8,3.3,4.75,1-0,2-2
+G1,24/09/18,Panionios,Olympiakos,0,1,A,0,0,D,7.5,4,1.44,0-0,0-1
 SC0,04/08/18,Celtic,Livingston,3,1,H,2,0,H,1.11,10,28.17,2-0,3-1
 SC0,04/08/18,Hamilton,Hearts,1,4,A,1,1,D,3.78,3.61,2.04,1-1,1-4
 SC0,04/08/18,Kilmarnock,St Johnstone,2,0,H,0,0,D,2.08,3.37,3.92,0-0,2-0
@@ -1033,11 +1297,17 @@ SC0,01/09/18,Hearts,St Mirren,4,1,H,4,1,H,1.48,4.69,7.07,4-1,4-1
 SC0,01/09/18,Livingston,Hibernian,2,1,H,0,0,D,4.54,3.78,1.83,0-0,2-1
 SC0,02/09/18,Celtic,Rangers,1,0,H,0,0,D,1.62,4.31,5.42,0-0,1-0
 SC0,14/09/18,St Mirren,Celtic,0,0,D,0,0,D,17.83,7.55,1.19,0-0,0-0
-SC0,15/09/18,Hibernian,Kilmarnock,2,2,D,3,2,H,2.09,3.43,3.87,3-2,2-2
+SC0,15/09/18,Hibernian,Kilmarnock,3,2,H,2,2,D,2.09,3.43,3.87,2-2,3-2
 SC0,15/09/18,Livingston,Hamilton,1,0,H,1,0,H,1.83,3.68,4.69,1-0,1-0
 SC0,15/09/18,Motherwell,Hearts,0,1,A,0,1,A,2.91,3.28,2.63,0-1,0-1
-SC0,15/09/18,Rangers,Dundee,3,0,H,4,0,H,1.29,5.9,11.52,4-0,3-0
-SC0,15/09/18,St Johnstone,Aberdeen,1,0,H,1,1,D,3.41,3.52,2.21,1-1,1-0
+SC0,15/09/18,Rangers,Dundee,4,0,H,3,0,H,1.29,5.9,11.52,3-0,4-0
+SC0,15/09/18,St Johnstone,Aberdeen,1,1,D,1,0,H,3.41,3.52,2.21,1-0,1-1
+SC0,22/09/18,Aberdeen,Motherwell,1,0,H,1,0,H,1.96,3.37,4.47,1-0,1-0
+SC0,22/09/18,Dundee,Hibernian,0,3,A,0,0,D,4.7,4.19,1.73,0-0,0-3
+SC0,22/09/18,Hamilton,St Mirren,3,0,H,2,0,H,2.69,3.25,2.86,2-0,3-0
+SC0,22/09/18,Hearts,Livingston,0,0,D,0,0,D,1.49,4.56,7.28,0-0,0-0
+SC0,23/09/18,Kilmarnock,Celtic,2,1,H,0,1,A,9.35,4.72,1.39,0-1,2-1
+SC0,23/09/18,Rangers,St Johnstone,5,1,H,2,0,H,1.34,5.18,10.29,2-0,5-1
 SC1,04/08/18,Ayr,Partick,2,0,H,2,0,H,0,2.62,3.4,2-0,2-0
 SC1,04/08/18,Dundee United,Dunfermline,2,3,A,1,0,H,0,2.5,3.3,1-0,2-3
 SC1,04/08/18,Falkirk,Inverness C,0,1,A,0,1,A,0,2.7,3.4,0-1,0-1
@@ -1058,11 +1328,16 @@ SC1,01/09/18,Dunfermline,Inverness C,0,3,A,0,0,D,0,2.3,3.4,0-0,0-3
 SC1,01/09/18,Partick,Morton,1,0,H,0,0,D,0,1.85,3.6,0-0,1-0
 SC1,01/09/18,Queen of Sth,Ayr,5,0,H,4,0,H,1,2.14,3.75,4-0,5-0
 SC1,01/09/18,Ross County,Falkirk,2,0,H,0,0,D,0,1.5,4.6,0-0,2-0
-SC1,15/09/18,Ayr,Falkirk,0,2,A,3,2,H,0,2,3.6,3-2,0-2
-SC1,15/09/18,Dundee United,Morton,0,1,A,1,1,D,0,1.72,3.6,1-1,0-1
+SC1,15/09/18,Ayr,Falkirk,3,2,H,0,2,A,0,2,3.6,0-2,3-2
+SC1,15/09/18,Dundee United,Morton,1,1,D,0,1,A,0,1.72,3.6,0-1,1-1
 SC1,15/09/18,Dunfermline,Alloa,0,0,D,0,0,D,0,1.5,4.33,0-0,0-0
-SC1,15/09/18,Inverness C,Partick,3,0,H,3,2,H,0,1.95,3.6,3-2,3-0
+SC1,15/09/18,Inverness C,Partick,3,2,H,3,0,H,0,1.95,3.6,3-0,3-2
 SC1,15/09/18,Queen of Sth,Ross County,0,0,D,0,0,D,0,3.25,3.3,0-0,0-0
+SC1,22/09/18,Alloa,Ayr,0,2,A,0,1,A,0,3.3,3.4,0-1,0-2
+SC1,22/09/18,Falkirk,Dundee United,0,2,A,0,0,D,0,3.3,3.4,0-0,0-2
+SC1,22/09/18,Morton,Dunfermline,1,1,D,0,0,D,0,2.7,3.3,0-0,1-1
+SC1,22/09/18,Partick,Queen of Sth,3,2,H,3,2,H,0,2.3,3.4,3-2,3-2
+SC1,22/09/18,Ross County,Inverness C,0,0,D,0,0,D,0,1.95,3.5,0-0,0-0
 SC2,04/08/18,East Fife,Dumbarton,0,2,A,0,0,D,0,3,3.4,0-0,0-2
 SC2,04/08/18,Forfar,Airdrie Utd,1,3,A,1,0,H,0,2.6,3.4,1-0,1-3
 SC2,04/08/18,Montrose,Arbroath,0,4,A,0,1,A,0,2.7,3.4,0-1,0-4
@@ -1088,11 +1363,16 @@ SC2,01/09/18,Arbroath,Brechin,2,2,D,2,0,H,0,1.44,4.5,2-0,2-2
 SC2,01/09/18,Montrose,East Fife,0,2,A,0,2,A,0,2.25,3.6,0-2,0-2
 SC2,01/09/18,Raith Rvs,Forfar,4,0,H,1,0,H,0,1.7,4.2,1-0,4-0
 SC2,01/09/18,Stenhousemuir,Dumbarton,2,1,H,1,1,D,0,3.2,3.75,1-1,2-1
-SC2,15/09/18,Arbroath,Forfar,1,1,D,3,1,H,0,1.53,4.2,3-1,1-1
-SC2,15/09/18,Brechin,Raith Rvs,0,0,D,1,1,D,0,3.3,3.6,1-1,0-0
-SC2,15/09/18,Dumbarton,Montrose,0,1,A,2,1,H,1,1.95,3.6,2-1,0-1
-SC2,15/09/18,East Fife,Airdrie Utd,0,0,D,2,1,H,0,2.8,3.5,2-1,0-0
-SC2,15/09/18,Stranraer,Stenhousemuir,1,0,H,2,0,H,0,2.45,3.4,2-0,1-0
+SC2,15/09/18,Arbroath,Forfar,3,1,H,1,1,D,0,1.53,4.2,1-1,3-1
+SC2,15/09/18,Brechin,Raith Rvs,1,1,D,0,0,D,0,3.3,3.6,0-0,1-1
+SC2,15/09/18,Dumbarton,Montrose,2,1,H,0,1,A,1,1.95,3.6,0-1,2-1
+SC2,15/09/18,East Fife,Airdrie Utd,2,1,H,0,0,D,0,2.8,3.5,0-0,2-1
+SC2,15/09/18,Stranraer,Stenhousemuir,2,0,H,1,0,H,0,2.45,3.4,1-0,2-0
+SC2,22/09/18,Airdrie Utd,Dumbarton,1,1,D,0,1,A,0,2.2,3.6,0-1,1-1
+SC2,22/09/18,Forfar,Brechin,1,1,D,0,1,A,0,2.25,3.6,0-1,1-1
+SC2,22/09/18,Raith Rvs,Montrose,1,1,D,0,1,A,0,1.72,3.8,0-1,1-1
+SC2,22/09/18,Stenhousemuir,Arbroath,1,2,A,1,0,H,0,3.6,3.8,1-0,1-2
+SC2,22/09/18,Stranraer,East Fife,0,2,A,0,0,D,0,2.25,3.6,0-0,0-2
 SC3,04/08/18,Annan Athletic,Elgin,1,1,D,0,0,D,0,2.5,3.5,0-0,1-1
 SC3,04/08/18,Berwick,Stirling,1,0,H,0,0,D,0,3.1,3.5,0-0,1-0
 SC3,04/08/18,Clyde,Cowdenbeath,2,0,H,2,0,H,0,1.61,4,2-0,2-0
@@ -1119,6 +1399,11 @@ SC3,01/09/18,Peterhead,Edinburgh City,0,1,A,0,0,D,0,1.66,4,0-0,0-1
 SC3,01/09/18,Queens Park,Cowdenbeath,0,0,D,0,0,D,0,1.75,3.8,0-0,0-0
 SC3,15/09/18,Berwick,Elgin,0,3,A,0,3,A,0,3.25,3.6,0-3,0-3
 SC3,15/09/18,Clyde,Albion Rvs,1,0,H,1,0,H,0,1.25,5.75,1-0,1-0
-SC3,15/09/18,Cowdenbeath,Peterhead,2,1,H,2,4,A,0,7,4,2-4,2-1
-SC3,15/09/18,Edinburgh City,Annan Athletic,1,0,H,2,1,H,0,2.14,3.5,2-1,1-0
+SC3,15/09/18,Cowdenbeath,Peterhead,2,4,A,2,1,H,0,7,4,2-1,2-4
+SC3,15/09/18,Edinburgh City,Annan Athletic,2,1,H,1,0,H,0,2.14,3.5,1-0,2-1
 SC3,15/09/18,Stirling,Queens Park,1,0,H,1,0,H,0,2.8,3.4,1-0,1-0
+SC3,22/09/18,Clyde,Elgin,4,1,H,3,1,H,1,1.72,3.8,3-1,4-1
+SC3,22/09/18,Cowdenbeath,Albion Rvs,1,1,D,0,1,A,0,1.61,3.75,0-1,1-1
+SC3,22/09/18,Peterhead,Berwick,1,0,H,0,0,D,0,1.22,5.5,0-0,1-0
+SC3,22/09/18,Queens Park,Edinburgh City,0,2,A,0,1,A,0,2.45,3.3,0-1,0-2
+SC3,22/09/18,Stirling,Annan Athletic,1,2,A,0,1,A,0,2.04,3.5,0-1,1-2

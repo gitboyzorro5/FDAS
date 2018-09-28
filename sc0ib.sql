@@ -23,8 +23,14 @@ INSERT INTO SC0 VALUES('SC0','01/09/18','Hearts','St Mirren','4','1','H','4','1'
 INSERT INTO SC0 VALUES('SC0','01/09/18','Livingston','Hibernian','2','1','H','0','0','D','4.54','3.78','1.83');
 INSERT INTO SC0 VALUES('SC0','02/09/18','Celtic','Rangers','1','0','H','0','0','D','1.62','4.31','5.42');
 INSERT INTO SC0 VALUES('SC0','14/09/18','St Mirren','Celtic','0','0','D','0','0','D','17.83','7.55','1.19');
-INSERT INTO SC0 VALUES('SC0','15/09/18','Hibernian','Kilmarnock','2','2','D','3','2','H','2.09','3.43','3.87');
+INSERT INTO SC0 VALUES('SC0','15/09/18','Hibernian','Kilmarnock','3','2','H','2','2','D','2.09','3.43','3.87');
 INSERT INTO SC0 VALUES('SC0','15/09/18','Livingston','Hamilton','1','0','H','1','0','H','1.83','3.68','4.69');
 INSERT INTO SC0 VALUES('SC0','15/09/18','Motherwell','Hearts','0','1','A','0','1','A','2.91','3.28','2.63');
-INSERT INTO SC0 VALUES('SC0','15/09/18','Rangers','Dundee','3','0','H','4','0','H','1.29','5.9','11.52');
-INSERT INTO SC0 VALUES('SC0','15/09/18','St Johnstone','Aberdeen','1','0','H','1','1','D','3.41','3.52','2.21');
+INSERT INTO SC0 VALUES('SC0','15/09/18','Rangers','Dundee','4','0','H','3','0','H','1.29','5.9','11.52');
+INSERT INTO SC0 VALUES('SC0','15/09/18','St Johnstone','Aberdeen','1','1','D','1','0','H','3.41','3.52','2.21');
+INSERT INTO SC0 VALUES('SC0','22/09/18','Aberdeen','Motherwell','1','0','H','1','0','H','1.96','3.37','4.47');
+INSERT INTO SC0 VALUES('SC0','22/09/18','Dundee','Hibernian','0','3','A','0','0','D','4.7','4.19','1.73');
+INSERT INTO SC0 VALUES('SC0','22/09/18','Hamilton','St Mirren','3','0','H','2','0','H','2.69','3.25','2.86');
+INSERT INTO SC0 VALUES('SC0','22/09/18','Hearts','Livingston','0','0','D','0','0','D','1.49','4.56','7.28');
+INSERT INTO SC0 VALUES('SC0','23/09/18','Kilmarnock','Celtic','2','1','H','0','1','A','9.35','4.72','1.39');
+INSERT INTO SC0 VALUES('SC0','23/09/18','Rangers','St Johnstone','5','1','H','2','0','H','1.34','5.18','10.29');

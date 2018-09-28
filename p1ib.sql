@@ -34,3 +34,13 @@ INSERT INTO P1 VALUES('P1','02/09/18','Aves','Maritimo','0','1','A','0','1','A',
 INSERT INTO P1 VALUES('P1','02/09/18','Nacional','Benfica','0','4','A','0','2','A','8.5','4.75','1.36');
 INSERT INTO P1 VALUES('P1','02/09/18','Porto','Moreirense','3','0','H','2','0','H','1.14','7.5','21');
 INSERT INTO P1 VALUES('P1','02/09/18','Rio Ave','Portimonense','2','1','H','0','1','A','2.04','3.3','3.6');
+INSERT INTO P1 VALUES('P1','21/09/18','Boavista','Chaves','1','2','A','0','1','A','2.2','3.1','3.5');
+INSERT INTO P1 VALUES('P1','22/09/18','Maritimo','Belenenses','0','0','D','0','0','D','1.95','3.3','4');
+INSERT INTO P1 VALUES('P1','22/09/18','Santa Clara','Rio Ave','1','3','A','0','0','D','2.5','3.1','2.9');
+INSERT INTO P1 VALUES('P1','22/09/18','Setubal','Porto','0','2','A','0','1','A','12','5','1.28');
+INSERT INTO P1 VALUES('P1','23/09/18','Benfica','Aves','2','0','H','1','0','H','1.16','7','15');
+INSERT INTO P1 VALUES('P1','23/09/18','Feirense','Nacional','0','0','D','0','0','D','1.95','3.2','4.2');
+INSERT INTO P1 VALUES('P1','23/09/18','Portimonense','Guimaraes','3','2','H','1','0','H','2.45','3.1','3');
+INSERT INTO P1 VALUES('P1','23/09/18','Tondela','Moreirense','2','0','H','1','0','H','2.2','3.1','3.5');
+INSERT INTO P1 VALUES('P1','24/09/18','Sp Braga','Sp Lisbon','1','0','H','0','0','D','2.5','3.2','2.87');
+INSERT INTO P1 VALUES('P1','27/09/18','Chaves','Benfica','2','2','D','0','1','A','10','4.75','1.33');
