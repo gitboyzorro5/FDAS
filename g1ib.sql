@@ -45,4 +45,4 @@ INSERT INTO G1 VALUES('G1','07/10/18','AEK','Olympiakos','1','1','D','0','0','D'
 INSERT INTO G1 VALUES('G1','07/10/18','Atromitos','Giannina','1','0','H','1','0','H','1.57','3.4','7.5');
 INSERT INTO G1 VALUES('G1','07/10/18','Lamia','OFI Crete','1','1','D','0','0','D','2.1','3','4');
 INSERT INTO G1 VALUES('G1','07/10/18','PAOK','Apollon','2','0','H','1','0','H','1.1','9','21');
-INSERT INTO G1 VALUES('G1','08/10/18','Xanthi','Larisa','','','','','','','1.9','3.1','4.5');
+INSERT INTO G1 VALUES('G1','08/10/18','Xanthi','Larisa','1','0','H','0','0','D','1.9','3.1','4.5');

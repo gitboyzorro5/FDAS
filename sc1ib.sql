@@ -38,3 +38,4 @@ INSERT INTO SC1 VALUES('SC1','06/10/18','Falkirk','Dunfermline','0','2','A','0',
 INSERT INTO SC1 VALUES('SC1','06/10/18','Inverness C','Morton','1','1','D','1','1','D','0','1.72','3.75');
 INSERT INTO SC1 VALUES('SC1','06/10/18','Partick','Ross County','0','2','A','0','1','A','1','3','3.4');
 INSERT INTO SC1 VALUES('SC1','06/10/18','Queen of Sth','Alloa','3','3','D','2','3','A','0','1.61','4');
+INSERT INTO SC1 VALUES('SC1','13/10/18','Partick','Dundee United','1','2','A','0','1','A','0','2.4','3.4');

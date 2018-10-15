@@ -78,4 +78,4 @@ INSERT INTO D2 VALUES('D2','06/10/18','Magdeburg','Dresden','2','2','D','0','2',
 INSERT INTO D2 VALUES('D2','07/10/18','Ingolstadt','Paderborn','1','2','A','0','1','A','2.5','3.25','2.8');
 INSERT INTO D2 VALUES('D2','07/10/18','St Pauli','Sandhausen','3','1','H','1','0','H','2','3.3','3.75');
 INSERT INTO D2 VALUES('D2','07/10/18','Union Berlin','Heidenheim','1','1','D','0','0','D','1.7','3.6','5');
-INSERT INTO D2 VALUES('D2','08/10/18','FC Koln','Duisburg','','','','','','','1.4','4.75','7');
+INSERT INTO D2 VALUES('D2','08/10/18','FC Koln','Duisburg','1','2','A','1','1','D','1.4','4.75','7');
