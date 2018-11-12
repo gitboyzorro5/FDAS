@@ -48,3 +48,13 @@ INSERT INTO SC3 VALUES('SC3','27/10/18','Berwick','Cowdenbeath','0','3','A','0',
 INSERT INTO SC3 VALUES('SC3','27/10/18','Clyde','Peterhead','1','3','A','0','1','A','1','2.7','3.4');
 INSERT INTO SC3 VALUES('SC3','27/10/18','Elgin','Annan Athletic','0','1','A','0','1','A','0','2.37','3.6');
 INSERT INTO SC3 VALUES('SC3','27/10/18','Stirling','Edinburgh City','0','1','A','0','1','A','0','4','3.5');
+INSERT INTO SC3 VALUES('SC3','03/11/18','Cowdenbeath','Elgin','1','2','A','1','0','H','0','2.8','3.6');
+INSERT INTO SC3 VALUES('SC3','03/11/18','Edinburgh City','Clyde','0','1','A','0','1','A','0','2.37','3.5');
+INSERT INTO SC3 VALUES('SC3','03/11/18','Peterhead','Albion Rvs','2','1','H','2','0','H','0','1.14','8.5');
+INSERT INTO SC3 VALUES('SC3','03/11/18','Queens Park','Annan Athletic','0','0','D','0','0','D','0','2.4','3.4');
+INSERT INTO SC3 VALUES('SC3','03/11/18','Stirling','Berwick','3','0','H','2','0','H','0','1.66','4');
+INSERT INTO SC3 VALUES('SC3','10/11/18','Albion Rvs','Edinburgh City','1','2','A','1','1','D','0','9','5.5');
+INSERT INTO SC3 VALUES('SC3','10/11/18','Annan Athletic','Cowdenbeath','0','2','A','0','0','D','0','1.72','3.75');
+INSERT INTO SC3 VALUES('SC3','10/11/18','Clyde','Stirling','1','1','D','0','0','D','0','1.66','3.75');
+INSERT INTO SC3 VALUES('SC3','10/11/18','Elgin','Berwick','2','4','A','0','2','A','0','1.4','4.75');
+INSERT INTO SC3 VALUES('SC3','10/11/18','Queens Park','Peterhead','2','0','H','1','0','H','0','4.33','3.6');
