@@ -118,6 +118,46 @@ E0,11/11/18,Arsenal,Wolves,1,1,D,0,1,A,1.65,4.2,4.75,0-1,1-1
 E0,11/11/18,Chelsea,Everton,0,0,D,0,0,D,1.44,5,6.5,0-0,0-0
 E0,11/11/18,Liverpool,Fulham,2,0,H,1,0,H,1.1,11,21,1-0,2-0
 E0,11/11/18,Man City,Man United,3,1,H,1,0,H,1.38,5,7.5,1-0,3-1
+E0,24/11/18,Brighton,Leicester,1,1,D,1,0,H,2.8,3.2,2.62,1-0,1-1
+E0,24/11/18,Everton,Cardiff,1,0,H,0,0,D,1.42,4.75,7.5,0-0,1-0
+E0,24/11/18,Fulham,Southampton,3,2,H,2,1,H,2.6,3.4,2.7,2-1,3-2
+E0,24/11/18,Man United,Crystal Palace,0,0,D,0,0,D,1.4,4.75,8,0-0,0-0
+E0,24/11/18,Tottenham,Chelsea,3,1,H,2,0,H,2.8,3.4,2.5,2-0,3-1
+E0,24/11/18,Watford,Liverpool,0,3,A,0,0,D,5.5,4.33,1.57,0-0,0-3
+E0,24/11/18,West Ham,Man City,0,4,A,0,3,A,10,6.5,1.25,0-3,0-4
+E0,25/11/18,Bournemouth,Arsenal,1,2,A,1,1,D,3.5,3.8,2,1-1,1-2
+E0,25/11/18,Wolves,Huddersfield,0,2,A,0,1,A,1.47,4,8,0-1,0-2
+E0,26/11/18,Burnley,Newcastle,1,2,A,1,2,A,2.8,3.1,2.7,1-2,1-2
+E0,30/11/18,Cardiff,Wolves,2,1,H,0,1,A,3.75,3.25,2.2,0-1,2-1
+E0,01/12/18,Crystal Palace,Burnley,2,0,H,1,0,H,1.6,3.75,6.5,1-0,2-0
+E0,01/12/18,Huddersfield,Brighton,1,2,A,1,1,D,2.45,3,3.25,1-1,1-2
+E0,01/12/18,Leicester,Watford,2,0,H,2,0,H,2.25,3.25,3.4,2-0,2-0
+E0,01/12/18,Man City,Bournemouth,3,1,H,1,1,D,1.1,10,23,1-1,3-1
+E0,01/12/18,Newcastle,West Ham,0,3,A,0,1,A,2.45,3.25,3,0-1,0-3
+E0,01/12/18,Southampton,Man United,2,2,D,2,2,D,4.2,3.5,1.91,2-2,2-2
+E0,02/12/18,Arsenal,Tottenham,4,2,H,1,2,A,2.55,3.5,2.62,1-2,4-2
+E0,02/12/18,Chelsea,Fulham,2,0,H,1,0,H,1.17,7.5,17,1-0,2-0
+E0,02/12/18,Liverpool,Everton,1,0,H,0,0,D,1.36,5,8.5,0-0,1-0
+E0,04/12/18,Bournemouth,Huddersfield,2,1,H,2,1,H,1.67,3.7,5.5,2-1,2-1
+E0,04/12/18,Brighton,Crystal Palace,3,1,H,3,0,H,2.9,3.1,2.62,3-0,3-1
+E0,04/12/18,Watford,Man City,1,2,A,0,1,A,10,5.5,1.29,0-1,1-2
+E0,04/12/18,West Ham,Cardiff,3,1,H,0,0,D,1.62,3.9,5.8,0-0,3-1
+E0,05/12/18,Burnley,Liverpool,1,3,A,0,0,D,12,5.5,1.27,0-0,1-3
+E0,05/12/18,Everton,Newcastle,1,1,D,1,1,D,1.57,3.8,6.5,1-1,1-1
+E0,05/12/18,Fulham,Leicester,1,1,D,1,0,H,2.9,3.4,2.4,1-0,1-1
+E0,05/12/18,Man United,Arsenal,2,2,D,1,1,D,2.38,3.5,2.9,1-1,2-2
+E0,05/12/18,Tottenham,Southampton,3,1,H,1,0,H,1.36,4.8,9,1-0,3-1
+E0,05/12/18,Wolves,Chelsea,2,1,H,0,1,A,4.8,3.7,1.75,0-1,2-1
+E0,08/12/18,Arsenal,Huddersfield,1,0,H,0,0,D,1.25,6,12,0-0,1-0
+E0,08/12/18,Bournemouth,Liverpool,0,4,A,0,1,A,5.8,4.33,1.55,0-1,0-4
+E0,08/12/18,Burnley,Brighton,1,0,H,1,0,H,2.75,3.1,2.75,1-0,1-0
+E0,08/12/18,Cardiff,Southampton,1,0,H,0,0,D,2.8,3.25,2.6,0-0,1-0
+E0,08/12/18,Chelsea,Man City,2,0,H,1,0,H,3.8,3.7,1.95,1-0,2-0
+E0,08/12/18,Leicester,Tottenham,0,2,A,0,1,A,3.75,3.5,2,0-1,0-2
+E0,08/12/18,Man United,Fulham,4,1,H,3,0,H,1.35,5,9,3-0,4-1
+E0,08/12/18,West Ham,Crystal Palace,3,2,H,0,1,A,2.25,3.3,3.3,0-1,3-2
+E0,09/12/18,Newcastle,Wolves,1,2,A,1,1,D,2.9,3.1,2.62,1-1,1-2
+E0,10/12/18,Everton,Watford,2,2,D,1,0,H,1.73,3.8,4.8,1-0,2-2
 E1,03/08/18,Reading,Derby,1,2,A,0,0,D,3.5,3.2,2.2,0-0,1-2
 E1,04/08/18,Birmingham,Norwich,2,2,D,0,0,D,2.5,3.2,2.88,0-0,2-2
 E1,04/08/18,Brentford,Rotherham,5,1,H,2,0,H,1.5,4.4,5.8,2-0,5-1
@@ -322,6 +362,54 @@ E1,10/11/18,Nottm Forest,Stoke,0,0,D,0,0,D,2.55,3.25,2.88,0-0,0-0
 E1,10/11/18,QPR,Brentford,3,2,H,0,1,A,2.8,3.4,2.45,0-1,3-2
 E1,10/11/18,Reading,Ipswich,2,2,D,1,2,A,2.3,3.2,3.3,1-2,2-2
 E1,10/11/18,West Brom,Leeds,4,1,H,0,0,D,2.6,3.5,2.62,0-0,4-1
+E1,23/11/18,Ipswich,West Brom,1,2,A,0,1,A,4.5,3.5,1.83,0-1,1-2
+E1,24/11/18,Brentford,Middlesbrough,1,2,A,0,0,D,2.45,3.3,2.9,0-0,1-2
+E1,24/11/18,Hull,Nottm Forest,0,2,A,0,0,D,2.55,3.2,2.9,0-0,0-2
+E1,24/11/18,Leeds,Bristol City,2,0,H,0,0,D,1.78,3.8,4.4,0-0,2-0
+E1,24/11/18,Millwall,Bolton,1,1,D,0,1,A,1.6,3.9,6,0-1,1-1
+E1,24/11/18,Preston,Blackburn,4,1,H,2,0,H,2.15,3.4,3.4,2-0,4-1
+E1,24/11/18,Rotherham,Sheffield United,2,2,D,0,1,A,5,3.7,1.73,0-1,2-2
+E1,24/11/18,Sheffield Weds,Derby,1,2,A,1,2,A,3.4,3.6,2.1,1-2,1-2
+E1,24/11/18,Stoke,QPR,2,2,D,1,1,D,2,3.4,3.9,1-1,2-2
+E1,24/11/18,Swansea,Norwich,1,4,A,1,3,A,2.5,3.3,2.88,1-3,1-4
+E1,24/11/18,Wigan,Reading,0,0,D,0,0,D,1.88,3.6,4.2,0-0,0-0
+E1,25/11/18,Aston Villa,Birmingham,4,2,H,2,1,H,1.8,3.7,4.5,2-1,4-2
+E1,27/11/18,Brentford,Sheffield United,2,3,A,1,2,A,2.5,3.4,2.8,1-2,2-3
+E1,27/11/18,Hull,Norwich,0,0,D,0,0,D,3.5,3.4,2.15,0-0,0-0
+E1,27/11/18,Leeds,Reading,1,0,H,0,0,D,1.38,4.75,9,0-0,1-0
+E1,27/11/18,Preston,Middlesbrough,1,1,D,1,0,H,2.9,3.1,2.62,1-0,1-1
+E1,27/11/18,Rotherham,QPR,2,2,D,2,1,H,3,3.3,2.4,2-1,2-2
+E1,27/11/18,Sheffield Weds,Bolton,1,0,H,0,0,D,1.91,3.4,4.33,0-0,1-0
+E1,28/11/18,Aston Villa,Nottm Forest,5,5,D,3,3,D,1.91,3.4,4.33,3-3,5-5
+E1,28/11/18,Ipswich,Bristol City,2,3,A,1,0,H,3.3,3.2,2.3,1-0,2-3
+E1,28/11/18,Millwall,Birmingham,0,2,A,0,1,A,2.15,3.4,3.5,0-1,0-2
+E1,28/11/18,Stoke,Derby,2,1,H,1,0,H,2.4,3.3,3,1-0,2-1
+E1,28/11/18,Swansea,West Brom,1,2,A,1,2,A,2.75,3.3,2.6,1-2,1-2
+E1,28/11/18,Wigan,Blackburn,3,1,H,1,0,H,2.4,3.2,3.1,1-0,3-1
+E1,01/12/18,Birmingham,Preston,3,0,H,0,0,D,2.4,3.2,3.1,0-0,3-0
+E1,01/12/18,Blackburn,Sheffield Weds,4,2,H,1,0,H,1.95,3.5,4,1-0,4-2
+E1,01/12/18,Bolton,Wigan,1,1,D,1,1,D,3.3,3.2,2.3,1-1,1-1
+E1,01/12/18,Derby,Swansea,2,1,H,2,0,H,1.91,3.5,4.2,2-0,2-1
+E1,01/12/18,Middlesbrough,Aston Villa,0,3,A,0,1,A,2.15,3.25,3.6,0-1,0-3
+E1,01/12/18,Norwich,Rotherham,3,1,H,0,1,A,1.4,4.6,8.5,0-1,3-1
+E1,01/12/18,Nottm Forest,Ipswich,2,0,H,2,0,H,1.63,3.7,6,2-0,2-0
+E1,01/12/18,QPR,Hull,2,3,A,1,2,A,1.88,3.4,4.4,1-2,2-3
+E1,01/12/18,Reading,Stoke,2,2,D,1,0,H,3.8,3.4,2.05,1-0,2-2
+E1,01/12/18,Sheffield United,Leeds,0,1,A,0,0,D,2.3,3.4,3.1,0-0,0-1
+E1,02/12/18,Bristol City,Millwall,1,1,D,0,0,D,2.05,3.3,3.9,0-0,1-1
+E1,03/12/18,West Brom,Brentford,1,1,D,0,0,D,1.95,3.7,3.8,0-0,1-1
+E1,07/12/18,West Brom,Aston Villa,2,2,D,1,1,D,2.25,3.5,3.1,1-1,2-2
+E1,08/12/18,Birmingham,Bristol City,0,1,A,0,0,D,2.2,3.3,3.4,0-0,0-1
+E1,08/12/18,Brentford,Swansea,2,3,A,1,3,A,2.05,3.5,3.6,1-3,2-3
+E1,08/12/18,Leeds,QPR,2,1,H,1,1,D,1.67,3.8,5.25,1-1,2-1
+E1,08/12/18,Middlesbrough,Blackburn,1,1,D,0,1,A,1.7,3.6,5.5,0-1,1-1
+E1,08/12/18,Millwall,Hull,2,2,D,1,1,D,2.15,3.3,3.5,1-1,2-2
+E1,08/12/18,Norwich,Bolton,3,2,H,1,0,H,1.35,4.75,10,1-0,3-2
+E1,08/12/18,Nottm Forest,Preston,0,1,A,0,0,D,1.95,3.5,4,0-0,0-1
+E1,08/12/18,Reading,Sheffield United,0,2,A,0,0,D,4.75,3.7,1.75,0-0,0-2
+E1,08/12/18,Sheffield Weds,Rotherham,2,2,D,1,0,H,2.15,3.4,3.5,1-0,2-2
+E1,08/12/18,Stoke,Ipswich,2,0,H,1,0,H,1.47,4,8,1-0,2-0
+E1,08/12/18,Wigan,Derby,0,1,A,0,1,A,3.1,3.4,2.3,0-1,0-1
 E2,04/08/18,Accrington,Gillingham,0,2,A,0,2,A,2.25,3.4,3.1,0-2,0-2
 E2,04/08/18,Barnsley,Oxford,4,0,H,2,0,H,1.73,3.5,4.33,2-0,4-0
 E2,04/08/18,Burton,Rochdale,1,2,A,0,2,A,2.15,3.4,3.3,0-2,1-2
@@ -524,6 +612,53 @@ E2,03/11/18,Walsall,Burton,1,3,A,0,2,A,2.55,3.4,2.7,0-2,1-3
 E2,03/11/18,Wycombe,Peterboro,1,0,H,0,0,D,2.4,3.6,2.75,0-0,1-0
 E2,06/11/18,Gillingham,Blackpool,0,1,A,0,0,D,2.55,3.3,2.75,0-0,0-1
 E2,06/11/18,Walsall,Charlton,0,2,A,0,1,A,2.9,3.5,2.3,0-1,0-2
+E2,17/11/18,Accrington,Barnsley,0,2,A,0,1,A,3.5,3.5,2.05,0-1,0-2
+E2,17/11/18,Bristol Rvs,Scunthorpe,1,2,A,1,1,D,2,3.6,3.5,1-1,1-2
+E2,17/11/18,Burton,Coventry,1,0,H,0,0,D,2.35,3.25,3.1,0-0,1-0
+E2,17/11/18,Doncaster,AFC Wimbledon,2,1,H,1,1,D,1.88,3.6,4,1-1,2-1
+E2,17/11/18,Fleetwood Town,Walsall,0,0,D,0,0,D,2.05,3.4,3.6,0-0,0-0
+E2,17/11/18,Luton,Plymouth,5,1,H,4,0,H,1.52,4.4,5.8,4-0,5-1
+E2,17/11/18,Oxford,Gillingham,1,0,H,0,0,D,2,3.7,3.5,0-0,1-0
+E2,17/11/18,Peterboro,Bradford,1,1,D,0,1,A,1.7,4,4.6,0-1,1-1
+E2,17/11/18,Shrewsbury,Rochdale,3,2,H,1,1,D,2.35,3.2,3.1,1-1,3-2
+E2,17/11/18,Southend,Blackpool,1,2,A,0,1,A,2.05,3.5,3.5,0-1,1-2
+E2,17/11/18,Sunderland,Wycombe,1,1,D,0,0,D,1.67,4.2,4.6,0-0,1-1
+E2,23/11/18,Coventry,Peterboro,1,1,D,0,0,D,2.3,3.4,3,0-0,1-1
+E2,24/11/18,AFC Wimbledon,Southend,2,1,H,1,1,D,2.45,3.25,2.9,1-1,2-1
+E2,24/11/18,Barnsley,Doncaster,1,1,D,0,0,D,1.83,3.8,4,0-0,1-1
+E2,24/11/18,Blackpool,Burton,3,0,H,0,0,D,2.6,3.2,2.75,0-0,3-0
+E2,24/11/18,Bradford,Oxford,2,0,H,2,0,H,3.1,3.4,2.25,2-0,2-0
+E2,24/11/18,Charlton,Bristol Rvs,3,1,H,2,1,H,1.85,3.8,3.9,2-1,3-1
+E2,24/11/18,Gillingham,Luton,1,3,A,0,1,A,3.6,4,1.88,0-1,1-3
+E2,24/11/18,Plymouth,Fleetwood Town,2,1,H,0,0,D,2.75,3.4,2.5,0-0,2-1
+E2,24/11/18,Rochdale,Accrington,1,0,H,0,0,D,2,3.5,3.7,0-0,1-0
+E2,24/11/18,Scunthorpe,Portsmouth,1,2,A,0,2,A,3.7,3.6,1.95,0-2,1-2
+E2,24/11/18,Walsall,Sunderland,2,2,D,0,0,D,3.3,3.4,2.15,0-0,2-2
+E2,24/11/18,Wycombe,Shrewsbury,3,2,H,2,1,H,2.75,3.2,2.6,2-1,3-2
+E2,27/11/18,Accrington,Wycombe,1,2,A,1,0,H,2.05,3.4,3.6,1-0,1-2
+E2,27/11/18,Bristol Rvs,Gillingham,1,2,A,0,1,A,2,3.5,3.7,0-1,1-2
+E2,27/11/18,Burton,Charlton,1,2,A,1,1,D,2.45,3.25,2.88,1-1,1-2
+E2,27/11/18,Doncaster,Blackpool,2,0,H,1,0,H,2.1,3.25,3.6,1-0,2-0
+E2,27/11/18,Fleetwood Town,Coventry,3,0,H,0,0,D,2.4,3.4,2.88,0-0,3-0
+E2,27/11/18,Luton,Bradford,4,0,H,3,0,H,1.33,5,9,3-0,4-0
+E2,27/11/18,Oxford,Rochdale,4,2,H,2,1,H,2.45,3.4,2.8,2-1,4-2
+E2,27/11/18,Peterboro,AFC Wimbledon,1,0,H,0,0,D,2.15,3.5,3.2,0-0,1-0
+E2,27/11/18,Portsmouth,Walsall,2,0,H,1,0,H,1.52,4,6.5,1-0,2-0
+E2,27/11/18,Shrewsbury,Plymouth,2,0,H,1,0,H,1.83,3.5,4.4,1-0,2-0
+E2,27/11/18,Southend,Scunthorpe,2,0,H,1,0,H,1.91,3.5,4,1-0,2-0
+E2,27/11/18,Sunderland,Barnsley,4,2,H,3,1,H,2.6,3.4,2.62,3-1,4-2
+E2,08/12/18,AFC Wimbledon,Rochdale,1,1,D,0,1,A,2.5,3.3,2.8,0-1,1-1
+E2,08/12/18,Blackpool,Charlton,2,1,H,1,0,H,2.55,3.1,2.88,1-0,2-1
+E2,08/12/18,Bristol Rvs,Doncaster,0,4,A,0,2,A,2.9,3.3,2.4,0-2,0-4
+E2,08/12/18,Burton,Shrewsbury,2,1,H,1,0,H,2.2,3.25,3.4,1-0,2-1
+E2,08/12/18,Luton,Fleetwood Town,2,0,H,1,0,H,1.47,4.4,6.5,1-0,2-0
+E2,08/12/18,Peterboro,Oxford,2,2,D,1,1,D,2.05,3.8,3.25,1-1,2-2
+E2,08/12/18,Plymouth,Bradford,3,3,D,1,2,A,2.25,3.5,3,1-2,3-3
+E2,08/12/18,Portsmouth,Southend,2,0,H,2,0,H,1.65,3.8,5.25,2-0,2-0
+E2,08/12/18,Scunthorpe,Gillingham,0,2,A,0,0,D,2.15,3.4,3.3,0-0,0-2
+E2,08/12/18,Walsall,Coventry,2,1,H,0,1,A,2.62,3.4,2.6,0-1,2-1
+E2,08/12/18,Wycombe,Barnsley,1,0,H,0,0,D,4,3.6,1.88,0-0,1-0
+E2,11/12/18,Portsmouth,Charlton,1,2,A,0,2,A,1.75,3.6,4.75,0-2,1-2
 E3,04/08/18,Bury,Yeovil,1,0,H,0,0,D,1.85,3.7,4,0-0,1-0
 E3,04/08/18,Cheltenham,Crawley Town,0,1,A,0,0,D,1.95,3.7,3.6,0-0,0-1
 E3,04/08/18,Crewe,Morecambe,6,0,H,2,0,H,1.91,3.7,3.75,2-0,6-0
@@ -727,6 +862,52 @@ E3,03/11/18,Stevenage,Oldham,3,2,H,1,1,D,2.8,3.1,2.62,1-1,3-2
 E3,03/11/18,Tranmere,Exeter,2,0,H,1,0,H,2.3,3.3,3.1,1-0,2-0
 E3,06/11/18,Mansfield,Grimsby,2,1,H,0,1,A,1.5,4.2,6.5,0-1,2-1
 E3,06/11/18,Notts County,Oldham,0,0,D,0,0,D,2.75,3.3,2.55,0-0,0-0
+E3,17/11/18,Bury,Stevenage,4,0,H,0,0,D,1.63,3.9,5.25,0-0,4-0
+E3,17/11/18,Crewe,Tranmere,3,2,H,1,1,D,2.9,3.4,2.35,1-1,3-2
+E3,17/11/18,Exeter,Northampton,2,2,D,2,1,H,2.4,3.5,2.8,2-1,2-2
+E3,17/11/18,Forest Green,Morecambe,0,1,A,0,0,D,1.55,4.2,5.8,0-0,0-1
+E3,17/11/18,Grimsby,Crawley Town,1,0,H,0,0,D,2.5,3.6,2.6,0-0,1-0
+E3,17/11/18,Mansfield,Port Vale,1,0,H,1,0,H,1.52,4.2,6,1-0,1-0
+E3,17/11/18,Milton Keynes Dons,Macclesfield,2,0,H,0,0,D,1.36,5,8,0-0,2-0
+E3,17/11/18,Newport County,Colchester,2,0,H,0,0,D,2.75,3.3,2.55,0-0,2-0
+E3,17/11/18,Notts County,Cheltenham,0,3,A,0,1,A,2.3,3.3,3.1,0-1,0-3
+E3,17/11/18,Oldham,Cambridge,3,1,H,0,1,A,1.88,3.6,4,0-1,3-1
+E3,17/11/18,Swindon,Carlisle,0,4,A,0,1,A,2.15,3.5,3.25,0-1,0-4
+E3,24/11/18,Cambridge,Bury,2,2,D,1,2,A,3.6,3.5,2,1-2,2-2
+E3,24/11/18,Carlisle,Forest Green,1,2,A,0,1,A,2.9,3.4,2.38,0-1,1-2
+E3,24/11/18,Cheltenham,Newport County,2,1,H,2,0,H,2.8,3.2,2.55,2-0,2-1
+E3,24/11/18,Colchester,Exeter,1,1,D,0,0,D,2.1,3.4,3.5,0-0,1-1
+E3,24/11/18,Crawley Town,Crewe,3,0,H,1,0,H,2.4,3.4,2.88,1-0,3-0
+E3,24/11/18,Lincoln,Mansfield,1,1,D,0,0,D,2.38,3.25,3,0-0,1-1
+E3,24/11/18,Macclesfield,Yeovil,1,0,H,0,0,D,3.5,3.6,2,0-0,1-0
+E3,24/11/18,Morecambe,Notts County,1,1,D,0,0,D,2.6,3.4,2.6,0-0,1-1
+E3,24/11/18,Northampton,Grimsby,2,2,D,1,1,D,1.67,4,4.75,1-1,2-2
+E3,24/11/18,Port Vale,Swindon,0,1,A,0,1,A,2.6,3.3,2.7,0-1,0-1
+E3,24/11/18,Stevenage,Milton Keynes Dons,3,2,H,1,1,D,4.5,3.9,1.73,1-1,3-2
+E3,24/11/18,Tranmere,Oldham,1,1,D,0,1,A,2.5,3.3,2.8,0-1,1-1
+E3,27/11/18,Bury,Cheltenham,4,1,H,2,1,H,1.44,4.4,7,2-1,4-1
+E3,27/11/18,Crewe,Cambridge,2,0,H,1,0,H,2.55,3.5,2.62,1-0,2-0
+E3,27/11/18,Exeter,Macclesfield,0,1,A,0,0,D,1.6,3.9,5.5,0-0,0-1
+E3,27/11/18,Forest Green,Colchester,0,1,A,0,1,A,2.38,3.25,3,0-1,0-1
+E3,27/11/18,Grimsby,Tranmere,5,2,H,2,1,H,3,3.2,2.4,2-1,5-2
+E3,27/11/18,Milton Keynes Dons,Morecambe,2,0,H,0,0,D,1.38,4.75,8,0-0,2-0
+E3,27/11/18,Newport County,Northampton,3,1,H,3,1,H,2.35,3.4,2.9,3-1,3-1
+E3,27/11/18,Notts County,Carlisle,1,1,D,0,0,D,2.7,3.25,2.6,0-0,1-1
+E3,27/11/18,Oldham,Lincoln,1,1,D,0,0,D,2.62,3.1,2.8,0-0,1-1
+E3,27/11/18,Swindon,Stevenage,3,2,H,3,1,H,2.2,3.3,3.3,3-1,3-2
+E3,27/11/18,Yeovil,Port Vale,0,3,A,0,2,A,2.45,3.1,3,0-2,0-3
+E3,08/12/18,Bury,Exeter,2,0,H,1,0,H,1.53,4.2,5.8,1-0,2-0
+E3,08/12/18,Cheltenham,Grimsby,2,1,H,1,0,H,2.15,3.25,3.5,1-0,2-1
+E3,08/12/18,Colchester,Macclesfield,1,0,H,1,0,H,1.52,4.2,6,1-0,1-0
+E3,08/12/18,Crawley Town,Northampton,0,1,A,0,0,D,3.4,3.4,2.1,0-0,0-1
+E3,08/12/18,Crewe,Oldham,0,2,A,0,2,A,2.8,3.3,2.5,0-2,0-2
+E3,08/12/18,Mansfield,Notts County,2,0,H,1,0,H,1.4,4.75,7.5,1-0,2-0
+E3,08/12/18,Milton Keynes Dons,Carlisle,2,0,H,0,0,D,1.55,4,6,0-0,2-0
+E3,08/12/18,Morecambe,Port Vale,2,2,D,2,0,H,2.88,3.2,2.5,2-0,2-2
+E3,08/12/18,Stevenage,Lincoln,0,1,A,0,1,A,3.75,3.4,2,0-1,0-1
+E3,08/12/18,Swindon,Newport County,2,1,H,1,0,H,2.35,3.3,3,1-0,2-1
+E3,08/12/18,Tranmere,Cambridge,1,0,H,0,0,D,2.1,3.5,3.4,0-0,1-0
+E3,08/12/18,Yeovil,Forest Green,1,2,A,0,0,D,3.5,3.5,2.05,0-0,1-2
 EC,04/08/18,Aldershot,Barnet,0,0,D,0,0,D,2.6,3.3,2.7,0-0,0-0
 EC,04/08/18,Barrow,Havant & Waterlooville,3,0,H,1,0,H,2.75,3.2,2.6,1-0,3-0
 EC,04/08/18,Boreham Wood,Dag and Red,1,0,H,0,0,D,1.8,3.4,4,0-0,1-0
@@ -954,6 +1135,60 @@ EC,03/11/18,Havant & Waterlooville,Halifax,2,1,H,0,0,D,2.3,3.5,2.9,0-0,2-1
 EC,03/11/18,Solihull,Boreham Wood,0,0,D,0,0,D,2.35,3.25,3,0-0,0-0
 EC,03/11/18,Sutton,Dag and Red,1,0,H,0,0,D,1.57,4.2,5.25,0-0,1-0
 EC,03/11/18,Wrexham,Gateshead,3,1,H,1,0,H,2.1,3.3,3.5,1-0,3-1
+EC,17/11/18,Barrow,Eastleigh,0,3,A,0,2,A,2.5,3.25,2.8,0-2,0-3
+EC,17/11/18,Boreham Wood,Ebbsfleet,0,0,D,0,0,D,2.25,3.25,3.2,0-0,0-0
+EC,17/11/18,Braintree Town,Solihull,0,3,A,0,0,D,4,3.4,1.91,0-0,0-3
+EC,17/11/18,Chesterfield,Havant & Waterlooville,0,0,D,0,0,D,1.95,3.3,4,0-0,0-0
+EC,17/11/18,Dag and Red,Fylde,2,1,H,1,1,D,4.33,3.5,1.83,1-1,2-1
+EC,17/11/18,Gateshead,Sutton,0,0,D,0,0,D,2.5,3.25,2.8,0-0,0-0
+EC,17/11/18,Halifax,Dover Athletic,1,0,H,1,0,H,2.2,3.25,3.3,1-0,1-0
+EC,17/11/18,Leyton Orient,Bromley,3,1,H,0,1,A,1.62,4,5,0-1,3-1
+EC,17/11/18,Maidstone,Wrexham,1,1,D,0,0,D,3.7,3.3,2.05,0-0,1-1
+EC,17/11/18,Salford,Aldershot,4,0,H,2,0,H,1.62,3.9,5.25,2-0,4-0
+EC,18/11/18,Hartlepool,Barnet,1,3,A,1,2,A,2.55,3.2,2.8,1-2,1-3
+EC,24/11/18,Aldershot,Barrow,0,2,A,0,1,A,2,3.4,3.7,0-1,0-2
+EC,24/11/18,Barnet,Gateshead,1,2,A,0,1,A,2.2,3.25,3.3,0-1,1-2
+EC,24/11/18,Bromley,Dag and Red,0,2,A,0,1,A,1.78,3.7,4.33,0-1,0-2
+EC,24/11/18,Dover Athletic,Hartlepool,2,1,H,2,0,H,2.4,3.3,2.88,2-0,2-1
+EC,24/11/18,Eastleigh,Chesterfield,1,1,D,1,1,D,2.6,3.1,2.8,1-1,1-1
+EC,24/11/18,Ebbsfleet,Halifax,4,0,H,2,0,H,1.75,3.5,4.8,2-0,4-0
+EC,24/11/18,Fylde,Boreham Wood,2,1,H,0,0,D,1.95,3.5,3.75,0-0,2-1
+EC,24/11/18,Harrogate,Braintree Town,3,1,H,1,1,D,1.38,4.8,7.5,1-1,3-1
+EC,24/11/18,Havant & Waterlooville,Maidstone,5,2,H,2,0,H,2.05,3.4,3.5,2-0,5-2
+EC,24/11/18,Solihull,Salford,0,0,D,0,0,D,2.75,3.3,2.5,0-0,0-0
+EC,24/11/18,Sutton,Maidenhead,0,1,A,0,0,D,1.44,4.4,7,0-0,0-1
+EC,24/11/18,Wrexham,Leyton Orient,0,2,A,0,0,D,2.7,3.1,2.7,0-0,0-2
+EC,27/11/18,Barrow,Wrexham,0,0,D,0,0,D,3,3.2,2.4,0-0,0-0
+EC,27/11/18,Boreham Wood,Dover Athletic,0,1,A,0,0,D,2,3.3,3.8,0-0,0-1
+EC,27/11/18,Braintree Town,Sutton,2,2,D,1,0,H,4.2,3.6,1.83,1-0,2-2
+EC,27/11/18,Chesterfield,Bromley,1,1,D,0,1,A,1.91,3.3,4.2,0-1,1-1
+EC,27/11/18,Dag and Red,Havant & Waterlooville,3,1,H,1,0,H,2.4,3.3,2.9,1-0,3-1
+EC,27/11/18,Hartlepool,Fylde,1,2,A,0,1,A,3.4,3.25,2.15,0-1,1-2
+EC,27/11/18,Leyton Orient,Aldershot,0,0,D,0,0,D,1.42,4.4,7.5,0-0,0-0
+EC,27/11/18,Maidenhead,Ebbsfleet,1,1,D,0,1,A,3.5,3.3,2.1,0-1,1-1
+EC,27/11/18,Maidstone,Eastleigh,1,3,A,0,1,A,3.1,3.4,2.25,0-1,1-3
+EC,27/11/18,Salford,Harrogate,3,2,H,2,2,D,1.8,3.7,4.2,2-2,3-2
+EC,01/12/18,Aldershot,Ebbsfleet,0,2,A,0,0,D,3.1,3.2,2.35,0-0,0-2
+EC,01/12/18,Braintree Town,Barrow,0,2,A,0,1,A,2.9,3.3,2.38,0-1,0-2
+EC,01/12/18,Eastleigh,Dover Athletic,2,2,D,1,1,D,2.05,3.25,3.7,1-1,2-2
+EC,01/12/18,Fylde,Sutton,2,2,D,1,0,H,2,3.4,3.7,1-0,2-2
+EC,01/12/18,Hartlepool,Dag and Red,1,2,A,1,0,H,1.78,3.6,4.4,1-0,1-2
+EC,01/12/18,Leyton Orient,Gateshead,2,0,H,0,0,D,1.75,3.6,4.6,0-0,2-0
+EC,01/12/18,Maidenhead,Harrogate,1,2,A,1,1,D,3.5,3.4,2.05,1-1,1-2
+EC,01/12/18,Salford,Havant & Waterlooville,3,0,H,2,0,H,1.33,4.75,9.5,2-0,3-0
+EC,04/12/18,Solihull,Harrogate,2,0,H,1,0,H,2.62,3.3,2.6,1-0,2-0
+EC,08/12/18,Barrow,Maidstone,1,0,H,0,0,D,1.85,3.5,4.2,0-0,1-0
+EC,08/12/18,Boreham Wood,Leyton Orient,1,0,H,1,0,H,3.8,3.5,1.95,1-0,1-0
+EC,08/12/18,Chesterfield,Salford,2,0,H,1,0,H,3.7,3.4,2,1-0,2-0
+EC,08/12/18,Dag and Red,Halifax,1,1,D,0,0,D,2,3.4,3.75,0-0,1-1
+EC,08/12/18,Dover Athletic,Fylde,2,1,H,0,1,A,3.5,3.4,2.05,0-1,2-1
+EC,08/12/18,Ebbsfleet,Barnet,1,0,H,0,0,D,2.2,3.2,3.4,0-0,1-0
+EC,08/12/18,Gateshead,Bromley,2,0,H,1,0,H,1.95,3.5,3.75,1-0,2-0
+EC,08/12/18,Harrogate,Aldershot,4,1,H,1,1,D,1.53,4.2,5.8,1-1,4-1
+EC,08/12/18,Havant & Waterlooville,Braintree Town,2,1,H,0,0,D,1.88,3.6,3.9,0-0,2-1
+EC,08/12/18,Maidenhead,Hartlepool,0,1,A,0,1,A,2.7,3.4,2.5,0-1,0-1
+EC,08/12/18,Sutton,Solihull,2,2,D,1,1,D,2,3.25,3.9,1-1,2-2
+EC,08/12/18,Wrexham,Eastleigh,2,0,H,1,0,H,1.91,3.3,4.2,1-0,2-0
 SP1,17/08/18,Betis,Levante,0,3,A,0,1,A,1.67,3.9,4.75,0-1,0-3
 SP1,17/08/18,Girona,Valladolid,0,0,D,0,0,D,1.75,3.6,4.6,0-0,0-0
 SP1,18/08/18,Barcelona,Alaves,3,0,H,0,0,D,1.08,9,29,0-0,3-0
@@ -1074,6 +1309,36 @@ SP1,11/11/18,Barcelona,Betis,3,4,A,0,2,A,1.18,7.5,13,0-2,3-4
 SP1,11/11/18,Celta,Real Madrid,2,4,A,0,1,A,4.8,4.6,1.6,0-1,2-4
 SP1,11/11/18,Sevilla,Espanol,2,1,H,0,1,A,1.8,3.8,4.33,0-1,2-1
 SP1,11/11/18,Vallecano,Villarreal,2,2,D,1,1,D,3.1,3.4,2.3,1-1,2-2
+SP1,23/11/18,Leganes,Alaves,1,0,H,1,0,H,2.2,3.1,3.7,1-0,1-0
+SP1,24/11/18,Ath Madrid,Barcelona,1,1,D,0,0,D,3.1,3.2,2.4,0-0,1-1
+SP1,24/11/18,Eibar,Real Madrid,3,0,H,1,0,H,5.8,4.5,1.52,1-0,3-0
+SP1,24/11/18,Huesca,Levante,2,2,D,1,1,D,2.3,3.4,3.1,1-1,2-2
+SP1,24/11/18,Valencia,Vallecano,3,0,H,1,0,H,1.42,4.5,8,1-0,3-0
+SP1,25/11/18,Ath Bilbao,Getafe,1,1,D,0,0,D,2.05,3.25,3.9,0-0,1-1
+SP1,25/11/18,Espanol,Girona,1,3,A,0,2,A,1.65,3.5,6,0-2,1-3
+SP1,25/11/18,Sevilla,Valladolid,1,0,H,1,0,H,1.36,5,8.5,1-0,1-0
+SP1,25/11/18,Villarreal,Betis,2,1,H,0,0,D,2.2,3.5,3.25,0-0,2-1
+SP1,26/11/18,Sociedad,Celta,2,1,H,1,0,H,1.8,3.8,4.33,1-0,2-1
+SP1,30/11/18,Vallecano,Eibar,1,0,H,0,0,D,3,3.4,2.35,0-0,1-0
+SP1,01/12/18,Celta,Huesca,2,0,H,1,0,H,1.7,3.8,5,1-0,2-0
+SP1,01/12/18,Getafe,Espanol,3,0,H,0,0,D,2.38,3,3.4,0-0,3-0
+SP1,01/12/18,Real Madrid,Valencia,2,0,H,1,0,H,1.44,4.6,7,1-0,2-0
+SP1,01/12/18,Valladolid,Leganes,2,4,A,0,2,A,2.38,3,3.4,0-2,2-4
+SP1,02/12/18,Alaves,Sevilla,1,1,D,1,0,H,3.7,3.6,2,1-0,1-1
+SP1,02/12/18,Barcelona,Villarreal,2,0,H,1,0,H,1.22,6.5,13,1-0,2-0
+SP1,02/12/18,Betis,Sociedad,1,0,H,1,0,H,2.25,3.1,3.5,1-0,1-0
+SP1,02/12/18,Girona,Ath Madrid,1,1,D,1,0,H,5.5,3.4,1.75,1-0,1-1
+SP1,03/12/18,Levante,Ath Bilbao,3,0,H,1,0,H,2.7,3.3,2.6,1-0,3-0
+SP1,07/12/18,Leganes,Getafe,1,1,D,0,1,A,2.7,2.9,3,0-1,1-1
+SP1,08/12/18,Ath Madrid,Alaves,3,0,H,1,0,H,1.38,4.33,11,1-0,3-0
+SP1,08/12/18,Espanol,Barcelona,0,4,A,0,3,A,6.5,4.4,1.5,0-3,0-4
+SP1,08/12/18,Valencia,Sevilla,1,1,D,0,0,D,2.2,3.5,3.25,0-0,1-1
+SP1,08/12/18,Villarreal,Celta,2,3,A,0,1,A,1.78,3.8,4.4,0-1,2-3
+SP1,09/12/18,Betis,Vallecano,2,0,H,0,0,D,1.53,4.4,5.8,0-0,2-0
+SP1,09/12/18,Eibar,Levante,4,4,D,1,2,A,1.78,3.8,4.4,1-2,4-4
+SP1,09/12/18,Huesca,Real Madrid,0,1,A,0,1,A,9.5,5.8,1.3,0-1,0-1
+SP1,09/12/18,Sociedad,Valladolid,1,2,A,0,1,A,1.6,3.8,6,0-1,1-2
+SP1,10/12/18,Ath Bilbao,Girona,1,0,H,0,0,D,1.95,3.5,4,0-0,1-0
 SP2,17/08/18,Albacete,La Coruna,1,1,D,0,0,D,2.9,3,2.6,0-0,1-1
 SP2,17/08/18,Cadiz,Almeria,1,0,H,0,0,D,1.61,3.6,6,0-0,1-0
 SP2,18/08/18,Alcorcon,Sp Gijon,1,1,D,0,0,D,2.4,3.2,3,0-0,1-1
@@ -1216,7 +1481,51 @@ SP2,11/11/18,Mallorca,Cordoba,3,0,H,0,0,D,1.7,3.5,5.25,0-0,3-0
 SP2,11/11/18,Rayo Majadahonda,Almeria,2,0,H,1,0,H,2.54,3.1,2.9,1-0,2-0
 SP2,11/11/18,Sp Gijon,Malaga,2,2,D,0,0,D,2,3.2,4,0-0,2-2
 SP2,11/11/18,Tenerife,Albacete,0,0,D,0,0,D,1.75,3.25,5.5,0-0,0-0
-SP2,12/11/18,Gimnastic,Zaragoza,,,,,,,2.62,2.9,2.87,0-0,0-0
+SP2,12/11/18,Gimnastic,Zaragoza,1,3,A,1,1,D,2.62,2.9,2.87,1-1,1-3
+SP2,16/11/18,Las Palmas,Granada,2,2,D,1,0,H,2.3,3.1,3.3,1-0,2-2
+SP2,17/11/18,Malaga,Gimnastic,2,0,H,1,0,H,1.33,4.75,10,1-0,2-0
+SP2,17/11/18,Osasuna,Tenerife,2,0,H,2,0,H,1.75,3.25,5.25,2-0,2-0
+SP2,17/11/18,Oviedo,Sp Gijon,2,1,H,2,0,H,2.14,3,3.8,2-0,2-1
+SP2,17/11/18,Reus Deportiu,Extremadura UD,1,4,A,1,1,D,2.25,3,3.5,1-1,1-4
+SP2,17/11/18,Zaragoza,Mallorca,2,2,D,0,2,A,2.2,2.9,3.75,0-2,2-2
+SP2,18/11/18,Albacete,Lugo,1,0,H,0,0,D,1.75,3.4,5,0-0,1-0
+SP2,18/11/18,Alcorcon,Elche,1,0,H,0,0,D,1.72,3.25,5.75,0-0,1-0
+SP2,18/11/18,Cordoba,Cadiz,1,3,A,0,0,D,2.87,3,2.62,0-0,1-3
+SP2,18/11/18,Numancia,Rayo Majadahonda,1,2,A,0,1,A,1.85,3.4,4.33,0-1,1-2
+SP2,19/11/18,Almeria,La Coruna,1,1,D,0,0,D,3,2.87,2.6,0-0,1-1
+SP2,23/11/18,Granada,Sp Gijon,1,2,A,0,1,A,1.57,3.75,6.25,0-1,1-2
+SP2,24/11/18,Cadiz,Las Palmas,4,1,H,2,0,H,2,3.1,4.2,2-0,4-1
+SP2,24/11/18,Gimnastic,Almeria,2,2,D,1,2,A,3,2.9,2.6,1-2,2-2
+SP2,24/11/18,La Coruna,Osasuna,2,0,H,1,0,H,1.9,3.3,4.2,1-0,2-0
+SP2,24/11/18,Lugo,Cordoba,2,1,H,2,0,H,1.9,3.2,4.33,2-0,2-1
+SP2,25/11/18,Alcorcon,Zaragoza,2,0,H,0,0,D,1.83,3.25,4.75,0-0,2-0
+SP2,25/11/18,Elche,Albacete,0,1,A,0,1,A,2.14,3.1,3.6,0-1,0-1
+SP2,25/11/18,Extremadura UD,Malaga,1,0,H,1,0,H,3.75,3.1,2.1,1-0,1-0
+SP2,25/11/18,Mallorca,Numancia,1,0,H,1,0,H,1.85,3.4,4.33,1-0,1-0
+SP2,25/11/18,Oviedo,Reus Deportiu,3,0,H,0,0,D,1.61,3.6,6,0-0,3-0
+SP2,25/11/18,Tenerife,Rayo Majadahonda,2,1,H,1,0,H,1.75,3.5,4.75,1-0,2-1
+SP2,30/11/18,Zaragoza,Cadiz,0,1,A,0,1,A,2.6,2.87,3.1,0-1,0-1
+SP2,01/12/18,Almeria,Extremadura UD,1,1,D,1,1,D,1.85,3.3,4.75,1-1,1-1
+SP2,01/12/18,Cordoba,Elche,1,1,D,0,1,A,2.25,3,3.5,0-1,1-1
+SP2,01/12/18,Malaga,Granada,0,1,A,0,0,D,2,3.1,4.2,0-0,0-1
+SP2,01/12/18,Reus Deportiu,Mallorca,0,2,A,0,0,D,3.75,3,2.14,0-0,0-2
+SP2,01/12/18,Sp Gijon,Tenerife,2,1,H,0,0,D,1.95,3,4.5,0-0,2-1
+SP2,02/12/18,Albacete,Alcorcon,2,1,H,1,0,H,2.6,2.8,3.1,1-0,2-1
+SP2,02/12/18,Las Palmas,Oviedo,0,0,D,0,0,D,1.72,3.25,5.75,0-0,0-0
+SP2,02/12/18,Numancia,Gimnastic,3,0,H,0,0,D,1.57,3.4,7.5,0-0,3-0
+SP2,02/12/18,Osasuna,Lugo,1,0,H,0,0,D,1.53,3.5,8,0-0,1-0
+SP2,02/12/18,Rayo Majadahonda,La Coruna,0,0,D,0,0,D,3.6,3.2,2.1,0-0,0-0
+SP2,07/12/18,Tenerife,Extremadura UD,0,0,D,0,0,D,1.72,3.6,4.75,0-0,0-0
+SP2,08/12/18,Albacete,Osasuna,2,2,D,2,1,H,2.6,3,2.9,2-1,2-2
+SP2,08/12/18,Gimnastic,Granada,0,1,A,0,1,A,4.33,3,2,0-1,0-1
+SP2,08/12/18,La Coruna,Numancia,2,2,D,2,0,H,1.5,3.75,7.5,2-0,2-2
+SP2,08/12/18,Mallorca,Malaga,1,2,A,0,1,A,2.5,3,3,0-1,1-2
+SP2,08/12/18,Oviedo,Almeria,1,2,A,1,2,A,1.95,3.2,4.2,1-2,1-2
+SP2,09/12/18,Alcorcon,Reus Deportiu,0,1,A,0,1,A,1.36,4.2,11,0-1,0-1
+SP2,09/12/18,Cadiz,Rayo Majadahonda,1,0,H,0,0,D,1.53,3.8,6.5,0-0,1-0
+SP2,09/12/18,Elche,Sp Gijon,0,0,D,0,0,D,2.5,2.9,3.1,0-0,0-0
+SP2,09/12/18,Lugo,Las Palmas,4,2,H,2,1,H,2.45,3,3.1,2-1,4-2
+SP2,09/12/18,Zaragoza,Cordoba,0,0,D,0,0,D,1.72,3.5,5,0-0,0-0
 D1,24/08/18,Bayern Munich,Hoffenheim,3,1,H,1,0,H,1.17,8,13,1-0,3-1
 D1,25/08/18,Fortuna Dusseldorf,Augsburg,1,2,A,1,0,H,2.45,3.25,2.9,1-0,1-2
 D1,25/08/18,Freiburg,Ein Frankfurt,0,2,A,0,1,A,2.25,3.3,3.2,0-1,0-2
@@ -1316,6 +1625,33 @@ D1,10/11/18,Nurnberg,Stuttgart,0,2,A,0,0,D,2.45,3.3,2.9,0-0,0-2
 D1,10/11/18,Werder Bremen,Mgladbach,1,3,A,0,1,A,2.35,3.6,2.8,0-1,1-3
 D1,11/11/18,Ein Frankfurt,Schalke 04,3,0,H,0,0,D,2.25,3.3,3.2,0-0,3-0
 D1,11/11/18,RB Leipzig,Leverkusen,3,0,H,1,0,H,1.83,4,3.8,1-0,3-0
+D1,23/11/18,Leverkusen,Stuttgart,2,0,H,0,0,D,1.5,4.4,6,0-0,2-0
+D1,24/11/18,Augsburg,Ein Frankfurt,1,3,A,0,1,A,2.6,3.6,2.5,0-1,1-3
+D1,24/11/18,Bayern Munich,Fortuna Dusseldorf,3,3,D,2,1,H,1.06,12,26,2-1,3-3
+D1,24/11/18,Hertha,Hoffenheim,3,3,D,1,2,A,3.25,3.8,2.05,1-2,3-3
+D1,24/11/18,Mainz,Dortmund,1,2,A,0,0,D,5,4.2,1.62,0-0,1-2
+D1,24/11/18,Schalke 04,Nurnberg,5,2,H,2,1,H,1.5,3.9,7.5,2-1,5-2
+D1,24/11/18,Wolfsburg,RB Leipzig,1,0,H,0,0,D,3.4,3.5,2.1,0-0,1-0
+D1,25/11/18,Freiburg,Werder Bremen,1,1,D,1,0,H,2.7,3.4,2.55,1-0,1-1
+D1,25/11/18,Mgladbach,Hannover,4,1,H,2,1,H,1.42,4.75,7,2-1,4-1
+D1,30/11/18,Fortuna Dusseldorf,Mainz,0,1,A,0,0,D,2.7,3.4,2.55,0-0,0-1
+D1,01/12/18,Dortmund,Freiburg,2,0,H,1,0,H,1.29,5.5,10,1-0,2-0
+D1,01/12/18,Hannover,Hertha,0,2,A,0,1,A,2.62,3.4,2.6,0-1,0-2
+D1,01/12/18,Hoffenheim,Schalke 04,1,1,D,0,0,D,1.78,3.9,4.2,0-0,1-1
+D1,01/12/18,Stuttgart,Augsburg,1,0,H,1,0,H,2.6,3.4,2.62,1-0,1-0
+D1,01/12/18,Werder Bremen,Bayern Munich,1,2,A,1,1,D,7.5,5,1.38,1-1,1-2
+D1,02/12/18,Ein Frankfurt,Wolfsburg,1,2,A,0,1,A,1.78,3.7,4.33,0-1,1-2
+D1,02/12/18,RB Leipzig,Mgladbach,2,0,H,2,0,H,1.88,3.9,3.7,2-0,2-0
+D1,03/12/18,Nurnberg,Leverkusen,1,1,D,0,1,A,4.33,3.9,1.75,0-1,1-1
+D1,07/12/18,Werder Bremen,Fortuna Dusseldorf,3,1,H,1,1,D,1.7,3.8,4.8,1-1,3-1
+D1,08/12/18,Bayern Munich,Nurnberg,3,0,H,2,0,H,1.07,10,34,2-0,3-0
+D1,08/12/18,Freiburg,RB Leipzig,3,0,H,2,0,H,3.9,3.8,1.85,2-0,3-0
+D1,08/12/18,Hertha,Ein Frankfurt,1,0,H,1,0,H,2.6,3.4,2.62,1-0,1-0
+D1,08/12/18,Leverkusen,Augsburg,1,0,H,0,0,D,1.67,4.2,4.5,0-0,1-0
+D1,08/12/18,Schalke 04,Dortmund,1,2,A,0,1,A,3.3,3.4,2.15,0-1,1-2
+D1,08/12/18,Wolfsburg,Hoffenheim,2,2,D,2,1,H,2.9,3.7,2.25,2-1,2-2
+D1,09/12/18,Mainz,Hannover,1,1,D,0,1,A,1.91,3.5,4,0-1,1-1
+D1,09/12/18,Mgladbach,Stuttgart,3,0,H,0,0,D,1.47,4.33,6.5,0-0,3-0
 D2,03/08/18,Hamburg,Holstein Kiel,0,3,A,0,0,D,1.7,3.6,5,0-0,0-3
 D2,04/08/18,Bochum,FC Koln,0,2,A,0,1,A,2.8,3.1,2.6,0-1,0-2
 D2,04/08/18,Greuther Furth,Sandhausen,3,1,H,0,0,D,2.25,3.2,3.3,0-0,3-1
@@ -1432,7 +1768,34 @@ D2,10/11/18,St Pauli,Heidenheim,1,1,D,0,0,D,1.95,3.3,4,0-0,1-1
 D2,11/11/18,Ingolstadt,Bielefeld,1,1,D,0,0,D,2.25,3.3,3.2,0-0,1-1
 D2,11/11/18,Magdeburg,Regensburg,2,3,A,1,1,D,2.54,3.3,2.62,1-1,2-3
 D2,11/11/18,Union Berlin,Greuther Furth,4,0,H,3,0,H,1.72,3.4,5.25,3-0,4-0
-D2,12/11/18,Bochum,Darmstadt,,,,,,,2.04,3.4,3.5,0-0,0-0
+D2,12/11/18,Bochum,Darmstadt,1,0,H,0,0,D,2.04,3.4,3.5,0-0,1-0
+D2,23/11/18,Bielefeld,Duisburg,0,1,A,0,0,D,2.37,3.4,2.87,0-0,0-1
+D2,23/11/18,Greuther Furth,Magdeburg,3,2,H,1,1,D,2.3,3.2,3.2,1-1,3-2
+D2,24/11/18,Bochum,Erzgebirge Aue,2,1,H,0,1,A,1.8,3.75,4.2,0-1,2-1
+D2,24/11/18,Darmstadt,FC Koln,0,3,A,0,0,D,4.5,3.75,1.75,0-0,0-3
+D2,24/11/18,Holstein Kiel,Sandhausen,2,1,H,2,0,H,2.04,3.4,3.5,2-0,2-1
+D2,25/11/18,Dresden,Ingolstadt,2,0,H,2,0,H,2.25,3.4,3.1,2-0,2-0
+D2,25/11/18,Heidenheim,Paderborn,1,5,A,1,2,A,2.54,3.3,2.7,1-2,1-5
+D2,25/11/18,Regensburg,St Pauli,1,1,D,0,1,A,2.37,3.3,2.9,0-1,1-1
+D2,26/11/18,Hamburg,Union Berlin,2,2,D,0,1,A,1.95,3.3,4,0-1,2-2
+D2,30/11/18,Erzgebirge Aue,Regensburg,1,1,D,1,1,D,2.9,3.5,2.3,1-1,1-1
+D2,30/11/18,Paderborn,Bielefeld,2,2,D,0,0,D,1.61,4,5,0-0,2-2
+D2,01/12/18,FC Koln,Greuther Furth,4,0,H,1,0,H,1.36,4.75,8,1-0,4-0
+D2,01/12/18,Ingolstadt,Hamburg,1,2,A,0,1,A,3.3,3.5,2.1,0-1,1-2
+D2,01/12/18,St Pauli,Dresden,1,1,D,0,0,D,1.95,3.3,4,0-0,1-1
+D2,01/12/18,Union Berlin,Darmstadt,3,1,H,2,0,H,1.72,3.6,4.75,2-0,3-1
+D2,02/12/18,Duisburg,Holstein Kiel,0,4,A,0,0,D,2.5,3.3,2.8,0-0,0-4
+D2,02/12/18,Magdeburg,Bochum,0,0,D,0,0,D,2.9,3.2,2.45,0-0,0-0
+D2,02/12/18,Sandhausen,Heidenheim,1,2,A,1,2,A,2.3,3.2,3.1,1-2,1-2
+D2,07/12/18,Hamburg,Paderborn,1,0,H,1,0,H,1.66,4,4.5,1-0,1-0
+D2,07/12/18,Regensburg,FC Koln,1,3,A,0,2,A,3.4,3.75,2,0-2,1-3
+D2,08/12/18,Darmstadt,Ingolstadt,1,1,D,0,1,A,2.4,3.25,2.9,0-1,1-1
+D2,08/12/18,Greuther Furth,Erzgebirge Aue,0,5,A,0,1,A,2.2,3.3,3.3,0-1,0-5
+D2,08/12/18,Heidenheim,Duisburg,4,1,H,1,0,H,1.95,3.4,3.8,1-0,4-1
+D2,09/12/18,Bielefeld,Sandhausen,1,1,D,0,0,D,2.14,3.3,3.4,0-0,1-1
+D2,09/12/18,Dresden,Holstein Kiel,0,2,A,0,2,A,2.5,3.4,2.7,0-2,0-2
+D2,09/12/18,Magdeburg,Union Berlin,1,1,D,1,0,H,3.4,3.2,2.2,1-0,1-1
+D2,10/12/18,Bochum,St Pauli,1,3,A,1,2,A,2.25,3.1,3.4,1-2,1-3
 F1,10/08/18,Marseille,Toulouse,4,0,H,1,0,H,1.4,4.4,8,1-0,4-0
 F1,11/08/18,Angers,Nimes,3,4,A,1,1,D,2.25,3.3,3.2,1-1,3-4
 F1,11/08/18,Lille,Rennes,3,1,H,1,1,D,2.45,3.25,2.88,1-1,3-1
@@ -1553,6 +1916,50 @@ F1,03/11/18,Strasbourg,Toulouse,1,1,D,0,0,D,1.88,3.6,4,0-0,1-1
 F1,04/11/18,Montpellier,Marseille,3,0,H,0,0,D,2.88,3.2,2.5,0-0,3-0
 F1,04/11/18,Nantes,Guingamp,5,0,H,1,0,H,1.83,3.4,4.5,1-0,5-0
 F1,04/11/18,St Etienne,Angers,4,3,H,2,2,D,2,3.5,3.7,2-2,4-3
+F1,09/11/18,Lille,Strasbourg,0,0,D,0,0,D,1.73,3.7,4.8,0-0,0-0
+F1,10/11/18,Angers,Montpellier,1,0,H,0,0,D,2.9,3.1,2.55,0-0,1-0
+F1,10/11/18,Guingamp,Lyon,2,4,A,1,0,H,4.5,3.9,1.73,1-0,2-4
+F1,10/11/18,Nimes,Nice,0,1,A,0,0,D,2.45,3.3,2.88,0-0,0-1
+F1,10/11/18,St Etienne,Reims,2,0,H,2,0,H,1.83,3.6,4.2,2-0,2-0
+F1,10/11/18,Toulouse,Amiens,0,1,A,0,1,A,2.2,3.1,3.5,0-1,0-1
+F1,11/11/18,Bordeaux,Caen,0,0,D,0,0,D,1.8,3.5,4.5,0-0,0-0
+F1,11/11/18,Marseille,Dijon,2,0,H,1,0,H,1.35,5.25,8,1-0,2-0
+F1,11/11/18,Monaco,Paris SG,0,4,A,0,2,A,11,7.5,1.2,0-2,0-4
+F1,11/11/18,Rennes,Nantes,1,1,D,1,1,D,2.2,3.1,3.5,1-1,1-1
+F1,23/11/18,Lyon,St Etienne,1,0,H,0,0,D,1.6,4,5.25,0-0,1-0
+F1,24/11/18,Caen,Monaco,0,1,A,0,0,D,3.1,3.2,2.35,0-0,0-1
+F1,24/11/18,Dijon,Bordeaux,0,0,D,0,0,D,2.8,3.4,2.45,0-0,0-0
+F1,24/11/18,Nantes,Angers,1,1,D,0,1,A,1.95,3.3,4,0-1,1-1
+F1,24/11/18,Paris SG,Toulouse,1,0,H,1,0,H,1.12,8.5,19,1-0,1-0
+F1,24/11/18,Reims,Guingamp,2,1,H,1,0,H,1.95,3.1,4.33,1-0,2-1
+F1,24/11/18,Strasbourg,Nimes,0,1,A,0,0,D,2.05,3.4,3.6,0-0,0-1
+F1,25/11/18,Amiens,Marseille,1,3,A,1,1,D,4.5,3.5,1.78,1-1,1-3
+F1,25/11/18,Montpellier,Rennes,2,2,D,1,1,D,2.2,3.1,3.5,1-1,2-2
+F1,25/11/18,Nice,Lille,2,0,H,1,0,H,2.55,3.2,2.8,1-0,2-0
+F1,30/11/18,St Etienne,Nantes,3,0,H,0,0,D,2.05,3.25,3.8,0-0,3-0
+F1,01/12/18,Angers,Caen,1,1,D,0,0,D,1.7,3.6,5.25,0-0,1-1
+F1,01/12/18,Guingamp,Nice,0,0,D,0,0,D,2.7,3.1,2.7,0-0,0-0
+F1,01/12/18,Lille,Lyon,2,2,D,2,0,H,2.7,3.3,2.6,2-0,2-2
+F1,01/12/18,Monaco,Montpellier,1,2,A,1,0,H,2.62,3.25,2.7,1-0,1-2
+F1,01/12/18,Nimes,Amiens,3,0,H,1,0,H,1.91,3.4,4.2,1-0,3-0
+F1,02/12/18,Bordeaux,Paris SG,2,2,D,0,1,A,10,5.5,1.29,0-1,2-2
+F1,02/12/18,Marseille,Reims,0,0,D,0,0,D,1.4,4.5,8,0-0,0-0
+F1,02/12/18,Rennes,Strasbourg,1,4,A,1,2,A,1.65,3.9,5,1-2,1-4
+F1,02/12/18,Toulouse,Dijon,2,2,D,0,1,A,2.05,3.3,3.7,0-1,2-2
+F1,04/12/18,Amiens,Monaco,0,2,A,0,1,A,2.9,3.1,2.55,0-1,0-2
+F1,04/12/18,Montpellier,Lille,0,1,A,0,1,A,2.1,3.2,3.7,0-1,0-1
+F1,04/12/18,Nice,Angers,0,0,D,0,0,D,2.05,3.1,4,0-0,0-0
+F1,05/12/18,Bordeaux,St Etienne,3,2,H,1,1,D,2.55,3,3,1-1,3-2
+F1,05/12/18,Caen,Nimes,1,2,A,0,1,A,2.75,3.2,2.62,0-1,1-2
+F1,05/12/18,Dijon,Guingamp,2,1,H,1,0,H,2.2,3.2,3.4,1-0,2-1
+F1,05/12/18,Lyon,Rennes,0,2,A,0,2,A,1.5,4.33,6,0-2,0-2
+F1,05/12/18,Nantes,Marseille,3,2,H,2,2,D,3.1,3.2,2.35,2-2,3-2
+F1,05/12/18,Reims,Toulouse,0,1,A,0,1,A,1.88,3.3,4.4,0-1,0-1
+F1,05/12/18,Strasbourg,Paris SG,1,1,D,1,0,H,9,5.25,1.32,1-0,1-1
+F1,08/12/18,Guingamp,Amiens,1,2,A,0,0,D,2.05,3.2,3.9,0-0,1-2
+F1,08/12/18,Rennes,Dijon,2,0,H,0,0,D,1.55,4,6,0-0,2-0
+F1,09/12/18,Lille,Reims,1,1,D,0,0,D,1.7,3.6,5.25,0-0,1-1
+F1,09/12/18,Strasbourg,Caen,2,2,D,2,1,H,1.73,3.5,5,2-1,2-2
 F2,27/07/18,Ajaccio,Troyes,0,1,A,0,1,A,2.14,3.1,3.6,0-1,0-1
 F2,27/07/18,Ajaccio GFCO,Paris FC,1,1,D,0,1,A,3.2,2.87,2.5,0-1,1-1
 F2,27/07/18,Clermont,Chateauroux,0,0,D,0,0,D,1.8,3.3,4.75,0-0,0-0
@@ -1692,7 +2099,37 @@ F2,09/11/18,Le Havre,Sochaux,3,2,H,0,1,A,1.83,3.3,4.6,0-1,3-2
 F2,09/11/18,Lorient,Paris FC,2,1,H,1,1,D,2,3.1,4.33,1-1,2-1
 F2,09/11/18,Red Star,Beziers,0,3,A,0,2,A,2.37,3,3.2,0-2,0-3
 F2,10/11/18,Valenciennes,Lens,4,2,H,1,1,D,4.5,3.4,1.8,1-1,4-2
-F2,12/11/18,Brest,Nancy,,,,,,,1.55,3.8,6.5,0-0,0-0
+F2,12/11/18,Brest,Nancy,2,1,H,0,1,A,1.55,3.8,6.5,0-1,2-1
+F2,23/11/18,Ajaccio,Clermont,0,0,D,0,0,D,3.1,2.9,2.5,0-0,0-0
+F2,23/11/18,Beziers,Valenciennes,1,1,D,1,0,H,2,3.1,4.2,1-0,1-1
+F2,23/11/18,Nancy,Red Star,1,0,H,0,0,D,2.14,3,3.75,0-0,1-0
+F2,23/11/18,Niort,Chateauroux,0,1,A,0,0,D,2.14,3.2,3.6,0-0,0-1
+F2,23/11/18,Orleans,Brest,0,0,D,0,0,D,3.3,3.25,2.2,0-0,0-0
+F2,23/11/18,Paris FC,Le Havre,1,0,H,0,0,D,2.54,2.8,3.2,0-0,1-0
+F2,23/11/18,Sochaux,Auxerre,1,4,A,0,1,A,2.62,3,2.87,0-1,1-4
+F2,23/11/18,Troyes,Lorient,2,0,H,0,0,D,2.6,2.9,3,0-0,2-0
+F2,24/11/18,Lens,Grenoble,0,0,D,0,0,D,2,3.2,4,0-0,0-0
+F2,26/11/18,Metz,Ajaccio GFCO,1,0,H,1,0,H,1.4,4.33,8.5,1-0,1-0
+F2,30/11/18,Ajaccio GFCO,Niort,0,1,A,0,0,D,2.14,3.1,3.6,0-0,0-1
+F2,30/11/18,Brest,Ajaccio,2,0,H,1,0,H,1.7,3.6,5,1-0,2-0
+F2,30/11/18,Chateauroux,Sochaux,1,0,H,0,0,D,2.2,3,3.6,0-0,1-0
+F2,30/11/18,Clermont,Beziers,2,0,H,1,0,H,1.8,3.3,4.75,1-0,2-0
+F2,30/11/18,Le Havre,Auxerre,1,1,D,1,1,D,2.14,3.2,3.5,1-1,1-1
+F2,30/11/18,Lorient,Lens,2,2,D,2,0,H,2.3,3,3.3,2-0,2-2
+F2,30/11/18,Orleans,Nancy,1,2,A,0,1,A,2,3.1,4.2,0-1,1-2
+F2,30/11/18,Red Star,Troyes,0,3,A,0,2,A,3.1,3.1,2.37,0-2,0-3
+F2,30/11/18,Valenciennes,Paris FC,0,0,D,0,0,D,3,3,2.5,0-0,0-0
+F2,01/12/18,Grenoble,Metz,1,1,D,1,1,D,2.5,3,3,1-1,1-1
+F2,03/12/18,Auxerre,Lorient,0,0,D,0,0,D,2.45,3.1,3,0-0,0-0
+F2,04/12/18,Ajaccio,Nancy,1,1,D,0,1,A,2.1,3,4,0-1,1-1
+F2,04/12/18,Beziers,Grenoble,0,3,A,0,0,D,3.4,3,2.3,0-0,0-3
+F2,04/12/18,Le Havre,Chateauroux,2,1,H,1,1,D,1.75,3.4,5,1-1,2-1
+F2,04/12/18,Lens,Brest,2,1,H,2,0,H,2.1,3.25,3.5,2-0,2-1
+F2,04/12/18,Metz,Red Star,2,0,H,0,0,D,1.36,4.5,9,0-0,2-0
+F2,04/12/18,Niort,Valenciennes,1,0,H,0,0,D,2.04,3.4,3.5,0-0,1-0
+F2,04/12/18,Paris FC,Clermont,3,0,H,1,0,H,2.8,3,2.8,1-0,3-0
+F2,04/12/18,Sochaux,Ajaccio GFCO,2,0,H,0,0,D,1.95,3.2,4.2,0-0,2-0
+F2,04/12/18,Troyes,Orleans,3,2,H,1,0,H,1.83,3.4,4.5,1-0,3-2
 I1,18/08/18,Chievo,Juventus,2,3,A,1,1,D,13,6,1.22,1-1,2-3
 I1,18/08/18,Lazio,Napoli,1,2,A,1,1,D,2.8,3.5,2.4,1-1,1-2
 I1,19/08/18,Bologna,Spal,0,1,A,0,0,D,2.25,3.2,3.3,0-0,0-1
@@ -1813,6 +2250,36 @@ I1,11/11/18,Empoli,Udinese,2,1,H,1,0,H,2.25,3.3,3.3,1-0,2-1
 I1,11/11/18,Milan,Juventus,0,2,A,0,1,A,4.4,3.8,1.78,0-1,0-2
 I1,11/11/18,Roma,Sampdoria,4,1,H,1,0,H,1.47,4.6,6.5,1-0,4-1
 I1,11/11/18,Sassuolo,Lazio,1,1,D,1,1,D,3.6,3.5,2.05,1-1,1-1
+I1,24/11/18,Inter,Frosinone,3,0,H,1,0,H,1.22,6.5,12,1-0,3-0
+I1,24/11/18,Juventus,Spal,2,0,H,1,0,H,1.14,7.5,23,1-0,2-0
+I1,24/11/18,Udinese,Roma,1,0,H,0,0,D,4.2,3.6,1.88,0-0,1-0
+I1,25/11/18,Bologna,Fiorentina,0,0,D,0,0,D,3.9,3.25,2.05,0-0,0-0
+I1,25/11/18,Empoli,Atalanta,3,2,H,1,2,A,5,3.8,1.7,1-2,3-2
+I1,25/11/18,Genoa,Sampdoria,1,1,D,1,1,D,2.62,3.2,2.75,1-1,1-1
+I1,25/11/18,Lazio,Milan,1,1,D,0,0,D,1.8,3.75,4.4,0-0,1-1
+I1,25/11/18,Napoli,Chievo,0,0,D,0,0,D,1.1,9.5,29,0-0,0-0
+I1,25/11/18,Parma,Sassuolo,2,1,H,2,1,H,3,3.4,2.38,2-1,2-1
+I1,26/11/18,Cagliari,Torino,0,0,D,0,0,D,2.9,3,2.62,0-0,0-0
+I1,01/12/18,Fiorentina,Juventus,0,3,A,0,1,A,5.8,3.8,1.63,0-1,0-3
+I1,01/12/18,Sampdoria,Bologna,4,1,H,3,1,H,1.95,3.3,4.33,3-1,4-1
+I1,01/12/18,Spal,Empoli,2,2,D,1,2,A,2.4,3.2,3.1,1-2,2-2
+I1,02/12/18,Chievo,Lazio,1,1,D,1,0,H,8,4.4,1.44,1-0,1-1
+I1,02/12/18,Frosinone,Cagliari,1,1,D,1,0,H,3.1,3.2,2.4,1-0,1-1
+I1,02/12/18,Milan,Parma,2,1,H,0,0,D,1.4,4.75,8,0-0,2-1
+I1,02/12/18,Roma,Inter,2,2,D,0,1,A,2.7,3.4,2.6,0-1,2-2
+I1,02/12/18,Sassuolo,Udinese,0,0,D,0,0,D,1.95,3.5,4,0-0,0-0
+I1,02/12/18,Torino,Genoa,2,1,H,2,1,H,1.73,3.7,5,2-1,2-1
+I1,03/12/18,Atalanta,Napoli,1,2,A,0,1,A,3.4,3.5,2.15,0-1,1-2
+I1,07/12/18,Juventus,Inter,1,0,H,0,0,D,1.55,3.8,7,0-0,1-0
+I1,08/12/18,Cagliari,Roma,2,2,D,0,2,A,4.4,3.75,1.8,0-2,2-2
+I1,08/12/18,Lazio,Sampdoria,2,2,D,0,1,A,1.4,4.75,8,0-1,2-2
+I1,08/12/18,Napoli,Frosinone,4,0,H,2,0,H,1.14,8,21,2-0,4-0
+I1,09/12/18,Empoli,Bologna,2,1,H,1,1,D,1.95,3.5,4,1-1,2-1
+I1,09/12/18,Genoa,Spal,1,1,D,1,1,D,2,3.3,4,1-1,1-1
+I1,09/12/18,Milan,Torino,0,0,D,0,0,D,1.88,3.4,4.5,0-0,0-0
+I1,09/12/18,Parma,Chievo,1,1,D,0,0,D,2.05,3.25,3.9,0-0,1-1
+I1,09/12/18,Sassuolo,Fiorentina,3,3,D,0,0,D,2.8,3.2,2.62,0-0,3-3
+I1,09/12/18,Udinese,Atalanta,1,3,A,1,1,D,4.33,3.5,1.88,1-1,1-3
 I2,24/08/18,Brescia,Perugia,1,1,D,1,0,H,2.2,3.2,3.4,1-0,1-1
 I2,25/08/18,Cremonese,Pescara,1,1,D,1,0,H,2.1,3.25,3.6,1-0,1-1
 I2,25/08/18,Salernitana,Palermo,0,0,D,0,0,D,3.2,3,2.4,0-0,0-0
@@ -1919,6 +2386,34 @@ I2,10/11/18,Salernitana,Spezia,1,0,H,1,0,H,2.1,3,3.8,1-0,1-0
 I2,11/11/18,Brescia,Verona,4,2,H,2,0,H,2.37,3.25,3,2-0,4-2
 I2,11/11/18,Cittadella,Venezia,3,2,H,1,2,A,2,3.3,3.8,1-2,3-2
 I2,11/11/18,Palermo,Pescara,3,0,H,1,0,H,1.8,3.4,4.75,1-0,3-0
+I2,18/11/18,Spezia,Benevento,3,1,H,2,1,H,2.3,3.1,3.1,2-1,3-1
+I2,23/11/18,Verona,Palermo,1,1,D,1,0,H,3,3.1,2.45,1-0,1-1
+I2,24/11/18,Benevento,Perugia,2,1,H,1,1,D,2.04,3.3,3.6,1-1,2-1
+I2,24/11/18,Livorno,Cittadella,0,0,D,0,0,D,3.6,3.1,2.14,0-0,0-0
+I2,24/11/18,Padova,Carpi,0,1,A,0,1,A,2.1,3.2,3.6,0-1,0-1
+I2,24/11/18,Venezia,Brescia,2,1,H,2,0,H,2.14,3.1,3.4,2-0,2-1
+I2,25/11/18,Lecce,Cremonese,2,0,H,0,0,D,2.25,3.1,3.4,0-0,2-0
+I2,25/11/18,Pescara,Ascoli,1,1,D,0,0,D,1.85,3.4,4.33,0-0,1-1
+I2,25/11/18,Spezia,Foggia,0,0,D,0,0,D,2,3.5,3.6,0-0,0-0
+I2,26/11/18,Crotone,Cosenza,0,1,A,0,0,D,1.8,3.4,4.75,0-0,0-1
+I2,30/11/18,Palermo,Benevento,0,0,D,0,0,D,1.8,3.25,5.25,0-0,0-0
+I2,01/12/18,Ascoli,Spezia,3,1,H,1,0,H,2.3,3,3.4,1-0,3-1
+I2,01/12/18,Cittadella,Salernitana,3,1,H,1,0,H,2,3.2,4,1-0,3-1
+I2,01/12/18,Cosenza,Padova,2,1,H,0,1,A,2,3.1,4.2,0-1,2-1
+I2,01/12/18,Cremonese,Crotone,1,0,H,0,0,D,2.37,3,3.25,0-0,1-0
+I2,02/12/18,Brescia,Livorno,2,0,H,1,0,H,1.72,3.4,5.25,1-0,2-0
+I2,02/12/18,Carpi,Lecce,0,1,A,0,1,A,2.75,3,2.75,0-1,0-1
+I2,02/12/18,Perugia,Pescara,2,1,H,1,0,H,2.1,3.2,3.6,1-0,2-1
+I2,03/12/18,Foggia,Venezia,1,1,D,1,1,D,2.1,3.2,3.6,1-1,1-1
+I2,07/12/18,Pescara,Carpi,2,0,H,0,0,D,1.61,3.6,6,0-0,2-0
+I2,08/12/18,Lecce,Perugia,0,0,D,0,0,D,2.25,3.1,3.4,0-0,0-0
+I2,08/12/18,Padova,Palermo,1,3,A,1,1,D,3.6,3.3,2.04,1-1,1-3
+I2,08/12/18,Spezia,Cosenza,4,0,H,1,0,H,1.95,3.3,4,1-0,4-0
+I2,08/12/18,Venezia,Ascoli,1,0,H,0,0,D,2.14,3.1,3.6,0-0,1-0
+I2,09/12/18,Benevento,Verona,0,1,A,0,0,D,2,3.4,3.75,0-0,0-1
+I2,09/12/18,Cremonese,Cittadella,0,0,D,0,0,D,2.4,3,3.2,0-0,0-0
+I2,09/12/18,Livorno,Foggia,3,1,H,1,1,D,3.1,3.1,2.37,1-1,3-1
+I2,10/12/18,Salernitana,Brescia,1,3,A,0,3,A,2.25,3.2,3.25,0-3,1-3
 P1,10/08/18,Benfica,Guimaraes,3,2,H,3,0,H,1.25,5.75,11,3-0,3-2
 P1,11/08/18,Porto,Chaves,5,0,H,3,0,H,1.14,7,21,3-0,5-0
 P1,11/08/18,Setubal,Aves,2,0,H,1,0,H,2.25,3.1,3.4,1-0,2-0
@@ -2009,6 +2504,24 @@ P1,10/11/18,Porto,Sp Braga,1,0,H,0,0,D,1.4,4.5,7.5,0-0,1-0
 P1,11/11/18,Guimaraes,Santa Clara,2,0,H,1,0,H,1.57,3.6,6.5,1-0,2-0
 P1,11/11/18,Sp Lisbon,Chaves,2,1,H,1,0,H,1.33,5,10,1-0,2-1
 P1,11/11/18,Tondela,Benfica,1,3,A,1,1,D,7.5,4.5,1.4,1-1,1-3
+P1,30/11/18,Santa Clara,Belenenses,2,3,A,1,1,D,2.14,3.1,3.6,1-1,2-3
+P1,01/12/18,Benfica,Feirense,4,0,H,0,0,D,1.16,7.5,13,0-0,4-0
+P1,01/12/18,Maritimo,Setubal,0,1,A,0,0,D,2.37,3.1,3.1,0-0,0-1
+P1,01/12/18,Sp Braga,Moreirense,2,0,H,2,0,H,1.36,4.75,8,2-0,2-0
+P1,02/12/18,Aves,Nacional,2,3,A,1,1,D,2,3.3,3.8,1-1,2-3
+P1,02/12/18,Boavista,Porto,0,1,A,0,0,D,11,4.5,1.33,0-0,0-1
+P1,02/12/18,Chaves,Guimaraes,0,1,A,0,1,A,3.1,3.1,2.4,0-1,0-1
+P1,02/12/18,Portimonense,Tondela,3,2,H,3,1,H,1.83,3.6,4,3-1,3-2
+P1,03/12/18,Rio Ave,Sp Lisbon,1,3,A,1,2,A,4.5,3.5,1.8,1-2,1-3
+P1,07/12/18,Porto,Portimonense,4,1,H,1,1,D,1.14,7.5,17,1-1,4-1
+P1,08/12/18,Belenenses,Chaves,1,0,H,1,0,H,2.1,3.2,3.6,1-0,1-0
+P1,08/12/18,Setubal,Benfica,0,1,A,0,1,A,7.5,4.2,1.44,0-1,0-1
+P1,08/12/18,Tondela,Sp Braga,0,1,A,0,1,A,5,3.75,1.66,0-1,0-1
+P1,09/12/18,Guimaraes,Rio Ave,3,2,H,2,1,H,2,3.5,3.6,2-1,3-2
+P1,09/12/18,Moreirense,Santa Clara,0,1,A,0,0,D,1.95,3.2,4.2,0-0,0-1
+P1,09/12/18,Nacional,Boavista,0,0,D,0,0,D,2.37,3.1,3.1,0-0,0-0
+P1,09/12/18,Sp Lisbon,Aves,4,1,H,2,1,H,1.25,5.25,13,2-1,4-1
+P1,10/12/18,Feirense,Maritimo,1,1,D,0,0,D,2.4,3.1,3.1,0-0,1-1
 N1,10/08/18,Zwolle,Heerenveen,2,3,A,1,3,A,2.4,3.6,2.7,1-3,2-3
 N1,11/08/18,Ajax,Heracles,1,1,D,0,0,D,1.12,8,19,0-0,1-1
 N1,11/08/18,Excelsior,For Sittard,1,1,D,1,0,H,2.1,3.5,3.3,1-0,1-1
@@ -2116,6 +2629,34 @@ N1,11/11/18,Den Haag,AZ Alkmaar,0,1,A,0,0,D,4.5,3.7,1.75,0-0,0-1
 N1,11/11/18,Excelsior,Ajax,1,7,A,0,2,A,13,7,1.18,0-2,1-7
 N1,11/11/18,Groningen,Heerenveen,2,0,H,2,0,H,2.25,3.4,3.1,2-0,2-0
 N1,11/11/18,Heracles,Feyenoord,0,2,A,0,0,D,5,4,1.61,0-0,0-2
+N1,24/11/18,For Sittard,Heracles,3,0,H,2,0,H,2.37,3.4,2.87,2-0,3-0
+N1,24/11/18,NAC Breda,Ajax,0,3,A,0,1,A,17,8.5,1.12,0-1,0-3
+N1,24/11/18,PSV Eindhoven,Heerenveen,3,0,H,1,0,H,1.18,7,13,1-0,3-0
+N1,24/11/18,Zwolle,Den Haag,2,3,A,2,2,D,1.9,3.6,3.75,2-2,2-3
+N1,25/11/18,FC Emmen,Excelsior,1,2,A,0,0,D,1.95,3.6,3.75,0-0,1-2
+N1,25/11/18,Feyenoord,Groningen,1,0,H,1,0,H,1.28,6,8,1-0,1-0
+N1,25/11/18,Utrecht,Graafschap,5,0,H,3,0,H,1.25,5.5,12,3-0,5-0
+N1,25/11/18,VVV Venlo,AZ Alkmaar,2,2,D,1,2,A,4.2,4,1.75,1-2,2-2
+N1,25/11/18,Willem II,Vitesse,1,3,A,0,3,A,3.4,3.5,2.04,0-3,1-3
+N1,30/11/18,Excelsior,Utrecht,3,3,D,3,0,H,5.75,4,1.55,3-0,3-3
+N1,01/12/18,AZ Alkmaar,Willem II,0,2,A,0,2,A,1.4,5,6.5,0-2,0-2
+N1,01/12/18,Graafschap,Zwolle,0,2,A,0,1,A,3.75,3.6,1.9,0-1,0-2
+N1,01/12/18,Heerenveen,For Sittard,3,1,H,1,0,H,2,3.6,3.5,1-0,3-1
+N1,01/12/18,Vitesse,FC Emmen,1,1,D,1,0,H,1.44,4.75,6,1-0,1-1
+N1,02/12/18,Ajax,Den Haag,5,1,H,3,1,H,1.08,11,21,3-1,5-1
+N1,02/12/18,Feyenoord,PSV Eindhoven,2,1,H,2,0,H,3.2,3.4,2.2,2-0,2-1
+N1,02/12/18,Groningen,NAC Breda,5,2,H,1,1,D,1.5,4.2,6,1-1,5-2
+N1,02/12/18,Heracles,VVV Venlo,4,1,H,1,0,H,1.95,3.6,3.6,1-0,4-1
+N1,06/12/18,Feyenoord,VVV Venlo,4,1,H,2,0,H,1.22,6,12,2-0,4-1
+N1,07/12/18,For Sittard,AZ Alkmaar,0,3,A,0,1,A,4.33,4,1.72,0-1,0-3
+N1,07/12/18,PSV Eindhoven,Excelsior,6,0,H,2,0,H,1.08,10,23,2-0,6-0
+N1,08/12/18,Den Haag,Graafschap,0,0,D,0,0,D,1.5,4.5,6,0-0,0-0
+N1,08/12/18,Willem II,Heerenveen,1,5,A,1,2,A,2.2,3.4,3.2,1-2,1-5
+N1,08/12/18,Zwolle,Ajax,1,4,A,1,2,A,15,6.5,1.18,1-2,1-4
+N1,09/12/18,FC Emmen,Feyenoord,1,4,A,0,0,D,7,4.75,1.4,0-0,1-4
+N1,09/12/18,NAC Breda,Vitesse,2,1,H,1,0,H,5.5,4,1.57,1-0,2-1
+N1,09/12/18,Utrecht,Heracles,3,1,H,3,0,H,1.53,4.33,5.5,3-0,3-1
+N1,09/12/18,VVV Venlo,Groningen,0,0,D,0,0,D,2.7,3.4,2.5,0-0,0-0
 B1,27/07/18,Standard,Gent,3,2,H,1,1,D,2.14,3.4,3.25,1-1,3-2
 B1,28/07/18,Kortrijk,Anderlecht,1,4,A,0,2,A,4.5,3.8,1.72,0-2,1-4
 B1,28/07/18,Oostende,Mouscron,2,1,H,0,1,A,1.53,3.75,7,0-1,2-1
@@ -2236,6 +2777,30 @@ B1,10/11/18,Waregem,Lokeren,2,0,H,0,0,D,1.6,4.33,4.75,0-0,2-0
 B1,11/11/18,Anderlecht,Gent,2,0,H,1,0,H,2,3.6,3.5,1-0,2-0
 B1,11/11/18,Kortrijk,Standard,0,2,A,0,1,A,2.6,3.6,2.5,0-1,0-2
 B1,11/11/18,Mouscron,Genk,0,0,D,0,0,D,7.5,5.5,1.33,0-0,0-0
+B1,23/11/18,Club Brugge,Waregem,1,3,A,0,2,A,1.36,5.5,7,0-2,1-3
+B1,24/11/18,Genk,Cercle Brugge,1,2,A,0,2,A,1.16,7,15,0-2,1-2
+B1,24/11/18,Oostende,Kortrijk,1,2,A,1,1,D,3.1,3.4,2.25,1-1,1-2
+B1,24/11/18,Standard,Eupen,3,0,H,2,0,H,1.4,5,6.5,2-0,3-0
+B1,24/11/18,Waasland-Beveren,Mouscron,1,2,A,0,1,A,2.62,3.4,2.54,0-1,1-2
+B1,25/11/18,Gent,Antwerp,0,0,D,0,0,D,2,3.5,3.6,0-0,0-0
+B1,25/11/18,Lokeren,Charleroi,2,4,A,1,1,D,3.5,3.6,2,1-1,2-4
+B1,25/11/18,St Truiden,Anderlecht,4,2,H,1,1,D,3.3,3.6,2.04,1-1,4-2
+B1,30/11/18,Lokeren,Gent,2,2,D,1,0,H,6.5,4,1.5,1-0,2-2
+B1,01/12/18,Antwerp,St Truiden,1,3,A,1,2,A,1.66,3.6,5.25,1-2,1-3
+B1,01/12/18,Charleroi,Cercle Brugge,3,1,H,1,0,H,1.57,4,5.5,1-0,3-1
+B1,01/12/18,Kortrijk,Mouscron,1,0,H,1,0,H,1.72,3.75,4.5,1-0,1-0
+B1,01/12/18,Waregem,Oostende,1,1,D,1,0,H,1.72,3.75,4.5,1-0,1-1
+B1,02/12/18,Anderlecht,Genk,0,1,A,0,0,D,3.1,3.5,2.2,0-0,0-1
+B1,02/12/18,Club Brugge,Standard,3,0,H,3,0,H,1.66,3.8,5,3-0,3-0
+B1,02/12/18,Eupen,Waasland-Beveren,1,0,H,1,0,H,1.61,4.2,4.75,1-0,1-0
+B1,07/12/18,Waasland-Beveren,Club Brugge,2,1,H,0,0,D,7,5,1.36,0-0,2-1
+B1,08/12/18,Genk,Kortrijk,1,1,D,1,1,D,1.2,7,11,1-1,1-1
+B1,08/12/18,Mouscron,Waregem,0,0,D,0,0,D,2.7,3.4,2.5,0-0,0-0
+B1,08/12/18,Oostende,Lokeren,1,0,H,0,0,D,1.8,3.8,4,0-0,1-0
+B1,08/12/18,St Truiden,Standard,1,1,D,1,0,H,2.3,3.4,3,1-0,1-1
+B1,09/12/18,Anderlecht,Charleroi,1,1,D,0,0,D,1.83,3.75,4,0-0,1-1
+B1,09/12/18,Cercle Brugge,Antwerp,0,3,A,0,2,A,3.6,3.5,2,0-2,0-3
+B1,09/12/18,Gent,Eupen,2,0,H,1,0,H,1.44,4.2,7.5,1-0,2-0
 T1,10/08/18,Ankaragucu,Galatasaray,1,3,A,1,2,A,4.5,4,1.72,1-2,1-3
 T1,11/08/18,Fenerbahce,Bursaspor,2,1,H,2,1,H,1.36,5,7.5,2-1,2-1
 T1,11/08/18,Rizespor,Kasimpasa,2,3,A,1,0,H,2.3,3.4,3,1-0,2-3
@@ -2344,6 +2909,33 @@ T1,11/11/18,Antalyaspor,Akhisar Belediyespor,1,2,A,0,0,D,1.95,3.5,3.75,0-0,1-2
 T1,11/11/18,Besiktas,Sivasspor,1,2,A,1,1,D,1.36,4.75,8,1-1,1-2
 T1,11/11/18,Bursaspor,Kasimpasa,1,2,A,1,1,D,2,3.5,3.6,1-1,1-2
 T1,11/11/18,Fenerbahce,Alanyaspor,2,0,H,2,0,H,1.44,4.33,7,2-0,2-0
+T1,23/11/18,Galatasaray,Konyaspor,1,1,D,0,0,D,1.75,3.5,4.75,0-0,1-1
+T1,24/11/18,Alanyaspor,Kayserispor,5,0,H,1,0,H,1.9,3.25,4.2,1-0,5-0
+T1,24/11/18,Ankaragucu,Besiktas,1,4,A,0,3,A,4.5,3.75,1.75,0-3,1-4
+T1,24/11/18,Erzurum BB,Antalyaspor,1,0,H,0,0,D,2,3.3,3.75,0-0,1-0
+T1,25/11/18,Akhisar Belediyespor,Bursaspor,2,4,A,2,1,H,2.5,3.2,2.87,2-1,2-4
+T1,25/11/18,Kasimpasa,Yeni Malatyaspor,3,0,H,1,0,H,2.04,3.5,3.4,1-0,3-0
+T1,25/11/18,Sivasspor,Rizespor,1,1,D,0,0,D,1.75,3.5,4.75,0-0,1-1
+T1,25/11/18,Trabzonspor,Fenerbahce,2,1,H,0,0,D,2.4,3.3,2.87,0-0,2-1
+T1,26/11/18,Goztep,Buyuksehyr,0,2,A,0,1,A,2.87,3.2,2.5,0-1,0-2
+T1,30/11/18,Konyaspor,Alanyaspor,2,0,H,0,0,D,1.7,3.6,5,0-0,2-0
+T1,30/11/18,Rizespor,Ankaragucu,1,1,D,0,1,A,1.95,3.5,3.75,0-1,1-1
+T1,01/12/18,Antalyaspor,Goztep,1,0,H,1,0,H,2.2,3.1,3.5,1-0,1-0
+T1,01/12/18,Buyuksehyr,Sivasspor,0,1,A,0,1,A,1.5,4.33,6,0-1,0-1
+T1,01/12/18,Kayserispor,Trabzonspor,0,2,A,0,0,D,3.75,3.5,1.95,0-0,0-2
+T1,02/12/18,Besiktas,Galatasaray,1,0,H,1,0,H,1.75,3.75,4.33,1-0,1-0
+T1,02/12/18,Bursaspor,Erzurum BB,2,1,H,1,1,D,1.75,3.5,4.75,1-1,2-1
+T1,03/12/18,Fenerbahce,Kasimpasa,2,2,D,2,1,H,1.72,3.8,4.5,2-1,2-2
+T1,03/12/18,Yeni Malatyaspor,Akhisar Belediyespor,1,1,D,1,0,H,1.83,3.4,4.5,1-0,1-1
+T1,07/12/18,Alanyaspor,Besiktas,0,0,D,0,0,D,3.75,3.4,2,0-0,0-0
+T1,08/12/18,Galatasaray,Rizespor,2,2,D,1,0,H,1.44,4.2,7.5,1-0,2-2
+T1,08/12/18,Sivasspor,Goztep,2,0,H,0,0,D,2.1,3.3,3.5,0-0,2-0
+T1,08/12/18,Trabzonspor,Konyaspor,3,0,H,0,0,D,1.85,3.4,4.33,0-0,3-0
+T1,09/12/18,Akhisarspor,Fenerbahce,3,0,H,1,0,H,3.5,3.4,2.04,1-0,3-0
+T1,09/12/18,Bursaspor,Antalyaspor,0,2,A,0,2,A,1.75,3.5,4.75,0-2,0-2
+T1,09/12/18,Erzurum BB,Yeni Malatyaspor,1,3,A,1,0,H,2.1,3.25,3.6,1-0,1-3
+T1,10/12/18,Ankaragucu,Buyuksehyr,0,1,A,0,1,A,4.33,3.6,1.8,0-1,0-1
+T1,10/12/18,Kasimpasa,Kayserispor,0,3,A,0,1,A,1.44,4.33,7,0-1,0-3
 G1,25/08/18,AEK,Giannina,2,0,H,1,0,H,1.36,4.33,10,1-0,2-0
 G1,25/08/18,Apollon,Larisa,0,1,A,0,1,A,2.3,3,3.4,0-1,0-1
 G1,25/08/18,Panetolikos,Atromitos,1,2,A,1,1,D,3,3,2.5,1-1,1-2
@@ -2423,7 +3015,31 @@ G1,11/11/18,AEK,Atromitos,0,2,A,0,0,D,1.53,3.75,7,0-0,0-2
 G1,11/11/18,Lamia,Asteras Tripolis,0,0,D,0,0,D,3.4,3,2.3,0-0,0-0
 G1,11/11/18,Olympiakos,Panathinaikos,1,1,D,0,0,D,1.44,4,8,0-0,1-1
 G1,11/11/18,PAOK,Panetolikos,2,1,H,0,0,D,1.16,7.5,13,0-0,2-1
-G1,12/11/18,Apollon,Aris,,,,,,,4.2,3.1,2,0-0,0-0
+G1,12/11/18,Apollon,Aris,1,2,A,1,1,D,4.2,3.1,2,1-1,1-2
+G1,24/11/18,Asteras Tripolis,Larisa,2,0,H,0,0,D,1.53,3.5,8,0-0,2-0
+G1,24/11/18,Panathinaikos,Apollon,5,1,H,2,0,H,1.36,4.75,8,2-0,5-1
+G1,24/11/18,Panetolikos,AEK,2,1,H,1,0,H,7,3.5,1.57,1-0,2-1
+G1,24/11/18,PAOK,Xanthi,2,0,H,0,0,D,1.2,6,15,0-0,2-0
+G1,25/11/18,Atromitos,Olympiakos,1,2,A,1,0,H,3.8,2.9,2.2,1-0,1-2
+G1,25/11/18,Giannina,Levadeiakos,2,0,H,1,0,H,1.9,3.25,4.33,1-0,2-0
+G1,25/11/18,OFI Crete,Aris,1,2,A,0,0,D,3,2.87,2.62,0-0,1-2
+G1,26/11/18,Panionios,Lamia,1,0,H,0,0,D,1.72,3.3,5.5,0-0,1-0
+G1,01/12/18,Apollon,Atromitos,1,1,D,1,1,D,5.5,3.2,1.75,1-1,1-1
+G1,01/12/18,Giannina,OFI Crete,1,1,D,0,0,D,2,3.1,4.1,0-0,1-1
+G1,01/12/18,Larisa,Panionios,4,2,H,1,1,D,2.5,2.87,3.2,1-1,4-2
+G1,02/12/18,AEK,Xanthi,2,0,H,1,0,H,1.36,4.75,8,1-0,2-0
+G1,02/12/18,Aris,Panathinaikos,1,1,D,1,0,H,2.3,3,3.4,1-0,1-1
+G1,02/12/18,Levadeiakos,Asteras Tripolis,0,2,A,0,0,D,3.4,2.87,2.37,0-0,0-2
+G1,03/12/18,Lamia,PAOK,0,1,A,0,0,D,9,4.2,1.4,0-0,0-1
+G1,03/12/18,Olympiakos,Panetolikos,2,1,H,2,0,H,1.18,6.5,15,2-0,2-1
+G1,08/12/18,AEK,Lamia,2,0,H,1,0,H,1.2,6,15,1-0,2-0
+G1,08/12/18,Asteras Tripolis,Giannina,1,0,H,0,0,D,1.5,3.75,7.5,0-0,1-0
+G1,09/12/18,Atromitos,Aris,4,2,H,1,0,H,2.04,3.1,4,1-0,4-2
+G1,09/12/18,OFI Crete,Panathinaikos,3,1,H,2,1,H,2.62,3,2.8,2-1,3-1
+G1,09/12/18,PAOK,Larisa,2,1,H,1,1,D,1.22,6,13,1-1,2-1
+G1,09/12/18,Xanthi,Olympiakos,1,1,D,0,0,D,6.5,3.4,1.61,0-0,1-1
+G1,10/12/18,Panetolikos,Apollon,2,1,H,2,0,H,1.66,3.4,5.75,2-0,2-1
+G1,10/12/18,Panionios,Levadeiakos,1,1,D,0,1,A,1.8,3.4,4.75,0-1,1-1
 SC0,04/08/18,Celtic,Livingston,3,1,H,2,0,H,1.1,10,19,2-0,3-1
 SC0,04/08/18,Hamilton,Hearts,1,4,A,1,1,D,3.75,3.4,1.95,1-1,1-4
 SC0,04/08/18,Kilmarnock,St Johnstone,2,0,H,0,0,D,2,3.2,3.6,0-0,2-0
@@ -2499,6 +3115,29 @@ SC0,10/11/18,Hearts,Kilmarnock,0,1,A,0,0,D,2.05,3.5,3.5,0-0,0-1
 SC0,10/11/18,St Johnstone,Hamilton,4,0,H,2,0,H,1.75,3.7,4.6,2-0,4-0
 SC0,11/11/18,Livingston,Celtic,0,0,D,0,0,D,15,6.5,1.2,0-0,0-0
 SC0,11/11/18,Rangers,Motherwell,7,1,H,3,1,H,1.38,5,7.5,3-1,7-1
+SC0,24/11/18,Hamilton,Celtic,0,3,A,0,1,A,19,7,1.15,0-1,0-3
+SC0,24/11/18,Hibernian,Dundee,2,2,D,2,1,H,1.42,5,6.5,2-1,2-2
+SC0,24/11/18,Motherwell,Aberdeen,3,0,H,2,0,H,3.3,3.3,2.2,2-0,3-0
+SC0,24/11/18,Rangers,Livingston,3,0,H,1,0,H,1.29,5.5,10,1-0,3-0
+SC0,24/11/18,St Johnstone,Kilmarnock,0,0,D,0,0,D,2.55,3.2,2.8,0-0,0-0
+SC0,24/11/18,St Mirren,Hearts,2,0,H,0,0,D,5.25,3.75,1.67,0-0,2-0
+SC0,01/12/18,Kilmarnock,Hibernian,3,0,H,2,0,H,2.75,3.2,2.6,2-0,3-0
+SC0,01/12/18,Livingston,Motherwell,2,0,H,1,0,H,2.62,3.1,2.8,1-0,2-0
+SC0,01/12/18,St Mirren,Hamilton,1,3,A,1,2,A,2.2,3.3,3.3,1-2,1-3
+SC0,02/12/18,Hearts,Rangers,1,2,A,1,2,A,4.5,3.9,1.73,1-2,1-2
+SC0,05/12/18,Dundee,Hamilton,4,0,H,1,0,H,2.3,3.3,3.1,1-0,4-0
+SC0,05/12/18,Hibernian,St Mirren,2,2,D,0,1,A,1.4,4.5,8,0-1,2-2
+SC0,05/12/18,Kilmarnock,Livingston,2,0,H,2,0,H,1.85,3.4,4.4,2-0,2-0
+SC0,05/12/18,Motherwell,Celtic,1,1,D,0,1,A,11,5.5,1.27,0-1,1-1
+SC0,05/12/18,Rangers,Aberdeen,0,1,A,0,1,A,1.55,4.33,5.5,0-1,0-1
+SC0,05/12/18,St Johnstone,Hearts,2,2,D,1,2,A,2.7,3.3,2.6,1-2,2-2
+SC0,08/12/18,Aberdeen,St Johnstone,0,2,A,0,0,D,1.8,3.6,4.4,0-0,0-2
+SC0,08/12/18,Celtic,Kilmarnock,5,1,H,4,0,H,1.2,6,15,4-0,5-1
+SC0,08/12/18,Hamilton,Hibernian,0,1,A,0,0,D,5.25,3.6,1.7,0-0,0-1
+SC0,08/12/18,Hearts,Motherwell,1,0,H,1,0,H,1.8,3.5,4.6,1-0,1-0
+SC0,08/12/18,Livingston,St Mirren,3,1,H,0,1,A,1.73,3.6,5,0-1,3-1
+SC0,09/12/18,Dundee,Rangers,1,1,D,1,1,D,10,5.5,1.29,1-1,1-1
+SC0,11/12/18,Aberdeen,Livingston,3,2,H,1,2,A,1.8,3.4,4.8,1-2,3-2
 SC1,04/08/18,Ayr,Partick,2,0,H,2,0,H,0,2.62,3.4,2-0,2-0
 SC1,04/08/18,Dundee United,Dunfermline,2,3,A,1,0,H,0,2.5,3.3,1-0,2-3
 SC1,04/08/18,Falkirk,Inverness C,0,1,A,0,1,A,0,2.7,3.4,0-1,0-1
@@ -2564,6 +3203,20 @@ SC1,10/11/18,Dunfermline,Falkirk,0,1,A,0,0,D,0,1.57,4,0-0,0-1
 SC1,10/11/18,Morton,Alloa,0,2,A,0,0,D,0,1.7,4,0-0,0-2
 SC1,10/11/18,Partick,Inverness C,0,1,A,0,0,D,0,2.87,3.4,0-0,0-1
 SC1,10/11/18,Ross County,Dundee United,0,1,A,0,1,A,0,1.95,3.5,0-1,0-1
+SC1,17/11/18,Ayr,Morton,0,0,D,0,0,D,0,1.57,3.8,0-0,0-0
+SC1,17/11/18,Falkirk,Partick,1,1,D,0,0,D,0,3.1,3.25,0-0,1-1
+SC1,17/11/18,Queen of Sth,Inverness C,3,3,D,1,0,H,0,2.54,3.2,1-0,3-3
+SC1,20/11/18,Dundee United,Alloa,4,2,H,3,2,H,0,1.4,4.33,3-2,4-2
+SC1,24/11/18,Ross County,Dunfermline,2,1,H,1,0,H,1,2,3.5,1-0,2-1
+SC1,30/11/18,Dundee United,Ayr,0,5,A,0,2,A,0,2.1,3.4,0-2,0-5
+SC1,01/12/18,Alloa,Ross County,0,1,A,0,0,D,0,4.75,3.8,0-0,0-1
+SC1,01/12/18,Dunfermline,Morton,3,0,H,2,0,H,0,1.64,3.8,2-0,3-0
+SC1,01/12/18,Inverness C,Falkirk,2,3,A,1,2,A,0,1.44,4,1-2,2-3
+SC1,01/12/18,Queen of Sth,Partick,1,0,H,0,0,D,0,2.1,3.5,0-0,1-0
+SC1,08/12/18,Falkirk,Alloa,2,2,D,2,1,H,0,2.25,3.6,2-1,2-2
+SC1,08/12/18,Morton,Dundee United,1,1,D,0,1,A,0,3.4,3.5,0-1,1-1
+SC1,08/12/18,Partick,Dunfermline,2,0,H,1,0,H,0,3.3,3.6,1-0,2-0
+SC1,08/12/18,Ross County,Queen of Sth,1,1,D,0,0,D,0,1.66,4,0-0,1-1
 SC2,04/08/18,East Fife,Dumbarton,0,2,A,0,0,D,0,3,3.4,0-0,0-2
 SC2,04/08/18,Forfar,Airdrie Utd,1,3,A,1,0,H,0,2.6,3.4,1-0,1-3
 SC2,04/08/18,Montrose,Arbroath,0,4,A,0,1,A,0,2.7,3.4,0-1,0-4
@@ -2629,6 +3282,21 @@ SC2,10/11/18,Brechin,Forfar,4,0,H,3,0,H,0,2.75,3.6,3-0,4-0
 SC2,10/11/18,Dumbarton,Stenhousemuir,2,1,H,1,1,D,0,1.9,3.8,1-1,2-1
 SC2,10/11/18,East Fife,Raith Rvs,2,1,H,0,1,A,0,3,3.4,0-1,2-1
 SC2,10/11/18,Stranraer,Airdrie Utd,1,2,A,0,1,A,0,2.5,3.8,0-1,1-2
+SC2,17/11/18,Airdrie Utd,East Fife,4,2,H,1,2,A,0,2.6,3.8,1-2,4-2
+SC2,17/11/18,Brechin,Arbroath,1,5,A,0,1,A,0,4.33,3.8,0-1,1-5
+SC2,17/11/18,Forfar,Dumbarton,3,0,H,0,0,D,0,2.5,3.5,0-0,3-0
+SC2,17/11/18,Montrose,Stranraer,1,1,D,0,0,D,0,2.3,3.5,0-0,1-1
+SC2,17/11/18,Stenhousemuir,Raith Rvs,1,3,A,0,1,A,0,3.8,3.8,0-1,1-3
+SC2,01/12/18,Arbroath,Stenhousemuir,5,2,H,2,1,H,0,1.3,5.5,2-1,5-2
+SC2,01/12/18,Dumbarton,Brechin,4,1,H,0,0,D,0,2.1,3.5,0-0,4-1
+SC2,01/12/18,East Fife,Montrose,0,2,A,0,1,A,0,1.83,3.6,0-1,0-2
+SC2,01/12/18,Raith Rvs,Airdrie Utd,2,0,H,2,0,H,0,1.75,3.75,2-0,2-0
+SC2,01/12/18,Stranraer,Forfar,2,1,H,1,0,H,0,2.7,3.6,1-0,2-1
+SC2,08/12/18,Brechin,Stenhousemuir,1,2,A,1,1,D,0,2.14,3.5,1-1,1-2
+SC2,08/12/18,Dumbarton,Airdrie Utd,1,1,D,0,1,A,0,2.25,3.5,0-1,1-1
+SC2,08/12/18,East Fife,Stranraer,3,3,D,2,0,H,1,2,3.6,2-0,3-3
+SC2,08/12/18,Forfar,Arbroath,2,3,A,0,1,A,1,4.5,4.2,0-1,2-3
+SC2,08/12/18,Montrose,Raith Rvs,3,2,H,1,1,D,0,3.8,3.6,1-1,3-2
 SC3,04/08/18,Annan Athletic,Elgin,1,1,D,0,0,D,0,2.5,3.5,0-0,1-1
 SC3,04/08/18,Berwick,Stirling,1,0,H,0,0,D,0,3.1,3.5,0-0,1-0
 SC3,04/08/18,Clyde,Cowdenbeath,2,0,H,2,0,H,0,1.61,4,2-0,2-0
@@ -2689,3 +3357,18 @@ SC3,10/11/18,Annan Athletic,Cowdenbeath,0,2,A,0,0,D,0,1.72,3.75,0-0,0-2
 SC3,10/11/18,Clyde,Stirling,1,1,D,0,0,D,0,1.66,3.75,0-0,1-1
 SC3,10/11/18,Elgin,Berwick,2,4,A,0,2,A,0,1.4,4.75,0-2,2-4
 SC3,10/11/18,Queens Park,Peterhead,2,0,H,1,0,H,0,4.33,3.6,1-0,2-0
+SC3,17/11/18,Annan Athletic,Stirling,2,2,D,1,0,H,0,2.2,3.4,1-0,2-2
+SC3,17/11/18,Berwick,Albion Rvs,2,0,H,1,0,H,0,2.2,3.5,1-0,2-0
+SC3,17/11/18,Elgin,Clyde,1,3,A,0,2,A,0,3.2,3.4,0-2,1-3
+SC3,27/11/18,Cowdenbeath,Queens Park,2,0,H,0,0,D,0,3.4,3.25,0-0,2-0
+SC3,01/12/18,Albion Rvs,Cowdenbeath,1,1,D,1,1,D,1,4,3.3,1-1,1-1
+SC3,01/12/18,Clyde,Berwick,3,3,D,0,3,A,0,1.33,5,0-3,3-3
+SC3,01/12/18,Edinburgh City,Queens Park,2,0,H,2,0,H,1,1.72,3.6,2-0,2-0
+SC3,01/12/18,Peterhead,Annan Athletic,2,1,H,1,0,H,0,1.5,4,1-0,2-1
+SC3,01/12/18,Stirling,Elgin,5,2,H,3,2,H,1,2.25,3.5,3-2,5-2
+SC3,08/12/18,Annan Athletic,Edinburgh City,1,2,A,0,1,A,0,3.2,3.6,0-1,1-2
+SC3,08/12/18,Berwick,Peterhead,0,5,A,0,3,A,0,8,4.75,0-3,0-5
+SC3,08/12/18,Cowdenbeath,Clyde,1,1,D,0,1,A,0,4,4.2,0-1,1-1
+SC3,08/12/18,Elgin,Albion Rvs,4,2,H,2,1,H,0,1.5,4.5,2-1,4-2
+SC3,08/12/18,Queens Park,Stirling,1,1,D,1,1,D,0,2.4,3.4,1-1,1-1
+SC3,11/12/18,Edinburgh City,Peterhead,1,1,D,0,0,D,0,2.9,3.4,0-0,1-1

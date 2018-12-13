@@ -63,3 +63,18 @@ INSERT INTO SC2 VALUES('SC2','10/11/18','Brechin','Forfar','4','0','H','3','0','
 INSERT INTO SC2 VALUES('SC2','10/11/18','Dumbarton','Stenhousemuir','2','1','H','1','1','D','0','1.9','3.8');
 INSERT INTO SC2 VALUES('SC2','10/11/18','East Fife','Raith Rvs','2','1','H','0','1','A','0','3','3.4');
 INSERT INTO SC2 VALUES('SC2','10/11/18','Stranraer','Airdrie Utd','1','2','A','0','1','A','0','2.5','3.8');
+INSERT INTO SC2 VALUES('SC2','17/11/18','Airdrie Utd','East Fife','4','2','H','1','2','A','0','2.6','3.8');
+INSERT INTO SC2 VALUES('SC2','17/11/18','Brechin','Arbroath','1','5','A','0','1','A','0','4.33','3.8');
+INSERT INTO SC2 VALUES('SC2','17/11/18','Forfar','Dumbarton','3','0','H','0','0','D','0','2.5','3.5');
+INSERT INTO SC2 VALUES('SC2','17/11/18','Montrose','Stranraer','1','1','D','0','0','D','0','2.3','3.5');
+INSERT INTO SC2 VALUES('SC2','17/11/18','Stenhousemuir','Raith Rvs','1','3','A','0','1','A','0','3.8','3.8');
+INSERT INTO SC2 VALUES('SC2','01/12/18','Arbroath','Stenhousemuir','5','2','H','2','1','H','0','1.3','5.5');
+INSERT INTO SC2 VALUES('SC2','01/12/18','Dumbarton','Brechin','4','1','H','0','0','D','0','2.1','3.5');
+INSERT INTO SC2 VALUES('SC2','01/12/18','East Fife','Montrose','0','2','A','0','1','A','0','1.83','3.6');
+INSERT INTO SC2 VALUES('SC2','01/12/18','Raith Rvs','Airdrie Utd','2','0','H','2','0','H','0','1.75','3.75');
+INSERT INTO SC2 VALUES('SC2','01/12/18','Stranraer','Forfar','2','1','H','1','0','H','0','2.7','3.6');
+INSERT INTO SC2 VALUES('SC2','08/12/18','Brechin','Stenhousemuir','1','2','A','1','1','D','0','2.14','3.5');
+INSERT INTO SC2 VALUES('SC2','08/12/18','Dumbarton','Airdrie Utd','1','1','D','0','1','A','0','2.25','3.5');
+INSERT INTO SC2 VALUES('SC2','08/12/18','East Fife','Stranraer','3','3','D','2','0','H','1','2','3.6');
+INSERT INTO SC2 VALUES('SC2','08/12/18','Forfar','Arbroath','2','3','A','0','1','A','1','4.5','4.2');
+INSERT INTO SC2 VALUES('SC2','08/12/18','Montrose','Raith Rvs','3','2','H','1','1','D','0','3.8','3.6');
