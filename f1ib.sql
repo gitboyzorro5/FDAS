@@ -177,3 +177,5 @@ INSERT INTO F1 VALUES('F1','22/12/2018','Rennes','Nimes','4','0','H','2','0','H'
 INSERT INTO F1 VALUES('F1','22/12/2018','St Etienne','Dijon','3','0','H','1','0','H','1.47','4.4','6.5');
 INSERT INTO F1 VALUES('F1','22/12/2018','Strasbourg','Nice','2','0','H','2','0','H','2.4','3.1','3.1');
 INSERT INTO F1 VALUES('F1','23/12/2018','Bordeaux','Amiens','1','1','D','1','0','H','1.6','3.75','6');
+INSERT INTO F1 VALUES('F1','08/01/2019','Amiens','Angers','0','0','D','0','0','D','3.2','2.9','2.5');
+INSERT INTO F1 VALUES('F1','08/01/2019','Nantes','Montpellier','2','0','H','0','0','D','2.6','2.9','3');

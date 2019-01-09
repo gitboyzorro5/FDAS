@@ -307,3 +307,6 @@ INSERT INTO E2 VALUES('E2','01/01/2019','Portsmouth','AFC Wimbledon','2','1','H'
 INSERT INTO E2 VALUES('E2','01/01/2019','Shrewsbury','Fleetwood Town','0','0','D','0','0','D','2.05','3.25','3.8');
 INSERT INTO E2 VALUES('E2','01/01/2019','Southend','Gillingham','2','0','H','1','0','H','1.95','3.5','3.9');
 INSERT INTO E2 VALUES('E2','01/01/2019','Wycombe','Coventry','0','2','A','0','1','A','2.45','3.2','2.9');
+INSERT INTO E2 VALUES('E2','05/01/2019','Charlton','Sunderland','1','1','D','0','1','A','2.6','3.3','2.7');
+INSERT INTO E2 VALUES('E2','05/01/2019','Rochdale','Burton','0','4','A','0','2','A','2.45','3.6','2.7');
+INSERT INTO E2 VALUES('E2','05/01/2019','Scunthorpe','Coventry','2','1','H','0','0','D','2.9','3.3','2.45');
