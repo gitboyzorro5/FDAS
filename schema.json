@@ -1,0 +1,77 @@
+[
+  {
+    "mode": "NULLABLE", 
+    "name": "Div", 
+    "type": "STRING"
+  }, 
+  {
+    "mode": "NULLABLE", 
+    "name": "Date", 
+    "type": "STRING"
+  }, 
+  {
+    "mode": "NULLABLE", 
+    "name": "HomeTeam", 
+    "type": "STRING"
+  }, 
+  {
+    "mode": "NULLABLE", 
+    "name": "AwayTeam", 
+    "type": "STRING"
+  }, 
+  {
+    "mode": "NULLABLE", 
+    "name": "FTHG", 
+    "type": "INTEGER"
+  }, 
+  {
+    "mode": "NULLABLE", 
+    "name": "FTAG", 
+    "type": "INTEGER"
+  }, 
+  {
+    "mode": "NULLABLE", 
+    "name": "FTR", 
+    "type": "STRING"
+  }, 
+  {
+    "mode": "NULLABLE", 
+    "name": "HTHG", 
+    "type": "INTEGER"
+  }, 
+  {
+    "mode": "NULLABLE", 
+    "name": "HTAG", 
+    "type": "INTEGER"
+  }, 
+  {
+    "mode": "NULLABLE", 
+    "name": "HTR", 
+    "type": "STRING"
+  }, 
+  {
+    "mode": "NULLABLE", 
+    "name": "PSH", 
+    "type": "FLOAT"
+  }, 
+  {
+    "mode": "NULLABLE", 
+    "name": "PSD", 
+    "type": "FLOAT"
+  }, 
+  {
+    "mode": "NULLABLE", 
+    "name": "PSA", 
+    "type": "FLOAT"
+  }, 
+  {
+    "mode": "NULLABLE", 
+    "name": "HTCS", 
+    "type": "STRING"
+  }, 
+  {
+    "mode": "NULLABLE", 
+    "name": "CS", 
+    "type": "STRING"
+  }
+]
