@@ -166,3 +166,11 @@ INSERT INTO B1 VALUES('B1','26/12/2018','Kortrijk','Waregem','4','2','H','0','1'
 INSERT INTO B1 VALUES('B1','26/12/2018','Oostende','St Truiden','1','1','D','1','1','D','2.9','3.5','2.3');
 INSERT INTO B1 VALUES('B1','27/12/2018','Anderlecht','Waasland-Beveren','3','0','H','1','0','H','1.33','5','8.5');
 INSERT INTO B1 VALUES('B1','27/12/2018','Lokeren','Club Brugge','0','1','A','0','0','D','7','4.75','1.4');
+INSERT INTO B1 VALUES('B1','18/01/2019','St Truiden','Genk','2','3','A','1','1','D','6','4.5','1.45');
+INSERT INTO B1 VALUES('B1','19/01/2019','Eupen','Lokeren','4','1','H','2','0','H','1.85','3.8','3.8');
+INSERT INTO B1 VALUES('B1','19/01/2019','Standard','Kortrijk','2','1','H','0','1','A','1.45','4.5','6.5');
+INSERT INTO B1 VALUES('B1','19/01/2019','Waasland-Beveren','Cercle Brugge','1','1','D','0','0','D','2.4','3.4','2.8');
+INSERT INTO B1 VALUES('B1','19/01/2019','Waregem','Antwerp','1','2','A','0','1','A','2.62','3.4','2.6');
+INSERT INTO B1 VALUES('B1','20/01/2019','Club Brugge','Charleroi','0','1','A','0','1','A','1.5','4.33','6');
+INSERT INTO B1 VALUES('B1','20/01/2019','Gent','Anderlecht','1','0','H','0','0','D','2.05','3.5','3.4');
+INSERT INTO B1 VALUES('B1','20/01/2019','Mouscron','Oostende','2','1','H','1','1','D','2','3.5','3.6');
