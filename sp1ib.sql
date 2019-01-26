@@ -197,3 +197,4 @@ INSERT INTO SP1 VALUES('SP1','20/01/2019','Betis','Girona','3','2','H','1','2','
 INSERT INTO SP1 VALUES('SP1','20/01/2019','Levante','Valladolid','2','0','H','1','0','H','2.05','3.5','3.6');
 INSERT INTO SP1 VALUES('SP1','20/01/2019','Vallecano','Sociedad','2','2','D','2','1','H','2.8','3.5','2.45');
 INSERT INTO SP1 VALUES('SP1','20/01/2019','Villarreal','Ath Bilbao','1','1','D','0','1','A','2.2','3.3','3.4');
+INSERT INTO SP1 VALUES('SP1','21/01/2019','Eibar','Espanol','3','0','H','1','0','H','2.05','3.3','3.8');

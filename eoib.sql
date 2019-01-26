@@ -218,6 +218,8 @@ INSERT INTO E0 VALUES('E0','12/01/2019','West Ham','Arsenal','1','0','H','0','0'
 INSERT INTO E0 VALUES('E0','13/01/2019','Everton','Bournemouth','2','0','H','0','0','D','1.75','3.75','4.75');
 INSERT INTO E0 VALUES('E0','13/01/2019','Tottenham','Man United','0','1','A','0','1','A','2','3.6','3.7');
 INSERT INTO E0 VALUES('E0','14/01/2019','Man City','Wolves','3','0','H','2','0','H','1.17','7.5','17');
+INSERT INTO E0 VALUES('E0','19/01/2019','Arsenal','Chelsea','2','0','H','2','0','H','3','3.5','2.3');
+INSERT INTO E0 VALUES('E0','19/01/2019','Bournemouth','West Ham','2','0','H','0','0','D','2.3','3.5','3');
 INSERT INTO E0 VALUES('E0','19/01/2019','Liverpool','Crystal Palace','4','3','H','0','1','A','1.17','7.5','17');
 INSERT INTO E0 VALUES('E0','19/01/2019','Man United','Brighton','2','1','H','2','0','H','1.29','5.5','11');
 INSERT INTO E0 VALUES('E0','19/01/2019','Newcastle','Cardiff','3','0','H','1','0','H','1.95','3.25','4.4');

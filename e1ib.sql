@@ -333,3 +333,4 @@ INSERT INTO E1 VALUES('E1','19/01/2019','Rotherham','Brentford','2','4','A','1',
 INSERT INTO E1 VALUES('E1','19/01/2019','Sheffield Weds','Wigan','1','0','H','0','0','D','2.5','3.2','3');
 INSERT INTO E1 VALUES('E1','19/01/2019','Stoke','Leeds','2','1','H','0','0','D','3','3.4','2.38');
 INSERT INTO E1 VALUES('E1','19/01/2019','Swansea','Sheffield United','1','0','H','0','0','D','3','3.3','2.4');
+INSERT INTO E1 VALUES('E1','21/01/2019','Bolton','West Brom','0','2','A','0','1','A','5','3.5','1.75');

@@ -205,3 +205,5 @@ INSERT INTO F2 VALUES('F2','18/01/2019','Metz','Clermont','1','2','A','0','1','A
 INSERT INTO F2 VALUES('F2','18/01/2019','Sochaux','Ajaccio','0','0','D','0','0','D','2.5','2.9','3.1');
 INSERT INTO F2 VALUES('F2','19/01/2019','Lens','Nancy','2','1','H','0','1','A','1.55','3.7','6.5');
 INSERT INTO F2 VALUES('F2','19/01/2019','Niort','Grenoble','1','1','D','0','0','D','3','3','2.5');
+INSERT INTO F2 VALUES('F2','21/01/2019','Le Havre','Red Star','1','0','H','0','0','D','1.61','3.6','6');
+INSERT INTO F2 VALUES('F2','21/01/2019','Paris FC','Brest','0','1','A','0','1','A','2.75','3','2.75');

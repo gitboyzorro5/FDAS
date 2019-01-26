@@ -337,3 +337,5 @@ INSERT INTO E3 VALUES('E3','19/01/2019','Morecambe','Stevenage','1','2','A','0',
 INSERT INTO E3 VALUES('E3','19/01/2019','Newport County','Exeter','1','0','H','0','0','D','2.62','3.25','2.7');
 INSERT INTO E3 VALUES('E3','19/01/2019','Tranmere','Swindon','1','2','A','0','2','A','2.2','3.4','3.2');
 INSERT INTO E3 VALUES('E3','19/01/2019','Yeovil','Notts County','2','0','H','1','0','H','2.05','3.4','3.5');
+INSERT INTO E3 VALUES('E3','22/01/2019','Forest Green','Grimsby','3','0','H','2','0','H','1.65','3.9','5');
+INSERT INTO E3 VALUES('E3','22/01/2019','Yeovil','Lincoln','0','2','A','0','2','A','3.75','3.25','2.05');

@@ -125,3 +125,4 @@ INSERT INTO G1 VALUES('G1','20/01/2019','AEK','Asteras Tripolis','3','0','H','3'
 INSERT INTO G1 VALUES('G1','20/01/2019','Larisa','Aris','0','0','D','0','0','D','2.6','3','2.9');
 INSERT INTO G1 VALUES('G1','20/01/2019','OFI Crete','Panetolikos','3','0','H','1','0','H','2','3.2','4');
 INSERT INTO G1 VALUES('G1','20/01/2019','Xanthi','Atromitos','2','1','H','1','1','D','3.2','3','2.4');
+INSERT INTO G1 VALUES('G1','21/01/2019','Lamia','Panathinaikos','1','0','H','0','0','D','3','3','2.5');

@@ -176,3 +176,4 @@ INSERT INTO I2 VALUES('I2','19/01/2019','Perugia','Brescia','0','2','A','0','1',
 INSERT INTO I2 VALUES('I2','20/01/2019','Cosenza','Ascoli','0','0','D','0','0','D','2.15','3.1','3.6');
 INSERT INTO I2 VALUES('I2','20/01/2019','Padova','Verona','3','0','H','1','0','H','3','3','2.5');
 INSERT INTO I2 VALUES('I2','20/01/2019','Pescara','Cremonese','0','0','D','0','0','D','1.9','3','4.75');
+INSERT INTO I2 VALUES('I2','21/01/2019','Spezia','Venezia','1','1','D','0','0','D','1.9','3.25','4.33');
