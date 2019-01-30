@@ -160,3 +160,12 @@ INSERT INTO N1 VALUES('N1','20/01/2019','Ajax','Heerenveen','4','4','D','3','1',
 INSERT INTO N1 VALUES('N1','20/01/2019','FC Emmen','PSV Eindhoven','2','2','D','0','1','A','13','6.5','1.2');
 INSERT INTO N1 VALUES('N1','20/01/2019','Graafschap','For Sittard','5','1','H','3','0','H','3.2','3.8','2.05');
 INSERT INTO N1 VALUES('N1','20/01/2019','Willem II','NAC Breda','2','0','H','1','0','H','1.95','3.5','3.75');
+INSERT INTO N1 VALUES('N1','25/01/2019','NAC Breda','Den Haag','1','1','D','0','1','A','2.5','3.4','2.7');
+INSERT INTO N1 VALUES('N1','26/01/2019','Excelsior','Graafschap','2','0','H','0','0','D','2.05','3.6','3.3');
+INSERT INTO N1 VALUES('N1','26/01/2019','Heracles','Zwolle','0','2','A','0','1','A','2','4','3.2');
+INSERT INTO N1 VALUES('N1','26/01/2019','PSV Eindhoven','Groningen','2','1','H','2','1','H','1.14','8.5','13');
+INSERT INTO N1 VALUES('N1','26/01/2019','VVV Venlo','FC Emmen','2','3','A','1','1','D','1.95','3.5','3.8');
+INSERT INTO N1 VALUES('N1','27/01/2019','Feyenoord','Ajax','6','2','H','3','2','H','4.2','4','1.72');
+INSERT INTO N1 VALUES('N1','27/01/2019','For Sittard','Vitesse','2','1','H','0','1','A','3.4','3.75','2');
+INSERT INTO N1 VALUES('N1','27/01/2019','Heerenveen','AZ Alkmaar','0','2','A','0','0','D','3.6','3.8','1.9');
+INSERT INTO N1 VALUES('N1','27/01/2019','Utrecht','Willem II','0','1','A','0','0','D','1.44','4.33','7');

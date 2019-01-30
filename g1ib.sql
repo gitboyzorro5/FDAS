@@ -126,3 +126,11 @@ INSERT INTO G1 VALUES('G1','20/01/2019','Larisa','Aris','0','0','D','0','0','D',
 INSERT INTO G1 VALUES('G1','20/01/2019','OFI Crete','Panetolikos','3','0','H','1','0','H','2','3.2','4');
 INSERT INTO G1 VALUES('G1','20/01/2019','Xanthi','Atromitos','2','1','H','1','1','D','3.2','3','2.4');
 INSERT INTO G1 VALUES('G1','21/01/2019','Lamia','Panathinaikos','1','0','H','0','0','D','3','3','2.5');
+INSERT INTO G1 VALUES('G1','26/01/2019','Giannina','Apollon','1','0','H','1','0','H','1.45','3.75','7');
+INSERT INTO G1 VALUES('G1','26/01/2019','Panetolikos','Xanthi','0','0','D','0','0','D','2.2','2.9','3.4');
+INSERT INTO G1 VALUES('G1','26/01/2019','Panionios','AEK','0','2','A','0','1','A','5','3.4','1.66');
+INSERT INTO G1 VALUES('G1','27/01/2019','Asteras Tripolis','Olympiakos','0','2','A','0','1','A','4.75','3.25','1.75');
+INSERT INTO G1 VALUES('G1','27/01/2019','Lamia','Atromitos','2','1','H','0','0','D','3','2.8','2.5');
+INSERT INTO G1 VALUES('G1','27/01/2019','Levadeiakos','Aris','1','0','H','1','0','H','2.8','2.8','2.6');
+INSERT INTO G1 VALUES('G1','27/01/2019','Panathinaikos','Larisa','1','1','D','1','0','H','1.44','3.8','7');
+INSERT INTO G1 VALUES('G1','27/01/2019','PAOK','OFI Crete','4','0','H','2','0','H','1.14','7','13');

@@ -102,3 +102,8 @@ INSERT INTO SC1 VALUES('SC1','12/01/2019','Dundee United','Dunfermline','1','0',
 INSERT INTO SC1 VALUES('SC1','12/01/2019','Inverness C','Ayr','1','0','H','0','0','D','0','2.55','3.3');
 INSERT INTO SC1 VALUES('SC1','12/01/2019','Partick','Falkirk','1','1','D','0','0','D','0','1.85','3.6');
 INSERT INTO SC1 VALUES('SC1','12/01/2019','Queen of Sth','Ross County','4','0','H','2','0','H','1','3.2','3.25');
+INSERT INTO SC1 VALUES('SC1','25/01/2019','Ayr','Dundee United','1','0','H','1','0','H','1','3.2','3.6');
+INSERT INTO SC1 VALUES('SC1','26/01/2019','Falkirk','Inverness C','2','2','D','1','2','A','0','3.8','3.3');
+INSERT INTO SC1 VALUES('SC1','26/01/2019','Morton','Dunfermline','0','0','D','0','0','D','0','3.1','3.3');
+INSERT INTO SC1 VALUES('SC1','26/01/2019','Partick','Queen of Sth','2','1','H','1','0','H','0','2.55','3.7');
+INSERT INTO SC1 VALUES('SC1','26/01/2019','Ross County','Alloa','2','0','H','1','0','H','0','1.4','4.5');

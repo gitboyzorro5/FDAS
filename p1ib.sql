@@ -160,3 +160,7 @@ INSERT INTO P1 VALUES('P1','19/01/2019','Sp Lisbon','Moreirense','2','1','H','2'
 INSERT INTO P1 VALUES('P1','20/01/2019','Aves','Setubal','2','1','H','1','0','H','2.4','3.3','2.87');
 INSERT INTO P1 VALUES('P1','20/01/2019','Boavista','Portimonense','0','2','A','0','1','A','2.4','3','3.2');
 INSERT INTO P1 VALUES('P1','20/01/2019','Rio Ave','Feirense','0','0','D','0','0','D','1.66','3.75','5');
+INSERT INTO P1 VALUES('P1','28/01/2019','Feirense','Guimaraes','1','2','A','1','2','A','4','3.2','2.05');
+INSERT INTO P1 VALUES('P1','28/01/2019','Maritimo','Rio Ave','0','2','A','0','0','D','2.45','3.1','3');
+INSERT INTO P1 VALUES('P1','28/01/2019','Moreirense','Nacional','2','1','H','1','0','H','1.95','3.3','4');
+INSERT INTO P1 VALUES('P1','28/01/2019','Tondela','Aves','0','2','A','0','0','D','1.95','3.2','4.2');
