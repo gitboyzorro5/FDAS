@@ -229,6 +229,25 @@ E0,19/01/2019,Watford,Burnley,0,0,D,0,0,D,1.62,3.9,5.8,0-0,0-0
 E0,19/01/2019,Wolves,Leicester,4,3,H,2,0,H,2.3,3.1,3.4,2-0,4-3
 E0,20/01/2019,Fulham,Tottenham,1,2,A,1,0,H,5.5,3.6,1.73,1-0,1-2
 E0,20/01/2019,Huddersfield,Man City,0,3,A,0,1,A,19,8,1.14,0-1,0-3
+E0,29/01/2019,Arsenal,Cardiff,2,1,H,0,0,D,1.2,6,15,0-0,2-1
+E0,29/01/2019,Fulham,Brighton,4,2,H,0,2,A,2.35,3.2,3.2,0-2,4-2
+E0,29/01/2019,Huddersfield,Everton,0,1,A,0,1,A,4,3.2,2.05,0-1,0-1
+E0,29/01/2019,Man United,Burnley,2,2,D,0,0,D,1.25,5.8,12,0-0,2-2
+E0,29/01/2019,Newcastle,Man City,2,1,H,0,1,A,17,6.5,1.18,0-1,2-1
+E0,29/01/2019,Wolves,West Ham,3,0,H,0,0,D,2.05,3.4,3.75,0-0,3-0
+E0,30/01/2019,Bournemouth,Chelsea,4,0,H,0,0,D,5.5,4,1.62,0-0,4-0
+E0,30/01/2019,Liverpool,Leicester,1,1,D,1,1,D,1.22,6.5,13,1-1,1-1
+E0,30/01/2019,Southampton,Crystal Palace,1,1,D,0,1,A,2.35,3.3,3.1,0-1,1-1
+E0,30/01/2019,Tottenham,Watford,2,1,H,0,1,A,1.62,3.9,5.8,0-1,2-1
+E0,02/02/2019,Brighton,Watford,0,0,D,0,0,D,2.55,3.2,2.9,0-0,0-0
+E0,02/02/2019,Burnley,Southampton,1,1,D,0,0,D,2.5,3.3,2.88,0-0,1-1
+E0,02/02/2019,Cardiff,Bournemouth,2,0,H,1,0,H,3.2,3.4,2.25,1-0,2-0
+E0,02/02/2019,Chelsea,Huddersfield,5,0,H,2,0,H,1.18,7,17,2-0,5-0
+E0,02/02/2019,Crystal Palace,Fulham,2,0,H,1,0,H,2,3.5,3.8,1-0,2-0
+E0,02/02/2019,Everton,Wolves,1,3,A,1,2,A,2.35,3.3,3.1,1-2,1-3
+E0,02/02/2019,Tottenham,Newcastle,1,0,H,0,0,D,1.42,4.2,9,0-0,1-0
+E0,03/02/2019,Leicester,Man United,0,1,A,0,1,A,3.6,3.4,2.1,0-1,0-1
+E0,03/02/2019,Man City,Arsenal,3,1,H,2,1,H,1.29,6,9.5,2-1,3-1
 E1,03/08/2018,Reading,Derby,1,2,A,0,0,D,3.5,3.2,2.2,0-0,1-2
 E1,04/08/2018,Birmingham,Norwich,2,2,D,0,0,D,2.5,3.2,2.88,0-0,2-2
 E1,04/08/2018,Brentford,Rotherham,5,1,H,2,0,H,1.5,4.4,5.8,2-0,5-1
@@ -571,6 +590,20 @@ E1,26/01/2019,Norwich,Sheffield United,2,2,D,1,1,D,2.4,3.4,3,1-1,2-2
 E1,26/01/2019,Nottm Forest,Wigan,3,1,H,1,1,D,2.1,3.25,3.7,1-1,3-1
 E1,26/01/2019,Rotherham,Leeds,1,2,A,1,0,H,5.8,3.8,1.62,1-0,1-2
 E1,26/01/2019,Stoke,Preston,0,2,A,0,1,A,1.95,3.3,4.2,0-1,0-2
+E1,29/01/2019,Bolton,Reading,1,1,D,0,0,D,2.75,3.2,2.7,0-0,1-1
+E1,29/01/2019,Swansea,Birmingham,3,3,D,1,1,D,2.1,3.3,3.7,1-1,3-3
+E1,01/02/2019,Preston,Derby,0,0,D,0,0,D,2.3,3.4,3.1,0-0,0-0
+E1,02/02/2019,Birmingham,Nottm Forest,2,0,H,1,0,H,2.25,3.2,3.4,1-0,2-0
+E1,02/02/2019,Brentford,Blackburn,5,2,H,1,2,A,1.85,3.6,4.2,1-2,5-2
+E1,02/02/2019,Bristol City,Swansea,2,0,H,0,0,D,2.3,3.25,3.2,0-0,2-0
+E1,02/02/2019,Hull,Stoke,2,0,H,1,0,H,2.5,3.3,2.88,1-0,2-0
+E1,02/02/2019,Ipswich,Sheffield Weds,0,1,A,0,0,D,3,3,2.62,0-0,0-1
+E1,02/02/2019,Leeds,Norwich,1,3,A,0,2,A,1.91,3.7,3.9,0-2,1-3
+E1,02/02/2019,Millwall,Rotherham,0,0,D,0,0,D,1.65,3.7,5.8,0-0,0-0
+E1,02/02/2019,Reading,Aston Villa,0,0,D,0,0,D,3.4,3.4,2.15,0-0,0-0
+E1,02/02/2019,Sheffield United,Bolton,2,0,H,0,0,D,1.25,5.5,15,0-0,2-0
+E1,02/02/2019,West Brom,Middlesbrough,2,3,A,1,1,D,2.15,3.2,3.7,1-1,2-3
+E1,02/02/2019,Wigan,QPR,2,1,H,1,0,H,2.3,3.3,3.2,1-0,2-1
 E2,04/08/2018,Accrington,Gillingham,0,2,A,0,2,A,2.25,3.4,3.1,0-2,0-2
 E2,04/08/2018,Barnsley,Oxford,4,0,H,2,0,H,1.73,3.5,4.33,2-0,4-0
 E2,04/08/2018,Burton,Rochdale,1,2,A,0,2,A,2.15,3.4,3.3,0-2,1-2
@@ -916,6 +949,23 @@ E2,26/01/2019,Fleetwood Town,Scunthorpe,0,1,A,0,0,D,2.15,3.5,3.2,0-0,0-1
 E2,26/01/2019,Peterboro,Charlton,0,0,D,0,0,D,2.45,3.5,2.75,0-0,0-0
 E2,26/01/2019,Southend,Luton,0,1,A,0,1,A,3.9,3.25,2,0-1,0-1
 E2,26/01/2019,Wycombe,Plymouth,1,0,H,1,0,H,2.05,3.6,3.4,1-0,1-0
+E2,29/01/2019,Blackpool,Wycombe,2,2,D,0,1,A,2.35,3.2,3.1,0-1,2-2
+E2,29/01/2019,Bradford,Shrewsbury,4,3,H,2,1,H,2.62,3.3,2.7,2-1,4-3
+E2,29/01/2019,Bristol Rvs,Peterboro,2,2,D,2,1,H,2.38,3.3,3,2-1,2-2
+E2,29/01/2019,Gillingham,Accrington,0,0,D,0,0,D,2.88,3.4,2.38,0-0,0-0
+E2,29/01/2019,Luton,Portsmouth,3,2,H,1,0,H,2.35,3.2,3.1,1-0,3-2
+E2,29/01/2019,Oxford,Barnsley,2,2,D,1,0,H,3.1,3.25,2.3,1-0,2-2
+E2,02/02/2019,Barnsley,Scunthorpe,2,0,H,2,0,H,1.42,4.5,7.5,2-0,2-0
+E2,02/02/2019,Burton,Oxford,0,0,D,0,0,D,2.1,3.4,3.5,0-0,0-0
+E2,02/02/2019,Coventry,Gillingham,1,1,D,0,0,D,1.78,3.7,4.33,0-0,1-1
+E2,02/02/2019,Fleetwood Town,Charlton,1,0,H,0,0,D,2.6,3.2,2.75,0-0,1-0
+E2,02/02/2019,Peterboro,Plymouth,0,1,A,0,0,D,1.91,3.6,3.9,0-0,0-1
+E2,02/02/2019,Portsmouth,Doncaster,1,1,D,0,1,A,2.05,3.5,3.5,0-1,1-1
+E2,02/02/2019,Shrewsbury,Luton,0,3,A,0,1,A,3.25,3.4,2.2,0-1,0-3
+E2,02/02/2019,Southend,Bristol Rvs,1,2,A,1,2,A,2.25,3.3,3.2,1-2,1-2
+E2,02/02/2019,Sunderland,AFC Wimbledon,1,0,H,0,0,D,1.6,3.9,5.5,0-0,1-0
+E2,02/02/2019,Walsall,Rochdale,1,2,A,1,1,D,2.3,3.4,3,1-1,1-2
+E2,02/02/2019,Wycombe,Bradford,0,0,D,0,0,D,2.1,3.4,3.5,0-0,0-0
 E3,04/08/2018,Bury,Yeovil,1,0,H,0,0,D,1.85,3.7,4,0-0,1-0
 E3,04/08/2018,Cheltenham,Crawley Town,0,1,A,0,0,D,1.95,3.7,3.6,0-0,0-1
 E3,04/08/2018,Crewe,Morecambe,6,0,H,2,0,H,1.91,3.7,3.75,2-0,6-0
@@ -1267,6 +1317,16 @@ E3,26/01/2019,Northampton,Morecambe,1,1,D,1,0,H,1.85,3.5,4.2,1-0,1-1
 E3,26/01/2019,Port Vale,Carlisle,0,1,A,0,0,D,2.88,3.2,2.5,0-0,0-1
 E3,26/01/2019,Stevenage,Forest Green,0,2,A,0,1,A,4,3.6,1.85,0-1,0-2
 E3,26/01/2019,Swindon,Crawley Town,0,1,A,0,1,A,1.83,3.6,4.2,0-1,0-1
+E3,29/01/2019,Forest Green,Mansfield,1,1,D,0,1,A,2.5,3.2,2.9,0-1,1-1
+E3,29/01/2019,Milton Keynes Dons,Oldham,2,1,H,1,0,H,1.83,4,3.8,1-0,2-1
+E3,29/01/2019,Newport County,Port Vale,0,0,D,0,0,D,2.15,3.25,3.5,0-0,0-0
+E3,02/02/2019,Bury,Crawley Town,1,1,D,0,0,D,1.42,4.4,7.5,0-0,1-1
+E3,02/02/2019,Exeter,Milton Keynes Dons,3,1,H,2,0,H,2.8,3.4,2.45,2-0,3-1
+E3,02/02/2019,Grimsby,Newport County,3,0,H,1,0,H,2.8,3.25,2.5,1-0,3-0
+E3,02/02/2019,Mansfield,Macclesfield,3,1,H,1,1,D,1.47,4.2,7,1-1,3-1
+E3,02/02/2019,Northampton,Colchester,0,4,A,0,1,A,2.4,3.4,2.88,0-1,0-4
+E3,02/02/2019,Notts County,Lincoln,1,1,D,1,1,D,4.5,3.7,1.75,1-1,1-1
+E3,02/02/2019,Stevenage,Yeovil,1,0,H,0,0,D,2.45,3.4,2.8,0-0,1-0
 EC,04/08/2018,Aldershot,Barnet,0,0,D,0,0,D,2.6,3.3,2.7,0-0,0-0
 EC,04/08/2018,Barrow,Havant & Waterlooville,3,0,H,1,0,H,2.75,3.2,2.6,1-0,3-0
 EC,04/08/2018,Boreham Wood,Dag and Red,1,0,H,0,0,D,1.8,3.4,4,0-0,1-0
@@ -1634,6 +1694,7 @@ EC,26/01/2019,Leyton Orient,Maidstone,3,0,H,1,0,H,1.35,5,8,1-0,3-0
 EC,26/01/2019,Solihull,Fylde,1,2,A,0,0,D,2.15,3.4,3.3,0-0,1-2
 EC,26/01/2019,Sutton,Ebbsfleet,1,0,H,0,0,D,2.6,3.25,2.7,0-0,1-0
 EC,26/01/2019,Wrexham,Maidenhead,1,0,H,0,0,D,1.53,3.8,6.5,0-0,1-0
+EC,02/02/2019,Dover Athletic,Gateshead,1,2,A,1,0,H,2.38,3.2,3,1-0,1-2
 SP1,17/08/2018,Betis,Levante,0,3,A,0,1,A,1.67,3.9,4.75,0-1,0-3
 SP1,17/08/2018,Girona,Valladolid,0,0,D,0,0,D,1.75,3.6,4.6,0-0,0-0
 SP1,18/08/2018,Barcelona,Alaves,3,0,H,0,0,D,1.08,9,29,0-0,3-0
@@ -1844,6 +1905,15 @@ SP1,27/01/2019,Girona,Barcelona,0,2,A,0,1,A,8.5,5.5,1.33,0-1,0-2
 SP1,27/01/2019,Sociedad,Huesca,0,0,D,0,0,D,1.62,3.9,5.8,0-0,0-0
 SP1,27/01/2019,Valladolid,Celta,2,1,H,0,1,A,2.4,3.2,3.1,0-1,2-1
 SP1,28/01/2019,Alaves,Vallecano,0,1,A,0,0,D,2.2,3.25,3.5,0-0,0-1
+SP1,01/02/2019,Huesca,Valladolid,4,0,H,1,0,H,2.25,3.1,3.5,1-0,4-0
+SP1,02/02/2019,Barcelona,Valencia,2,2,D,1,2,A,1.25,6.5,10,1-2,2-2
+SP1,02/02/2019,Celta,Sevilla,1,0,H,0,0,D,3.6,3.6,2,0-0,1-0
+SP1,02/02/2019,Levante,Getafe,0,0,D,0,0,D,2.4,3.3,3,0-0,0-0
+SP1,02/02/2019,Sociedad,Ath Bilbao,2,1,H,2,0,H,2.3,3.2,3.25,2-0,2-1
+SP1,03/02/2019,Betis,Ath Madrid,1,0,H,0,0,D,3.9,3.3,2,0-0,1-0
+SP1,03/02/2019,Eibar,Girona,3,0,H,1,0,H,1.67,4,5,1-0,3-0
+SP1,03/02/2019,Real Madrid,Alaves,3,0,H,1,0,H,1.22,6.5,13,1-0,3-0
+SP1,03/02/2019,Villarreal,Espanol,2,2,D,1,0,H,1.75,3.8,4.5,1-0,2-2
 SP2,17/08/2018,Albacete,La Coruna,1,1,D,0,0,D,2.9,3,2.6,0-0,1-1
 SP2,17/08/2018,Cadiz,Almeria,1,0,H,0,0,D,1.61,3.6,6,0-0,1-0
 SP2,18/08/2018,Alcorcon,Sp Gijon,1,1,D,0,0,D,2.4,3.2,3,0-0,1-1
@@ -2095,6 +2165,15 @@ SP2,27/01/2019,Alcorcon,Cordoba,2,1,H,0,1,A,1.6,3.4,7,0-1,2-1
 SP2,27/01/2019,Gimnastic,Las Palmas,0,0,D,0,0,D,2.9,3,2.6,0-0,0-0
 SP2,27/01/2019,Granada,Extremadura UD,0,0,D,0,0,D,1.53,3.6,7.5,0-0,0-0
 SP2,27/01/2019,Sp Gijon,La Coruna,1,2,A,1,2,A,2.55,2.87,3.1,1-2,1-2
+SP2,01/02/2019,Malaga,Almeria,1,1,D,1,0,H,1.8,3.25,5,1-0,1-1
+SP2,02/02/2019,Cordoba,Albacete,1,3,A,1,0,H,2.45,3.1,3,1-0,1-3
+SP2,02/02/2019,La Coruna,Tenerife,0,0,D,0,0,D,1.55,3.75,6.5,0-0,0-0
+SP2,02/02/2019,Numancia,Lugo,3,0,H,1,0,H,1.75,3.5,4.75,1-0,3-0
+SP2,02/02/2019,Rayo Majadahonda,Gimnastic,1,0,H,1,0,H,1.7,3.3,5.75,1-0,1-0
+SP2,03/02/2019,Extremadura UD,Sp Gijon,0,3,A,0,0,D,2.6,2.9,3,0-0,0-3
+SP2,03/02/2019,Mallorca,Alcorcon,2,0,H,2,0,H,2.4,2.8,3.4,2-0,2-0
+SP2,03/02/2019,Osasuna,Granada,1,0,H,0,0,D,1.9,3.1,4.5,0-0,1-0
+SP2,03/02/2019,Oviedo,Cadiz,2,1,H,2,1,H,2.25,2.9,3.6,2-1,2-1
 D1,24/08/2018,Bayern Munich,Hoffenheim,3,1,H,1,0,H,1.17,8,13,1-0,3-1
 D1,25/08/2018,Fortuna Dusseldorf,Augsburg,1,2,A,1,0,H,2.45,3.25,2.9,1-0,1-2
 D1,25/08/2018,Freiburg,Ein Frankfurt,0,2,A,0,1,A,2.25,3.3,3.2,0-1,0-2
@@ -2266,6 +2345,15 @@ D1,26/01/2019,Werder Bremen,Ein Frankfurt,2,2,D,1,1,D,2.5,3.6,2.62,1-1,2-2
 D1,26/01/2019,Wolfsburg,Leverkusen,0,3,A,0,1,A,2.62,3.5,2.55,0-1,0-3
 D1,27/01/2019,Bayern Munich,Stuttgart,4,1,H,1,1,D,1.07,11,26,1-1,4-1
 D1,27/01/2019,Fortuna Dusseldorf,RB Leipzig,0,4,A,0,3,A,4,3.6,1.88,0-3,0-4
+D1,01/02/2019,Hannover,RB Leipzig,0,3,A,0,1,A,5.5,4.33,1.53,0-1,0-3
+D1,02/02/2019,Ein Frankfurt,Dortmund,1,1,D,1,1,D,3.2,3.6,2.15,1-1,1-1
+D1,02/02/2019,Hertha,Wolfsburg,0,1,A,0,0,D,2.25,3.4,3.1,0-0,0-1
+D1,02/02/2019,Hoffenheim,Fortuna Dusseldorf,1,1,D,1,0,H,1.42,4.8,7,1-0,1-1
+D1,02/02/2019,Leverkusen,Bayern Munich,3,1,H,0,1,A,5.5,4.33,1.55,0-1,3-1
+D1,02/02/2019,Nurnberg,Werder Bremen,1,1,D,0,0,D,3.6,3.7,1.95,0-0,1-1
+D1,02/02/2019,Schalke 04,Mgladbach,0,2,A,0,0,D,2.4,3.3,2.9,0-0,0-2
+D1,03/02/2019,Augsburg,Mainz,3,0,H,2,0,H,2.2,3.4,3.2,2-0,3-0
+D1,03/02/2019,Stuttgart,Freiburg,2,2,D,0,1,A,2.2,3.4,3.25,0-1,2-2
 D2,03/08/2018,Hamburg,Holstein Kiel,0,3,A,0,0,D,1.7,3.6,5,0-0,0-3
 D2,04/08/2018,Bochum,FC Koln,0,2,A,0,1,A,2.8,3.1,2.6,0-1,0-2
 D2,04/08/2018,Greuther Furth,Sandhausen,3,1,H,0,0,D,2.25,3.2,3.3,0-0,3-1
@@ -2428,6 +2516,22 @@ D2,23/12/2018,Duisburg,Dresden,1,3,A,0,2,A,2.4,3.3,2.87,0-2,1-3
 D2,23/12/2018,Erzgebirge Aue,Union Berlin,3,0,H,2,0,H,3.6,3.1,2.14,2-0,3-0
 D2,23/12/2018,Holstein Kiel,Hamburg,3,1,H,2,0,H,3.5,3.25,2.1,2-0,3-1
 D2,23/12/2018,Paderborn,Darmstadt,6,2,H,1,1,D,1.75,3.6,4.6,1-1,6-2
+D2,29/01/2019,Bochum,Duisburg,2,1,H,2,0,H,1.8,3.6,4.33,2-0,2-1
+D2,29/01/2019,Darmstadt,St Pauli,2,1,H,0,1,A,2.8,3.25,2.5,0-1,2-1
+D2,29/01/2019,Greuther Furth,Ingolstadt,0,1,A,0,0,D,3,3.3,2.3,0-0,0-1
+D2,29/01/2019,Magdeburg,Erzgebirge Aue,1,0,H,1,0,H,2.15,3.2,3.5,1-0,1-0
+D2,30/01/2019,Dresden,Bielefeld,3,4,A,3,1,H,2.1,3.3,3.5,3-1,3-4
+D2,30/01/2019,Hamburg,Sandhausen,2,1,H,1,0,H,1.53,4,6,1-0,2-1
+D2,30/01/2019,Heidenheim,Holstein Kiel,2,2,D,2,1,H,2.37,3.6,2.75,2-1,2-2
+D2,30/01/2019,Regensburg,Paderborn,2,0,H,0,0,D,2.3,3.6,2.87,0-0,2-0
+D2,31/01/2019,Union Berlin,FC Koln,2,0,H,2,0,H,2.75,3.3,2.5,2-0,2-0
+D2,01/02/2019,Duisburg,Darmstadt,3,2,H,2,0,H,2.5,3.4,2.75,2-0,3-2
+D2,01/02/2019,Ingolstadt,Magdeburg,0,1,A,0,0,D,2.05,3.5,3.4,0-0,0-1
+D2,02/02/2019,Bielefeld,Hamburg,2,0,H,2,0,H,4,3.4,1.9,2-0,2-0
+D2,02/02/2019,Heidenheim,Dresden,1,0,H,1,0,H,2.05,3.5,3.4,1-0,1-0
+D2,02/02/2019,Paderborn,Greuther Furth,6,0,H,3,0,H,1.5,4.33,6.5,3-0,6-0
+D2,03/02/2019,Holstein Kiel,Regensburg,2,0,H,1,0,H,2,3.6,3.5,1-0,2-0
+D2,03/02/2019,Sandhausen,Bochum,3,0,H,0,0,D,2.7,3.3,2.55,0-0,3-0
 F1,10/08/2018,Marseille,Toulouse,4,0,H,1,0,H,1.4,4.4,8,1-0,4-0
 F1,11/08/2018,Angers,Nimes,3,4,A,1,1,D,2.25,3.3,3.2,1-1,3-4
 F1,11/08/2018,Lille,Rennes,3,1,H,1,1,D,2.45,3.25,2.88,1-1,3-1
@@ -2644,6 +2748,14 @@ F1,27/01/2019,Amiens,Lyon,0,1,A,0,0,D,5.8,4.2,1.55,0-0,0-1
 F1,27/01/2019,Montpellier,Caen,2,0,H,0,0,D,1.65,3.5,5.8,0-0,2-0
 F1,27/01/2019,Paris SG,Rennes,4,1,H,1,1,D,1.2,6.5,13,1-1,4-1
 F1,27/01/2019,Toulouse,Angers,0,0,D,0,0,D,2.2,3.2,3.4,0-0,0-0
+F1,30/01/2019,Nantes,St Etienne,1,1,D,0,0,D,2.7,3.1,2.7,0-0,1-1
+F1,01/02/2019,Lille,Nice,4,0,H,2,0,H,1.83,3.4,5,2-0,4-0
+F1,02/02/2019,Angers,Dijon,1,0,H,1,0,H,2,3.3,3.9,1-0,1-0
+F1,02/02/2019,Monaco,Toulouse,2,1,H,1,1,D,1.75,3.6,4.6,1-1,2-1
+F1,02/02/2019,Reims,Marseille,2,1,H,1,0,H,2.62,3.1,2.75,1-0,2-1
+F1,02/02/2019,Rennes,Amiens,1,0,H,0,0,D,1.57,3.75,6.5,0-0,1-0
+F1,03/02/2019,Lyon,Paris SG,2,1,H,1,1,D,3.7,3.9,1.85,1-1,2-1
+F1,03/02/2019,Nimes,Montpellier,1,1,D,1,0,H,2.6,3.1,2.88,1-0,1-1
 F2,27/07/2018,Ajaccio,Troyes,0,1,A,0,1,A,2.14,3.1,3.6,0-1,0-1
 F2,27/07/2018,Ajaccio GFCO,Paris FC,1,1,D,0,1,A,3.2,2.87,2.5,0-1,1-1
 F2,27/07/2018,Clermont,Chateauroux,0,0,D,0,0,D,1.8,3.3,4.75,0-0,0-0
@@ -2863,6 +2975,15 @@ F2,26/01/2019,Orleans,Niort,1,0,H,1,0,H,2.15,3,3.8,1-0,1-0
 F2,28/01/2019,Beziers,Paris FC,0,1,A,0,0,D,3.3,2.75,2.5,0-0,0-1
 F2,28/01/2019,Clermont,Le Havre,0,0,D,0,0,D,2,3.1,4.33,0-0,0-0
 F2,28/01/2019,Troyes,Lens,1,0,H,0,0,D,2.5,2.9,3.1,0-0,1-0
+F2,29/01/2019,Metz,Nancy,3,0,H,1,0,H,1.61,3.5,6.5,1-0,3-0
+F2,01/02/2019,Auxerre,Red Star,0,0,D,0,0,D,1.57,3.6,6.5,0-0,0-0
+F2,01/02/2019,Chateauroux,Grenoble,2,2,D,1,2,A,2.7,3,2.75,1-2,2-2
+F2,01/02/2019,Le Havre,Brest,1,1,D,1,0,H,2.87,3,2.62,1-0,1-1
+F2,01/02/2019,Lorient,Ajaccio,1,0,H,0,0,D,1.8,3.3,4.75,0-0,1-0
+F2,01/02/2019,Metz,Troyes,1,1,D,1,0,H,1.55,3.6,7,1-0,1-1
+F2,01/02/2019,Niort,Nancy,1,1,D,0,0,D,2.15,3.1,3.6,0-0,1-1
+F2,01/02/2019,Paris FC,Orleans,0,0,D,0,0,D,2,2.9,4.5,0-0,0-0
+F2,01/02/2019,Sochaux,Clermont,2,1,H,1,0,H,4,3.2,2,1-0,2-1
 I1,18/08/2018,Chievo,Juventus,2,3,A,1,1,D,13,6,1.22,1-1,2-3
 I1,18/08/2018,Lazio,Napoli,1,2,A,1,1,D,2.8,3.5,2.4,1-1,1-2
 I1,19/08/2018,Bologna,Spal,0,1,A,0,0,D,2.25,3.2,3.3,0-0,0-1
@@ -3073,6 +3194,14 @@ I1,27/01/2019,Lazio,Juventus,1,2,A,0,0,D,4.5,3.5,1.83,0-0,1-2
 I1,27/01/2019,Parma,Spal,2,3,A,1,0,H,2.45,3,3.2,1-0,2-3
 I1,27/01/2019,Torino,Inter,1,0,H,1,0,H,3.7,3.4,2.05,1-0,1-0
 I1,28/01/2019,Empoli,Genoa,1,3,A,0,1,A,2.3,3.5,3,0-1,1-3
+I1,02/02/2019,Empoli,Chievo,2,2,D,1,2,A,1.95,3.5,4,1-2,2-2
+I1,02/02/2019,Juventus,Parma,3,3,D,1,0,H,1.15,7.5,21,1-0,3-3
+I1,02/02/2019,Napoli,Sampdoria,3,0,H,2,0,H,1.35,4.8,9.5,2-0,3-0
+I1,03/02/2019,Genoa,Sassuolo,1,1,D,1,1,D,2.55,3.2,2.9,1-1,1-1
+I1,03/02/2019,Inter,Bologna,0,1,A,0,1,A,1.29,5.25,12,0-1,0-1
+I1,03/02/2019,Roma,Milan,1,1,D,0,1,A,2.2,3.4,3.3,0-1,1-1
+I1,03/02/2019,Spal,Torino,0,0,D,0,0,D,3.75,3.1,2.15,0-0,0-0
+I1,03/02/2019,Udinese,Fiorentina,1,1,D,0,0,D,3.6,3.25,2.15,0-0,1-1
 I2,24/08/2018,Brescia,Perugia,1,1,D,1,0,H,2.2,3.2,3.4,1-0,1-1
 I2,25/08/2018,Cremonese,Pescara,1,1,D,1,0,H,2.1,3.25,3.6,1-0,1-1
 I2,25/08/2018,Salernitana,Palermo,0,0,D,0,0,D,3.2,3,2.4,0-0,0-0
@@ -3261,6 +3390,13 @@ I2,27/01/2019,Brescia,Spezia,4,4,D,2,2,D,2,3.1,4.2,2-2,4-4
 I2,27/01/2019,Livorno,Pescara,0,0,D,0,0,D,2.5,3.1,2.9,0-0,0-0
 I2,27/01/2019,Venezia,Padova,2,1,H,1,0,H,2,3,4.33,1-0,2-1
 I2,28/01/2019,Verona,Cosenza,2,2,D,1,0,H,1.9,3.1,4.5,1-0,2-2
+I2,02/02/2019,Carpi,Verona,1,1,D,1,0,H,3.5,3,2.25,1-0,1-1
+I2,02/02/2019,Cosenza,Cittadella,2,0,H,0,0,D,2.6,2.87,3,0-0,2-0
+I2,02/02/2019,Padova,Salernitana,0,0,D,0,0,D,2.3,3,3.4,0-0,0-0
+I2,02/02/2019,Spezia,Cremonese,2,0,H,1,0,H,1.9,3.25,4.33,1-0,2-0
+I2,03/02/2019,Benevento,Venezia,3,0,H,0,0,D,1.75,3.25,5.25,0-0,3-0
+I2,03/02/2019,Crotone,Livorno,1,1,D,1,1,D,1.9,3.1,4.5,1-1,1-1
+I2,03/02/2019,Pescara,Brescia,1,5,A,0,3,A,2.5,3.2,2.87,0-3,1-5
 P1,10/08/2018,Benfica,Guimaraes,3,2,H,3,0,H,1.25,5.75,11,3-0,3-2
 P1,11/08/2018,Porto,Chaves,5,0,H,3,0,H,1.14,7,21,3-0,5-0
 P1,11/08/2018,Setubal,Aves,2,0,H,1,0,H,2.25,3.1,3.4,1-0,2-0
@@ -3427,6 +3563,19 @@ P1,28/01/2019,Feirense,Guimaraes,1,2,A,1,2,A,4,3.2,2.05,1-2,1-2
 P1,28/01/2019,Maritimo,Rio Ave,0,2,A,0,0,D,2.45,3.1,3,0-0,0-2
 P1,28/01/2019,Moreirense,Nacional,2,1,H,1,0,H,1.95,3.3,4,1-0,2-1
 P1,28/01/2019,Tondela,Aves,0,2,A,0,0,D,1.95,3.2,4.2,0-0,0-2
+P1,29/01/2019,Benfica,Boavista,5,1,H,2,1,H,1.16,7,15,2-1,5-1
+P1,29/01/2019,Portimonense,Chaves,0,1,A,0,1,A,1.75,3.8,4.33,0-1,0-1
+P1,29/01/2019,Sp Braga,Santa Clara,1,0,H,0,0,D,1.25,5.5,12,0-0,1-0
+P1,30/01/2019,Porto,Belenenses,3,0,H,2,0,H,1.16,7.5,13,2-0,3-0
+P1,30/01/2019,Setubal,Sp Lisbon,1,1,D,1,0,H,5.25,4,1.61,1-0,1-1
+P1,01/02/2019,Rio Ave,Tondela,2,2,D,1,1,D,2,3.4,3.75,1-1,2-2
+P1,02/02/2019,Aves,Sp Braga,0,2,A,0,0,D,5.25,3.6,1.66,0-0,0-2
+P1,02/02/2019,Boavista,Feirense,2,0,H,0,0,D,1.95,3.1,4.33,0-0,2-0
+P1,02/02/2019,Chaves,Maritimo,1,0,H,0,0,D,2.2,3.1,3.5,0-0,1-0
+P1,03/02/2019,Guimaraes,Porto,0,0,D,0,0,D,6,3.75,1.57,0-0,0-0
+P1,03/02/2019,Nacional,Setubal,0,0,D,0,0,D,2.37,3.2,3,0-0,0-0
+P1,03/02/2019,Santa Clara,Portimonense,2,1,H,1,1,D,2.55,3.2,2.8,1-1,2-1
+P1,03/02/2019,Sp Lisbon,Benfica,2,4,A,1,2,A,3.1,3.1,2.37,1-2,2-4
 N1,10/08/2018,Zwolle,Heerenveen,2,3,A,1,3,A,2.4,3.6,2.7,1-3,2-3
 N1,11/08/2018,Ajax,Heracles,1,1,D,0,0,D,1.12,8,19,0-0,1-1
 N1,11/08/2018,Excelsior,For Sittard,1,1,D,1,0,H,2.1,3.5,3.3,1-0,1-1
@@ -3598,6 +3747,15 @@ N1,27/01/2019,Feyenoord,Ajax,6,2,H,3,2,H,4.2,4,1.72,3-2,6-2
 N1,27/01/2019,For Sittard,Vitesse,2,1,H,0,1,A,3.4,3.75,2,0-1,2-1
 N1,27/01/2019,Heerenveen,AZ Alkmaar,0,2,A,0,0,D,3.6,3.8,1.9,0-0,0-2
 N1,27/01/2019,Utrecht,Willem II,0,1,A,0,0,D,1.44,4.33,7,0-0,0-1
+N1,01/02/2019,Graafschap,NAC Breda,3,0,H,1,0,H,2.37,3.6,2.75,1-0,3-0
+N1,02/02/2019,Ajax,VVV Venlo,6,0,H,1,0,H,1.08,10,23,1-0,6-0
+N1,02/02/2019,AZ Alkmaar,FC Emmen,5,0,H,3,0,H,1.25,6,10,3-0,5-0
+N1,02/02/2019,Vitesse,Heerenveen,2,2,D,1,1,D,1.72,3.8,4.5,1-1,2-2
+N1,02/02/2019,Willem II,Groningen,1,2,A,0,2,A,2.45,3.3,2.8,0-2,1-2
+N1,03/02/2019,Den Haag,Heracles,2,0,H,0,0,D,2.05,3.6,3.3,0-0,2-0
+N1,03/02/2019,Excelsior,Feyenoord,2,1,H,0,0,D,10,6,1.25,0-0,2-1
+N1,03/02/2019,PSV Eindhoven,For Sittard,5,0,H,1,0,H,1.12,9,15,1-0,5-0
+N1,03/02/2019,Zwolle,Utrecht,4,3,H,1,1,D,2.87,3.6,2.3,1-1,4-3
 B1,27/07/2018,Standard,Gent,3,2,H,1,1,D,2.14,3.4,3.25,1-1,3-2
 B1,28/07/2018,Kortrijk,Anderlecht,1,4,A,0,2,A,4.5,3.8,1.72,0-2,1-4
 B1,28/07/2018,Oostende,Mouscron,2,1,H,0,1,A,1.53,3.75,7,0-1,2-1
@@ -3782,6 +3940,14 @@ B1,26/01/2019,Lokeren,Waregem,0,3,A,0,2,A,2.8,3.6,2.3,0-2,0-3
 B1,27/01/2019,Anderlecht,Eupen,2,1,H,0,1,A,1.44,4.5,6.5,0-1,2-1
 B1,27/01/2019,Kortrijk,Gent,1,2,A,1,1,D,3,3.75,2.15,1-1,1-2
 B1,27/01/2019,Oostende,Club Brugge,1,2,A,1,0,H,6,4.33,1.5,1-0,1-2
+B1,01/02/2019,Mouscron,Charleroi,3,0,H,1,0,H,2.5,3.3,2.75,1-0,3-0
+B1,02/02/2019,Kortrijk,Lokeren,2,1,H,1,0,H,1.57,4.2,5.25,1-0,2-1
+B1,02/02/2019,Oostende,Antwerp,0,2,A,0,1,A,3.8,3.6,1.9,0-1,0-2
+B1,02/02/2019,Waasland-Beveren,Genk,1,2,A,1,0,H,10,6,1.25,1-0,1-2
+B1,02/02/2019,Waregem,Cercle Brugge,3,2,H,2,1,H,1.8,4,3.8,2-1,3-2
+B1,03/02/2019,Club Brugge,Gent,1,1,D,0,1,A,1.75,3.75,4.5,0-1,1-1
+B1,03/02/2019,St Truiden,Eupen,4,1,H,2,1,H,2,3.6,3.5,2-1,4-1
+B1,03/02/2019,Standard,Anderlecht,2,1,H,1,1,D,1.9,3.8,3.75,1-1,2-1
 T1,10/08/2018,Ankaragucu,Galatasaray,1,3,A,1,2,A,4.5,4,1.72,1-2,1-3
 T1,11/08/2018,Fenerbahce,Bursaspor,2,1,H,2,1,H,1.36,5,7.5,2-1,2-1
 T1,11/08/2018,Rizespor,Kasimpasa,2,3,A,1,0,H,2.3,3.4,3,1-0,2-3
@@ -3953,6 +4119,14 @@ T1,27/01/2019,Sivasspor,Trabzonspor,1,1,D,0,0,D,2.6,3.4,2.6,0-0,1-1
 T1,28/01/2019,Ankaragucu,Alanyaspor,0,2,A,0,1,A,4.2,3.75,1.83,0-1,0-2
 T1,28/01/2019,Buyuksehyr,Kasimpasa,2,0,H,1,0,H,1.53,4.2,5.75,1-0,2-0
 T1,28/01/2019,Fenerbahce,Yeni Malatyaspor,3,2,H,2,2,D,1.61,4,5,2-2,3-2
+T1,01/02/2019,Fenerbahce,Goztep,2,0,H,1,0,H,1.72,3.6,4.75,1-0,2-0
+T1,02/02/2019,Alanyaspor,Galatasaray,1,1,D,1,0,H,3.3,3.25,2.2,1-0,1-1
+T1,02/02/2019,Kasimpasa,Sivasspor,1,3,A,1,1,D,2.1,3.5,3.25,1-1,1-3
+T1,02/02/2019,Trabzonspor,Ankaragucu,1,0,H,1,0,H,1.3,5.5,9,1-0,1-0
+T1,02/02/2019,Yeni Malatyaspor,Kayserispor,1,1,D,1,1,D,2,3.2,4,1-1,1-1
+T1,03/02/2019,Akhisar Belediyespor,Buyuksehyr,0,3,A,0,2,A,6.5,3.6,1.57,0-2,0-3
+T1,03/02/2019,Antalyaspor,Besiktas,2,6,A,0,3,A,5,3.5,1.72,0-3,2-6
+T1,03/02/2019,Erzurum BB,Rizespor,0,1,A,0,0,D,2.3,3.2,3.1,0-0,0-1
 G1,25/08/2018,AEK,Giannina,2,0,H,1,0,H,1.36,4.33,10,1-0,2-0
 G1,25/08/2018,Apollon,Larisa,0,1,A,0,1,A,2.3,3,3.4,0-1,0-1
 G1,25/08/2018,Panetolikos,Atromitos,1,2,A,1,1,D,3,3,2.5,1-1,1-2
@@ -4089,6 +4263,22 @@ G1,27/01/2019,Lamia,Atromitos,2,1,H,0,0,D,3,2.8,2.5,0-0,2-1
 G1,27/01/2019,Levadeiakos,Aris,1,0,H,1,0,H,2.8,2.8,2.6,1-0,1-0
 G1,27/01/2019,Panathinaikos,Larisa,1,1,D,1,0,H,1.44,3.8,7,1-0,1-1
 G1,27/01/2019,PAOK,OFI Crete,4,0,H,2,0,H,1.14,7,13,2-0,4-0
+G1,30/01/2019,AEK,Levadeiakos,1,0,H,1,0,H,1.18,6.5,15,1-0,1-0
+G1,30/01/2019,Lamia,Apollon,2,1,H,2,1,H,1.57,3.5,7,2-1,2-1
+G1,30/01/2019,Olympiakos,Larisa,4,0,H,3,0,H,1.18,6.5,15,3-0,4-0
+G1,30/01/2019,Panetolikos,Panathinaikos,0,1,A,0,1,A,2.8,2.87,2.8,0-1,0-1
+G1,30/01/2019,Panionios,Asteras Tripolis,1,0,H,1,0,H,2.62,2.9,2.8,1-0,1-0
+G1,30/01/2019,PAOK,Giannina,2,1,H,1,0,H,1.22,5.75,13,1-0,2-1
+G1,31/01/2019,OFI Crete,Atromitos,1,1,D,1,1,D,2.75,2.9,2.8,1-1,1-1
+G1,31/01/2019,Xanthi,Aris,0,1,A,0,1,A,2.5,2.9,3.1,0-1,0-1
+G1,02/02/2019,Lamia,Panetolikos,0,2,A,0,1,A,2,3.2,3.5,0-1,0-2
+G1,02/02/2019,Olympiakos,Panionios,4,0,H,0,0,D,1.1,8,17,0-0,4-0
+G1,03/02/2019,AEK,PAOK,1,1,D,0,1,A,2.37,3.4,2.62,0-1,1-1
+G1,03/02/2019,Apollon,Asteras Tripolis,0,2,A,0,1,A,5,3.5,1.6,0-1,0-2
+G1,03/02/2019,Aris,Giannina,1,0,H,0,0,D,1.53,3.6,5.5,0-0,1-0
+G1,03/02/2019,Larisa,Atromitos,0,1,A,0,0,D,2.45,3.2,2.7,0-0,0-1
+G1,03/02/2019,Levadeiakos,Panathinaikos,0,0,D,0,0,D,3.5,3.2,2,0-0,0-0
+G1,03/02/2019,OFI Crete,Xanthi,0,0,D,0,0,D,2.05,3.25,3.1,0-0,0-0
 SC0,04/08/2018,Celtic,Livingston,3,1,H,2,0,H,1.1,10,19,2-0,3-1
 SC0,04/08/2018,Hamilton,Hearts,1,4,A,1,1,D,3.75,3.4,1.95,1-1,1-4
 SC0,04/08/2018,Kilmarnock,St Johnstone,2,0,H,0,0,D,2,3.2,3.6,0-0,2-0
@@ -4226,6 +4416,13 @@ SC0,26/01/2019,Dundee,Motherwell,0,1,A,0,0,D,3.8,3.6,1.91,0-0,0-1
 SC0,26/01/2019,Hearts,St Johnstone,2,0,H,0,0,D,2,3.4,3.8,0-0,2-0
 SC0,27/01/2019,Livingston,Rangers,0,3,A,0,1,A,7,4.2,1.47,0-1,0-3
 SC0,27/01/2019,St Mirren,Hibernian,1,3,A,1,0,H,5.25,4,1.62,1-0,1-3
+SC0,30/01/2019,Celtic,St Johnstone,2,0,H,0,0,D,1.18,6.5,17,0-0,2-0
+SC0,01/02/2019,Kilmarnock,Hearts,1,2,A,1,2,A,2.3,3.2,3.2,1-2,1-2
+SC0,02/02/2019,Hamilton,Dundee,1,1,D,0,0,D,2.55,3.4,2.7,0-0,1-1
+SC0,02/02/2019,Hibernian,Aberdeen,1,2,A,1,2,A,2.75,3.25,2.55,1-2,1-2
+SC0,02/02/2019,Motherwell,Livingston,3,0,H,3,0,H,2.35,3.1,3.25,3-0,3-0
+SC0,02/02/2019,Rangers,St Mirren,4,0,H,1,0,H,1.12,8,21,1-0,4-0
+SC0,03/02/2019,St Johnstone,Celtic,0,2,A,0,0,D,9,5.25,1.32,0-0,0-2
 SC1,04/08/2018,Ayr,Partick,2,0,H,2,0,H,0,2.62,3.4,2-0,2-0
 SC1,04/08/2018,Dundee United,Dunfermline,2,3,A,1,0,H,0,2.5,3.3,1-0,2-3
 SC1,04/08/2018,Falkirk,Inverness C,0,1,A,0,1,A,0,2.7,3.4,0-1,0-1
@@ -4335,6 +4532,12 @@ SC1,26/01/2019,Falkirk,Inverness C,2,2,D,1,2,A,0,3.8,3.3,1-2,2-2
 SC1,26/01/2019,Morton,Dunfermline,0,0,D,0,0,D,0,3.1,3.3,0-0,0-0
 SC1,26/01/2019,Partick,Queen of Sth,2,1,H,1,0,H,0,2.55,3.7,1-0,2-1
 SC1,26/01/2019,Ross County,Alloa,2,0,H,1,0,H,0,1.4,4.5,1-0,2-0
+SC1,29/01/2019,Ayr,Inverness C,2,3,A,0,3,A,0,1.95,3.5,0-3,2-3
+SC1,02/02/2019,Alloa,Ayr,1,3,A,1,1,D,0,4,3.4,1-1,1-3
+SC1,02/02/2019,Dundee United,Morton,2,1,H,2,0,H,0,1.65,3.6,2-0,2-1
+SC1,02/02/2019,Dunfermline,Ross County,1,2,A,1,0,H,0,2.4,3.5,1-0,1-2
+SC1,02/02/2019,Falkirk,Queen of Sth,3,0,H,1,0,H,0,3.2,3.4,1-0,3-0
+SC1,02/02/2019,Inverness C,Partick,1,2,A,0,2,A,0,0,3.5,0-2,1-2
 SC2,04/08/2018,East Fife,Dumbarton,0,2,A,0,0,D,0,3,3.4,0-0,0-2
 SC2,04/08/2018,Forfar,Airdrie Utd,1,3,A,1,0,H,0,2.6,3.4,1-0,1-3
 SC2,04/08/2018,Montrose,Arbroath,0,4,A,0,1,A,0,2.7,3.4,0-1,0-4
@@ -4444,6 +4647,9 @@ SC2,26/01/2019,Brechin,Raith Rvs,2,1,H,0,1,A,0,5.25,4,0-1,2-1
 SC2,26/01/2019,Dumbarton,Montrose,1,1,D,0,0,D,0,2.2,3.6,0-0,1-1
 SC2,26/01/2019,Stenhousemuir,Airdrie Utd,1,0,H,0,0,D,0,3.6,3.75,0-0,1-0
 SC2,26/01/2019,Stranraer,East Fife,3,4,A,2,0,H,0,2.62,3.6,2-0,3-4
+SC2,02/02/2019,Airdrie Utd,Dumbarton,2,2,D,1,0,H,0,2.25,3.5,1-0,2-2
+SC2,02/02/2019,Montrose,Brechin,5,2,H,3,2,H,0,2,3.75,3-2,5-2
+SC2,02/02/2019,Raith Rvs,Forfar,1,1,D,1,0,H,0,1.75,3.8,1-0,1-1
 SC3,04/08/2018,Annan Athletic,Elgin,1,1,D,0,0,D,0,2.5,3.5,0-0,1-1
 SC3,04/08/2018,Berwick,Stirling,1,0,H,0,0,D,0,3.1,3.5,0-0,1-0
 SC3,04/08/2018,Clyde,Cowdenbeath,2,0,H,2,0,H,0,1.61,4,2-0,2-0
@@ -4549,3 +4755,4 @@ SC3,26/01/2019,Annan Athletic,Peterhead,3,0,H,0,0,D,0,4,3.6,0-0,3-0
 SC3,26/01/2019,Clyde,Cowdenbeath,1,0,H,0,0,D,0,1.45,4.33,0-0,1-0
 SC3,26/01/2019,Elgin,Edinburgh City,3,3,D,2,0,H,0,4.5,3.75,2-0,3-3
 SC3,26/01/2019,Queens Park,Berwick,7,1,H,3,0,H,1,1.57,4,3-0,7-1
+SC3,02/02/2019,Edinburgh City,Albion Rvs,3,1,H,2,1,H,0,1.18,7,2-1,3-1

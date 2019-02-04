@@ -249,3 +249,12 @@ INSERT INTO SP2 VALUES('SP2','27/01/2019','Alcorcon','Cordoba','2','1','H','0','
 INSERT INTO SP2 VALUES('SP2','27/01/2019','Gimnastic','Las Palmas','0','0','D','0','0','D','2.9','3','2.6');
 INSERT INTO SP2 VALUES('SP2','27/01/2019','Granada','Extremadura UD','0','0','D','0','0','D','1.53','3.6','7.5');
 INSERT INTO SP2 VALUES('SP2','27/01/2019','Sp Gijon','La Coruna','1','2','A','1','2','A','2.55','2.87','3.1');
+INSERT INTO SP2 VALUES('SP2','01/02/2019','Malaga','Almeria','1','1','D','1','0','H','1.8','3.25','5');
+INSERT INTO SP2 VALUES('SP2','02/02/2019','Cordoba','Albacete','1','3','A','1','0','H','2.45','3.1','3');
+INSERT INTO SP2 VALUES('SP2','02/02/2019','La Coruna','Tenerife','0','0','D','0','0','D','1.55','3.75','6.5');
+INSERT INTO SP2 VALUES('SP2','02/02/2019','Numancia','Lugo','3','0','H','1','0','H','1.75','3.5','4.75');
+INSERT INTO SP2 VALUES('SP2','02/02/2019','Rayo Majadahonda','Gimnastic','1','0','H','1','0','H','1.7','3.3','5.75');
+INSERT INTO SP2 VALUES('SP2','03/02/2019','Extremadura UD','Sp Gijon','0','3','A','0','0','D','2.6','2.9','3');
+INSERT INTO SP2 VALUES('SP2','03/02/2019','Mallorca','Alcorcon','2','0','H','2','0','H','2.4','2.8','3.4');
+INSERT INTO SP2 VALUES('SP2','03/02/2019','Osasuna','Granada','1','0','H','0','0','D','1.9','3.1','4.5');
+INSERT INTO SP2 VALUES('SP2','03/02/2019','Oviedo','Cadiz','2','1','H','2','1','H','2.25','2.9','3.6');

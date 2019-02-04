@@ -214,3 +214,11 @@ INSERT INTO F1 VALUES('F1','27/01/2019','Amiens','Lyon','0','1','A','0','0','D',
 INSERT INTO F1 VALUES('F1','27/01/2019','Montpellier','Caen','2','0','H','0','0','D','1.65','3.5','5.8');
 INSERT INTO F1 VALUES('F1','27/01/2019','Paris SG','Rennes','4','1','H','1','1','D','1.2','6.5','13');
 INSERT INTO F1 VALUES('F1','27/01/2019','Toulouse','Angers','0','0','D','0','0','D','2.2','3.2','3.4');
+INSERT INTO F1 VALUES('F1','30/01/2019','Nantes','St Etienne','1','1','D','0','0','D','2.7','3.1','2.7');
+INSERT INTO F1 VALUES('F1','01/02/2019','Lille','Nice','4','0','H','2','0','H','1.83','3.4','5');
+INSERT INTO F1 VALUES('F1','02/02/2019','Angers','Dijon','1','0','H','1','0','H','2','3.3','3.9');
+INSERT INTO F1 VALUES('F1','02/02/2019','Monaco','Toulouse','2','1','H','1','1','D','1.75','3.6','4.6');
+INSERT INTO F1 VALUES('F1','02/02/2019','Reims','Marseille','2','1','H','1','0','H','2.62','3.1','2.75');
+INSERT INTO F1 VALUES('F1','02/02/2019','Rennes','Amiens','1','0','H','0','0','D','1.57','3.75','6.5');
+INSERT INTO F1 VALUES('F1','03/02/2019','Lyon','Paris SG','2','1','H','1','1','D','3.7','3.9','1.85');
+INSERT INTO F1 VALUES('F1','03/02/2019','Nimes','Montpellier','1','1','D','1','0','H','2.6','3.1','2.88');

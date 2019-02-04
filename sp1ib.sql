@@ -208,3 +208,12 @@ INSERT INTO SP1 VALUES('SP1','27/01/2019','Girona','Barcelona','0','2','A','0','
 INSERT INTO SP1 VALUES('SP1','27/01/2019','Sociedad','Huesca','0','0','D','0','0','D','1.62','3.9','5.8');
 INSERT INTO SP1 VALUES('SP1','27/01/2019','Valladolid','Celta','2','1','H','0','1','A','2.4','3.2','3.1');
 INSERT INTO SP1 VALUES('SP1','28/01/2019','Alaves','Vallecano','0','1','A','0','0','D','2.2','3.25','3.5');
+INSERT INTO SP1 VALUES('SP1','01/02/2019','Huesca','Valladolid','4','0','H','1','0','H','2.25','3.1','3.5');
+INSERT INTO SP1 VALUES('SP1','02/02/2019','Barcelona','Valencia','2','2','D','1','2','A','1.25','6.5','10');
+INSERT INTO SP1 VALUES('SP1','02/02/2019','Celta','Sevilla','1','0','H','0','0','D','3.6','3.6','2');
+INSERT INTO SP1 VALUES('SP1','02/02/2019','Levante','Getafe','0','0','D','0','0','D','2.4','3.3','3');
+INSERT INTO SP1 VALUES('SP1','02/02/2019','Sociedad','Ath Bilbao','2','1','H','2','0','H','2.3','3.2','3.25');
+INSERT INTO SP1 VALUES('SP1','03/02/2019','Betis','Ath Madrid','1','0','H','0','0','D','3.9','3.3','2');
+INSERT INTO SP1 VALUES('SP1','03/02/2019','Eibar','Girona','3','0','H','1','0','H','1.67','4','5');
+INSERT INTO SP1 VALUES('SP1','03/02/2019','Real Madrid','Alaves','3','0','H','1','0','H','1.22','6.5','13');
+INSERT INTO SP1 VALUES('SP1','03/02/2019','Villarreal','Espanol','2','2','D','1','0','H','1.75','3.8','4.5');

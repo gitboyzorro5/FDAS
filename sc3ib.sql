@@ -103,3 +103,4 @@ INSERT INTO SC3 VALUES('SC3','26/01/2019','Annan Athletic','Peterhead','3','0','
 INSERT INTO SC3 VALUES('SC3','26/01/2019','Clyde','Cowdenbeath','1','0','H','0','0','D','0','1.45','4.33');
 INSERT INTO SC3 VALUES('SC3','26/01/2019','Elgin','Edinburgh City','3','3','D','2','0','H','0','4.5','3.75');
 INSERT INTO SC3 VALUES('SC3','26/01/2019','Queens Park','Berwick','7','1','H','3','0','H','1','1.57','4');
+INSERT INTO SC3 VALUES('SC3','02/02/2019','Edinburgh City','Albion Rvs','3','1','H','2','1','H','0','1.18','7');

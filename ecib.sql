@@ -365,3 +365,4 @@ INSERT INTO EC VALUES('EC','26/01/2019','Leyton Orient','Maidstone','3','0','H',
 INSERT INTO EC VALUES('EC','26/01/2019','Solihull','Fylde','1','2','A','0','0','D','2.15','3.4','3.3');
 INSERT INTO EC VALUES('EC','26/01/2019','Sutton','Ebbsfleet','1','0','H','0','0','D','2.6','3.25','2.7');
 INSERT INTO EC VALUES('EC','26/01/2019','Wrexham','Maidenhead','1','0','H','0','0','D','1.53','3.8','6.5');
+INSERT INTO EC VALUES('EC','02/02/2019','Dover Athletic','Gateshead','1','2','A','1','0','H','2.38','3.2','3');
