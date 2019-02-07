@@ -222,3 +222,4 @@ INSERT INTO F1 VALUES('F1','02/02/2019','Reims','Marseille','2','1','H','1','0',
 INSERT INTO F1 VALUES('F1','02/02/2019','Rennes','Amiens','1','0','H','0','0','D','1.57','3.75','6.5');
 INSERT INTO F1 VALUES('F1','03/02/2019','Lyon','Paris SG','2','1','H','1','1','D','3.7','3.9','1.85');
 INSERT INTO F1 VALUES('F1','03/02/2019','Nimes','Montpellier','1','1','D','1','0','H','2.6','3.1','2.88');
+INSERT INTO F1 VALUES('F1','05/02/2019','Marseille','Bordeaux','1','0','H','1','0','H','2.3','3.1','3.3');

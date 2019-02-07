@@ -177,3 +177,4 @@ INSERT INTO T1 VALUES('T1','02/02/2019','Yeni Malatyaspor','Kayserispor','1','1'
 INSERT INTO T1 VALUES('T1','03/02/2019','Akhisar Belediyespor','Buyuksehyr','0','3','A','0','2','A','6.5','3.6','1.57');
 INSERT INTO T1 VALUES('T1','03/02/2019','Antalyaspor','Besiktas','2','6','A','0','3','A','5','3.5','1.72');
 INSERT INTO T1 VALUES('T1','03/02/2019','Erzurum BB','Rizespor','0','1','A','0','0','D','2.3','3.2','3.1');
+INSERT INTO T1 VALUES('T1','04/02/2019','Bursaspor','Konyaspor','0','0','D','0','0','D','2.37','3.1','3.1');

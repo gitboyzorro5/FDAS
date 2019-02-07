@@ -258,3 +258,4 @@ INSERT INTO SP2 VALUES('SP2','03/02/2019','Extremadura UD','Sp Gijon','0','3','A
 INSERT INTO SP2 VALUES('SP2','03/02/2019','Mallorca','Alcorcon','2','0','H','2','0','H','2.4','2.8','3.4');
 INSERT INTO SP2 VALUES('SP2','03/02/2019','Osasuna','Granada','1','0','H','0','0','D','1.9','3.1','4.5');
 INSERT INTO SP2 VALUES('SP2','03/02/2019','Oviedo','Cadiz','2','1','H','2','1','H','2.25','2.9','3.6');
+INSERT INTO SP2 VALUES('SP2','04/02/2019','Las Palmas','Zaragoza','1','1','D','1','1','D','1.8','3.3','4.75');

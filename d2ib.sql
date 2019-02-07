@@ -176,3 +176,4 @@ INSERT INTO D2 VALUES('D2','02/02/2019','Heidenheim','Dresden','1','0','H','1','
 INSERT INTO D2 VALUES('D2','02/02/2019','Paderborn','Greuther Furth','6','0','H','3','0','H','1.5','4.33','6.5');
 INSERT INTO D2 VALUES('D2','03/02/2019','Holstein Kiel','Regensburg','2','0','H','1','0','H','2','3.6','3.5');
 INSERT INTO D2 VALUES('D2','03/02/2019','Sandhausen','Bochum','3','0','H','0','0','D','2.7','3.3','2.55');
+INSERT INTO D2 VALUES('D2','04/02/2019','St Pauli','Union Berlin','3','2','H','1','0','H','2.62','3.1','2.75');

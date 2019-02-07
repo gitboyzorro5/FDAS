@@ -216,3 +216,5 @@ INSERT INTO I1 VALUES('I1','03/02/2019','Inter','Bologna','0','1','A','0','1','A
 INSERT INTO I1 VALUES('I1','03/02/2019','Roma','Milan','1','1','D','0','1','A','2.2','3.4','3.3');
 INSERT INTO I1 VALUES('I1','03/02/2019','Spal','Torino','0','0','D','0','0','D','3.75','3.1','2.15');
 INSERT INTO I1 VALUES('I1','03/02/2019','Udinese','Fiorentina','1','1','D','0','0','D','3.6','3.25','2.15');
+INSERT INTO I1 VALUES('I1','04/02/2019','Cagliari','Atalanta','0','1','A','0','0','D','5.25','4','1.63');
+INSERT INTO I1 VALUES('I1','04/02/2019','Frosinone','Lazio','0','1','A','0','1','A','7.5','4.75','1.42');
