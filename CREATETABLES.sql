@@ -20,7 +20,7 @@ CREATE TABLE SC0(division TEXT,Date Date,HomeTeam TEXT,AwayTeam TEXT,FTHG INTEGE
 CREATE TABLE SC1(division TEXT,Date Date,HomeTeam TEXT,AwayTeam TEXT,FTHG INTEGER,FTAG INTEGER,FTR TEXT,HTHG INTEGER,HTAG INTEGER,HTR TEXT,PSH REAL,PSD REAL,PSA REAL);
 CREATE TABLE SC2(division TEXT,Date Date,HomeTeam TEXT,AwayTeam TEXT,FTHG INTEGER,FTAG INTEGER,FTR TEXT,HTHG INTEGER,HTAG INTEGER,HTR TEXT,PSH REAL,PSD REAL,PSA REAL);
 CREATE TABLE SC3(division TEXT,Date Date,HomeTeam TEXT,AwayTeam TEXT,FTHG INTEGER,FTAG INTEGER,FTR TEXT,HTHG INTEGER,HTAG INTEGER,HTR TEXT,PSH REAL,PSD REAL,PSA REAL);
-CREATE TABLE ALLMATCHES(division TEXT,Date Date,HomeTeam TEXT,AwayTeam TEXT,FTHG INTEGER,FTAG INTEGER,FTR TEXT,HTHG INTEGER,HTAG INTEGER,HTR TEXT,PSH REAL,PSD REAL,PSA REAL,HTCS TEXT,CS TEXT);
+CREATE TABLE ALLMATCHES(division TEXT,Date Date,HomeTeam TEXT,AwayTeam TEXT,FTHG INTEGER,FTAG INTEGER,FTR TEXT,HTHG INTEGER,HTAG INTEGER,HTR TEXT,PSH REAL,PSD REAL,PSA REAL);
 CREATE TABLE points_e0(Team text,H_wins integer,A_wins integer,Draws integer,HG integer,AG integer,TP integer,total_points integer,goal_diff integer);
 CREATE TABLE points_e1(Team text,H_wins integer,A_wins integer,Draws integer,HG integer,AG integer,TP integer,total_points integer,goal_diff integer);
 CREATE TABLE points_e2(Team text,H_wins integer,A_wins integer,Draws integer,HG integer,AG integer,TP integer,total_points integer,goal_diff integer);
@@ -45,3 +45,6 @@ CREATE TABLE points_sc2(Team text,H_wins integer,A_wins integer,Draws integer,HG
 CREATE TABLE points_sc3(Team text,H_wins integer,A_wins integer,Draws integer,HG integer,AG integer,TP integer,total_points integer,goal_diff integer);
 CREATE TABLE points_allteams(Team text,H_wins integer,A_wins integer,Draws integer,HG integer,AG integer,TP integer,total_points integer,goal_diff integer);
 CREATE TABLE fixtures(division TEXT,Date Date,HomeTeam TEXT,AwayTeam TEXT,PSH REAL,PSD REAL,PSA REAL);
+CREATE TABLE leagues(d_vision TEXT,GP INTEGER,T_HG INTEGER,T_AG INTEGER);
+CREATE TABLE teams(team TEXT,team_HG INTEGER,team_homeGP INTEGER,team_AG INTEGER,team_awayGP INTEGER,team_HC INTEGER,team_AC INTEGER);
+
