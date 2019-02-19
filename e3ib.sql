@@ -373,3 +373,18 @@ INSERT INTO E3 VALUES('E3','09/02/2019','Morecambe','Bury','2','3','A','0','2','
 INSERT INTO E3 VALUES('E3','09/02/2019','Newport County','Mansfield','1','0','H','1','0','H','3.6','3.5','2');
 INSERT INTO E3 VALUES('E3','09/02/2019','Tranmere','Stevenage','2','0','H','1','0','H','1.78','3.6','4.5');
 INSERT INTO E3 VALUES('E3','09/02/2019','Yeovil','Grimsby','1','3','A','0','2','A','2.25','3.2','3.25');
+INSERT INTO E3 VALUES('E3','12/02/2019','Crewe','Carlisle','2','1','H','1','1','D','2.25','3.25','3.25');
+INSERT INTO E3 VALUES('E3','12/02/2019','Newport County','Milton Keynes Dons','0','1','A','0','0','D','2.8','3.4','2.45');
+INSERT INTO E3 VALUES('E3','12/02/2019','Oldham','Yeovil','4','1','H','1','0','H','1.7','3.6','5.25');
+INSERT INTO E3 VALUES('E3','12/02/2019','Swindon','Forest Green','2','0','H','2','0','H','2.7','3.3','2.6');
+INSERT INTO E3 VALUES('E3','16/02/2019','Cambridge','Tranmere','0','0','D','0','0','D','2.45','3.5','2.7');
+INSERT INTO E3 VALUES('E3','16/02/2019','Carlisle','Milton Keynes Dons','2','3','A','1','1','D','2.7','3.4','2.5');
+INSERT INTO E3 VALUES('E3','16/02/2019','Exeter','Bury','0','1','A','0','0','D','2.7','3.25','2.6');
+INSERT INTO E3 VALUES('E3','16/02/2019','Forest Green','Yeovil','3','0','H','2','0','H','1.6','3.8','5.8');
+INSERT INTO E3 VALUES('E3','16/02/2019','Grimsby','Cheltenham','1','0','H','1','0','H','2.2','3.5','3.1');
+INSERT INTO E3 VALUES('E3','16/02/2019','Lincoln','Stevenage','2','2','D','0','0','D','1.6','3.8','5.8');
+INSERT INTO E3 VALUES('E3','16/02/2019','Macclesfield','Colchester','1','1','D','1','0','H','3.5','3.25','2.15');
+INSERT INTO E3 VALUES('E3','16/02/2019','Northampton','Crawley Town','0','0','D','0','0','D','1.78','3.6','4.5');
+INSERT INTO E3 VALUES('E3','16/02/2019','Notts County','Mansfield','1','0','H','1','0','H','3.5','3.4','2.1');
+INSERT INTO E3 VALUES('E3','16/02/2019','Oldham','Crewe','1','1','D','1','0','H','2.2','3.4','3.2');
+INSERT INTO E3 VALUES('E3','16/02/2019','Port Vale','Morecambe','0','1','A','0','0','D','2','3.4','3.7');
