@@ -206,3 +206,11 @@ INSERT INTO B1 VALUES('B1','16/02/2019','Waregem','St Truiden','1','1','D','0','
 INSERT INTO B1 VALUES('B1','17/02/2019','Antwerp','Anderlecht','0','1','A','0','0','D','2.7','3.4','2.5');
 INSERT INTO B1 VALUES('B1','17/02/2019','Club Brugge','Genk','3','1','H','2','0','H','2.37','3.4','2.87');
 INSERT INTO B1 VALUES('B1','17/02/2019','Mouscron','Cercle Brugge','3','0','H','0','0','D','1.8','3.75','4.2');
+INSERT INTO B1 VALUES('B1','22/02/2019','Gent','Standard','2','1','H','2','0','H','2.25','3.5','3.1');
+INSERT INTO B1 VALUES('B1','23/02/2019','Cercle Brugge','Oostende','2','2','D','0','0','D','2.1','3.5','3.25');
+INSERT INTO B1 VALUES('B1','23/02/2019','Eupen','Waregem','2','3','A','1','1','D','2.45','3.75','2.6');
+INSERT INTO B1 VALUES('B1','23/02/2019','Mouscron','Lokeren','1','0','H','0','0','D','1.61','3.75','5.75');
+INSERT INTO B1 VALUES('B1','23/02/2019','Waasland-Beveren','Kortrijk','2','6','A','0','2','A','3.6','3.5','2');
+INSERT INTO B1 VALUES('B1','24/02/2019','Anderlecht','Club Brugge','2','2','D','1','1','D','2.8','3.4','2.4');
+INSERT INTO B1 VALUES('B1','24/02/2019','Genk','Antwerp','0','0','D','0','0','D','1.61','4','5');
+INSERT INTO B1 VALUES('B1','24/02/2019','St Truiden','Charleroi','3','1','H','2','1','H','2.2','3.5','3.1');

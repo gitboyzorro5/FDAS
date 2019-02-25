@@ -195,3 +195,12 @@ INSERT INTO D2 VALUES('D2','16/02/2019','St Pauli','Erzgebirge Aue','1','2','A',
 INSERT INTO D2 VALUES('D2','17/02/2019','Bielefeld','Magdeburg','1','3','A','0','2','A','2.05','3.3','3.6');
 INSERT INTO D2 VALUES('D2','17/02/2019','Dresden','Regensburg','0','0','D','0','0','D','2.3','3.4','3');
 INSERT INTO D2 VALUES('D2','17/02/2019','Holstein Kiel','Greuther Furth','2','2','D','0','0','D','1.61','4','5');
+INSERT INTO D2 VALUES('D2','22/02/2019','Greuther Furth','Heidenheim','0','0','D','0','0','D','2.9','3.4','2.3');
+INSERT INTO D2 VALUES('D2','22/02/2019','Union Berlin','Bielefeld','1','1','D','1','0','H','1.57','3.75','6.5');
+INSERT INTO D2 VALUES('D2','23/02/2019','Bochum','Holstein Kiel','1','3','A','0','3','A','2.3','3.4','3');
+INSERT INTO D2 VALUES('D2','23/02/2019','Darmstadt','Dresden','2','0','H','1','0','H','2.37','3.3','2.9');
+INSERT INTO D2 VALUES('D2','23/02/2019','FC Koln','Sandhausen','3','1','H','0','1','A','1.36','4.75','8');
+INSERT INTO D2 VALUES('D2','23/02/2019','St Pauli','Ingolstadt','1','0','H','0','0','D','2.37','3.2','3');
+INSERT INTO D2 VALUES('D2','24/02/2019','Erzgebirge Aue','Duisburg','0','0','D','0','0','D','2.15','3.25','3.4');
+INSERT INTO D2 VALUES('D2','24/02/2019','Magdeburg','Paderborn','1','1','D','1','0','H','2.8','3.4','2.4');
+INSERT INTO D2 VALUES('D2','24/02/2019','Regensburg','Hamburg','2','1','H','0','1','A','2.9','3.6','2.25');

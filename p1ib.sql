@@ -196,3 +196,12 @@ INSERT INTO P1 VALUES('P1','17/02/2019','Chaves','Boavista','1','1','D','1','0',
 INSERT INTO P1 VALUES('P1','17/02/2019','Moreirense','Tondela','2','0','H','1','0','H','1.85','3.4','4.33');
 INSERT INTO P1 VALUES('P1','17/02/2019','Sp Lisbon','Sp Braga','3','0','H','1','0','H','2.37','3.3','2.9');
 INSERT INTO P1 VALUES('P1','18/02/2019','Aves','Benfica','0','3','A','0','2','A','7','4.75','1.4');
+INSERT INTO P1 VALUES('P1','22/02/2019','Sp Braga','Belenenses','0','2','A','0','1','A','1.33','4.75','9');
+INSERT INTO P1 VALUES('P1','22/02/2019','Tondela','Porto','0','3','A','0','1','A','7.5','3.75','1.5');
+INSERT INTO P1 VALUES('P1','23/02/2019','Feirense','Moreirense','1','3','A','0','2','A','3.8','3.2','2');
+INSERT INTO P1 VALUES('P1','23/02/2019','Portimonense','Aves','1','1','D','0','1','A','1.9','3.4','4');
+INSERT INTO P1 VALUES('P1','23/02/2019','Setubal','Guimaraes','1','1','D','0','1','A','3.6','3','2.2');
+INSERT INTO P1 VALUES('P1','24/02/2019','Boavista','Rio Ave','1','0','H','1','0','H','2.2','3.1','3.5');
+INSERT INTO P1 VALUES('P1','24/02/2019','Santa Clara','Nacional','2','0','H','0','0','D','2.15','3.4','3.25');
+INSERT INTO P1 VALUES('P1','25/02/2019','Benfica','Chaves','','','','','','','1.14','7.5','17');
+INSERT INTO P1 VALUES('P1','25/02/2019','Maritimo','Sp Lisbon','','','','','','','4.33','3.6','1.8');
