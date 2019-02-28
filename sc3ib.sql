@@ -120,3 +120,7 @@ INSERT INTO SC3 VALUES('SC3','23/02/2019','Berwick','Elgin','0','3','A','0','0',
 INSERT INTO SC3 VALUES('SC3','23/02/2019','Edinburgh City','Cowdenbeath','2','0','H','2','0','H','1','1.5','4');
 INSERT INTO SC3 VALUES('SC3','23/02/2019','Queens Park','Clyde','1','1','D','0','0','D','0','3.75','3.6');
 INSERT INTO SC3 VALUES('SC3','23/02/2019','Stirling','Peterhead','0','1','A','0','1','A','0','3.6','3.8');
+INSERT INTO SC3 VALUES('SC3','26/02/2019','Berwick','Annan Athletic','1','2','A','0','1','A','0','12','6');
+INSERT INTO SC3 VALUES('SC3','26/02/2019','Elgin','Queens Park','2','2','D','0','0','D','0','2.37','3.6');
+INSERT INTO SC3 VALUES('SC3','26/02/2019','Peterhead','Cowdenbeath','1','0','H','1','0','H','0','1.33','5');
+INSERT INTO SC3 VALUES('SC3','26/02/2019','Stirling','Clyde','0','1','A','0','1','A','0','3.6','3.6');

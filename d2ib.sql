@@ -204,3 +204,4 @@ INSERT INTO D2 VALUES('D2','23/02/2019','St Pauli','Ingolstadt','1','0','H','0',
 INSERT INTO D2 VALUES('D2','24/02/2019','Erzgebirge Aue','Duisburg','0','0','D','0','0','D','2.15','3.25','3.4');
 INSERT INTO D2 VALUES('D2','24/02/2019','Magdeburg','Paderborn','1','1','D','1','0','H','2.8','3.4','2.4');
 INSERT INTO D2 VALUES('D2','24/02/2019','Regensburg','Hamburg','2','1','H','0','1','A','2.9','3.6','2.25');
+INSERT INTO D2 VALUES('D2','27/02/2019','Erzgebirge Aue','FC Koln','0','1','A','0','1','A','6','4.33','1.5');

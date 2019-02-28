@@ -405,3 +405,4 @@ INSERT INTO EC VALUES('EC','23/02/2019','Halifax','Havant & Waterlooville','0','
 INSERT INTO EC VALUES('EC','23/02/2019','Hartlepool','Bromley','1','2','A','0','2','A','2.4','3.4','2.8');
 INSERT INTO EC VALUES('EC','23/02/2019','Maidenhead','Dover Athletic','1','0','H','1','0','H','2.7','3.3','2.55');
 INSERT INTO EC VALUES('EC','23/02/2019','Salford','Eastleigh','0','2','A','0','1','A','1.75','3.75','4.33');
+INSERT INTO EC VALUES('EC','26/02/2019','Barnet','Chesterfield','0','2','A','0','1','A','2.3','3.1','3.3');

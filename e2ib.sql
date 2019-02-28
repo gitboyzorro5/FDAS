@@ -402,3 +402,4 @@ INSERT INTO E2 VALUES('E2','23/02/2019','Scunthorpe','Doncaster','1','1','D','0'
 INSERT INTO E2 VALUES('E2','23/02/2019','Walsall','Bradford','3','2','H','1','1','D','2.62','3.2','2.7');
 INSERT INTO E2 VALUES('E2','23/02/2019','Wycombe','Gillingham','0','1','A','0','0','D','1.95','3.4','3.9');
 INSERT INTO E2 VALUES('E2','24/02/2019','Luton','Coventry','1','1','D','1','1','D','1.67','3.8','5');
+INSERT INTO E2 VALUES('E2','26/02/2019','Shrewsbury','Doncaster','2','0','H','2','0','H','2.9','3.25','2.45');

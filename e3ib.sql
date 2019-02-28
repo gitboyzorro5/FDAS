@@ -404,3 +404,4 @@ INSERT INTO E3 VALUES('E3','23/02/2019','Stevenage','Northampton','1','2','A','0
 INSERT INTO E3 VALUES('E3','23/02/2019','Swindon','Grimsby','1','1','D','0','0','D','1.85','3.4','4.4');
 INSERT INTO E3 VALUES('E3','23/02/2019','Tranmere','Notts County','1','0','H','0','0','D','2.15','3.3','3.4');
 INSERT INTO E3 VALUES('E3','23/02/2019','Yeovil','Cambridge','1','0','H','1','0','H','2.8','3.25','2.5');
+INSERT INTO E3 VALUES('E3','26/02/2019','Lincoln','Exeter','1','1','D','0','1','A','1.91','3.5','4');
