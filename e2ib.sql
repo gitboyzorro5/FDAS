@@ -403,3 +403,16 @@ INSERT INTO E2 VALUES('E2','23/02/2019','Walsall','Bradford','3','2','H','1','1'
 INSERT INTO E2 VALUES('E2','23/02/2019','Wycombe','Gillingham','0','1','A','0','0','D','1.95','3.4','3.9');
 INSERT INTO E2 VALUES('E2','24/02/2019','Luton','Coventry','1','1','D','1','1','D','1.67','3.8','5');
 INSERT INTO E2 VALUES('E2','26/02/2019','Shrewsbury','Doncaster','2','0','H','2','0','H','2.9','3.25','2.45');
+INSERT INTO E2 VALUES('E2','02/03/2019','Accrington','Coventry','0','1','A','0','0','D','2.5','3.4','2.7');
+INSERT INTO E2 VALUES('E2','02/03/2019','Bristol Rvs','Blackpool','4','0','H','2','0','H','2.38','3.25','3');
+INSERT INTO E2 VALUES('E2','02/03/2019','Burton','Walsall','0','0','D','0','0','D','1.83','3.5','4.4');
+INSERT INTO E2 VALUES('E2','02/03/2019','Doncaster','Charlton','1','1','D','0','0','D','2.15','3.6','3.2');
+INSERT INTO E2 VALUES('E2','02/03/2019','Fleetwood Town','Gillingham','1','1','D','0','0','D','1.88','3.4','4.2');
+INSERT INTO E2 VALUES('E2','02/03/2019','Luton','Rochdale','2','0','H','0','0','D','1.4','4.8','7.5');
+INSERT INTO E2 VALUES('E2','02/03/2019','Oxford','Scunthorpe','2','1','H','0','0','D','1.85','3.5','4.33');
+INSERT INTO E2 VALUES('E2','02/03/2019','Peterboro','Wycombe','4','2','H','3','2','H','2.15','3.5','3.25');
+INSERT INTO E2 VALUES('E2','02/03/2019','Portsmouth','Bradford','5','1','H','2','0','H','1.62','3.9','5.5');
+INSERT INTO E2 VALUES('E2','02/03/2019','Shrewsbury','AFC Wimbledon','0','0','D','0','0','D','1.91','3.4','4.2');
+INSERT INTO E2 VALUES('E2','02/03/2019','Southend','Barnsley','0','3','A','0','0','D','5','3.7','1.7');
+INSERT INTO E2 VALUES('E2','02/03/2019','Sunderland','Plymouth','2','0','H','1','0','H','1.57','3.9','6');
+INSERT INTO E2 VALUES('E2','05/03/2019','Accrington','Blackpool','1','2','A','1','1','D','2.38','3.25','3');
