@@ -414,4 +414,9 @@ INSERT INTO E1 VALUES('E1','02/03/2019','Rotherham','Blackburn','3','2','H','1',
 INSERT INTO E1 VALUES('E1','02/03/2019','Stoke','Nottm Forest','2','0','H','1','0','H','2.3','3.1','3.4');
 INSERT INTO E1 VALUES('E1','02/03/2019','Swansea','Bolton','2','0','H','0','0','D','1.5','4','7.5');
 INSERT INTO E1 VALUES('E1','02/03/2019','Wigan','Middlesbrough','0','0','D','0','0','D','3.2','3.2','2.38');
+<<<<<<< HEAD
 INSERT INTO E1 VALUES('E1','04/03/2019','Sheffield Weds','Sheffield United','','','','','','','3.6','3.4','2.1');
+=======
+INSERT INTO E1 VALUES('E1','04/03/2019','Sheffield Weds','Sheffield United','0','0','D','0','0','D','3.6','3.4','2.1');
+INSERT INTO E1 VALUES('E1','05/03/2019','Derby','Wigan','2','1','H','0','1','A','1.95','3.3','4.33');
+>>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42

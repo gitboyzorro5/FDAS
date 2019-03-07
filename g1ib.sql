@@ -181,4 +181,8 @@ INSERT INTO G1 VALUES('G1','03/03/2019','Atromitos','Panionios','3','0','H','2',
 INSERT INTO G1 VALUES('G1','03/03/2019','Levadeiakos','Lamia','1','1','D','1','1','D','2.25','2.8','3.8');
 INSERT INTO G1 VALUES('G1','03/03/2019','OFI Crete','Larisa','0','0','D','0','0','D','2.05','3.1','4');
 INSERT INTO G1 VALUES('G1','03/03/2019','Panathinaikos','PAOK','0','2','A','0','1','A','4.5','3.3','1.85');
+<<<<<<< HEAD
 INSERT INTO G1 VALUES('G1','04/03/2019','Apollon','Olympiakos','','','','','','','23','6','1.16');
+=======
+INSERT INTO G1 VALUES('G1','04/03/2019','Apollon','Olympiakos','0','2','A','0','1','A','23','6','1.16');
+>>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42

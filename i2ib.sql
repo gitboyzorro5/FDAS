@@ -238,4 +238,8 @@ INSERT INTO I2 VALUES('I2','02/03/2019','Palermo','Lecce','2','1','H','1','0','H
 INSERT INTO I2 VALUES('I2','03/03/2019','Perugia','Salernitana','3','1','H','2','1','H','2.1','2.87','4.2');
 INSERT INTO I2 VALUES('I2','03/03/2019','Pescara','Spezia','2','0','H','1','0','H','2.15','3.1','3.6');
 INSERT INTO I2 VALUES('I2','03/03/2019','Verona','Venezia','1','0','H','1','0','H','1.85','3.3','4.5');
+<<<<<<< HEAD
 INSERT INTO I2 VALUES('I2','04/03/2019','Livorno','Benevento','','','','','','','3.1','3','2.45');
+=======
+INSERT INTO I2 VALUES('I2','04/03/2019','Livorno','Benevento','2','0','H','2','0','H','3.1','3','2.45');
+>>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42

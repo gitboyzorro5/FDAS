@@ -213,4 +213,8 @@ INSERT INTO P1 VALUES('P1','03/03/2019','Belenenses','Feirense','4','0','H','2',
 INSERT INTO P1 VALUES('P1','03/03/2019','Chaves','Santa Clara','0','0','D','0','0','D','2.1','3.1','3.8');
 INSERT INTO P1 VALUES('P1','03/03/2019','Rio Ave','Sp Braga','1','2','A','0','0','D','4','3.4','1.9');
 INSERT INTO P1 VALUES('P1','03/03/2019','Sp Lisbon','Portimonense','3','1','H','2','1','H','1.36','5','7.5');
+<<<<<<< HEAD
 INSERT INTO P1 VALUES('P1','04/03/2019','Guimaraes','Maritimo','','','','','','','1.8','3.25','4.75');
+=======
+INSERT INTO P1 VALUES('P1','04/03/2019','Guimaraes','Maritimo','1','0','H','0','0','D','1.8','3.25','4.75');
+>>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42

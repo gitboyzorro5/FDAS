@@ -703,7 +703,12 @@ INSERT INTO E1 VALUES('E1','02/03/2019','Rotherham','Blackburn','3','2','H','1',
 INSERT INTO E1 VALUES('E1','02/03/2019','Stoke','Nottm Forest','2','0','H','1','0','H','2.3','3.1','3.4');
 INSERT INTO E1 VALUES('E1','02/03/2019','Swansea','Bolton','2','0','H','0','0','D','1.5','4','7.5');
 INSERT INTO E1 VALUES('E1','02/03/2019','Wigan','Middlesbrough','0','0','D','0','0','D','3.2','3.2','2.38');
+<<<<<<< HEAD
 INSERT INTO E1 VALUES('E1','04/03/2019','Sheffield Weds','Sheffield United','','','','','','','3.6','3.4','2.1');
+=======
+INSERT INTO E1 VALUES('E1','04/03/2019','Sheffield Weds','Sheffield United','0','0','D','0','0','D','3.6','3.4','2.1');
+INSERT INTO E1 VALUES('E1','05/03/2019','Derby','Wigan','2','1','H','0','1','A','1.95','3.3','4.33');
+>>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
 INSERT INTO E2 VALUES('E2','04/08/2018','Accrington','Gillingham','0','2','A','0','2','A','2.25','3.4','3.1');
 INSERT INTO E2 VALUES('E2','04/08/2018','Barnsley','Oxford','4','0','H','2','0','H','1.73','3.5','4.33');
 INSERT INTO E2 VALUES('E2','04/08/2018','Burton','Rochdale','1','2','A','0','2','A','2.15','3.4','3.3');
@@ -1121,6 +1126,10 @@ INSERT INTO E2 VALUES('E2','02/03/2019','Portsmouth','Bradford','5','1','H','2',
 INSERT INTO E2 VALUES('E2','02/03/2019','Shrewsbury','AFC Wimbledon','0','0','D','0','0','D','1.91','3.4','4.2');
 INSERT INTO E2 VALUES('E2','02/03/2019','Southend','Barnsley','0','3','A','0','0','D','5','3.7','1.7');
 INSERT INTO E2 VALUES('E2','02/03/2019','Sunderland','Plymouth','2','0','H','1','0','H','1.57','3.9','6');
+<<<<<<< HEAD
+=======
+INSERT INTO E2 VALUES('E2','05/03/2019','Accrington','Blackpool','1','2','A','1','1','D','2.38','3.25','3');
+>>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
 INSERT INTO E3 VALUES('E3','04/08/2018','Bury','Yeovil','1','0','H','0','0','D','1.85','3.7','4');
 INSERT INTO E3 VALUES('E3','04/08/2018','Cheltenham','Crawley Town','0','1','A','0','0','D','1.95','3.7','3.6');
 INSERT INTO E3 VALUES('E3','04/08/2018','Crewe','Morecambe','6','0','H','2','0','H','1.91','3.7','3.75');
@@ -1540,6 +1549,10 @@ INSERT INTO E3 VALUES('E3','02/03/2019','Notts County','Port Vale','0','0','D','
 INSERT INTO E3 VALUES('E3','02/03/2019','Oldham','Stevenage','1','1','D','0','0','D','1.7','3.75','5');
 INSERT INTO E3 VALUES('E3','02/03/2019','Swindon','Colchester','3','0','H','2','0','H','2.45','3.5','2.75');
 INSERT INTO E3 VALUES('E3','02/03/2019','Yeovil','Morecambe','3','2','H','0','1','A','2.5','3.2','2.88');
+<<<<<<< HEAD
+=======
+INSERT INTO E3 VALUES('E3','05/03/2019','Cheltenham','Bury','1','1','D','1','1','D','4.4','3.7','1.78');
+>>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
 INSERT INTO EC VALUES('EC','04/08/2018','Aldershot','Barnet','0','0','D','0','0','D','2.6','3.3','2.7');
 INSERT INTO EC VALUES('EC','04/08/2018','Barrow','Havant & Waterlooville','3','0','H','1','0','H','2.75','3.2','2.6');
 INSERT INTO EC VALUES('EC','04/08/2018','Boreham Wood','Dag and Red','1','0','H','0','0','D','1.8','3.4','4');
@@ -1960,6 +1973,15 @@ INSERT INTO EC VALUES('EC','02/03/2019','Havant & Waterlooville','Leyton Orient'
 INSERT INTO EC VALUES('EC','02/03/2019','Solihull','Maidstone','5','0','H','4','0','H','1.35','4.6','9');
 INSERT INTO EC VALUES('EC','02/03/2019','Sutton','Hartlepool','2','2','D','1','0','H','2.05','3.3','3.6');
 INSERT INTO EC VALUES('EC','02/03/2019','Wrexham','Chesterfield','1','0','H','0','0','D','1.78','3.5','4.5');
+<<<<<<< HEAD
+=======
+INSERT INTO EC VALUES('EC','05/03/2019','Barrow','Leyton Orient','2','3','A','0','1','A','3.4','3.4','2.1');
+INSERT INTO EC VALUES('EC','05/03/2019','Braintree Town','Chesterfield','1','3','A','0','2','A','3.6','3.4','2.05');
+INSERT INTO EC VALUES('EC','05/03/2019','Halifax','Barnet','3','0','H','1','0','H','3.1','3','2.45');
+INSERT INTO EC VALUES('EC','05/03/2019','Harrogate','Bromley','1','0','H','0','0','D','1.91','3.5','3.9');
+INSERT INTO EC VALUES('EC','05/03/2019','Maidenhead','Dag and Red','1','1','D','0','0','D','2.15','3.4','3.25');
+INSERT INTO EC VALUES('EC','05/03/2019','Salford','Sutton','2','0','H','1','0','H','2','3.4','3.7');
+>>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
 INSERT INTO SP1 VALUES('SP1','17/08/2018','Betis','Levante','0','3','A','0','1','A','1.67','3.9','4.75');
 INSERT INTO SP1 VALUES('SP1','17/08/2018','Girona','Valladolid','0','0','D','0','0','D','1.75','3.6','4.6');
 INSERT INTO SP1 VALUES('SP1','18/08/2018','Barcelona','Alaves','3','0','H','0','0','D','1.08','9','29');
@@ -2219,7 +2241,11 @@ INSERT INTO SP1 VALUES('SP1','03/03/2019','Betis','Getafe','1','2','A','0','2','
 INSERT INTO SP1 VALUES('SP1','03/03/2019','Eibar','Celta','1','0','H','0','0','D','1.78','3.9','4.4');
 INSERT INTO SP1 VALUES('SP1','03/03/2019','Sociedad','Ath Madrid','0','2','A','0','2','A','3.7','3.25','2.1');
 INSERT INTO SP1 VALUES('SP1','03/03/2019','Valencia','Ath Bilbao','2','0','H','0','0','D','1.95','3.25','4.33');
+<<<<<<< HEAD
 INSERT INTO SP1 VALUES('SP1','04/03/2019','Leganes','Levante','','','','','','','1.95','3.4','4.2');
+=======
+INSERT INTO SP1 VALUES('SP1','04/03/2019','Leganes','Levante','1','0','H','1','0','H','1.95','3.4','4.2');
+>>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
 INSERT INTO SP2 VALUES('SP2','17/08/2018','Albacete','La Coruna','1','1','D','0','0','D','2.9','3','2.6');
 INSERT INTO SP2 VALUES('SP2','17/08/2018','Cadiz','Almeria','1','0','H','0','0','D','1.61','3.6','6');
 INSERT INTO SP2 VALUES('SP2','18/08/2018','Alcorcon','Sp Gijon','1','1','D','0','0','D','2.4','3.2','3');
@@ -2520,7 +2546,11 @@ INSERT INTO SP2 VALUES('SP2','03/03/2019','Numancia','Sp Gijon','1','2','A','1',
 INSERT INTO SP2 VALUES('SP2','03/03/2019','Oviedo','Lugo','1','1','D','1','0','H','1.7','3.3','5.75');
 INSERT INTO SP2 VALUES('SP2','03/03/2019','Rayo Majadahonda','Granada','0','3','A','0','1','A','3.25','2.9','2.45');
 INSERT INTO SP2 VALUES('SP2','03/03/2019','Zaragoza','Almeria','1','2','A','0','0','D','2','3','4.33');
+<<<<<<< HEAD
 INSERT INTO SP2 VALUES('SP2','04/03/2019','La Coruna','Alcorcon','','','','','','','1.61','3.4','6.5');
+=======
+INSERT INTO SP2 VALUES('SP2','04/03/2019','La Coruna','Alcorcon','2','2','D','1','1','D','1.61','3.4','6.5');
+>>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
 INSERT INTO D1 VALUES('D1','24/08/2018','Bayern Munich','Hoffenheim','3','1','H','1','0','H','1.17','8','13');
 INSERT INTO D1 VALUES('D1','25/08/2018','Fortuna Dusseldorf','Augsburg','1','2','A','1','0','H','2.45','3.25','2.9');
 INSERT INTO D1 VALUES('D1','25/08/2018','Freiburg','Ein Frankfurt','0','2','A','0','1','A','2.25','3.3','3.2');
@@ -2952,7 +2982,11 @@ INSERT INTO D2 VALUES('D2','02/03/2019','Sandhausen','Erzgebirge Aue','0','3','A
 INSERT INTO D2 VALUES('D2','03/03/2019','Bielefeld','Darmstadt','1','0','H','1','0','H','1.95','3.3','3.8');
 INSERT INTO D2 VALUES('D2','03/03/2019','Dresden','Bochum','2','2','D','1','2','A','2.4','3.2','3');
 INSERT INTO D2 VALUES('D2','03/03/2019','Ingolstadt','FC Koln','1','2','A','0','1','A','4','3.4','1.9');
+<<<<<<< HEAD
 INSERT INTO D2 VALUES('D2','04/03/2019','Hamburg','Greuther Furth','','','','','','','1.45','4.33','7');
+=======
+INSERT INTO D2 VALUES('D2','04/03/2019','Hamburg','Greuther Furth','1','0','H','0','0','D','1.45','4.33','7');
+>>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
 INSERT INTO F1 VALUES('F1','10/08/2018','Marseille','Toulouse','4','0','H','1','0','H','1.4','4.4','8');
 INSERT INTO F1 VALUES('F1','11/08/2018','Angers','Nimes','3','4','A','1','1','D','2.25','3.3','3.2');
 INSERT INTO F1 VALUES('F1','11/08/2018','Lille','Rennes','3','1','H','1','1','D','2.45','3.25','2.88');
@@ -3220,6 +3254,10 @@ INSERT INTO F1 VALUES('F1','03/03/2019','Lille','Dijon','1','0','H','0','0','D',
 INSERT INTO F1 VALUES('F1','03/03/2019','Lyon','Toulouse','5','1','H','3','1','H','1.27','5.5','11');
 INSERT INTO F1 VALUES('F1','03/03/2019','Marseille','St Etienne','2','0','H','2','0','H','1.75','3.7','4.5');
 INSERT INTO F1 VALUES('F1','03/03/2019','Nice','Strasbourg','1','0','H','1','0','H','2.35','2.9','3.4');
+<<<<<<< HEAD
+=======
+INSERT INTO F1 VALUES('F1','05/03/2019','Bordeaux','Montpellier','1','2','A','1','1','D','2.45','3','3.1');
+>>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
 INSERT INTO F2 VALUES('F2','27/07/2018','Ajaccio','Troyes','0','1','A','0','1','A','2.14','3.1','3.6');
 INSERT INTO F2 VALUES('F2','27/07/2018','Ajaccio GFCO','Paris FC','1','1','D','0','1','A','3.2','2.87','2.5');
 INSERT INTO F2 VALUES('F2','27/07/2018','Clermont','Chateauroux','0','0','D','0','0','D','1.8','3.3','4.75');
@@ -3489,7 +3527,11 @@ INSERT INTO F2 VALUES('F2','01/03/2019','Sochaux','Nancy','0','4','A','0','0','D
 INSERT INTO F2 VALUES('F2','01/03/2019','Valenciennes','Ajaccio','4','0','H','1','0','H','2.7','3','2.8');
 INSERT INTO F2 VALUES('F2','02/03/2019','Lorient','Orleans','1','3','A','0','2','A','1.83','3.25','4.75');
 INSERT INTO F2 VALUES('F2','03/03/2019','Paris FC','Lens','2','0','H','1','0','H','2.55','2.87','3.1');
+<<<<<<< HEAD
 INSERT INTO F2 VALUES('F2','04/03/2019','Le Havre','Metz','','','','','','','3','2.8','2.7');
+=======
+INSERT INTO F2 VALUES('F2','04/03/2019','Le Havre','Metz','2','2','D','1','0','H','3','2.8','2.7');
+>>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
 INSERT INTO I1 VALUES('I1','18/08/2018','Chievo','Juventus','2','3','A','1','1','D','13','6','1.22');
 INSERT INTO I1 VALUES('I1','18/08/2018','Lazio','Napoli','1','2','A','1','1','D','2.8','3.5','2.4');
 INSERT INTO I1 VALUES('I1','19/08/2018','Bologna','Spal','0','1','A','0','0','D','2.25','3.2','3.3');
@@ -3989,7 +4031,11 @@ INSERT INTO I2 VALUES('I2','02/03/2019','Palermo','Lecce','2','1','H','1','0','H
 INSERT INTO I2 VALUES('I2','03/03/2019','Perugia','Salernitana','3','1','H','2','1','H','2.1','2.87','4.2');
 INSERT INTO I2 VALUES('I2','03/03/2019','Pescara','Spezia','2','0','H','1','0','H','2.15','3.1','3.6');
 INSERT INTO I2 VALUES('I2','03/03/2019','Verona','Venezia','1','0','H','1','0','H','1.85','3.3','4.5');
+<<<<<<< HEAD
 INSERT INTO I2 VALUES('I2','04/03/2019','Livorno','Benevento','','','','','','','3.1','3','2.45');
+=======
+INSERT INTO I2 VALUES('I2','04/03/2019','Livorno','Benevento','2','0','H','2','0','H','3.1','3','2.45');
+>>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
 INSERT INTO P1 VALUES('P1','10/08/2018','Benfica','Guimaraes','3','2','H','3','0','H','1.25','5.75','11');
 INSERT INTO P1 VALUES('P1','11/08/2018','Porto','Chaves','5','0','H','3','0','H','1.14','7','21');
 INSERT INTO P1 VALUES('P1','11/08/2018','Setubal','Aves','2','0','H','1','0','H','2.25','3.1','3.4');
@@ -4205,7 +4251,11 @@ INSERT INTO P1 VALUES('P1','03/03/2019','Belenenses','Feirense','4','0','H','2',
 INSERT INTO P1 VALUES('P1','03/03/2019','Chaves','Santa Clara','0','0','D','0','0','D','2.1','3.1','3.8');
 INSERT INTO P1 VALUES('P1','03/03/2019','Rio Ave','Sp Braga','1','2','A','0','0','D','4','3.4','1.9');
 INSERT INTO P1 VALUES('P1','03/03/2019','Sp Lisbon','Portimonense','3','1','H','2','1','H','1.36','5','7.5');
+<<<<<<< HEAD
 INSERT INTO P1 VALUES('P1','04/03/2019','Guimaraes','Maritimo','','','','','','','1.8','3.25','4.75');
+=======
+INSERT INTO P1 VALUES('P1','04/03/2019','Guimaraes','Maritimo','1','0','H','0','0','D','1.8','3.25','4.75');
+>>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
 INSERT INTO N1 VALUES('N1','10/08/2018','Zwolle','Heerenveen','2','3','A','1','3','A','2.4','3.6','2.7');
 INSERT INTO N1 VALUES('N1','11/08/2018','Ajax','Heracles','1','1','D','0','0','D','1.12','8','19');
 INSERT INTO N1 VALUES('N1','11/08/2018','Excelsior','For Sittard','1','1','D','1','0','H','2.1','3.5','3.3');
@@ -4859,8 +4909,13 @@ INSERT INTO T1 VALUES('T1','02/03/2019','Kayserispor','Besiktas','2','2','D','0'
 INSERT INTO T1 VALUES('T1','03/03/2019','Erzurum BB','Galatasaray','1','1','D','1','0','H','3.75','3.5','1.95');
 INSERT INTO T1 VALUES('T1','03/03/2019','Konyaspor','Goztep','1','1','D','1','0','H','2','3.1','4.2');
 INSERT INTO T1 VALUES('T1','03/03/2019','Yeni Malatyaspor','Buyuksehyr','0','2','A','0','1','A','4.5','3.5','1.8');
+<<<<<<< HEAD
 INSERT INTO T1 VALUES('T1','04/03/2019','Akhisar Belediyespor','Alanyaspor','','','','','','','3','3.2','2.4');
 INSERT INTO T1 VALUES('T1','04/03/2019','Kasimpasa','Trabzonspor','','','','','','','3.3','3.6','2.05');
+=======
+INSERT INTO T1 VALUES('T1','04/03/2019','Akhisar Belediyespor','Alanyaspor','3','1','H','0','0','D','3','3.2','2.4');
+INSERT INTO T1 VALUES('T1','04/03/2019','Kasimpasa','Trabzonspor','2','2','D','0','2','A','3.3','3.6','2.05');
+>>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
 INSERT INTO G1 VALUES('G1','25/08/2018','AEK','Giannina','2','0','H','1','0','H','1.36','4.33','10');
 INSERT INTO G1 VALUES('G1','25/08/2018','Apollon','Larisa','0','1','A','0','1','A','2.3','3','3.4');
 INSERT INTO G1 VALUES('G1','25/08/2018','Panetolikos','Atromitos','1','2','A','1','1','D','3','3','2.5');
@@ -5044,7 +5099,11 @@ INSERT INTO G1 VALUES('G1','03/03/2019','Atromitos','Panionios','3','0','H','2',
 INSERT INTO G1 VALUES('G1','03/03/2019','Levadeiakos','Lamia','1','1','D','1','1','D','2.25','2.8','3.8');
 INSERT INTO G1 VALUES('G1','03/03/2019','OFI Crete','Larisa','0','0','D','0','0','D','2.05','3.1','4');
 INSERT INTO G1 VALUES('G1','03/03/2019','Panathinaikos','PAOK','0','2','A','0','1','A','4.5','3.3','1.85');
+<<<<<<< HEAD
 INSERT INTO G1 VALUES('G1','04/03/2019','Apollon','Olympiakos','','','','','','','23','6','1.16');
+=======
+INSERT INTO G1 VALUES('G1','04/03/2019','Apollon','Olympiakos','0','2','A','0','1','A','23','6','1.16');
+>>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
 INSERT INTO SC0 VALUES('SC0','04/08/2018','Celtic','Livingston','3','1','H','2','0','H','1.1','10','19');
 INSERT INTO SC0 VALUES('SC0','04/08/2018','Hamilton','Hearts','1','4','A','1','1','D','3.75','3.4','1.95');
 INSERT INTO SC0 VALUES('SC0','04/08/2018','Kilmarnock','St Johnstone','2','0','H','0','0','D','2','3.2','3.6');
@@ -5476,6 +5535,10 @@ INSERT INTO SC2 VALUES('SC2','02/03/2019','Dumbarton','Arbroath','2','0','H','1'
 INSERT INTO SC2 VALUES('SC2','02/03/2019','Forfar','East Fife','3','0','H','3','0','H','0','2.6','3.3');
 INSERT INTO SC2 VALUES('SC2','02/03/2019','Stenhousemuir','Brechin','1','1','D','0','1','A','0','2.15','3.5');
 INSERT INTO SC2 VALUES('SC2','02/03/2019','Stranraer','Raith Rvs','2','2','D','2','0','H','0','4.75','4');
+<<<<<<< HEAD
+=======
+INSERT INTO SC2 VALUES('SC2','05/03/2019','Brechin','East Fife','0','0','D','0','0','D','0','3.6','3.8');
+>>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
 INSERT INTO SC3 VALUES('SC3','04/08/2018','Annan Athletic','Elgin','1','1','D','0','0','D','0','2.5','3.5');
 INSERT INTO SC3 VALUES('SC3','04/08/2018','Berwick','Stirling','1','0','H','0','0','D','0','3.1','3.5');
 INSERT INTO SC3 VALUES('SC3','04/08/2018','Clyde','Cowdenbeath','2','0','H','2','0','H','0','1.61','4');
@@ -5607,3 +5670,8 @@ INSERT INTO SC3 VALUES('SC3','02/03/2019','Annan Athletic','Queens Park','2','1'
 INSERT INTO SC3 VALUES('SC3','02/03/2019','Clyde','Edinburgh City','1','0','H','0','0','D','0','2.6','3.3');
 INSERT INTO SC3 VALUES('SC3','02/03/2019','Cowdenbeath','Stirling','1','2','A','0','1','A','1','3.25','3.4');
 INSERT INTO SC3 VALUES('SC3','02/03/2019','Peterhead','Elgin','1','0','H','1','0','H','0','1.44','4.33');
+<<<<<<< HEAD
+=======
+INSERT INTO SC3 VALUES('SC3','05/03/2019','Cowdenbeath','Peterhead','1','3','A','1','2','A','0','7','4.75');
+INSERT INTO SC3 VALUES('SC3','05/03/2019','Edinburgh City','Berwick','1','0','H','0','0','D','0','1.14','8');
+>>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42

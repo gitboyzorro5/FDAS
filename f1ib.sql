@@ -265,3 +265,7 @@ INSERT INTO F1 VALUES('F1','03/03/2019','Lille','Dijon','1','0','H','0','0','D',
 INSERT INTO F1 VALUES('F1','03/03/2019','Lyon','Toulouse','5','1','H','3','1','H','1.27','5.5','11');
 INSERT INTO F1 VALUES('F1','03/03/2019','Marseille','St Etienne','2','0','H','2','0','H','1.75','3.7','4.5');
 INSERT INTO F1 VALUES('F1','03/03/2019','Nice','Strasbourg','1','0','H','1','0','H','2.35','2.9','3.4');
+<<<<<<< HEAD
+=======
+INSERT INTO F1 VALUES('F1','05/03/2019','Bordeaux','Montpellier','1','2','A','1','1','D','2.45','3','3.1');
+>>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
