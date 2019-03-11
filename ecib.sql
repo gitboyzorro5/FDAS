@@ -424,3 +424,14 @@ INSERT INTO EC VALUES('EC','05/03/2019','Halifax','Barnet','3','0','H','1','0','
 INSERT INTO EC VALUES('EC','05/03/2019','Harrogate','Bromley','1','0','H','0','0','D','1.91','3.5','3.9');
 INSERT INTO EC VALUES('EC','05/03/2019','Maidenhead','Dag and Red','1','1','D','0','0','D','2.15','3.4','3.25');
 INSERT INTO EC VALUES('EC','05/03/2019','Salford','Sutton','2','0','H','1','0','H','2','3.4','3.7');
+INSERT INTO EC VALUES('EC','09/03/2019','Barrow','Aldershot','2','1','H','1','0','H','1.95','3.3','4');
+INSERT INTO EC VALUES('EC','09/03/2019','Boreham Wood','Fylde','1','1','D','0','1','A','3.25','3.3','2.2');
+INSERT INTO EC VALUES('EC','09/03/2019','Braintree Town','Harrogate','0','4','A','0','3','A','4','3.4','1.91');
+INSERT INTO EC VALUES('EC','09/03/2019','Chesterfield','Eastleigh','2','3','A','1','1','D','2.3','3.2','3.1');
+INSERT INTO EC VALUES('EC','09/03/2019','Dag and Red','Bromley','3','0','H','2','0','H','2.75','3.2','2.55');
+INSERT INTO EC VALUES('EC','09/03/2019','Gateshead','Barnet','2','1','H','0','1','A','2.38','3.2','3');
+INSERT INTO EC VALUES('EC','09/03/2019','Hartlepool','Dover Athletic','3','2','H','0','2','A','2.2','3.25','3.3');
+INSERT INTO EC VALUES('EC','09/03/2019','Leyton Orient','Wrexham','1','0','H','0','0','D','2.1','3.25','3.5');
+INSERT INTO EC VALUES('EC','09/03/2019','Maidenhead','Sutton','1','0','H','0','0','D','2.62','3.25','2.62');
+INSERT INTO EC VALUES('EC','09/03/2019','Maidstone','Havant & Waterlooville','2','0','H','2','0','H','2.62','3.3','2.6');
+INSERT INTO EC VALUES('EC','09/03/2019','Salford','Solihull','2','0','H','0','0','D','2.5','3.2','2.88');
