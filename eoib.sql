@@ -287,3 +287,13 @@ INSERT INTO E0 VALUES('E0','02/03/2019','Wolves','Cardiff','2','0','H','2','0','
 INSERT INTO E0 VALUES('E0','03/03/2019','Everton','Liverpool','0','0','D','0','0','D','5.8','3.9','1.62');
 INSERT INTO E0 VALUES('E0','03/03/2019','Fulham','Chelsea','1','2','A','1','2','A','6.5','4.33','1.5');
 INSERT INTO E0 VALUES('E0','03/03/2019','Watford','Leicester','2','1','H','1','0','H','2.45','3.3','3');
+INSERT INTO E0 VALUES('E0','09/03/2019','Cardiff','West Ham','2','0','H','1','0','H','3.4','3.4','2.15');
+INSERT INTO E0 VALUES('E0','09/03/2019','Crystal Palace','Brighton','1','2','A','0','1','A','1.83','3.4','4.75');
+INSERT INTO E0 VALUES('E0','09/03/2019','Huddersfield','Bournemouth','0','2','A','0','1','A','3.4','3.2','2.25');
+INSERT INTO E0 VALUES('E0','09/03/2019','Leicester','Fulham','3','1','H','1','0','H','1.57','4.2','5.8');
+INSERT INTO E0 VALUES('E0','09/03/2019','Man City','Watford','3','1','H','0','0','D','1.14','8','19');
+INSERT INTO E0 VALUES('E0','09/03/2019','Newcastle','Everton','3','2','H','0','2','A','2.75','3.1','2.75');
+INSERT INTO E0 VALUES('E0','09/03/2019','Southampton','Tottenham','2','1','H','0','1','A','4.2','3.7','1.85');
+INSERT INTO E0 VALUES('E0','10/03/2019','Arsenal','Man United','2','0','H','1','0','H','2.38','3.5','2.9');
+INSERT INTO E0 VALUES('E0','10/03/2019','Chelsea','Wolves','1','1','D','0','0','D','1.55','4','6.5');
+INSERT INTO E0 VALUES('E0','10/03/2019','Liverpool','Burnley','4','2','H','2','1','H','1.15','7.5','19');

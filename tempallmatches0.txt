@@ -287,6 +287,16 @@ E0,02/03/2019,Wolves,Cardiff,2,0,H,2,0,H,1.5,4.2,7
 E0,03/03/2019,Everton,Liverpool,0,0,D,0,0,D,5.8,3.9,1.62
 E0,03/03/2019,Fulham,Chelsea,1,2,A,1,2,A,6.5,4.33,1.5
 E0,03/03/2019,Watford,Leicester,2,1,H,1,0,H,2.45,3.3,3
+E0,09/03/2019,Cardiff,West Ham,2,0,H,1,0,H,3.4,3.4,2.15
+E0,09/03/2019,Crystal Palace,Brighton,1,2,A,0,1,A,1.83,3.4,4.75
+E0,09/03/2019,Huddersfield,Bournemouth,0,2,A,0,1,A,3.4,3.2,2.25
+E0,09/03/2019,Leicester,Fulham,3,1,H,1,0,H,1.57,4.2,5.8
+E0,09/03/2019,Man City,Watford,3,1,H,0,0,D,1.14,8,19
+E0,09/03/2019,Newcastle,Everton,3,2,H,0,2,A,2.75,3.1,2.75
+E0,09/03/2019,Southampton,Tottenham,2,1,H,0,1,A,4.2,3.7,1.85
+E0,10/03/2019,Arsenal,Man United,2,0,H,1,0,H,2.38,3.5,2.9
+E0,10/03/2019,Chelsea,Wolves,1,1,D,0,0,D,1.55,4,6.5
+E0,10/03/2019,Liverpool,Burnley,4,2,H,2,1,H,1.15,7.5,19
 E1,03/08/2018,Reading,Derby,1,2,A,0,0,D,3.5,3.2,2.2
 E1,04/08/2018,Birmingham,Norwich,2,2,D,0,0,D,2.5,3.2,2.88
 E1,04/08/2018,Brentford,Rotherham,5,1,H,2,0,H,1.5,4.4,5.8
@@ -708,7 +718,22 @@ E1,04/03/2019,Sheffield Weds,Sheffield United,,,,,,,3.6,3.4,2.1
 =======
 E1,04/03/2019,Sheffield Weds,Sheffield United,0,0,D,0,0,D,3.6,3.4,2.1
 E1,05/03/2019,Derby,Wigan,2,1,H,0,1,A,1.95,3.3,4.33
+<<<<<<< HEAD
 >>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
+=======
+E1,08/03/2019,Norwich,Swansea,1,0,H,0,0,D,1.63,4,5.25
+E1,09/03/2019,Blackburn,Preston,0,1,A,0,1,A,2.75,3.3,2.6
+E1,09/03/2019,Bolton,Millwall,2,1,H,0,0,D,4.2,3.4,1.95
+E1,09/03/2019,Bristol City,Leeds,0,1,A,0,1,A,3.1,3.3,2.38
+E1,09/03/2019,Derby,Sheffield Weds,1,1,D,1,0,H,2.05,3.3,3.8
+E1,09/03/2019,Middlesbrough,Brentford,1,2,A,1,0,H,2.35,3.2,3.2
+E1,09/03/2019,Nottm Forest,Hull,3,0,H,0,0,D,2.1,3.4,3.6
+E1,09/03/2019,QPR,Stoke,0,0,D,0,0,D,2.62,3.1,2.88
+E1,09/03/2019,Reading,Wigan,3,2,H,1,1,D,2.62,3.25,2.75
+E1,09/03/2019,Sheffield United,Rotherham,2,0,H,1,0,H,1.38,4.75,9
+E1,09/03/2019,West Brom,Ipswich,1,1,D,1,0,H,1.35,4.8,10
+E1,10/03/2019,Birmingham,Aston Villa,0,1,A,0,0,D,2.7,3.25,2.7
+>>>>>>> 9a7f168ee01eb2fcfc68e0b5f64ee2f805267184
 E2,04/08/2018,Accrington,Gillingham,0,2,A,0,2,A,2.25,3.4,3.1
 E2,04/08/2018,Barnsley,Oxford,4,0,H,2,0,H,1.73,3.5,4.33
 E2,04/08/2018,Burton,Rochdale,1,2,A,0,2,A,2.15,3.4,3.3
@@ -1129,7 +1154,22 @@ E2,02/03/2019,Sunderland,Plymouth,2,0,H,1,0,H,1.57,3.9,6
 <<<<<<< HEAD
 =======
 E2,05/03/2019,Accrington,Blackpool,1,2,A,1,1,D,2.38,3.25,3
+<<<<<<< HEAD
 >>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
+=======
+E2,08/03/2019,Coventry,Burton,1,2,A,0,1,A,2.25,3.25,3.2
+E2,09/03/2019,AFC Wimbledon,Doncaster,2,0,H,0,0,D,3.4,3.4,2.1
+E2,09/03/2019,Barnsley,Accrington,2,0,H,2,0,H,1.47,4.2,7
+E2,09/03/2019,Blackpool,Southend,2,2,D,1,1,D,2.05,3.3,3.7
+E2,09/03/2019,Bradford,Peterboro,3,1,H,0,0,D,2.55,3.4,2.7
+E2,09/03/2019,Charlton,Portsmouth,2,1,H,1,1,D,2.45,3.1,3
+E2,09/03/2019,Gillingham,Oxford,1,0,H,0,0,D,2.9,3.4,2.38
+E2,09/03/2019,Plymouth,Luton,0,0,D,0,0,D,4.2,3.8,1.78
+E2,09/03/2019,Rochdale,Shrewsbury,2,1,H,1,0,H,2.8,3.5,2.4
+E2,09/03/2019,Scunthorpe,Bristol Rvs,0,1,A,0,1,A,2.5,3.2,2.88
+E2,09/03/2019,Walsall,Fleetwood Town,2,0,H,0,0,D,2.9,3.2,2.5
+E2,09/03/2019,Wycombe,Sunderland,1,1,D,1,0,H,3.9,3.3,2
+>>>>>>> 9a7f168ee01eb2fcfc68e0b5f64ee2f805267184
 E3,04/08/2018,Bury,Yeovil,1,0,H,0,0,D,1.85,3.7,4
 E3,04/08/2018,Cheltenham,Crawley Town,0,1,A,0,0,D,1.95,3.7,3.6
 E3,04/08/2018,Crewe,Morecambe,6,0,H,2,0,H,1.91,3.7,3.75
@@ -1552,7 +1592,22 @@ E3,02/03/2019,Yeovil,Morecambe,3,2,H,0,1,A,2.5,3.2,2.88
 <<<<<<< HEAD
 =======
 E3,05/03/2019,Cheltenham,Bury,1,1,D,1,1,D,4.4,3.7,1.78
+<<<<<<< HEAD
 >>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
+=======
+E3,08/03/2019,Lincoln,Yeovil,1,0,H,0,0,D,1.47,4.2,7
+E3,08/03/2019,Tranmere,Crewe,1,0,H,0,0,D,2.3,3.3,3.1
+E3,09/03/2019,Cambridge,Oldham,1,1,D,0,1,A,2.5,3.3,2.8
+E3,09/03/2019,Carlisle,Swindon,2,1,H,1,1,D,2.45,3.4,2.8
+E3,09/03/2019,Cheltenham,Notts County,4,1,H,2,0,H,2.35,3.3,3
+E3,09/03/2019,Colchester,Newport County,3,0,H,2,0,H,2.2,3.4,3.2
+E3,09/03/2019,Crawley Town,Grimsby,2,1,H,2,1,H,2.55,3.1,2.88
+E3,09/03/2019,Macclesfield,Milton Keynes Dons,1,3,A,1,1,D,3.9,3.7,1.88
+E3,09/03/2019,Morecambe,Forest Green,3,0,H,2,0,H,3.5,3.4,2.1
+E3,09/03/2019,Northampton,Exeter,2,1,H,1,0,H,2.35,3.25,3.1
+E3,09/03/2019,Port Vale,Mansfield,2,1,H,0,0,D,3.6,3.3,2.1
+E3,09/03/2019,Stevenage,Bury,0,1,A,0,0,D,4.2,3.6,1.83
+>>>>>>> 9a7f168ee01eb2fcfc68e0b5f64ee2f805267184
 EC,04/08/2018,Aldershot,Barnet,0,0,D,0,0,D,2.6,3.3,2.7
 EC,04/08/2018,Barrow,Havant & Waterlooville,3,0,H,1,0,H,2.75,3.2,2.6
 EC,04/08/2018,Boreham Wood,Dag and Red,1,0,H,0,0,D,1.8,3.4,4
@@ -1981,7 +2036,21 @@ EC,05/03/2019,Halifax,Barnet,3,0,H,1,0,H,3.1,3,2.45
 EC,05/03/2019,Harrogate,Bromley,1,0,H,0,0,D,1.91,3.5,3.9
 EC,05/03/2019,Maidenhead,Dag and Red,1,1,D,0,0,D,2.15,3.4,3.25
 EC,05/03/2019,Salford,Sutton,2,0,H,1,0,H,2,3.4,3.7
+<<<<<<< HEAD
 >>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
+=======
+EC,09/03/2019,Barrow,Aldershot,2,1,H,1,0,H,1.95,3.3,4
+EC,09/03/2019,Boreham Wood,Fylde,1,1,D,0,1,A,3.25,3.3,2.2
+EC,09/03/2019,Braintree Town,Harrogate,0,4,A,0,3,A,4,3.4,1.91
+EC,09/03/2019,Chesterfield,Eastleigh,2,3,A,1,1,D,2.3,3.2,3.1
+EC,09/03/2019,Dag and Red,Bromley,3,0,H,2,0,H,2.75,3.2,2.55
+EC,09/03/2019,Gateshead,Barnet,2,1,H,0,1,A,2.38,3.2,3
+EC,09/03/2019,Hartlepool,Dover Athletic,3,2,H,0,2,A,2.2,3.25,3.3
+EC,09/03/2019,Leyton Orient,Wrexham,1,0,H,0,0,D,2.1,3.25,3.5
+EC,09/03/2019,Maidenhead,Sutton,1,0,H,0,0,D,2.62,3.25,2.62
+EC,09/03/2019,Maidstone,Havant & Waterlooville,2,0,H,2,0,H,2.62,3.3,2.6
+EC,09/03/2019,Salford,Solihull,2,0,H,0,0,D,2.5,3.2,2.88
+>>>>>>> 9a7f168ee01eb2fcfc68e0b5f64ee2f805267184
 SP1,17/08/2018,Betis,Levante,0,3,A,0,1,A,1.67,3.9,4.75
 SP1,17/08/2018,Girona,Valladolid,0,0,D,0,0,D,1.75,3.6,4.6
 SP1,18/08/2018,Barcelona,Alaves,3,0,H,0,0,D,1.08,9,29
@@ -2245,7 +2314,20 @@ SP1,03/03/2019,Valencia,Ath Bilbao,2,0,H,0,0,D,1.95,3.25,4.33
 SP1,04/03/2019,Leganes,Levante,,,,,,,1.95,3.4,4.2
 =======
 SP1,04/03/2019,Leganes,Levante,1,0,H,1,0,H,1.95,3.4,4.2
+<<<<<<< HEAD
 >>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
+=======
+SP1,08/03/2019,Ath Bilbao,Espanol,1,1,D,0,1,A,1.7,3.6,5.5
+SP1,09/03/2019,Alaves,Eibar,1,1,D,0,0,D,2.88,3.1,2.62
+SP1,09/03/2019,Ath Madrid,Leganes,1,0,H,0,0,D,1.47,4,8.5
+SP1,09/03/2019,Barcelona,Vallecano,3,1,H,1,1,D,1.14,8,21
+SP1,09/03/2019,Getafe,Huesca,2,1,H,0,1,A,1.62,3.75,6
+SP1,10/03/2019,Celta,Betis,0,1,A,0,0,D,2.45,3.3,3
+SP1,10/03/2019,Girona,Valencia,2,3,A,1,1,D,3.2,3.2,2.38
+SP1,10/03/2019,Levante,Villarreal,0,2,A,0,0,D,2.8,3.4,2.5
+SP1,10/03/2019,Sevilla,Sociedad,5,2,H,1,1,D,1.65,4,5.25
+SP1,10/03/2019,Valladolid,Real Madrid,1,4,A,1,1,D,5.25,4.2,1.62
+>>>>>>> 9a7f168ee01eb2fcfc68e0b5f64ee2f805267184
 SP2,17/08/2018,Albacete,La Coruna,1,1,D,0,0,D,2.9,3,2.6
 SP2,17/08/2018,Cadiz,Almeria,1,0,H,0,0,D,1.61,3.6,6
 SP2,18/08/2018,Alcorcon,Sp Gijon,1,1,D,0,0,D,2.4,3.2,3
@@ -2550,7 +2632,20 @@ SP2,03/03/2019,Zaragoza,Almeria,1,2,A,0,0,D,2,3,4.33
 SP2,04/03/2019,La Coruna,Alcorcon,,,,,,,1.61,3.4,6.5
 =======
 SP2,04/03/2019,La Coruna,Alcorcon,2,2,D,1,1,D,1.61,3.4,6.5
+<<<<<<< HEAD
 >>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
+=======
+SP2,09/03/2019,Elche,Cadiz,1,0,H,1,0,H,3.2,2.9,2.45
+SP2,09/03/2019,Gimnastic,Albacete,1,0,H,0,0,D,3.1,2.9,2.5
+SP2,09/03/2019,Mallorca,Oviedo,1,0,H,0,0,D,2.25,2.9,3.6
+SP2,09/03/2019,Sp Gijon,Almeria,1,0,H,0,0,D,1.95,3,4.5
+SP2,10/03/2019,Extremadura UD,Cordoba,3,0,H,2,0,H,1.9,3.1,4.6
+SP2,10/03/2019,Granada,Zaragoza,1,0,H,1,0,H,1.8,3.25,5
+SP2,10/03/2019,La Coruna,Las Palmas,0,1,A,0,0,D,1.72,3.3,5.5
+SP2,10/03/2019,Rayo Majadahonda,Alcorcon,2,0,H,1,0,H,2.55,2.87,3.1
+SP2,10/03/2019,Tenerife,Numancia,1,1,D,1,0,H,1.95,3.2,4.2
+SP2,11/03/2019,Malaga,Osasuna,,,,,,,2.45,2.8,3.3
+>>>>>>> 9a7f168ee01eb2fcfc68e0b5f64ee2f805267184
 D1,24/08/2018,Bayern Munich,Hoffenheim,3,1,H,1,0,H,1.17,8,13
 D1,25/08/2018,Fortuna Dusseldorf,Augsburg,1,2,A,1,0,H,2.45,3.25,2.9
 D1,25/08/2018,Freiburg,Ein Frankfurt,0,2,A,0,1,A,2.25,3.3,3.2
@@ -2767,6 +2862,15 @@ D1,02/03/2019,Nurnberg,RB Leipzig,0,1,A,0,1,A,6.5,4.33,1.5
 D1,02/03/2019,Schalke 04,Fortuna Dusseldorf,0,4,A,0,1,A,1.85,3.6,4.33
 D1,03/03/2019,Stuttgart,Hannover,5,1,H,3,0,H,1.7,4,4.75
 D1,03/03/2019,Wolfsburg,Werder Bremen,1,1,D,0,0,D,2.15,3.5,3.3
+D1,08/03/2019,Werder Bremen,Schalke 04,4,2,H,1,1,D,2.1,3.4,3.6
+D1,09/03/2019,Bayern Munich,Wolfsburg,6,0,H,2,0,H,1.24,6.5,12
+D1,09/03/2019,Dortmund,Stuttgart,3,1,H,0,0,D,1.32,5.5,9
+D1,09/03/2019,Freiburg,Hertha,2,1,H,1,0,H,2.6,3.25,2.8
+D1,09/03/2019,Mainz,Mgladbach,0,1,A,0,0,D,3.1,3.5,2.25
+D1,09/03/2019,RB Leipzig,Augsburg,0,0,D,0,0,D,1.35,5,9
+D1,10/03/2019,Hannover,Leverkusen,2,3,A,0,2,A,8.5,5.25,1.35
+D1,10/03/2019,Hoffenheim,Nurnberg,2,1,H,1,0,H,1.25,6,12
+D1,11/03/2019,Fortuna Dusseldorf,Ein Frankfurt,,,,,,,2.7,3.6,2.5
 D2,03/08/2018,Hamburg,Holstein Kiel,0,3,A,0,0,D,1.7,3.6,5
 D2,04/08/2018,Bochum,FC Koln,0,2,A,0,1,A,2.8,3.1,2.6
 D2,04/08/2018,Greuther Furth,Sandhausen,3,1,H,0,0,D,2.25,3.2,3.3
@@ -2986,7 +3090,18 @@ D2,03/03/2019,Ingolstadt,FC Koln,1,2,A,0,1,A,4,3.4,1.9
 D2,04/03/2019,Hamburg,Greuther Furth,,,,,,,1.45,4.33,7
 =======
 D2,04/03/2019,Hamburg,Greuther Furth,1,0,H,0,0,D,1.45,4.33,7
+<<<<<<< HEAD
 >>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
+=======
+D2,08/03/2019,Bochum,Heidenheim,1,0,H,0,0,D,2,3.5,3.5
+D2,08/03/2019,Union Berlin,Ingolstadt,2,0,H,1,0,H,1.72,3.4,5.25
+D2,09/03/2019,Darmstadt,Holstein Kiel,3,2,H,2,1,H,3.1,3.3,2.3
+D2,09/03/2019,Erzgebirge Aue,Paderborn,2,1,H,1,0,H,3.3,3.75,2
+D2,09/03/2019,FC Koln,Bielefeld,5,1,H,2,0,H,1.44,4.5,6.5
+D2,09/03/2019,Regensburg,Duisburg,1,1,D,1,0,H,1.61,4,5
+D2,10/03/2019,Magdeburg,Sandhausen,0,1,A,0,0,D,2.2,3.4,3.2
+D2,10/03/2019,St Pauli,Hamburg,0,4,A,0,1,A,3.1,3.25,2.3
+>>>>>>> 9a7f168ee01eb2fcfc68e0b5f64ee2f805267184
 F1,10/08/2018,Marseille,Toulouse,4,0,H,1,0,H,1.4,4.4,8
 F1,11/08/2018,Angers,Nimes,3,4,A,1,1,D,2.25,3.3,3.2
 F1,11/08/2018,Lille,Rennes,3,1,H,1,1,D,2.45,3.25,2.88
@@ -3257,7 +3372,19 @@ F1,03/03/2019,Nice,Strasbourg,1,0,H,1,0,H,2.35,2.9,3.4
 <<<<<<< HEAD
 =======
 F1,05/03/2019,Bordeaux,Montpellier,1,2,A,1,1,D,2.45,3,3.1
+<<<<<<< HEAD
 >>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
+=======
+F1,09/03/2019,Amiens,Nimes,2,1,H,0,0,D,2.5,3.2,2.88
+F1,09/03/2019,Dijon,Reims,1,1,D,1,1,D,3,3.1,2.5
+F1,09/03/2019,Monaco,Bordeaux,1,1,D,0,0,D,1.62,4,5.25
+F1,09/03/2019,Strasbourg,Lyon,2,2,D,0,1,A,4.2,3.75,1.8
+F1,10/03/2019,Marseille,Nice,1,0,H,0,0,D,1.5,4.2,6.5
+F1,10/03/2019,Montpellier,Angers,2,2,D,2,0,H,2.05,3.2,3.9
+F1,10/03/2019,Rennes,Caen,3,1,H,1,1,D,1.57,3.7,6.5
+F1,10/03/2019,St Etienne,Lille,0,1,A,0,0,D,2.35,3.2,3.1
+F1,10/03/2019,Toulouse,Guingamp,1,0,H,1,0,H,2.15,3.2,3.5
+>>>>>>> 9a7f168ee01eb2fcfc68e0b5f64ee2f805267184
 F2,27/07/2018,Ajaccio,Troyes,0,1,A,0,1,A,2.14,3.1,3.6
 F2,27/07/2018,Ajaccio GFCO,Paris FC,1,1,D,0,1,A,3.2,2.87,2.5
 F2,27/07/2018,Clermont,Chateauroux,0,0,D,0,0,D,1.8,3.3,4.75
@@ -3531,7 +3658,20 @@ F2,03/03/2019,Paris FC,Lens,2,0,H,1,0,H,2.55,2.87,3.1
 F2,04/03/2019,Le Havre,Metz,,,,,,,3,2.8,2.7
 =======
 F2,04/03/2019,Le Havre,Metz,2,2,D,1,0,H,3,2.8,2.7
+<<<<<<< HEAD
 >>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
+=======
+F2,08/03/2019,Ajaccio,Red Star,0,0,D,0,0,D,2,2.9,4.5
+F2,08/03/2019,Beziers,Le Havre,1,1,D,0,0,D,4.33,3,2
+F2,08/03/2019,Brest,Valenciennes,2,5,A,0,2,A,1.5,4,7
+F2,08/03/2019,Clermont,Grenoble,1,1,D,0,0,D,1.9,3.1,4.5
+F2,08/03/2019,Nancy,Lorient,3,2,H,2,2,D,3.2,3,2.5
+F2,08/03/2019,Orleans,Ajaccio GFCO,2,2,D,0,0,D,1.85,3.2,4.75
+F2,08/03/2019,Paris FC,Niort,0,0,D,0,0,D,1.8,3.1,5.5
+F2,08/03/2019,Troyes,Chateauroux,1,0,H,0,0,D,2.05,3.1,4
+F2,09/03/2019,Lens,Auxerre,2,0,H,1,0,H,2.15,3,3.8
+F2,11/03/2019,Metz,Sochaux,,,,,,,1.5,3.75,7.5
+>>>>>>> 9a7f168ee01eb2fcfc68e0b5f64ee2f805267184
 I1,18/08/2018,Chievo,Juventus,2,3,A,1,1,D,13,6,1.22
 I1,18/08/2018,Lazio,Napoli,1,2,A,1,1,D,2.8,3.5,2.4
 I1,19/08/2018,Bologna,Spal,0,1,A,0,0,D,2.25,3.2,3.3
@@ -3791,6 +3931,16 @@ I1,03/03/2019,Napoli,Juventus,1,2,A,0,2,A,2.38,3.25,3.1
 I1,03/03/2019,Spal,Sampdoria,1,2,A,0,2,A,2.7,3.2,2.75
 I1,03/03/2019,Torino,Chievo,3,0,H,0,0,D,1.42,4.33,8.5
 I1,03/03/2019,Udinese,Bologna,2,1,H,1,1,D,2.7,2.9,3
+I1,08/03/2019,Juventus,Udinese,4,1,H,2,0,H,1.38,4.6,9.5
+I1,09/03/2019,Chievo,Milan,1,2,A,1,1,D,6.5,3.9,1.57
+I1,09/03/2019,Parma,Genoa,1,0,H,0,0,D,2.8,3,2.75
+I1,10/03/2019,Bologna,Cagliari,2,0,H,1,0,H,1.95,3.25,4.33
+I1,10/03/2019,Fiorentina,Lazio,1,1,D,0,1,A,2.75,3.4,2.55
+I1,10/03/2019,Frosinone,Torino,1,2,A,1,0,H,4.5,3.4,1.88
+I1,10/03/2019,Inter,Spal,2,0,H,0,0,D,1.4,4.4,9
+I1,10/03/2019,Sampdoria,Atalanta,1,2,A,0,0,D,3.5,3.5,2.1
+I1,10/03/2019,Sassuolo,Napoli,1,1,D,0,0,D,6.5,3.8,1.57
+I1,11/03/2019,Roma,Empoli,,,,,,,1.53,4.33,6
 I2,24/08/2018,Brescia,Perugia,1,1,D,1,0,H,2.2,3.2,3.4
 I2,25/08/2018,Cremonese,Pescara,1,1,D,1,0,H,2.1,3.25,3.6
 I2,25/08/2018,Salernitana,Palermo,0,0,D,0,0,D,3.2,3,2.4
@@ -4035,7 +4185,19 @@ I2,03/03/2019,Verona,Venezia,1,0,H,1,0,H,1.85,3.3,4.5
 I2,04/03/2019,Livorno,Benevento,,,,,,,3.1,3,2.45
 =======
 I2,04/03/2019,Livorno,Benevento,2,0,H,2,0,H,3.1,3,2.45
+<<<<<<< HEAD
 >>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
+=======
+I2,08/03/2019,Perugia,Verona,1,2,A,0,0,D,2.4,2.9,3.25
+I2,09/03/2019,Cittadella,Pescara,4,1,H,3,1,H,2,3.1,4.2
+I2,09/03/2019,Cosenza,Brescia,2,3,A,2,0,H,3,3,2.55
+I2,09/03/2019,Lecce,Foggia,1,0,H,0,0,D,1.85,3.3,4.5
+I2,09/03/2019,Spezia,Padova,0,2,A,0,1,A,1.72,3.4,5.25
+I2,10/03/2019,Ascoli,Livorno,1,1,D,1,1,D,2.1,3.1,3.75
+I2,10/03/2019,Cremonese,Benevento,1,0,H,0,0,D,3.25,2.87,2.45
+I2,10/03/2019,Salernitana,Crotone,0,2,A,0,1,A,2.5,3,3
+I2,11/03/2019,Venezia,Palermo,,,,,,,3,3.1,2.45
+>>>>>>> 9a7f168ee01eb2fcfc68e0b5f64ee2f805267184
 P1,10/08/2018,Benfica,Guimaraes,3,2,H,3,0,H,1.25,5.75,11
 P1,11/08/2018,Porto,Chaves,5,0,H,3,0,H,1.14,7,21
 P1,11/08/2018,Setubal,Aves,2,0,H,1,0,H,2.25,3.1,3.4
@@ -4255,7 +4417,19 @@ P1,03/03/2019,Sp Lisbon,Portimonense,3,1,H,2,1,H,1.36,5,7.5
 P1,04/03/2019,Guimaraes,Maritimo,,,,,,,1.8,3.25,4.75
 =======
 P1,04/03/2019,Guimaraes,Maritimo,1,0,H,0,0,D,1.8,3.25,4.75
+<<<<<<< HEAD
 >>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
+=======
+P1,08/03/2019,Chaves,Rio Ave,1,1,D,0,1,A,2.3,3.1,3.25
+P1,09/03/2019,Boavista,Sp Lisbon,1,2,A,1,1,D,6.5,3.6,1.6
+P1,09/03/2019,Maritimo,Moreirense,3,2,H,1,2,A,2.6,3,2.9
+P1,09/03/2019,Sp Braga,Guimaraes,1,0,H,1,0,H,1.61,3.6,5.75
+P1,10/03/2019,Feirense,Porto,1,2,A,1,2,A,13,6.5,1.2
+P1,10/03/2019,Portimonense,Nacional,5,1,H,3,0,H,1.83,3.75,4
+P1,10/03/2019,Santa Clara,Aves,0,0,D,0,0,D,2.55,3.1,2.87
+P1,10/03/2019,Setubal,Tondela,0,0,D,0,0,D,2,3.2,4
+P1,11/03/2019,Benfica,Belenenses,,,,,,,1.18,7,13
+>>>>>>> 9a7f168ee01eb2fcfc68e0b5f64ee2f805267184
 N1,10/08/2018,Zwolle,Heerenveen,2,3,A,1,3,A,2.4,3.6,2.7
 N1,11/08/2018,Ajax,Heracles,1,1,D,0,0,D,1.12,8,19
 N1,11/08/2018,Excelsior,For Sittard,1,1,D,1,0,H,2.1,3.5,3.3
@@ -4471,6 +4645,15 @@ N1,03/03/2019,AZ Alkmaar,For Sittard,4,2,H,1,2,A,1.22,7,10
 N1,03/03/2019,Feyenoord,FC Emmen,4,0,H,1,0,H,1.16,7.5,13
 N1,03/03/2019,Groningen,VVV Venlo,3,2,H,2,1,H,1.61,3.75,5.5
 N1,03/03/2019,Heerenveen,Willem II,4,2,H,3,0,H,1.8,3.8,4
+N1,08/03/2019,Utrecht,Groningen,0,0,D,0,0,D,1.75,3.75,4.5
+N1,09/03/2019,Den Haag,Heerenveen,2,3,A,0,1,A,2.37,3.4,2.9
+N1,09/03/2019,PSV Eindhoven,NAC Breda,2,0,H,1,0,H,1.05,13,26
+N1,09/03/2019,VVV Venlo,Excelsior,1,0,H,1,0,H,2,3.4,3.75
+N1,09/03/2019,Willem II,Graafschap,3,2,H,2,1,H,1.75,4,4.2
+N1,10/03/2019,Ajax,For Sittard,4,0,H,2,0,H,1.02,17,34
+N1,10/03/2019,FC Emmen,Heracles,1,1,D,0,1,A,3.2,3.5,2.15
+N1,10/03/2019,Vitesse,Feyenoord,1,1,D,0,1,A,3.8,3.5,1.9
+N1,10/03/2019,Zwolle,AZ Alkmaar,0,0,D,0,0,D,4.5,3.75,1.72
 B1,27/07/2018,Standard,Gent,3,2,H,1,1,D,2.14,3.4,3.25
 B1,28/07/2018,Kortrijk,Anderlecht,1,4,A,0,2,A,4.5,3.8,1.72
 B1,28/07/2018,Oostende,Mouscron,2,1,H,0,1,A,1.53,3.75,7
@@ -4695,6 +4878,14 @@ B1,02/03/2019,Oostende,Waasland-Beveren,1,1,D,0,0,D,1.75,3.8,4.33
 B1,03/03/2019,Antwerp,Eupen,2,1,H,0,0,D,1.55,4,5.75
 B1,03/03/2019,Lokeren,Anderlecht,1,2,A,0,1,A,5.25,4.2,1.57
 B1,03/03/2019,Waregem,Gent,1,3,A,1,1,D,3.3,3.8,2
+B1,10/03/2019,Anderlecht,Kortrijk,2,0,H,1,0,H,1.6,4.33,4.75
+B1,10/03/2019,Antwerp,Charleroi,1,2,A,1,1,D,1.85,3.8,3.8
+B1,10/03/2019,Cercle Brugge,Standard,1,2,A,0,2,A,4.2,3.8,1.75
+B1,10/03/2019,Eupen,Club Brugge,0,4,A,0,3,A,5,4.33,1.57
+B1,10/03/2019,Genk,Lokeren,1,0,H,0,0,D,1.14,8,15
+B1,10/03/2019,Gent,Oostende,2,1,H,1,1,D,1.36,4.5,9
+B1,10/03/2019,Mouscron,St Truiden,1,1,D,1,1,D,2.25,3.6,2.9
+B1,10/03/2019,Waasland-Beveren,Waregem,1,1,D,0,0,D,3.8,3.6,1.9
 T1,10/08/2018,Ankaragucu,Galatasaray,1,3,A,1,2,A,4.5,4,1.72
 T1,11/08/2018,Fenerbahce,Bursaspor,2,1,H,2,1,H,1.36,5,7.5
 T1,11/08/2018,Rizespor,Kasimpasa,2,3,A,1,0,H,2.3,3.4,3
@@ -4915,7 +5106,19 @@ T1,04/03/2019,Kasimpasa,Trabzonspor,,,,,,,3.3,3.6,2.05
 =======
 T1,04/03/2019,Akhisar Belediyespor,Alanyaspor,3,1,H,0,0,D,3,3.2,2.4
 T1,04/03/2019,Kasimpasa,Trabzonspor,2,2,D,0,2,A,3.3,3.6,2.05
+<<<<<<< HEAD
 >>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
+=======
+T1,08/03/2019,Sivasspor,Yeni Malatyaspor,2,0,H,2,0,H,1.9,3.4,4
+T1,09/03/2019,Ankaragucu,Bursaspor,0,0,D,0,0,D,2.87,3.2,2.5
+T1,09/03/2019,Buyuksehyr,Fenerbahce,2,1,H,1,0,H,1.95,3.4,3.9
+T1,09/03/2019,Trabzonspor,Akhisar Belediyespor,2,1,H,0,0,D,1.5,4.2,6.25
+T1,10/03/2019,Alanyaspor,Erzurum BB,2,1,H,1,0,H,1.75,3.6,4.75
+T1,10/03/2019,Besiktas,Konyaspor,3,2,H,2,1,H,1.57,3.75,6
+T1,10/03/2019,Goztep,Kasimpasa,0,0,D,0,0,D,1.95,3.6,3.6
+T1,10/03/2019,Rizespor,Kayserispor,3,0,H,1,0,H,2.15,3.3,3.4
+T1,11/03/2019,Galatasaray,Antalyaspor,,,,,,,1.28,6,8.5
+>>>>>>> 9a7f168ee01eb2fcfc68e0b5f64ee2f805267184
 G1,25/08/2018,AEK,Giannina,2,0,H,1,0,H,1.36,4.33,10
 G1,25/08/2018,Apollon,Larisa,0,1,A,0,1,A,2.3,3,3.4
 G1,25/08/2018,Panetolikos,Atromitos,1,2,A,1,1,D,3,3,2.5
@@ -5103,7 +5306,18 @@ G1,03/03/2019,Panathinaikos,PAOK,0,2,A,0,1,A,4.5,3.3,1.85
 G1,04/03/2019,Apollon,Olympiakos,,,,,,,23,6,1.16
 =======
 G1,04/03/2019,Apollon,Olympiakos,0,2,A,0,1,A,23,6,1.16
+<<<<<<< HEAD
 >>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
+=======
+G1,09/03/2019,AEK,Panathinaikos,0,0,D,0,0,D,1.61,3.3,7
+G1,09/03/2019,Xanthi,Asteras Tripolis,0,0,D,0,0,D,2.5,2.8,3.2
+G1,10/03/2019,Apollon,OFI Crete,0,0,D,0,0,D,3.4,2.9,2.1
+G1,10/03/2019,Lamia,Giannina,1,1,D,0,0,D,2.1,3,3.9
+G1,10/03/2019,Larisa,Levadeiakos,2,0,H,0,0,D,1.95,3,4.5
+G1,10/03/2019,Olympiakos,Aris,4,1,H,2,0,H,1.28,5.75,9
+G1,10/03/2019,PAOK,Atromitos,3,0,H,2,0,H,1.4,4.2,9
+G1,11/03/2019,Panetolikos,Panionios,,,,,,,2.15,2.87,4
+>>>>>>> 9a7f168ee01eb2fcfc68e0b5f64ee2f805267184
 SC0,04/08/2018,Celtic,Livingston,3,1,H,2,0,H,1.1,10,19
 SC0,04/08/2018,Hamilton,Hearts,1,4,A,1,1,D,3.75,3.4,1.95
 SC0,04/08/2018,Kilmarnock,St Johnstone,2,0,H,0,0,D,2,3.2,3.6
@@ -5272,6 +5486,12 @@ SC0,27/02/2019,Rangers,Dundee,4,0,H,3,0,H,1.14,8,17
 SC0,27/02/2019,St Johnstone,Hibernian,1,2,A,1,0,H,2.8,3.3,2.5
 SC0,02/03/2019,Kilmarnock,Motherwell,0,0,D,0,0,D,2.15,3.1,3.6
 SC0,02/03/2019,St Mirren,Livingston,1,0,H,0,0,D,3.1,3.2,2.38
+SC0,08/03/2019,Hibernian,Rangers,1,1,D,0,1,A,5.5,4.2,1.57
+SC0,09/03/2019,Celtic,Aberdeen,0,0,D,0,0,D,1.32,5,10
+SC0,09/03/2019,Dundee,Hearts,0,1,A,0,1,A,4.33,3.7,1.78
+SC0,09/03/2019,Livingston,St Johnstone,3,1,H,1,1,D,2.25,3.1,3.4
+SC0,09/03/2019,Motherwell,Hamilton,3,0,H,3,0,H,1.67,3.7,5.25
+SC0,11/03/2019,St Mirren,Kilmarnock,,,,,,,4.33,3.5,1.83
 SC1,04/08/2018,Ayr,Partick,2,0,H,2,0,H,0,2.62,3.4
 SC1,04/08/2018,Dundee United,Dunfermline,2,3,A,1,0,H,0,2.5,3.3
 SC1,04/08/2018,Falkirk,Inverness C,0,1,A,0,1,A,0,2.7,3.4
@@ -5403,6 +5623,11 @@ SC1,26/02/2019,Morton,Queen of Sth,1,0,H,0,0,D,0,2.8,3.3
 SC1,26/02/2019,Ross County,Ayr,3,2,H,1,0,H,0,2.05,3.4
 SC1,01/03/2019,Morton,Falkirk,1,1,D,1,1,D,1,2.25,3.2
 SC1,02/03/2019,Dunfermline,Queen of Sth,1,0,H,0,0,D,0,1.9,3.6
+SC1,08/03/2019,Falkirk,Ayr,2,0,H,2,0,H,0,3.4,3.5
+SC1,09/03/2019,Alloa,Dunfermline,0,1,A,0,0,D,0,4.5,3.5
+SC1,09/03/2019,Partick,Dundee United,2,1,H,1,0,H,0,3.2,3.5
+SC1,09/03/2019,Queen of Sth,Inverness C,0,2,A,0,2,A,0,2.55,3.2
+SC1,09/03/2019,Ross County,Morton,2,0,H,0,0,D,0,1.5,4.1
 SC2,04/08/2018,East Fife,Dumbarton,0,2,A,0,0,D,0,3,3.4
 SC2,04/08/2018,Forfar,Airdrie Utd,1,3,A,1,0,H,0,2.6,3.4
 SC2,04/08/2018,Montrose,Arbroath,0,4,A,0,1,A,0,2.7,3.4
@@ -5538,7 +5763,15 @@ SC2,02/03/2019,Stranraer,Raith Rvs,2,2,D,2,0,H,0,4.75,4
 <<<<<<< HEAD
 =======
 SC2,05/03/2019,Brechin,East Fife,0,0,D,0,0,D,0,3.6,3.8
+<<<<<<< HEAD
 >>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
+=======
+SC2,09/03/2019,Arbroath,Stenhousemuir,0,2,A,0,1,A,1,1.28,6
+SC2,09/03/2019,Brechin,Forfar,2,2,D,2,1,H,0,3,3.6
+SC2,09/03/2019,East Fife,Stranraer,3,1,H,0,0,D,0,1.83,3.6
+SC2,09/03/2019,Montrose,Dumbarton,1,3,A,0,2,A,0,2.75,3.5
+SC2,09/03/2019,Raith Rvs,Airdrie Utd,1,0,H,0,0,D,0,1.7,3.5
+>>>>>>> 9a7f168ee01eb2fcfc68e0b5f64ee2f805267184
 SC3,04/08/2018,Annan Athletic,Elgin,1,1,D,0,0,D,0,2.5,3.5
 SC3,04/08/2018,Berwick,Stirling,1,0,H,0,0,D,0,3.1,3.5
 SC3,04/08/2018,Clyde,Cowdenbeath,2,0,H,2,0,H,0,1.61,4
@@ -5674,4 +5907,12 @@ SC3,02/03/2019,Peterhead,Elgin,1,0,H,1,0,H,0,1.44,4.33
 =======
 SC3,05/03/2019,Cowdenbeath,Peterhead,1,3,A,1,2,A,0,7,4.75
 SC3,05/03/2019,Edinburgh City,Berwick,1,0,H,0,0,D,0,1.14,8
+<<<<<<< HEAD
 >>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
+=======
+SC3,09/03/2019,Berwick,Cowdenbeath,1,1,D,1,1,D,0,4.5,3.75
+SC3,09/03/2019,Edinburgh City,Queens Park,2,0,H,1,0,H,1,1.5,4
+SC3,09/03/2019,Elgin,Clyde,2,1,H,1,1,D,0,0,3.8
+SC3,09/03/2019,Peterhead,Annan Athletic,2,1,H,1,1,D,0,1.7,3.6
+SC3,09/03/2019,Stirling,Albion Rvs,0,1,A,0,1,A,0,1.22,6
+>>>>>>> 9a7f168ee01eb2fcfc68e0b5f64ee2f805267184
