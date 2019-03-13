@@ -414,14 +414,8 @@ INSERT INTO E1 VALUES('E1','02/03/2019','Rotherham','Blackburn','3','2','H','1',
 INSERT INTO E1 VALUES('E1','02/03/2019','Stoke','Nottm Forest','2','0','H','1','0','H','2.3','3.1','3.4');
 INSERT INTO E1 VALUES('E1','02/03/2019','Swansea','Bolton','2','0','H','0','0','D','1.5','4','7.5');
 INSERT INTO E1 VALUES('E1','02/03/2019','Wigan','Middlesbrough','0','0','D','0','0','D','3.2','3.2','2.38');
-<<<<<<< HEAD
-INSERT INTO E1 VALUES('E1','04/03/2019','Sheffield Weds','Sheffield United','','','','','','','3.6','3.4','2.1');
-=======
 INSERT INTO E1 VALUES('E1','04/03/2019','Sheffield Weds','Sheffield United','0','0','D','0','0','D','3.6','3.4','2.1');
 INSERT INTO E1 VALUES('E1','05/03/2019','Derby','Wigan','2','1','H','0','1','A','1.95','3.3','4.33');
-<<<<<<< HEAD
->>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
-=======
 INSERT INTO E1 VALUES('E1','08/03/2019','Norwich','Swansea','1','0','H','0','0','D','1.63','4','5.25');
 INSERT INTO E1 VALUES('E1','09/03/2019','Blackburn','Preston','0','1','A','0','1','A','2.75','3.3','2.6');
 INSERT INTO E1 VALUES('E1','09/03/2019','Bolton','Millwall','2','1','H','0','0','D','4.2','3.4','1.95');
@@ -434,4 +428,3 @@ INSERT INTO E1 VALUES('E1','09/03/2019','Reading','Wigan','3','2','H','1','1','D
 INSERT INTO E1 VALUES('E1','09/03/2019','Sheffield United','Rotherham','2','0','H','1','0','H','1.38','4.75','9');
 INSERT INTO E1 VALUES('E1','09/03/2019','West Brom','Ipswich','1','1','D','1','0','H','1.35','4.8','10');
 INSERT INTO E1 VALUES('E1','10/03/2019','Birmingham','Aston Villa','0','1','A','0','0','D','2.7','3.25','2.7');
->>>>>>> 9a7f168ee01eb2fcfc68e0b5f64ee2f805267184

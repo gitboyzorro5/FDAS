@@ -238,13 +238,7 @@ INSERT INTO I2 VALUES('I2','02/03/2019','Palermo','Lecce','2','1','H','1','0','H
 INSERT INTO I2 VALUES('I2','03/03/2019','Perugia','Salernitana','3','1','H','2','1','H','2.1','2.87','4.2');
 INSERT INTO I2 VALUES('I2','03/03/2019','Pescara','Spezia','2','0','H','1','0','H','2.15','3.1','3.6');
 INSERT INTO I2 VALUES('I2','03/03/2019','Verona','Venezia','1','0','H','1','0','H','1.85','3.3','4.5');
-<<<<<<< HEAD
-INSERT INTO I2 VALUES('I2','04/03/2019','Livorno','Benevento','','','','','','','3.1','3','2.45');
-=======
 INSERT INTO I2 VALUES('I2','04/03/2019','Livorno','Benevento','2','0','H','2','0','H','3.1','3','2.45');
-<<<<<<< HEAD
->>>>>>> f9120a2aecfbb62ee62c988c5c01524235a0bf42
-=======
 INSERT INTO I2 VALUES('I2','08/03/2019','Perugia','Verona','1','2','A','0','0','D','2.4','2.9','3.25');
 INSERT INTO I2 VALUES('I2','09/03/2019','Cittadella','Pescara','4','1','H','3','1','H','2','3.1','4.2');
 INSERT INTO I2 VALUES('I2','09/03/2019','Cosenza','Brescia','2','3','A','2','0','H','3','3','2.55');
@@ -253,5 +247,4 @@ INSERT INTO I2 VALUES('I2','09/03/2019','Spezia','Padova','0','2','A','0','1','A
 INSERT INTO I2 VALUES('I2','10/03/2019','Ascoli','Livorno','1','1','D','1','1','D','2.1','3.1','3.75');
 INSERT INTO I2 VALUES('I2','10/03/2019','Cremonese','Benevento','1','0','H','0','0','D','3.25','2.87','2.45');
 INSERT INTO I2 VALUES('I2','10/03/2019','Salernitana','Crotone','0','2','A','0','1','A','2.5','3','3');
-INSERT INTO I2 VALUES('I2','11/03/2019','Venezia','Palermo','','','','','','','3','3.1','2.45');
->>>>>>> 9a7f168ee01eb2fcfc68e0b5f64ee2f805267184
+INSERT INTO I2 VALUES('I2','11/03/2019','Venezia','Palermo','1','1','D','1','0','H','3','3.1','2.45');
