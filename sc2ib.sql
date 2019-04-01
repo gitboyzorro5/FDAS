@@ -146,3 +146,8 @@ INSERT INTO SC2 VALUES('SC2','23/03/2019','Montrose','Stenhousemuir','2','0','H'
 INSERT INTO SC2 VALUES('SC2','23/03/2019','Raith Rvs','Dumbarton','4','1','H','3','1','H','0','1.75','4');
 INSERT INTO SC2 VALUES('SC2','23/03/2019','Stranraer','Arbroath','0','0','D','0','0','D','0','5','4');
 INSERT INTO SC2 VALUES('SC2','26/03/2019','Stranraer','Brechin','0','2','A','0','0','D','0','2.2','3.5');
+INSERT INTO SC2 VALUES('SC2','30/03/2019','Brechin','Airdrie Utd','0','3','A','0','2','A','0','3.2','3.5');
+INSERT INTO SC2 VALUES('SC2','30/03/2019','Dumbarton','Stenhousemuir','1','2','A','0','1','A','0','1.83','3.75');
+INSERT INTO SC2 VALUES('SC2','30/03/2019','East Fife','Raith Rvs','1','2','A','1','0','H','0','3.6','3.6');
+INSERT INTO SC2 VALUES('SC2','30/03/2019','Forfar','Arbroath','2','1','H','1','1','D','0','3.6','3.8');
+INSERT INTO SC2 VALUES('SC2','30/03/2019','Montrose','Stranraer','3','1','H','2','0','H','0','2.05','3.5');
