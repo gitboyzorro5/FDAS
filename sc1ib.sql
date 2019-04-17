@@ -146,3 +146,18 @@ INSERT INTO SC1 VALUES('SC1','30/03/2019','Alloa','Ross County','1','0','H','1',
 INSERT INTO SC1 VALUES('SC1','30/03/2019','Dundee United','Queen of Sth','1','2','A','0','0','D','0','1.7','3.6');
 INSERT INTO SC1 VALUES('SC1','30/03/2019','Inverness C','Falkirk','0','0','D','0','0','D','0','1.6','3.8');
 INSERT INTO SC1 VALUES('SC1','30/03/2019','Morton','Partick','0','3','A','0','3','A','0','2.9','3.25');
+INSERT INTO SC1 VALUES('SC1','02/04/2019','Ayr','Morton','1','1','D','1','0','H','0','1.65','3.8');
+INSERT INTO SC1 VALUES('SC1','02/04/2019','Inverness C','Ross County','1','2','A','1','2','A','0','2.7','3.25');
+INSERT INTO SC1 VALUES('SC1','02/04/2019','Queen of Sth','Falkirk','1','1','D','0','0','D','1','2.2','3.3');
+INSERT INTO SC1 VALUES('SC1','05/04/2019','Ross County','Dundee United','1','1','D','0','1','A','0','2.4','3.4');
+INSERT INTO SC1 VALUES('SC1','06/04/2019','Ayr','Inverness C','0','1','A','0','0','D','0','2.15','3.25');
+INSERT INTO SC1 VALUES('SC1','06/04/2019','Falkirk','Alloa','1','2','A','0','1','A','0','1.9','3.25');
+INSERT INTO SC1 VALUES('SC1','06/04/2019','Partick','Dunfermline','2','2','D','1','2','A','0','2.87','3.2');
+INSERT INTO SC1 VALUES('SC1','06/04/2019','Queen of Sth','Morton','1','1','D','1','0','H','0','2','3.4');
+INSERT INTO SC1 VALUES('SC1','09/04/2019','Ayr','Queen of Sth','1','0','H','1','0','H','0','1.95','3.5');
+INSERT INTO SC1 VALUES('SC1','09/04/2019','Morton','Alloa','1','2','A','0','0','D','0','2.05','3.4');
+INSERT INTO SC1 VALUES('SC1','09/04/2019','Ross County','Dunfermline','1','0','H','0','0','D','0','2.05','3.4');
+INSERT INTO SC1 VALUES('SC1','12/04/2019','Dundee United','Ayr','2','1','H','0','1','A','0','1.83','3.5');
+INSERT INTO SC1 VALUES('SC1','13/04/2019','Alloa','Queen of Sth','1','0','H','0','0','D','0','2.87','3.25');
+INSERT INTO SC1 VALUES('SC1','13/04/2019','Dunfermline','Falkirk','0','1','A','0','0','D','0','1.85','3.5');
+INSERT INTO SC1 VALUES('SC1','13/04/2019','Ross County','Partick','0','0','D','0','0','D','0','1.85','3.5');
