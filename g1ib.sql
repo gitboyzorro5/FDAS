@@ -195,6 +195,7 @@ INSERT INTO G1 VALUES('G1','16/03/2019','Giannina','Larisa','0','0','D','0','0',
 INSERT INTO G1 VALUES('G1','16/03/2019','Panetolikos','PAOK','1','2','A','0','0','D','9','4.2','1.4');
 INSERT INTO G1 VALUES('G1','17/03/2019','Atromitos','AEK','0','1','A','0','0','D','3.2','2.87','2.5');
 INSERT INTO G1 VALUES('G1','17/03/2019','OFI Crete','Levadeiakos','2','0','H','1','0','H','1.72','3.3','5.5');
+INSERT INTO G1 VALUES('G1','17/03/2019','Panathinaikos','Olympiakos','','','','0','3','A','5.25','3.3','1.75');
 INSERT INTO G1 VALUES('G1','17/03/2019','Panionios','Xanthi','1','0','H','0','0','D','1.8','3.25','5');
 INSERT INTO G1 VALUES('G1','18/03/2019','Aris','Apollon','5','0','H','1','0','H','1.16','6','23');
 INSERT INTO G1 VALUES('G1','30/03/2019','Lamia','Panionios','1','0','H','1','0','H','2.25','3','3.5');
@@ -221,3 +222,11 @@ INSERT INTO G1 VALUES('G1','14/04/2019','Larisa','PAOK','1','1','D','0','0','D',
 INSERT INTO G1 VALUES('G1','14/04/2019','Levadeiakos','Panionios','1','2','A','1','1','D','2.2','3','3.8');
 INSERT INTO G1 VALUES('G1','14/04/2019','Olympiakos','Xanthi','4','0','H','3','0','H','1.16','7','15');
 INSERT INTO G1 VALUES('G1','14/04/2019','Panathinaikos','OFI Crete','1','3','A','1','0','H','1.9','3.4','4.2');
+INSERT INTO G1 VALUES('G1','21/04/2019','AEK','Larisa','0','1','A','0','1','A','1.4','4.2','9');
+INSERT INTO G1 VALUES('G1','21/04/2019','Atromitos','Panathinaikos','2','0','H','0','0','D','1.85','3.2','4.75');
+INSERT INTO G1 VALUES('G1','21/04/2019','Lamia','Olympiakos','1','3','A','0','1','A','9','4.5','1.36');
+INSERT INTO G1 VALUES('G1','21/04/2019','OFI Crete','Asteras Tripolis','1','1','D','1','0','H','1.75','3.1','5.75');
+INSERT INTO G1 VALUES('G1','21/04/2019','Panetolikos','Aris','1','2','A','0','1','A','3.6','3.2','2.1');
+INSERT INTO G1 VALUES('G1','21/04/2019','Panionios','Giannina','2','1','H','1','0','H','6.5','3.3','1.65');
+INSERT INTO G1 VALUES('G1','21/04/2019','PAOK','Levadeiakos','5','0','H','2','0','H','1.07','10','29');
+INSERT INTO G1 VALUES('G1','21/04/2019','Xanthi','Apollon','2','0','H','1','0','H','1.16','6.5','17');

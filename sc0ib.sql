@@ -196,3 +196,15 @@ INSERT INTO SC0 VALUES('SC0','06/04/2019','Hamilton','St Mirren','1','1','D','0'
 INSERT INTO SC0 VALUES('SC0','06/04/2019','Hearts','Hibernian','1','2','A','1','1','D','2.3','3.3','3.1');
 INSERT INTO SC0 VALUES('SC0','06/04/2019','Kilmarnock','St Johnstone','2','0','H','2','0','H','1.78','3.6','4.6');
 INSERT INTO SC0 VALUES('SC0','07/04/2019','Motherwell','Rangers','0','3','A','0','2','A','6','4.2','1.52');
+INSERT INTO SC0 VALUES('SC0','20/04/2019','Hamilton','Motherwell','1','1','D','0','1','A','3.6','3.3','2.1');
+INSERT INTO SC0 VALUES('SC0','20/04/2019','Hearts','Rangers','1','3','A','0','2','A','5','3.8','1.67');
+INSERT INTO SC0 VALUES('SC0','20/04/2019','Kilmarnock','Aberdeen','0','1','A','0','0','D','2.6','3.1','2.8');
+INSERT INTO SC0 VALUES('SC0','20/04/2019','Livingston','St Mirren','1','3','A','1','1','D','1.91','3.4','4.2');
+INSERT INTO SC0 VALUES('SC0','20/04/2019','St Johnstone','Dundee','2','0','H','0','0','D','1.85','3.5','4.2');
+INSERT INTO SC0 VALUES('SC0','21/04/2019','Hibernian','Celtic','0','0','D','0','0','D','7','4.5','1.44');
+INSERT INTO SC0 VALUES('SC0','27/04/2019','Celtic','Kilmarnock','1','0','H','0','0','D','1.24','5.8','13');
+INSERT INTO SC0 VALUES('SC0','27/04/2019','Hamilton','Livingston','3','3','D','1','0','H','2.88','3.1','2.55');
+INSERT INTO SC0 VALUES('SC0','27/04/2019','Motherwell','Dundee','4','3','H','2','2','D','1.78','3.6','4.5');
+INSERT INTO SC0 VALUES('SC0','27/04/2019','St Mirren','St Johnstone','1','1','D','0','0','D','2.8','3.2','2.55');
+INSERT INTO SC0 VALUES('SC0','28/04/2019','Hibernian','Hearts','1','1','D','0','0','D','2.2','3.4','3.25');
+INSERT INTO SC0 VALUES('SC0','28/04/2019','Rangers','Aberdeen','2','0','H','0','0','D','1.5','4.2','6.5');
