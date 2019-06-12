@@ -538,3 +538,15 @@ INSERT INTO E3 VALUES('E3','27/04/2019','Notts County','Grimsby','2','1','H','0'
 INSERT INTO E3 VALUES('E3','27/04/2019','Port Vale','Macclesfield','0','1','A','0','0','D','2.55','3.4','2.7');
 INSERT INTO E3 VALUES('E3','30/04/2019','Newport County','Oldham','2','0','H','0','0','D','1.6','4.2','5.25');
 INSERT INTO E3 VALUES('E3','30/04/2019','Tranmere','Bury','1','1','D','1','0','H','2.62','3.25','2.7');
+INSERT INTO E3 VALUES('E3','04/05/2019','Bury','Port Vale','1','1','D','1','1','D','1.52','4','6.5');
+INSERT INTO E3 VALUES('E3','04/05/2019','Crawley Town','Tranmere','3','1','H','2','0','H','3.4','3.4','2.1');
+INSERT INTO E3 VALUES('E3','04/05/2019','Forest Green','Exeter','0','0','D','0','0','D','2.4','3.2','3');
+INSERT INTO E3 VALUES('E3','04/05/2019','Grimsby','Crewe','2','0','H','2','0','H','2.55','3.3','2.75');
+INSERT INTO E3 VALUES('E3','04/05/2019','Lincoln','Colchester','0','3','A','0','3','A','2.15','3.5','3.2');
+INSERT INTO E3 VALUES('E3','04/05/2019','Macclesfield','Cambridge','1','1','D','0','1','A','2.25','3.25','3.2');
+INSERT INTO E3 VALUES('E3','04/05/2019','Milton Keynes Dons','Mansfield','1','0','H','1','0','H','2.2','3.4','3.2');
+INSERT INTO E3 VALUES('E3','04/05/2019','Morecambe','Newport County','1','1','D','1','0','H','3.5','3.5','2.05');
+INSERT INTO E3 VALUES('E3','04/05/2019','Oldham','Northampton','2','5','A','1','3','A','2.15','3.5','3.25');
+INSERT INTO E3 VALUES('E3','04/05/2019','Stevenage','Cheltenham','2','0','H','0','0','D','1.8','3.6','4.33');
+INSERT INTO E3 VALUES('E3','04/05/2019','Swindon','Notts County','3','1','H','0','0','D','2.35','3.4','2.9');
+INSERT INTO E3 VALUES('E3','04/05/2019','Yeovil','Carlisle','0','0','D','0','0','D','4.2','3.5','1.85');
