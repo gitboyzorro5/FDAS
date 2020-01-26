@@ -196,3 +196,4 @@ INSERT INTO I1 VALUES('I1','19/01/2020','Brescia','Cagliari','2','2','D','1','1'
 INSERT INTO I1 VALUES('I1','19/01/2020','Lecce','Inter','1','1','D','0','0','D','9.69','5.85','1.31');
 INSERT INTO I1 VALUES('I1','19/01/2020','Genoa','Roma','1','3','A','1','2','A','4.2','3.57','1.95');
 INSERT INTO I1 VALUES('I1','19/01/2020','Juventus','Parma','2','1','H','1','0','H','1.23','6.78','14.1');
+INSERT INTO I1 VALUES('I1','20/01/2020','Atalanta','Spal','1','2','A','1','0','H','1.19','7.24','14.91');

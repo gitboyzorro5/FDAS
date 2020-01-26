@@ -227,6 +227,16 @@ E0,18/01/2020,West Ham,Everton,1,1,D,1,1,D,3.01,3.53,2.41,1-1
 E0,18/01/2020,Newcastle,Chelsea,1,0,H,0,0,D,6.11,4.72,1.52,0-0
 E0,19/01/2020,Burnley,Leicester,2,1,H,0,1,A,4.17,3.79,1.91,0-1
 E0,19/01/2020,Liverpool,Man United,2,0,H,1,0,H,1.37,5.3,8.86,1-0
+E0,21/01/2020,Aston Villa,Watford,2,1,H,0,1,A,2.87,3.47,2.54,0-1
+E0,21/01/2020,Bournemouth,Brighton,3,1,H,2,0,H,3,3.39,2.49,2-0
+E0,21/01/2020,Crystal Palace,Southampton,0,2,A,0,1,A,2.73,3.29,2.77,0-1
+E0,21/01/2020,Everton,Newcastle,2,2,D,1,0,H,1.61,3.96,6.31,1-0
+E0,21/01/2020,Sheffield United,Man City,0,1,A,0,0,D,7.44,4.87,1.45,0-0
+E0,21/01/2020,Chelsea,Arsenal,2,2,D,1,0,H,1.74,4.01,4.82,1-0
+E0,22/01/2020,Leicester,West Ham,4,1,H,2,0,H,1.53,4.62,6.19,2-0
+E0,22/01/2020,Tottenham,Norwich,2,1,H,1,0,H,1.43,5.02,7.59,1-0
+E0,22/01/2020,Man United,Burnley,0,2,A,0,1,A,1.42,4.72,8.62,0-1
+E0,23/01/2020,Wolves,Liverpool,1,2,A,0,1,A,5.95,3.93,1.65,0-1
 E1,02/08/2019,Luton,Middlesbrough,3,3,D,2,2,D,2.34,3.29,3.24,2-2
 E1,03/08/2019,Barnsley,Fulham,1,0,H,1,0,H,3.38,3.57,2.15,1-0
 E1,03/08/2019,Blackburn,Charlton,1,2,A,0,1,A,1.76,3.87,4.64,0-1
@@ -561,6 +571,11 @@ E1,18/01/2020,Preston,Charlton,2,1,H,1,1,D,1.54,4.42,6.3,1-1
 E1,18/01/2020,Sheffield Weds,Blackburn,0,5,A,0,3,A,1.85,3.55,4.78,0-3
 E1,18/01/2020,Swansea,Wigan,2,1,H,1,1,D,2.01,3.37,4.21,1-1
 E1,19/01/2020,Nottm Forest,Luton,3,1,H,1,1,D,1.63,4.17,5.52,1-1
+E1,20/01/2020,West Brom,Stoke,0,1,A,0,1,A,1.88,3.55,4.55,0-1
+E1,21/01/2020,Barnsley,Preston,0,3,A,0,3,A,2.62,3.51,2.73,0-3
+E1,21/01/2020,Middlesbrough,Birmingham,1,1,D,0,1,A,2.26,3.29,3.48,0-1
+E1,22/01/2020,Charlton,Fulham,0,0,D,0,0,D,4.47,3.89,1.81,0-0
+E1,22/01/2020,Nottm Forest,Reading,1,1,D,0,0,D,2.08,3.49,3.79,0-0
 E2,03/08/2019,AFC Wimbledon,Rotherham,1,2,A,0,1,A,2.78,3.19,2.66,0-1
 E2,03/08/2019,Blackpool,Bristol Rvs,2,0,H,1,0,H,2.03,3.29,3.94,1-0
 E2,03/08/2019,Burton,Ipswich,0,1,A,0,1,A,2.84,3.13,2.65,0-1
@@ -854,6 +869,7 @@ E2,18/01/2020,Milton Keynes Dons,Sunderland,0,1,A,0,0,D,3.74,3.61,2.02,0-0
 E2,18/01/2020,Rotherham,Bristol Rvs,3,0,H,0,0,D,1.44,4.66,7.51,0-0
 E2,18/01/2020,Tranmere,Ipswich,1,2,A,1,0,H,4.14,3.5,1.96,1-0
 E2,18/01/2020,Wycombe,Rochdale,2,1,H,1,1,D,1.7,3.83,5.19,1-1
+E2,21/01/2020,Peterboro,Wycombe,4,0,H,2,0,H,2.22,3.42,3.37,2-0
 E3,03/08/2019,Salford,Stevenage,2,0,H,1,0,H,1.86,3.5,4.38,1-0
 E3,03/08/2019,Bradford,Cambridge,0,0,D,0,0,D,1.84,3.75,4.13,0-0
 E3,03/08/2019,Carlisle,Crawley Town,2,1,H,2,1,H,2.12,3.37,3.55,2-1
@@ -1181,6 +1197,9 @@ E3,18/01/2020,Oldham,Carlisle,1,1,D,1,1,D,2.08,3.59,3.57,1-1
 E3,18/01/2020,Plymouth,Mansfield,3,1,H,1,0,H,1.93,3.62,4.12,1-0
 E3,18/01/2020,Port Vale,Leyton Orient,1,0,H,0,0,D,2.17,3.39,3.54,0-0
 E3,18/01/2020,Walsall,Crawley Town,2,1,H,0,1,A,2.29,3.49,3.16,0-1
+E3,21/01/2020,Colchester,Bradford,0,0,D,0,0,D,2.05,3.37,3.94,0-0
+E3,21/01/2020,Leyton Orient,Northampton,1,1,D,0,1,A,2.95,3.44,2.44,0-1
+E3,21/01/2020,Macclesfield,Crewe,1,1,D,1,0,H,4.97,3.59,1.78,1-0
 EC,03/08/2019,Stockport,Maidenhead,0,1,A,0,0,D,2,3.42,4.03,0-0
 EC,03/08/2019,Aldershot,Fylde,1,2,A,0,1,A,3.84,3.38,2.06,0-1
 EC,03/08/2019,Barnet,Yeovil,1,0,H,0,0,D,2.4,3.06,3.37,0-0
@@ -2927,6 +2946,7 @@ I1,19/01/2020,Brescia,Cagliari,2,2,D,1,1,D,2.5,3.6,2.81,1-1
 I1,19/01/2020,Lecce,Inter,1,1,D,0,0,D,9.69,5.85,1.31,0-0
 I1,19/01/2020,Genoa,Roma,1,3,A,1,2,A,4.2,3.57,1.95,1-2
 I1,19/01/2020,Juventus,Parma,2,1,H,1,0,H,1.23,6.78,14.1,1-0
+I1,20/01/2020,Atalanta,Spal,1,2,A,1,0,H,1.19,7.24,14.91,1-0
 I2,23/08/2019,Pisa,Benevento,0,0,D,0,0,D,4.11,3.22,2.08,0-0
 I2,24/08/2019,Crotone,Cosenza,0,0,D,0,0,D,2.05,3.17,4.34,0-0
 I2,24/08/2019,Salernitana,Pescara,3,1,H,1,0,H,2.46,3.18,3.19,1-0
@@ -3125,6 +3145,7 @@ I2,18/01/2020,Chievo,Perugia,2,0,H,0,0,D,2.11,3.01,4.28,0-0
 I2,19/01/2020,Pescara,Salernitana,1,2,A,0,0,D,2.04,3.15,4.32,0-0
 I2,19/01/2020,Spezia,Cittadella,1,1,D,1,1,D,2.53,2.96,3.26,1-1
 I2,19/01/2020,Benevento,Pisa,1,1,D,1,1,D,1.41,4.26,10.13,1-1
+I2,20/01/2020,Cosenza,Crotone,0,1,A,0,1,A,3.29,2.88,2.58,0-1
 P1,09/08/2019,Portimonense,Belenenses,0,0,D,0,0,D,2.02,3.54,3.91,0-0
 P1,10/08/2019,Santa Clara,Famalicao,0,2,A,0,1,A,2.08,3.23,4.09,0-1
 P1,10/08/2019,Gil Vicente,Porto,2,1,H,0,0,D,10.58,5.41,1.31,0-0
@@ -3785,6 +3806,7 @@ T1,19/01/2020,Antalyaspor,Goztep,0,3,A,0,3,A,2.61,3.14,2.96,0-3
 T1,19/01/2020,Galatasaray,Denizlispor,2,1,H,1,0,H,1.31,5.54,10.02,1-0
 T1,19/01/2020,Trabzonspor,Kasimpasa,6,0,H,3,0,H,1.51,5.01,5.6,3-0
 T1,19/01/2020,Besiktas,Sivasspor,1,2,A,1,2,A,1.88,3.8,4.07,1-2
+T1,20/01/2020,Rizespor,Genclerbirligi,2,0,H,0,0,D,2.47,3.35,2.98,0-0
 G1,24/08/2019,Lamia,Panathinaikos,1,1,D,1,1,D,4.21,3.19,2.05,1-1
 G1,24/08/2019,Aris,OFI Crete,1,1,D,0,1,A,1.47,3.93,8.99,0-1
 G1,24/08/2019,Olympiakos,Asteras Tripolis,1,0,H,1,0,H,1.23,6.17,13.45,1-0
@@ -3918,6 +3940,13 @@ G1,19/01/2020,AEK,Larisa,3,0,H,1,0,H,1.38,4.15,9.9,1-0
 G1,19/01/2020,Atromitos,Volos NFC,0,0,D,0,0,D,1.51,4.21,6.21,0-0
 G1,19/01/2020,PAOK,Asteras Tripolis,3,1,H,1,0,H,1.15,7.49,16.49,1-0
 G1,19/01/2020,Olympiakos,Aris,4,2,H,3,1,H,1.14,7.19,19.79,3-1
+G1,22/01/2020,Larisa,Panetolikos,2,2,D,0,1,A,1.77,3.37,5.04,0-1
+G1,22/01/2020,OFI Crete,Olympiakos,0,1,A,0,1,A,6.15,3.42,1.65,0-1
+G1,22/01/2020,Volos NFC,AEK,1,3,A,0,2,A,4.59,3.69,1.75,0-2
+G1,22/01/2020,Panathinaikos,Atromitos,3,0,H,1,0,H,1.82,3.24,4.99,1-0
+G1,23/01/2020,Asteras Tripolis,Panionios,2,0,H,1,0,H,1.55,3.8,6.46,1-0
+G1,23/01/2020,Lamia,PAOK,0,1,A,0,1,A,8.77,4.2,1.4,0-1
+G1,23/01/2020,Aris,Xanthi,1,0,H,0,0,D,1.42,4.16,8.47,0-0
 SC0,03/08/2019,Celtic,St Johnstone,7,0,H,3,0,H,1.15,8.42,21.6,3-0
 SC0,03/08/2019,Hibernian,St Mirren,1,0,H,0,0,D,1.5,4.4,7.13,0-0
 SC0,03/08/2019,Livingston,Motherwell,0,0,D,0,0,D,2.82,3.19,2.77,0-0
@@ -4041,6 +4070,12 @@ SC0,29/12/2019,Livingston,Hibernian,2,0,H,0,0,D,2.67,3.46,2.71,0-0
 SC0,29/12/2019,Motherwell,Hamilton,1,2,A,1,0,H,1.51,4.63,6.37,1-0
 SC0,29/12/2019,St Johnstone,Ross County,1,1,D,0,0,D,1.8,4.02,4.37,0-0
 SC0,29/12/2019,St Mirren,Kilmarnock,1,0,H,1,0,H,2.67,3.33,2.79,1-0
+SC0,22/01/2020,Aberdeen,Motherwell,0,1,A,0,1,A,2.05,3.4,4.01,0-1
+SC0,22/01/2020,Hibernian,Hamilton,2,1,H,0,1,A,1.55,4.31,6.41,0-1
+SC0,22/01/2020,Kilmarnock,Celtic,1,3,A,0,1,A,10.98,5.43,1.32,0-1
+SC0,22/01/2020,Livingston,St Johnstone,1,0,H,0,0,D,1.9,3.6,4.38,0-0
+SC0,22/01/2020,Rangers,St Mirren,1,0,H,1,0,H,1.1,10.28,28.72,1-0
+SC0,22/01/2020,Ross County,Hearts,0,0,D,0,0,D,3.01,3.42,2.45,0-0
 SC1,02/08/2019,Dunfermline,Dundee,2,2,D,2,1,H,2.97,3.5,2.42,2-1
 SC1,03/08/2019,Alloa,Partick,1,1,D,1,0,H,3.73,3.73,2.01,1-0
 SC1,03/08/2019,Arbroath,Queen of Sth,0,0,D,0,0,D,2.38,3.39,3.12,0-0
@@ -4142,6 +4177,7 @@ SC1,04/01/2020,Dunfermline,Ayr,0,1,A,0,1,A,2.04,3.74,3.56,0-1
 SC1,04/01/2020,Queen of Sth,Dundee United,0,1,A,0,0,D,4.33,3.56,1.9,0-0
 SC1,11/01/2020,Morton,Dunfermline,3,2,H,1,1,D,3.14,3.59,2.26,1-1
 SC1,11/01/2020,Partick,Dundee United,1,4,A,0,2,A,3.66,3.7,2.02,0-2
+SC1,21/01/2020,Alloa,Arbroath,2,0,H,2,0,H,3.19,3.61,2.22,2-0
 SC2,03/08/2019,Airdrie Utd,Forfar,0,2,A,0,0,D,2.4,3.48,2.98,0-0
 SC2,03/08/2019,Clyde,East Fife,1,1,D,1,0,H,2.26,3.72,3.04,1-0
 SC2,03/08/2019,Dumbarton,Raith Rvs,0,1,A,0,0,D,3.22,3.99,2.09,0-0
