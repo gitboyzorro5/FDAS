@@ -363,3 +363,15 @@ INSERT INTO E3 VALUES('E3','01/02/2020','Port Vale','Salford','1','1','D','0','0
 INSERT INTO E3 VALUES('E3','01/02/2020','Stevenage','Leyton Orient','0','3','A','0','1','A','2.69','3.19','2.83');
 INSERT INTO E3 VALUES('E3','01/02/2020','Swindon','Exeter','2','1','H','2','1','H','2.15','3.36','3.61');
 INSERT INTO E3 VALUES('E3','01/02/2020','Walsall','Crewe','1','2','A','1','0','H','3.37','3.61','2.15');
+INSERT INTO E3 VALUES('E3','08/02/2020','Bradford','Grimsby','1','1','D','0','0','D','2.25','3.13','3.62');
+INSERT INTO E3 VALUES('E3','08/02/2020','Carlisle','Swindon','1','1','D','0','1','A','4.02','3.49','1.99');
+INSERT INTO E3 VALUES('E3','08/02/2020','Colchester','Plymouth','3','0','H','3','0','H','2.38','3.19','3.26');
+INSERT INTO E3 VALUES('E3','08/02/2020','Crewe','Oldham','2','1','H','0','0','D','1.74','3.69','5.12');
+INSERT INTO E3 VALUES('E3','08/02/2020','Exeter','Stevenage','2','1','H','1','0','H','1.69','3.61','5.75');
+INSERT INTO E3 VALUES('E3','08/02/2020','Forest Green','Walsall','1','2','A','0','0','D','1.95','3.45','4.27');
+INSERT INTO E3 VALUES('E3','08/02/2020','Leyton Orient','Macclesfield','1','1','D','0','0','D','','','');
+INSERT INTO E3 VALUES('E3','08/02/2020','Morecambe','Mansfield','1','1','D','0','0','D','2.92','3.5','2.43');
+INSERT INTO E3 VALUES('E3','08/02/2020','Newport County','Cambridge','0','1','A','0','0','D','1.81','3.31','5.38');
+INSERT INTO E3 VALUES('E3','08/02/2020','Northampton','Port Vale','0','1','A','0','0','D','2.05','3.28','4.07');
+INSERT INTO E3 VALUES('E3','08/02/2020','Salford','Crawley Town','0','0','D','0','0','D','2.11','3.66','3.41');
+INSERT INTO E3 VALUES('E3','08/02/2020','Scunthorpe','Cheltenham','1','0','H','1','0','H','2.63','3.33','2.79');

@@ -110,3 +110,5 @@ INSERT INTO SC1 VALUES('SC1','01/02/2020','Dundee United','Arbroath','0','1','A'
 INSERT INTO SC1 VALUES('SC1','01/02/2020','Inverness C','Alloa','1','1','D','0','1','A','1.42','4.48','8.67');
 INSERT INTO SC1 VALUES('SC1','01/02/2020','Morton','Dundee','1','1','D','1','1','D','3.13','3.63','2.25');
 INSERT INTO SC1 VALUES('SC1','01/02/2020','Queen of Sth','Dunfermline','2','3','A','1','2','A','2.99','3.22','2.53');
+INSERT INTO SC1 VALUES('SC1','08/02/2020','Dundee','Partick','2','0','H','2','0','H','2.24','3.75','3.07');
+INSERT INTO SC1 VALUES('SC1','08/02/2020','Morton','Queen of Sth','2','2','D','0','1','A','2.42','3.48','2.95');
