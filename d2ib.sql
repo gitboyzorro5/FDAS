@@ -186,3 +186,4 @@ INSERT INTO D2 VALUES('D2','08/02/2020','Stuttgart','Erzgebirge Aue','3','0','H'
 INSERT INTO D2 VALUES('D2','09/02/2020','Bielefeld','Regensburg','6','0','H','2','0','H','1.74','3.71','5.14');
 INSERT INTO D2 VALUES('D2','09/02/2020','Greuther Furth','Hannover','1','3','A','0','1','A','2.77','3.1','2.8');
 INSERT INTO D2 VALUES('D2','09/02/2020','Wehen','Bochum','0','1','A','0','1','A','3','3.32','2.47');
+INSERT INTO D2 VALUES('D2','10/02/2020','Holstein Kiel','St Pauli','2','1','H','1','0','H','1.99','3.56','3.92');

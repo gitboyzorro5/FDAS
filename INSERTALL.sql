@@ -2630,6 +2630,7 @@ INSERT INTO D2 VALUES('D2','08/02/2020','Stuttgart','Erzgebirge Aue','3','0','H'
 INSERT INTO D2 VALUES('D2','09/02/2020','Bielefeld','Regensburg','6','0','H','2','0','H','1.74','3.71','5.14');
 INSERT INTO D2 VALUES('D2','09/02/2020','Greuther Furth','Hannover','1','3','A','0','1','A','2.77','3.1','2.8');
 INSERT INTO D2 VALUES('D2','09/02/2020','Wehen','Bochum','0','1','A','0','1','A','3','3.32','2.47');
+INSERT INTO D2 VALUES('D2','10/02/2020','Holstein Kiel','St Pauli','2','1','H','1','0','H','1.99','3.56','3.92');
 INSERT INTO F1 VALUES('F1','09/08/2019','Monaco','Lyon','0','3','A','0','2','A','2.95','3.57','2.43');
 INSERT INTO F1 VALUES('F1','10/08/2019','Marseille','Reims','0','2','A','0','0','D','1.65','3.82','6.06');
 INSERT INTO F1 VALUES('F1','10/08/2019','Angers','Bordeaux','3','1','H','3','1','H','2.34','3.29','3.35');
@@ -3109,6 +3110,7 @@ INSERT INTO F2 VALUES('F2','07/02/2020','Rodez','Nancy','1','1','D','0','1','A',
 INSERT INTO F2 VALUES('F2','07/02/2020','Sochaux','Le Mans','1','0','H','1','0','H','1.89','3.29','4.86');
 INSERT INTO F2 VALUES('F2','07/02/2020','Troyes','Chateauroux','2','0','H','2','0','H','1.77','3.43','5.45');
 INSERT INTO F2 VALUES('F2','08/02/2020','Guingamp','Lorient','2','1','H','1','1','D','3.06','2.96','2.66');
+INSERT INTO F2 VALUES('F2','10/02/2020','Lens','Grenoble','0','0','D','0','0','D','','','');
 INSERT INTO I1 VALUES('I1','24/08/2019','Parma','Juventus','0','1','A','0','1','A','10.96','5.28','1.33');
 INSERT INTO I1 VALUES('I1','24/08/2019','Fiorentina','Napoli','3','4','A','1','2','A','5.12','3.71','1.77');
 INSERT INTO I1 VALUES('I1','25/08/2019','Udinese','Milan','1','0','H','0','0','D','3.95','3.4','2.08');
@@ -3567,6 +3569,7 @@ INSERT INTO I2 VALUES('I2','08/02/2020','Perugia','Spezia','0','3','A','0','1','
 INSERT INTO I2 VALUES('I2','09/02/2020','Pisa','Chievo','1','1','D','0','1','A','2.85','2.92','2.89');
 INSERT INTO I2 VALUES('I2','09/02/2020','Virtus Entella','Pescara','2','0','H','1','0','H','2.24','2.94','3.94');
 INSERT INTO I2 VALUES('I2','09/02/2020','Cosenza','Benevento','0','1','A','0','1','A','4.56','2.97','2.07');
+INSERT INTO I2 VALUES('I2','10/02/2020','Salernitana','Trapani','1','0','H','1','0','H','1.93','3.25','4.75');
 INSERT INTO P1 VALUES('P1','09/08/2019','Portimonense','Belenenses','0','0','D','0','0','D','2.02','3.54','3.91');
 INSERT INTO P1 VALUES('P1','10/08/2019','Santa Clara','Famalicao','0','2','A','0','1','A','2.08','3.23','4.09');
 INSERT INTO P1 VALUES('P1','10/08/2019','Gil Vicente','Porto','2','1','H','0','0','D','10.58','5.41','1.31');
@@ -4484,6 +4487,7 @@ INSERT INTO G1 VALUES('G1','09/02/2020','Asteras Tripolis','Aris','1','1','D','1
 INSERT INTO G1 VALUES('G1','09/02/2020','Atromitos','Olympiakos','0','1','A','0','0','D','8.66','4.68','1.36');
 INSERT INTO G1 VALUES('G1','09/02/2020','PAOK','OFI Crete','4','0','H','0','0','D','1.14','7.71','18.83');
 INSERT INTO G1 VALUES('G1','09/02/2020','AEK','Panathinaikos','1','0','H','1','0','H','1.93','3.3','4.27');
+INSERT INTO G1 VALUES('G1','10/02/2020','Panetolikos','Volos NFC','1','1','D','1','0','H','1.85','3.49','4.3');
 INSERT INTO SC0 VALUES('SC0','03/08/2019','Celtic','St Johnstone','7','0','H','3','0','H','1.15','8.42','21.6');
 INSERT INTO SC0 VALUES('SC0','03/08/2019','Hibernian','St Mirren','1','0','H','0','0','D','1.5','4.4','7.13');
 INSERT INTO SC0 VALUES('SC0','03/08/2019','Livingston','Motherwell','0','0','D','0','0','D','2.82','3.19','2.77');
