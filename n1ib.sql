@@ -192,3 +192,5 @@ INSERT INTO N1 VALUES('N1','08/02/2020','Groningen','Vitesse','1','0','H','1','0
 INSERT INTO N1 VALUES('N1','08/02/2020','Heerenveen','VVV Venlo','1','1','D','0','0','D','1.49','4.57','6.59');
 INSERT INTO N1 VALUES('N1','08/02/2020','PSV Eindhoven','Willem II','3','0','H','1','0','H','1.62','4.36','5.13');
 INSERT INTO N1 VALUES('N1','08/02/2020','Waalwijk','Zwolle','0','0','D','0','0','D','2.64','3.71','2.56');
+INSERT INTO N1 VALUES('N1','11/02/2020','FC Emmen','Twente','2','0','H','1','0','H','2.1','3.65','3.45');
+INSERT INTO N1 VALUES('N1','11/02/2020','Sparta Rotterdam','Den Haag','4','2','H','3','1','H','1.91','3.45','4.45');

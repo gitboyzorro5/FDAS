@@ -227,3 +227,4 @@ INSERT INTO I2 VALUES('I2','09/02/2020','Pisa','Chievo','1','1','D','0','1','A',
 INSERT INTO I2 VALUES('I2','09/02/2020','Virtus Entella','Pescara','2','0','H','1','0','H','2.24','2.94','3.94');
 INSERT INTO I2 VALUES('I2','09/02/2020','Cosenza','Benevento','0','1','A','0','1','A','4.56','2.97','2.07');
 INSERT INTO I2 VALUES('I2','10/02/2020','Salernitana','Trapani','1','0','H','1','0','H','1.93','3.25','4.75');
+INSERT INTO I2 VALUES('I2','11/02/2020','Spezia','Cremonese','3','2','H','0','1','A','2.03','3.09','4.51');

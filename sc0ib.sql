@@ -147,3 +147,9 @@ INSERT INTO SC0 VALUES('SC0','05/02/2020','Motherwell','Celtic','0','4','A','0',
 INSERT INTO SC0 VALUES('SC0','05/02/2020','Rangers','Hibernian','2','1','H','1','1','D','1.19','7.46','16.96');
 INSERT INTO SC0 VALUES('SC0','05/02/2020','Ross County','Livingston','2','0','H','1','0','H','3.71','3.78','2.01');
 INSERT INTO SC0 VALUES('SC0','05/02/2020','St Mirren','Hamilton','1','1','D','0','1','A','1.84','3.76','4.47');
+INSERT INTO SC0 VALUES('SC0','11/02/2020','Hamilton','Aberdeen','1','3','A','0','3','A','5.06','3.53','1.81');
+INSERT INTO SC0 VALUES('SC0','12/02/2020','Celtic','Hearts','5','0','H','1','0','H','1.17','7.9','20.8');
+INSERT INTO SC0 VALUES('SC0','12/02/2020','Hibernian','Ross County','3','0','H','2','0','H','1.55','4.42','6.06');
+INSERT INTO SC0 VALUES('SC0','12/02/2020','Kilmarnock','Rangers','2','1','H','0','1','A','9.91','5.06','1.36');
+INSERT INTO SC0 VALUES('SC0','12/02/2020','Livingston','St Mirren','2','1','H','1','0','H','1.89','3.61','4.4');
+INSERT INTO SC0 VALUES('SC0','12/02/2020','St Johnstone','Motherwell','2','1','H','1','1','D','2.45','3.35','3.06');
