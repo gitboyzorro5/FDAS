@@ -238,3 +238,12 @@ INSERT INTO F2 VALUES('F2','07/02/2020','Sochaux','Le Mans','1','0','H','1','0',
 INSERT INTO F2 VALUES('F2','07/02/2020','Troyes','Chateauroux','2','0','H','2','0','H','1.77','3.43','5.45');
 INSERT INTO F2 VALUES('F2','08/02/2020','Guingamp','Lorient','2','1','H','1','1','D','3.06','2.96','2.66');
 INSERT INTO F2 VALUES('F2','10/02/2020','Lens','Grenoble','0','0','D','0','0','D','','','');
+INSERT INTO F2 VALUES('F2','14/02/2020','Auxerre','Chambly','0','0','D','0','0','D','1.8','3.14','6.02');
+INSERT INTO F2 VALUES('F2','14/02/2020','Caen','Troyes','0','1','A','0','0','D','2.82','2.79','3.06');
+INSERT INTO F2 VALUES('F2','14/02/2020','Grenoble','Niort','3','1','H','1','0','H','1.79','3.3','5.59');
+INSERT INTO F2 VALUES('F2','14/02/2020','Le Mans','Rodez','0','0','D','0','0','D','2.54','3.04','3.16');
+INSERT INTO F2 VALUES('F2','14/02/2020','Orleans','Ajaccio','0','3','A','0','1','A','3.31','3.18','2.36');
+INSERT INTO F2 VALUES('F2','14/02/2020','Paris FC','Le Havre','1','0','H','1','0','H','3.41','2.92','2.48');
+INSERT INTO F2 VALUES('F2','14/02/2020','Valenciennes','Sochaux','3','2','H','0','2','A','2.61','2.83','3.3');
+INSERT INTO F2 VALUES('F2','15/02/2020','Lorient','Clermont','0','1','A','0','0','D','1.91','3.2','4.97');
+INSERT INTO F2 VALUES('F2','15/02/2020','Nancy','Guingamp','0','1','A','0','0','D','2.69','2.88','3.12');

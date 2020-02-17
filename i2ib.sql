@@ -228,3 +228,12 @@ INSERT INTO I2 VALUES('I2','09/02/2020','Virtus Entella','Pescara','2','0','H','
 INSERT INTO I2 VALUES('I2','09/02/2020','Cosenza','Benevento','0','1','A','0','1','A','4.56','2.97','2.07');
 INSERT INTO I2 VALUES('I2','10/02/2020','Salernitana','Trapani','1','0','H','1','0','H','1.93','3.25','4.75');
 INSERT INTO I2 VALUES('I2','11/02/2020','Spezia','Cremonese','3','2','H','0','1','A','2.03','3.09','4.51');
+INSERT INTO I2 VALUES('I2','14/02/2020','Pescara','Cittadella','1','2','A','1','1','D','2.75','2.98','2.93');
+INSERT INTO I2 VALUES('I2','15/02/2020','Benevento','Pordenone','2','1','H','1','0','H','1.52','4.05','7.27');
+INSERT INTO I2 VALUES('I2','15/02/2020','Juve Stabia','Crotone','3','2','H','2','2','D','3.26','3.07','2.45');
+INSERT INTO I2 VALUES('I2','15/02/2020','Livorno','Cosenza','0','3','A','0','3','A','2.38','3.02','3.46');
+INSERT INTO I2 VALUES('I2','15/02/2020','Venezia','Virtus Entella','2','2','D','1','1','D','2.37','3.04','3.45');
+INSERT INTO I2 VALUES('I2','15/02/2020','Spezia','Ascoli','3','1','H','0','1','A','1.9','3.28','4.85');
+INSERT INTO I2 VALUES('I2','16/02/2020','Cremonese','Trapani','5','0','H','2','0','H','2.06','3.02','4.51');
+INSERT INTO I2 VALUES('I2','16/02/2020','Frosinone','Perugia','1','0','H','0','0','D','1.85','3.25','5.22');
+INSERT INTO I2 VALUES('I2','16/02/2020','Empoli','Pisa','2','1','H','0','1','A','1.77','3.52','5.21');
