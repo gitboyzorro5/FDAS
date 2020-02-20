@@ -399,3 +399,4 @@ INSERT INTO EC VALUES('EC','11/02/2020','Solihull','Barnet','1','0','H','1','0',
 INSERT INTO EC VALUES('EC','15/02/2020','Ebbsfleet','Chorley','1','0','H','0','0','D','2.32','3.5','3.04');
 INSERT INTO EC VALUES('EC','15/02/2020','Notts County','Woking','1','1','D','0','0','D','1.97','3.54','3.94');
 INSERT INTO EC VALUES('EC','15/02/2020','Stockport','Bromley','1','0','H','0','0','D','2.59','3.48','2.68');
+INSERT INTO EC VALUES('EC','18/02/2020','Barrow','Dover Athletic','1','0','H','0','0','D','1.59','4.23','5.42');

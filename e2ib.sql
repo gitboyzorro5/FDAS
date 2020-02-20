@@ -353,3 +353,5 @@ INSERT INTO E2 VALUES('E2','15/02/2020','Oxford','Sunderland','0','1','A','0','1
 INSERT INTO E2 VALUES('E2','15/02/2020','Portsmouth','Shrewsbury','2','0','H','0','0','D','1.55','4.12','6.52');
 INSERT INTO E2 VALUES('E2','15/02/2020','Rotherham','AFC Wimbledon','2','2','D','0','1','A','1.34','5.1','10.12');
 INSERT INTO E2 VALUES('E2','15/02/2020','Southend','Coventry','0','2','A','0','0','D','4.82','4.22','1.68');
+INSERT INTO E2 VALUES('E2','18/02/2020','Oxford','AFC Wimbledon','5','0','H','2','0','H','1.49','4.4','6.93');
+INSERT INTO E2 VALUES('E2','18/02/2020','Southend','Gillingham','0','1','A','0','0','D','6.98','3.98','1.55');
