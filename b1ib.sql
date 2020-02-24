@@ -206,3 +206,11 @@ INSERT INTO B1 VALUES('B1','15/02/2020','Mechelen','Anderlecht','2','0','H','0',
 INSERT INTO B1 VALUES('B1','16/02/2020','Antwerp','Charleroi','1','1','D','1','0','H','2.07','3.5','3.71');
 INSERT INTO B1 VALUES('B1','16/02/2020','Genk','Standard','1','3','A','0','2','A','2.51','3.54','2.79');
 INSERT INTO B1 VALUES('B1','16/02/2020','Waregem','Mouscron','1','2','A','0','1','A','1.77','4.08','4.34');
+INSERT INTO B1 VALUES('B1','21/02/2020','Kortrijk','Genk','0','1','A','0','0','D','2.67','3.53','2.62');
+INSERT INTO B1 VALUES('B1','22/02/2020','Standard','Antwerp','1','0','H','1','0','H','2.06','3.67','3.55');
+INSERT INTO B1 VALUES('B1','22/02/2020','Mouscron','Cercle Brugge','0','1','A','0','0','D','2.56','3.55','2.72');
+INSERT INTO B1 VALUES('B1','22/02/2020','Oostende','Waregem','1','1','D','1','1','D','2.45','3.67','2.78');
+INSERT INTO B1 VALUES('B1','22/02/2020','Mechelen','Waasland-Beveren','4','0','H','2','0','H','1.56','4.38','5.73');
+INSERT INTO B1 VALUES('B1','23/02/2020','Club Brugge','Charleroi','1','0','H','1','0','H','1.51','4.08','7.43');
+INSERT INTO B1 VALUES('B1','23/02/2020','Anderlecht','Eupen','6','1','H','4','0','H','1.42','4.52','8.44');
+INSERT INTO B1 VALUES('B1','23/02/2020','Gent','St Truiden','4','1','H','3','0','H','1.32','5.6','9.36');
