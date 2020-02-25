@@ -203,3 +203,4 @@ INSERT INTO D1 VALUES('D1','22/02/2020','Werder Bremen','Dortmund','0','2','A','
 INSERT INTO D1 VALUES('D1','22/02/2020','Schalke 04','RB Leipzig','0','5','A','0','1','A','4.28','4.05','1.81');
 INSERT INTO D1 VALUES('D1','23/02/2020','Leverkusen','Augsburg','2','0','H','1','0','H','1.47','4.7','7.03');
 INSERT INTO D1 VALUES('D1','23/02/2020','Wolfsburg','Mainz','4','0','H','2','0','H','1.82','3.77','4.57');
+INSERT INTO D1 VALUES('D1','24/02/2020','Ein Frankfurt','Union Berlin','1','2','A','0','0','D','1.91','3.72','4.2');

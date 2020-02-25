@@ -195,3 +195,4 @@ INSERT INTO P1 VALUES('P1','23/02/2020','Pacos Ferreira','Famalicao','2','1','H'
 INSERT INTO P1 VALUES('P1','23/02/2020','Sp Lisbon','Boavista','2','0','H','2','0','H','1.53','4.08','6.91');
 INSERT INTO P1 VALUES('P1','23/02/2020','Sp Braga','Setubal','3','1','H','0','0','D','1.31','5.14','12.17');
 INSERT INTO P1 VALUES('P1','23/02/2020','Porto','Portimonense','1','0','H','0','0','D','1.16','7.51','17.99');
+INSERT INTO P1 VALUES('P1','24/02/2020','Gil Vicente','Benfica','0','1','A','0','1','A','7.87','4.03','1.5');
