@@ -412,3 +412,5 @@ INSERT INTO EC VALUES('EC','22/02/2020','Maidenhead','Aldershot','1','2','A','0'
 INSERT INTO EC VALUES('EC','22/02/2020','Torquay','Halifax','1','0','H','0','0','D','1.85','3.97','3.96');
 INSERT INTO EC VALUES('EC','22/02/2020','Woking','Stockport','1','1','D','1','1','D','2.26','3.56','3.09');
 INSERT INTO EC VALUES('EC','22/02/2020','Sutton','Barrow','2','2','D','1','2','A','3.25','3.34','2.28');
+INSERT INTO EC VALUES('EC','25/02/2020','Aldershot','Boreham Wood','3','2','H','0','1','A','3.13','3.38','2.32');
+INSERT INTO EC VALUES('EC','25/02/2020','Maidenhead','Ebbsfleet','1','3','A','1','3','A','1.78','3.87','4.39');

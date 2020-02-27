@@ -163,3 +163,4 @@ INSERT INTO SC0 VALUES('SC0','22/02/2020','Hamilton','Motherwell','0','0','D','0
 INSERT INTO SC0 VALUES('SC0','22/02/2020','Hibernian','Livingston','1','1','D','0','0','D','2.25','3.72','3.12');
 INSERT INTO SC0 VALUES('SC0','23/02/2020','St Johnstone','Rangers','2','2','D','1','0','H','8.68','4.8','1.4');
 INSERT INTO SC0 VALUES('SC0','23/02/2020','Celtic','Kilmarnock','3','1','H','2','1','H','1.15','7.7','19.69');
+INSERT INTO SC0 VALUES('SC0','25/02/2020','Motherwell','St Mirren','1','2','A','1','0','H','2.07','3.39','3.93');

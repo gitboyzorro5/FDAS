@@ -122,3 +122,5 @@ INSERT INTO SC2 VALUES('SC2','22/02/2020','East Fife','Stranraer','4','2','H','2
 INSERT INTO SC2 VALUES('SC2','22/02/2020','Falkirk','Montrose','1','0','H','1','0','H','1.47','4.57','6.64');
 INSERT INTO SC2 VALUES('SC2','22/02/2020','Peterhead','Airdrie Utd','0','2','A','0','0','D','3.31','3.86','2.06');
 INSERT INTO SC2 VALUES('SC2','22/02/2020','Raith Rvs','Clyde','1','0','H','0','0','D','1.66','4.2','4.81');
+INSERT INTO SC2 VALUES('SC2','25/02/2020','Dumbarton','Clyde','1','0','H','0','0','D','2.97','3.92','2.2');
+INSERT INTO SC2 VALUES('SC2','25/02/2020','Peterhead','Forfar','1','1','D','0','0','D','1.84','4.29','3.71');
