@@ -258,3 +258,13 @@ INSERT INTO F1 VALUES('F1','22/02/2020','Strasbourg','Amiens','0','0','D','0','0
 INSERT INTO F1 VALUES('F1','23/02/2020','St Etienne','Reims','1','1','D','0','0','D','2.34','3.06','3.56');
 INSERT INTO F1 VALUES('F1','23/02/2020','Rennes','Nimes','2','1','H','1','1','D','1.73','3.49','5.89');
 INSERT INTO F1 VALUES('F1','23/02/2020','Paris SG','Bordeaux','4','3','H','2','2','D','1.13','8.93','20.15');
+INSERT INTO F1 VALUES('F1','28/02/2020','Nimes','Marseille','2','3','A','1','2','A','3.3','3.38','2.3');
+INSERT INTO F1 VALUES('F1','29/02/2020','Paris SG','Dijon','4','0','H','1','0','H','1.12','9.72','19.86');
+INSERT INTO F1 VALUES('F1','29/02/2020','Amiens','Metz','0','1','A','0','1','A','2.12','3.18','4.05');
+INSERT INTO F1 VALUES('F1','29/02/2020','Brest','Angers','0','1','A','0','1','A','2.67','3.25','2.85');
+INSERT INTO F1 VALUES('F1','29/02/2020','Monaco','Reims','1','1','D','1','0','H','1.69','3.8','5.54');
+INSERT INTO F1 VALUES('F1','29/02/2020','Montpellier','Strasbourg','3','0','H','0','0','D','2.37','3.15','3.41');
+INSERT INTO F1 VALUES('F1','29/02/2020','Toulouse','Rennes','0','2','A','0','1','A','3.58','3.58','2.11');
+INSERT INTO F1 VALUES('F1','01/03/2020','Nantes','Lille','0','1','A','0','0','D','3.12','3.03','2.61');
+INSERT INTO F1 VALUES('F1','01/03/2020','Bordeaux','Nice','1','1','D','1','0','H','1.96','3.66','4.02');
+INSERT INTO F1 VALUES('F1','01/03/2020','Lyon','St Etienne','2','0','H','1','0','H','1.65','4.04','5.52');

@@ -196,3 +196,9 @@ INSERT INTO P1 VALUES('P1','23/02/2020','Sp Lisbon','Boavista','2','0','H','2','
 INSERT INTO P1 VALUES('P1','23/02/2020','Sp Braga','Setubal','3','1','H','0','0','D','1.31','5.14','12.17');
 INSERT INTO P1 VALUES('P1','23/02/2020','Porto','Portimonense','1','0','H','0','0','D','1.16','7.51','17.99');
 INSERT INTO P1 VALUES('P1','24/02/2020','Gil Vicente','Benfica','0','1','A','0','1','A','7.87','4.03','1.5');
+INSERT INTO P1 VALUES('P1','28/02/2020','Portimonense','Setubal','0','0','D','0','0','D','1.8','3.57','4.9');
+INSERT INTO P1 VALUES('P1','29/02/2020','Rio Ave','Belenenses','0','0','D','0','0','D','1.45','4.5','7.52');
+INSERT INTO P1 VALUES('P1','29/02/2020','Boavista','Gil Vicente','0','1','A','0','0','D','2.31','3.05','3.58');
+INSERT INTO P1 VALUES('P1','01/03/2020','Aves','Pacos Ferreira','1','3','A','1','1','D','2.73','3.18','2.79');
+INSERT INTO P1 VALUES('P1','01/03/2020','Maritimo','Sp Braga','1','2','A','0','1','A','5.07','4.09','1.67');
+INSERT INTO P1 VALUES('P1','01/03/2020','Guimaraes','Tondela','2','0','H','2','0','H','1.3','5.41','11.39');

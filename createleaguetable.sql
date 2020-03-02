@@ -1,0 +1,23 @@
+insert into points_allteams(Team,H_wins,A_wins,Draws,HG,AG,TP,total_points,goal_diff) select * from points_e0;
+insert into points_allteams(Team,H_wins,A_wins,Draws,HG,AG,TP,total_points,goal_diff) select * from points_e1;
+insert into points_allteams(Team,H_wins,A_wins,Draws,HG,AG,TP,total_points,goal_diff) select * from points_e2;
+insert into points_allteams(Team,H_wins,A_wins,Draws,HG,AG,TP,total_points,goal_diff) select * from points_e3;
+insert into points_allteams(Team,H_wins,A_wins,Draws,HG,AG,TP,total_points,goal_diff) select * from points_ec;
+insert into points_allteams(Team,H_wins,A_wins,Draws,HG,AG,TP,total_points,goal_diff) select * from points_sp1;
+insert into points_allteams(Team,H_wins,A_wins,Draws,HG,AG,TP,total_points,goal_diff) select * from points_sp2;
+insert into points_allteams(Team,H_wins,A_wins,Draws,HG,AG,TP,total_points,goal_diff) select * from points_d1;
+insert into points_allteams(Team,H_wins,A_wins,Draws,HG,AG,TP,total_points,goal_diff) select * from points_d2;
+insert into points_allteams(Team,H_wins,A_wins,Draws,HG,AG,TP,total_points,goal_diff) select * from points_i1;
+insert into points_allteams(Team,H_wins,A_wins,Draws,HG,AG,TP,total_points,goal_diff) select * from points_i2;
+insert into points_allteams(Team,H_wins,A_wins,Draws,HG,AG,TP,total_points,goal_diff) select * from points_n1;
+insert into points_allteams(Team,H_wins,A_wins,Draws,HG,AG,TP,total_points,goal_diff) select * from points_p1;
+insert into points_allteams(Team,H_wins,A_wins,Draws,HG,AG,TP,total_points,goal_diff) select * from points_b1;
+insert into points_allteams(Team,H_wins,A_wins,Draws,HG,AG,TP,total_points,goal_diff) select * from points_f1;
+insert into points_allteams(Team,H_wins,A_wins,Draws,HG,AG,TP,total_points,goal_diff) select * from points_f2;
+insert into points_allteams(Team,H_wins,A_wins,Draws,HG,AG,TP,total_points,goal_diff) select * from points_g1;
+insert into points_allteams(Team,H_wins,A_wins,Draws,HG,AG,TP,total_points,goal_diff) select * from points_sc0;
+insert into points_allteams(Team,H_wins,A_wins,Draws,HG,AG,TP,total_points,goal_diff) select * from points_sc1;
+insert into points_allteams(Team,H_wins,A_wins,Draws,HG,AG,TP,total_points,goal_diff) select * from points_sc2;
+insert into points_allteams(Team,H_wins,A_wins,Draws,HG,AG,TP,total_points,goal_diff) select * from points_sc3;
+insert into points_allteams(Team,H_wins,A_wins,Draws,HG,AG,TP,total_points,goal_diff) select * from points_t1;
+

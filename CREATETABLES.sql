@@ -21,6 +21,7 @@ CREATE TABLE SC1(division TEXT,Date Date,HomeTeam TEXT,AwayTeam TEXT,FTHG INTEGE
 CREATE TABLE SC2(division TEXT,Date Date,HomeTeam TEXT,AwayTeam TEXT,FTHG INTEGER,FTAG INTEGER,FTR TEXT,HTHG INTEGER,HTAG INTEGER,HTR TEXT,PSH REAL,PSD REAL,PSA REAL);
 CREATE TABLE SC3(division TEXT,Date Date,HomeTeam TEXT,AwayTeam TEXT,FTHG INTEGER,FTAG INTEGER,FTR TEXT,HTHG INTEGER,HTAG INTEGER,HTR TEXT,PSH REAL,PSD REAL,PSA REAL);
 CREATE TABLE ALLMATCHES(division TEXT,Date Date,HomeTeam TEXT,AwayTeam TEXT,FTHG INTEGER,FTAG INTEGER,FTR TEXT,HTHG INTEGER,HTAG INTEGER,HTR TEXT,PSH REAL,PSD REAL,PSA REAL);
+CREATE TABLE ALLTEAMS(division TEXT,Date Date,HomeTeam TEXT,AwayTeam TEXT,FTHG INTEGER,FTAG INTEGER,FTR TEXT,HTHG INTEGER,HTAG INTEGER,HTR TEXT,PSH REAL,PSD REAL,PSA REAL);
 CREATE TABLE points_e0(Team text,H_wins integer,A_wins integer,Draws integer,HG integer,AG integer,TP integer,total_points integer,goal_diff integer);
 CREATE TABLE points_e1(Team text,H_wins integer,A_wins integer,Draws integer,HG integer,AG integer,TP integer,total_points integer,goal_diff integer);
 CREATE TABLE points_e2(Team text,H_wins integer,A_wins integer,Draws integer,HG integer,AG integer,TP integer,total_points integer,goal_diff integer);

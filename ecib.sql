@@ -414,3 +414,11 @@ INSERT INTO EC VALUES('EC','22/02/2020','Woking','Stockport','1','1','D','1','1'
 INSERT INTO EC VALUES('EC','22/02/2020','Sutton','Barrow','2','2','D','1','2','A','3.25','3.34','2.28');
 INSERT INTO EC VALUES('EC','25/02/2020','Aldershot','Boreham Wood','3','2','H','0','1','A','3.13','3.38','2.32');
 INSERT INTO EC VALUES('EC','25/02/2020','Maidenhead','Ebbsfleet','1','3','A','1','3','A','1.78','3.87','4.39');
+INSERT INTO EC VALUES('EC','29/02/2020','Barrow','Dag and Red','2','1','H','2','1','H','1.57','4.28','5.58');
+INSERT INTO EC VALUES('EC','29/02/2020','Boreham Wood','Hartlepool','1','1','D','1','0','H','2.28','3.11','3.5');
+INSERT INTO EC VALUES('EC','29/02/2020','Bromley','Sutton','0','1','A','0','1','A','2.24','3.41','3.26');
+INSERT INTO EC VALUES('EC','29/02/2020','Ebbsfleet','Stockport','0','1','A','0','0','D','3.25','3.58','2.18');
+INSERT INTO EC VALUES('EC','29/02/2020','Solihull','Dover Athletic','3','0','H','1','0','H','2.21','3.32','3.42');
+INSERT INTO EC VALUES('EC','29/02/2020','Torquay','Chorley','2','0','H','1','0','H','1.75','3.74','4.82');
+INSERT INTO EC VALUES('EC','29/02/2020','Woking','Maidenhead','2','0','H','0','0','D','1.6','3.95','5.91');
+INSERT INTO EC VALUES('EC','29/02/2020','Yeovil','Wrexham','3','0','H','1','0','H','1.93','3.66','3.94');
