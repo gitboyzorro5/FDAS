@@ -429,3 +429,4 @@ INSERT INTO E1 VALUES('E1','29/02/2020','QPR','Birmingham','2','2','D','0','1','
 INSERT INTO E1 VALUES('E1','29/02/2020','Reading','Barnsley','2','0','H','1','0','H','2.39','3.36','3.14');
 INSERT INTO E1 VALUES('E1','29/02/2020','Sheffield Weds','Derby','1','3','A','0','3','A','2.15','3.42','3.62');
 INSERT INTO E1 VALUES('E1','29/02/2020','West Brom','Wigan','0','1','A','0','0','D','1.48','4.5','7.25');
+INSERT INTO E1 VALUES('E1','02/03/2020','Middlesbrough','Nottm Forest','2','2','D','2','1','H','2.68','3.2','2.87');

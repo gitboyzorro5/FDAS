@@ -267,3 +267,4 @@ INSERT INTO F2 VALUES('F2','28/02/2020','Orleans','Troyes','0','2','A','0','1','
 INSERT INTO F2 VALUES('F2','28/02/2020','Sochaux','Rodez','1','1','D','0','0','D','2.29','2.87','3.93');
 INSERT INTO F2 VALUES('F2','28/02/2020','Valenciennes','Ajaccio','0','0','D','0','0','D','3.34','2.89','2.53');
 INSERT INTO F2 VALUES('F2','29/02/2020','Lorient','Chambly','1','2','A','1','2','A','1.46','4.05','9.09');
+INSERT INTO F2 VALUES('F2','02/03/2020','Paris FC','Lens','0','2','A','0','1','A','4.47','2.93','2.11');
