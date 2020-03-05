@@ -126,3 +126,5 @@ INSERT INTO SC3 VALUES('SC3','29/02/2020','Brechin','Stirling','0','2','A','0','
 INSERT INTO SC3 VALUES('SC3','29/02/2020','Cowdenbeath','Edinburgh City','1','1','D','1','0','H','3.52','3.56','2.08');
 INSERT INTO SC3 VALUES('SC3','29/02/2020','Queens Park','Annan Athletic','2','0','H','2','0','H','1.78','4.33','3.94');
 INSERT INTO SC3 VALUES('SC3','29/02/2020','Stenhousemuir','Cove Rangers','0','3','A','0','2','A','6.18','5.09','1.45');
+INSERT INTO SC3 VALUES('SC3','03/03/2020','Cowdenbeath','Albion Rvs','2','1','H','1','1','D','2.15','3.89','3.08');
+INSERT INTO SC3 VALUES('SC3','03/03/2020','Stirling','Stenhousemuir','0','0','D','0','0','D','1.9','3.93','3.81');

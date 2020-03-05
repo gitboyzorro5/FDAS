@@ -422,3 +422,6 @@ INSERT INTO E3 VALUES('E3','29/02/2020','Macclesfield','Salford','0','2','A','0'
 INSERT INTO E3 VALUES('E3','29/02/2020','Morecambe','Crewe','1','1','D','0','0','D','4.08','3.61','1.94');
 INSERT INTO E3 VALUES('E3','29/02/2020','Oldham','Newport County','5','0','H','2','0','H','2.72','3.19','2.79');
 INSERT INTO E3 VALUES('E3','29/02/2020','Port Vale','Scunthorpe','2','2','D','1','0','H','2.39','3.52','2.96');
+INSERT INTO E3 VALUES('E3','03/03/2020','Exeter','Crewe','1','1','D','1','0','H','2.43','3.11','3.26');
+INSERT INTO E3 VALUES('E3','03/03/2020','Plymouth','Grimsby','3','0','H','3','0','H','1.82','3.81','4.4');
+INSERT INTO E3 VALUES('E3','03/03/2020','Swindon','Scunthorpe','2','0','H','1','0','H','1.56','4.12','6.25');
