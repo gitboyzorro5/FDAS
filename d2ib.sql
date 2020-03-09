@@ -214,3 +214,11 @@ INSERT INTO D2 VALUES('D2','01/03/2020','Bielefeld','Wehen','1','0','H','0','0',
 INSERT INTO D2 VALUES('D2','01/03/2020','Bochum','Sandhausen','4','4','D','2','2','D','2.28','3.58','3.11');
 INSERT INTO D2 VALUES('D2','01/03/2020','St Pauli','Osnabruck','3','1','H','2','0','H','2.04','3.47','3.85');
 INSERT INTO D2 VALUES('D2','02/03/2020','Hannover','Holstein Kiel','3','1','H','1','0','H','2.46','3.46','2.91');
+INSERT INTO D2 VALUES('D2','06/03/2020','Nurnberg','Hannover','0','3','A','0','2','A','2.52','3.25','2.98');
+INSERT INTO D2 VALUES('D2','06/03/2020','Osnabruck','Wehen','2','6','A','2','5','A','2.03','3.42','3.96');
+INSERT INTO D2 VALUES('D2','07/03/2020','Darmstadt','Bochum','0','0','D','0','0','D','2.31','3.17','3.43');
+INSERT INTO D2 VALUES('D2','07/03/2020','Hamburg','Regensburg','2','1','H','1','1','D','1.46','4.68','7.03');
+INSERT INTO D2 VALUES('D2','07/03/2020','Heidenheim','Karlsruhe','3','1','H','3','0','H','2.07','3.26','4.03');
+INSERT INTO D2 VALUES('D2','08/03/2020','Dresden','Erzgebirge Aue','2','1','H','1','1','D','2.68','3.01','2.99');
+INSERT INTO D2 VALUES('D2','08/03/2020','Holstein Kiel','Greuther Furth','1','1','D','1','1','D','1.85','3.72','4.32');
+INSERT INTO D2 VALUES('D2','08/03/2020','Sandhausen','St Pauli','2','2','D','1','1','D','2.55','3.13','3.05');
