@@ -285,3 +285,4 @@ INSERT INTO E0 VALUES('E0','07/03/2020','Wolves','Brighton','0','0','D','0','0',
 INSERT INTO E0 VALUES('E0','07/03/2020','Burnley','Tottenham','1','1','D','1','0','H','2.74','3.38','2.71');
 INSERT INTO E0 VALUES('E0','08/03/2020','Chelsea','Everton','4','0','H','2','0','H','1.9','3.72','4.28');
 INSERT INTO E0 VALUES('E0','08/03/2020','Man United','Man City','2','0','H','1','0','H','5','4.33','1.67');
+INSERT INTO E0 VALUES('E0','09/03/2020','Leicester','Aston Villa','4','0','H','1','0','H','1.39','5.15','8.54');
