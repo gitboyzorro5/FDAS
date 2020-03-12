@@ -1126,6 +1126,10 @@ E2,07/03/2020,Rochdale,Rotherham,3,1,H,1,0,H,5.29,3.84,1.69
 E2,07/03/2020,Shrewsbury,Oxford,2,3,A,2,1,H,3.42,3.24,2.28
 E2,07/03/2020,Southend,Bristol Rvs,3,1,H,1,0,H,2.92,3.39,2.49
 E2,07/03/2020,Sunderland,Gillingham,2,2,D,0,0,D,1.82,3.5,4.9
+E2,10/03/2020,Blackpool,Tranmere,1,2,A,0,2,A,1.68,3.85,5.43
+E2,10/03/2020,Bristol Rvs,Sunderland,2,0,H,1,0,H,5.68,3.86,1.65
+E2,10/03/2020,Burton,Bolton,2,2,D,1,2,A,1.54,4.26,6.3
+E2,10/03/2020,Portsmouth,Fleetwood Town,2,2,D,1,1,D,2.03,3.39,3.97
 E3,03/08/2019,Salford,Stevenage,2,0,H,1,0,H,1.86,3.5,4.38
 E3,03/08/2019,Bradford,Cambridge,0,0,D,0,0,D,1.84,3.75,4.13
 E3,03/08/2019,Carlisle,Crawley Town,2,1,H,2,1,H,2.12,3.37,3.55
@@ -1565,6 +1569,7 @@ E3,07/03/2020,Plymouth,Macclesfield,3,0,H,1,0,H,,,
 E3,07/03/2020,Salford,Bradford,2,0,H,1,0,H,2.03,3.56,3.78
 E3,07/03/2020,Swindon,Forest Green,0,2,A,0,1,A,1.72,4.14,4.57
 E3,07/03/2020,Walsall,Exeter,3,1,H,1,0,H,2.92,3.29,2.54
+E3,10/03/2020,Carlisle,Newport County,2,0,H,2,0,H,2.9,2.88,2.88
 EC,03/08/2019,Stockport,Maidenhead,0,1,A,0,0,D,2,3.42,4.03
 EC,03/08/2019,Aldershot,Fylde,1,2,A,0,1,A,3.84,3.38,2.06
 EC,03/08/2019,Barnet,Yeovil,1,0,H,0,0,D,2.4,3.06,3.37
@@ -2007,6 +2012,9 @@ EC,07/03/2020,Stockport,Barnet,1,1,D,1,1,D,2.75,3.36,2.6
 EC,07/03/2020,Sutton,Torquay,2,0,H,2,0,H,2.03,3.7,3.55
 EC,07/03/2020,Wrexham,Eastleigh,0,0,D,0,0,D,2.09,3.34,3.72
 EC,07/03/2020,Harrogate,Bromley,1,1,D,0,0,D,1.88,3.78,4.05
+EC,10/03/2020,Dag and Red,Fylde,1,2,A,0,0,D,2.12,3.52,3.45
+EC,10/03/2020,Notts County,Aldershot,3,1,H,1,1,D,1.94,3.57,4.02
+EC,10/03/2020,Woking,Barnet,1,3,A,0,1,A,2.77,3.25,2.65
 SP1,16/08/2019,Ath Bilbao,Barcelona,1,0,H,0,0,D,5.15,3.84,1.74
 SP1,17/08/2019,Celta,Real Madrid,1,3,A,0,1,A,4.73,4.18,1.72
 SP1,17/08/2019,Valencia,Sociedad,1,1,D,0,0,D,1.68,3.94,5.47
@@ -2276,6 +2284,7 @@ SP1,08/03/2020,Valladolid,Ath Bilbao,1,4,A,0,2,A,3.06,2.81,2.85
 SP1,08/03/2020,Levante,Granada,1,1,D,1,0,H,2.08,3.45,3.81
 SP1,08/03/2020,Villarreal,Leganes,1,2,A,1,0,H,1.72,3.82,5.19
 SP1,08/03/2020,Betis,Real Madrid,2,1,H,1,1,D,4.14,4.14,1.82
+SP1,10/03/2020,Eibar,Sociedad,1,2,A,0,1,A,3.4,3.39,2.25
 SP2,17/08/2019,Lugo,Extremadura UD,0,0,D,0,0,D,2.49,3.19,3.12
 SP2,17/08/2019,Santander,Malaga,0,1,A,0,0,D,2.89,2.97,2.84
 SP2,17/08/2019,Almeria,Albacete,3,0,H,0,0,D,2.38,3.09,3.43
@@ -2839,6 +2848,7 @@ D1,07/03/2020,Wolfsburg,RB Leipzig,0,0,D,0,0,D,3.99,3.71,1.96
 D1,07/03/2020,Mgladbach,Dortmund,1,2,A,0,1,A,3.12,3.83,2.22
 D1,08/03/2020,Bayern Munich,Augsburg,2,0,H,0,0,D,1.07,11.2,29.28
 D1,08/03/2020,Mainz,Fortuna Dusseldorf,1,1,D,0,0,D,1.9,3.94,3.96
+D1,11/03/2020,Mgladbach,FC Koln,2,1,H,1,0,H,1.84,3.91,4.26
 D2,26/07/2019,Stuttgart,Hannover,2,1,H,2,1,H,1.74,3.99,4.59
 D2,27/07/2019,Dresden,Nurnberg,0,1,A,0,0,D,2.97,3.29,2.5
 D2,27/07/2019,Holstein Kiel,Sandhausen,1,1,D,0,1,A,2.12,3.59,3.45
@@ -5061,6 +5071,7 @@ T1,08/03/2020,Kasimpasa,Kayserispor,5,1,H,3,0,H,1.84,3.86,4.21
 T1,08/03/2020,Rizespor,Alanyaspor,1,1,D,0,1,A,2.96,3.55,2.38
 T1,08/03/2020,Sivasspor,Galatasaray,2,2,D,1,2,A,2.75,3.55,2.53
 T1,09/03/2020,Genclerbirligi,Antalyaspor,1,1,D,0,0,D,2.12,3.49,3.56
+T1,11/03/2020,Yeni Malatyaspor,Trabzonspor,1,3,A,1,2,A,3.3,3.9,2.09
 G1,24/08/2019,Lamia,Panathinaikos,1,1,D,1,1,D,4.21,3.19,2.05
 G1,24/08/2019,Aris,OFI Crete,1,1,D,0,1,A,1.47,3.93,8.99
 G1,24/08/2019,Olympiakos,Asteras Tripolis,1,0,H,1,0,H,1.23,6.17,13.45
@@ -5421,6 +5432,7 @@ SC0,07/03/2020,Hamilton,Kilmarnock,1,0,H,0,0,D,3.46,3.47,2.19
 SC0,07/03/2020,Hearts,Motherwell,1,1,D,0,1,A,2.15,3.69,3.37
 SC0,07/03/2020,St Johnstone,Livingston,1,0,H,0,0,D,2.67,3.37,2.76
 SC0,08/03/2020,Ross County,Rangers,0,1,A,0,0,D,11.11,6.17,1.26
+SC0,11/03/2020,St Mirren,Hearts,1,0,H,0,0,D,3.02,3.38,2.46
 SC1,02/08/2019,Dunfermline,Dundee,2,2,D,2,1,H,2.97,3.5,2.42
 SC1,03/08/2019,Alloa,Partick,1,1,D,1,0,H,3.73,3.73,2.01
 SC1,03/08/2019,Arbroath,Queen of Sth,0,0,D,0,0,D,2.38,3.39,3.12
@@ -5555,6 +5567,9 @@ SC1,07/03/2020,Ayr,Dundee,0,0,D,0,0,D,2.52,3.34,2.91
 SC1,07/03/2020,Dundee United,Partick,1,1,D,1,0,H,1.52,4.36,6.4
 SC1,07/03/2020,Dunfermline,Queen of Sth,1,1,D,0,1,A,1.78,3.85,4.61
 SC1,07/03/2020,Morton,Arbroath,1,1,D,0,0,D,2.25,3.59,3.16
+SC1,10/03/2020,Dundee,Ayr,2,0,H,1,0,H,2.18,3.18,3.76
+SC1,10/03/2020,Inverness C,Queen of Sth,3,1,H,1,0,H,1.58,4.42,5.44
+SC1,10/03/2020,Partick,Dunfermline,1,1,D,0,0,D,2.65,3.32,2.77
 SC2,03/08/2019,Airdrie Utd,Forfar,0,2,A,0,0,D,2.4,3.48,2.98
 SC2,03/08/2019,Clyde,East Fife,1,1,D,1,0,H,2.26,3.72,3.04
 SC2,03/08/2019,Dumbarton,Raith Rvs,0,1,A,0,0,D,3.22,3.99,2.09
@@ -5693,6 +5708,7 @@ SC2,07/03/2020,Clyde,Dumbarton,2,0,H,0,0,D,1.97,3.9,3.57
 SC2,07/03/2020,Falkirk,Peterhead,3,0,H,2,0,H,1.35,5.1,8.8
 SC2,07/03/2020,Montrose,Stranraer,4,1,H,1,0,H,1.5,4.75,5.85
 SC2,07/03/2020,Raith Rvs,Forfar,2,1,H,1,0,H,1.44,4.85,6.58
+SC2,10/03/2020,Stranraer,Montrose,0,1,A,0,0,D,3.59,3.94,1.96
 SC3,03/08/2019,Brechin,Annan Athletic,0,1,A,0,0,D,2.46,3.67,2.77
 SC3,03/08/2019,Cove Rangers,Edinburgh City,5,0,H,3,0,H,2.17,3.86,3.12
 SC3,03/08/2019,Elgin,Cowdenbeath,3,0,H,1,0,H,1.96,4.31,3.36
@@ -5828,3 +5844,5 @@ SC3,07/03/2020,Cove Rangers,Brechin,3,2,H,1,0,H,1.12,8.41,18.77
 SC3,07/03/2020,Edinburgh City,Albion Rvs,3,0,H,1,0,H,1.52,4.48,6.03
 SC3,07/03/2020,Elgin,Stirling,3,1,H,3,1,H,2.35,3.79,2.8
 SC3,07/03/2020,Stenhousemuir,Queens Park,0,0,D,0,0,D,2.84,3.84,2.31
+SC3,10/03/2020,Elgin,Cowdenbeath,3,2,H,0,1,A,1.79,4,4.2
+SC3,10/03/2020,Stirling,Cove Rangers,1,7,A,0,5,A,6.04,4.21,1.55

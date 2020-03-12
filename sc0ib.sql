@@ -176,3 +176,4 @@ INSERT INTO SC0 VALUES('SC0','07/03/2020','Hamilton','Kilmarnock','1','0','H','0
 INSERT INTO SC0 VALUES('SC0','07/03/2020','Hearts','Motherwell','1','1','D','0','1','A','2.15','3.69','3.37');
 INSERT INTO SC0 VALUES('SC0','07/03/2020','St Johnstone','Livingston','1','0','H','0','0','D','2.67','3.37','2.76');
 INSERT INTO SC0 VALUES('SC0','08/03/2020','Ross County','Rangers','0','1','A','0','0','D','11.11','6.17','1.26');
+INSERT INTO SC0 VALUES('SC0','11/03/2020','St Mirren','Hearts','1','0','H','0','0','D','3.02','3.38','2.46');

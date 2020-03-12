@@ -1126,6 +1126,10 @@ INSERT INTO E2 VALUES('E2','07/03/2020','Rochdale','Rotherham','3','1','H','1','
 INSERT INTO E2 VALUES('E2','07/03/2020','Shrewsbury','Oxford','2','3','A','2','1','H','3.42','3.24','2.28');
 INSERT INTO E2 VALUES('E2','07/03/2020','Southend','Bristol Rvs','3','1','H','1','0','H','2.92','3.39','2.49');
 INSERT INTO E2 VALUES('E2','07/03/2020','Sunderland','Gillingham','2','2','D','0','0','D','1.82','3.5','4.9');
+INSERT INTO E2 VALUES('E2','10/03/2020','Blackpool','Tranmere','1','2','A','0','2','A','1.68','3.85','5.43');
+INSERT INTO E2 VALUES('E2','10/03/2020','Bristol Rvs','Sunderland','2','0','H','1','0','H','5.68','3.86','1.65');
+INSERT INTO E2 VALUES('E2','10/03/2020','Burton','Bolton','2','2','D','1','2','A','1.54','4.26','6.3');
+INSERT INTO E2 VALUES('E2','10/03/2020','Portsmouth','Fleetwood Town','2','2','D','1','1','D','2.03','3.39','3.97');
 INSERT INTO E3 VALUES('E3','03/08/2019','Salford','Stevenage','2','0','H','1','0','H','1.86','3.5','4.38');
 INSERT INTO E3 VALUES('E3','03/08/2019','Bradford','Cambridge','0','0','D','0','0','D','1.84','3.75','4.13');
 INSERT INTO E3 VALUES('E3','03/08/2019','Carlisle','Crawley Town','2','1','H','2','1','H','2.12','3.37','3.55');
@@ -1565,6 +1569,7 @@ INSERT INTO E3 VALUES('E3','07/03/2020','Plymouth','Macclesfield','3','0','H','1
 INSERT INTO E3 VALUES('E3','07/03/2020','Salford','Bradford','2','0','H','1','0','H','2.03','3.56','3.78');
 INSERT INTO E3 VALUES('E3','07/03/2020','Swindon','Forest Green','0','2','A','0','1','A','1.72','4.14','4.57');
 INSERT INTO E3 VALUES('E3','07/03/2020','Walsall','Exeter','3','1','H','1','0','H','2.92','3.29','2.54');
+INSERT INTO E3 VALUES('E3','10/03/2020','Carlisle','Newport County','2','0','H','2','0','H','2.9','2.88','2.88');
 INSERT INTO EC VALUES('EC','03/08/2019','Stockport','Maidenhead','0','1','A','0','0','D','2','3.42','4.03');
 INSERT INTO EC VALUES('EC','03/08/2019','Aldershot','Fylde','1','2','A','0','1','A','3.84','3.38','2.06');
 INSERT INTO EC VALUES('EC','03/08/2019','Barnet','Yeovil','1','0','H','0','0','D','2.4','3.06','3.37');
@@ -2007,6 +2012,9 @@ INSERT INTO EC VALUES('EC','07/03/2020','Stockport','Barnet','1','1','D','1','1'
 INSERT INTO EC VALUES('EC','07/03/2020','Sutton','Torquay','2','0','H','2','0','H','2.03','3.7','3.55');
 INSERT INTO EC VALUES('EC','07/03/2020','Wrexham','Eastleigh','0','0','D','0','0','D','2.09','3.34','3.72');
 INSERT INTO EC VALUES('EC','07/03/2020','Harrogate','Bromley','1','1','D','0','0','D','1.88','3.78','4.05');
+INSERT INTO EC VALUES('EC','10/03/2020','Dag and Red','Fylde','1','2','A','0','0','D','2.12','3.52','3.45');
+INSERT INTO EC VALUES('EC','10/03/2020','Notts County','Aldershot','3','1','H','1','1','D','1.94','3.57','4.02');
+INSERT INTO EC VALUES('EC','10/03/2020','Woking','Barnet','1','3','A','0','1','A','2.77','3.25','2.65');
 INSERT INTO SP1 VALUES('SP1','16/08/2019','Ath Bilbao','Barcelona','1','0','H','0','0','D','5.15','3.84','1.74');
 INSERT INTO SP1 VALUES('SP1','17/08/2019','Celta','Real Madrid','1','3','A','0','1','A','4.73','4.18','1.72');
 INSERT INTO SP1 VALUES('SP1','17/08/2019','Valencia','Sociedad','1','1','D','0','0','D','1.68','3.94','5.47');
@@ -2276,6 +2284,7 @@ INSERT INTO SP1 VALUES('SP1','08/03/2020','Valladolid','Ath Bilbao','1','4','A',
 INSERT INTO SP1 VALUES('SP1','08/03/2020','Levante','Granada','1','1','D','1','0','H','2.08','3.45','3.81');
 INSERT INTO SP1 VALUES('SP1','08/03/2020','Villarreal','Leganes','1','2','A','1','0','H','1.72','3.82','5.19');
 INSERT INTO SP1 VALUES('SP1','08/03/2020','Betis','Real Madrid','2','1','H','1','1','D','4.14','4.14','1.82');
+INSERT INTO SP1 VALUES('SP1','10/03/2020','Eibar','Sociedad','1','2','A','0','1','A','3.4','3.39','2.25');
 INSERT INTO SP2 VALUES('SP2','17/08/2019','Lugo','Extremadura UD','0','0','D','0','0','D','2.49','3.19','3.12');
 INSERT INTO SP2 VALUES('SP2','17/08/2019','Santander','Malaga','0','1','A','0','0','D','2.89','2.97','2.84');
 INSERT INTO SP2 VALUES('SP2','17/08/2019','Almeria','Albacete','3','0','H','0','0','D','2.38','3.09','3.43');
@@ -2839,6 +2848,7 @@ INSERT INTO D1 VALUES('D1','07/03/2020','Wolfsburg','RB Leipzig','0','0','D','0'
 INSERT INTO D1 VALUES('D1','07/03/2020','Mgladbach','Dortmund','1','2','A','0','1','A','3.12','3.83','2.22');
 INSERT INTO D1 VALUES('D1','08/03/2020','Bayern Munich','Augsburg','2','0','H','0','0','D','1.07','11.2','29.28');
 INSERT INTO D1 VALUES('D1','08/03/2020','Mainz','Fortuna Dusseldorf','1','1','D','0','0','D','1.9','3.94','3.96');
+INSERT INTO D1 VALUES('D1','11/03/2020','Mgladbach','FC Koln','2','1','H','1','0','H','1.84','3.91','4.26');
 INSERT INTO D2 VALUES('D2','26/07/2019','Stuttgart','Hannover','2','1','H','2','1','H','1.74','3.99','4.59');
 INSERT INTO D2 VALUES('D2','27/07/2019','Dresden','Nurnberg','0','1','A','0','0','D','2.97','3.29','2.5');
 INSERT INTO D2 VALUES('D2','27/07/2019','Holstein Kiel','Sandhausen','1','1','D','0','1','A','2.12','3.59','3.45');
@@ -5061,6 +5071,7 @@ INSERT INTO T1 VALUES('T1','08/03/2020','Kasimpasa','Kayserispor','5','1','H','3
 INSERT INTO T1 VALUES('T1','08/03/2020','Rizespor','Alanyaspor','1','1','D','0','1','A','2.96','3.55','2.38');
 INSERT INTO T1 VALUES('T1','08/03/2020','Sivasspor','Galatasaray','2','2','D','1','2','A','2.75','3.55','2.53');
 INSERT INTO T1 VALUES('T1','09/03/2020','Genclerbirligi','Antalyaspor','1','1','D','0','0','D','2.12','3.49','3.56');
+INSERT INTO T1 VALUES('T1','11/03/2020','Yeni Malatyaspor','Trabzonspor','1','3','A','1','2','A','3.3','3.9','2.09');
 INSERT INTO G1 VALUES('G1','24/08/2019','Lamia','Panathinaikos','1','1','D','1','1','D','4.21','3.19','2.05');
 INSERT INTO G1 VALUES('G1','24/08/2019','Aris','OFI Crete','1','1','D','0','1','A','1.47','3.93','8.99');
 INSERT INTO G1 VALUES('G1','24/08/2019','Olympiakos','Asteras Tripolis','1','0','H','1','0','H','1.23','6.17','13.45');
@@ -5421,6 +5432,7 @@ INSERT INTO SC0 VALUES('SC0','07/03/2020','Hamilton','Kilmarnock','1','0','H','0
 INSERT INTO SC0 VALUES('SC0','07/03/2020','Hearts','Motherwell','1','1','D','0','1','A','2.15','3.69','3.37');
 INSERT INTO SC0 VALUES('SC0','07/03/2020','St Johnstone','Livingston','1','0','H','0','0','D','2.67','3.37','2.76');
 INSERT INTO SC0 VALUES('SC0','08/03/2020','Ross County','Rangers','0','1','A','0','0','D','11.11','6.17','1.26');
+INSERT INTO SC0 VALUES('SC0','11/03/2020','St Mirren','Hearts','1','0','H','0','0','D','3.02','3.38','2.46');
 INSERT INTO SC1 VALUES('SC1','02/08/2019','Dunfermline','Dundee','2','2','D','2','1','H','2.97','3.5','2.42');
 INSERT INTO SC1 VALUES('SC1','03/08/2019','Alloa','Partick','1','1','D','1','0','H','3.73','3.73','2.01');
 INSERT INTO SC1 VALUES('SC1','03/08/2019','Arbroath','Queen of Sth','0','0','D','0','0','D','2.38','3.39','3.12');
@@ -5555,6 +5567,9 @@ INSERT INTO SC1 VALUES('SC1','07/03/2020','Ayr','Dundee','0','0','D','0','0','D'
 INSERT INTO SC1 VALUES('SC1','07/03/2020','Dundee United','Partick','1','1','D','1','0','H','1.52','4.36','6.4');
 INSERT INTO SC1 VALUES('SC1','07/03/2020','Dunfermline','Queen of Sth','1','1','D','0','1','A','1.78','3.85','4.61');
 INSERT INTO SC1 VALUES('SC1','07/03/2020','Morton','Arbroath','1','1','D','0','0','D','2.25','3.59','3.16');
+INSERT INTO SC1 VALUES('SC1','10/03/2020','Dundee','Ayr','2','0','H','1','0','H','2.18','3.18','3.76');
+INSERT INTO SC1 VALUES('SC1','10/03/2020','Inverness C','Queen of Sth','3','1','H','1','0','H','1.58','4.42','5.44');
+INSERT INTO SC1 VALUES('SC1','10/03/2020','Partick','Dunfermline','1','1','D','0','0','D','2.65','3.32','2.77');
 INSERT INTO SC2 VALUES('SC2','03/08/2019','Airdrie Utd','Forfar','0','2','A','0','0','D','2.4','3.48','2.98');
 INSERT INTO SC2 VALUES('SC2','03/08/2019','Clyde','East Fife','1','1','D','1','0','H','2.26','3.72','3.04');
 INSERT INTO SC2 VALUES('SC2','03/08/2019','Dumbarton','Raith Rvs','0','1','A','0','0','D','3.22','3.99','2.09');
@@ -5693,6 +5708,7 @@ INSERT INTO SC2 VALUES('SC2','07/03/2020','Clyde','Dumbarton','2','0','H','0','0
 INSERT INTO SC2 VALUES('SC2','07/03/2020','Falkirk','Peterhead','3','0','H','2','0','H','1.35','5.1','8.8');
 INSERT INTO SC2 VALUES('SC2','07/03/2020','Montrose','Stranraer','4','1','H','1','0','H','1.5','4.75','5.85');
 INSERT INTO SC2 VALUES('SC2','07/03/2020','Raith Rvs','Forfar','2','1','H','1','0','H','1.44','4.85','6.58');
+INSERT INTO SC2 VALUES('SC2','10/03/2020','Stranraer','Montrose','0','1','A','0','0','D','3.59','3.94','1.96');
 INSERT INTO SC3 VALUES('SC3','03/08/2019','Brechin','Annan Athletic','0','1','A','0','0','D','2.46','3.67','2.77');
 INSERT INTO SC3 VALUES('SC3','03/08/2019','Cove Rangers','Edinburgh City','5','0','H','3','0','H','2.17','3.86','3.12');
 INSERT INTO SC3 VALUES('SC3','03/08/2019','Elgin','Cowdenbeath','3','0','H','1','0','H','1.96','4.31','3.36');
@@ -5828,3 +5844,5 @@ INSERT INTO SC3 VALUES('SC3','07/03/2020','Cove Rangers','Brechin','3','2','H','
 INSERT INTO SC3 VALUES('SC3','07/03/2020','Edinburgh City','Albion Rvs','3','0','H','1','0','H','1.52','4.48','6.03');
 INSERT INTO SC3 VALUES('SC3','07/03/2020','Elgin','Stirling','3','1','H','3','1','H','2.35','3.79','2.8');
 INSERT INTO SC3 VALUES('SC3','07/03/2020','Stenhousemuir','Queens Park','0','0','D','0','0','D','2.84','3.84','2.31');
+INSERT INTO SC3 VALUES('SC3','10/03/2020','Elgin','Cowdenbeath','3','2','H','0','1','A','1.79','4','4.2');
+INSERT INTO SC3 VALUES('SC3','10/03/2020','Stirling','Cove Rangers','1','7','A','0','5','A','6.04','4.21','1.55');
