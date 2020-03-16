@@ -2015,6 +2015,12 @@ EC,07/03/2020,Harrogate,Bromley,1,1,D,0,0,D,1.88,3.78,4.05
 EC,10/03/2020,Dag and Red,Fylde,1,2,A,0,0,D,2.12,3.52,3.45
 EC,10/03/2020,Notts County,Aldershot,3,1,H,1,1,D,1.94,3.57,4.02
 EC,10/03/2020,Woking,Barnet,1,3,A,0,1,A,2.77,3.25,2.65
+EC,14/03/2020,Dover Athletic,Chesterfield,1,1,D,0,0,D,2.1,3.59,3.43
+EC,14/03/2020,Fylde,Aldershot,1,0,H,1,0,H,2.1,3.76,3.29
+EC,14/03/2020,Maidenhead,Stockport,1,2,A,1,0,H,2.6,3.49,2.67
+EC,14/03/2020,Notts County,Eastleigh,4,0,H,1,0,H,1.8,3.86,4.3
+EC,14/03/2020,Sutton,Hartlepool,1,1,D,1,0,H,2.73,3.24,2.7
+EC,14/03/2020,Halifax,Ebbsfleet,0,1,A,0,1,A,1.7,3.64,5.38
 SP1,16/08/2019,Ath Bilbao,Barcelona,1,0,H,0,0,D,5.15,3.84,1.74
 SP1,17/08/2019,Celta,Real Madrid,1,3,A,0,1,A,4.73,4.18,1.72
 SP1,17/08/2019,Valencia,Sociedad,1,1,D,0,0,D,1.68,3.94,5.47
@@ -5072,6 +5078,14 @@ T1,08/03/2020,Rizespor,Alanyaspor,1,1,D,0,1,A,2.96,3.55,2.38
 T1,08/03/2020,Sivasspor,Galatasaray,2,2,D,1,2,A,2.75,3.55,2.53
 T1,09/03/2020,Genclerbirligi,Antalyaspor,1,1,D,0,0,D,2.12,3.49,3.56
 T1,11/03/2020,Yeni Malatyaspor,Trabzonspor,1,3,A,1,2,A,3.3,3.9,2.09
+T1,13/03/2020,Ankaragucu,Rizespor,2,1,H,2,1,H,2.44,3.28,3.08
+T1,13/03/2020,Kasimpasa,Goztep,2,0,H,1,0,H,2.26,3.69,3.06
+T1,14/03/2020,Denizlispor,Genclerbirligi,1,0,H,0,0,D,2.55,3.49,2.77
+T1,14/03/2020,Alanyaspor,Gaziantep,1,0,H,1,0,H,1.59,4.42,5.39
+T1,14/03/2020,Konyaspor,Fenerbahce,1,0,H,1,0,H,3.65,3.45,2.1
+T1,15/03/2020,Kayserispor,Yeni Malatyaspor,2,1,H,2,0,H,2.54,3.4,2.84
+T1,15/03/2020,Trabzonspor,Buyuksehyr,1,1,D,0,0,D,2.41,3.42,3.01
+T1,15/03/2020,Galatasaray,Besiktas,0,0,D,0,0,D,2.02,3.63,3.73
 G1,24/08/2019,Lamia,Panathinaikos,1,1,D,1,1,D,4.21,3.19,2.05
 G1,24/08/2019,Aris,OFI Crete,1,1,D,0,1,A,1.47,3.93,8.99
 G1,24/08/2019,Olympiakos,Asteras Tripolis,1,0,H,1,0,H,1.23,6.17,13.45

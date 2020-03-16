@@ -443,3 +443,9 @@ INSERT INTO EC VALUES('EC','07/03/2020','Harrogate','Bromley','1','1','D','0','0
 INSERT INTO EC VALUES('EC','10/03/2020','Dag and Red','Fylde','1','2','A','0','0','D','2.12','3.52','3.45');
 INSERT INTO EC VALUES('EC','10/03/2020','Notts County','Aldershot','3','1','H','1','1','D','1.94','3.57','4.02');
 INSERT INTO EC VALUES('EC','10/03/2020','Woking','Barnet','1','3','A','0','1','A','2.77','3.25','2.65');
+INSERT INTO EC VALUES('EC','14/03/2020','Dover Athletic','Chesterfield','1','1','D','0','0','D','2.1','3.59','3.43');
+INSERT INTO EC VALUES('EC','14/03/2020','Fylde','Aldershot','1','0','H','1','0','H','2.1','3.76','3.29');
+INSERT INTO EC VALUES('EC','14/03/2020','Maidenhead','Stockport','1','2','A','1','0','H','2.6','3.49','2.67');
+INSERT INTO EC VALUES('EC','14/03/2020','Notts County','Eastleigh','4','0','H','1','0','H','1.8','3.86','4.3');
+INSERT INTO EC VALUES('EC','14/03/2020','Sutton','Hartlepool','1','1','D','1','0','H','2.73','3.24','2.7');
+INSERT INTO EC VALUES('EC','14/03/2020','Halifax','Ebbsfleet','0','1','A','0','1','A','1.7','3.64','5.38');
