@@ -5086,6 +5086,8 @@ INSERT INTO T1 VALUES('T1','14/03/2020','Konyaspor','Fenerbahce','1','0','H','1'
 INSERT INTO T1 VALUES('T1','15/03/2020','Kayserispor','Yeni Malatyaspor','2','1','H','2','0','H','2.54','3.4','2.84');
 INSERT INTO T1 VALUES('T1','15/03/2020','Trabzonspor','Buyuksehyr','1','1','D','0','0','D','2.41','3.42','3.01');
 INSERT INTO T1 VALUES('T1','15/03/2020','Galatasaray','Besiktas','0','0','D','0','0','D','2.02','3.63','3.73');
+INSERT INTO T1 VALUES('T1','16/03/2020','Antalyaspor','Sivasspor','1','0','H','0','0','D','2.95','3.6','2.36');
+INSERT INTO T1 VALUES('T1','17/03/2020','Goztep','Rizespor','2','0','H','0','0','D','2','3.56','3.88');
 INSERT INTO G1 VALUES('G1','24/08/2019','Lamia','Panathinaikos','1','1','D','1','1','D','4.21','3.19','2.05');
 INSERT INTO G1 VALUES('G1','24/08/2019','Aris','OFI Crete','1','1','D','0','1','A','1.47','3.93','8.99');
 INSERT INTO G1 VALUES('G1','24/08/2019','Olympiakos','Asteras Tripolis','1','0','H','1','0','H','1.23','6.17','13.45');
