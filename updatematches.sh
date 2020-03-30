@@ -1,5 +1,5 @@
 #! /bin/bash
-sed -i '62229,$d' allteams2010-present.csv
+sed -i '70039,$d' allteams2010-present.csv
 ./deleteall.sh 
 #backup the allteams2010-present data
 #cat allteams2010-present.csv >> allteams2010-present.backup
