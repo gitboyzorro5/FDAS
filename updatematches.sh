@@ -4,8 +4,10 @@ sed -i '70039,$d' allteams2010-present.csv
 #backup the allteams2010-present data
 #cat allteams2010-present.csv >> allteams2010-present.backup
 mv allteams20182019.csv allteams20182019.bak
+mv leaguetable2010-present.csv leaguetable2010-present.bak
 rm *.csv
 mv allteams20182019.bak allteams20182019.csv
+mv leaguetable2010-present.bak leaguetable2010-present.csv
 ./download.sh
 ./insertall.sh 
 ./megainsert.sh 
