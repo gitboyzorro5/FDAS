@@ -2864,6 +2864,15 @@ D1,16/05/2020,Ein Frankfurt,Mgladbach,1,3,A,0,2,A,2.92,3.49,2.48
 D1,17/05/2020,FC Koln,Mainz,2,2,D,1,0,H,1.87,3.94,4.11
 D1,17/05/2020,Union Berlin,Bayern Munich,0,2,A,0,1,A,13.52,6.65,1.21
 D1,18/05/2020,Werder Bremen,Leverkusen,1,4,A,1,2,A,4.86,4.1,1.71
+D1,22/05/2020,Hertha,Union Berlin,4,0,H,0,0,D,2.43,3.4,3.16
+D1,23/05/2020,Freiburg,Werder Bremen,0,1,A,0,1,A,2.21,3.73,3.2
+D1,23/05/2020,Mgladbach,Leverkusen,1,3,A,0,1,A,2.47,3.74,2.76
+D1,23/05/2020,Paderborn,Hoffenheim,1,1,D,1,1,D,3.08,3.82,2.24
+D1,23/05/2020,Wolfsburg,Dortmund,0,2,A,0,1,A,4.54,3.87,1.8
+D1,23/05/2020,Bayern Munich,Ein Frankfurt,5,2,H,2,0,H,1.15,8.57,16.14
+D1,24/05/2020,Schalke 04,Augsburg,0,3,A,0,1,A,2.09,3.56,3.64
+D1,24/05/2020,Mainz,RB Leipzig,0,5,A,0,3,A,6.51,5.27,1.44
+D1,24/05/2020,FC Koln,Fortuna Dusseldorf,2,2,D,0,1,A,1.8,4.16,4.2
 D2,26/07/2019,Stuttgart,Hannover,2,1,H,2,1,H,1.74,3.99,4.59
 D2,27/07/2019,Dresden,Nurnberg,0,1,A,0,0,D,2.97,3.29,2.5
 D2,27/07/2019,Holstein Kiel,Sandhausen,1,1,D,0,1,A,2.12,3.59,3.45
@@ -3097,6 +3106,14 @@ D2,17/05/2020,Bielefeld,Osnabruck,1,1,D,1,0,H,1.69,3.92,5.11
 D2,17/05/2020,Greuther Furth,Hamburg,2,2,D,1,1,D,4.28,3.64,1.88
 D2,17/05/2020,St Pauli,Nurnberg,1,0,H,0,0,D,2.57,3.2,2.95
 D2,17/05/2020,Wehen,Stuttgart,2,1,H,0,0,D,5.04,4.01,1.68
+D2,22/05/2020,Heidenheim,Wehen,1,0,H,0,0,D,1.83,3.72,4.42
+D2,22/05/2020,Nurnberg,Erzgebirge Aue,1,1,D,0,0,D,2.01,3.41,4.05
+D2,23/05/2020,Darmstadt,St Pauli,4,0,H,1,0,H,2.4,3.4,3.04
+D2,23/05/2020,Osnabruck,Hannover,2,4,A,1,1,D,2.88,3.33,2.55
+D2,23/05/2020,Sandhausen,Regensburg,0,0,D,0,0,D,2.3,3.53,3.1
+D2,24/05/2020,Hamburg,Bielefeld,0,0,D,0,0,D,2.18,3.45,3.44
+D2,24/05/2020,Holstein Kiel,Stuttgart,3,2,H,1,0,H,3.46,3.49,2.16
+D2,24/05/2020,Karlsruhe,Bochum,0,0,D,0,0,D,2.55,3.42,2.81
 F1,09/08/2019,Monaco,Lyon,0,3,A,0,2,A,2.95,3.57,2.43
 F1,10/08/2019,Marseille,Reims,0,2,A,0,0,D,1.65,3.82,6.06
 F1,10/08/2019,Angers,Bordeaux,3,1,H,3,1,H,2.34,3.29,3.35
