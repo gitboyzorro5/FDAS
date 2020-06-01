@@ -249,3 +249,11 @@ INSERT INTO D1 VALUES('D1','27/05/2020','Augsburg','Paderborn','0','0','D','0','
 INSERT INTO D1 VALUES('D1','27/05/2020','Fortuna Dusseldorf','Schalke 04','2','1','H','0','0','D','2.72','3.29','2.76');
 INSERT INTO D1 VALUES('D1','27/05/2020','Hoffenheim','FC Koln','3','1','H','1','0','H','2.53','3.71','2.72');
 INSERT INTO D1 VALUES('D1','27/05/2020','Union Berlin','Mainz','1','1','D','1','1','D','2.3','3.54','3.17');
+INSERT INTO D1 VALUES('D1','29/05/2020','Freiburg','Leverkusen','0','1','A','0','0','D','4.83','4.24','1.71');
+INSERT INTO D1 VALUES('D1','30/05/2020','Hertha','Augsburg','2','0','H','1','0','H','1.93','3.89','3.88');
+INSERT INTO D1 VALUES('D1','30/05/2020','Mainz','Hoffenheim','0','1','A','0','1','A','2.82','3.75','2.43');
+INSERT INTO D1 VALUES('D1','30/05/2020','Schalke 04','Werder Bremen','0','1','A','0','1','A','2.47','3.43','2.97');
+INSERT INTO D1 VALUES('D1','30/05/2020','Wolfsburg','Ein Frankfurt','1','2','A','0','1','A','1.99','3.82','3.74');
+INSERT INTO D1 VALUES('D1','30/05/2020','Bayern Munich','Fortuna Dusseldorf','5','0','H','3','0','H','1.07','12.76','32.15');
+INSERT INTO D1 VALUES('D1','31/05/2020','Mgladbach','Union Berlin','4','1','H','2','0','H','1.52','4.37','6.67');
+INSERT INTO D1 VALUES('D1','31/05/2020','Paderborn','Dortmund','1','6','A','0','0','D','9.17','5.62','1.34');
