@@ -3168,10 +3168,7 @@ D2,06/06/2020,Wehen,Dresden,2,3,A,2,2,D,2.22,3.4,3.39
 D2,07/06/2020,Erzgebirge Aue,Karlsruhe,1,0,H,1,0,H,2.31,3.34,3.26
 D2,07/06/2020,Hannover,Heidenheim,2,1,H,2,0,H,2.38,3.2,3.26
 D2,07/06/2020,Stuttgart,Osnabruck,0,0,D,0,0,D,1.45,4.65,7.26
-<<<<<<< HEAD
 D2,08/06/2020,Hamburg,Holstein Kiel,3,3,D,2,1,H,1.64,4.01,5.5
-=======
->>>>>>> f494c25c026010c5733006918e2b89ec35bd04c3
 F1,09/08/2019,Monaco,Lyon,0,3,A,0,2,A,2.95,3.57,2.43
 F1,10/08/2019,Marseille,Reims,0,2,A,0,0,D,1.65,3.82,6.06
 F1,10/08/2019,Angers,Bordeaux,3,1,H,3,1,H,2.34,3.29,3.35
@@ -5376,10 +5373,7 @@ G1,06/06/2020,Aris,OFI Crete,3,1,H,1,1,D,1.7,3.81,4.75
 G1,07/06/2020,Larisa,Asteras Tripolis,1,2,A,1,1,D,2.62,3.04,2.87
 G1,07/06/2020,PAOK,Olympiakos,0,1,A,0,1,A,2.57,3.21,2.8
 G1,07/06/2020,AEK,Panathinaikos,1,1,D,0,0,D,1.63,3.9,5.28
-<<<<<<< HEAD
 G1,08/06/2020,Lamia,Panetolikos,2,0,H,1,0,H,2.34,3.27,3.09
-=======
->>>>>>> f494c25c026010c5733006918e2b89ec35bd04c3
 SC0,03/08/2019,Celtic,St Johnstone,7,0,H,3,0,H,1.15,8.42,21.6
 SC0,03/08/2019,Hibernian,St Mirren,1,0,H,0,0,D,1.5,4.4,7.13
 SC0,03/08/2019,Livingston,Motherwell,0,0,D,0,0,D,2.82,3.19,2.77
