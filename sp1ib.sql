@@ -268,3 +268,13 @@ INSERT INTO SP1 VALUES('SP1','08/03/2020','Levante','Granada','1','1','D','1','0
 INSERT INTO SP1 VALUES('SP1','08/03/2020','Villarreal','Leganes','1','2','A','1','0','H','1.72','3.82','5.19');
 INSERT INTO SP1 VALUES('SP1','08/03/2020','Betis','Real Madrid','2','1','H','1','1','D','4.14','4.14','1.82');
 INSERT INTO SP1 VALUES('SP1','10/03/2020','Eibar','Sociedad','1','2','A','0','1','A','3.4','3.39','2.25');
+INSERT INTO SP1 VALUES('SP1','11/06/2020','Sevilla','Betis','2','0','H','0','0','D','1.87','3.76','4.43');
+INSERT INTO SP1 VALUES('SP1','12/06/2020','Granada','Getafe','2','1','H','0','1','A','3.43','2.98','2.52');
+INSERT INTO SP1 VALUES('SP1','12/06/2020','Valencia','Levante','1','1','D','0','0','D','1.75','4.19','4.58');
+INSERT INTO SP1 VALUES('SP1','13/06/2020','Espanol','Alaves','2','0','H','1','0','H','2.1','3.3','3.93');
+INSERT INTO SP1 VALUES('SP1','13/06/2020','Celta','Villarreal','0','1','A','0','0','D','2.64','3.39','2.78');
+INSERT INTO SP1 VALUES('SP1','13/06/2020','Leganes','Valladolid','1','2','A','0','1','A','2.31','3.08','3.63');
+INSERT INTO SP1 VALUES('SP1','13/06/2020','Mallorca','Barcelona','0','4','A','0','2','A','9.96','6.21','1.29');
+INSERT INTO SP1 VALUES('SP1','14/06/2020','Ath Bilbao','Ath Madrid','1','1','D','1','1','D','3.81','2.95','2.31');
+INSERT INTO SP1 VALUES('SP1','14/06/2020','Real Madrid','Eibar','3','1','H','3','0','H','1.24','6.58','12.63');
+INSERT INTO SP1 VALUES('SP1','14/06/2020','Sociedad','Osasuna','1','1','D','0','1','A','1.72','3.91','5.09');
