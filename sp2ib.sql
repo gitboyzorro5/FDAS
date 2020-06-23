@@ -371,3 +371,4 @@ INSERT INTO SP2 VALUES('SP2','21/06/2020','Santander','Tenerife','1','2','A','0'
 INSERT INTO SP2 VALUES('SP2','21/06/2020','Albacete','Huesca','2','2','D','1','0','H','3.38','2.92','2.55');
 INSERT INTO SP2 VALUES('SP2','21/06/2020','Cadiz','Alcorcon','1','1','D','0','0','D','2.13','3.06','4.26');
 INSERT INTO SP2 VALUES('SP2','21/06/2020','Fuenlabrada','Numancia','2','0','H','1','0','H','2.44','2.89','3.64');
+INSERT INTO SP2 VALUES('SP2','22/06/2020','Sp Gijon','Oviedo','0','1','A','0','0','D','2.37','3.06','3.45');
