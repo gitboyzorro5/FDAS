@@ -298,6 +298,16 @@ E0,21/06/2020,Newcastle,Sheffield United,3,0,H,0,0,D,3.39,3.16,2.43
 E0,21/06/2020,Aston Villa,Chelsea,1,2,A,1,0,H,6.23,4.72,1.53
 E0,21/06/2020,Everton,Liverpool,0,0,D,0,0,D,5.9,4.37,1.6
 E0,22/06/2020,Man City,Burnley,5,0,H,3,0,H,1.13,9.32,20.02
+E0,23/06/2020,Leicester,Brighton,0,0,D,0,0,D,1.64,4.07,5.8
+E0,23/06/2020,Tottenham,West Ham,2,0,H,0,0,D,1.68,4.12,5.22
+E0,24/06/2020,Man United,Sheffield United,3,0,H,2,0,H,1.4,4.47,9.32
+E0,24/06/2020,Newcastle,Aston Villa,1,1,D,0,0,D,2.35,3.39,3.22
+E0,24/06/2020,Norwich,Everton,0,1,A,0,0,D,4.06,3.76,1.93
+E0,24/06/2020,Wolves,Bournemouth,1,0,H,0,0,D,1.6,4.09,6.21
+E0,24/06/2020,Liverpool,Crystal Palace,4,0,H,2,0,H,1.25,6.42,13.96
+E0,25/06/2020,Burnley,Watford,1,0,H,0,0,D,3.09,3.25,2.51
+E0,25/06/2020,Southampton,Arsenal,0,2,A,0,1,A,2.69,3.53,2.67
+E0,25/06/2020,Chelsea,Man City,2,1,H,1,0,H,4.1,4.24,1.82
 E1,02/08/2019,Luton,Middlesbrough,3,3,D,2,2,D,2.34,3.29,3.24
 E1,03/08/2019,Barnsley,Fulham,1,0,H,1,0,H,3.38,3.57,2.15
 E1,03/08/2019,Blackburn,Charlton,1,2,A,0,1,A,1.76,3.87,4.64
@@ -2347,6 +2357,14 @@ SP1,21/06/2020,Valencia,Osasuna,2,0,H,2,0,H,1.98,3.65,4.03
 SP1,21/06/2020,Sociedad,Real Madrid,1,2,A,0,0,D,4.24,4.36,1.78
 SP1,22/06/2020,Villarreal,Sevilla,2,2,D,2,1,H,2.66,3.49,2.69
 SP1,22/06/2020,Leganes,Granada,0,0,D,0,0,D,2.46,2.98,3.42
+SP1,23/06/2020,Levante,Ath Madrid,0,1,A,0,1,A,6.05,3.6,1.71
+SP1,23/06/2020,Valladolid,Getafe,1,1,D,1,1,D,3.48,2.86,2.58
+SP1,23/06/2020,Barcelona,Ath Bilbao,1,0,H,0,0,D,1.34,5.47,10.09
+SP1,24/06/2020,Alaves,Osasuna,0,1,A,0,0,D,2.7,3.1,2.94
+SP1,24/06/2020,Sociedad,Celta,0,1,A,0,1,A,2.12,3.2,4
+SP1,24/06/2020,Real Madrid,Mallorca,2,0,H,1,0,H,1.14,8.26,18.67
+SP1,25/06/2020,Eibar,Valencia,1,0,H,1,0,H,2.88,3.45,2.52
+SP1,25/06/2020,Betis,Espanol,1,0,H,0,0,D,2.24,3.45,3.37
 SP2,17/08/2019,Lugo,Extremadura UD,0,0,D,0,0,D,2.49,3.19,3.12
 SP2,17/08/2019,Santander,Malaga,0,1,A,0,0,D,2.89,2.97,2.84
 SP2,17/08/2019,Almeria,Albacete,3,0,H,0,0,D,2.38,3.09,3.43
@@ -2721,6 +2739,17 @@ SP2,21/06/2020,Albacete,Huesca,2,2,D,1,0,H,3.38,2.92,2.55
 SP2,21/06/2020,Cadiz,Alcorcon,1,1,D,0,0,D,2.13,3.06,4.26
 SP2,21/06/2020,Fuenlabrada,Numancia,2,0,H,1,0,H,2.44,2.89,3.64
 SP2,22/06/2020,Sp Gijon,Oviedo,0,1,A,0,0,D,2.37,3.06,3.45
+SP2,23/06/2020,Elche,La Coruna,0,1,A,0,0,D,2.38,3.1,3.48
+SP2,23/06/2020,Lugo,Malaga,0,0,D,0,0,D,3.38,2.88,2.58
+SP2,23/06/2020,Extremadura UD,Zaragoza,1,2,A,1,1,D,3.33,3.18,2.41
+SP2,24/06/2020,Girona,Numancia,2,0,H,2,0,H,1.76,3.31,5.88
+SP2,24/06/2020,Huesca,Cadiz,1,1,D,0,0,D,2.26,3.01,3.76
+SP2,24/06/2020,Tenerife,Mirandes,4,1,H,2,0,H,2.2,3.1,3.81
+SP2,24/06/2020,Albacete,Las Palmas,0,0,D,0,0,D,2.82,2.88,2.95
+SP2,24/06/2020,Ponferradina,Santander,1,1,D,1,1,D,1.93,3.1,5.08
+SP2,25/06/2020,Almeria,Alcorcon,0,1,A,0,1,A,1.89,3.23,4.97
+SP2,25/06/2020,Vallecano,Sp Gijon,1,1,D,0,1,A,2.07,3.09,4.32
+SP2,25/06/2020,Oviedo,Fuenlabrada,0,0,D,0,0,D,2.29,2.98,3.75
 D1,16/08/2019,Bayern Munich,Hertha,2,2,D,1,2,A,1.19,7.73,15.3
 D1,17/08/2019,Dortmund,Augsburg,5,1,H,1,1,D,1.23,6.76,13.52
 D1,17/08/2019,Freiburg,Mainz,3,0,H,0,0,D,2.23,3.45,3.44
@@ -4137,6 +4166,13 @@ I1,21/06/2020,Inter,Sampdoria,2,1,H,2,0,H,1.35,5.34,9.85
 I1,22/06/2020,Fiorentina,Brescia,1,1,D,1,1,D,1.52,4.45,6.59
 I1,22/06/2020,Lecce,Milan,1,4,A,0,1,A,5.5,4.33,1.61
 I1,22/06/2020,Bologna,Juventus,0,2,A,0,2,A,5.92,4.14,1.6
+I1,23/06/2020,Spal,Cagliari,0,1,A,0,0,D,2.79,3.31,2.75
+I1,23/06/2020,Verona,Napoli,0,2,A,0,1,A,4.39,3.52,1.94
+I1,23/06/2020,Genoa,Parma,1,4,A,0,2,A,2.24,3.36,3.55
+I1,23/06/2020,Torino,Udinese,1,0,H,1,0,H,2.57,3.12,3.17
+I1,24/06/2020,Inter,Sassuolo,3,3,D,2,1,H,1.4,5.04,8.14
+I1,24/06/2020,Atalanta,Lazio,3,2,H,1,2,A,2.12,3.81,3.35
+I1,24/06/2020,Roma,Sampdoria,2,1,H,0,1,A,1.48,4.64,6.91
 I2,23/08/2019,Pisa,Benevento,0,0,D,0,0,D,4.11,3.22,2.08
 I2,24/08/2019,Crotone,Cosenza,0,0,D,0,0,D,2.05,3.17,4.34
 I2,24/08/2019,Salernitana,Pescara,3,1,H,1,0,H,2.46,3.18,3.19
@@ -4672,6 +4708,12 @@ P1,19/06/2020,Guimaraes,Moreirense,1,1,D,1,0,H,1.54,4.17,6.54
 P1,19/06/2020,Famalicao,Sp Braga,0,0,D,0,0,D,3.56,3.66,2.06
 P1,21/06/2020,Gil Vicente,Aves,3,0,H,2,0,H,1.58,4.01,6.45
 P1,22/06/2020,Portimonense,Maritimo,3,2,H,2,0,H,2.18,3.27,3.62
+P1,23/06/2020,Setubal,Rio Ave,1,2,A,1,1,D,4.39,3.37,1.97
+P1,23/06/2020,Benfica,Santa Clara,3,4,A,0,1,A,1.27,5.98,12.3
+P1,23/06/2020,Porto,Boavista,4,0,H,0,0,D,1.27,5.83,13.44
+P1,24/06/2020,Tondela,Pacos Ferreira,1,3,A,0,2,A,2.85,2.89,2.92
+P1,24/06/2020,Moreirense,Famalicao,1,1,D,0,0,D,2.99,3.35,2.46
+P1,25/06/2020,Sp Braga,Guimaraes,3,2,H,2,2,D,2.11,3.55,3.53
 N1,02/08/2019,Zwolle,Willem II,1,3,A,1,1,D,2.07,3.83,3.44
 N1,03/08/2019,FC Emmen,Groningen,0,1,A,0,0,D,3.12,3.5,2.33
 N1,03/08/2019,Vitesse,Ajax,2,2,D,1,1,D,5.91,4.84,1.51
@@ -5590,6 +5632,7 @@ G1,21/06/2020,Xanthi,Panetolikos,1,1,D,0,0,D,2.14,3.34,3.43
 G1,21/06/2020,Olympiakos,Panathinaikos,3,0,H,2,0,H,1.54,4.01,6.09
 G1,22/06/2020,Larisa,Volos NFC,3,1,H,1,1,D,1.99,3.45,3.77
 G1,22/06/2020,Lamia,Panionios,0,1,A,0,1,A,2.57,3.34,2.7
+G1,24/06/2020,Xanthi,Atromitos,1,0,H,0,0,D,1.88,3.4,4.29
 SC0,03/08/2019,Celtic,St Johnstone,7,0,H,3,0,H,1.15,8.42,21.6
 SC0,03/08/2019,Hibernian,St Mirren,1,0,H,0,0,D,1.5,4.4,7.13
 SC0,03/08/2019,Livingston,Motherwell,0,0,D,0,0,D,2.82,3.19,2.77
