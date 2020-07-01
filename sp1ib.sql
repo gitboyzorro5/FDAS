@@ -317,3 +317,4 @@ INSERT INTO SP1 VALUES('SP1','28/06/2020','Levante','Betis','4','2','H','2','0',
 INSERT INTO SP1 VALUES('SP1','28/06/2020','Villarreal','Valencia','2','0','H','2','0','H','2.19','3.7','3.26');
 INSERT INTO SP1 VALUES('SP1','28/06/2020','Granada','Eibar','1','2','A','0','1','A','2.5','2.96','3.38');
 INSERT INTO SP1 VALUES('SP1','28/06/2020','Espanol','Real Madrid','0','1','A','0','1','A','7.04','4.91','1.45');
+INSERT INTO SP1 VALUES('SP1','29/06/2020','Getafe','Sociedad','2','1','H','1','0','H','2.55','3.08','3.15');
