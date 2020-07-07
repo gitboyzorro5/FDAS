@@ -267,3 +267,4 @@ INSERT INTO P1 VALUES('P1','04/07/2020','Sp Braga','Aves','4','0','H','0','0','D
 INSERT INTO P1 VALUES('P1','05/07/2020','Gil Vicente','Rio Ave','1','0','H','1','0','H','4.03','3.47','2.02');
 INSERT INTO P1 VALUES('P1','05/07/2020','Tondela','Famalicao','0','1','A','0','0','D','3.46','3.4','2.23');
 INSERT INTO P1 VALUES('P1','05/07/2020','Porto','Belenenses','5','0','H','1','0','H','1.19','7.6','15.72');
+INSERT INTO P1 VALUES('P1','06/07/2020','Moreirense','Sp Lisbon','0','0','D','0','0','D','5.14','3.55','1.79');

@@ -215,3 +215,6 @@ INSERT INTO G1 VALUES('G1','04/07/2020','Asteras Tripolis','Volos NFC','4','0','
 INSERT INTO G1 VALUES('G1','04/07/2020','OFI Crete','PAOK','2','2','D','2','1','H','6.04','4.68','1.49');
 INSERT INTO G1 VALUES('G1','05/07/2020','Aris','AEK','1','4','A','1','1','D','5.37','4.64','1.54');
 INSERT INTO G1 VALUES('G1','05/07/2020','Panathinaikos','Olympiakos','0','0','D','0','0','D','4.69','4.6','1.62');
+INSERT INTO G1 VALUES('G1','06/07/2020','Lamia','Xanthi','0','0','D','0','0','D','3.84','3.17','2.07');
+INSERT INTO G1 VALUES('G1','06/07/2020','Larisa','Panionios','0','0','D','0','0','D','','','');
+INSERT INTO G1 VALUES('G1','06/07/2020','Atromitos','Panetolikos','2','2','D','1','1','D','','','');
