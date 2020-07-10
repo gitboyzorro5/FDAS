@@ -260,11 +260,16 @@ INSERT INTO P1 VALUES('P1','30/06/2020','Rio Ave','Sp Braga','4','3','H','3','2'
 INSERT INTO P1 VALUES('P1','01/07/2020','Belenenses','Tondela','1','1','D','1','1','D','2.73','3','3.03');
 INSERT INTO P1 VALUES('P1','01/07/2020','Sp Lisbon','Gil Vicente','2','1','H','1','0','H','1.55','4.16','6.62');
 INSERT INTO P1 VALUES('P1','03/07/2020','Santa Clara','Maritimo','0','1','A','0','0','D','2.4','3.03','3.41');
-INSERT INTO P1 VALUES('P1','04/07/2020','Vitoria Setubal','Pacos Ferreira','2','3','A','2','0','H','3.67','3.03','2.29');
-INSERT INTO P1 VALUES('P1','04/07/2020','Portimonense','Vitoria Guimaraes','0','1','A','0','0','D','3.48','3.27','2.24');
+INSERT INTO P1 VALUES('P1','04/07/2020','Setubal','Pacos Ferreira','2','3','A','2','0','H','3.67','3.03','2.29');
+INSERT INTO P1 VALUES('P1','04/07/2020','Portimonense','Guimaraes','0','1','A','0','0','D','3.48','3.27','2.24');
 INSERT INTO P1 VALUES('P1','04/07/2020','Benfica','Boavista','3','1','H','3','0','H','1.26','5.78','12.66');
 INSERT INTO P1 VALUES('P1','04/07/2020','Sp Braga','Aves','4','0','H','0','0','D','1.21','7.82','12.45');
 INSERT INTO P1 VALUES('P1','05/07/2020','Gil Vicente','Rio Ave','1','0','H','1','0','H','4.03','3.47','2.02');
 INSERT INTO P1 VALUES('P1','05/07/2020','Tondela','Famalicao','0','1','A','0','0','D','3.46','3.4','2.23');
 INSERT INTO P1 VALUES('P1','05/07/2020','Porto','Belenenses','5','0','H','1','0','H','1.19','7.6','15.72');
 INSERT INTO P1 VALUES('P1','06/07/2020','Moreirense','Sp Lisbon','0','0','D','0','0','D','5.14','3.55','1.79');
+INSERT INTO P1 VALUES('P1','08/07/2020','Boavista','Maritimo','0','1','A','0','1','A','2.73','3.08','2.87');
+INSERT INTO P1 VALUES('P1','08/07/2020','Aves','Setubal','1','0','H','1','0','H','4.22','3.52','1.93');
+INSERT INTO P1 VALUES('P1','09/07/2020','Rio Ave','Portimonense','2','1','H','1','1','D','1.88','3.65','4.28');
+INSERT INTO P1 VALUES('P1','09/07/2020','Tondela','Porto','1','3','A','0','0','D','10.16','4.91','1.35');
+INSERT INTO P1 VALUES('P1','09/07/2020','Famalicao','Benfica','1','1','D','0','1','A','5.55','4.2','1.61');
