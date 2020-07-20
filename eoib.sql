@@ -357,3 +357,7 @@ INSERT INTO E0 VALUES('E0','16/07/2020','Everton','Aston Villa','1','1','D','0',
 INSERT INTO E0 VALUES('E0','16/07/2020','Leicester','Sheffield United','2','0','H','1','0','H','2.04','3.4','4.12');
 INSERT INTO E0 VALUES('E0','16/07/2020','Crystal Palace','Man United','0','2','A','0','1','A','10.36','5.03','1.36');
 INSERT INTO E0 VALUES('E0','16/07/2020','Southampton','Brighton','1','1','D','0','1','A','2.2','3.37','3.59');
+INSERT INTO E0 VALUES('E0','17/07/2020','West Ham','Watford','3','1','H','3','0','H','2.43','3.04','3.46');
+INSERT INTO E0 VALUES('E0','18/07/2020','Norwich','Burnley','0','2','A','0','1','A','3.4','3.43','2.25');
+INSERT INTO E0 VALUES('E0','19/07/2020','Bournemouth','Southampton','0','2','A','0','1','A','2.43','3.78','2.82');
+INSERT INTO E0 VALUES('E0','19/07/2020','Tottenham','Leicester','3','0','H','3','0','H','2.33','3.53','3.15');
