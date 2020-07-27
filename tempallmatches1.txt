@@ -368,6 +368,16 @@ E0,21/07/2020,Watford,Man City,0,4,A,0,2,A,8.57,5.73,1.34,0-2
 E0,21/07/2020,Aston Villa,Arsenal,1,0,H,1,0,H,3.24,3.94,2.14,1-0
 E0,22/07/2020,Man United,West Ham,1,1,D,0,1,A,1.26,6.37,12.18,0-1
 E0,22/07/2020,Liverpool,Chelsea,5,3,H,3,1,H,2.08,3.71,3.59,3-1
+E0,26/07/2020,Arsenal,Watford,3,2,H,3,1,H,1.93,4.04,3.79,3-1
+E0,26/07/2020,Burnley,Brighton,1,2,A,1,1,D,2.34,3.55,3.11,1-1
+E0,26/07/2020,Chelsea,Wolves,2,0,H,2,0,H,1.88,3.81,4.29,2-0
+E0,26/07/2020,Crystal Palace,Tottenham,1,1,D,0,1,A,6.4,4.27,1.56,0-1
+E0,26/07/2020,Everton,Bournemouth,1,3,A,1,2,A,2.26,3.87,3.03,1-2
+E0,26/07/2020,Leicester,Man United,0,2,A,0,0,D,3.25,3.51,2.28,0-0
+E0,26/07/2020,Man City,Norwich,5,0,H,2,0,H,1.08,13.1,30.22,2-0
+E0,26/07/2020,Newcastle,Liverpool,1,3,A,1,1,D,7.79,5.07,1.41,1-1
+E0,26/07/2020,Southampton,Sheffield United,3,1,H,0,1,A,2.18,3.54,3.46,0-1
+E0,26/07/2020,West Ham,Aston Villa,1,1,D,0,0,D,3.12,3.62,2.31,0-0
 E1,02/08/2019,Luton,Middlesbrough,3,3,D,2,2,D,2.34,3.29,3.24,2-2
 E1,03/08/2019,Barnsley,Fulham,1,0,H,1,0,H,3.38,3.57,2.15,1-0
 E1,03/08/2019,Blackburn,Charlton,1,2,A,0,1,A,1.76,3.87,4.64,0-1
@@ -4573,6 +4583,16 @@ I1,22/07/2020,Spal,Roma,1,6,A,1,2,A,8.24,5.44,1.37,1-2
 I1,22/07/2020,Torino,Verona,1,1,D,0,0,D,2.41,3.35,3.12,0-0
 I1,23/07/2020,Udinese,Juventus,2,1,H,0,1,A,5.48,4.02,1.66,0-1
 I1,23/07/2020,Lazio,Cagliari,2,1,H,0,1,A,1.48,4.71,6.74,0-1
+I1,24/07/2020,Milan,Atalanta,1,1,D,1,1,D,2.91,3.88,2.32,1-1
+I1,25/07/2020,Brescia,Parma,1,2,A,0,0,D,3.52,3.79,2.06,0-0
+I1,25/07/2020,Genoa,Inter,0,3,A,0,1,A,5.19,4.22,1.65,0-1
+I1,25/07/2020,Napoli,Sassuolo,2,0,H,1,0,H,1.59,4.52,5.41,1-0
+I1,26/07/2020,Bologna,Lecce,3,2,H,2,1,H,2.43,3.67,2.86,2-1
+I1,26/07/2020,Cagliari,Udinese,0,1,A,0,1,A,3.74,3.47,2.1,0-1
+I1,26/07/2020,Roma,Fiorentina,2,1,H,1,0,H,1.65,4.35,5.09,1-0
+I1,26/07/2020,Spal,Torino,1,1,D,0,0,D,5.95,4.3,1.58,0-0
+I1,26/07/2020,Verona,Lazio,1,5,A,1,1,D,3.52,3.55,2.14,1-1
+I1,26/07/2020,Juventus,Sampdoria,2,0,H,1,0,H,1.27,6.07,12.19,1-0
 I2,23/08/2019,Pisa,Benevento,0,0,D,0,0,D,4.11,3.22,2.08,0-0
 I2,24/08/2019,Crotone,Cosenza,0,0,D,0,0,D,2.05,3.17,4.34,0-0
 I2,24/08/2019,Salernitana,Pescara,3,1,H,1,0,H,2.46,3.18,3.19,1-0
@@ -4923,6 +4943,16 @@ I2,17/07/2020,Perugia,Cremonese,0,0,D,0,0,D,2.3,3.1,3.55,0-0
 I2,17/07/2020,Pisa,Trapani,3,2,H,1,0,H,2.56,3.23,2.95,1-0
 I2,17/07/2020,Pordenone,Cosenza,1,2,A,0,2,A,2.11,3.23,3.92,0-2
 I2,17/07/2020,Spezia,Venezia,0,1,A,0,1,A,1.72,3.41,6.02,0-1
+I2,24/07/2020,Livorno,Crotone,1,5,A,1,3,A,,,,1-3
+I2,24/07/2020,Ascoli,Pordenone,2,2,D,1,2,A,2.65,3.02,3.03,1-2
+I2,24/07/2020,Chievo,Cittadella,4,1,H,2,1,H,2.31,3.14,3.48,2-1
+I2,24/07/2020,Cosenza,Pisa,2,1,H,1,0,H,2.45,3.04,3.3,1-0
+I2,24/07/2020,Cremonese,Spezia,0,0,D,0,0,D,3.12,2.82,2.74,0-0
+I2,24/07/2020,Frosinone,Benevento,2,3,A,1,3,A,1.78,3.59,5.03,1-3
+I2,24/07/2020,Salernitana,Empoli,2,4,A,1,3,A,2.45,3.23,3.11,1-3
+I2,24/07/2020,Trapani,Pescara,1,0,H,1,0,H,2.37,3.2,3.29,1-0
+I2,24/07/2020,Venezia,Juve Stabia,1,0,H,1,0,H,2.17,3.01,4.06,1-0
+I2,24/07/2020,Virtus Entella,Perugia,0,2,A,0,2,A,2.82,2.99,2.85,0-2
 P1,09/08/2019,Portimonense,Belenenses,0,0,D,0,0,D,2.02,3.54,3.91,0-0
 P1,10/08/2019,Santa Clara,Famalicao,0,2,A,0,1,A,2.08,3.23,4.09,0-1
 P1,10/08/2019,Gil Vicente,Porto,2,1,H,0,0,D,10.58,5.41,1.31,0-0
@@ -5220,6 +5250,15 @@ P1,20/07/2020,Tondela,Sp Braga,1,0,H,0,0,D,5.37,4.29,1.61,0-0
 P1,20/07/2020,Porto,Moreirense,6,1,H,1,1,D,1.34,5.35,8.87,1-1
 P1,21/07/2020,Sp Lisbon,Setubal,0,0,D,0,0,D,1.37,4.98,8.88,0-0
 P1,21/07/2020,Aves,Benfica,0,4,A,0,1,A,14.8,6.42,1.22,0-1
+P1,24/07/2020,Santa Clara,Guimaraes,2,2,D,2,1,H,3.22,3.46,2.27,2-1
+P1,24/07/2020,Gil Vicente,Pacos Ferreira,3,3,D,2,2,D,2.57,3.27,2.9,2-2
+P1,25/07/2020,Boavista,Rio Ave,0,2,A,0,1,A,4.52,4.16,1.72,0-1
+P1,25/07/2020,Maritimo,Famalicao,3,3,D,1,1,D,3.79,3.73,1.98,1-1
+P1,25/07/2020,Benfica,Sp Lisbon,2,1,H,1,0,H,1.97,3.64,3.92,1-0
+P1,25/07/2020,Sp Braga,Porto,2,1,H,0,1,A,2.74,3.72,2.46,0-1
+P1,26/07/2020,Moreirense,Tondela,1,2,A,0,1,A,3.37,2.59,2.8,0-1
+P1,26/07/2020,Portimonense,Aves,2,0,H,0,0,D,1.16,7.34,23.64,0-0
+P1,26/07/2020,Setubal,Belenenses,2,0,H,1,0,H,1.64,3.98,5.59,1-0
 N1,02/08/2019,Zwolle,Willem II,1,3,A,1,1,D,2.07,3.83,3.44,1-1
 N1,03/08/2019,FC Emmen,Groningen,0,1,A,0,0,D,3.12,3.5,2.33,0-0
 N1,03/08/2019,Vitesse,Ajax,2,2,D,1,1,D,5.91,4.84,1.51,1-1
@@ -5981,6 +6020,15 @@ T1,19/07/2020,Buyuksehyr,Kayserispor,1,0,H,1,0,H,1.42,5.04,7.16,1-0
 T1,19/07/2020,Rizespor,Yeni Malatyaspor,3,0,H,3,0,H,2.59,3.41,2.77,3-0
 T1,19/07/2020,Sivasspor,Genclerbirligi,2,0,H,1,0,H,1.68,4.02,5.03,1-0
 T1,19/07/2020,Trabzonspor,Konyaspor,3,4,A,1,1,D,1.54,4.37,6.06,1-1
+T1,24/07/2020,Antalyaspor,Galatasaray,2,2,D,1,0,H,3.19,3.72,2.19,1-0
+T1,25/07/2020,Denizlispor,Ankaragucu,0,1,A,0,0,D,,,,0-0
+T1,25/07/2020,Fenerbahce,Rizespor,3,1,H,1,0,H,2.51,3.37,2.9,1-0
+T1,25/07/2020,Genclerbirligi,Besiktas,0,3,A,0,0,D,3.49,4.55,1.88,0-0
+T1,25/07/2020,Goztep,Sivasspor,3,1,H,1,0,H,4.36,4.11,1.76,1-0
+T1,25/07/2020,Kayserispor,Trabzonspor,1,2,A,0,0,D,3.21,3.67,2.19,0-0
+T1,25/07/2020,Konyaspor,Alanyaspor,2,3,A,2,0,H,2.95,3.61,2.36,2-0
+T1,25/07/2020,Yeni Malatyaspor,Gaziantep,0,1,A,0,0,D,,,,0-0
+T1,26/07/2020,Kasimpasa,Buyuksehyr,3,2,H,2,0,H,2.78,3.68,2.45,2-0
 G1,24/08/2019,Lamia,Panathinaikos,1,1,D,1,1,D,4.21,3.19,2.05,1-1
 G1,24/08/2019,Aris,OFI Crete,1,1,D,0,1,A,1.47,3.93,8.99,0-1
 G1,24/08/2019,Olympiakos,Asteras Tripolis,1,0,H,1,0,H,1.23,6.17,13.45,1-0
