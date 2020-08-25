@@ -1,3 +1,20 @@
+F1,21/08/2020,Bordeaux,Nantes,0,0,D,0,0,D,2.48,3.03,3.33
+F1,22/08/2020,Dijon,Angers,0,1,A,0,1,A,2.79,3.09,2.84
+F1,22/08/2020,Lille,Rennes,1,1,D,1,0,H,2.3,3.22,3.47
+F1,23/08/2020,Monaco,Reims,2,2,D,1,2,A,1.95,3.53,4.24
+F1,23/08/2020,Lorient,Strasbourg,3,1,H,0,1,A,2.62,3.19,2.96
+F1,23/08/2020,Nimes,Brest,4,0,H,2,0,H,2.29,3.39,3.32
+F1,23/08/2020,Nice,Lens,2,1,H,1,1,D,2.05,3.36,4.06
+F2,22/08/2020,Toulouse,Dunkerque,0,1,A,0,0,D,1.7,3.32,6.32
+F2,22/08/2020,Ajaccio,Chateauroux,0,1,A,0,0,D,1.7,3.43,5.91
+F2,22/08/2020,Amiens,Nancy,1,0,H,0,0,D,2.15,3.48,3.4
+F2,22/08/2020,Auxerre,Sochaux,0,2,A,0,1,A,2.13,2.83,4.48
+F2,22/08/2020,Chambly,Paris FC,0,3,A,0,1,A,2.88,2.79,2.94
+F2,22/08/2020,Clermont,Caen,0,0,D,0,0,D,2.3,2.87,3.83
+F2,22/08/2020,Guingamp,Niort,0,1,A,0,1,A,1.54,3.89,6.93
+F2,22/08/2020,Rodez,Grenoble,1,0,H,0,0,D,2.34,3.01,3.5
+F2,22/08/2020,Valenciennes,Pau FC,3,0,H,2,0,H,2,3.1,4.54
+F2,24/08/2020,Troyes,Le Havre,2,0,H,0,0,D,2.15,3,4.03
 B1,08/08/2020,Club Brugge,Charleroi,0,1,A,0,0,D,1.53,4.13,6.81
 B1,08/08/2020,Antwerp,Mouscron,1,1,D,0,0,D,1.32,5.34,10.09
 B1,08/08/2020,Standard,Cercle Brugge,1,0,H,0,0,D,1.43,4.75,7.44
@@ -16,6 +33,15 @@ B1,16/08/2020,Beerschot VA,Waregem,3,1,H,1,0,H,2.34,3.53,3.04
 B1,16/08/2020,Eupen,Club Brugge,0,4,A,0,1,A,8.3,4.43,1.44
 B1,16/08/2020,Anderlecht,St Truiden,3,1,H,1,0,H,1.45,4.76,7.08
 B1,17/08/2020,Waasland-Beveren,Standard,1,2,A,0,0,D,5.8,4.26,1.57
+B1,21/08/2020,Kortrijk,Eupen,0,0,D,0,0,D,2.37,3.42,3.06
+B1,22/08/2020,Waregem,Waasland-Beveren,4,1,H,1,0,H,1.75,3.98,4.6
+B1,22/08/2020,Mechelen,Cercle Brugge,2,3,A,1,0,H,1.81,3.8,4.44
+B1,22/08/2020,Oud-Heverlee Leuven,Charleroi,1,3,A,1,1,D,4.61,3.73,1.8
+B1,22/08/2020,Antwerp,Gent,1,0,H,1,0,H,2.7,3.43,2.64
+B1,23/08/2020,Standard,Genk,0,0,D,0,0,D,2.23,3.38,3.38
+B1,23/08/2020,Club Brugge,Beerschot VA,0,1,A,0,1,A,1.3,5.68,9.92
+B1,23/08/2020,Anderlecht,Mouscron,1,1,D,0,0,D,1.39,4.91,8.38
+B1,24/08/2020,St Truiden,Oostende,0,0,D,0,0,D,2.08,3.6,3.56
 SC0,01/08/2020,Aberdeen,Rangers,0,1,A,0,1,A,7.45,4.61,1.45
 SC0,01/08/2020,Dundee United,St Johnstone,1,1,D,1,0,H,2.68,3.34,2.73
 SC0,01/08/2020,Hibernian,Kilmarnock,2,1,H,2,1,H,2.12,3.47,3.57
@@ -37,3 +63,9 @@ SC0,15/08/2020,Ross County,Dundee United,1,2,A,1,1,D,2.65,3.45,2.68
 SC0,15/08/2020,Hibernian,Motherwell,0,0,D,0,0,D,2.05,3.54,3.72
 SC0,16/08/2020,Livingston,Rangers,0,0,D,0,0,D,8.59,4.87,1.39
 SC0,20/08/2020,St Johnstone,Aberdeen,0,1,A,0,0,D,,,
+SC0,22/08/2020,Motherwell,Hamilton,0,1,A,0,0,D,1.62,3.88,5.98
+SC0,22/08/2020,Rangers,Kilmarnock,2,0,H,0,0,D,1.17,7.75,17.53
+SC0,22/08/2020,St Mirren,Ross County,1,1,D,1,0,H,2.47,3.43,2.92
+SC0,22/08/2020,Dundee United,Celtic,0,1,A,0,0,D,13.29,6.2,1.24
+SC0,23/08/2020,Aberdeen,Livingston,2,1,H,0,0,D,,,
+SC0,23/08/2020,St Johnstone,Hibernian,0,1,A,0,0,D,3.03,3.45,2.38

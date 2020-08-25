@@ -19,3 +19,9 @@ INSERT INTO SC0 VALUES('SC0','15/08/2020','Ross County','Dundee United','1','2',
 INSERT INTO SC0 VALUES('SC0','15/08/2020','Hibernian','Motherwell','0','0','D','0','0','D','2.05','3.54','3.72');
 INSERT INTO SC0 VALUES('SC0','16/08/2020','Livingston','Rangers','0','0','D','0','0','D','8.59','4.87','1.39');
 INSERT INTO SC0 VALUES('SC0','20/08/2020','St Johnstone','Aberdeen','0','1','A','0','0','D','','','');
+INSERT INTO SC0 VALUES('SC0','22/08/2020','Motherwell','Hamilton','0','1','A','0','0','D','1.62','3.88','5.98');
+INSERT INTO SC0 VALUES('SC0','22/08/2020','Rangers','Kilmarnock','2','0','H','0','0','D','1.17','7.75','17.53');
+INSERT INTO SC0 VALUES('SC0','22/08/2020','St Mirren','Ross County','1','1','D','1','0','H','2.47','3.43','2.92');
+INSERT INTO SC0 VALUES('SC0','22/08/2020','Dundee United','Celtic','0','1','A','0','0','D','13.29','6.2','1.24');
+INSERT INTO SC0 VALUES('SC0','23/08/2020','Aberdeen','Livingston','2','1','H','0','0','D','','','');
+INSERT INTO SC0 VALUES('SC0','23/08/2020','St Johnstone','Hibernian','0','1','A','0','0','D','3.03','3.45','2.38');
