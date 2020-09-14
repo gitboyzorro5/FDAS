@@ -18,3 +18,11 @@ INSERT INTO F2 VALUES('F2','29/08/2020','Niort','Chambly','1','1','D','0','1','A
 INSERT INTO F2 VALUES('F2','29/08/2020','Paris FC','Valenciennes','1','0','H','0','0','D','2.38','2.86','3.54');
 INSERT INTO F2 VALUES('F2','29/08/2020','Pau FC','Rodez','1','1','D','0','0','D','2.54','2.87','3.23');
 INSERT INTO F2 VALUES('F2','29/08/2020','Sochaux','Troyes','2','1','H','1','0','H','3.02','2.75','2.8');
+INSERT INTO F2 VALUES('F2','12/09/2020','Guingamp','Le Havre','1','3','A','0','2','A','2.15','2.97','4.1');
+INSERT INTO F2 VALUES('F2','12/09/2020','Amiens','Paris FC','1','2','A','0','1','A','2.3','3.17','3.47');
+INSERT INTO F2 VALUES('F2','12/09/2020','Auxerre','Clermont','0','1','A','0','0','D','2.61','3.02','3.09');
+INSERT INTO F2 VALUES('F2','12/09/2020','Chambly','Grenoble','1','2','A','1','0','H','3.33','2.87','2.57');
+INSERT INTO F2 VALUES('F2','12/09/2020','Niort','Nancy','1','0','H','0','0','D','2.87','2.97','2.83');
+INSERT INTO F2 VALUES('F2','12/09/2020','Rodez','Caen','0','3','A','0','1','A','3.05','2.98','2.67');
+INSERT INTO F2 VALUES('F2','12/09/2020','Troyes','Pau FC','2','0','H','1','0','H','1.79','3.38','5.31');
+INSERT INTO F2 VALUES('F2','12/09/2020','Valenciennes','Chateauroux','1','0','H','0','0','D','2.26','3.12','3.61');
