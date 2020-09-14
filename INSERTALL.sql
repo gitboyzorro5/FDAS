@@ -108,12 +108,6 @@ INSERT INTO F2 VALUES('F2','12/09/2020','Niort','Nancy','1','0','H','0','0','D',
 INSERT INTO F2 VALUES('F2','12/09/2020','Rodez','Caen','0','3','A','0','1','A','3.05','2.98','2.67');
 INSERT INTO F2 VALUES('F2','12/09/2020','Troyes','Pau FC','2','0','H','1','0','H','1.79','3.38','5.31');
 INSERT INTO F2 VALUES('F2','12/09/2020','Valenciennes','Chateauroux','1','0','H','0','0','D','2.26','3.12','3.61');
-INSERT INTO P1 VALUES('<html><head>','','','','','','','','','','','','');
-INSERT INTO P1 VALUES('<title>301 Moved Permanently</title>','','','','','','','','','','','','');
-INSERT INTO P1 VALUES('</head><body>','','','','','','','','','','','','');
-INSERT INTO P1 VALUES('<h1>Moved Permanently</h1>','','','','','','','','','','','','');
-INSERT INTO P1 VALUES('<p>The document has moved <a href="http://www.football-data.co.uk/mmz4281/2021/SP1.csv">here</a>.</p>','','','','','','','','','','','','');
-INSERT INTO P1 VALUES('</body></html>','','','','','','','','','','','','');
 INSERT INTO N1 VALUES('N1','12/09/2020','Heerenveen','Willem II','2','0','H','1','0','H','2.64','3.57','2.68');
 INSERT INTO N1 VALUES('N1','12/09/2020','Zwolle','Feyenoord','0','2','A','0','1','A','4.29','4.23','1.76');
 INSERT INTO N1 VALUES('N1','12/09/2020','Twente','For Sittard','2','0','H','1','0','H','1.91','3.74','4.1');
