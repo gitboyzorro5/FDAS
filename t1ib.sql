@@ -7,3 +7,4 @@ INSERT INTO T1 VALUES('T1','13/09/2020','Ankaragucu','Erzurum BB','1','2','A','0
 INSERT INTO T1 VALUES('T1','13/09/2020','Kayserispor','Kasimpasa','1','0','H','1','0','H','2.73','3.57','2.54');
 INSERT INTO T1 VALUES('T1','13/09/2020','Antalyaspor','Genclerbirligi','2','0','H','1','0','H','2.24','3.37','3.37');
 INSERT INTO T1 VALUES('T1','13/09/2020','Trabzonspor','Besiktas','1','3','A','0','1','A','2.13','3.55','3.54');
+INSERT INTO T1 VALUES('T1','14/09/2020','Hatayspor','Buyuksehyr','2','0','H','1','0','H','4.97','3.61','1.78');
