@@ -22,3 +22,15 @@ INSERT INTO E2 VALUES('E2','19/09/2020','Peterboro','Fleetwood Town','2','1','H'
 INSERT INTO E2 VALUES('E2','19/09/2020','Shrewsbury','Northampton','1','2','A','0','1','A','2.23','3.37','3.39');
 INSERT INTO E2 VALUES('E2','19/09/2020','Wigan','Gillingham','2','3','A','1','2','A','2.61','3.49','2.79');
 INSERT INTO E2 VALUES('E2','20/09/2020','Rochdale','Portsmouth','0','0','D','0','0','D','5.19','3.85','1.73');
+INSERT INTO E2 VALUES('E2','26/09/2020','Accrington','Oxford','1','4','A','0','1','A','3.27','3.34','2.37');
+INSERT INTO E2 VALUES('E2','26/09/2020','Crewe','Milton Keynes Dons','2','0','H','2','0','H','2.33','3.48','3.21');
+INSERT INTO E2 VALUES('E2','26/09/2020','Doncaster','Bristol Rvs','4','1','H','2','1','H','1.88','3.79','4.24');
+INSERT INTO E2 VALUES('E2','26/09/2020','Fleetwood Town','AFC Wimbledon','0','1','A','0','1','A','1.65','4.2','5.4');
+INSERT INTO E2 VALUES('E2','26/09/2020','Gillingham','Blackpool','2','0','H','1','0','H','3.12','3.6','2.33');
+INSERT INTO E2 VALUES('E2','26/09/2020','Ipswich','Rochdale','2','0','H','0','0','D','1.45','4.58','8.07');
+INSERT INTO E2 VALUES('E2','26/09/2020','Northampton','Hull','0','2','A','0','2','A','3.41','3.68','2.16');
+INSERT INTO E2 VALUES('E2','26/09/2020','Plymouth','Shrewsbury','1','1','D','1','1','D','2.36','3.59','3.08');
+INSERT INTO E2 VALUES('E2','26/09/2020','Portsmouth','Wigan','1','2','A','0','1','A','1.59','4.36','5.8');
+INSERT INTO E2 VALUES('E2','26/09/2020','Sunderland','Peterboro','1','0','H','0','0','D','2.07','3.56','3.77');
+INSERT INTO E2 VALUES('E2','26/09/2020','Swindon','Burton','4','2','H','3','1','H','2.4','3.39','3.16');
+INSERT INTO E2 VALUES('E2','27/09/2020','Lincoln','Charlton','2','0','H','1','0','H','2.48','3.22','3.18');
