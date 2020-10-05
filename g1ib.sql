@@ -14,3 +14,9 @@ INSERT INTO G1 VALUES('G1','27/09/2020','Aris','Giannina','2','2','D','0','2','A
 INSERT INTO G1 VALUES('G1','27/09/2020','OFI Crete','Atromitos','2','2','D','0','1','A','2.39','3.07','3.34');
 INSERT INTO G1 VALUES('G1','27/09/2020','AEK','Lamia','3','0','H','1','0','H','1.24','5.81','14.11');
 INSERT INTO G1 VALUES('G1','28/09/2020','Larisa','Panathinaikos','1','1','D','0','1','A','3.3','3.24','2.31');
+INSERT INTO G1 VALUES('G1','03/10/2020','Panetolikos','Asteras Tripolis','1','1','D','0','1','A','2.53','3.25','2.93');
+INSERT INTO G1 VALUES('G1','04/10/2020','Panathinaikos','Aris','0','1','A','0','1','A','1.98','3.29','4.23');
+INSERT INTO G1 VALUES('G1','04/10/2020','Apollon','Larisa','1','0','H','0','0','D','2.56','3.17','2.96');
+INSERT INTO G1 VALUES('G1','04/10/2020','PAOK','OFI Crete','3','0','H','1','0','H','1.22','6.4','13.71');
+INSERT INTO G1 VALUES('G1','04/10/2020','Giannina','Olympiakos','1','1','D','1','0','H','8.47','4.92','1.37');
+INSERT INTO G1 VALUES('G1','04/10/2020','Atromitos','AEK','1','0','H','1','0','H','3.7','3.14','2.2');

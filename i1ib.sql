@@ -18,3 +18,12 @@ INSERT INTO I1 VALUES('I1','28/09/2020','Bologna','Parma','4','1','H','2','0','H
 INSERT INTO I1 VALUES('I1','30/09/2020','Benevento','Inter','2','5','A','1','4','A','8.84','5.44','1.35');
 INSERT INTO I1 VALUES('I1','30/09/2020','Udinese','Spezia','0','2','A','0','1','A','1.63','3.95','6.05');
 INSERT INTO I1 VALUES('I1','30/09/2020','Lazio','Atalanta','1','4','A','0','3','A','2.62','3.84','2.56');
+INSERT INTO I1 VALUES('I1','02/10/2020','Fiorentina','Sampdoria','1','2','A','0','1','A','1.68','4.21','5.26');
+INSERT INTO I1 VALUES('I1','03/10/2020','Sassuolo','Crotone','4','1','H','1','0','H','1.44','5.01','7.65');
+INSERT INTO I1 VALUES('I1','03/10/2020','Udinese','Roma','0','1','A','0','0','D','5.33','4.1','1.68');
+INSERT INTO I1 VALUES('I1','04/10/2020','Atalanta','Cagliari','5','2','H','4','1','H','1.29','6.34','10.01');
+INSERT INTO I1 VALUES('I1','04/10/2020','Benevento','Bologna','1','0','H','0','0','D','3.24','3.78','2.23');
+INSERT INTO I1 VALUES('I1','04/10/2020','Lazio','Inter','1','1','D','0','1','A','3.2','3.95','2.19');
+INSERT INTO I1 VALUES('I1','04/10/2020','Parma','Verona','1','0','H','1','0','H','2.96','3.22','2.68');
+INSERT INTO I1 VALUES('I1','04/10/2020','Milan','Spezia','3','0','H','0','0','D','1.28','6.01','11.87');
+INSERT INTO I1 VALUES('I1','04/10/2020','Juventus','Napoli','3','0','H','','','','2.03','3.68','3.71');
