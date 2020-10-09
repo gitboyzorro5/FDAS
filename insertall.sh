@@ -4,7 +4,7 @@ awk -F, -f in_E0.awk E0.csv | sed '1d' >> eoib.sql
 awk -F, -f in_E1.awk E1.csv | sed '1d'| sed "s/'Nott'm Forest'/'Nottm Forest'/g" >> e1ib.sql	
 awk -F, -f in_E2.awk E2.csv | sed '1d' >> e2ib.sql
 awk -F, -f in_E3.awk E3.csv | sed '1d' >> e3ib.sql
-awk -F, -f in_EC.awk EC.csv | sed '1d' >> ecib.sql	
+awk -F, -f in_EC.awk EC.csv | sed '1d'| sed "s/\x92//g"  >> ecib.sql	
 # insert SP1 SP2 D1 D2 F1 F2 I1 I2
 awk -F, -f in_SP1.awk SP1.csv | sed '1d' >> sp1ib.sql	
 awk -F, -f in_SP2.awk SP2.csv | sed '1d' >> sp2ib.sql	
