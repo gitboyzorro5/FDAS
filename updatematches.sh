@@ -21,6 +21,6 @@ awk -v OFS=, -f magical.awk tempallmatches1.txt cs.txt > tempallmatches2.txt
 cat tempallmatches2.txt >> allteams20202021.csv
 cat allteams2010-present.backup >> allteams2010-present.csv
 sed -n '2,$p' allteams20202021.csv >> allteams2010-present.csv
-
+sed -i -e 's/\x92//g' EC.csv
 
 
