@@ -36,3 +36,11 @@ INSERT INTO E0 VALUES('E0','04/10/2020','Arsenal','Sheffield United','2','1','H'
 INSERT INTO E0 VALUES('E0','04/10/2020','Wolves','Fulham','1','0','H','0','0','D','1.51','4.2','7.63');
 INSERT INTO E0 VALUES('E0','04/10/2020','Man United','Tottenham','1','6','A','1','4','A','1.93','3.76','4.09');
 INSERT INTO E0 VALUES('E0','04/10/2020','Aston Villa','Liverpool','7','2','H','4','1','H','10.05','5.4','1.33');
+INSERT INTO E0 VALUES('E0','17/10/2020','Everton','Liverpool','2','2','D','1','1','D','4.04','4.2','1.87');
+INSERT INTO E0 VALUES('E0','17/10/2020','Chelsea','Southampton','3','3','D','2','1','H','1.56','4.53','6.14');
+INSERT INTO E0 VALUES('E0','17/10/2020','Man City','Arsenal','1','0','H','1','0','H','1.51','4.87','6.36');
+INSERT INTO E0 VALUES('E0','17/10/2020','Newcastle','Man United','1','4','A','1','1','D','4.87','4.18','1.74');
+INSERT INTO E0 VALUES('E0','18/10/2020','Sheffield United','Fulham','1','1','D','0','0','D','2.15','3.4','3.84');
+INSERT INTO E0 VALUES('E0','18/10/2020','Crystal Palace','Brighton','1','1','D','1','0','H','2.73','3.34','2.83');
+INSERT INTO E0 VALUES('E0','18/10/2020','Tottenham','West Ham','3','3','D','3','0','H','1.64','4.21','5.63');
+INSERT INTO E0 VALUES('E0','18/10/2020','Leicester','Aston Villa','0','1','A','0','0','D','1.93','3.89','4.1');

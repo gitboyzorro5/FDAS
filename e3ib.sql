@@ -54,3 +54,18 @@ INSERT INTO E3 VALUES('E3','10/10/2020','Salford','Tranmere','2','2','D','2','0'
 INSERT INTO E3 VALUES('E3','10/10/2020','Scunthorpe','Forest Green','1','4','A','1','2','A','3.26','3.51','2.27');
 INSERT INTO E3 VALUES('E3','10/10/2020','Southend','Exeter','2','2','D','1','1','D','4.64','3.52','1.87');
 INSERT INTO E3 VALUES('E3','10/10/2020','Walsall','Colchester','1','1','D','0','1','A','2.3','3.39','3.29');
+INSERT INTO E3 VALUES('E3','12/10/2020','Bradford','Harrogate','0','1','A','0','0','D','2.45','3.39','3.02');
+INSERT INTO E3 VALUES('E3','13/10/2020','Cheltenham','Grimsby','1','3','A','1','2','A','1.74','4.02','4.68');
+INSERT INTO E3 VALUES('E3','13/10/2020','Walsall','Leyton Orient','2','1','H','1','1','D','2.03','3.58','3.8');
+INSERT INTO E3 VALUES('E3','17/10/2020','Bolton','Oldham','1','2','A','1','1','D','2.02','3.83','3.58');
+INSERT INTO E3 VALUES('E3','17/10/2020','Carlisle','Colchester','3','2','H','2','1','H','2.41','3.41','3.08');
+INSERT INTO E3 VALUES('E3','17/10/2020','Crawley Town','Morecambe','4','0','H','0','0','D','2.36','3.36','3.2');
+INSERT INTO E3 VALUES('E3','17/10/2020','Forest Green','Stevenage','1','0','H','1','0','H','1.68','4.01','5.15');
+INSERT INTO E3 VALUES('E3','17/10/2020','Harrogate','Barrow','1','0','H','1','0','H','2.02','3.58','3.83');
+INSERT INTO E3 VALUES('E3','17/10/2020','Mansfield','Bradford','1','3','A','0','2','A','2.2','3.46','3.45');
+INSERT INTO E3 VALUES('E3','17/10/2020','Newport County','Tranmere','1','0','H','1','0','H','2.06','3.18','4.34');
+INSERT INTO E3 VALUES('E3','17/10/2020','Port Vale','Salford','1','0','H','0','0','D','2.57','3.32','2.92');
+INSERT INTO E3 VALUES('E3','17/10/2020','Scunthorpe','Cambridge','0','5','A','0','2','A','2.84','3.41','2.58');
+INSERT INTO E3 VALUES('E3','17/10/2020','Southend','Cheltenham','0','2','A','0','1','A','5.86','3.88','1.64');
+INSERT INTO E3 VALUES('E3','17/10/2020','Walsall','Exeter','0','0','D','0','0','D','2.62','3.41','2.79');
+INSERT INTO E3 VALUES('E3','17/10/2020','Leyton Orient','Grimsby','2','3','A','1','2','A','2.2','3.5','3.4');
