@@ -49,3 +49,4 @@ INSERT INTO EC VALUES('EC','17/10/2020','Wealdstone','Wrexham','4','3','H','2','
 INSERT INTO EC VALUES('EC','17/10/2020','Weymouth','Kings Lynn','2','1','H','1','0','H','','','');
 INSERT INTO EC VALUES('EC','17/10/2020','Woking','Halifax','0','0','D','0','0','D','2.27','3.68','3.06');
 INSERT INTO EC VALUES('EC','17/10/2020','Chesterfield','Stockport','1','2','A','1','1','D','3.89','3.26','2.1');
+INSERT INTO EC VALUES('EC','20/10/2020','Wealdstone','Chesterfield','3','2','H','2','1','H','2.52','3.65','2.72');

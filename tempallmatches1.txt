@@ -44,6 +44,8 @@ E0,18/10/2020,Sheffield United,Fulham,1,1,D,0,0,D,2.15,3.4,3.84,0-0
 E0,18/10/2020,Crystal Palace,Brighton,1,1,D,1,0,H,2.73,3.34,2.83,1-0
 E0,18/10/2020,Tottenham,West Ham,3,3,D,3,0,H,1.64,4.21,5.63,3-0
 E0,18/10/2020,Leicester,Aston Villa,0,1,A,0,0,D,1.93,3.89,4.1,0-0
+E0,19/10/2020,West Brom,Burnley,0,0,D,0,0,D,2.54,3.37,3.05,0-0
+E0,19/10/2020,Leeds,Wolves,0,1,A,0,0,D,2.55,3.31,3.07,0-0
 E1,11/09/2020,Watford,Middlesbrough,1,0,H,1,0,H,1.99,3.46,4.12,1-0
 E1,12/09/2020,Birmingham,Brentford,1,0,H,1,0,H,4.7,3.58,1.84,1-0
 E1,12/09/2020,Wycombe,Rotherham,0,1,A,0,0,D,2.84,3.33,2.58,0-0
@@ -104,6 +106,18 @@ E1,17/10/2020,Rotherham,Norwich,1,2,A,1,0,H,3.87,3.6,2.03,1-0
 E1,17/10/2020,Swansea,Huddersfield,1,2,A,1,1,D,1.99,3.39,4.3,1-1
 E1,17/10/2020,Wycombe,Millwall,1,2,A,1,0,H,5.35,3.6,1.77,1-0
 E1,18/10/2020,Preston,Cardiff,0,1,A,0,0,D,2.27,3.36,3.45,0-0
+E1,20/10/2020,Bristol City,Middlesbrough,0,1,A,0,0,D,2.43,3.3,3.19,0-0
+E1,20/10/2020,Coventry,Swansea,1,1,D,1,1,D,3.62,3.46,2.16,1-1
+E1,20/10/2020,Huddersfield,Derby,1,0,H,0,0,D,2.47,3.12,3.32,0-0
+E1,20/10/2020,Millwall,Luton,2,0,H,1,0,H,2.1,3.3,4,1-0
+E1,20/10/2020,Norwich,Birmingham,1,0,H,0,0,D,1.73,3.71,5.45,0-0
+E1,20/10/2020,Nottm Forest,Rotherham,1,1,D,0,0,D,1.88,3.64,4.5,0-0
+E1,20/10/2020,Reading,Wycombe,1,0,H,0,0,D,1.49,4.48,7.37,0-0
+E1,21/10/2020,Cardiff,Bournemouth,1,1,D,0,1,A,3.25,3.26,2.42,0-1
+E1,21/10/2020,QPR,Preston,0,2,A,0,1,A,2.72,3.27,2.83,0-1
+E1,21/10/2020,Sheffield Weds,Brentford,1,2,A,1,2,A,3.65,3.43,2.16,1-2
+E1,21/10/2020,Stoke,Barnsley,2,2,D,1,2,A,2.02,3.37,4.2,1-2
+E1,21/10/2020,Watford,Blackburn,3,1,H,2,1,H,2.13,3.44,3.72,2-1
 E2,12/09/2020,Accrington,Peterboro,2,0,H,1,0,H,3.45,3.65,2.1,1-0
 E2,12/09/2020,Crewe,Charlton,0,2,A,0,2,A,2.82,3.4,2.56,0-2
 E2,12/09/2020,Doncaster,Milton Keynes Dons,1,1,D,0,0,D,2.16,3.34,3.7,0-0
@@ -173,6 +187,18 @@ E2,17/10/2020,Plymouth,Northampton,2,1,H,1,0,H,1.83,3.8,4.44,1-0
 E2,17/10/2020,Portsmouth,Doncaster,0,1,A,0,0,D,2.14,3.34,3.75,0-0
 E2,17/10/2020,Rochdale,Hull,0,3,A,0,1,A,4.18,3.77,1.88,0-1
 E2,17/10/2020,Swindon,Sunderland,0,2,A,0,1,A,4.47,3.62,1.87,0-1
+E2,20/10/2020,Shrewsbury,Bristol Rvs,0,1,A,0,1,A,2.21,3.21,3.8,0-1
+E2,20/10/2020,Gillingham,Portsmouth,0,2,A,0,2,A,4.03,3.68,1.96,0-2
+E2,20/10/2020,Accrington,Fleetwood Town,1,0,H,0,0,D,2.92,3.32,2.6,0-0
+E2,20/10/2020,Blackpool,Charlton,0,1,A,0,0,D,2.15,3.51,3.6,0-0
+E2,20/10/2020,Doncaster,Ipswich,4,1,H,2,1,H,2.6,3.22,3.01,2-1
+E2,20/10/2020,Hull,AFC Wimbledon,1,0,H,1,0,H,1.78,3.77,4.94,1-0
+E2,20/10/2020,Lincoln,Plymouth,2,0,H,0,0,D,2.14,3.43,3.71,0-0
+E2,20/10/2020,Oxford,Milton Keynes Dons,3,2,H,1,1,D,2.3,3.48,3.26,1-1
+E2,20/10/2020,Sunderland,Crewe,1,0,H,1,0,H,1.79,3.66,5.01,1-0
+E2,20/10/2020,Wigan,Peterboro,0,1,A,0,1,A,3.96,3.64,1.99,0-1
+E2,20/10/2020,Burton,Rochdale,0,1,A,0,0,D,2.28,3.44,3.36,0-0
+E2,20/10/2020,Northampton,Swindon,2,1,H,2,0,H,3.1,3.41,2.43,2-0
 E3,12/09/2020,Barrow,Stevenage,1,1,D,1,0,H,2.21,3.45,3.36,1-0
 E3,12/09/2020,Bolton,Forest Green,0,1,A,0,0,D,2.21,3.43,3.44,0-0
 E3,12/09/2020,Bradford,Colchester,0,0,D,0,0,D,2.22,3.26,3.55,0-0
@@ -244,6 +270,18 @@ E3,17/10/2020,Scunthorpe,Cambridge,0,5,A,0,2,A,2.84,3.41,2.58,0-2
 E3,17/10/2020,Southend,Cheltenham,0,2,A,0,1,A,5.86,3.88,1.64,0-1
 E3,17/10/2020,Walsall,Exeter,0,0,D,0,0,D,2.62,3.41,2.79,0-0
 E3,17/10/2020,Leyton Orient,Grimsby,2,3,A,1,2,A,2.2,3.5,3.4,1-2
+E3,20/10/2020,Cheltenham,Scunthorpe,1,0,H,1,0,H,1.5,4.35,7.32,1-0
+E3,20/10/2020,Morecambe,Mansfield,1,1,D,1,1,D,2.97,3.35,2.55,1-1
+E3,20/10/2020,Barrow,Bolton,3,3,D,3,2,H,2.47,3.37,3.06,3-2
+E3,20/10/2020,Cambridge,Port Vale,3,1,H,1,1,D,2.38,3.13,3.47,1-1
+E3,20/10/2020,Colchester,Forest Green,1,0,H,1,0,H,3.12,3.29,2.48,1-0
+E3,20/10/2020,Exeter,Crawley Town,2,1,H,0,1,A,1.81,3.86,4.59,0-1
+E3,20/10/2020,Oldham,Carlisle,1,1,D,0,0,D,3.1,3.25,2.52,0-0
+E3,20/10/2020,Stevenage,Newport County,0,1,A,0,1,A,3.58,3.17,2.31,0-1
+E3,20/10/2020,Tranmere,Leyton Orient,0,1,A,0,0,D,2.23,3.39,3.5,0-0
+E3,20/10/2020,Bradford,Walsall,1,1,D,0,1,A,2.56,3.26,3.03,0-1
+E3,20/10/2020,Grimsby,Harrogate,1,2,A,1,2,A,3.57,3.58,2.13,1-2
+E3,20/10/2020,Salford,Southend,3,0,H,1,0,H,1.43,4.6,8.75,1-0
 EC,03/10/2020,Altrincham,Weymouth,0,0,D,0,0,D,1.89,3.87,4,0-0
 EC,03/10/2020,Barnet,Eastleigh,1,5,A,1,1,D,2.22,3.56,3.32,1-1
 EC,03/10/2020,Dover Athletic,Notts County,1,0,H,0,0,D,4.38,4,1.79,0-0
@@ -295,6 +333,7 @@ EC,17/10/2020,Wealdstone,Wrexham,4,3,H,2,2,D,3.36,3.64,2.14,2-2
 EC,17/10/2020,Weymouth,Kings Lynn,2,1,H,1,0,H,,,,1-0
 EC,17/10/2020,Woking,Halifax,0,0,D,0,0,D,2.27,3.68,3.06,0-0
 EC,17/10/2020,Chesterfield,Stockport,1,2,A,1,1,D,3.89,3.26,2.1,1-1
+EC,20/10/2020,Wealdstone,Chesterfield,3,2,H,2,1,H,2.52,3.65,2.72,2-1
 SP1,12/09/2020,Eibar,Celta,0,0,D,0,0,D,2.6,3.22,3.01,0-0
 SP1,12/09/2020,Granada,Ath Bilbao,2,0,H,0,0,D,2.92,3.02,2.82,0-0
 SP1,12/09/2020,Cadiz,Osasuna,0,2,A,0,1,A,2.87,3.04,2.86,0-1
@@ -409,6 +448,12 @@ SP2,18/10/2020,Mirandes,Mallorca,0,0,D,0,0,D,2.93,2.87,2.91,0-0
 SP2,18/10/2020,Zaragoza,Malaga,1,2,A,0,2,A,1.97,3.22,4.62,0-2
 SP2,18/10/2020,Girona,Oviedo,1,0,H,0,0,D,2.07,3.12,4.32,0-0
 SP2,18/10/2020,Sp Gijon,Tenerife,1,1,D,0,0,D,2.43,2.79,3.81,0-0
+SP2,21/10/2020,Espanol,Mirandes,2,0,H,2,0,H,1.52,3.95,7.96,2-0
+SP2,21/10/2020,Las Palmas,Castellon,2,1,H,0,0,D,2.17,3.14,3.92,0-0
+SP2,21/10/2020,Lugo,Girona,3,0,H,0,0,D,3.29,2.98,2.54,0-0
+SP2,21/10/2020,Ponferradina,Tenerife,1,0,H,1,0,H,2.98,2.74,3.01,1-0
+SP2,21/10/2020,Almeria,Cartagena,1,1,D,0,1,A,2.16,3.22,3.84,0-1
+SP2,21/10/2020,Fuenlabrada,Logrones,0,0,D,0,0,D,2.09,2.93,4.65,0-0
 D1,18/09/2020,Bayern Munich,Schalke 04,8,0,H,3,0,H,1.1,12.11,27.06,3-0
 D1,19/09/2020,Ein Frankfurt,Bielefeld,1,1,D,0,0,D,1.67,4.21,5.08,0-0
 D1,19/09/2020,FC Koln,Hoffenheim,2,3,A,1,2,A,2.62,3.67,2.63,1-2
@@ -478,6 +523,8 @@ D2,18/10/2020,Erzgebirge Aue,Heidenheim,2,1,H,0,0,D,2.68,3.38,2.79,0-0
 D2,18/10/2020,Fortuna Dusseldorf,Regensburg,2,2,D,0,2,A,1.78,3.9,4.71,0-2
 D2,18/10/2020,Paderborn,Hannover,1,0,H,1,0,H,3.06,3.63,2.35,1-0
 D2,18/10/2020,Wurzburger Kickers,Holstein Kiel,0,2,A,0,1,A,3.65,3.94,2,0-1
+D2,19/10/2020,St Pauli,Nurnberg,2,2,D,1,1,D,2.49,3.44,2.93,1-1
+D2,21/10/2020,Hamburg,Erzgebirge Aue,3,0,H,1,0,H,1.53,4.12,7.43,1-0
 F1,21/08/2020,Bordeaux,Nantes,0,0,D,0,0,D,2.48,3.03,3.33,0-0
 F1,22/08/2020,Dijon,Angers,0,1,A,0,1,A,2.79,3.09,2.84,0-1
 F1,22/08/2020,Lille,Rennes,1,1,D,1,0,H,2.3,3.22,3.47,1-0
@@ -617,6 +664,7 @@ F2,17/10/2020,Nancy,Dunkerque,2,1,H,2,0,H,2.41,3.22,3.19,2-0
 F2,17/10/2020,Niort,Caen,3,0,H,1,0,H,3.03,3.18,2.54,1-0
 F2,17/10/2020,Paris FC,Pau FC,1,0,H,0,0,D,1.96,3.25,4.47,0-0
 F2,17/10/2020,Rodez,Troyes,0,1,A,0,0,D,3.14,3.09,2.52,0-0
+F2,19/10/2020,Guingamp,Auxerre,2,0,H,0,0,D,2.24,3.1,3.7,0-0
 I1,19/09/2020,Fiorentina,Torino,1,0,H,0,0,D,1.87,3.81,4.24,0-0
 I1,19/09/2020,Verona,Roma,0,0,D,0,0,D,3.95,3.81,1.94,0-0
 I1,20/09/2020,Parma,Napoli,0,2,A,0,0,D,5.22,4.29,1.64,0-0
@@ -655,6 +703,7 @@ I1,18/10/2020,Spezia,Fiorentina,2,2,D,1,2,A,5.84,4.1,1.64,1-2
 I1,18/10/2020,Torino,Cagliari,2,3,A,1,2,A,2.23,3.55,3.43,1-2
 I1,18/10/2020,Udinese,Parma,3,2,H,1,1,D,,,,1-1
 I1,18/10/2020,Roma,Benevento,5,2,H,2,1,H,1.33,5.66,10.09,2-1
+I1,19/10/2020,Verona,Genoa,0,0,D,0,0,D,,,,0-0
 I2,25/09/2020,Monza,Spal,0,0,D,0,0,D,2.13,3.41,3.77,0-0
 I2,26/09/2020,Brescia,Ascoli,1,1,D,1,1,D,1.85,3.42,5.05,1-1
 I2,26/09/2020,Cosenza,Virtus Entella,0,0,D,0,0,D,2.29,3.21,3.57,0-0
@@ -684,6 +733,16 @@ I2,17/10/2020,Reggiana,Chievo,0,1,A,0,1,A,3.02,3.06,2.71,0-1
 I2,17/10/2020,Salernitana,Pisa,4,1,H,1,0,H,2.36,3.28,3.34,1-0
 I2,17/10/2020,Virtus Entella,Reggina,1,1,D,0,0,D,2.44,3.15,3.33,0-0
 I2,17/10/2020,Pescara,Empoli,1,2,A,1,1,D,3.04,3.17,2.61,1-1
+I2,20/10/2020,Ascoli,Reggiana,2,1,H,2,0,H,2.16,3.26,3.87,2-0
+I2,20/10/2020,Chievo,Brescia,1,0,H,1,0,H,2.29,3.18,3.61,1-0
+I2,20/10/2020,Cittadella,Pordenone,2,0,H,1,0,H,2.19,3.18,3.9,1-0
+I2,20/10/2020,Empoli,Spal,2,1,H,0,1,A,2.82,3.05,2.9,0-1
+I2,20/10/2020,Frosinone,Virtus Entella,0,0,D,0,0,D,2.02,3.28,4.39,0-0
+I2,20/10/2020,Pisa,Monza,1,1,D,0,0,D,,,,0-0
+I2,20/10/2020,Reggina,Cosenza,0,0,D,0,0,D,1.98,3.37,4.39,0-0
+I2,20/10/2020,Venezia,Pescara,4,0,H,1,0,H,2.23,3.21,3.74,1-0
+I2,20/10/2020,Vicenza,Salernitana,1,1,D,1,1,D,2.23,3.17,3.79,1-1
+I2,21/10/2020,Lecce,Cremonese,2,2,D,0,2,A,1.76,3.47,5.75,0-2
 P1,18/09/2020,Famalicao,Benfica,1,5,A,0,3,A,8.3,4.92,1.41,0-3
 P1,18/09/2020,Guimaraes,Belenenses,0,1,A,0,0,D,1.51,4.31,7.29,0-0
 P1,19/09/2020,Nacional,Boavista,3,3,D,2,2,D,2.6,3.09,3.02,2-2
@@ -718,6 +777,7 @@ P1,18/10/2020,Belenenses,Moreirense,0,0,D,0,0,D,2.49,2.99,3.42,0-0
 P1,18/10/2020,Pacos Ferreira,Santa Clara,2,1,H,1,0,H,2.56,3.25,3.04,1-0
 P1,18/10/2020,Farense,Famalicao,3,3,D,2,0,H,2.6,3.3,2.94,2-0
 P1,18/10/2020,Rio Ave,Benfica,0,3,A,0,2,A,5.95,4.38,1.57,0-2
+P1,19/10/2020,Boavista,Guimaraes,0,1,A,0,1,A,3.97,3.24,2.11,0-1
 N1,12/09/2020,Heerenveen,Willem II,2,0,H,1,0,H,2.64,3.57,2.68,1-0
 N1,12/09/2020,Zwolle,Feyenoord,0,2,A,0,1,A,4.29,4.23,1.76,0-1
 N1,12/09/2020,Twente,For Sittard,2,0,H,1,0,H,1.91,3.74,4.1,1-0
@@ -761,6 +821,7 @@ N1,18/10/2020,Den Haag,Vitesse,0,2,A,0,1,A,5.32,4.19,1.65,0-1
 N1,18/10/2020,Groningen,Utrecht,0,0,D,0,0,D,2.92,3.6,2.45,0-0
 N1,18/10/2020,Zwolle,PSV Eindhoven,0,3,A,0,3,A,5.35,4.46,1.61,0-3
 N1,18/10/2020,FC Emmen,For Sittard,2,2,D,0,2,A,2.02,3.99,3.53,0-2
+N1,21/10/2020,Waalwijk,Zwolle,1,1,D,0,0,D,3.56,3.44,2.19,0-0
 B1,08/08/2020,Club Brugge,Charleroi,0,1,A,0,0,D,1.53,4.13,6.81,0-0
 B1,08/08/2020,Antwerp,Mouscron,1,1,D,0,0,D,1.32,5.34,10.09,0-0
 B1,08/08/2020,Standard,Cercle Brugge,1,0,H,0,0,D,1.43,4.75,7.44,0-0
@@ -888,6 +949,8 @@ T1,17/10/2020,Trabzonspor,Buyuksehyr,0,2,A,0,1,A,2.38,3.38,3.09,0-1
 T1,18/10/2020,Antalyaspor,Gaziantep,1,1,D,1,0,H,2.09,3.19,4.03,1-0
 T1,18/10/2020,Karagumruk,Kasimpasa,1,1,D,1,0,H,2.76,3.33,2.66,1-0
 T1,18/10/2020,Goztep,Fenerbahce,2,3,A,1,2,A,3.52,3.71,2.06,1-2
+T1,19/10/2020,Galatasaray,Alanyaspor,1,2,A,1,1,D,1.98,3.32,4.28,1-1
+T1,19/10/2020,Genclerbirligi,Denizlispor,1,2,A,0,2,A,2.04,3.52,3.76,0-2
 G1,11/09/2020,Aris,Lamia,3,1,H,0,1,A,1.5,3.84,7.46,0-1
 G1,11/09/2020,PAOK,Larisa,1,0,H,1,0,H,1.21,5.82,14.78,1-0
 G1,12/09/2020,OFI Crete,Panetolikos,1,1,D,0,1,A,,,,0-1
@@ -917,6 +980,8 @@ G1,17/10/2020,Olympiakos,Atromitos,4,0,H,0,0,D,1.25,5.77,11.79,0-0
 G1,18/10/2020,OFI Crete,Panathinaikos,2,2,D,1,0,H,3.38,3.33,2.2,1-0
 G1,18/10/2020,Larisa,Asteras Tripolis,1,3,A,0,1,A,2.59,2.81,3.25,0-1
 G1,18/10/2020,AEK,PAOK,1,1,D,1,0,H,2.86,3.05,2.69,1-0
+G1,19/10/2020,Lamia,Panetolikos,0,0,D,0,0,D,2.42,2.8,3.58,0-0
+G1,21/10/2020,Apollon,Giannina,1,2,A,0,2,A,2.6,2.74,3.33,0-2
 SC0,01/08/2020,Aberdeen,Rangers,0,1,A,0,1,A,7.45,4.61,1.45,0-1
 SC0,01/08/2020,Dundee United,St Johnstone,1,1,D,1,0,H,2.68,3.34,2.73,1-0
 SC0,01/08/2020,Hibernian,Kilmarnock,2,1,H,2,1,H,2.12,3.47,3.57,2-1
@@ -979,3 +1044,4 @@ SC0,17/10/2020,Dundee United,Aberdeen,0,0,D,0,0,D,3.78,3.51,2.09,0-0
 SC0,17/10/2020,Hamilton,St Johnstone,3,5,A,2,3,A,4.21,3.89,1.87,2-3
 SC0,17/10/2020,Livingston,Kilmarnock,1,3,A,1,2,A,1.65,4.17,5.4,1-2
 SC0,17/10/2020,Ross County,Hibernian,0,0,D,0,0,D,4.3,3.77,1.88,0-0
+SC0,20/10/2020,Aberdeen,Hamilton,4,2,H,4,1,H,1.34,5.36,10.29,4-1

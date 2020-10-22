@@ -60,3 +60,4 @@ INSERT INTO SC0 VALUES('SC0','17/10/2020','Dundee United','Aberdeen','0','0','D'
 INSERT INTO SC0 VALUES('SC0','17/10/2020','Hamilton','St Johnstone','3','5','A','2','3','A','4.21','3.89','1.87');
 INSERT INTO SC0 VALUES('SC0','17/10/2020','Livingston','Kilmarnock','1','3','A','1','2','A','1.65','4.17','5.4');
 INSERT INTO SC0 VALUES('SC0','17/10/2020','Ross County','Hibernian','0','0','D','0','0','D','4.3','3.77','1.88');
+INSERT INTO SC0 VALUES('SC0','20/10/2020','Aberdeen','Hamilton','4','2','H','4','1','H','1.34','5.36','10.29');
