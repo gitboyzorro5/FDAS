@@ -69,3 +69,13 @@ INSERT INTO SP2 VALUES('SP2','22/10/2020','Leganes','Zaragoza','1','0','H','0','
 INSERT INTO SP2 VALUES('SP2','22/10/2020','Malaga','Sp Gijon','1','0','H','1','0','H','2.87','2.86','2.98');
 INSERT INTO SP2 VALUES('SP2','22/10/2020','Mallorca','Albacete','0','0','D','0','0','D','2.15','3.11','4.02');
 INSERT INTO SP2 VALUES('SP2','22/10/2020','Oviedo','Vallecano','0','0','D','0','0','D','3.08','2.94','2.72');
+INSERT INTO SP2 VALUES('SP2','24/10/2020','Cartagena','Las Palmas','3','0','H','2','0','H','2.53','2.83','3.52');
+INSERT INTO SP2 VALUES('SP2','24/10/2020','Logrones','Lugo','2','3','A','1','0','H','2.75','2.82','3.18');
+INSERT INTO SP2 VALUES('SP2','24/10/2020','Almeria','Fuenlabrada','3','0','H','1','0','H','2.33','2.87','3.9');
+INSERT INTO SP2 VALUES('SP2','24/10/2020','Castellon','Girona','0','1','A','0','1','A','2.89','2.86','2.96');
+INSERT INTO SP2 VALUES('SP2','25/10/2020','Sp Gijon','Ponferradina','2','1','H','0','1','A','','','');
+INSERT INTO SP2 VALUES('SP2','25/10/2020','Leganes','Oviedo','2','1','H','0','0','D','1.93','3.09','5.13');
+INSERT INTO SP2 VALUES('SP2','25/10/2020','Tenerife','Espanol','0','0','D','0','0','D','3.55','2.68','2.64');
+INSERT INTO SP2 VALUES('SP2','25/10/2020','Albacete','Vallecano','2','1','H','1','0','H','3.21','2.89','2.67');
+INSERT INTO SP2 VALUES('SP2','25/10/2020','Malaga','Mirandes','1','1','D','1','0','H','2.31','2.98','3.77');
+INSERT INTO SP2 VALUES('SP2','25/10/2020','Zaragoza','Sabadell','0','0','D','0','0','D','1.88','3.36','5');
