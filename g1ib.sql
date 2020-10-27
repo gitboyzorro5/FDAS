@@ -32,3 +32,4 @@ INSERT INTO G1 VALUES('G1','21/10/2020','Apollon','Giannina','1','2','A','0','2'
 INSERT INTO G1 VALUES('G1','24/10/2020','Panathinaikos','Volos NFC','1','1','D','0','0','D','1.5','4.17','6.7');
 INSERT INTO G1 VALUES('G1','25/10/2020','Asteras Tripolis','OFI Crete','1','0','H','0','0','D','2.05','3.67','3.43');
 INSERT INTO G1 VALUES('G1','25/10/2020','Giannina','AEK','0','1','A','0','1','A','4.81','3.69','1.74');
+INSERT INTO G1 VALUES('G1','26/10/2020','Atromitos','Panetolikos','2','0','H','1','0','H','1.78','3.65','4.57');

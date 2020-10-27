@@ -42,3 +42,4 @@ INSERT INTO D1 VALUES('D1','24/10/2020','Union Berlin','Freiburg','1','1','D','1
 INSERT INTO D1 VALUES('D1','24/10/2020','Dortmund','Schalke 04','3','0','H','0','0','D','1.22','6.84','13.92');
 INSERT INTO D1 VALUES('D1','25/10/2020','Wolfsburg','Bielefeld','2','1','H','2','0','H','1.69','4.01','5.39');
 INSERT INTO D1 VALUES('D1','25/10/2020','Werder Bremen','Hoffenheim','1','1','D','1','1','D','3.08','3.84','2.29');
+INSERT INTO D1 VALUES('D1','26/10/2020','Leverkusen','Augsburg','3','1','H','1','0','H','1.66','4.18','5.42');
