@@ -572,6 +572,12 @@ INSERT INTO SP2 VALUES('SP2','28/10/2020','Albacete','Las Palmas','1','1','D','1
 INSERT INTO SP2 VALUES('SP2','28/10/2020','Castellon','Almeria','1','2','A','0','1','A','3.07','2.82','2.84');
 INSERT INTO SP2 VALUES('SP2','28/10/2020','Espanol','Ponferradina','2','0','H','1','0','H','1.51','3.97','8.13');
 INSERT INTO SP2 VALUES('SP2','28/10/2020','Oviedo','Logrones','2','3','A','1','0','H','2.38','3.02','3.54');
+INSERT INTO SP2 VALUES('SP2','29/10/2020','Alcorcon','Sp Gijon','1','2','A','0','0','D','2.92','2.9','2.9');
+INSERT INTO SP2 VALUES('SP2','29/10/2020','Mallorca','Malaga','3','1','H','1','0','H','2.07','3.2','4.18');
+INSERT INTO SP2 VALUES('SP2','29/10/2020','Mirandes','Zaragoza','1','0','H','0','0','D','2.85','3.1','2.78');
+INSERT INTO SP2 VALUES('SP2','29/10/2020','Tenerife','Lugo','1','1','D','1','0','H','2.01','3.11','4.63');
+INSERT INTO SP2 VALUES('SP2','29/10/2020','Sabadell','Leganes','1','0','H','0','0','D','4.55','3.06','2.03');
+INSERT INTO SP2 VALUES('SP2','29/10/2020','Vallecano','Fuenlabrada','2','0','H','0','0','D','2.08','3.14','4.27');
 INSERT INTO D1 VALUES('D1','18/09/2020','Bayern Munich','Schalke 04','8','0','H','3','0','H','1.1','12.11','27.06');
 INSERT INTO D1 VALUES('D1','19/09/2020','Ein Frankfurt','Bielefeld','1','1','D','0','0','D','1.67','4.21','5.08');
 INSERT INTO D1 VALUES('D1','19/09/2020','FC Koln','Hoffenheim','2','3','A','1','2','A','2.62','3.67','2.63');
@@ -959,6 +965,7 @@ INSERT INTO P1 VALUES('P1','25/10/2020','Moreirense','Maritimo','2','1','H','2',
 INSERT INTO P1 VALUES('P1','25/10/2020','Famalicao','Boavista','2','2','D','0','0','D','2.43','3.41','3.1');
 INSERT INTO P1 VALUES('P1','25/10/2020','Guimaraes','Sp Braga','0','1','A','0','1','A','2.84','3.48','2.58');
 INSERT INTO P1 VALUES('P1','26/10/2020','Benfica','Belenenses','2','0','H','1','0','H','1.11','9.89','28.07');
+INSERT INTO P1 VALUES('P1','28/10/2020','Sp Lisbon','Gil Vicente','3','1','H','0','0','D','1.46','4.41','8');
 INSERT INTO N1 VALUES('N1','12/09/2020','Heerenveen','Willem II','2','0','H','1','0','H','2.64','3.57','2.68');
 INSERT INTO N1 VALUES('N1','12/09/2020','Zwolle','Feyenoord','0','2','A','0','1','A','4.29','4.23','1.76');
 INSERT INTO N1 VALUES('N1','12/09/2020','Twente','For Sittard','2','0','H','1','0','H','1.91','3.74','4.1');
