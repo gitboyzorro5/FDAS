@@ -43,3 +43,12 @@ INSERT INTO D2 VALUES('D2','25/10/2020','Bochum','Erzgebirge Aue','2','0','H','0
 INSERT INTO D2 VALUES('D2','25/10/2020','Heidenheim','Osnabruck','1','1','D','0','0','D','','','');
 INSERT INTO D2 VALUES('D2','25/10/2020','Sandhausen','Paderborn','1','1','D','1','1','D','2.48','3.5','2.96');
 INSERT INTO D2 VALUES('D2','28/10/2020','Osnabruck','Darmstadt','1','1','D','0','1','A','3.21','3.56','2.3');
+INSERT INTO D2 VALUES('D2','30/10/2020','Fortuna Dusseldorf','Heidenheim','1','0','H','1','0','H','2.56','3.41','2.91');
+INSERT INTO D2 VALUES('D2','30/10/2020','Hamburg','St Pauli','2','2','D','1','1','D','1.55','4.43','6.3');
+INSERT INTO D2 VALUES('D2','31/10/2020','Braunschweig','Nurnberg','3','2','H','1','2','A','3.39','3.52','2.23');
+INSERT INTO D2 VALUES('D2','31/10/2020','Erzgebirge Aue','Holstein Kiel','1','1','D','1','1','D','3.31','3.53','2.26');
+INSERT INTO D2 VALUES('D2','31/10/2020','Osnabruck','Sandhausen','2','1','H','2','0','H','2.54','3.45','2.9');
+INSERT INTO D2 VALUES('D2','31/10/2020','Paderborn','Regensburg','3','1','H','1','1','D','2.13','3.33','3.87');
+INSERT INTO D2 VALUES('D2','01/11/2020','Greuther Furth','Hannover','4','1','H','2','0','H','3.2','3.57','2.3');
+INSERT INTO D2 VALUES('D2','01/11/2020','Karlsruhe','Darmstadt','3','4','A','2','1','H','2.67','3.39','2.79');
+INSERT INTO D2 VALUES('D2','01/11/2020','Wurzburger Kickers','Bochum','2','3','A','2','2','D','4.04','3.76','1.94');
