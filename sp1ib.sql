@@ -70,3 +70,4 @@ INSERT INTO SP1 VALUES('SP1','01/11/2020','Betis','Elche','3','1','H','2','0','H
 INSERT INTO SP1 VALUES('SP1','01/11/2020','Celta','Sociedad','1','4','A','0','2','A','3.11','3.33','2.5');
 INSERT INTO SP1 VALUES('SP1','01/11/2020','Granada','Levante','1','1','D','1','1','D','2.31','3.33','3.46');
 INSERT INTO SP1 VALUES('SP1','01/11/2020','Valencia','Getafe','2','2','D','1','0','H','3.39','2.99','2.55');
+INSERT INTO SP1 VALUES('SP1','02/11/2020','Villarreal','Valladolid','2','0','H','2','0','H','1.62','4.05','6.26');

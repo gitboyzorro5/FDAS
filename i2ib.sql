@@ -52,3 +52,4 @@ INSERT INTO I2 VALUES('I2','31/10/2020','Venezia','Empoli','4','4','D','2','2','
 INSERT INTO I2 VALUES('I2','31/10/2020','Vicenza','Pisa','4','4','D','2','2','D','2.16','3.32','3.78');
 INSERT INTO I2 VALUES('I2','01/11/2020','Reggina','Spal','0','1','A','0','1','A','2.43','3.2','3.29');
 INSERT INTO I2 VALUES('I2','01/11/2020','Frosinone','Cremonese','1','1','D','0','0','D','1.99','3.24','4.47');
+INSERT INTO I2 VALUES('I2','02/11/2020','Lecce','Pescara','3','1','H','1','0','H','1.56','3.99','7.1');

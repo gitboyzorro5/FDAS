@@ -91,3 +91,4 @@ INSERT INTO B1 VALUES('B1','31/10/2020','Club Brugge','Mechelen','2','2','D','2'
 INSERT INTO B1 VALUES('B1','01/11/2020','Anderlecht','Antwerp','1','0','H','0','0','D','2.17','3.6','3.44');
 INSERT INTO B1 VALUES('B1','01/11/2020','Standard','Oostende','1','0','H','0','0','D','1.76','3.91','4.88');
 INSERT INTO B1 VALUES('B1','01/11/2020','Waasland-Beveren','Gent','1','4','A','0','4','A','6.36','4.69','1.51');
+INSERT INTO B1 VALUES('B1','02/11/2020','Waregem','Kortrijk','1','1','D','0','0','D','2.4','3.81','2.82');
