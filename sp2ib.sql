@@ -103,3 +103,5 @@ INSERT INTO SP2 VALUES('SP2','02/11/2020','Logrones','Alcorcon','1','0','H','1',
 INSERT INTO SP2 VALUES('SP2','02/11/2020','Sp Gijon','Castellon','1','0','H','1','0','H','2.07','2.79','5.17');
 INSERT INTO SP2 VALUES('SP2','02/11/2020','Malaga','Espanol','0','3','A','0','1','A','4.36','3.1','2.07');
 INSERT INTO SP2 VALUES('SP2','04/11/2020','Zaragoza','Girona','2','2','D','0','1','A','2.4','3.07','3.43');
+INSERT INTO SP2 VALUES('SP2','05/11/2020','Alcorcon','Ponferradina','0','1','A','0','0','D','2.79','2.85','3.08');
+INSERT INTO SP2 VALUES('SP2','05/11/2020','Sabadell','Almeria','1','2','A','1','1','D','3.54','2.82','2.52');
