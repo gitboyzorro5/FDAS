@@ -72,3 +72,18 @@ INSERT INTO EC VALUES('EC','07/11/2020','Wealdstone','Altrincham','1','0','H','0
 INSERT INTO EC VALUES('EC','10/11/2020','Boreham Wood','Dag and Red','0','1','A','0','0','D','1.78','3.76','4.84');
 INSERT INTO EC VALUES('EC','10/11/2020','Halifax','Wealdstone','0','1','A','0','0','D','2.15','3.49','3.47');
 INSERT INTO EC VALUES('EC','11/11/2020','Altrincham','Solihull','0','2','A','0','2','A','3.68','3.79','1.98');
+INSERT INTO EC VALUES('EC','14/11/2020','Altrincham','Aldershot','1','2','A','0','1','A','3.28','3.91','2.09');
+INSERT INTO EC VALUES('EC','14/11/2020','Barnet','Bromley','1','3','A','0','2','A','2.98','3.82','2.26');
+INSERT INTO EC VALUES('EC','14/11/2020','Chesterfield','Maidenhead','1','2','A','1','0','H','2.24','3.95','2.94');
+INSERT INTO EC VALUES('EC','14/11/2020','Sutton','Kings Lynn','5','1','H','1','0','H','1.61','4.39','5.13');
+INSERT INTO EC VALUES('EC','14/11/2020','Torquay','Boreham Wood','1','1','D','1','1','D','2.21','3.34','3.49');
+INSERT INTO EC VALUES('EC','14/11/2020','Woking','Yeovil','1','1','D','0','1','A','2.85','3.34','2.57');
+INSERT INTO EC VALUES('EC','17/11/2020','Hartlepool','Wrexham','0','1','A','0','0','D','2.57','3.43','2.84');
+INSERT INTO EC VALUES('EC','17/11/2020','Sutton','Dag and Red','1','1','D','1','0','H','1.76','3.82','4.84');
+INSERT INTO EC VALUES('EC','17/11/2020','Aldershot','Maidenhead','0','0','D','0','0','D','1.99','4.13','3.46');
+INSERT INTO EC VALUES('EC','17/11/2020','Altrincham','Chesterfield','3','2','H','1','1','D','2.96','3.53','2.4');
+INSERT INTO EC VALUES('EC','17/11/2020','Barnet','Kings Lynn','0','2','A','0','1','A','2.35','3.81','2.89');
+INSERT INTO EC VALUES('EC','17/11/2020','Bromley','Boreham Wood','1','1','D','1','1','D','2.83','3.59','2.49');
+INSERT INTO EC VALUES('EC','17/11/2020','Dover Athletic','Woking','1','5','A','1','3','A','3.67','3.62','2.06');
+INSERT INTO EC VALUES('EC','17/11/2020','Eastleigh','Wealdstone','2','0','H','0','0','D','1.77','4.47','3.95');
+INSERT INTO EC VALUES('EC','17/11/2020','Halifax','Notts County','1','1','D','0','1','A','3.62','3.58','2.09');

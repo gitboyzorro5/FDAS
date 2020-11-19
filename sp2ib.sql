@@ -116,3 +116,14 @@ INSERT INTO SP2 VALUES('SP2','08/11/2020','Mallorca','Ponferradina','3','0','H',
 INSERT INTO SP2 VALUES('SP2','08/11/2020','Oviedo','Castellon','4','0','H','1','0','H','2.15','3.14','3.98');
 INSERT INTO SP2 VALUES('SP2','08/11/2020','Tenerife','Zaragoza','1','0','H','1','0','H','2.26','3.06','3.77');
 INSERT INTO SP2 VALUES('SP2','09/11/2020','Girona','Las Palmas','1','1','D','0','1','A','2.36','3.06','3.54');
+INSERT INTO SP2 VALUES('SP2','13/11/2020','Zaragoza','Oviedo','1','2','A','1','1','D','3.18','2.89','2.73');
+INSERT INTO SP2 VALUES('SP2','14/11/2020','Fuenlabrada','Espanol','1','1','D','0','1','A','4.14','2.95','2.21');
+INSERT INTO SP2 VALUES('SP2','14/11/2020','Almeria','Mirandes','2','1','H','2','1','H','2.05','3.03','4.61');
+INSERT INTO SP2 VALUES('SP2','14/11/2020','Girona','Mallorca','0','1','A','0','1','A','2.81','2.85','3.06');
+INSERT INTO SP2 VALUES('SP2','14/11/2020','Lugo','Albacete','1','0','H','0','0','D','2.28','3.19','3.56');
+INSERT INTO SP2 VALUES('SP2','15/11/2020','Leganes','Alcorcon','1','0','H','0','0','D','1.66','3.35','7.32');
+INSERT INTO SP2 VALUES('SP2','15/11/2020','Ponferradina','Malaga','1','1','D','0','1','A','2.28','2.79','4.21');
+INSERT INTO SP2 VALUES('SP2','15/11/2020','Castellon','Cartagena','2','1','H','0','0','D','2.86','2.9','2.95');
+INSERT INTO SP2 VALUES('SP2','15/11/2020','Logrones','Sabadell','1','0','H','0','0','D','2.3','3.16','3.54');
+INSERT INTO SP2 VALUES('SP2','15/11/2020','Las Palmas','Tenerife','1','0','H','0','0','D','2.77','2.89','3.07');
+INSERT INTO SP2 VALUES('SP2','16/11/2020','Sp Gijon','Vallecano','1','1','D','0','0','D','2.39','3.16','3.35');
