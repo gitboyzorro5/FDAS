@@ -63,3 +63,12 @@ INSERT INTO I2 VALUES('I2','08/11/2020','Pescara','Cittadella','3','1','H','3','
 INSERT INTO I2 VALUES('I2','08/11/2020','Reggiana','Venezia','2','1','H','1','1','D','3.59','3.35','2.22');
 INSERT INTO I2 VALUES('I2','08/11/2020','Virtus Entella','Lecce','1','5','A','0','1','A','3.21','3.05','2.58');
 INSERT INTO I2 VALUES('I2','14/11/2020','Virtus Entella','Venezia','0','2','A','0','0','D','2.93','2.98','2.85');
+INSERT INTO I2 VALUES('I2','20/11/2020','Frosinone','Cosenza','0','2','A','0','0','D','1.63','3.71','6.66');
+INSERT INTO I2 VALUES('I2','21/11/2020','Brescia','Venezia','2','2','D','1','1','D','2.27','3.35','3.46');
+INSERT INTO I2 VALUES('I2','21/11/2020','Cittadella','Empoli','2','2','D','1','0','H','2.52','3.19','3.15');
+INSERT INTO I2 VALUES('I2','21/11/2020','Lecce','Reggiana','7','1','H','3','0','H','1.57','3.85','7.4');
+INSERT INTO I2 VALUES('I2','21/11/2020','Pordenone','Monza','1','1','D','1','0','H','3.28','3.05','2.53');
+INSERT INTO I2 VALUES('I2','21/11/2020','Spal','Pescara','2','0','H','1','0','H','1.59','3.75','7.41');
+INSERT INTO I2 VALUES('I2','22/11/2020','Ascoli','Virtus Entella','1','1','D','0','0','D','2.44','3.12','3.36');
+INSERT INTO I2 VALUES('I2','22/11/2020','Reggina','Pisa','1','2','A','1','0','H','2.16','3.31','3.81');
+INSERT INTO I2 VALUES('I2','23/11/2020','Salernitana','Cremonese','2','1','H','1','1','D','2.14','3.3','3.8');
