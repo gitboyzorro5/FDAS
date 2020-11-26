@@ -96,3 +96,6 @@ INSERT INTO EC VALUES('EC','21/11/2020','Woking','Barnet','4','1','H','2','0','H
 INSERT INTO EC VALUES('EC','21/11/2020','Wrexham','Aldershot','1','0','H','0','0','D','1.95','3.84','3.73');
 INSERT INTO EC VALUES('EC','21/11/2020','Yeovil','Hartlepool','1','3','A','1','3','A','2.54','3.69','2.67');
 INSERT INTO EC VALUES('EC','21/11/2020','Wealdstone','Sutton','3','3','D','0','2','A','3.71','4.12','1.89');
+INSERT INTO EC VALUES('EC','24/11/2020','Altrincham','Bromley','0','1','A','0','1','A','3.19','3.56','2.28');
+INSERT INTO EC VALUES('EC','24/11/2020','Barnet','Hartlepool','0','0','D','0','0','D','3.78','3.84','1.96');
+INSERT INTO EC VALUES('EC','24/11/2020','Wrexham','Sutton','4','0','H','2','0','H','2.84','3.32','2.63');

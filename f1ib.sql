@@ -105,3 +105,4 @@ INSERT INTO F1 VALUES('F1','22/11/2020','Montpellier','Strasbourg','4','3','H','
 INSERT INTO F1 VALUES('F1','22/11/2020','Reims','Nimes','0','1','A','0','0','D','1.9','3.8','4.27');
 INSERT INTO F1 VALUES('F1','22/11/2020','Angers','Lyon','0','1','A','0','0','D','5.2','4.31','1.67');
 INSERT INTO F1 VALUES('F1','22/11/2020','Lille','Lorient','4','0','H','1','0','H','1.59','4.11','6.48');
+INSERT INTO F1 VALUES('F1','25/11/2020','Lens','Nantes','1','1','D','1','0','H','2.01','3.62','3.99');

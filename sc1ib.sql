@@ -22,3 +22,4 @@ INSERT INTO SC1 VALUES('SC1','21/11/2020','Arbroath','Morton','0','0','D','0','0
 INSERT INTO SC1 VALUES('SC1','21/11/2020','Ayr','Dundee','2','0','H','2','0','H','2.96','3.58','2.37');
 INSERT INTO SC1 VALUES('SC1','21/11/2020','Inverness C','Raith Rvs','2','0','H','1','0','H','2.54','3.51','2.78');
 INSERT INTO SC1 VALUES('SC1','21/11/2020','Queen of Sth','Alloa','2','0','H','1','0','H','2.3','3.46','3.17');
+INSERT INTO SC1 VALUES('SC1','24/11/2020','Hearts','Alloa','3','0','H','3','0','H','1.17','7.61','19.27');
