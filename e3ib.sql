@@ -161,3 +161,5 @@ INSERT INTO E3 VALUES('E3','24/11/2020','Scunthorpe','Bolton','0','1','A','0','0
 INSERT INTO E3 VALUES('E3','24/11/2020','Southend','Forest Green','0','1','A','0','0','D','7.79','4.39','1.48');
 INSERT INTO E3 VALUES('E3','24/11/2020','Stevenage','Port Vale','2','1','H','1','0','H','3.53','3.2','2.31');
 INSERT INTO E3 VALUES('E3','24/11/2020','Tranmere','Carlisle','1','0','H','0','0','D','3.13','3.28','2.48');
+INSERT INTO E3 VALUES('E3','28/11/2020','Port Vale','Leyton Orient','2','3','A','1','2','A','2.27','3.38','3.36');
+INSERT INTO E3 VALUES('E3','28/11/2020','Bolton','Southend','3','0','H','1','0','H','1.55','4.14','6.58');

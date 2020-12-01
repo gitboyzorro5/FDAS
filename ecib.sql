@@ -99,3 +99,8 @@ INSERT INTO EC VALUES('EC','21/11/2020','Wealdstone','Sutton','3','3','D','0','2
 INSERT INTO EC VALUES('EC','24/11/2020','Altrincham','Bromley','0','1','A','0','1','A','3.19','3.56','2.28');
 INSERT INTO EC VALUES('EC','24/11/2020','Barnet','Hartlepool','0','0','D','0','0','D','3.78','3.84','1.96');
 INSERT INTO EC VALUES('EC','24/11/2020','Wrexham','Sutton','4','0','H','2','0','H','2.84','3.32','2.63');
+INSERT INTO EC VALUES('EC','27/11/2020','Notts County','Wealdstone','3','0','H','2','0','H','1.61','4.33','5.44');
+INSERT INTO EC VALUES('EC','28/11/2020','Altrincham','Maidenhead','2','0','H','0','0','D','2.53','3.48','2.81');
+INSERT INTO EC VALUES('EC','28/11/2020','Bromley','Wrexham','1','1','D','1','0','H','2.54','3.63','2.71');
+INSERT INTO EC VALUES('EC','28/11/2020','Sutton','Halifax','1','0','H','1','0','H','1.74','3.97','4.69');
+INSERT INTO EC VALUES('EC','28/11/2020','Weymouth','Chesterfield','1','2','A','1','1','D','2.76','3.57','2.52');
