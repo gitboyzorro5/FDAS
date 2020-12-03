@@ -166,3 +166,15 @@ INSERT INTO E1 VALUES('E1','28/11/2020','Rotherham','Bournemouth','2','2','D','1
 INSERT INTO E1 VALUES('E1','28/11/2020','Sheffield Weds','Stoke','0','0','D','0','0','D','2.77','3.09','2.92');
 INSERT INTO E1 VALUES('E1','28/11/2020','Watford','Preston','4','1','H','1','0','H','1.93','3.34','4.72');
 INSERT INTO E1 VALUES('E1','29/11/2020','Nottm Forest','Swansea','0','1','A','0','1','A','3','3.19','2.62');
+INSERT INTO E1 VALUES('E1','01/12/2020','Cardiff','Huddersfield','3','0','H','1','0','H','1.93','3.56','4.38');
+INSERT INTO E1 VALUES('E1','01/12/2020','Birmingham','Barnsley','1','2','A','0','0','D','2.59','3.16','3.07');
+INSERT INTO E1 VALUES('E1','01/12/2020','Bournemouth','Preston','2','3','A','0','1','A','1.66','3.87','5.84');
+INSERT INTO E1 VALUES('E1','01/12/2020','Derby','Coventry','1','1','D','0','0','D','2.33','3.29','3.4');
+INSERT INTO E1 VALUES('E1','01/12/2020','QPR','Bristol City','1','2','A','1','1','D','2.34','3.38','3.29');
+INSERT INTO E1 VALUES('E1','01/12/2020','Rotherham','Brentford','0','2','A','0','0','D','4.8','3.8','1.79');
+INSERT INTO E1 VALUES('E1','02/12/2020','Middlesbrough','Swansea','2','1','H','1','0','H','2.6','3.2','3.02');
+INSERT INTO E1 VALUES('E1','02/12/2020','Blackburn','Millwall','2','1','H','1','1','D','2.06','3.6','3.78');
+INSERT INTO E1 VALUES('E1','02/12/2020','Luton','Norwich','3','1','H','2','1','H','3.28','3.67','2.22');
+INSERT INTO E1 VALUES('E1','02/12/2020','Nottm Forest','Watford','0','0','D','0','0','D','3.19','3.34','2.41');
+INSERT INTO E1 VALUES('E1','02/12/2020','Sheffield Weds','Reading','1','1','D','1','1','D','2.64','3.15','3.03');
+INSERT INTO E1 VALUES('E1','02/12/2020','Wycombe','Stoke','0','1','A','0','0','D','4.18','3.62','1.94');
