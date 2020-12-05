@@ -1009,6 +1009,10 @@ INSERT INTO SP2 VALUES('SP2','02/12/2020','Leganes','Vallecano','1','0','H','1',
 INSERT INTO SP2 VALUES('SP2','02/12/2020','Logrones','Ponferradina','1','2','A','0','1','A','2.41','3.03','3.48');
 INSERT INTO SP2 VALUES('SP2','02/12/2020','Castellon','Zaragoza','1','0','H','0','0','D','2.87','2.91','2.93');
 INSERT INTO SP2 VALUES('SP2','02/12/2020','Lugo','Las Palmas','1','1','D','1','1','D','2.77','2.94','3.01');
+INSERT INTO SP2 VALUES('SP2','03/12/2020','Almeria','Mallorca','0','1','A','0','0','D','2.8','2.99','2.93');
+INSERT INTO SP2 VALUES('SP2','03/12/2020','Oviedo','Alcorcon','1','1','D','0','0','D','2.3','2.89','3.95');
+INSERT INTO SP2 VALUES('SP2','03/12/2020','Tenerife','Sabadell','1','2','A','1','2','A','1.73','3.62','5.46');
+INSERT INTO SP2 VALUES('SP2','03/12/2020','Sp Gijon','Albacete','0','0','D','0','0','D','1.85','3.15','5.64');
 INSERT INTO D1 VALUES('D1','18/09/2020','Bayern Munich','Schalke 04','8','0','H','3','0','H','1.1','12.11','27.06');
 INSERT INTO D1 VALUES('D1','19/09/2020','Ein Frankfurt','Bielefeld','1','1','D','0','0','D','1.67','4.21','5.08');
 INSERT INTO D1 VALUES('D1','19/09/2020','FC Koln','Hoffenheim','2','3','A','1','2','A','2.62','3.67','2.63');
@@ -1877,6 +1881,7 @@ INSERT INTO B1 VALUES('B1','29/11/2020','Kortrijk','Oostende','3','1','H','1','1
 INSERT INTO B1 VALUES('B1','30/11/2020','Antwerp','Oud-Heverlee Leuven','3','2','H','2','2','D','1.63','4.31','5.28');
 INSERT INTO B1 VALUES('B1','01/12/2020','Mouscron','St Truiden','3','2','H','1','0','H','3.01','3.34','2.52');
 INSERT INTO B1 VALUES('B1','02/12/2020','Charleroi','Waasland-Beveren','0','2','A','0','1','A','1.3','5.79','10.96');
+INSERT INTO B1 VALUES('B1','03/12/2020','Eupen','Mechelen','1','1','D','1','0','H','2.64','3.37','2.84');
 INSERT INTO T1 VALUES('T1','11/09/2020','Rizespor','Fenerbahce','1','2','A','0','0','D','3.94','3.76','1.94');
 INSERT INTO T1 VALUES('T1','12/09/2020','Karagumruk','Yeni Malatyaspor','3','0','H','1','0','H','2.88','3.45','2.49');
 INSERT INTO T1 VALUES('T1','12/09/2020','Sivasspor','Alanyaspor','0','2','A','0','1','A','2.33','3.66','3.01');
