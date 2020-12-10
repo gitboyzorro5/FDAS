@@ -122,3 +122,11 @@ INSERT INTO EC VALUES('EC','05/12/2020','Notts County','Woking','1','0','H','0',
 INSERT INTO EC VALUES('EC','05/12/2020','Sutton','Solihull','4','1','H','2','0','H','2.48','3.55','2.83');
 INSERT INTO EC VALUES('EC','05/12/2020','Torquay','Wrexham','3','1','H','2','1','H','2.2','3.53','3.31');
 INSERT INTO EC VALUES('EC','05/12/2020','Weymouth','Halifax','1','5','A','0','2','A','3.06','3.3','2.44');
+INSERT INTO EC VALUES('EC','08/12/2020','Hartlepool','Kings Lynn','2','0','H','1','0','H','1.75','4.13','4.51');
+INSERT INTO EC VALUES('EC','08/12/2020','Sutton','Chesterfield','0','1','A','0','1','A','1.9','3.64','4.27');
+INSERT INTO EC VALUES('EC','08/12/2020','Aldershot','Halifax','1','3','A','1','0','H','2.61','3.37','2.84');
+INSERT INTO EC VALUES('EC','08/12/2020','Barnet','Stockport','1','2','A','0','1','A','4.97','4.29','1.66');
+INSERT INTO EC VALUES('EC','08/12/2020','Bromley','Yeovil','1','2','A','0','2','A','2.19','3.6','3.34');
+INSERT INTO EC VALUES('EC','08/12/2020','Notts County','Boreham Wood','0','1','A','0','0','D','2.22','3.72','3.18');
+INSERT INTO EC VALUES('EC','08/12/2020','Torquay','Maidenhead','2','1','H','1','0','H','1.45','4.82','7.03');
+INSERT INTO EC VALUES('EC','08/12/2020','Weymouth','Dag and Red','2','3','A','1','2','A','3.05','3.25','2.52');

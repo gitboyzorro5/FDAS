@@ -105,3 +105,5 @@ INSERT INTO T1 VALUES('T1','06/12/2020','Karagumruk','Rizespor','2','1','H','2',
 INSERT INTO T1 VALUES('T1','06/12/2020','Antalyaspor','Ankaragucu','1','0','H','1','0','H','2','3.35','4.13');
 INSERT INTO T1 VALUES('T1','06/12/2020','Denizlispor','Fenerbahce','0','2','A','0','2','A','5.21','4.1','1.65');
 INSERT INTO T1 VALUES('T1','07/12/2020','Trabzonspor','Sivasspor','1','1','D','1','0','H','1.93','3.69','3.95');
+INSERT INTO T1 VALUES('T1','09/12/2020','Goztep','Alanyaspor','1','0','H','0','0','D','3.3','3.53','2.21');
+INSERT INTO T1 VALUES('T1','09/12/2020','Hatayspor','Erzurum BB','3','0','H','1','0','H','2.11','3.37','3.65');
