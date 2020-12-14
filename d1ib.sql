@@ -88,3 +88,12 @@ INSERT INTO D1 VALUES('D1','05/12/2020','Bayern Munich','RB Leipzig','3','3','D'
 INSERT INTO D1 VALUES('D1','06/12/2020','Werder Bremen','Stuttgart','1','2','A','0','1','A','2.8','3.7','2.53','14','4','11','7');
 INSERT INTO D1 VALUES('D1','06/12/2020','Schalke 04','Leverkusen','0','3','A','0','1','A','6.37','4.58','1.54','13','4','24','9');
 INSERT INTO D1 VALUES('D1','07/12/2020','Hoffenheim','Augsburg','3','1','H','1','1','D','1.87','4.01','4.19','10','7','13','3');
+INSERT INTO D1 VALUES('D1','11/12/2020','Wolfsburg','Ein Frankfurt','2','1','H','0','0','D','2.4','3.74','2.96','16','8','7','4');
+INSERT INTO D1 VALUES('D1','12/12/2020','Dortmund','Stuttgart','1','5','A','1','1','D','1.52','4.75','6.45','12','4','18','10');
+INSERT INTO D1 VALUES('D1','12/12/2020','Freiburg','Bielefeld','2','0','H','0','0','D','1.79','4.04','4.56','16','7','5','1');
+INSERT INTO D1 VALUES('D1','12/12/2020','Mainz','FC Koln','0','1','A','0','0','D','2.47','3.68','2.9','15','4','9','6');
+INSERT INTO D1 VALUES('D1','12/12/2020','Mgladbach','Hertha','1','1','D','0','0','D','1.93','3.81','4.1','17','4','9','3');
+INSERT INTO D1 VALUES('D1','12/12/2020','RB Leipzig','Werder Bremen','2','0','H','2','0','H','1.37','5.37','9.21','15','7','7','2');
+INSERT INTO D1 VALUES('D1','12/12/2020','Union Berlin','Bayern Munich','1','1','D','1','0','H','8.99','6.54','1.31','13','6','15','5');
+INSERT INTO D1 VALUES('D1','13/12/2020','Augsburg','Schalke 04','2','2','D','1','0','H','1.94','3.68','4.2','8','4','15','4');
+INSERT INTO D1 VALUES('D1','13/12/2020','Leverkusen','Hoffenheim','4','1','H','2','0','H','1.8','4.36','4.18','13','8','11','4');
