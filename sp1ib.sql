@@ -120,3 +120,4 @@ INSERT INTO SP1 VALUES('SP1','13/12/2020','Sociedad','Eibar','1','1','D','1','0'
 INSERT INTO SP1 VALUES('SP1','13/12/2020','Betis','Villarreal','1','1','D','0','1','A','3.18','3.62','2.31','11','5','7','2');
 INSERT INTO SP1 VALUES('SP1','13/12/2020','Elche','Granada','0','1','A','0','1','A','3.42','3.15','2.42','9','1','13','5');
 INSERT INTO SP1 VALUES('SP1','13/12/2020','Barcelona','Levante','1','0','H','0','0','D','1.25','6.88','11.21','24','13','7','3');
+INSERT INTO SP1 VALUES('SP1','14/12/2020','Celta','Cadiz','4','0','H','4','0','H','1.76','3.81','5.15','8','5','12','2');
