@@ -141,3 +141,9 @@ INSERT INTO B1 VALUES('B1','12/12/2020','St Truiden','Charleroi','1','2','A','1'
 INSERT INTO B1 VALUES('B1','13/12/2020','Antwerp','Club Brugge','0','2','A','0','1','A','3.09','3.64','2.33','9','1','13','5');
 INSERT INTO B1 VALUES('B1','13/12/2020','Gent','Standard','2','1','H','1','1','D','2.25','3.71','3.12','14','6','8','3');
 INSERT INTO B1 VALUES('B1','13/12/2020','Mechelen','Waasland-Beveren','2','3','A','1','0','H','1.43','4.96','6.46','12','5','10','5');
+INSERT INTO B1 VALUES('B1','15/12/2020','Cercle Brugge','Charleroi','3','4','A','2','0','H','3.41','3.64','2.15','10','5','21','7');
+INSERT INTO B1 VALUES('B1','15/12/2020','Mouscron','Oud-Heverlee Leuven','2','2','D','0','1','A','3.08','3.59','2.33','17','7','12','9');
+INSERT INTO B1 VALUES('B1','15/12/2020','Anderlecht','Oostende','2','1','H','1','0','H','1.85','3.76','4.33','9','5','14','3');
+INSERT INTO B1 VALUES('B1','16/12/2020','Antwerp','Waregem','0','1','A','0','1','A','1.54','4.41','6.46','11','2','17','5');
+INSERT INTO B1 VALUES('B1','16/12/2020','Gent','Waasland-Beveren','3','0','H','1','0','H','1.43','5.02','6.81','17','7','9','1');
+INSERT INTO B1 VALUES('B1','16/12/2020','Kortrijk','Standard','2','1','H','2','0','H','3.2','3.66','2.26','10','4','17','6');
