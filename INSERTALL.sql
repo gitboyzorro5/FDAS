@@ -123,6 +123,8 @@ INSERT INTO E0 VALUES('E0','16/12/2020','Leicester','Everton','0','2','A','0','1
 INSERT INTO E0 VALUES('E0','16/12/2020','Fulham','Brighton','0','0','D','0','0','D','3','3.4','2.53','9','4','9','4');
 INSERT INTO E0 VALUES('E0','16/12/2020','Liverpool','Tottenham','2','1','H','1','1','D','1.81','3.9','4.64','17','11','8','2');
 INSERT INTO E0 VALUES('E0','16/12/2020','West Ham','Crystal Palace','1','1','D','0','1','A','2.09','3.54','3.82','9','2','8','2');
+INSERT INTO E0 VALUES('E0','17/12/2020','Aston Villa','Burnley','0','0','D','0','0','D','1.76','3.93','4.95','27','7','6','4');
+INSERT INTO E0 VALUES('E0','17/12/2020','Sheffield United','Man United','2','3','A','1','2','A','7.35','4.78','1.47','12','6','14','8');
 INSERT INTO E1 VALUES('E1','11/09/2020','Watford','Middlesbrough','1','0','H','1','0','H','1.99','3.46','4.12','10','2','11','4');
 INSERT INTO E1 VALUES('E1','12/09/2020','Birmingham','Brentford','1','0','H','1','0','H','4.7','3.58','1.84','11','3','16','4');
 INSERT INTO E1 VALUES('E1','12/09/2020','Wycombe','Rotherham','0','1','A','0','0','D','2.84','3.33','2.58','10','4','12','2');
@@ -1449,6 +1451,7 @@ INSERT INTO D2 VALUES('D2','15/12/2020','Heidenheim','Regensburg','0','0','D','0
 INSERT INTO D2 VALUES('D2','16/12/2020','Fortuna Dusseldorf','Osnabruck','3','0','H','1','0','H','2.27','3.28','3.54','16','5','9','3');
 INSERT INTO D2 VALUES('D2','16/12/2020','Holstein Kiel','Nurnberg','1','0','H','0','0','D','2.37','3.56','3.07','12','3','8','1');
 INSERT INTO D2 VALUES('D2','16/12/2020','Paderborn','Braunschweig','2','2','D','2','1','H','1.62','4.14','5.78','7','3','11','4');
+INSERT INTO D2 VALUES('D2','17/12/2020','Erzgebirge Aue','Karlsruhe','4','1','H','2','0','H','3.05','3.38','2.47','15','7','17','5');
 INSERT INTO F1 VALUES('F1','21/08/2020','Bordeaux','Nantes','0','0','D','0','0','D','2.48','3.03','3.33','5','1','6','1');
 INSERT INTO F1 VALUES('F1','22/08/2020','Dijon','Angers','0','1','A','0','1','A','2.79','3.09','2.84','9','1','12','4');
 INSERT INTO F1 VALUES('F1','22/08/2020','Lille','Rennes','1','1','D','1','0','H','2.3','3.22','3.47','5','1','16','3');
@@ -1865,6 +1868,7 @@ INSERT INTO I1 VALUES('I1','16/12/2020','Inter','Napoli','1','0','H','0','0','D'
 INSERT INTO I1 VALUES('I1','16/12/2020','Parma','Cagliari','0','0','D','0','0','D','2.43','3.44','3.13','10','3','5','4');
 INSERT INTO I1 VALUES('I1','16/12/2020','Spezia','Bologna','2','2','D','1','0','H','3.27','3.64','2.26','7','5','9','6');
 INSERT INTO I1 VALUES('I1','16/12/2020','Verona','Sampdoria','1','2','A','0','1','A','2.26','3.64','3.28','6','6','6','3');
+INSERT INTO I1 VALUES('I1','17/12/2020','Roma','Torino','3','1','H','2','0','H','1.44','5.28','7.14','10','8','12','8');
 INSERT INTO I2 VALUES('I2','25/09/2020','Monza','Spal','0','0','D','0','0','D','2.13','3.41','3.77','14','7','6','0');
 INSERT INTO I2 VALUES('I2','26/09/2020','Brescia','Ascoli','1','1','D','1','1','D','1.85','3.42','5.05','8','5','8','2');
 INSERT INTO I2 VALUES('I2','26/09/2020','Cosenza','Virtus Entella','0','0','D','0','0','D','2.29','3.21','3.57','2','2','7','5');
@@ -2319,6 +2323,7 @@ INSERT INTO B1 VALUES('B1','15/12/2020','Anderlecht','Oostende','2','1','H','1',
 INSERT INTO B1 VALUES('B1','16/12/2020','Antwerp','Waregem','0','1','A','0','1','A','1.54','4.41','6.46','11','2','17','5');
 INSERT INTO B1 VALUES('B1','16/12/2020','Gent','Waasland-Beveren','3','0','H','1','0','H','1.43','5.02','6.81','17','7','9','1');
 INSERT INTO B1 VALUES('B1','16/12/2020','Kortrijk','Standard','2','1','H','2','0','H','3.2','3.66','2.26','10','4','17','6');
+INSERT INTO B1 VALUES('B1','17/12/2020','Mechelen','Club Brugge','0','3','A','0','0','D','4.59','4.02','1.74','10','3','21','8');
 INSERT INTO T1 VALUES('T1','11/09/2020','Rizespor','Fenerbahce','1','2','A','0','0','D','3.94','3.76','1.94','9','3','17','8');
 INSERT INTO T1 VALUES('T1','12/09/2020','Karagumruk','Yeni Malatyaspor','3','0','H','1','0','H','2.88','3.45','2.49','7','6','20','7');
 INSERT INTO T1 VALUES('T1','12/09/2020','Sivasspor','Alanyaspor','0','2','A','0','1','A','2.33','3.66','3.01','10','4','12','6');
