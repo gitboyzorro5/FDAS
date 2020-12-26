@@ -213,3 +213,4 @@ INSERT INTO E2 VALUES('E2','19/12/2020','Fleetwood Town','Wigan','1','1','D','1'
 INSERT INTO E2 VALUES('E2','19/12/2020','Northampton','Lincoln','0','4','A','0','2','A','3.77','3.54','2.05','9','2','17','8');
 INSERT INTO E2 VALUES('E2','19/12/2020','Plymouth','Milton Keynes Dons','1','0','H','0','0','D','3','3.48','2.42','14','2','6','2');
 INSERT INTO E2 VALUES('E2','19/12/2020','Swindon','Charlton','2','2','D','1','1','D','3.26','3.7','2.19','8','2','13','4');
+INSERT INTO E2 VALUES('E2','22/12/2020','Doncaster','Shrewsbury','0','1','A','0','0','D','1.99','3.55','4.07','19','3','5','1');
