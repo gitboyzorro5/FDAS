@@ -164,3 +164,5 @@ INSERT INTO B1 VALUES('B1','27/12/2020','Antwerp','Charleroi','2','1','H','0','0
 INSERT INTO B1 VALUES('B1','27/12/2020','Genk','Waasland-Beveren','1','1','D','1','1','D','1.29','5.88','10.36','13','2','8','2');
 INSERT INTO B1 VALUES('B1','27/12/2020','Anderlecht','Beerschot VA','2','0','H','1','0','H','1.75','4.35','4.13','27','6','8','2');
 INSERT INTO B1 VALUES('B1','27/12/2020','Mechelen','Mouscron','2','1','H','1','0','H','1.59','4.24','5.59','10','5','16','6');
+INSERT INTO B1 VALUES('B1','29/12/2020','Eupen','Waregem','2','3','A','1','0','H','2','3.67','3.8','17','7','16','9');
+INSERT INTO B1 VALUES('B1','30/12/2020','St Truiden','Beerschot VA','1','0','H','1','0','H','2.34','3.76','2.89','9','3','12','4');
