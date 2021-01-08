@@ -105,3 +105,4 @@ INSERT INTO P1 VALUES('P1','03/01/2021','Pacos Ferreira','Rio Ave','2','0','H','
 INSERT INTO P1 VALUES('P1','03/01/2021','Porto','Moreirense','3','0','H','1','0','H','1.2','7.02','16.23','20','7','3','2');
 INSERT INTO P1 VALUES('P1','04/01/2021','Gil Vicente','Belenenses','0','0','D','0','0','D','2.23','3.19','3.69','13','5','7','1');
 INSERT INTO P1 VALUES('P1','04/01/2021','Portimonense','Farense','2','0','H','0','0','D','2.32','3.33','3.3','13','5','6','0');
+INSERT INTO P1 VALUES('P1','07/01/2021','Sp Braga','Maritimo','2','1','H','1','0','H','1.36','5.27','9.17','18','3','9','2');
