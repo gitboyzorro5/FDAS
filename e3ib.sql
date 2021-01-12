@@ -249,3 +249,6 @@ INSERT INTO E3 VALUES('E3','02/01/2021','Mansfield','Port Vale','4','0','H','2',
 INSERT INTO E3 VALUES('E3','02/01/2021','Stevenage','Scunthorpe','3','1','H','2','1','H','2.65','3.34','2.81','7','4','8','2');
 INSERT INTO E3 VALUES('E3','02/01/2021','Walsall','Carlisle','0','2','A','0','1','A','3.03','3.54','2.38','7','2','15','4');
 INSERT INTO E3 VALUES('E3','05/01/2021','Mansfield','Salford','2','1','H','2','0','H','2.52','3.3','3.04','20','4','10','4');
+INSERT INTO E3 VALUES('E3','09/01/2021','Cambridge','Harrogate','2','1','H','0','1','A','2.39','3.32','3.18','18','4','7','3');
+INSERT INTO E3 VALUES('E3','09/01/2021','Port Vale','Grimsby','3','0','H','2','0','H','2.06','3.75','3.54','6','4','10','3');
+INSERT INTO E3 VALUES('E3','09/01/2021','Southend','Barrow','1','0','H','1','0','H','3.4','3.48','2.21','9','3','11','4');
