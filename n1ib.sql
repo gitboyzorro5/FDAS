@@ -133,3 +133,9 @@ INSERT INTO N1 VALUES('N1','10/01/2021','Sparta Rotterdam','Feyenoord','0','2','
 INSERT INTO N1 VALUES('N1','10/01/2021','Heerenveen','For Sittard','1','3','A','0','3','A','1.72','3.91','5.13','10','2','9','4');
 INSERT INTO N1 VALUES('N1','10/01/2021','VVV Venlo','Willem II','2','1','H','0','1','A','3.23','3.71','2.23','12','4','17','6');
 INSERT INTO N1 VALUES('N1','10/01/2021','Ajax','PSV Eindhoven','2','2','D','1','2','A','1.69','4.26','4.91','11','4','7','7');
+INSERT INTO N1 VALUES('N1','12/01/2021','Vitesse','Utrecht','1','0','H','1','0','H','2.27','3.77','3.1','16','4','8','5');
+INSERT INTO N1 VALUES('N1','12/01/2021','Heracles','FC Emmen','4','0','H','2','0','H','1.79','3.92','4.63','20','11','8','1');
+INSERT INTO N1 VALUES('N1','13/01/2021','PSV Eindhoven','AZ Alkmaar','1','3','A','0','2','A','1.86','4.09','4.02','14','3','6','4');
+INSERT INTO N1 VALUES('N1','13/01/2021','Den Haag','VVV Venlo','1','4','A','0','1','A','2.61','3.72','2.66','14','4','15','8');
+INSERT INTO N1 VALUES('N1','13/01/2021','For Sittard','Sparta Rotterdam','0','1','A','0','0','D','3.28','3.58','2.25','9','4','19','5');
+INSERT INTO N1 VALUES('N1','13/01/2021','Feyenoord','Zwolle','1','0','H','0','0','D','1.48','4.68','7.09','21','4','8','2');

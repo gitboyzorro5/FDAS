@@ -267,3 +267,5 @@ INSERT INTO E1 VALUES('E1','02/01/2021','Preston','Nottm Forest','0','1','A','0'
 INSERT INTO E1 VALUES('E1','02/01/2021','Swansea','Watford','2','1','H','1','1','D','2.89','3.15','2.75','13','5','11','3');
 INSERT INTO E1 VALUES('E1','02/01/2021','Wycombe','Middlesbrough','1','3','A','1','2','A','4.21','3.43','2','12','2','21','7');
 INSERT INTO E1 VALUES('E1','02/01/2021','Stoke','Bournemouth','0','1','A','0','0','D','3.68','3.47','2.14','11','3','10','2');
+INSERT INTO E1 VALUES('E1','12/01/2021','Luton','QPR','0','2','A','0','1','A','2.37','3.31','3.29','9','2','13','8');
+INSERT INTO E1 VALUES('E1','12/01/2021','Bournemouth','Millwall','1','1','D','1','0','H','1.79','3.53','5.35','6','2','15','6');
