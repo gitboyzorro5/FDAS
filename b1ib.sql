@@ -175,5 +175,6 @@ INSERT INTO B1 VALUES('B1','10/01/2021','Mechelen','Antwerp','3','0','H','0','0'
 INSERT INTO B1 VALUES('B1','10/01/2021','Beerschot VA','Gent','1','1','D','1','1','D','3.05','3.92','2.19','7','3','16','6');
 INSERT INTO B1 VALUES('B1','10/01/2021','Oud-Heverlee Leuven','Anderlecht','1','0','H','0','0','D','3.68','3.92','1.94','5','1','19','3');
 INSERT INTO B1 VALUES('B1','10/01/2021','St Truiden','Club Brugge','1','2','A','0','2','A','5.94','4.24','1.56','10','3','12','3');
+INSERT INTO B1 VALUES('B1','11/01/2021','Standard','Waasland-Beveren','3','1','H','1','0','H','1.47','4.55','6.58','20','8','10','5');
 INSERT INTO B1 VALUES('B1','12/01/2021','Oostende','Eupen','1','1','D','0','0','D','1.87','3.91','4.1','18','4','6','2');
 INSERT INTO B1 VALUES('B1','13/01/2021','Beerschot VA','Cercle Brugge','1','1','D','1','0','H','1.91','3.59','4.2','3','1','14','2');
