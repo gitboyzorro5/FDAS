@@ -28,3 +28,4 @@ sed -i '1,$d' cs.txt
 sed -i '1,$d' tempallmatches0.txt
 sed -i '1,$d' tempallmatches1.txt
 sed -i '1,$d' tempallmatches2.txt
+rm insertallmatches.sql
