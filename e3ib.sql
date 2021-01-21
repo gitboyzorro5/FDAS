@@ -264,3 +264,8 @@ INSERT INTO E3 VALUES('E3','16/01/2021','Leyton Orient','Morecambe','2','0','H',
 INSERT INTO E3 VALUES('E3','16/01/2021','Newport County','Salford','0','0','D','0','0','D','2.15','3.35','3.71','6','2','13','0');
 INSERT INTO E3 VALUES('E3','16/01/2021','Stevenage','Tranmere','0','0','D','0','0','D','3.04','3.03','2.67','17','2','9','3');
 INSERT INTO E3 VALUES('E3','16/01/2021','Walsall','Oldham','1','1','D','1','0','H','2.26','3.45','3.33','16','4','12','4');
+INSERT INTO E3 VALUES('E3','19/01/2021','Cheltenham','Newport County','1','1','D','1','1','D','2.38','3.17','3.41','17','3','7','1');
+INSERT INTO E3 VALUES('E3','19/01/2021','Harrogate','Exeter','0','0','D','0','0','D','3.23','3.61','2.26','12','5','13','1');
+INSERT INTO E3 VALUES('E3','19/01/2021','Morecambe','Walsall','1','1','D','0','1','A','2.4','3.62','2.98','19','5','15','4');
+INSERT INTO E3 VALUES('E3','19/01/2021','Southend','Cambridge','1','2','A','1','0','H','3.43','3.28','2.32','17','4','8','4');
+INSERT INTO E3 VALUES('E3','19/01/2021','Tranmere','Forest Green','3','2','H','1','0','H','3.08','3.2','2.56','14','8','15','8');

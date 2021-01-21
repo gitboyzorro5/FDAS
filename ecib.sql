@@ -169,3 +169,5 @@ INSERT INTO EC VALUES('EC','09/01/2021','Kings Lynn','Halifax','1','1','D','1','
 INSERT INTO EC VALUES('EC','09/01/2021','Sutton','Altrincham','2','2','D','2','1','H','1.76','3.61','4.81','0','0','0','0');
 INSERT INTO EC VALUES('EC','12/01/2021','Dover Athletic','Boreham Wood','1','1','D','0','1','A','8.35','4.73','1.39','0','0','0','0');
 INSERT INTO EC VALUES('EC','16/01/2021','Wrexham','Dover Athletic','3','1','H','1','1','D','1.45','4.61','6.1','0','0','0','0');
+INSERT INTO EC VALUES('EC','19/01/2021','Dag and Red','Stockport','0','2','A','0','0','D','4.25','3.64','1.84','0','0','0','0');
+INSERT INTO EC VALUES('EC','19/01/2021','Eastleigh','Kings Lynn','0','1','A','0','1','A','1.97','3.93','3.51','0','0','0','0');

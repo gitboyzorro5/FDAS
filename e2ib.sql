@@ -248,3 +248,10 @@ INSERT INTO E2 VALUES('E2','16/01/2021','Peterboro','Milton Keynes Dons','3','0'
 INSERT INTO E2 VALUES('E2','16/01/2021','Plymouth','Crewe','1','1','D','1','0','H','3.01','3.73','2.31','14','9','11','7');
 INSERT INTO E2 VALUES('E2','16/01/2021','Rochdale','Wigan','3','3','D','1','2','A','2.28','3.46','3.26','15','5','18','8');
 INSERT INTO E2 VALUES('E2','16/01/2021','Swindon','Doncaster','1','2','A','0','2','A','3.58','3.45','2.15','6','2','7','6');
+INSERT INTO E2 VALUES('E2','19/01/2021','Hull','Accrington','3','0','H','1','0','H','1.85','3.66','4.66','18','7','12','2');
+INSERT INTO E2 VALUES('E2','19/01/2021','Peterboro','Charlton','2','1','H','0','1','A','2.1','3.49','3.75','7','5','8','3');
+INSERT INTO E2 VALUES('E2','19/01/2021','Crewe','Bristol Rvs','3','2','H','2','0','H','1.63','4.11','5.75','11','6','17','5');
+INSERT INTO E2 VALUES('E2','19/01/2021','Doncaster','Rochdale','1','0','H','1','0','H','1.64','4.31','5.26','8','2','10','1');
+INSERT INTO E2 VALUES('E2','19/01/2021','Milton Keynes Dons','Fleetwood Town','3','1','H','3','0','H','2.45','3.29','3.18','13','8','18','9');
+INSERT INTO E2 VALUES('E2','19/01/2021','Portsmouth','AFC Wimbledon','4','0','H','3','0','H','1.55','4.12','7.04','15','7','9','1');
+INSERT INTO E2 VALUES('E2','19/01/2021','Sunderland','Plymouth','1','2','A','0','1','A','1.63','3.97','6','14','5','3','3');
