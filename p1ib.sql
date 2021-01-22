@@ -122,3 +122,4 @@ INSERT INTO P1 VALUES('P1','17/01/2021','Nacional','Moreirense','0','1','A','0',
 INSERT INTO P1 VALUES('P1','17/01/2021','Santa Clara','Famalicao','1','2','A','0','0','D','2.4','3.27','3.28','11','2','9','4');
 INSERT INTO P1 VALUES('P1','17/01/2021','Gil Vicente','Maritimo','0','1','A','0','0','D','2.31','3.22','3.52','14','3','16','1');
 INSERT INTO P1 VALUES('P1','18/01/2021','Portimonense','Belenenses','1','0','H','1','0','H','2.43','3.15','3.29','15','7','7','2');
+INSERT INTO P1 VALUES('P1','21/01/2021','Guimaraes','Nacional','3','1','H','1','1','D','1.67','4.05','5.39','10','4','12','5');
