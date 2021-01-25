@@ -288,3 +288,7 @@ INSERT INTO E1 VALUES('E1','20/01/2021','Cardiff','QPR','0','1','A','0','0','D',
 INSERT INTO E1 VALUES('E1','20/01/2021','Huddersfield','Millwall','0','1','A','0','1','A','3.14','3.31','2.46','8','1','5','1');
 INSERT INTO E1 VALUES('E1','20/01/2021','Nottm Forest','Middlesbrough','1','2','A','0','1','A','2.69','3.16','2.95','5','1','16','4');
 INSERT INTO E1 VALUES('E1','20/01/2021','Birmingham','Preston','0','1','A','0','0','D','2.82','3.15','2.81','14','2','5','2');
+INSERT INTO E1 VALUES('E1','22/01/2021','Stoke','Watford','1','2','A','0','0','D','3.42','3.13','2.4','14','3','7','4');
+INSERT INTO E1 VALUES('E1','23/01/2021','QPR','Derby','0','1','A','0','0','D','2.66','3.21','2.95','12','2','6','2');
+INSERT INTO E1 VALUES('E1','24/01/2021','Preston','Reading','0','0','D','0','0','D','2.77','3.19','2.83','8','2','12','4');
+INSERT INTO E1 VALUES('E1','24/01/2021','Middlesbrough','Blackburn','0','1','A','0','0','D','2.58','3.14','3.11','12','3','7','2');
