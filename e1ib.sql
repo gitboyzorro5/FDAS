@@ -292,3 +292,9 @@ INSERT INTO E1 VALUES('E1','22/01/2021','Stoke','Watford','1','2','A','0','0','D
 INSERT INTO E1 VALUES('E1','23/01/2021','QPR','Derby','0','1','A','0','0','D','2.66','3.21','2.95','12','2','6','2');
 INSERT INTO E1 VALUES('E1','24/01/2021','Preston','Reading','0','0','D','0','0','D','2.77','3.19','2.83','8','2','12','4');
 INSERT INTO E1 VALUES('E1','24/01/2021','Middlesbrough','Blackburn','0','1','A','0','0','D','2.58','3.14','3.11','12','3','7','2');
+INSERT INTO E1 VALUES('E1','26/01/2021','Bristol City','Huddersfield','2','1','H','2','0','H','2.49','3.24','3.14','4','2','26','6');
+INSERT INTO E1 VALUES('E1','26/01/2021','Millwall','Watford','0','0','D','0','0','D','3.42','3.05','2.45','4','2','13','5');
+INSERT INTO E1 VALUES('E1','27/01/2021','Barnsley','Cardiff','2','2','D','1','0','H','2.55','3.12','3.19','12','4','11','4');
+INSERT INTO E1 VALUES('E1','27/01/2021','Coventry','Sheffield Weds','2','0','H','0','0','D','','','','14','5','6','1');
+INSERT INTO E1 VALUES('E1','27/01/2021','Middlesbrough','Rotherham','0','3','A','0','1','A','1.87','3.56','4.66','14','1','11','6');
+INSERT INTO E1 VALUES('E1','27/01/2021','Swansea','Brentford','1','1','D','0','0','D','2.96','3.27','2.6','2','1','21','5');
