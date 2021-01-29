@@ -128,3 +128,4 @@ INSERT INTO G1 VALUES('G1','27/01/2021','Volos NFC','Panathinaikos','0','2','A',
 INSERT INTO G1 VALUES('G1','27/01/2021','AEK','Giannina','0','2','A','0','1','A','1.28','5.39','11.12','7','3','5','3');
 INSERT INTO G1 VALUES('G1','27/01/2021','Lamia','Apollon','1','0','H','1','0','H','2.34','3.3','3.14','9','4','4','2');
 INSERT INTO G1 VALUES('G1','27/01/2021','Olympiakos','PAOK','3','0','H','0','0','D','1.83','3.81','4.09','9','7','4','4');
+INSERT INTO G1 VALUES('G1','28/01/2021','Panetolikos','Atromitos','1','1','D','0','0','D','3.17','2.85','2.61','7','4','5','1');
