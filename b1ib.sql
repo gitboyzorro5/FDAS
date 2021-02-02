@@ -214,3 +214,12 @@ INSERT INTO B1 VALUES('B1','27/01/2021','Charleroi','Oud-Heverlee Leuven','1','1
 INSERT INTO B1 VALUES('B1','27/01/2021','Gent','St Truiden','1','1','D','0','1','A','1.57','4.32','5.71','10','5','3','2');
 INSERT INTO B1 VALUES('B1','28/01/2021','Cercle Brugge','Club Brugge','1','2','A','1','1','D','8.61','4.5','1.41','8','5','8','3');
 INSERT INTO B1 VALUES('B1','28/01/2021','Oostende','Standard','2','2','D','1','0','H','2.71','3.3','2.73','9','3','21','5');
+INSERT INTO B1 VALUES('B1','29/01/2021','Antwerp','Waasland-Beveren','3','2','H','1','1','D','1.52','4.14','7.3','15','7','6','3');
+INSERT INTO B1 VALUES('B1','30/01/2021','Mechelen','Genk','0','0','D','0','0','D','2.76','3.41','2.61','15','2','12','3');
+INSERT INTO B1 VALUES('B1','30/01/2021','Eupen','Mouscron','1','1','D','1','0','H','2.11','3.55','3.51','12','5','11','4');
+INSERT INTO B1 VALUES('B1','30/01/2021','Oud-Heverlee Leuven','Beerschot VA','0','1','A','0','0','D','2.42','3.38','3.04','14','3','14','7');
+INSERT INTO B1 VALUES('B1','30/01/2021','Kortrijk','Charleroi','1','3','A','0','1','A','2.62','3.33','2.8','12','4','14','5');
+INSERT INTO B1 VALUES('B1','31/01/2021','Club Brugge','Standard','3','1','H','2','1','H','1.61','3.75','6.49','17','7','10','5');
+INSERT INTO B1 VALUES('B1','31/01/2021','Waregem','Oostende','2','1','H','1','1','D','3.31','4.12','2.02','20','3','13','7');
+INSERT INTO B1 VALUES('B1','31/01/2021','Anderlecht','Gent','0','0','D','0','0','D','2.35','3.3','3.22','10','4','12','3');
+INSERT INTO B1 VALUES('B1','31/01/2021','St Truiden','Cercle Brugge','3','0','H','1','0','H','2.18','3.31','3.59','10','6','15','2');
