@@ -310,3 +310,9 @@ INSERT INTO E1 VALUES('E1','30/01/2021','Nottm Forest','Barnsley','0','0','D','0
 INSERT INTO E1 VALUES('E1','30/01/2021','Rotherham','Swansea','1','3','A','0','2','A','3.39','3.21','2.37','13','2','6','5');
 INSERT INTO E1 VALUES('E1','30/01/2021','Sheffield Weds','Preston','1','0','H','1','0','H','2.98','3.21','2.63','10','2','10','3');
 INSERT INTO E1 VALUES('E1','01/02/2021','Watford','QPR','1','2','A','0','0','D','1.78','3.64','5.05','10','4','13','5');
+INSERT INTO E1 VALUES('E1','02/02/2021','Millwall','Norwich','0','0','D','0','0','D','3.98','3.4','2.07','15','3','17','2');
+INSERT INTO E1 VALUES('E1','02/02/2021','Bournemouth','Sheffield Weds','1','2','A','0','1','A','1.47','4.43','8.09','12','5','14','5');
+INSERT INTO E1 VALUES('E1','02/02/2021','Coventry','Nottm Forest','1','2','A','1','1','D','2.78','3.13','2.88','14','5','6','1');
+INSERT INTO E1 VALUES('E1','02/02/2021','Wycombe','Birmingham','0','0','D','0','0','D','3.39','3.31','2.32','3','2','18','5');
+INSERT INTO E1 VALUES('E1','03/02/2021','Rotherham','Derby','3','0','H','0','0','D','2.97','3.19','2.65','9','4','10','2');
+INSERT INTO E1 VALUES('E1','03/02/2021','Brentford','Bristol City','3','2','H','1','1','D','1.42','4.5','9.36','17','8','7','4');
