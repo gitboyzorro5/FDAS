@@ -141,3 +141,7 @@ INSERT INTO P1 VALUES('P1','01/02/2021','Porto','Rio Ave','2','0','H','1','0','H
 INSERT INTO P1 VALUES('P1','01/02/2021','Moreirense','Sp Braga','0','4','A','0','3','A','5.95','4.25','1.57','14','4','14','7');
 INSERT INTO P1 VALUES('P1','01/02/2021','Sp Lisbon','Benfica','1','0','H','0','0','D','2.61','3.62','2.68','10','2','5','2');
 INSERT INTO P1 VALUES('P1','02/02/2021','Gil Vicente','Pacos Ferreira','1','2','A','0','2','A','3.24','3.14','2.5','3','3','9','6');
+INSERT INTO P1 VALUES('P1','04/02/2021','Farense','Santa Clara','1','1','D','1','0','H','2.78','2.93','3.07','16','4','11','3');
+INSERT INTO P1 VALUES('P1','04/02/2021','Belenenses','Porto','0','0','D','0','0','D','8.96','4.7','1.41','6','0','16','6');
+INSERT INTO P1 VALUES('P1','04/02/2021','Sp Braga','Portimonense','2','1','H','0','1','A','1.42','4.9','7.99','16','4','7','5');
+INSERT INTO P1 VALUES('P1','04/02/2021','Famalicao','Moreirense','0','2','A','0','2','A','2.13','3.19','4.07','19','2','10','3');
