@@ -169,3 +169,11 @@ INSERT INTO D1 VALUES('D1','30/01/2021','Werder Bremen','Schalke 04','1','1','D'
 INSERT INTO D1 VALUES('D1','30/01/2021','RB Leipzig','Leverkusen','1','0','H','0','0','D','1.96','3.62','4.2','16','2','8','4');
 INSERT INTO D1 VALUES('D1','31/01/2021','FC Koln','Bielefeld','3','1','H','2','0','H','2.32','3.27','3.5','14','7','9','3');
 INSERT INTO D1 VALUES('D1','31/01/2021','Wolfsburg','Freiburg','3','0','H','2','0','H','1.88','3.82','4.39','12','6','9','2');
+INSERT INTO D1 VALUES('D1','05/02/2021','Hertha','Bayern Munich','0','1','A','0','1','A','7.39','5.66','1.4','11','7','17','7');
+INSERT INTO D1 VALUES('D1','06/02/2021','Augsburg','Wolfsburg','0','2','A','0','1','A','4.96','3.56','1.85','9','1','17','9');
+INSERT INTO D1 VALUES('D1','06/02/2021','Freiburg','Dortmund','2','1','H','0','0','D','5.47','4.33','1.64','6','3','16','5');
+INSERT INTO D1 VALUES('D1','06/02/2021','Leverkusen','Stuttgart','5','2','H','2','0','H','2.01','3.86','3.76','25','11','14','7');
+INSERT INTO D1 VALUES('D1','06/02/2021','Mainz','Union Berlin','1','0','H','1','0','H','3.36','3.45','2.3','9','5','10','3');
+INSERT INTO D1 VALUES('D1','06/02/2021','Schalke 04','RB Leipzig','0','3','A','0','1','A','10.09','5.47','1.34','3','1','24','10');
+INSERT INTO D1 VALUES('D1','06/02/2021','Mgladbach','FC Koln','1','2','A','1','1','D','1.48','4.65','7.4','10','2','7','3');
+INSERT INTO D1 VALUES('D1','07/02/2021','Hoffenheim','Ein Frankfurt','1','3','A','0','1','A','3.04','3.92','2.28','8','2','9','5');

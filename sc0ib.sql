@@ -154,3 +154,9 @@ INSERT INTO SC0 VALUES('SC0','02/02/2021','Kilmarnock','Celtic','0','4','A','0',
 INSERT INTO SC0 VALUES('SC0','03/02/2021','Hamilton','Ross County','1','2','A','1','0','H','3.26','3.54','2.28','7','4','16','5');
 INSERT INTO SC0 VALUES('SC0','03/02/2021','Motherwell','Dundee United','2','1','H','2','0','H','2.04','3.54','3.92','13','6','15','3');
 INSERT INTO SC0 VALUES('SC0','03/02/2021','Rangers','St Johnstone','1','0','H','0','0','D','1.24','6.93','11.87','9','2','5','3');
+INSERT INTO SC0 VALUES('SC0','06/02/2021','Celtic','Motherwell','2','1','H','1','0','H','1.35','5.73','8.43','22','9','7','5');
+INSERT INTO SC0 VALUES('SC0','06/02/2021','Hibernian','Aberdeen','2','0','H','1','0','H','2.57','3.29','2.98','11','5','11','1');
+INSERT INTO SC0 VALUES('SC0','06/02/2021','Livingston','St Johnstone','1','2','A','0','1','A','2.53','3.16','3.16','7','3','15','6');
+INSERT INTO SC0 VALUES('SC0','06/02/2021','Ross County','Dundee United','0','2','A','0','0','D','2.42','3.48','3.05','14','5','17','6');
+INSERT INTO SC0 VALUES('SC0','06/02/2021','St Mirren','Kilmarnock','2','0','H','1','0','H','2.05','3.58','3.82','14','5','13','1');
+INSERT INTO SC0 VALUES('SC0','07/02/2021','Hamilton','Rangers','1','1','D','0','0','D','23.36','9.34','1.13','12','7','15','2');
