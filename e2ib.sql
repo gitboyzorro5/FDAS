@@ -310,3 +310,10 @@ INSERT INTO E2 VALUES('E2','09/02/2021','Portsmouth','Swindon','2','0','H','1','
 INSERT INTO E2 VALUES('E2','09/02/2021','Rochdale','Milton Keynes Dons','1','4','A','1','1','D','4.08','3.92','1.87','8','3','15','8');
 INSERT INTO E2 VALUES('E2','09/02/2021','Shrewsbury','Sunderland','2','1','H','0','1','A','3.91','3.18','2.15','15','6','18','6');
 INSERT INTO E2 VALUES('E2','09/02/2021','Fleetwood Town','Doncaster','3','1','H','0','1','A','2.82','3.24','2.7','15','6','6','3');
+INSERT INTO E2 VALUES('E2','13/02/2021','Charlton','Gillingham','2','3','A','1','2','A','1.81','3.76','4.44','14','7','10','4');
+INSERT INTO E2 VALUES('E2','13/02/2021','Hull','Milton Keynes Dons','0','1','A','0','0','D','2.03','3.59','3.71','14','2','10','3');
+INSERT INTO E2 VALUES('E2','13/02/2021','Northampton','Burton','0','2','A','0','0','D','2.57','3.41','2.81','11','2','8','4');
+INSERT INTO E2 VALUES('E2','13/02/2021','Plymouth','Fleetwood Town','1','0','H','1','0','H','2.55','3.5','2.77','14','3','11','2');
+INSERT INTO E2 VALUES('E2','13/02/2021','Sunderland','Doncaster','4','1','H','3','0','H','2.01','3.53','3.86','9','6','18','5');
+INSERT INTO E2 VALUES('E2','14/02/2021','Oxford','Wigan','2','1','H','0','0','D','1.46','4.42','7.48','17','7','7','1');
+INSERT INTO E2 VALUES('E2','14/02/2021','Lincoln','Accrington','2','2','D','0','1','A','','','','10','4','17','4');
