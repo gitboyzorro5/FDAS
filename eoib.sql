@@ -231,3 +231,5 @@ INSERT INTO E0 VALUES('E0','14/02/2021','Southampton','Wolves','1','2','A','1','
 INSERT INTO E0 VALUES('E0','14/02/2021','West Brom','Man United','1','1','D','1','1','D','9.65','5.71','1.34','7','3','10','7');
 INSERT INTO E0 VALUES('E0','14/02/2021','Arsenal','Leeds','4','2','H','3','0','H','1.93','3.79','4.1','13','5','9','5');
 INSERT INTO E0 VALUES('E0','14/02/2021','Everton','Fulham','0','2','A','0','0','D','1.96','3.61','4.24','7','2','12','3');
+INSERT INTO E0 VALUES('E0','15/02/2021','West Ham','Sheffield United','3','0','H','1','0','H','1.75','3.82','5.26','13','9','8','5');
+INSERT INTO E0 VALUES('E0','15/02/2021','Chelsea','Newcastle','2','0','H','2','0','H','1.26','6.85','11.46','18','5','10','4');
