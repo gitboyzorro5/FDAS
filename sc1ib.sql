@@ -70,3 +70,4 @@ INSERT INTO SC1 VALUES('SC1','06/02/2021','Morton','Raith Rvs','0','1','A','0','
 INSERT INTO SC1 VALUES('SC1','06/02/2021','Alloa','Queen of Sth','2','1','H','1','1','D','2.86','3.62','2.42','8','4','13','6');
 INSERT INTO SC1 VALUES('SC1','12/02/2021','Queen of Sth','Hearts','1','1','D','1','0','H','9.36','5.42','1.34','5','2','7','2');
 INSERT INTO SC1 VALUES('SC1','13/02/2021','Alloa','Arbroath','1','1','D','0','1','A','3.05','3.67','2.28','7','3','10','5');
+INSERT INTO SC1 VALUES('SC1','17/02/2021','Inverness C','Queen of Sth','0','1','A','0','0','D','1.67','4.25','4.81','18','5','3','2');
