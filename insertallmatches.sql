@@ -3464,7 +3464,7 @@ INSERT INTO ALLMATCHES VALUES('P1','14/02/2021','Santa Clara','Sp Braga','0','1'
 INSERT INTO ALLMATCHES VALUES('P1','14/02/2021','Moreirense','Benfica','1','1','D','1','1','D','8.31','4.86','1.42','8','3','18','8');
 INSERT INTO ALLMATCHES VALUES('P1','15/02/2021','Sp Lisbon','Pacos Ferreira','2','0','H','1','0','H','1.48','4.39','7.37','7','3','7','2');
 INSERT INTO ALLMATCHES VALUES('P1','16/02/2021','Tondela','Maritimo','2','1','H','1','1','D','2.67','3.09','3.04','13','6','5','3');
-INSERT INTO ALLMATCHES VALUES('P1','17/02/2021','Guimaraes','Farense','2','2','D','2','1','H','1.94','3.31','4.72','14','3','7','3');
+INSERT INTO ALLMATCHES VALUES('P1','17/02/2021','Guimaraes','Farense','2','2','D','2','1','H','1.94','3.31','4.72','15','3','8','3');
 INSERT INTO ALLMATCHES VALUES('N1','12/09/2020','Heerenveen','Willem II','2','0','H','1','0','H','2.64','3.57','2.68','13','7','10','5');
 INSERT INTO ALLMATCHES VALUES('N1','12/09/2020','Zwolle','Feyenoord','0','2','A','0','1','A','4.29','4.23','1.76','17','5','13','6');
 INSERT INTO ALLMATCHES VALUES('N1','12/09/2020','Twente','For Sittard','2','0','H','1','0','H','1.91','3.74','4.1','14','5','2','0');
@@ -4302,6 +4302,7 @@ INSERT INTO ALLMATCHES VALUES('G1','14/02/2021','OFI Crete','Volos NFC','1','2',
 INSERT INTO ALLMATCHES VALUES('G1','14/02/2021','Panathinaikos','Olympiakos','2','1','H','1','0','H','4.33','3.36','1.91','5','3','13','5');
 INSERT INTO ALLMATCHES VALUES('G1','15/02/2021','Giannina','PAOK','0','2','A','0','0','D','7.23','4.11','1.48','1','1','11','6');
 INSERT INTO ALLMATCHES VALUES('G1','15/02/2021','Larisa','AEK','2','4','A','0','2','A','6.84','3.94','1.52','6','4','13','5');
+INSERT INTO ALLMATCHES VALUES('G1','18/02/2021','Apollon','Lamia','0','1','A','0','1','A','2.69','2.89','3.02','9','4','6','2');
 INSERT INTO ALLMATCHES VALUES('SC0','01/08/2020','Aberdeen','Rangers','0','1','A','0','1','A','7.45','4.61','1.45','4','0','15','4');
 INSERT INTO ALLMATCHES VALUES('SC0','01/08/2020','Dundee United','St Johnstone','1','1','D','1','0','H','2.68','3.34','2.73','16','4','9','4');
 INSERT INTO ALLMATCHES VALUES('SC0','01/08/2020','Hibernian','Kilmarnock','2','1','H','2','1','H','2.12','3.47','3.57','11','3','12','2');
