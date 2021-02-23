@@ -225,3 +225,13 @@ INSERT INTO SP1 VALUES('SP1','14/02/2021','Levante','Osasuna','0','1','A','0','0
 INSERT INTO SP1 VALUES('SP1','14/02/2021','Villarreal','Betis','1','2','A','0','1','A','1.99','3.41','4.37','9','5','15','4');
 INSERT INTO SP1 VALUES('SP1','15/02/2021','Cadiz','Ath Bilbao','0','4','A','0','3','A','4.03','3.31','2.12','11','2','13','8');
 INSERT INTO SP1 VALUES('SP1','17/02/2021','Levante','Ath Madrid','1','1','D','1','1','D','5.02','3.44','1.88','7','4','14','6');
+INSERT INTO SP1 VALUES('SP1','19/02/2021','Betis','Getafe','1','0','H','0','0','D','2.05','3.26','4.38','12','5','6','1');
+INSERT INTO SP1 VALUES('SP1','20/02/2021','Elche','Eibar','1','0','H','1','0','H','3.85','3.31','2.17','6','2','13','3');
+INSERT INTO SP1 VALUES('SP1','20/02/2021','Ath Madrid','Levante','0','2','A','0','1','A','1.56','4.03','7.27','28','11','6','1');
+INSERT INTO SP1 VALUES('SP1','20/02/2021','Valencia','Celta','2','0','H','0','0','D','2.52','3.28','3.12','10','3','5','2');
+INSERT INTO SP1 VALUES('SP1','20/02/2021','Valladolid','Real Madrid','0','1','A','0','0','D','6.37','4.04','1.61','9','5','10','2');
+INSERT INTO SP1 VALUES('SP1','21/02/2021','Barcelona','Cadiz','1','1','D','1','0','H','1.17','8.23','17.86','20','4','3','1');
+INSERT INTO SP1 VALUES('SP1','21/02/2021','Sociedad','Alaves','4','0','H','1','0','H','1.67','3.67','6.57','8','4','7','2');
+INSERT INTO SP1 VALUES('SP1','21/02/2021','Huesca','Granada','3','2','H','3','1','H','2.21','3.25','3.81','15','6','8','5');
+INSERT INTO SP1 VALUES('SP1','21/02/2021','Ath Bilbao','Villarreal','1','1','D','1','1','D','2.6','3.15','3.12','18','8','3','2');
+INSERT INTO SP1 VALUES('SP1','22/02/2021','Osasuna','Sevilla','0','2','A','0','1','A','4.63','3.26','2','6','0','10','5');
