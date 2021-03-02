@@ -346,3 +346,15 @@ INSERT INTO E2 VALUES('E2','23/02/2021','Oxford','Portsmouth','0','1','A','0','0
 INSERT INTO E2 VALUES('E2','23/02/2021','Shrewsbury','Milton Keynes Dons','4','2','H','3','1','H','2.84','3.18','2.73','8','5','9','5');
 INSERT INTO E2 VALUES('E2','23/02/2021','Sunderland','Fleetwood Town','2','0','H','0','0','D','1.89','3.4','4.68','12','7','0','0');
 INSERT INTO E2 VALUES('E2','23/02/2021','Plymouth','Peterboro','0','3','A','0','0','D','3.42','3.44','2.22','6','3','13','6');
+INSERT INTO E2 VALUES('E2','27/02/2021','AFC Wimbledon','Hull','0','3','A','0','2','A','5.01','3.63','1.76','11','4','18','6');
+INSERT INTO E2 VALUES('E2','27/02/2021','Bristol Rvs','Shrewsbury','2','1','H','1','0','H','3.13','3.35','2.38','15','6','3','2');
+INSERT INTO E2 VALUES('E2','27/02/2021','Charlton','Blackpool','0','3','A','0','2','A','2.64','3.48','2.68','2','0','11','4');
+INSERT INTO E2 VALUES('E2','27/02/2021','Crewe','Sunderland','2','2','D','2','0','H','3.43','3.47','2.18','13','7','12','4');
+INSERT INTO E2 VALUES('E2','27/02/2021','Fleetwood Town','Accrington','1','1','D','1','1','D','2.5','3.09','3.18','15','6','13','3');
+INSERT INTO E2 VALUES('E2','27/02/2021','Ipswich','Doncaster','2','1','H','1','0','H','2.39','3.24','3.21','10','5','17','7');
+INSERT INTO E2 VALUES('E2','27/02/2021','Milton Keynes Dons','Oxford','1','1','D','1','0','H','2.76','3.45','2.59','10','3','15','4');
+INSERT INTO E2 VALUES('E2','27/02/2021','Peterboro','Wigan','2','1','H','0','0','D','1.43','4.66','7.54','11','3','10','7');
+INSERT INTO E2 VALUES('E2','27/02/2021','Plymouth','Lincoln','4','3','H','2','1','H','3.27','3.56','2.21','10','5','15','8');
+INSERT INTO E2 VALUES('E2','27/02/2021','Portsmouth','Gillingham','1','1','D','1','1','D','1.63','3.98','5.59','12','6','18','6');
+INSERT INTO E2 VALUES('E2','27/02/2021','Rochdale','Burton','0','2','A','0','0','D','2.83','3.67','2.42','6','0','18','7');
+INSERT INTO E2 VALUES('E2','27/02/2021','Swindon','Northampton','2','1','H','1','1','D','2.51','3.45','2.85','8','3','8','5');
