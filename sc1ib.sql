@@ -83,3 +83,7 @@ INSERT INTO SC1 VALUES('SC1','27/02/2021','Morton','Dundee','2','2','D','1','0',
 INSERT INTO SC1 VALUES('SC1','27/02/2021','Queen of Sth','Dunfermline','1','0','H','0','0','D','3.7','3.59','2.04','6','4','7','2');
 INSERT INTO SC1 VALUES('SC1','27/02/2021','Raith Rvs','Alloa','3','1','H','0','1','A','1.6','4.28','5.42','11','5','5','5');
 INSERT INTO SC1 VALUES('SC1','02/03/2021','Dundee','Inverness C','2','1','H','2','0','H','2.35','3.47','3.13','11','3','10','5');
+INSERT INTO SC1 VALUES('SC1','06/03/2021','Alloa','Inverness C','1','1','D','1','1','D','3.91','3.89','1.89','13','9','7','4');
+INSERT INTO SC1 VALUES('SC1','06/03/2021','Arbroath','Queen of Sth','2','4','A','2','3','A','2.39','3.33','3.11','12','5','12','8');
+INSERT INTO SC1 VALUES('SC1','06/03/2021','Hearts','Dundee','2','1','H','1','0','H','1.67','3.84','5.46','15','7','17','7');
+INSERT INTO SC1 VALUES('SC1','06/03/2021','Morton','Ayr','0','2','A','0','0','D','2.74','3.59','2.53','6','2','13','7');
