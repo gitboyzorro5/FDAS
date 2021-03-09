@@ -265,3 +265,4 @@ INSERT INTO B1 VALUES('B1','07/03/2021','Mouscron','Standard','1','0','H','1','0
 INSERT INTO B1 VALUES('B1','07/03/2021','Club Brugge','Waregem','3','0','H','2','0','H','1.28','6.06','9.74','18','8','7','1');
 INSERT INTO B1 VALUES('B1','07/03/2021','Anderlecht','Mechelen','1','1','D','1','0','H','1.88','3.78','4.05','14','3','7','2');
 INSERT INTO B1 VALUES('B1','07/03/2021','Genk','Cercle Brugge','2','0','H','2','0','H','1.79','3.88','4.46','15','8','7','1');
+INSERT INTO B1 VALUES('B1','08/03/2021','Gent','Oostende','1','0','H','1','0','H','1.74','3.97','4.51','7','2','15','3');

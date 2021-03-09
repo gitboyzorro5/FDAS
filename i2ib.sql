@@ -267,3 +267,4 @@ INSERT INTO I2 VALUES('I2','06/03/2021','Venezia','Brescia','0','1','A','0','1',
 INSERT INTO I2 VALUES('I2','06/03/2021','Monza','Pordenone','2','0','H','1','0','H','1.65','3.69','6.29','16','6','17','0');
 INSERT INTO I2 VALUES('I2','07/03/2021','Empoli','Cittadella','1','1','D','1','0','H','','','','15','3','26','11');
 INSERT INTO I2 VALUES('I2','07/03/2021','Reggiana','Lecce','0','4','A','0','3','A','','','','5','0','20','8');
+INSERT INTO I2 VALUES('I2','08/03/2021','Chievo','Vicenza','1','2','A','0','2','A','','','','14','3','3','3');
