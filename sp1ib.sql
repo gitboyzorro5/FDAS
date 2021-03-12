@@ -256,3 +256,4 @@ INSERT INTO SP1 VALUES('SP1','07/03/2021','Ath Madrid','Real Madrid','1','1','D'
 INSERT INTO SP1 VALUES('SP1','07/03/2021','Sociedad','Levante','1','0','H','1','0','H','1.49','4.47','7.74','25','8','6','1');
 INSERT INTO SP1 VALUES('SP1','07/03/2021','Ath Bilbao','Granada','2','1','H','1','0','H','1.65','3.98','5.96','7','5','13','3');
 INSERT INTO SP1 VALUES('SP1','08/03/2021','Betis','Alaves','3','2','H','0','2','A','1.76','3.89','5.05','23','8','4','3');
+INSERT INTO SP1 VALUES('SP1','10/03/2021','Ath Madrid','Ath Bilbao','2','1','H','1','1','D','1.83','3.33','5.61','11','5','4','2');

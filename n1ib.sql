@@ -221,3 +221,4 @@ INSERT INTO N1 VALUES('N1','07/03/2021','Ajax','Groningen','3','1','H','1','0','
 INSERT INTO N1 VALUES('N1','07/03/2021','For Sittard','PSV Eindhoven','1','3','A','0','2','A','6.33','5.02','1.48','11','4','12','6');
 INSERT INTO N1 VALUES('N1','07/03/2021','Heracles','Zwolle','2','1','H','0','0','D','2.1','3.61','3.62','18','8','8','3');
 INSERT INTO N1 VALUES('N1','07/03/2021','Vitesse','AZ Alkmaar','2','1','H','1','0','H','3.38','4.07','2.06','10','4','13','4');
+INSERT INTO N1 VALUES('N1','09/03/2021','VVV Venlo','Sparta Rotterdam','0','1','A','0','0','D','3.93','3.69','1.98','8','3','12','5');

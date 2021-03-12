@@ -277,3 +277,4 @@ INSERT INTO F1 VALUES('F1','03/03/2021','Lille','Marseille','2','0','H','0','0',
 INSERT INTO F1 VALUES('F1','03/03/2021','Montpellier','Lorient','1','1','D','1','1','D','2.09','3.54','3.82','10','4','14','6');
 INSERT INTO F1 VALUES('F1','03/03/2021','Nantes','Reims','1','2','A','1','1','D','2.57','3','3.34','12','5','4','2');
 INSERT INTO F1 VALUES('F1','03/03/2021','Strasbourg','Monaco','1','0','H','0','0','D','4.14','3.87','1.91','17','2','5','1');
+INSERT INTO F1 VALUES('F1','10/03/2021','Marseille','Rennes','1','0','H','0','0','D','3','3.08','2.75','9','2','10','2');
