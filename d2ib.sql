@@ -220,3 +220,10 @@ INSERT INTO D2 VALUES('D2','14/03/2021','Karlsruhe','Braunschweig','0','0','D','
 INSERT INTO D2 VALUES('D2','14/03/2021','Nurnberg','Osnabruck','1','1','D','0','0','D','1.92','3.46','4.55','13','4','5','2');
 INSERT INTO D2 VALUES('D2','15/03/2021','St Pauli','Paderborn','0','2','A','0','1','A','2.53','3.36','2.94','17','3','11','7');
 INSERT INTO D2 VALUES('D2','17/03/2021','Regensburg','Greuther Furth','1','2','A','0','1','A','3.63','3.54','2.13','8','3','16','8');
+INSERT INTO D2 VALUES('D2','19/03/2021','Paderborn','Karlsruhe','2','2','D','0','1','A','2.25','3.63','3.25','11','5','19','6');
+INSERT INTO D2 VALUES('D2','20/03/2021','Braunschweig','Darmstadt','1','1','D','1','1','D','3.36','3.44','2.28','11','5','12','6');
+INSERT INTO D2 VALUES('D2','20/03/2021','Erzgebirge Aue','Sandhausen','2','0','H','0','0','D','2.28','3.46','3.32','14','5','15','2');
+INSERT INTO D2 VALUES('D2','20/03/2021','Hamburg','Heidenheim','2','0','H','1','0','H','1.95','3.65','4.11','18','6','11','3');
+INSERT INTO D2 VALUES('D2','21/03/2021','Greuther Furth','Nurnberg','2','2','D','1','0','H','1.77','4.04','4.62','11','4','20','8');
+INSERT INTO D2 VALUES('D2','21/03/2021','Osnabruck','St Pauli','1','2','A','0','0','D','3.43','3.59','2.18','13','3','14','4');
+INSERT INTO D2 VALUES('D2','21/03/2021','Wurzburger Kickers','Regensburg','1','1','D','1','0','H','2.84','3.38','2.64','6','4','20','7');

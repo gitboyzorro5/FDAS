@@ -43,3 +43,8 @@ INSERT INTO SC3 VALUES('SC3','19/12/2020','Elgin','Stenhousemuir','2','0','H','2
 INSERT INTO SC3 VALUES('SC3','19/12/2020','Stranraer','Albion Rvs','4','0','H','0','0','D','1.44','4.88','6.4','17','8','5','2');
 INSERT INTO SC3 VALUES('SC3','22/12/2020','Brechin','Annan Athletic','0','0','D','0','0','D','4.91','4.26','1.62','8','4','6','3');
 INSERT INTO SC3 VALUES('SC3','02/01/2021','Stranraer','Annan Athletic','2','0','H','0','0','D','1.61','4.32','4.96','10','4','12','4');
+INSERT INTO SC3 VALUES('SC3','20/03/2021','Annan Athletic','Cowdenbeath','0','0','D','0','0','D','2.37','3.5','2.93','5','1','6','0');
+INSERT INTO SC3 VALUES('SC3','20/03/2021','Elgin','Edinburgh City','1','2','A','1','2','A','','','','9','2','9','4');
+INSERT INTO SC3 VALUES('SC3','20/03/2021','Queens Park','Stranraer','3','0','H','2','0','H','1.69','4.25','4.36','8','4','3','0');
+INSERT INTO SC3 VALUES('SC3','20/03/2021','Stenhousemuir','Albion Rvs','2','0','H','1','0','H','1.42','4.78','6.91','8','2','3','0');
+INSERT INTO SC3 VALUES('SC3','20/03/2021','Stirling','Brechin','1','0','H','0','0','D','1.26','5.82','10.64','7','4','6','3');
