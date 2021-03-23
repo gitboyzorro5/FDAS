@@ -2511,6 +2511,8 @@ INSERT INTO SP2 VALUES('SP2','21/03/2021','Ponferradina','Almeria','2','1','H','
 INSERT INTO SP2 VALUES('SP2','21/03/2021','Malaga','Tenerife','1','1','D','1','0','H','2.88','2.77','2.93','2','1','16','7');
 INSERT INTO SP2 VALUES('SP2','21/03/2021','Lugo','Castellon','0','0','D','0','0','D','2.24','3.04','3.86','20','6','4','2');
 INSERT INTO SP2 VALUES('SP2','21/03/2021','Alcorcon','Vallecano','0','3','A','0','2','A','3.55','3.16','2.3','6','1','11','4');
+INSERT INTO SP2 VALUES('SP2','22/03/2021','Albacete','Cartagena','2','0','H','1','0','H','2.82','2.91','2.98','8','4','12','1');
+INSERT INTO SP2 VALUES('SP2','22/03/2021','Zaragoza','Mirandes','1','0','H','1','0','H','2.57','2.86','3.4','11','5','10','3');
 INSERT INTO D1 VALUES('D1','18/09/2020','Bayern Munich','Schalke 04','8','0','H','3','0','H','1.1','12.11','27.06','22','12','5','1');
 INSERT INTO D1 VALUES('D1','19/09/2020','Ein Frankfurt','Bielefeld','1','1','D','0','0','D','1.67','4.21','5.08','18','6','14','4');
 INSERT INTO D1 VALUES('D1','19/09/2020','FC Koln','Hoffenheim','2','3','A','1','2','A','2.62','3.67','2.63','13','6','13','7');
@@ -2974,6 +2976,7 @@ INSERT INTO D2 VALUES('D2','20/03/2021','Hamburg','Heidenheim','2','0','H','1','
 INSERT INTO D2 VALUES('D2','21/03/2021','Greuther Furth','Nurnberg','2','2','D','1','0','H','1.77','4.04','4.62','11','4','20','8');
 INSERT INTO D2 VALUES('D2','21/03/2021','Osnabruck','St Pauli','1','2','A','0','0','D','3.43','3.59','2.18','13','3','14','4');
 INSERT INTO D2 VALUES('D2','21/03/2021','Wurzburger Kickers','Regensburg','1','1','D','1','0','H','2.84','3.38','2.64','6','4','20','7');
+INSERT INTO D2 VALUES('D2','22/03/2021','Fortuna Dusseldorf','Bochum','0','3','A','0','2','A','2.57','3.27','2.95','18','5','15','7');
 INSERT INTO F1 VALUES('F1','21/08/2020','Bordeaux','Nantes','0','0','D','0','0','D','2.48','3.03','3.33','5','1','6','1');
 INSERT INTO F1 VALUES('F1','22/08/2020','Dijon','Angers','0','1','A','0','1','A','2.79','3.09','2.84','9','1','12','4');
 INSERT INTO F1 VALUES('F1','22/08/2020','Lille','Rennes','1','1','D','1','0','H','2.3','3.22','3.47','5','1','16','3');
