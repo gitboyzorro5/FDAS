@@ -101,3 +101,8 @@ INSERT INTO SC1 VALUES('SC1','20/03/2021','Arbroath','Hearts','0','0','D','0','0
 INSERT INTO SC1 VALUES('SC1','20/03/2021','Ayr','Raith Rvs','1','1','D','0','0','D','2.65','3.26','2.82','12','5','9','3');
 INSERT INTO SC1 VALUES('SC1','20/03/2021','Dunfermline','Inverness C','0','1','A','0','0','D','2.25','3.51','3.22','9','5','14','6');
 INSERT INTO SC1 VALUES('SC1','20/03/2021','Morton','Queen of Sth','2','1','H','1','1','D','2.44','3.52','2.9','12','3','5','2');
+INSERT INTO SC1 VALUES('SC1','27/03/2021','Alloa','Ayr','2','2','D','1','1','D','3.59','3.54','2.09','8','2','12','4');
+INSERT INTO SC1 VALUES('SC1','27/03/2021','Hearts','Queen of Sth','2','3','A','1','2','A','1.38','5.04','8.05','15','4','7','4');
+INSERT INTO SC1 VALUES('SC1','27/03/2021','Inverness C','Arbroath','1','0','H','0','0','D','1.83','3.64','4.54','5','3','3','1');
+INSERT INTO SC1 VALUES('SC1','27/03/2021','Raith Rvs','Morton','1','0','H','0','0','D','1.88','3.71','4.19','7','4','3','1');
+INSERT INTO SC1 VALUES('SC1','27/03/2021','Dundee','Dunfermline','3','2','H','1','2','A','2.41','3.43','3.01','21','7','7','4');
