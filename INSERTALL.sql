@@ -1178,6 +1178,7 @@ INSERT INTO E2 VALUES('E2','27/03/2021','Milton Keynes Dons','Doncaster','1','0'
 INSERT INTO E2 VALUES('E2','27/03/2021','Peterboro','Accrington','7','0','H','3','0','H','1.72','3.89','4.9','19','12','8','2');
 INSERT INTO E2 VALUES('E2','27/03/2021','Shrewsbury','Portsmouth','1','2','A','0','2','A','3.58','3.3','2.19','6','3','7','3');
 INSERT INTO E2 VALUES('E2','27/03/2021','Wigan','Ipswich','0','0','D','0','0','D','3.39','3.46','2.19','10','2','8','4');
+INSERT INTO E2 VALUES('E2','31/03/2021','Gillingham','Wigan','1','0','H','0','0','D','2.11','3.44','3.63','9','5','13','3');
 INSERT INTO E3 VALUES('E3','12/09/2020','Barrow','Stevenage','1','1','D','1','0','H','2.21','3.45','3.36','10','5','11','2');
 INSERT INTO E3 VALUES('E3','12/09/2020','Bolton','Forest Green','0','1','A','0','0','D','2.21','3.43','3.44','9','2','14','3');
 INSERT INTO E3 VALUES('E3','12/09/2020','Bradford','Colchester','0','0','D','0','0','D','2.22','3.26','3.55','17','4','11','2');
@@ -1621,6 +1622,7 @@ INSERT INTO E3 VALUES('E3','27/03/2021','Leyton Orient','Oldham','2','1','H','2'
 INSERT INTO E3 VALUES('E3','27/03/2021','Morecambe','Cheltenham','1','0','H','1','0','H','3.21','3.28','2.37','7','1','20','6');
 INSERT INTO E3 VALUES('E3','27/03/2021','Stevenage','Barrow','2','1','H','0','0','D','2.47','3.06','3.26','12','5','5','2');
 INSERT INTO E3 VALUES('E3','27/03/2021','Tranmere','Mansfield','1','1','D','1','0','H','2.52','3.19','3.05','15','3','13','3');
+INSERT INTO E3 VALUES('E3','30/03/2021','Carlisle','Crawley Town','2','0','H','2','0','H','2.18','3.4','3.56','19','10','4','0');
 INSERT INTO EC VALUES('EC','03/10/2020','Altrincham','Weymouth','0','0','D','0','0','D','1.89','3.87','4','0','0','0','0');
 INSERT INTO EC VALUES('EC','03/10/2020','Barnet','Eastleigh','1','5','A','1','1','D','2.22','3.56','3.32','0','0','0','0');
 INSERT INTO EC VALUES('EC','03/10/2020','Dover Athletic','Notts County','1','0','H','0','0','D','4.38','4','1.79','0','0','0','0');
@@ -1951,6 +1953,8 @@ INSERT INTO EC VALUES('EC','27/03/2021','Stockport','Hartlepool','1','1','D','0'
 INSERT INTO EC VALUES('EC','27/03/2021','Wrexham','Bromley','3','0','H','2','0','H','2.43','3.41','2.9','0','0','0','0');
 INSERT INTO EC VALUES('EC','27/03/2021','Yeovil','Barnet','3','1','H','3','0','H','1.46','4.66','6.29','0','0','0','0');
 INSERT INTO EC VALUES('EC','27/03/2021','Maidenhead','Altrincham','0','1','A','0','0','D','2.06','3.83','3.29','0','0','0','0');
+INSERT INTO EC VALUES('EC','30/03/2021','Notts County','Aldershot','0','1','A','0','1','A','1.71','3.72','4.96','0','0','0','0');
+INSERT INTO EC VALUES('EC','30/03/2021','Solihull','Wealdstone','3','0','H','1','0','H','1.49','4.41','6.3','0','0','0','0');
 INSERT INTO SP1 VALUES('SP1','12/09/2020','Eibar','Celta','0','0','D','0','0','D','2.6','3.22','3.01','8','1','6','3');
 INSERT INTO SP1 VALUES('SP1','12/09/2020','Granada','Ath Bilbao','2','0','H','0','0','D','2.92','3.02','2.82','4','2','9','2');
 INSERT INTO SP1 VALUES('SP1','12/09/2020','Cadiz','Osasuna','0','2','A','0','1','A','2.87','3.04','2.86','12','3','6','4');
@@ -2570,7 +2574,17 @@ INSERT INTO SP2 VALUES('SP2','27/03/2021','Logrones','Zaragoza','1','1','D','1',
 INSERT INTO SP2 VALUES('SP2','28/03/2021','Lugo','Sabadell','0','1','A','0','1','A','2.44','2.99','3.46','6','3','12','2');
 INSERT INTO SP2 VALUES('SP2','28/03/2021','Girona','Albacete','2','1','H','0','0','D','2','3.17','4.54','10','4','9','2');
 INSERT INTO SP2 VALUES('SP2','28/03/2021','Tenerife','Las Palmas','1','1','D','1','1','D','2.07','3.04','4.51','12','3','11','2');
-INSERT INTO SP2 VALUES('SP2','29/03/2021','Fuenlabrada','Mallorca','4','1','H','3','0','H','2.6','3.21','2.81','','10','13','9');
+INSERT INTO SP2 VALUES('SP2','29/03/2021','Fuenlabrada','Mallorca','4','1','H','3','0','H','3.21','2.81','2.73','13','9','10','4');
+INSERT INTO SP2 VALUES('SP2','30/03/2021','Alcorcon','Oviedo','1','1','D','1','0','H','3.14','2.85','2.79','6','1','11','3');
+INSERT INTO SP2 VALUES('SP2','30/03/2021','Malaga','Almeria','0','3','A','0','2','A','3.58','3.16','2.32','17','3','9','4');
+INSERT INTO SP2 VALUES('SP2','30/03/2021','Ponferradina','Logrones','2','2','D','0','1','A','1.9','3.33','4.93','13','2','12','7');
+INSERT INTO SP2 VALUES('SP2','30/03/2021','Vallecano','Sp Gijon','0','1','A','0','1','A','2.2','3.04','4.1','17','7','9','2');
+INSERT INTO SP2 VALUES('SP2','31/03/2021','Albacete','Castellon','0','1','A','0','0','D','2.6','3','3.18','16','7','10','3');
+INSERT INTO SP2 VALUES('SP2','31/03/2021','Sabadell','Girona','2','2','D','2','1','H','2.95','2.89','2.87','8','5','15','7');
+INSERT INTO SP2 VALUES('SP2','01/04/2021','Espanol','Fuenlabrada','4','0','H','3','0','H','1.7','3.41','6.37','18','4','6','2');
+INSERT INTO SP2 VALUES('SP2','01/04/2021','Mallorca','Leganes','1','0','H','1','0','H','2.27','2.93','3.97','8','3','11','3');
+INSERT INTO SP2 VALUES('SP2','01/04/2021','Las Palmas','Lugo','6','1','H','3','1','H','2.03','3.49','3.91','22','11','6','3');
+INSERT INTO SP2 VALUES('SP2','01/04/2021','Zaragoza','Cartagena','0','0','D','0','0','D','2.39','2.95','3.62','9','1','6','3');
 INSERT INTO D1 VALUES('D1','18/09/2020','Bayern Munich','Schalke 04','8','0','H','3','0','H','1.1','12.11','27.06','22','12','5','1');
 INSERT INTO D1 VALUES('D1','19/09/2020','Ein Frankfurt','Bielefeld','1','1','D','0','0','D','1.67','4.21','5.08','18','6','14','4');
 INSERT INTO D1 VALUES('D1','19/09/2020','FC Koln','Hoffenheim','2','3','A','1','2','A','2.62','3.67','2.63','13','6','13','7');
@@ -5749,6 +5763,7 @@ INSERT INTO SC1 VALUES('SC1','27/03/2021','Hearts','Queen of Sth','2','3','A','1
 INSERT INTO SC1 VALUES('SC1','27/03/2021','Inverness C','Arbroath','1','0','H','0','0','D','1.83','3.64','4.54','5','3','3','1');
 INSERT INTO SC1 VALUES('SC1','27/03/2021','Raith Rvs','Morton','1','0','H','0','0','D','1.88','3.71','4.19','7','4','3','1');
 INSERT INTO SC1 VALUES('SC1','27/03/2021','Dundee','Dunfermline','3','2','H','1','2','A','2.41','3.43','3.01','21','7','7','4');
+INSERT INTO SC1 VALUES('SC1','30/03/2021','Raith Rvs','Dunfermline','5','1','H','3','1','H','2.85','3.19','2.71','14','6','4','2');
 INSERT INTO SC2 VALUES('SC2','17/10/2020','Airdrie Utd','Peterhead','2','0','H','1','0','H','1.9','3.81','3.8','8','4','6','1');
 INSERT INTO SC2 VALUES('SC2','17/10/2020','Clyde','Partick','1','0','H','0','0','D','2.9','3.8','2.26','10','5','5','1');
 INSERT INTO SC2 VALUES('SC2','17/10/2020','Cove Rangers','East Fife','3','1','H','1','0','H','1.77','4.28','3.93','17','9','8','2');
@@ -5809,6 +5824,13 @@ INSERT INTO SC2 VALUES('SC2','27/03/2021','Dumbarton','Peterhead','0','1','A','0
 INSERT INTO SC2 VALUES('SC2','27/03/2021','East Fife','Cove Rangers','0','0','D','0','0','D','3.07','3.5','2.28','7','1','6','4');
 INSERT INTO SC2 VALUES('SC2','27/03/2021','Forfar','Falkirk','0','2','A','0','1','A','7.37','4.36','1.44','2','0','12','5');
 INSERT INTO SC2 VALUES('SC2','27/03/2021','Montrose','Clyde','2','2','D','2','2','D','2.11','3.55','3.39','13','3','10','4');
+INSERT INTO SC2 VALUES('SC2','30/03/2021','Cove Rangers','Airdrie Utd','2','0','H','0','0','D','1.8','3.96','4.17','14','7','7','1');
+INSERT INTO SC2 VALUES('SC2','30/03/2021','Falkirk','Dumbarton','1','1','D','0','0','D','1.22','6.28','12.5','12','6','8','3');
+INSERT INTO SC2 VALUES('SC2','30/03/2021','Montrose','East Fife','3','0','H','2','0','H','2.55','3.89','2.5','8','3','9','2');
+INSERT INTO SC2 VALUES('SC2','30/03/2021','Partick','Forfar','2','2','D','1','2','A','1.2','6.48','14.68','16','6','9','4');
+INSERT INTO SC2 VALUES('SC2','30/03/2021','Peterhead','Clyde','0','2','A','0','0','D','2.26','3.28','3.3','7','2','4','3');
+INSERT INTO SC2 VALUES('SC2','01/04/2021','Dumbarton','Airdrie Utd','0','1','A','0','0','D','3.16','3.73','2.15','2','0','7','2');
+INSERT INTO SC2 VALUES('SC2','01/04/2021','East Fife','Clyde','1','0','H','1','0','H','1.92','3.87','3.53','7','4','4','0');
 INSERT INTO SC3 VALUES('SC3','17/10/2020','Albion Rvs','Stenhousemuir','1','3','A','0','1','A','2.93','3.89','2.22','12','5','16','5');
 INSERT INTO SC3 VALUES('SC3','17/10/2020','Brechin','Edinburgh City','1','5','A','0','1','A','5.33','4.76','1.52','5','4','18','10');
 INSERT INTO SC3 VALUES('SC3','17/10/2020','Cowdenbeath','Annan Athletic','0','3','A','0','2','A','2.48','3.63','2.7','5','3','11','6');
@@ -5866,3 +5888,7 @@ INSERT INTO SC3 VALUES('SC3','27/03/2021','Brechin','Queens Park','0','2','A','0
 INSERT INTO SC3 VALUES('SC3','27/03/2021','Cowdenbeath','Stranraer','1','1','D','1','0','H','3.62','3.8','1.95','5','1','15','4');
 INSERT INTO SC3 VALUES('SC3','27/03/2021','Edinburgh City','Stenhousemuir','3','1','H','1','0','H','1.96','3.74','3.65','15','7','9','3');
 INSERT INTO SC3 VALUES('SC3','27/03/2021','Elgin','Stirling','1','1','D','0','0','D','2.28','3.93','2.79','8','3','11','3');
+INSERT INTO SC3 VALUES('SC3','30/03/2021','Albion Rvs','Queens Park','0','3','A','0','2','A','10.24','5.7','1.27','3','1','14','7');
+INSERT INTO SC3 VALUES('SC3','30/03/2021','Brechin','Elgin','1','2','A','1','0','H','7.04','4.98','1.4','10','6','21','6');
+INSERT INTO SC3 VALUES('SC3','30/03/2021','Cowdenbeath','Edinburgh City','1','3','A','1','2','A','4.64','4.02','1.69','7','4','11','8');
+INSERT INTO SC3 VALUES('SC3','30/03/2021','Stirling','Stenhousemuir','1','0','H','0','0','D','2.01','3.61','3.61','19','10','3','0');

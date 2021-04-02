@@ -328,3 +328,5 @@ INSERT INTO EC VALUES('EC','27/03/2021','Stockport','Hartlepool','1','1','D','0'
 INSERT INTO EC VALUES('EC','27/03/2021','Wrexham','Bromley','3','0','H','2','0','H','2.43','3.41','2.9','0','0','0','0');
 INSERT INTO EC VALUES('EC','27/03/2021','Yeovil','Barnet','3','1','H','3','0','H','1.46','4.66','6.29','0','0','0','0');
 INSERT INTO EC VALUES('EC','27/03/2021','Maidenhead','Altrincham','0','1','A','0','0','D','2.06','3.83','3.29','0','0','0','0');
+INSERT INTO EC VALUES('EC','30/03/2021','Notts County','Aldershot','0','1','A','0','1','A','1.71','3.72','4.96','0','0','0','0');
+INSERT INTO EC VALUES('EC','30/03/2021','Solihull','Wealdstone','3','0','H','1','0','H','1.49','4.41','6.3','0','0','0','0');

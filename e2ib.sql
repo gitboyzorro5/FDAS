@@ -438,3 +438,4 @@ INSERT INTO E2 VALUES('E2','27/03/2021','Milton Keynes Dons','Doncaster','1','0'
 INSERT INTO E2 VALUES('E2','27/03/2021','Peterboro','Accrington','7','0','H','3','0','H','1.72','3.89','4.9','19','12','8','2');
 INSERT INTO E2 VALUES('E2','27/03/2021','Shrewsbury','Portsmouth','1','2','A','0','2','A','3.58','3.3','2.19','6','3','7','3');
 INSERT INTO E2 VALUES('E2','27/03/2021','Wigan','Ipswich','0','0','D','0','0','D','3.39','3.46','2.19','10','2','8','4');
+INSERT INTO E2 VALUES('E2','31/03/2021','Gillingham','Wigan','1','0','H','0','0','D','2.11','3.44','3.63','9','5','13','3');

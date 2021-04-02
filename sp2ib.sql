@@ -337,4 +337,14 @@ INSERT INTO SP2 VALUES('SP2','27/03/2021','Logrones','Zaragoza','1','1','D','1',
 INSERT INTO SP2 VALUES('SP2','28/03/2021','Lugo','Sabadell','0','1','A','0','1','A','2.44','2.99','3.46','6','3','12','2');
 INSERT INTO SP2 VALUES('SP2','28/03/2021','Girona','Albacete','2','1','H','0','0','D','2','3.17','4.54','10','4','9','2');
 INSERT INTO SP2 VALUES('SP2','28/03/2021','Tenerife','Las Palmas','1','1','D','1','1','D','2.07','3.04','4.51','12','3','11','2');
-INSERT INTO SP2 VALUES('SP2','29/03/2021','Fuenlabrada','Mallorca','4','1','H','3','0','H','2.6','3.21','2.81','','10','13','9');
+INSERT INTO SP2 VALUES('SP2','29/03/2021','Fuenlabrada','Mallorca','4','1','H','3','0','H','3.21','2.81','2.73','13','9','10','4');
+INSERT INTO SP2 VALUES('SP2','30/03/2021','Alcorcon','Oviedo','1','1','D','1','0','H','3.14','2.85','2.79','6','1','11','3');
+INSERT INTO SP2 VALUES('SP2','30/03/2021','Malaga','Almeria','0','3','A','0','2','A','3.58','3.16','2.32','17','3','9','4');
+INSERT INTO SP2 VALUES('SP2','30/03/2021','Ponferradina','Logrones','2','2','D','0','1','A','1.9','3.33','4.93','13','2','12','7');
+INSERT INTO SP2 VALUES('SP2','30/03/2021','Vallecano','Sp Gijon','0','1','A','0','1','A','2.2','3.04','4.1','17','7','9','2');
+INSERT INTO SP2 VALUES('SP2','31/03/2021','Albacete','Castellon','0','1','A','0','0','D','2.6','3','3.18','16','7','10','3');
+INSERT INTO SP2 VALUES('SP2','31/03/2021','Sabadell','Girona','2','2','D','2','1','H','2.95','2.89','2.87','8','5','15','7');
+INSERT INTO SP2 VALUES('SP2','01/04/2021','Espanol','Fuenlabrada','4','0','H','3','0','H','1.7','3.41','6.37','18','4','6','2');
+INSERT INTO SP2 VALUES('SP2','01/04/2021','Mallorca','Leganes','1','0','H','1','0','H','2.27','2.93','3.97','8','3','11','3');
+INSERT INTO SP2 VALUES('SP2','01/04/2021','Las Palmas','Lugo','6','1','H','3','1','H','2.03','3.49','3.91','22','11','6','3');
+INSERT INTO SP2 VALUES('SP2','01/04/2021','Zaragoza','Cartagena','0','0','D','0','0','D','2.39','2.95','3.62','9','1','6','3');
