@@ -770,6 +770,8 @@ INSERT INTO ALLMATCHES VALUES('E1','05/04/2021','Rotherham','Wycombe','0','3','A
 INSERT INTO ALLMATCHES VALUES('E1','05/04/2021','Stoke','Millwall','1','2','A','1','1','D','2.24','3.19','3.74','14','5','10','3');
 INSERT INTO ALLMATCHES VALUES('E1','05/04/2021','Swansea','Preston','0','1','A','0','0','D','1.98','3.37','4.4','9','0','14','3');
 INSERT INTO ALLMATCHES VALUES('E1','05/04/2021','Sheffield Weds','Cardiff','5','0','H','3','0','H','3.43','3.16','2.38','12','6','17','3');
+INSERT INTO ALLMATCHES VALUES('E1','06/04/2021','Brentford','Birmingham','0','0','D','0','0','D','1.56','4.07','6.96','9','4','7','0');
+INSERT INTO ALLMATCHES VALUES('E1','06/04/2021','Norwich','Huddersfield','7','0','H','5','0','H','1.43','4.66','8.47','22','11','7','2');
 INSERT INTO ALLMATCHES VALUES('E2','12/09/2020','Accrington','Peterboro','2','0','H','1','0','H','3.45','3.65','2.1','7','4','19','5');
 INSERT INTO ALLMATCHES VALUES('E2','12/09/2020','Crewe','Charlton','0','2','A','0','2','A','2.82','3.4','2.56','19','5','8','4');
 INSERT INTO ALLMATCHES VALUES('E2','12/09/2020','Doncaster','Milton Keynes Dons','1','1','D','0','0','D','2.16','3.34','3.7','6','2','16','4');
@@ -1698,6 +1700,8 @@ INSERT INTO ALLMATCHES VALUES('E3','05/04/2021','Leyton Orient','Walsall','0','0
 INSERT INTO ALLMATCHES VALUES('E3','05/04/2021','Newport County','Bolton','1','0','H','0','0','D','3.06','3.28','2.46','7','5','14','2');
 INSERT INTO ALLMATCHES VALUES('E3','05/04/2021','Stevenage','Bradford','1','1','D','1','1','D','2.45','3.25','3.1','7','3','11','2');
 INSERT INTO ALLMATCHES VALUES('E3','05/04/2021','Tranmere','Cambridge','1','1','D','1','0','H','2.34','3.37','3.17','11','3','7','5');
+INSERT INTO ALLMATCHES VALUES('E3','06/04/2021','Carlisle','Scunthorpe','2','0','H','0','0','D','1.9','3.6','4.24','20','3','2','2');
+INSERT INTO ALLMATCHES VALUES('E3','06/04/2021','Morecambe','Southend','1','1','D','0','1','A','2','3.66','3.74','17','2','9','3');
 INSERT INTO ALLMATCHES VALUES('EC','03/10/2020','Altrincham','Weymouth','0','0','D','0','0','D','1.89','3.87','4','0','0','0','0');
 INSERT INTO ALLMATCHES VALUES('EC','03/10/2020','Barnet','Eastleigh','1','5','A','1','1','D','2.22','3.56','3.32','0','0','0','0');
 INSERT INTO ALLMATCHES VALUES('EC','03/10/2020','Dover Athletic','Notts County','1','0','H','0','0','D','4.38','4','1.79','0','0','0','0');
@@ -2338,6 +2342,7 @@ INSERT INTO ALLMATCHES VALUES('SP1','04/04/2021','Elche','Betis','1','1','D','1'
 INSERT INTO ALLMATCHES VALUES('SP1','04/04/2021','Cadiz','Valencia','2','1','H','1','1','D','3.25','3.17','2.51','6','2','12','6');
 INSERT INTO ALLMATCHES VALUES('SP1','04/04/2021','Sevilla','Ath Madrid','1','0','H','0','0','D','2.95','3.15','2.74','18','5','9','4');
 INSERT INTO ALLMATCHES VALUES('SP1','05/04/2021','Barcelona','Valladolid','1','0','H','0','0','D','1.13','9.82','22.55','25','10','7','2');
+INSERT INTO ALLMATCHES VALUES('SP1','07/04/2021','Sociedad','Ath Bilbao','1','1','D','0','0','D','2.25','3.22','3.75','12','2','11','2');
 INSERT INTO ALLMATCHES VALUES('SP2','12/09/2020','Ponferradina','Castellon','1','2','A','1','1','D','2.26','2.97','3.84','10','2','9','3');
 INSERT INTO ALLMATCHES VALUES('SP2','12/09/2020','Leganes','Las Palmas','1','0','H','0','0','D','1.93','3.29','4.66','12','6','9','1');
 INSERT INTO ALLMATCHES VALUES('SP2','12/09/2020','Sp Gijon','Logrones','1','0','H','0','0','D','2.06','3.13','4.3','15','5','3','1');
@@ -3181,6 +3186,7 @@ INSERT INTO ALLMATCHES VALUES('D2','04/04/2021','Nurnberg','Paderborn','2','1','
 INSERT INTO ALLMATCHES VALUES('D2','04/04/2021','Regensburg','Erzgebirge Aue','1','1','D','1','0','H','2.24','3.32','3.48','22','10','11','4');
 INSERT INTO ALLMATCHES VALUES('D2','04/04/2021','Sandhausen','Wurzburger Kickers','1','0','H','1','0','H','2.22','3.4','3.54','14','7','8','1');
 INSERT INTO ALLMATCHES VALUES('D2','05/04/2021','St Pauli','Braunschweig','2','0','H','2','0','H','1.85','3.71','4.42','14','7','7','0');
+INSERT INTO ALLMATCHES VALUES('D2','06/04/2021','Heidenheim','Holstein Kiel','1','0','H','1','0','H','2.82','3.36','2.66','13','3','13','3');
 INSERT INTO ALLMATCHES VALUES('F1','21/08/2020','Bordeaux','Nantes','0','0','D','0','0','D','2.48','3.03','3.33','5','1','6','1');
 INSERT INTO ALLMATCHES VALUES('F1','22/08/2020','Dijon','Angers','0','1','A','0','1','A','2.79','3.09','2.84','9','1','12','4');
 INSERT INTO ALLMATCHES VALUES('F1','22/08/2020','Lille','Rennes','1','1','D','1','0','H','2.3','3.22','3.47','5','1','16','3');
@@ -4085,6 +4091,8 @@ INSERT INTO ALLMATCHES VALUES('I1','03/04/2021','Napoli','Crotone','4','3','H','
 INSERT INTO ALLMATCHES VALUES('I1','03/04/2021','Sassuolo','Roma','2','2','D','0','1','A','4.69','4.45','1.64','12','6','12','9');
 INSERT INTO ALLMATCHES VALUES('I1','03/04/2021','Torino','Juventus','2','2','D','1','1','D','6.41','4.44','1.55','10','7','18','9');
 INSERT INTO ALLMATCHES VALUES('I1','03/04/2021','Bologna','Inter','0','1','A','0','1','A','7.68','4.7','1.47','12','3','12','5');
+INSERT INTO ALLMATCHES VALUES('I1','07/04/2021','Inter','Sassuolo','2','1','H','1','0','H','1.37','5.43','9.07','8','5','14','5');
+INSERT INTO ALLMATCHES VALUES('I1','07/04/2021','Juventus','Napoli','2','1','H','1','0','H','2.01','3.69','3.93','12','3','15','5');
 INSERT INTO ALLMATCHES VALUES('I2','25/09/2020','Monza','Spal','0','0','D','0','0','D','2.13','3.41','3.77','14','7','6','0');
 INSERT INTO ALLMATCHES VALUES('I2','26/09/2020','Brescia','Ascoli','1','1','D','1','1','D','1.85','3.42','5.05','8','5','8','2');
 INSERT INTO ALLMATCHES VALUES('I2','26/09/2020','Cosenza','Virtus Entella','0','0','D','0','0','D','2.29','3.21','3.57','2','2','7','5');
@@ -5164,6 +5172,8 @@ INSERT INTO ALLMATCHES VALUES('B1','04/04/2021','Charleroi','Mouscron','1','1','
 INSERT INTO ALLMATCHES VALUES('B1','05/04/2021','Oud-Heverlee Leuven','Genk','2','3','A','0','1','A','3.49','3.91','2.01','10','7','21','8');
 INSERT INTO ALLMATCHES VALUES('B1','05/04/2021','Waregem','Eupen','2','1','H','0','1','A','2.48','3.4','2.92','24','10','21','8');
 INSERT INTO ALLMATCHES VALUES('B1','05/04/2021','Antwerp','Anderlecht','1','4','A','0','0','D','2.88','3.48','2.47','9','4','14','8');
+INSERT INTO ALLMATCHES VALUES('B1','06/04/2021','Waasland-Beveren','St Truiden','2','4','A','1','1','D','3.34','3.44','2.25','13','6','19','8');
+INSERT INTO ALLMATCHES VALUES('B1','07/04/2021','Beerschot VA','Charleroi','2','1','H','1','0','H','2.87','3.64','2.41','12','4','16','3');
 INSERT INTO ALLMATCHES VALUES('T1','11/09/2020','Rizespor','Fenerbahce','1','2','A','0','0','D','3.94','3.76','1.94','9','3','17','8');
 INSERT INTO ALLMATCHES VALUES('T1','12/09/2020','Karagumruk','Yeni Malatyaspor','3','0','H','1','0','H','2.88','3.45','2.49','7','6','20','7');
 INSERT INTO ALLMATCHES VALUES('T1','12/09/2020','Sivasspor','Alanyaspor','0','2','A','0','1','A','2.33','3.66','3.01','10','4','12','6');
@@ -5484,6 +5494,13 @@ INSERT INTO ALLMATCHES VALUES('T1','04/04/2021','Ankaragucu','Antalyaspor','1','
 INSERT INTO ALLMATCHES VALUES('T1','04/04/2021','Buyuksehyr','Yeni Malatyaspor','3','1','H','1','0','H','1.85','3.63','4.66','11','7','8','2');
 INSERT INTO ALLMATCHES VALUES('T1','04/04/2021','Kasimpasa','Besiktas','1','0','H','1','0','H','4.87','4.21','1.68','11','4','16','2');
 INSERT INTO ALLMATCHES VALUES('T1','05/04/2021','Fenerbahce','Denizlispor','1','0','H','0','0','D','1.32','5.65','9.8','20','2','3','1');
+INSERT INTO ALLMATCHES VALUES('T1','06/04/2021','Goztep','Rizespor','2','0','H','0','0','D','2.4','3.33','3.21','11','4','8','0');
+INSERT INTO ALLMATCHES VALUES('T1','06/04/2021','Karagumruk','Hatayspor','1','0','H','0','0','D','2.39','3.46','3.12','9','3','10','4');
+INSERT INTO ALLMATCHES VALUES('T1','06/04/2021','Trabzonspor','Kayserispor','1','1','D','1','1','D','1.71','3.73','5.57','28','11','5','2');
+INSERT INTO ALLMATCHES VALUES('T1','07/04/2021','Genclerbirligi','Erzurum BB','1','1','D','1','0','H','2.85','3.46','2.58','6','2','23','5');
+INSERT INTO ALLMATCHES VALUES('T1','07/04/2021','Konyaspor','Ankaragucu','1','1','D','0','0','D','2.13','3.35','3.83','11','3','11','5');
+INSERT INTO ALLMATCHES VALUES('T1','07/04/2021','Antalyaspor','Sivasspor','2','4','A','1','2','A','2.98','3.05','2.75','12','7','11','8');
+INSERT INTO ALLMATCHES VALUES('T1','07/04/2021','Besiktas','Alanyaspor','3','0','H','1','0','H','1.85','3.91','4.28','17','7','13','6');
 INSERT INTO ALLMATCHES VALUES('G1','11/09/2020','Aris','Lamia','3','1','H','0','1','A','1.5','3.84','7.46','10','9','6','2');
 INSERT INTO ALLMATCHES VALUES('G1','11/09/2020','PAOK','Larisa','1','0','H','1','0','H','1.21','5.82','14.78','15','8','5','1');
 INSERT INTO ALLMATCHES VALUES('G1','12/09/2020','OFI Crete','Panetolikos','1','1','D','0','1','A','','','','3','2','8','4');
@@ -5989,6 +6006,8 @@ INSERT INTO ALLMATCHES VALUES('SC1','27/03/2021','Dundee','Dunfermline','3','2',
 INSERT INTO ALLMATCHES VALUES('SC1','30/03/2021','Raith Rvs','Dunfermline','5','1','H','3','1','H','2.85','3.19','2.71','14','6','4','2');
 INSERT INTO ALLMATCHES VALUES('SC1','03/04/2021','Arbroath','Alloa','2','1','H','0','0','D','1.91','3.77','3.96','13','5','10','4');
 INSERT INTO ALLMATCHES VALUES('SC1','03/04/2021','Dunfermline','Hearts','0','0','D','0','0','D','3.99','3.6','1.95','7','2','12','5');
+INSERT INTO ALLMATCHES VALUES('SC1','06/04/2021','Ayr','Dundee','0','3','A','0','0','D','3.34','3.48','2.24','4','2','8','4');
+INSERT INTO ALLMATCHES VALUES('SC1','06/04/2021','Morton','Inverness C','1','4','A','0','2','A','3.56','3.25','2.25','6','5','11','7');
 INSERT INTO ALLMATCHES VALUES('SC2','17/10/2020','Airdrie Utd','Peterhead','2','0','H','1','0','H','1.9','3.81','3.8','8','4','6','1');
 INSERT INTO ALLMATCHES VALUES('SC2','17/10/2020','Clyde','Partick','1','0','H','0','0','D','2.9','3.8','2.26','10','5','5','1');
 INSERT INTO ALLMATCHES VALUES('SC2','17/10/2020','Cove Rangers','East Fife','3','1','H','1','0','H','1.77','4.28','3.93','17','9','8','2');
@@ -6056,6 +6075,11 @@ INSERT INTO ALLMATCHES VALUES('SC2','30/03/2021','Partick','Forfar','2','2','D',
 INSERT INTO ALLMATCHES VALUES('SC2','30/03/2021','Peterhead','Clyde','0','2','A','0','0','D','2.26','3.28','3.3','7','2','4','3');
 INSERT INTO ALLMATCHES VALUES('SC2','01/04/2021','Dumbarton','Airdrie Utd','0','1','A','0','0','D','3.16','3.73','2.15','2','0','7','2');
 INSERT INTO ALLMATCHES VALUES('SC2','01/04/2021','East Fife','Clyde','1','0','H','1','0','H','1.92','3.87','3.53','7','4','4','0');
+INSERT INTO ALLMATCHES VALUES('SC2','06/04/2021','Airdrie Utd','Falkirk','2','1','H','1','1','D','4.56','3.75','1.76','10','7','14','6');
+INSERT INTO ALLMATCHES VALUES('SC2','06/04/2021','Clyde','Cove Rangers','1','1','D','0','0','D','4.29','3.79','1.81','7','2','9','5');
+INSERT INTO ALLMATCHES VALUES('SC2','06/04/2021','Dumbarton','Montrose','0','0','D','0','0','D','3.92','3.67','1.93','9','1','10','4');
+INSERT INTO ALLMATCHES VALUES('SC2','06/04/2021','East Fife','Partick','2','2','D','2','0','H','3.19','3.6','2.18','10','6','12','6');
+INSERT INTO ALLMATCHES VALUES('SC2','06/04/2021','Forfar','Peterhead','1','1','D','0','0','D','3.83','3.57','1.98','2','1','18','11');
 INSERT INTO ALLMATCHES VALUES('SC3','17/10/2020','Albion Rvs','Stenhousemuir','1','3','A','0','1','A','2.93','3.89','2.22','12','5','16','5');
 INSERT INTO ALLMATCHES VALUES('SC3','17/10/2020','Brechin','Edinburgh City','1','5','A','0','1','A','5.33','4.76','1.52','5','4','18','10');
 INSERT INTO ALLMATCHES VALUES('SC3','17/10/2020','Cowdenbeath','Annan Athletic','0','3','A','0','2','A','2.48','3.63','2.7','5','3','11','6');
@@ -6120,3 +6144,8 @@ INSERT INTO ALLMATCHES VALUES('SC3','30/03/2021','Stirling','Stenhousemuir','1',
 INSERT INTO ALLMATCHES VALUES('SC3','03/04/2021','Annan Athletic','Elgin','0','3','A','0','2','A','4.07','4','1.79','10','1','8','5');
 INSERT INTO ALLMATCHES VALUES('SC3','03/04/2021','Cowdenbeath','Albion Rvs','0','1','A','0','1','A','1.91','3.89','3.7','5','1','3','1');
 INSERT INTO ALLMATCHES VALUES('SC3','03/04/2021','Queens Park','Stirling','1','0','H','1','0','H','1.55','4.17','5.87','6','3','5','0');
+INSERT INTO ALLMATCHES VALUES('SC3','06/04/2021','Brechin','Stenhousemuir','1','1','D','1','1','D','5.73','3.92','1.6','9','4','18','5');
+INSERT INTO ALLMATCHES VALUES('SC3','06/04/2021','Edinburgh City','Annan Athletic','1','1','D','0','0','D','1.42','4.78','7.16','10','7','9','3');
+INSERT INTO ALLMATCHES VALUES('SC3','06/04/2021','Queens Park','Cowdenbeath','3','0','H','1','0','H','1.16','7.07','18.81','17','9','1','0');
+INSERT INTO ALLMATCHES VALUES('SC3','06/04/2021','Stirling','Albion Rvs','1','1','D','0','1','A','1.43','4.69','7.16','16','8','9','5');
+INSERT INTO ALLMATCHES VALUES('SC3','06/04/2021','Elgin','Stranraer','2','1','H','0','0','D','2.28','3.96','2.82','12','4','13','6');

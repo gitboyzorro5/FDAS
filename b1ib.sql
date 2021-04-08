@@ -284,3 +284,5 @@ INSERT INTO B1 VALUES('B1','04/04/2021','Charleroi','Mouscron','1','1','D','0','
 INSERT INTO B1 VALUES('B1','05/04/2021','Oud-Heverlee Leuven','Genk','2','3','A','0','1','A','3.49','3.91','2.01','10','7','21','8');
 INSERT INTO B1 VALUES('B1','05/04/2021','Waregem','Eupen','2','1','H','0','1','A','2.48','3.4','2.92','24','10','21','8');
 INSERT INTO B1 VALUES('B1','05/04/2021','Antwerp','Anderlecht','1','4','A','0','0','D','2.88','3.48','2.47','9','4','14','8');
+INSERT INTO B1 VALUES('B1','06/04/2021','Waasland-Beveren','St Truiden','2','4','A','1','1','D','3.34','3.44','2.25','13','6','19','8');
+INSERT INTO B1 VALUES('B1','07/04/2021','Beerschot VA','Charleroi','2','1','H','1','0','H','2.87','3.64','2.41','12','4','16','3');
