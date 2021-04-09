@@ -70,3 +70,5 @@ INSERT INTO SC2 VALUES('SC2','06/04/2021','Clyde','Cove Rangers','1','1','D','0'
 INSERT INTO SC2 VALUES('SC2','06/04/2021','Dumbarton','Montrose','0','0','D','0','0','D','3.92','3.67','1.93','9','1','10','4');
 INSERT INTO SC2 VALUES('SC2','06/04/2021','East Fife','Partick','2','2','D','2','0','H','3.19','3.6','2.18','10','6','12','6');
 INSERT INTO SC2 VALUES('SC2','06/04/2021','Forfar','Peterhead','1','1','D','0','0','D','3.83','3.57','1.98','2','1','18','11');
+INSERT INTO SC2 VALUES('SC2','08/04/2021','Clyde','Forfar','3','0','H','2','0','H','1.85','3.87','3.91','7','5','8','1');
+INSERT INTO SC2 VALUES('SC2','08/04/2021','Dumbarton','East Fife','2','1','H','1','0','H','3.66','3.42','2.01','13','6','7','1');
