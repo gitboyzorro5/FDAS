@@ -466,3 +466,15 @@ INSERT INTO E3 VALUES('E3','05/04/2021','Stevenage','Bradford','1','1','D','1','
 INSERT INTO E3 VALUES('E3','05/04/2021','Tranmere','Cambridge','1','1','D','1','0','H','2.34','3.37','3.17','11','3','7','5');
 INSERT INTO E3 VALUES('E3','06/04/2021','Carlisle','Scunthorpe','2','0','H','0','0','D','1.9','3.6','4.24','20','3','2','2');
 INSERT INTO E3 VALUES('E3','06/04/2021','Morecambe','Southend','1','1','D','0','1','A','2','3.66','3.74','17','2','9','3');
+INSERT INTO E3 VALUES('E3','09/04/2021','Mansfield','Newport County','1','1','D','0','0','D','2.56','3','3.24','18','4','7','3');
+INSERT INTO E3 VALUES('E3','09/04/2021','Oldham','Colchester','5','2','H','2','0','H','2.62','3.4','2.8','21','11','12','3');
+INSERT INTO E3 VALUES('E3','10/04/2021','Barrow','Carlisle','2','2','D','2','1','H','3.16','3.15','2.47','6','3','16','5');
+INSERT INTO E3 VALUES('E3','10/04/2021','Bolton','Harrogate','2','1','H','0','1','A','2.01','3.72','3.66','12','4','15','4');
+INSERT INTO E3 VALUES('E3','10/04/2021','Bradford','Grimsby','1','0','H','1','0','H','2.11','3.3','3.81','9','3','9','2');
+INSERT INTO E3 VALUES('E3','10/04/2021','Cambridge','Exeter','1','4','A','0','2','A','2.5','3.39','2.91','10','2','16','9');
+INSERT INTO E3 VALUES('E3','10/04/2021','Cheltenham','Leyton Orient','1','0','H','1','0','H','1.83','3.57','4.67','10','2','2','1');
+INSERT INTO E3 VALUES('E3','10/04/2021','Port Vale','Morecambe','1','0','H','1','0','H','2.35','3.27','3.26','4','2','8','1');
+INSERT INTO E3 VALUES('E3','10/04/2021','Salford','Stevenage','2','1','H','0','0','D','2.22','3.14','3.71','12','4','7','2');
+INSERT INTO E3 VALUES('E3','10/04/2021','Scunthorpe','Tranmere','0','0','D','0','0','D','3.41','3.2','2.31','9','3','19','3');
+INSERT INTO E3 VALUES('E3','10/04/2021','Southend','Crawley Town','0','0','D','0','0','D','2.93','3.1','2.67','12','1','10','2');
+INSERT INTO E3 VALUES('E3','10/04/2021','Walsall','Forest Green','2','1','H','1','0','H','3.13','3.04','2.57','10','2','9','3');
