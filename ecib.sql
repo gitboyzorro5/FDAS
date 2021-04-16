@@ -352,9 +352,17 @@ INSERT INTO EC VALUES('EC','05/04/2021','Stockport','Bromley','0','0','D','0','0
 INSERT INTO EC VALUES('EC','10/04/2021','Altrincham','Halifax','0','1','A','0','1','A','2.61','3.38','2.71','0','0','0','0');
 INSERT INTO EC VALUES('EC','10/04/2021','Boreham Wood','Wealdstone','3','1','H','0','0','D','1.49','3.95','7.61','0','0','0','0');
 INSERT INTO EC VALUES('EC','10/04/2021','Bromley','Dag and Red','1','0','H','1','0','H','2.18','3.81','3.03','0','0','0','0');
-INSERT INTO EC VALUES('EC','10/04/2021','Eastleigh','Woking','0','0','D','0','0','D','','','','0','0','0','0');
+INSERT INTO EC VALUES('EC','10/04/2021','Eastleigh','Woking','0','0','D','0','0','D','2.27','3.1','3.55','0','0','0','0');
 INSERT INTO EC VALUES('EC','10/04/2021','Kings Lynn','Chesterfield','1','2','A','1','0','H','4.02','3.92','1.82','0','0','0','0');
 INSERT INTO EC VALUES('EC','10/04/2021','Maidenhead','Barnet','0','0','D','0','0','D','1.45','4.89','6.18','0','0','0','0');
 INSERT INTO EC VALUES('EC','10/04/2021','Torquay','Weymouth','2','1','H','0','1','A','1.51','4.31','6.13','0','0','0','0');
 INSERT INTO EC VALUES('EC','10/04/2021','Wrexham','Stockport','0','3','A','0','2','A','3.14','2.97','2.54','0','0','0','0');
 INSERT INTO EC VALUES('EC','10/04/2021','Hartlepool','Notts County','2','0','H','1','0','H','2.37','3.26','3.11','0','0','0','0');
+INSERT INTO EC VALUES('EC','13/04/2021','Dag and Red','Eastleigh','2','0','H','1','0','H','2.36','3.26','3.2','0','0','0','0');
+INSERT INTO EC VALUES('EC','13/04/2021','Halifax','Wrexham','0','4','A','0','4','A','2.32','3.22','3.24','0','0','0','0');
+INSERT INTO EC VALUES('EC','13/04/2021','Solihull','Notts County','2','1','H','0','1','A','2.93','3.25','2.53','0','0','0','0');
+INSERT INTO EC VALUES('EC','13/04/2021','Stockport','Kings Lynn','4','0','H','1','0','H','1.27','5.56','10.79','0','0','0','0');
+INSERT INTO EC VALUES('EC','13/04/2021','Sutton','Torquay','0','1','A','0','0','D','2.21','3.11','3.63','0','0','0','0');
+INSERT INTO EC VALUES('EC','13/04/2021','Chesterfield','Boreham Wood','0','0','D','0','0','D','2.25','3.12','3.5','0','0','0','0');
+INSERT INTO EC VALUES('EC','13/04/2021','Weymouth','Aldershot','0','3','A','0','1','A','4.16','3.37','1.94','0','0','0','0');
+INSERT INTO EC VALUES('EC','13/04/2021','Woking','Bromley','3','4','A','2','1','H','3.2','3.31','2.3','0','0','0','0');
