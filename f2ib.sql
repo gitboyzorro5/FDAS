@@ -344,3 +344,4 @@ INSERT INTO F2 VALUES('F2','24/04/2021','Rodez','Le Havre','1','1','D','1','0','
 INSERT INTO F2 VALUES('F2','24/04/2021','Sochaux','Caen','1','0','H','0','0','D','2.09','3.13','4.15','12','5','12','2');
 INSERT INTO F2 VALUES('F2','24/04/2021','Valenciennes','Niort','1','1','D','0','0','D','2.58','3.1','3.05','7','3','11','4');
 INSERT INTO F2 VALUES('F2','26/04/2021','Clermont','Chateauroux','2','1','H','1','0','H','1.29','5.19','12.72','12','6','10','5');
+INSERT INTO F2 VALUES('F2','28/04/2021','Dunkerque','Amiens','1','1','D','0','1','A','','','','10','3','6','3');
