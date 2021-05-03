@@ -378,3 +378,8 @@ INSERT INTO T1 VALUES('T1','29/04/2021','Erzurum BB','Buyuksehyr','1','2','A','1
 INSERT INTO T1 VALUES('T1','29/04/2021','Sivasspor','Yeni Malatyaspor','1','0','H','0','0','D','1.92','3.54','4.45','21','5','7','2');
 INSERT INTO T1 VALUES('T1','29/04/2021','Alanyaspor','Fenerbahce','0','0','D','0','0','D','3.13','3.72','2.27','16','2','11','1');
 INSERT INTO T1 VALUES('T1','29/04/2021','Ankaragucu','Gaziantep','0','1','A','0','0','D','2.17','3.83','3.27','15','0','10','3');
+INSERT INTO T1 VALUES('T1','01/05/2021','Besiktas','Hatayspor','7','0','H','5','0','H','1.6','4.43','5.59','17','13','9','1');
+INSERT INTO T1 VALUES('T1','02/05/2021','Antalyaspor','Goztep','2','3','A','1','1','D','2.81','3.45','2.62','14','5','7','3');
+INSERT INTO T1 VALUES('T1','02/05/2021','Denizlispor','Rizespor','0','1','A','0','0','D','3.09','3.62','2.34','8','1','13','5');
+INSERT INTO T1 VALUES('T1','02/05/2021','Konyaspor','Karagumruk','5','1','H','1','1','D','2.37','3.36','3.24','20','9','10','3');
+INSERT INTO T1 VALUES('T1','02/05/2021','Genclerbirligi','Galatasaray','0','2','A','0','1','A','6.04','4.38','1.57','6','1','22','10');
