@@ -218,3 +218,6 @@ INSERT INTO G1 VALUES('G1','25/04/2021','PAOK','Panathinaikos','0','0','D','0','
 INSERT INTO G1 VALUES('G1','25/04/2021','Asteras Tripolis','Aris','1','1','D','0','0','D','4.25','3.81','1.76','5','2','10','3');
 INSERT INTO G1 VALUES('G1','25/04/2021','Olympiakos','AEK','2','0','H','0','0','D','1.48','4.19','6.98','12','4','8','2');
 INSERT INTO G1 VALUES('G1','26/04/2021','Apollon','Volos NFC','0','0','D','0','0','D','2.6','2.75','3.32','8','2','6','1');
+INSERT INTO G1 VALUES('G1','05/05/2021','Aris','Olympiakos','1','1','D','1','0','H','','','','6','4','7','3');
+INSERT INTO G1 VALUES('G1','05/05/2021','Panathinaikos','Asteras Tripolis','2','2','D','1','2','A','','','','11','4','4','3');
+INSERT INTO G1 VALUES('G1','05/05/2021','AEK','PAOK','1','2','A','0','0','D','','','','10','5','8','4');
