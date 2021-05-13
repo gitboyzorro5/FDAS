@@ -285,3 +285,4 @@ INSERT INTO D1 VALUES('D1','08/05/2021','Bayern Munich','Mgladbach','6','0','H',
 INSERT INTO D1 VALUES('D1','09/05/2021','FC Koln','Freiburg','1','4','A','0','2','A','2.11','3.8','3.51','18','2','11','6');
 INSERT INTO D1 VALUES('D1','09/05/2021','Ein Frankfurt','Mainz','1','1','D','0','1','A','1.91','4.04','3.97','14','4','6','3');
 INSERT INTO D1 VALUES('D1','09/05/2021','Hertha','Bielefeld','0','0','D','0','0','D','1.88','3.83','4.31','11','4','12','5');
+INSERT INTO D1 VALUES('D1','12/05/2021','Schalke 04','Hertha','1','2','A','1','1','D','7.4','4.72','1.46','12','1','18','6');
