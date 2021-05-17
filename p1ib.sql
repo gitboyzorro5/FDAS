@@ -286,3 +286,12 @@ INSERT INTO P1 VALUES('P1','11/05/2021','Tondela','Belenenses','1','3','A','1','
 INSERT INTO P1 VALUES('P1','11/05/2021','Nacional','Benfica','1','3','A','1','0','H','11.41','5.74','1.3','15','4','14','3');
 INSERT INTO P1 VALUES('P1','11/05/2021','Sp Lisbon','Boavista','1','0','H','1','0','H','1.31','5.57','11.44','17','3','5','2');
 INSERT INTO P1 VALUES('P1','12/05/2021','Guimaraes','Famalicao','1','2','A','1','1','D','2.51','3.24','3.12','7','1','12','5');
+INSERT INTO P1 VALUES('P1','14/05/2021','Pacos Ferreira','Gil Vicente','0','2','A','0','1','A','2.74','3.1','2.87','8','4','13','7');
+INSERT INTO P1 VALUES('P1','14/05/2021','Sp Braga','Moreirense','2','1','H','1','0','H','1.4','5.43','7.24','15','5','10','3');
+INSERT INTO P1 VALUES('P1','15/05/2021','Boavista','Portimonense','1','0','H','0','0','D','2.59','3.23','2.93','10','2','8','0');
+INSERT INTO P1 VALUES('P1','15/05/2021','Farense','Tondela','1','0','H','0','0','D','1.66','4.07','5.33','15','5','12','4');
+INSERT INTO P1 VALUES('P1','15/05/2021','Benfica','Sp Lisbon','4','3','H','3','1','H','1.95','3.6','4.05','12','9','11','5');
+INSERT INTO P1 VALUES('P1','15/05/2021','Rio Ave','Porto','0','3','A','0','0','D','7.27','4.43','1.49','12','2','15','4');
+INSERT INTO P1 VALUES('P1','16/05/2021','Famalicao','Nacional','3','0','H','1','0','H','1.88','3.76','4.1','15','6','9','2');
+INSERT INTO P1 VALUES('P1','16/05/2021','Belenenses','Santa Clara','0','2','A','0','1','A','3.11','3.1','2.51','11','3','10','4');
+INSERT INTO P1 VALUES('P1','16/05/2021','Maritimo','Guimaraes','0','0','D','0','0','D','2.8','3.16','2.7','6','1','9','1');

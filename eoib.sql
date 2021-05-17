@@ -350,3 +350,11 @@ INSERT INTO E0 VALUES('E0','11/05/2021','Southampton','Crystal Palace','3','1','
 INSERT INTO E0 VALUES('E0','12/05/2021','Chelsea','Arsenal','0','1','A','0','1','A','1.75','3.88','5.17','19','5','5','2');
 INSERT INTO E0 VALUES('E0','13/05/2021','Aston Villa','Everton','0','0','D','0','0','D','2.82','3.5','2.62','13','2','15','5');
 INSERT INTO E0 VALUES('E0','13/05/2021','Man United','Liverpool','2','4','A','1','2','A','3.12','3.78','2.17','18','3','17','8');
+INSERT INTO E0 VALUES('E0','14/05/2021','Newcastle','Man City','3','4','A','2','2','D','11.02','5.79','1.29','11','5','15','6');
+INSERT INTO E0 VALUES('E0','15/05/2021','Burnley','Leeds','0','4','A','0','1','A','3.2','3.72','2.23','16','4','16','6');
+INSERT INTO E0 VALUES('E0','15/05/2021','Southampton','Fulham','3','1','H','1','0','H','2.02','3.61','3.78','11','7','10','3');
+INSERT INTO E0 VALUES('E0','15/05/2021','Brighton','West Ham','1','1','D','0','0','D','3.01','3.57','2.4','10','2','15','3');
+INSERT INTO E0 VALUES('E0','16/05/2021','Crystal Palace','Aston Villa','3','2','H','1','2','A','3.14','3.58','2.32','23','8','19','5');
+INSERT INTO E0 VALUES('E0','16/05/2021','Tottenham','Wolves','2','0','H','1','0','H','1.56','4.29','6.38','24','13','15','3');
+INSERT INTO E0 VALUES('E0','16/05/2021','West Brom','Liverpool','1','2','A','1','1','D','11.65','6.78','1.24','10','3','26','6');
+INSERT INTO E0 VALUES('E0','16/05/2021','Everton','Sheffield United','0','1','A','0','1','A','1.4','4.9','8.69','16','6','10','3');
