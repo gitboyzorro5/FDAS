@@ -3258,6 +3258,8 @@ INSERT INTO SP2 VALUES('SP2','16/05/2021','Sabadell','Tenerife','0','2','A','0',
 INSERT INTO SP2 VALUES('SP2','16/05/2021','Fuenlabrada','Vallecano','1','2','A','0','2','A','3.34','3.04','2.41','4','1','12','7');
 INSERT INTO SP2 VALUES('SP2','16/05/2021','Mallorca','Alcorcon','2','0','H','1','0','H','1.7','3.2','7.07','9','4','8','1');
 INSERT INTO SP2 VALUES('SP2','16/05/2021','Leganes','Logrones','3','0','H','1','0','H','1.65','3.57','6.36','8','7','9','3');
+INSERT INTO SP2 VALUES('SP2','17/05/2021','Oviedo','Malaga','1','0','H','0','0','D','2.32','2.58','4.63','4','2','6','1');
+INSERT INTO SP2 VALUES('SP2','17/05/2021','Girona','Sp Gijon','1','0','H','1','0','H','2.73','2.62','3.5','11','5','7','3');
 INSERT INTO D1 VALUES('D1','18/09/2020','Bayern Munich','Schalke 04','8','0','H','3','0','H','1.1','12.11','27.06','22','12','5','1');
 INSERT INTO D1 VALUES('D1','19/09/2020','Ein Frankfurt','Bielefeld','1','1','D','0','0','D','1.67','4.21','5.08','18','6','14','4');
 INSERT INTO D1 VALUES('D1','19/09/2020','FC Koln','Hoffenheim','2','3','A','1','2','A','2.62','3.67','2.63','13','6','13','7');
@@ -4970,6 +4972,7 @@ INSERT INTO I1 VALUES('I1','16/05/2021','Benevento','Crotone','1','1','D','1','0
 INSERT INTO I1 VALUES('I1','16/05/2021','Udinese','Sampdoria','0','1','A','0','0','D','2.47','3.62','2.87','9','2','15','6');
 INSERT INTO I1 VALUES('I1','16/05/2021','Parma','Sassuolo','1','3','A','1','1','D','5.72','4.39','1.58','16','8','15','12');
 INSERT INTO I1 VALUES('I1','16/05/2021','Milan','Cagliari','0','0','D','0','0','D','1.44','4.98','7.62','20','4','6','2');
+INSERT INTO I1 VALUES('I1','17/05/2021','Verona','Bologna','2','2','D','1','1','D','2.54','3.26','3.11','11','5','13','5');
 INSERT INTO I2 VALUES('I2','25/09/2020','Monza','Spal','0','0','D','0','0','D','2.13','3.41','3.77','14','7','6','0');
 INSERT INTO I2 VALUES('I2','26/09/2020','Brescia','Ascoli','1','1','D','1','1','D','1.85','3.42','5.05','8','5','8','2');
 INSERT INTO I2 VALUES('I2','26/09/2020','Cosenza','Virtus Entella','0','0','D','0','0','D','2.29','3.21','3.57','2','2','7','5');
