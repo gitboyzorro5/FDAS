@@ -461,3 +461,6 @@ INSERT INTO EC VALUES('EC','22/05/2021','Torquay','Barnet','2','2','D','2','1','
 INSERT INTO EC VALUES('EC','22/05/2021','Wealdstone','Solihull','1','4','A','0','2','A','8.74','5.49','1.29','0','0','0','0');
 INSERT INTO EC VALUES('EC','22/05/2021','Wrexham','Kings Lynn','5','3','H','3','1','H','1.26','5.83','10.76','0','0','0','0');
 INSERT INTO EC VALUES('EC','23/05/2021','Sutton','Hartlepool','3','0','H','1','0','H','2.28','3.22','3.05','0','0','0','0');
+INSERT INTO EC VALUES('EC','25/05/2021','Altrincham','Eastleigh','1','1','D','0','0','D','3.88','3.76','1.91','0','0','0','0');
+INSERT INTO EC VALUES('EC','25/05/2021','Barnet','Maidenhead','2','0','H','0','0','D','2.45','3.83','2.63','0','0','0','0');
+INSERT INTO EC VALUES('EC','25/05/2021','Kings Lynn','Solihull','1','1','D','1','0','H','4.28','4.7','1.66','0','0','0','0');
