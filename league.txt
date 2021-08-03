@@ -36,3 +36,4 @@ https://www.football-data.co.uk/new/ROU.csv
 https://www.football-data.co.uk/new/RUS.csv
 https://www.football-data.co.uk/new/SWE.csv
 https://www.football-data.co.uk/new/USA.csv
+http://www.football-data.co.uk/new_league_fixtures.csv

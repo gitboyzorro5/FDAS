@@ -1,5 +1,6 @@
 #! /bin/bash 
 fixtures=$(sed -n '1p' league.txt)
+new_league_fixtures=$(sed -n '39p' league.txt)
 #E0=$(sed -n '2p' league.txt)
 #E1=$(sed -n '3p' league.txt)
 #E2=$(sed -n '4p' league.txt)
@@ -40,6 +41,7 @@ B1=$(sed -n '19p' league.txt)
 #E0=$(sed -n '2p' league.txt)
 
 curl $fixtures >> fixtures.csv
+curl $new_league_fixtures >> new_league_fixtures.csv
 curl $E0 >> E0.csv
 curl $E1 >> E1.csv
 curl $E2 >> E2.csv
