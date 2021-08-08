@@ -34,6 +34,7 @@ INSERT INTO ALLMATCHES VALUES('F2','31/07/2021','Niort','Caen','0','1','A','0','
 INSERT INTO ALLMATCHES VALUES('F2','31/07/2021','Paris FC','Dunkerque','2','1','H','1','1','D','1.64','3.54','6.68','12','7','8','2');
 INSERT INTO ALLMATCHES VALUES('F2','31/07/2021','Rodez','Pau FC','1','0','H','1','0','H','2.61','3.1','3.01','7','5','6','2');
 INSERT INTO ALLMATCHES VALUES('F2','31/07/2021','Sochaux','Le Havre','0','2','A','0','2','A','2.35','3.04','3.51','12','3','10','4');
+INSERT INTO ALLMATCHES VALUES('F2','02/08/2021','Auxerre','Grenoble','3','0','H','2','0','H','2.02','3.27','4.18','15','5','7','1');
 INSERT INTO ALLMATCHES VALUES('B1','23/07/2021','Standard','Genk','1','1','D','0','0','D','2.76','3.74','2.48','17','5','17','5');
 INSERT INTO ALLMATCHES VALUES('B1','24/07/2021','Oud-Heverlee Leuven','Waregem','1','1','D','1','1','D','2.06','3.77','3.46','13','4','10','4');
 INSERT INTO ALLMATCHES VALUES('B1','24/07/2021','Kortrijk','Seraing','2','0','H','1','0','H','1.8','3.8','4.5','9','4','9','4');
