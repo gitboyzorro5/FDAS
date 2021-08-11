@@ -98,6 +98,7 @@ INSERT INTO P1 VALUES('P1','08/08/2021','Guimaraes','Portimonense','0','1','A','
 INSERT INTO P1 VALUES('P1','08/08/2021','Tondela','Santa Clara','3','0','H','1','0','H','3.19','3.21','2.45','10','5','23','5');
 INSERT INTO P1 VALUES('P1','08/08/2021','Porto','Belenenses','2','0','H','1','0','H','1.22','6.77','12.92','21','7','7','3');
 INSERT INTO P1 VALUES('P1','08/08/2021','Pacos Ferreira','Famalicao','2','0','H','0','0','D','2.49','3.17','3.17','20','3','10','2');
+INSERT INTO P1 VALUES('P1','09/08/2021','Gil Vicente','Boavista','3','0','H','2','0','H','2.17','3.2','3.82','9','6','13','5');
 INSERT INTO B1 VALUES('B1','23/07/2021','Standard','Genk','1','1','D','0','0','D','2.76','3.74','2.48','17','5','17','5');
 INSERT INTO B1 VALUES('B1','24/07/2021','Oud-Heverlee Leuven','Waregem','1','1','D','1','1','D','2.06','3.77','3.46','13','4','10','4');
 INSERT INTO B1 VALUES('B1','24/07/2021','Kortrijk','Seraing','2','0','H','1','0','H','1.8','3.8','4.5','9','4','9','4');

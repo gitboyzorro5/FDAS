@@ -1,129 +1,129 @@
 Country,League,Date,Time,Home,Away,PH,PD,PA,MaxH,MaxD,MaxA,AvgH,AvgD,AvgA
-Argentina,Liga Profesional,06/08/2021,23:00,Sarmiento Junin,Rosario Central,2.45,3.13,3.22,2.47,3.18,3.26,2.41,3.02,3.08
-Argentina,Liga Profesional,07/08/2021,01:15,Newells Old Boys,Platense,2,3.41,4.06,2.01,3.41,4.33,1.95,3.26,3.99
-Argentina,Liga Profesional,07/08/2021,17:30,Banfield,Talleres Cordoba,2.68,3.08,2.89,2.69,3.16,3,2.56,3.03,2.86
-Argentina,Liga Profesional,07/08/2021,19:45,Union de Santa Fe,San Lorenzo,2.66,2.97,3.02,2.7,3.05,3.06,2.58,2.94,2.9
-Argentina,Liga Profesional,07/08/2021,22:00,Huracan,Lanus,2.75,3.23,2.7,2.79,3.32,2.77,2.67,3.12,2.65
-Argentina,Liga Profesional,08/08/2021,00:15,Godoy Cruz,River Plate,6.23,3.96,1.58,6.28,4.2,1.6,5.81,3.88,1.56
-Argentina,Liga Profesional,08/08/2021,17:30,Gimnasia L.P.,Atl. Tucuman,2.16,3.66,3.25,2.18,3.71,3.34,2.12,3.46,3.2
-Argentina,Liga Profesional,08/08/2021,19:45,Velez Sarsfield,Colon Santa FE,2.26,3.22,3.43,2.37,3.25,3.6,2.24,3.1,3.31
-Argentina,Liga Profesional,08/08/2021,22:00,Boca Juniors,Argentinos Jrs,1.98,3.21,4.44,2.01,3.25,5,1.97,3.09,4.22
-Argentina,Liga Profesional,09/08/2021,00:15,Independiente,Racing Club,2.41,2.75,3.76,2.43,3.13,3.85,2.33,2.82,3.5
-Argentina,Liga Profesional,09/08/2021,22:00,Aldosivi,Defensa y Justicia,3.1,3.31,2.38,3.15,3.34,2.5,2.98,3.19,2.38
-Argentina,Liga Profesional,09/08/2021,22:00,Arsenal Sarandi,Patronato,2.9,2.98,2.75,2.94,3.1,2.76,2.83,2.93,2.66
-Argentina,Liga Profesional,10/08/2021,00:15,Central Cordoba,Estudiantes L.P.,2.92,3.15,2.6,2.93,3.21,2.62,2.85,3.06,2.54
-Austria,Admiral Bundesliga,07/08/2021,16:00,A. Klagenfurt,Hartberg,2.66,3.68,2.63,2.69,3.68,2.63,2.59,3.53,2.52
-Austria,Admiral Bundesliga,07/08/2021,16:00,Ried,Admira,2.28,3.63,3.18,2.3,3.73,3.42,2.22,3.47,3.06
-Austria,Admiral Bundesliga,07/08/2021,16:00,Sturm Graz,Altach,1.56,4.62,5.73,1.58,4.62,5.73,1.54,4.4,5.36
-Austria,Admiral Bundesliga,08/08/2021,16:00,Rapid Vienna,Wolfsberger AC,1.83,4.2,3.95,1.84,4.25,4.1,1.79,4.04,3.87
-Austria,Admiral Bundesliga,08/08/2021,16:00,Salzburg,Austria Vienna,1.15,8.63,18.47,1.17,9.5,19,1.14,8.1,16.36
-Austria,Admiral Bundesliga,08/08/2021,16:00,Tirol,LASK,4.89,4.02,1.71,5.25,4.02,1.72,4.8,3.86,1.67
-Brazil,Serie A,06/08/2021,23:00,Sport Recife,Bragantino,4.23,3.52,1.94,4.4,3.56,2,4.08,3.33,1.93
-Brazil,Serie A,07/08/2021,22:00,Athletico-PR,Sao Paulo,2.54,3.21,3.06,2.66,3.34,3.12,2.48,3.09,2.95
-Brazil,Serie A,08/08/2021,01:00,Cuiaba,Bahia,2.65,2.96,3.14,2.75,3.14,3.16,2.57,2.9,3.01
-Brazil,Serie A,08/08/2021,01:00,Palmeiras,Fortaleza,1.71,3.88,5.18,1.73,3.9,5.5,1.69,3.69,4.97
-Brazil,Serie A,08/08/2021,20:00,America MG,Fluminense,2.69,3.09,2.92,2.76,3.21,2.92,2.67,3.02,2.78
-Brazil,Serie A,08/08/2021,20:00,Juventude,Atletico-MG,5.41,3.77,1.69,5.55,3.92,1.77,5.07,3.57,1.7
-Brazil,Serie A,08/08/2021,20:00,Santos,Corinthians,2.13,3.25,3.82,2.24,3.25,4,2.14,3.13,3.64
-Brazil,Serie A,08/08/2021,22:15,Ceara,Atletico GO,1.86,3.52,4.53,1.92,3.56,4.6,1.86,3.38,4.32
-Brazil,Serie A,08/08/2021,22:15,Flamengo RJ,Internacional,1.38,4.74,8.93,1.45,4.95,9.5,1.4,4.6,7.99
-Brazil,Serie A,10/08/2021,00:00,Gremio,Chapecoense-SC,1.46,4.13,8.45,1.55,4.2,8.5,1.47,3.99,7.54
-China,Super League,05/08/2021,11:00,Cangzhou,Guangzhou City,3.19,3.49,2.31,3.19,3.67,2.34,2.95,3.4,2.25
-China,Super League,05/08/2021,11:00,Shandong Taishan,Shenzhen,1.99,3.4,4.1,2.08,3.6,4.1,1.96,3.38,3.71
-China,Super League,05/08/2021,13:00,Chongqing Liangjiang Athletic,Qingdao FC,2.05,3.45,3.88,2.05,3.58,4,1.97,3.38,3.68
-China,Super League,05/08/2021,13:00,Guangzhou FC,Henan Songshan Longmen,1.3,5.44,11.49,1.33,5.5,11.49,1.3,5.1,9.28
-China,Super League,06/08/2021,09:30,Wuhan FC,Tianjin Jinmen Tiger,1.6,3.71,6.68,1.63,3.97,6.68,1.58,3.67,6.06
-China,Super League,06/08/2021,11:30,Shanghai Shenhua,Changchun Yatai,2.01,3.49,3.91,2.13,3.66,3.91,2.01,3.44,3.56
-China,Super League,06/08/2021,13:30,Dalian Pro,Shanghai Port,13.18,4.38,1.35,13.18,5.4,1.37,11.33,4.74,1.3
-China,Super League,06/08/2021,13:30,Hebei,Beijing Guoan,4.17,3.67,1.89,4.33,3.77,1.98,4.02,3.56,1.86
-Denmark,Superliga,06/08/2021,17:30,Silkeborg,Viborg,2.39,3.63,2.94,2.47,3.63,3.07,2.34,3.46,2.88
-Denmark,Superliga,06/08/2021,19:30,Midtjylland,Vejle,1.59,4.12,5.42,1.64,4.25,5.6,1.61,4.04,5.19
-Denmark,Superliga,08/08/2021,13:00,Randers FC,Sonderjyske,1.76,3.79,4.91,1.79,3.9,4.93,1.74,3.68,4.61
-Denmark,Superliga,08/08/2021,15:00,FC Copenhagen,Brondby,1.88,4.08,3.87,1.92,4.1,3.9,1.86,3.84,3.76
-Denmark,Superliga,08/08/2021,17:00,Aalborg,Aarhus,2.37,3.31,3.24,2.4,3.46,3.29,2.32,3.27,3.06
-Denmark,Superliga,09/08/2021,18:00,Nordsjaelland,Odense,2.75,3.66,2.52,2.81,3.75,2.6,2.63,3.51,2.5
-Finland,Veikkausliiga,07/08/2021,13:00,AC Oulu,Mariehamn,2.3,3.42,3.26,2.31,3.42,3.4,2.24,3.27,3.17
-Finland,Veikkausliiga,07/08/2021,15:00,KTP,HJK,10.06,5.22,1.35,11.5,5.43,1.35,9.55,5,1.31
-Finland,Veikkausliiga,08/08/2021,14:00,Haka,Inter Turku,4.08,3.24,2.08,4.17,3.4,2.16,3.81,3.2,2.03
-Finland,Veikkausliiga,08/08/2021,16:30,Honka,Ilves,2.27,3.37,3.37,2.36,3.4,3.6,2.24,3.24,3.21
-Finland,Veikkausliiga,08/08/2021,16:30,KuPS,Lahti,1.91,3.42,4.58,1.97,3.6,4.96,1.86,3.33,4.36
-Ireland,Premier Division,06/08/2021,19:45,Derry City,Drogheda,2.19,3.43,3.5,2.2,3.43,3.56,2.12,3.27,3.38
-Ireland,Premier Division,07/08/2021,14:00,Waterford,Bohemian,5.48,3.75,1.7,5.5,3.75,1.8,5.13,3.54,1.68
-Ireland,Premier Division,07/08/2021,19:45,Sligo Rovers,Finn Harps,1.92,3.61,4.24,1.96,3.61,4.5,1.86,3.43,4.13
-Ireland,Premier Division,08/08/2021,15:00,Dundalk,St. Patricks,2.43,3.5,2.98,2.51,3.5,3,2.41,3.23,2.88
-Ireland,Premier Division,08/08/2021,15:00,Shamrock Rovers,Longford,1.17,7.51,19.38,1.22,7.51,19.38,1.17,6.65,15.77
-Japan,J1 League,06/08/2021,11:00,Gamba Osaka,Yokohama F. Marinos,4.06,4.16,1.82,4.5,4.3,1.85,3.95,3.94,1.78
-Japan,J1 League,09/08/2021,07:00,Hokkaido Consadole Sapporo,Urawa Reds,2.23,3.66,3.2,2.26,3.71,3.25,2.19,3.47,3.13
-Japan,J1 League,09/08/2021,10:00,Shimizu S-Pulse,Yokohama F. Marinos,4.35,4.04,1.79,4.5,4.2,1.87,4.11,3.8,1.79
-Japan,J1 League,09/08/2021,10:00,Vissel Kobe,Kashiwa Reysol,2.07,3.8,3.48,2.08,3.92,3.81,2.01,3.58,3.46
-Japan,J1 League,09/08/2021,10:00,Yokohama FC,Nagoya Grampus,5.81,3.89,1.65,6,3.98,1.67,5.47,3.7,1.63
-Japan,J1 League,09/08/2021,11:00,Avispa Fukuoka,Sanfrecce Hiroshima,4.13,3.5,1.97,4.2,3.57,2.05,3.94,3.34,1.96
-Japan,J1 League,09/08/2021,11:00,Cerezo Osaka,Vegalta Sendai,1.75,3.93,4.76,1.78,4,5,1.72,3.73,4.62
-Japan,J1 League,09/08/2021,11:00,Oita Trinita,Kawasaki Frontale,10.17,5.22,1.34,11,5.5,1.35,9.49,5.07,1.31
-Japan,J1 League,09/08/2021,11:00,Sagan Tosu,FC Tokyo,2.95,3.31,2.55,3,3.33,2.65,2.85,3.16,2.51
-Japan,J1 League,09/08/2021,11:00,Shonan Bellmare,Kashima Antlers,4.78,3.69,1.8,5,3.8,1.84,4.54,3.57,1.77
-Japan,J1 League,09/08/2021,11:00,Tokushima,Gamba Osaka,,,,2.79,3.45,2.7,2.67,3.24,2.63
-Mexico,Liga MX,06/08/2021,03:00,Queretaro,Club Leon,3.88,3.53,2.05,3.88,3.56,2.23,3.53,3.36,2.04
-Mexico,Liga MX,07/08/2021,01:00,Mazatlan FC,Monterrey,4.27,3.49,1.97,4.45,3.64,1.97,3.96,3.43,1.9
-Mexico,Liga MX,07/08/2021,03:05,Necaxa,Cruz Azul,3.95,3.47,2.05,3.95,3.47,2.06,3.71,3.32,2
-Mexico,Liga MX,07/08/2021,03:06,Club Tijuana,Toluca,2.41,3.3,3.23,2.41,3.5,3.24,2.32,3.24,3.04
-Mexico,Liga MX,07/08/2021,23:00,Guadalajara Chivas,Juarez,1.78,3.58,5.31,1.78,3.68,5.44,1.73,3.48,4.84
-Mexico,Liga MX,08/08/2021,01:00,Club America,Puebla,1.67,3.95,5.57,1.73,3.95,5.57,1.66,3.7,5.07
-Mexico,Liga MX,08/08/2021,03:00,U.A.N.L.- Tigres,Santos Laguna,2.25,3.31,3.55,2.31,3.36,3.75,2.2,3.2,3.31
-Mexico,Liga MX,08/08/2021,18:00,U.N.A.M.- Pumas,Atl. San Luis,1.95,3.46,4.28,1.98,3.5,4.33,1.92,3.34,3.97
-Mexico,Liga MX,10/08/2021,03:00,Pachuca,Atlas,2.26,3.28,3.5,2.26,3.32,3.51,2.17,3.18,3.35
-Norway,Eliteserien,08/08/2021,17:00,Mjondalen,Tromso,2.52,3.25,3.05,2.53,3.34,3.2,2.43,3.2,2.96
-Norway,Eliteserien,08/08/2021,17:00,Molde,Haugesund,1.43,4.77,7.77,1.45,5.05,7.77,1.41,4.71,7.18
-Norway,Eliteserien,08/08/2021,17:00,Sandefjord,Lillestrom,2.81,3.47,2.57,2.81,3.55,2.7,2.73,3.38,2.5
-Norway,Eliteserien,08/08/2021,17:00,Viking,Kristiansund,2.03,3.93,3.48,2.05,4.02,3.6,1.98,3.78,3.44
-Norway,Eliteserien,08/08/2021,19:00,Stabaek,Sarpsborg 08,2.61,3.37,2.83,2.61,3.5,2.85,2.54,3.29,2.75
-Poland,Ekstraklasa,06/08/2021,17:00,Leczna,Warta Poznan,3.48,3.25,2.28,3.51,3.38,2.34,3.31,3.15,2.21
-Poland,Ekstraklasa,06/08/2021,19:30,Lech Poznan,Cracovia,1.76,3.67,5.1,1.81,3.78,5.1,1.73,3.56,4.69
-Poland,Ekstraklasa,07/08/2021,14:00,Jagiellonia,Termalica B-B.,2.16,3.61,3.42,2.16,3.62,3.42,2.1,3.45,3.27
-Poland,Ekstraklasa,07/08/2021,16:30,Gornik Z.,Stal Mielec,2.22,3.54,3.34,2.22,3.54,3.36,2.15,3.37,3.23
-Poland,Ekstraklasa,08/08/2021,14:00,Pogon Szczecin,Piast Gliwice,2.24,3.25,3.57,2.25,3.4,3.58,2.16,3.21,3.37
-Poland,Ekstraklasa,08/08/2021,16:30,Wisla,Rakow,3.08,3.26,2.48,3.18,3.42,2.5,2.91,3.21,2.4
-Poland,Ekstraklasa,08/08/2021,19:00,Slask Wroclaw,Lechia Gdansk,2.23,3.35,3.5,2.23,3.5,3.56,2.16,3.28,3.3
-Poland,Ekstraklasa,09/08/2021,17:00,Wisla Plock,Radomiak Radom,2.37,3.53,3.04,2.37,3.53,3.24,2.28,3.34,3.01
-Romania,Liga 1,06/08/2021,16:30,FC Botosani,UTA Arad,2.27,3.22,3.49,2.33,3.3,3.55,2.16,3.17,3.33
-Romania,Liga 1,06/08/2021,19:30,Mioveni,CFR Cluj,6.25,3.51,1.67,6.75,3.6,1.69,5.86,3.41,1.63
-Romania,Liga 1,07/08/2021,16:30,Academica Clinceni,U Craiova 1948,3,3.02,2.68,3,3.28,2.68,2.81,3.01,2.54
-Romania,Liga 1,07/08/2021,19:30,FC Arges,FC Rapid Bucuresti,2.81,2.99,2.88,2.82,3.03,3,2.69,2.88,2.77
-Romania,Liga 1,08/08/2021,17:00,Chindia Targoviste,Din. Bucuresti,2.45,3.12,3.23,2.5,3.2,3.25,2.41,2.99,3.03
-Romania,Liga 1,08/08/2021,20:00,FC Steaua Bucuresti,Gaz Metan Medias,1.37,4.65,9.96,1.38,4.8,10,1.35,4.44,8.82
-Romania,Liga 1,09/08/2021,16:30,Farul Constanta,Sepsi Sf. Gheorghe,3.56,3.15,2.27,4,3.21,2.33,3.47,3.04,2.16
-Romania,Liga 1,09/08/2021,19:30,Univ. Craiova,FC Voluntari,1.72,3.26,6.18,1.77,3.58,6.2,1.71,3.28,5.3
-Russia,Premier League,06/08/2021,15:00,Ufa,Lokomotiv Moscow,3.61,3.2,2.28,3.66,3.38,2.3,3.42,3.16,2.19
-Russia,Premier League,07/08/2021,15:00,Zenit,Krasnodar,1.47,4.84,6.96,1.57,5.1,7.4,1.44,4.61,6.53
-Russia,Premier League,07/08/2021,15:30,Arsenal Tula,FK Krylya Sovetov Samara,2.8,3.24,2.77,2.85,3.38,2.77,2.71,3.15,2.64
-Russia,Premier League,07/08/2021,18:00,Spartak Moscow,Nizhny Novgorod,1.36,5.2,9.36,1.4,5.54,9.9,1.35,4.95,8.36
-Russia,Premier League,08/08/2021,15:30,Khimki,FK Rostov,2.98,3.25,2.57,3.07,3.48,2.65,2.89,3.23,2.44
-Russia,Premier League,08/08/2021,18:00,Dynamo Moscow,CSKA Moscow,2.69,3.07,2.98,2.76,3.25,3.02,2.61,3.04,2.83
-Russia,Premier League,08/08/2021,18:00,Rubin Kazan,Akhmat Grozny,2.06,3.47,3.83,2.25,3.58,4.01,2.03,3.36,3.64
-Russia,Premier League,09/08/2021,17:00,Sochi,Ural,1.72,3.66,5.47,1.84,4.06,5.5,1.69,3.61,5.09
-Sweden,Allsvenskan,07/08/2021,16:30,Halmstad,Malmo FF,4.73,3.56,1.86,4.78,3.65,1.91,4.42,3.47,1.84
-Sweden,Allsvenskan,07/08/2021,16:30,Orebro,Mjallby,2.66,3.33,2.85,2.66,3.33,2.9,2.56,3.21,2.77
-Sweden,Allsvenskan,08/08/2021,14:00,Djurgarden,AIK,2.02,3.49,3.96,2.06,3.5,4,1.99,3.37,3.8
-Sweden,Allsvenskan,08/08/2021,14:00,Hacken,Ostersunds,1.45,4.31,8.46,1.49,4.75,8.7,1.44,4.37,7.45
-Sweden,Allsvenskan,08/08/2021,16:30,Elfsborg,Degerfors,1.56,4.46,5.75,1.58,4.5,6,1.54,4.34,5.5
-Sweden,Allsvenskan,08/08/2021,16:30,Goteborg,Hammarby,2.47,3.35,3.03,2.55,3.5,3.03,2.45,3.29,2.86
-Sweden,Allsvenskan,09/08/2021,18:00,Norrkoping,Kalmar,2.12,3.25,3.94,2.15,3.52,4,2.05,3.24,3.77
-Sweden,Allsvenskan,09/08/2021,18:00,Varbergs,Sirius,2.1,3.84,3.35,2.19,3.84,3.44,2.1,3.6,3.26
-Switzerland,Super League,07/08/2021,17:00,Sion,Young Boys,5.48,4.28,1.6,5.62,4.45,1.64,5.1,4.15,1.58
-Switzerland,Super League,07/08/2021,19:30,Grasshoppers,Lausanne,2.46,3.63,2.8,2.47,3.71,2.81,2.41,3.49,2.7
-Switzerland,Super League,08/08/2021,13:15,Lugano,St. Gallen,2.38,3.65,2.89,2.39,3.74,3,2.3,3.53,2.84
-Switzerland,Super League,08/08/2021,15:30,Basel,Servette,1.91,3.54,4.25,2.05,3.7,4.4,1.92,3.46,3.89
-Switzerland,Super League,08/08/2021,15:30,Luzern,Zurich,2.1,3.83,3.31,2.16,3.9,3.33,2.06,3.7,3.18
-USA,MLS,08/08/2021,00:30,Columbus Crew,Atlanta Utd,2.01,3.58,3.89,2.01,3.7,3.99,1.96,3.49,3.73
-USA,MLS,08/08/2021,00:30,FC Cincinnati,Orlando City,2.49,3.59,2.83,2.52,3.7,2.83,2.44,3.48,2.71
-USA,MLS,08/08/2021,01:00,Minnesota United,Houston Dynamo,1.69,3.98,5.12,1.75,4.15,5.52,1.65,3.88,5.02
-USA,MLS,08/08/2021,01:00,Toronto FC,New York City,3.82,4.01,1.91,3.84,4.01,1.98,3.58,3.83,1.9
-USA,MLS,08/08/2021,01:30,FC Dallas,Austin FC,2.29,3.49,3.23,2.3,3.56,3.25,2.23,3.38,3.11
-USA,MLS,08/08/2021,02:00,Colorado Rapids,Sporting Kansas City,2.37,3.61,2.98,2.4,3.61,3,2.32,3.45,2.9
-USA,MLS,08/08/2021,03:30,Portland Timbers,Real Salt Lake,2.07,3.75,3.51,2.15,3.76,3.51,2.07,3.57,3.3
-USA,MLS,08/08/2021,23:00,Chicago Fire,New York Red Bulls,2.28,3.48,3.25,2.3,3.64,3.26,2.22,3.44,3.08
-USA,MLS,08/08/2021,23:00,Inter Miami,Nashville SC,2.75,3.28,2.74,2.78,3.28,2.9,2.61,3.16,2.73
-USA,MLS,08/08/2021,23:00,New England Revolution,Philadelphia Union,1.93,4.01,3.76,1.96,4.01,3.79,1.91,3.79,3.6
-USA,MLS,09/08/2021,00:00,San Jose Earthquakes,Los Angeles FC,3.94,4.22,1.83,4,4.33,1.84,3.78,4.06,1.8
-USA,MLS,09/08/2021,01:00,DC United,Club de Foot Montreal,1.88,3.57,4.44,1.88,3.7,4.55,1.84,3.51,4.22
-USA,MLS,09/08/2021,01:00,Los Angeles Galaxy,Vancouver Whitecaps,1.63,4.43,5.05,1.65,4.5,5.2,1.59,4.24,4.94
+Mexico,Liga MX,13/08/2021,03:00,Atl. San Luis,Necaxa,2.4,3.42,3.09,2.41,3.43,3.1,2.33,3.27,2.98
+Japan,J1 League,12/08/2021,11:00,Yokohama F. Marinos,Nagoya Grampus,1.88,3.58,4.44,1.93,3.85,4.5,1.86,3.53,4.15
+China,Super League,11/08/2021,11:00,Shenzhen,Chongqing Liangjiang Athletic,1.43,4.02,10.93,1.45,4.75,10.93,1.39,4.32,8.14
+China,Super League,11/08/2021,13:00,Shandong Taishan,Cangzhou,1.32,5.03,12.32,1.36,5.3,12.32,1.32,4.83,9.46
+China,Super League,11/08/2021,13:00,Henan Songshan Longmen,Guangzhou City,2.72,3.07,2.95,2.72,3.45,2.95,2.55,3.1,2.77
+China,Super League,11/08/2021,11:00,Guangzhou FC,Qingdao FC,1.06,14.14,44.72,1.08,19,56,1.05,12.19,36.02
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,

@@ -6,3 +6,4 @@ INSERT INTO P1 VALUES('P1','08/08/2021','Guimaraes','Portimonense','0','1','A','
 INSERT INTO P1 VALUES('P1','08/08/2021','Tondela','Santa Clara','3','0','H','1','0','H','3.19','3.21','2.45','10','5','23','5');
 INSERT INTO P1 VALUES('P1','08/08/2021','Porto','Belenenses','2','0','H','1','0','H','1.22','6.77','12.92','21','7','7','3');
 INSERT INTO P1 VALUES('P1','08/08/2021','Pacos Ferreira','Famalicao','2','0','H','0','0','D','2.49','3.17','3.17','20','3','10','2');
+INSERT INTO P1 VALUES('P1','09/08/2021','Gil Vicente','Boavista','3','0','H','2','0','H','2.17','3.2','3.82','9','6','13','5');
