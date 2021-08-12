@@ -1,0 +1,1 @@
+sed -i -e "s/Switzerland,Super League/Switzerland,Swiss/g" new_league_fixtures.csv
