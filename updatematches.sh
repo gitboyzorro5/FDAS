@@ -19,9 +19,9 @@ awk -v OFS=, -f magical.awk tempallmatches0.txt htcs.txt > tempallmatches1.txt
 awk -v OFS=, -f magical.awk tempallmatches1.txt cs.txt > tempallmatches2.txt
  echo "Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HTHG,HTAG,HTR,PSH,PSD,PSA,HTCS,CS" > allteams20212022.csv
 #cat tempallmatches2.txt >> allteams20212022.csv
-cut -d, -f1,1,2,3,4,5,6,7,8,9,10,11,12,13,18,19 tempallmatches2.txt >> allteams20212022.csv
+cut -d, -f1,1,2,3,4,5,6,7,8,9,10,11,12,13,22,23 tempallmatches2.txt >> allteams20212022.csv
  echo "Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HTHG,HTAG,HTR,PSH,PSD,PSA,HTCS,CS,HS,HST,AS,AST,HY,AY,HR,AR" > allteams20212022SOT.csv
-awk -F, '{printf("'%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s'\n",$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$18,$19,$14,$15,$16,$17,$18,$19,$20,$21)}' tempallmatches2.txt >> allteams20212022SOT.csv
+awk -F, '{printf("'%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s'\n",$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$22,$23,$14,$15,$16,$17,$18,$19,$20,$21)}' tempallmatches2.txt >> allteams20212022SOT.csv
 cat allteams2010-present.backup >> allteams2010-present.csv
 sed -n '2,$p' allteams20212022.csv >> allteams2010-present.csv
 sed -i -e 's/\x92//g' EC.csv
