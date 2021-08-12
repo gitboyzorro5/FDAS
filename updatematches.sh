@@ -31,3 +31,4 @@ sed -i -e "s/Nott'm Forest/Nottm Forest/g" fixtures.csv
 sed -i -e "s/M'gladbach/Mgladbach/g" fixtures.csv 	
 sed -f insertallmatches.vim INSERTALL.sql > insertallmatches.sql
 sed -i -e 's/\x92//g' fixtures.csv
+sed -i -e "s/Switzerland,Super League/Switzerland,Swiss/g" new_league_fixtures.csv
