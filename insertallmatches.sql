@@ -151,6 +151,7 @@ INSERT INTO ALLMATCHES VALUES('E2','28/08/2021','Wigan','Portsmouth','1','0','H'
 INSERT INTO ALLMATCHES VALUES('E2','04/09/2021','Accrington','Shrewsbury','1','0','H','1','0','H','2.2','3.24','3.62','13','7','9','3','1','4','0','0');
 INSERT INTO ALLMATCHES VALUES('E2','04/09/2021','AFC Wimbledon','Oxford','3','1','H','0','1','A','3.09','3.57','2.3','14','8','17','6','3','1','0','0');
 INSERT INTO ALLMATCHES VALUES('E2','04/09/2021','Cheltenham','Milton Keynes Dons','1','1','D','1','0','H','2.57','3.29','2.89','10','4','14','3','3','2','0','0');
+INSERT INTO ALLMATCHES VALUES('E2','06/09/2021','Bolton','Burton','0','0','D','0','0','D','2.21','3.53','3.3','25','4','10','1','2','3','0','1');
 INSERT INTO ALLMATCHES VALUES('E3','07/08/2021','Carlisle','Colchester','0','0','D','0','0','D','2.09','3.42','3.73','18','6','10','3','2','0','0','0');
 INSERT INTO ALLMATCHES VALUES('E3','07/08/2021','Exeter','Bradford','0','0','D','0','0','D','2.39','3.36','3.1','12','4','14','4','2','0','0','0');
 INSERT INTO ALLMATCHES VALUES('E3','07/08/2021','Forest Green','Sutton','2','1','H','1','0','H','1.85','3.72','4.28','12','2','9','2','3','0','0','0');
@@ -334,6 +335,7 @@ INSERT INTO ALLMATCHES VALUES('SP2','05/09/2021','Burgos','Valladolid','3','0','
 INSERT INTO ALLMATCHES VALUES('SP2','05/09/2021','Ibiza','Amorebieta','1','1','D','0','1','A','2.23','2.98','4.01','23','3','11','4','0','0','0','0');
 INSERT INTO ALLMATCHES VALUES('SP2','05/09/2021','Alcorcon','Zaragoza','1','2','A','1','0','H','2.32','2.89','3.9','7','2','15','4','2','2','0','0');
 INSERT INTO ALLMATCHES VALUES('SP2','05/09/2021','Mirandes','Las Palmas','4','2','H','3','1','H','2.67','2.88','3.21','7','5','15','3','1','3','0','0');
+INSERT INTO ALLMATCHES VALUES('SP2','06/09/2021','Huesca','Oviedo','1','2','A','0','1','A','1.81','3.38','5.36','13','5','9','2','4','5','1','0');
 INSERT INTO ALLMATCHES VALUES('D1','13/08/2021','Mgladbach','Bayern Munich','1','1','D','1','1','D','4.73','4.39','1.71','11','5','20','10','2','0','0','0');
 INSERT INTO ALLMATCHES VALUES('D1','14/08/2021','Augsburg','Hoffenheim','0','4','A','0','1','A','3.2','3.83','2.23','7','0','15','8','1','2','0','0');
 INSERT INTO ALLMATCHES VALUES('D1','14/08/2021','Bielefeld','Freiburg','0','0','D','0','0','D','3.04','3.33','2.54','10','4','14','6','3','4','0','0');
