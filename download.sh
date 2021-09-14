@@ -37,7 +37,7 @@ B1=$(sed -n '19p' league.txt)
 P1=$(sed -n '20p' league.txt)
 SWZ=$(sed -n '40p' league.txt)
 N1=$(sed -n '21p' league.txt)
-#G1=$(sed -n '22p' league.txt)
+G1=$(sed -n '22p' league.txt)
 T1=$(sed -n '23p' league.txt)
 #E0=$(sed -n '2p' league.txt)
 
