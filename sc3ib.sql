@@ -28,3 +28,8 @@ INSERT INTO SC3 VALUES('SC3','11/09/2021','Annan Athletic','Stenhousemuir','1','
 INSERT INTO SC3 VALUES('SC3','11/09/2021','Kelty Hearts','Elgin','1','1','D','0','1','A','1.31','4.86','7.34','7','5','1','1','3','3','0','0');
 INSERT INTO SC3 VALUES('SC3','11/09/2021','Stirling','Forfar','1','0','H','0','0','D','2.07','3.37','3.07','11','5','11','5','4','0','0','0');
 INSERT INTO SC3 VALUES('SC3','11/09/2021','Stranraer','Edinburgh City','0','1','A','0','0','D','2.68','3.5','2.39','18','7','7','4','3','2','0','0');
+INSERT INTO SC3 VALUES('SC3','17/09/2021','Edinburgh City','Stirling','2','2','D','1','1','D','2.63','3.48','2.52','8','6','18','8','4','3','0','0');
+INSERT INTO SC3 VALUES('SC3','18/09/2021','Albion Rvs','Kelty Hearts','0','3','A','0','2','A','6.05','4.39','1.46','9','3','14','8','2','0','0','0');
+INSERT INTO SC3 VALUES('SC3','18/09/2021','Cowdenbeath','Forfar','1','1','D','0','1','A','2.99','3.29','2.14','10','5','7','3','1','1','0','0');
+INSERT INTO SC3 VALUES('SC3','18/09/2021','Elgin','Annan Athletic','0','2','A','0','1','A','1.9','3.77','3.47','7','2','14','8','2','3','1','0');
+INSERT INTO SC3 VALUES('SC3','18/09/2021','Stranraer','Stenhousemuir','2','0','H','1','0','H','2.04','3.51','3.29','17','9','6','1','1','1','0','0');
