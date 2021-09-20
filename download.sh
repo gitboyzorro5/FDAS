@@ -82,3 +82,11 @@ curl $SWE >> SWE.csv
 curl $USA >> USA.csv
 curl $SWZ >> SWZ.csv
 
+curl https://statbunker.com/competitions/PlayerStandings?comp_id=689 >> e0_scorers.html
+curl https://statbunker.com/competitions/PlayerStandings?comp_id=690 >> e1_scorers.html
+curl https://statbunker.com/competitions/PlayerStandings?comp_id=692 >> e2_scorers.html
+curl https://statbunker.com/competitions/PlayerStandings?comp_id=697 >> e3_scorers.html
+curl https://statbunker.com/competitions/PlayerStandings?comp_id=702 >> d1_scorers.html
+
+
+
