@@ -7,6 +7,7 @@ mv allteams20182019.csv allteams20182019.bak
 mv allteams20192020.csv allteams20192020.bak
 mv leaguetable2010-present.csv leaguetable2010-present.bak
 rm *.csv
+rm *.html
 mv allteams20182019.bak allteams20182019.csv
 mv allteams20192020.bak allteams20192020.csv
 mv leaguetable2010-present.bak leaguetable2010-present.csv

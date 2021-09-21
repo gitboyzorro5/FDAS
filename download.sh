@@ -87,6 +87,11 @@ curl https://statbunker.com/competitions/PlayerStandings?comp_id=690 >> e1_score
 curl https://statbunker.com/competitions/PlayerStandings?comp_id=692 >> e2_scorers.html
 curl https://statbunker.com/competitions/PlayerStandings?comp_id=697 >> e3_scorers.html
 curl https://statbunker.com/competitions/PlayerStandings?comp_id=702 >> d1_scorers.html
+curl https://statbunker.com/competitions/PlayerStandings?comp_id=698 >> sp1_scorers.html
+curl https://statbunker.com/competitions/PlayerStandings?comp_id=696 >> i1_scorers.html
+curl https://statbunker.com/competitions/PlayerStandings?comp_id=695 >> f1_scorers.html
+curl https://statbunker.com/competitions/PlayerStandings?comp_id=691 >> sc0_scorers.html
+curl https://statbunker.com/competitions/PlayerStandings?comp_id=684 >> mls_scorers.html
 
 
 
