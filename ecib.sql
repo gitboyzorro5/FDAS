@@ -70,3 +70,4 @@ INSERT INTO EC VALUES('EC','18/09/2021','Wealdstone','Aldershot','2','2','D','1'
 INSERT INTO EC VALUES('EC','18/09/2021','Wrexham','Dag and Red','1','0','H','1','0','H','2.14','3.84','3.05','0','0','0','0','0','2','0','0');
 INSERT INTO EC VALUES('EC','18/09/2021','Yeovil','Chesterfield','0','2','A','0','2','A','4.07','3.7','1.84','0','0','0','0','1','2','0','0');
 INSERT INTO EC VALUES('EC','18/09/2021','Weymouth','Dover Athletic','1','1','D','1','1','D','1.96','3.78','3.55','0','0','0','0','0','0','0','0');
+INSERT INTO EC VALUES('EC','21/09/2021','Dover Athletic','Solihull','0','0','D','0','0','D','5.76','3.96','1.6','0','0','0','0','1','2','0','0');
