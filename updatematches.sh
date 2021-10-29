@@ -33,6 +33,7 @@ sed -i -e "s/M'gladbach/Mgladbach/g" fixtures.csv
 sed -f insertallmatches.vim INSERTALL.sql > insertallmatches.sql
 sed -i -e 's/\x92//g' fixtures.csv
 sed -i -e "s/Switzerland,Super League/Switzerland,Swiss/g" new_league_fixtures.csv
+sed -i -e "s/Bundesliga/Admiral Bundesliga/g" new_league_fixtures.csv
 sed -i -e 's:<th class="nonMob" title="Yellow"><img src="/images/yellowCard.png" alt="Yellow Card"></th>:<th class="nonMob" title="Yellow">Yellow</th>:g' *.html
 sed -i -e 's:<th class="nonMob" title="Yellow - Red"><img src="/images/redYellow.png" alt="Red and Yellow Card"></th>:<th class="nonMob" title="Yellow - Red">YellowRed</th>:g' *.html
 sed -i -e 's:<th class="nonMob" title="Red"><img src="/images/redCard.png" alt="Red Card"></th>:<th class="nonMob" title="Red">Red</th>:g' *.html
