@@ -56,3 +56,4 @@ INSERT INTO SC3 VALUES('SC3','06/11/2021','Annan Athletic','Stranraer','2','2','
 INSERT INTO SC3 VALUES('SC3','06/11/2021','Cowdenbeath','Kelty Hearts','0','1','A','0','0','D','5.44','4.33','1.51','2','0','9','4','1','1','0','0');
 INSERT INTO SC3 VALUES('SC3','06/11/2021','Forfar','Elgin','2','1','H','1','1','D','1.7','3.72','4.02','10','6','6','2','0','3','0','0');
 INSERT INTO SC3 VALUES('SC3','06/11/2021','Stirling','Stenhousemuir','1','3','A','0','3','A','1.81','3.71','3.5','5','4','12','7','2','2','0','0');
+INSERT INTO SC3 VALUES('SC3','09/11/2021','Stenhousemuir','Albion Rvs','3','1','H','1','1','D','2.12','3.59','3.17','12','6','13','5','3','2','0','0');
