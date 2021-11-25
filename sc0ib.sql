@@ -77,3 +77,4 @@ INSERT INTO SC0 VALUES('SC0','07/11/2021','Rangers','Ross County','4','2','H','2
 INSERT INTO SC0 VALUES('SC0','20/11/2021','Dundee United','Aberdeen','1','0','H','0','0','D','3.17','3.36','2.41','8','2','12','4','1','1','1','1');
 INSERT INTO SC0 VALUES('SC0','20/11/2021','Motherwell','Hearts','2','0','H','1','0','H','3.66','3.76','2.05','20','7','6','4','1','0','0','1');
 INSERT INTO SC0 VALUES('SC0','20/11/2021','St Mirren','Livingston','1','1','D','0','0','D','1.89','3.58','4.5','11','4','9','5','1','0','0','0');
+INSERT INTO SC0 VALUES('SC0','24/11/2021','Ross County','Hibernian','1','0','H','0','0','D','3.31','3.56','2.25','10','5','6','4','2','1','0','2');

@@ -67,3 +67,4 @@ INSERT INTO SC3 VALUES('SC3','20/11/2021','Forfar','Cowdenbeath','3','0','H','0'
 INSERT INTO SC3 VALUES('SC3','20/11/2021','Kelty Hearts','Stenhousemuir','2','0','H','1','0','H','1.35','4.97','7.38','10','5','7','2','2','2','0','0');
 INSERT INTO SC3 VALUES('SC3','20/11/2021','Stirling','Edinburgh City','1','2','A','1','1','D','1.88','3.49','3.49','14','5','9','7','1','1','1','0');
 INSERT INTO SC3 VALUES('SC3','20/11/2021','Stranraer','Elgin','1','0','H','0','0','D','2.15','3.27','3.26','6','2','8','3','0','5','0','1');
+INSERT INTO SC3 VALUES('SC3','23/11/2021','Elgin','Edinburgh City','1','1','D','0','0','D','2.36','3.24','3.02','17','6','6','3','0','2','0','0');
