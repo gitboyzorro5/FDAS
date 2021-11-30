@@ -1,99 +1,99 @@
 Country,League,Date,Time,Home,Away,PH,PD,PA,MaxH,MaxD,MaxA,AvgH,AvgD,AvgA
-Argentina,Liga Profesional,27/11/2021,20:00,Talleres Cordoba,Aldosivi,1.44,4.52,7.3,1.5,4.6,7.6,1.45,4.36,6.88
-Argentina,Liga Profesional,27/11/2021,22:15,Patronato,Godoy Cruz,2.18,3.4,3.43,2.3,3.62,3.43,2.19,3.38,3.22
-Argentina,Liga Profesional,28/11/2021,00:30,Estudiantes L.P.,Velez Sarsfield,2.57,3.17,2.82,2.65,3.27,2.9,2.55,3.15,2.8
-Argentina,Liga Profesional,28/11/2021,20:00,Rosario Central,River Plate,3.48,3.65,2.07,3.9,3.65,2.07,3.5,3.5,1.99
-Argentina,Liga Profesional,28/11/2021,22:15,Argentinos Jrs,Gimnasia L.P.,2.05,3.26,3.98,2.25,3.26,4,2.06,3.17,3.75
-Argentina,Liga Profesional,28/11/2021,22:15,Defensa y Justicia,Colon Santa FE,1.91,3.45,4.01,1.99,3.58,4.2,1.92,3.38,3.94
-Argentina,Liga Profesional,29/11/2021,00:30,Boca Juniors,Newells Old Boys,1.43,4.39,8.03,1.46,4.5,8.5,1.43,4.22,7.55
-Argentina,Liga Profesional,29/11/2021,20:00,Union de Santa Fe,Atl. Tucuman,1.84,3.62,4.4,1.9,3.69,4.5,1.84,3.49,4.2
-Argentina,Liga Profesional,29/11/2021,22:15,Racing Club,Lanus,2.4,3.37,3.02,2.5,3.4,3.1,2.39,3.23,2.92
-Argentina,Liga Profesional,30/11/2021,00:30,Central Cordoba,Arsenal Sarandi,1.97,3.34,4.19,2.1,3.38,4.2,1.98,3.25,3.88
-Argentina,Liga Profesional,30/11/2021,00:30,Platense,Huracan,3.12,3.06,2.52,3.2,3.1,2.64,3,2.98,2.49
-Austria,Admiral Bundesliga,27/11/2021,16:00,A. Klagenfurt,Salzburg,12.65,6.78,1.23,15,7.1,1.24,12.31,6.68,1.2
-Austria,Admiral Bundesliga,27/11/2021,16:00,Admira,Wolfsberger,3.56,3.88,2.04,3.6,3.88,2.15,3.43,3.66,2
-Austria,Admiral Bundesliga,27/11/2021,16:00,Altach,Tirol,2.85,3.64,2.49,2.85,3.64,2.51,2.73,3.5,2.42
-Austria,Admiral Bundesliga,28/11/2021,13:30,Austria Vienna,Sturm Graz,2.91,3.93,2.33,2.98,3.94,2.33,2.86,3.65,2.26
-Austria,Admiral Bundesliga,28/11/2021,13:30,Hartberg,LASK,3.84,3.97,1.93,3.9,4.03,1.96,3.69,3.76,1.89
-Austria,Admiral Bundesliga,28/11/2021,16:00,Ried,Rapid Vienna,4.84,3.95,1.75,5,4,1.79,4.55,3.75,1.73
-Brazil,Serie A,26/11/2021,22:00,Bahia,Gremio,2.76,3.3,2.72,2.83,3.34,2.85,2.69,3.17,2.68
-Brazil,Serie A,27/11/2021,00:30,Chapecoense-SC,Atletico GO,4.82,3.47,1.85,4.82,3.6,1.89,4.46,3.46,1.83
-Brazil,Serie A,27/11/2021,22:30,Bragantino,America MG,2.11,3.41,3.74,2.2,3.45,3.75,2.11,3.29,3.54
-Brazil,Serie A,28/11/2021,00:30,Sao Paulo,Sport Recife,1.41,4.62,8.69,1.45,4.7,8.9,1.42,4.38,7.88
-Brazil,Serie A,28/11/2021,19:00,Atletico-MG,Fluminense,1.47,4.56,7.33,1.53,4.6,8.2,1.47,4.22,7.14
-Brazil,Serie A,28/11/2021,19:00,Corinthians,Athletico-PR,1.93,3.47,4.38,1.96,3.51,4.6,1.89,3.35,4.3
-Brazil,Serie A,28/11/2021,22:00,Internacional,Santos,1.83,3.68,4.56,1.88,3.69,5.05,1.8,3.52,4.52
-Brazil,Serie A,29/11/2021,22:00,Atletico GO,Bahia,2.51,3.15,3.1,2.55,3.25,3.13,2.47,3.06,3.01
-Denmark,Superliga,26/11/2021,18:00,Aarhus,Silkeborg,2.14,3.62,3.51,2.23,3.62,3.55,2.12,3.47,3.35
-Denmark,Superliga,28/11/2021,13:00,Odense,Nordsjaelland,1.94,3.85,3.76,1.96,4,4.35,1.91,3.81,3.64
-Denmark,Superliga,28/11/2021,13:00,Viborg,Sonderjyske,1.68,4.16,4.78,1.75,4.25,4.8,1.68,4.05,4.55
-Denmark,Superliga,28/11/2021,15:00,Brondby,Randers FC,2.13,3.5,3.53,2.2,3.73,3.56,2.08,3.51,3.37
-Denmark,Superliga,28/11/2021,17:00,Aalborg,FC Copenhagen,3.31,3.31,2.3,3.36,3.53,2.43,3.06,3.33,2.32
-Denmark,Superliga,29/11/2021,18:00,Vejle,Midtjylland,7.04,4.54,1.47,7.1,4.8,1.55,6.59,4.52,1.45
-Ireland,Premier Division,26/11/2021,19:45,Waterford,UC Dublin,,,,2.05,3.75,3.81,1.99,3.39,3.53
-Japan,J1 League,27/11/2021,05:00,Avispa Fukuoka,Vegalta Sendai,2.01,3.67,3.87,2.05,3.67,4,2,3.43,3.74
-Japan,J1 League,27/11/2021,05:00,Cerezo Osaka,Nagoya Grampus,3.2,3.52,2.32,3.24,3.53,2.36,3.11,3.31,2.29
-Japan,J1 League,27/11/2021,05:00,Hokkaido Consadole Sapporo,Kashiwa Reysol,2.11,3.81,3.43,2.13,3.81,3.47,2.08,3.62,3.31
-Japan,J1 League,27/11/2021,05:00,Kashima Antlers,Sagan Tosu,1.63,4.28,5.38,1.65,4.33,5.5,1.61,4.03,5.17
-Japan,J1 League,27/11/2021,05:00,Kawasaki Frontale,Gamba Osaka,1.33,5.64,9.67,1.36,5.7,9.67,1.33,5.24,8.63
-Japan,J1 League,27/11/2021,05:00,Oita Trinita,Yokohama FC,2.38,3.33,3.26,2.4,3.33,3.3,2.31,3.21,3.16
-Japan,J1 League,27/11/2021,05:00,Sanfrecce Hiroshima,FC Tokyo,2.24,3.5,3.31,2.27,3.55,3.4,2.2,3.35,3.24
-Japan,J1 League,27/11/2021,05:00,Shonan Bellmare,Tokushima,2.3,3.12,3.66,2.31,3.18,3.66,2.25,3.05,3.46
-Japan,J1 League,27/11/2021,05:00,Urawa Reds,Shimizu S-Pulse,1.89,3.73,4.29,1.92,3.85,4.3,1.87,3.57,4.07
-Japan,J1 League,27/11/2021,05:00,Vissel Kobe,Yokohama F. Marinos,3.09,3.91,2.23,3.12,3.97,2.28,3,3.73,2.18
-Mexico,Liga MX,28/11/2021,01:00,Club America,U.N.A.M.- Pumas,1.65,3.74,6.28,1.67,3.85,6.3,1.61,3.65,5.72
-Mexico,Liga MX,28/11/2021,03:05,Atlas,Monterrey,2.59,3.04,3.2,2.59,3.14,3.2,2.48,2.98,2.99
-Mexico,Liga MX,29/11/2021,00:00,U.A.N.L.- Tigres,Santos Laguna,1.97,3.42,4.27,2,3.52,4.28,1.94,3.32,3.93
-Mexico,Liga MX,29/11/2021,02:05,Club Leon,Puebla,1.66,3.85,5.87,1.67,3.95,5.87,1.63,3.73,5.3
-Norway,Eliteserien,27/11/2021,17:00,Lillestrom,Stromsgodset,1.67,4.35,4.93,1.74,4.35,5.25,1.66,4.1,4.77
-Norway,Eliteserien,27/11/2021,17:00,Odd,Valerenga,2.51,3.72,2.78,2.55,3.75,2.95,2.46,3.55,2.7
-Norway,Eliteserien,28/11/2021,16:00,Haugesund,Sandefjord,1.88,3.92,4.13,1.92,3.98,4.45,1.86,3.7,3.99
-Norway,Eliteserien,28/11/2021,16:00,Kristiansund,Viking,2.71,3.8,2.49,2.74,3.91,2.57,2.64,3.62,2.46
-Norway,Eliteserien,28/11/2021,16:00,Mjondalen,Sarpsborg 08,2.52,3.61,2.83,2.72,3.61,2.83,2.51,3.41,2.72
-Norway,Eliteserien,28/11/2021,16:00,Rosenborg,Bodo/Glimt,2.71,3.82,2.52,2.75,3.9,2.61,2.63,3.65,2.47
-Norway,Eliteserien,28/11/2021,16:00,Tromso,Stabaek,1.63,4.17,5.68,1.67,4.3,5.8,1.61,4.02,5.33
-Norway,Eliteserien,28/11/2021,18:00,Brann,Molde,3.53,3.91,2.04,3.55,4.05,2.05,3.37,3.77,2.02
-Poland,Ekstraklasa,26/11/2021,17:00,Piast Gliwice,Termalica B-B.,1.98,3.56,4.1,2,3.65,4.1,1.94,3.44,3.83
-Poland,Ekstraklasa,26/11/2021,19:30,Wisla,Radomiak Radom,2.56,3.49,2.85,2.6,3.6,2.88,2.49,3.34,2.74
-Poland,Ekstraklasa,27/11/2021,11:30,Leczna,Gornik Z.,3.86,3.51,2.01,3.87,3.57,2.1,3.63,3.35,2.02
-Poland,Ekstraklasa,27/11/2021,14:00,Slask Wroclaw,Stal Mielec,1.87,3.47,4.59,1.88,3.67,4.6,1.84,3.46,4.25
-Poland,Ekstraklasa,27/11/2021,16:30,Pogon Szczecin,Lechia Gdansk,2.01,3.25,4.25,2.05,3.4,4.3,1.99,3.21,3.91
-Poland,Ekstraklasa,27/11/2021,19:00,Rakow,Zaglebie,1.56,4.3,5.91,1.63,4.95,6,1.55,4.12,5.57
-Poland,Ekstraklasa,28/11/2021,11:30,Wisla Plock,Cracovia,2.44,3.22,3.15,2.45,3.35,3.19,2.36,3.16,3.03
-Poland,Ekstraklasa,28/11/2021,14:00,Lech Poznan,Warta Poznan,1.28,5.38,12.67,1.3,5.6,13,1.27,5.27,10.9
-Poland,Ekstraklasa,28/11/2021,16:30,Legia,Jagiellonia,1.8,3.58,4.82,1.8,3.93,5,1.76,3.54,4.59
-Romania,Liga 1,26/11/2021,18:30,Din. Bucuresti,U Craiova 1948,2.95,2.99,2.7,3,3.1,2.73,2.86,2.95,2.57
-Romania,Liga 1,27/11/2021,13:00,Sepsi Sf. Gheorghe,Chindia Targoviste,1.7,3.51,5.35,1.8,3.64,5.6,1.72,3.35,5.01
-Romania,Liga 1,27/11/2021,15:30,UTA Arad,FC Arges,1.78,3.21,5.4,1.85,3.34,5.6,1.78,3.12,5.03
-Romania,Liga 1,27/11/2021,18:30,FC Rapid Bucuresti,Mioveni,2,3.29,3.93,2.14,3.39,4.1,2,3.19,3.76
-Romania,Liga 1,28/11/2021,15:30,FC Botosani,FC Voluntari,2.06,3.12,3.99,2.1,3.3,4.1,2.02,3.16,3.71
-Romania,Liga 1,28/11/2021,18:30,Univ. Craiova,FC Steaua Bucuresti,2.19,3.39,3.3,2.32,3.47,3.4,2.16,3.24,3.23
-Romania,Liga 1,29/11/2021,15:30,Gaz Metan Medias,Farul Constanta,4.31,3.12,1.98,4.5,3.26,2.05,3.91,3.1,1.98
-Romania,Liga 1,29/11/2021,18:30,CFR Cluj,Academica Clinceni,1.16,6.83,17.74,1.21,7.6,21,1.18,6.21,14.82
-Russia,Premier League,27/11/2021,11:00,Ural,Sochi,4.94,3.56,1.83,5.05,3.76,1.95,4.7,3.51,1.79
-Russia,Premier League,27/11/2021,13:30,Akhmat Grozny,FK Rostov,2.11,3.55,3.67,2.17,3.55,3.77,2.08,3.36,3.54
-Russia,Premier League,27/11/2021,16:00,Khimki,Krasnodar,4.66,3.82,1.81,4.68,3.88,1.85,4.45,3.68,1.77
-Russia,Premier League,28/11/2021,11:00,Nizhny Novgorod,FK Krylya Sovetov Samara,3.69,3.45,2.14,3.86,3.64,2.25,3.54,3.36,2.08
-Russia,Premier League,28/11/2021,13:30,Rubin Kazan,Dynamo Moscow,3.62,3.78,2.05,3.74,3.81,2.15,3.48,3.53,2.04
-Russia,Premier League,28/11/2021,17:00,CSKA Moscow,Zenit,4.18,3.92,1.87,4.25,4.1,1.94,3.93,3.72,1.86
-Russia,Premier League,29/11/2021,14:00,Ufa,Spartak Moscow,3.64,3.56,2.09,3.7,3.64,2.17,3.52,3.42,2.06
-Russia,Premier League,29/11/2021,16:00,Arsenal Tula,Lokomotiv Moscow,3.56,3.56,2.12,3.56,3.72,2.25,3.39,3.48,2.09
-Sweden,Allsvenskan,28/11/2021,14:00,Degerfors,Norrkoping,3.23,3.82,2.19,3.25,3.9,2.22,3.12,3.69,2.14
-Sweden,Allsvenskan,28/11/2021,14:00,Djurgarden,Varbergs,1.42,4.77,8.56,1.45,4.85,8.56,1.42,4.61,7.5
-Sweden,Allsvenskan,28/11/2021,14:00,Goteborg,Ostersunds,1.24,6.26,13.72,1.27,6.5,14,1.24,6.05,11.92
-Sweden,Allsvenskan,28/11/2021,16:30,Halmstad,Hammarby,2.79,3.48,2.58,2.8,3.65,2.6,2.7,3.45,2.5
-Sweden,Allsvenskan,28/11/2021,16:30,Kalmar,Malmo FF,5.27,3.98,1.69,5.3,4.06,1.77,4.8,3.82,1.7
-Sweden,Allsvenskan,29/11/2021,18:00,Elfsborg,AIK,2.37,3.18,3.37,2.38,3.42,3.37,2.29,3.24,3.19
-Sweden,Allsvenskan,29/11/2021,18:00,Mjallby,Orebro,1.42,4.76,8.08,1.44,5,8.1,1.41,4.72,7.42
-Sweden,Allsvenskan,29/11/2021,18:00,Sirius,Hacken,3.17,3.68,2.24,3.23,3.84,2.26,3.06,3.61,2.19
-Switzerland,Swiss,27/11/2021,17:00,Grasshoppers,Lugano,2.26,3.31,3.33,2.32,3.46,3.45,2.21,3.28,3.21
-Switzerland,Swiss,27/11/2021,19:30,Sion,St. Gallen,2.92,3.52,2.4,2.95,3.81,2.43,2.79,3.49,2.37
-Switzerland,Swiss,28/11/2021,13:15,Zurich,Young Boys,3.24,3.85,2.1,3.33,3.96,2.15,3.14,3.72,2.08
-Switzerland,Swiss,28/11/2021,15:30,Lausanne,Servette,3,3.59,2.32,3,3.82,2.4,2.86,3.49,2.31
-Switzerland,Swiss,28/11/2021,15:30,Luzern,Basel,2.77,3.66,2.44,2.85,3.82,2.47,2.72,3.55,2.38
-USA,MLS,28/11/2021,20:00,Sporting Kansas City,Real Salt Lake,1.59,4.33,5.79,1.61,4.45,5.82,1.57,4.18,5.32
-USA,MLS,28/11/2021,22:30,Philadelphia Union,Nashville SC,2.14,3.27,3.92,2.16,3.35,4.1,2.07,3.22,3.71
-USA,MLS,01/12/2021,00:30,New England Revolution,New York City,2.13,3.72,3.39,2.15,3.85,3.39,2.09,3.6,3.21
+Argentina,Liga Profesional,30/11/2021,20:00,San Lorenzo,Sarmiento Junin,2.2,3.2,3.74,2.22,3.26,3.88,2.14,3.12,3.61
+Argentina,Liga Profesional,30/11/2021,22:15,Boca Juniors,Newells Old Boys,1.34,5.26,9.89,1.33,5.5,11.5,1.31,5.01,10.25
+Argentina,Liga Profesional,01/12/2021,00:30,Banfield,Independiente,2.55,3.05,3.19,2.6,3.1,3.24,2.5,2.95,3.07
+Austria,Admiral Bundesliga,01/12/2021,18:00,Altach,Sturm Graz,4.83,3.86,1.78,4.84,4.05,1.8,4.47,3.76,1.74
+Brazil,Serie A,30/11/2021,22:00,Juventude,Bragantino,2.44,3.14,3.28,2.47,3.25,3.35,2.39,3.05,3.17
+Brazil,Serie A,30/11/2021,23:00,Flamengo RJ,Ceara,1.41,4.8,8.09,1.44,4.9,8.5,1.4,4.62,7.58
+Brazil,Serie A,01/12/2021,00:00,America MG,Chapecoense-SC,1.29,5.72,11.32,1.32,6,13,1.29,5.3,10.7
+Brazil,Serie A,01/12/2021,01:00,Cuiaba,Palmeiras,1.87,3.26,4.87,1.9,3.42,5,1.85,3.28,4.6
+Brazil,Serie A,02/12/2021,21:00,Bahia,Atletico-MG,4.62,3.54,1.86,4.62,3.65,1.9,4.34,3.49,1.84
+Brazil,Serie A,02/12/2021,23:00,Gremio,Sao Paulo,2.39,3.32,3.18,2.46,3.33,3.23,2.37,3.17,3.08
+Switzerland,Swiss,01/12/2021,19:30,Young Boys,Lugano,1.4,4.97,7.28,1.44,5,7.6,1.4,4.81,6.81
+USA,MLS,01/12/2021,00:30,New England Revolution,New York City,1.97,3.82,3.86,2.01,3.82,3.9,1.96,3.62,3.66
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
