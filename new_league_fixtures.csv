@@ -1,64 +1,64 @@
 Country,League,Date,Time,Home,Away,PH,PD,PA,MaxH,MaxD,MaxA,AvgH,AvgD,AvgA
-Argentina,Liga Profesional,10/12/2021,22:15,Platense,Velez Sarsfield,4.3,3.5,1.93,4.32,3.56,1.98,4.01,3.41,1.91
-Argentina,Liga Profesional,11/12/2021,00:30,Estudiantes L.P.,Aldosivi,1.63,4.14,5.49,1.67,4.2,5.75,1.63,3.92,5.18
-Argentina,Liga Profesional,11/12/2021,20:00,Argentinos Jrs,Sarmiento Junin,1.67,3.79,5.39,1.74,3.89,5.75,1.67,3.63,5.22
-Argentina,Liga Profesional,11/12/2021,20:00,Patronato,Gimnasia L.P.,3.77,3.27,2.11,3.9,3.4,2.16,3.63,3.27,2.06
-Argentina,Liga Profesional,11/12/2021,20:00,Racing Club,Godoy Cruz,2.02,3.66,3.6,2.05,3.8,3.8,1.98,3.53,3.56
-Argentina,Liga Profesional,11/12/2021,20:00,Rosario Central,Huracan,2.28,3.66,3,2.4,3.68,3.05,2.29,3.44,2.93
-Argentina,Liga Profesional,11/12/2021,20:00,Union de Santa Fe,Colon Santa FE,2.4,3.29,3.09,2.44,3.4,3.2,2.34,3.28,3.01
-Argentina,Liga Profesional,11/12/2021,22:15,Atl. Tucuman,River Plate,5.75,4.53,1.53,6,4.7,1.56,5.49,4.35,1.53
-Argentina,Liga Profesional,12/12/2021,01:00,Boca Juniors,Central Cordoba,1.73,3.67,5.06,1.77,3.75,5.5,1.71,3.52,5.01
-Argentina,Liga Profesional,12/12/2021,20:00,San Lorenzo,Newells Old Boys,2.31,3.22,3.31,2.34,3.4,3.4,2.22,3.22,3.25
-Argentina,Liga Profesional,12/12/2021,22:15,Defensa y Justicia,Lanus,1.85,3.94,3.98,1.9,4.1,4,1.82,3.87,3.84
-Argentina,Liga Profesional,13/12/2021,00:30,Talleres Cordoba,Independiente,2.33,3.11,3.41,2.38,3.25,3.45,2.29,3.1,3.22
-Argentina,Liga Profesional,13/12/2021,23:00,Banfield,Arsenal Sarandi,1.64,3.92,5.43,1.68,4,5.75,1.64,3.71,5.26
-Austria,Admiral Bundesliga,11/12/2021,16:00,Hartberg,Wolfsberger,3.08,3.85,2.25,3.14,3.87,2.3,2.95,3.58,2.24
-Austria,Admiral Bundesliga,11/12/2021,16:00,Ried,Altach,2.08,3.73,3.58,2.1,3.73,3.65,2.03,3.5,3.47
-Austria,Admiral Bundesliga,11/12/2021,16:00,Salzburg,Tirol,1.19,7.92,14.66,1.19,8.25,19,1.16,7.56,14.5
-Austria,Admiral Bundesliga,12/12/2021,13:30,A. Klagenfurt,Sturm Graz,3.71,3.88,1.97,3.8,3.89,2,3.61,3.67,1.94
-Austria,Admiral Bundesliga,12/12/2021,13:30,Admira,Rapid Vienna,4,3.65,1.95,4.02,3.76,2,3.7,3.56,1.95
-Austria,Admiral Bundesliga,12/12/2021,16:00,Austria Vienna,LASK,2.79,3.58,2.53,2.82,3.6,2.55,2.68,3.44,2.48
-Mexico,Liga MX,13/12/2021,02:15,Atlas,Club Leon,2.25,3.19,3.72,2.25,3.32,3.72,2.17,3.13,3.46
-Norway,Eliteserien,12/12/2021,16:00,Brann,Sarpsborg 08,1.6,4.48,5.46,1.63,4.48,5.5,1.58,4.23,5.18
-Norway,Eliteserien,12/12/2021,16:00,Haugesund,Molde,4.91,4.35,1.68,5.02,5,1.68,4.81,4.24,1.62
-Norway,Eliteserien,12/12/2021,16:00,Kristiansund,Valerenga,2.57,3.81,2.66,2.6,3.91,2.66,2.5,3.65,2.57
-Norway,Eliteserien,12/12/2021,16:00,Lillestrom,Sandefjord,1.56,4.72,5.62,1.6,4.75,5.62,1.54,4.46,5.28
-Norway,Eliteserien,12/12/2021,16:00,Mjondalen,Bodo/Glimt,6.48,4.72,1.5,7,5.05,1.51,6.08,4.6,1.47
-Norway,Eliteserien,12/12/2021,16:00,Odd,Stabaek,2.39,3.76,2.92,2.5,3.85,2.97,2.34,3.61,2.81
-Norway,Eliteserien,12/12/2021,16:00,Rosenborg,Stromsgodset,1.5,4.76,6.44,1.5,5.5,7,1.46,4.75,6.02
-Norway,Eliteserien,12/12/2021,16:00,Tromso,Viking,2.66,3.72,2.61,2.67,4,2.65,2.58,3.61,2.52
-Poland,Ekstraklasa,10/12/2021,17:00,Stal Mielec,Termalica B-B.,2.41,3.34,3.19,2.42,3.46,3.3,2.3,3.25,3.07
-Poland,Ekstraklasa,10/12/2021,19:30,Rakow,Piast Gliwice,1.6,4.08,6.31,1.62,4.13,6.31,1.58,3.91,5.69
-Poland,Ekstraklasa,11/12/2021,14:00,Radomiak Radom,Lech Poznan,4.47,3.54,1.87,4.5,3.64,1.91,4.12,3.46,1.86
-Poland,Ekstraklasa,11/12/2021,16:30,Zaglebie,Wisla,2.47,3.4,2.94,2.55,3.48,2.94,2.44,3.32,2.8
-Poland,Ekstraklasa,11/12/2021,19:00,Lechia Gdansk,Jagiellonia,1.95,3.55,4.07,1.98,3.68,4.2,1.91,3.5,3.83
-Poland,Ekstraklasa,12/12/2021,11:30,Cracovia,Leczna,1.56,4.12,6.34,1.61,4.2,6.34,1.56,3.95,5.73
-Poland,Ekstraklasa,12/12/2021,14:00,Wisla Plock,Legia,2.86,3.44,2.51,3,3.45,2.53,2.85,3.26,2.42
-Poland,Ekstraklasa,12/12/2021,16:30,Gornik Z.,Pogon Szczecin,2.95,3.26,2.55,3.25,3.4,2.55,2.91,3.21,2.41
-Poland,Ekstraklasa,13/12/2021,17:00,Warta Poznan,Slask Wroclaw,3.21,3.22,2.4,3.21,3.45,2.42,2.99,3.21,2.36
-Romania,Liga 1,10/12/2021,15:30,U Craiova 1948,Academica Clinceni,1.71,3.52,5.54,1.8,3.59,5.6,1.75,3.32,5
-Romania,Liga 1,10/12/2021,18:30,FC Rapid Bucuresti,FC Arges,2.57,3.01,3.1,2.63,3.05,3.16,2.49,2.89,3.02
-Romania,Liga 1,11/12/2021,13:00,UTA Arad,FC Botosani,2.51,2.94,3.16,2.57,3.05,3.25,2.45,2.93,3.03
-Romania,Liga 1,11/12/2021,15:30,FC Voluntari,Univ. Craiova,4.3,3.2,1.95,4.4,3.25,2.06,3.93,3.12,1.98
-Romania,Liga 1,11/12/2021,18:30,Gaz Metan Medias,FC Steaua Bucuresti,5.37,3.54,1.69,5.6,3.75,1.74,5.06,3.54,1.67
-Romania,Liga 1,12/12/2021,15:00,Sepsi Sf. Gheorghe,Farul Constanta,2.54,2.78,3.32,2.56,3.02,3.35,2.38,2.89,3.14
-Romania,Liga 1,12/12/2021,17:30,CFR Cluj,Mioveni,1.26,5.44,12.09,1.33,5.9,14,1.29,4.9,10.25
-Romania,Liga 1,13/12/2021,18:30,Din. Bucuresti,Chindia Targoviste,2.68,3.04,2.83,2.8,3.12,2.9,2.66,2.99,2.69
-Russia,Premier League,11/12/2021,11:00,FK Krylya Sovetov Samara,Rubin Kazan,2.17,3.51,3.55,2.3,3.56,3.66,2.13,3.36,3.42
-Russia,Premier League,11/12/2021,13:30,CSKA Moscow,Arsenal Tula,1.51,4.45,6.96,1.56,4.54,7.12,1.48,4.34,6.57
-Russia,Premier League,11/12/2021,16:00,FK Rostov,Ural,1.99,3.38,4.34,2.11,3.48,4.44,1.97,3.3,4.02
-Russia,Premier League,12/12/2021,11:00,Dynamo Moscow,Zenit,3.51,3.72,2.11,3.6,3.87,2.2,3.4,3.57,2.06
-Russia,Premier League,12/12/2021,13:30,Akhmat Grozny,Khimki,1.84,3.56,4.86,1.97,3.62,4.89,1.85,3.43,4.41
-Russia,Premier League,12/12/2021,16:00,Krasnodar,Nizhny Novgorod,1.32,5.76,9.73,1.34,6,11.76,1.29,5.57,9.67
-Russia,Premier League,12/12/2021,16:00,Lokomotiv Moscow,Ufa,2.12,3.4,3.8,2.16,3.48,4,2.08,3.28,3.63
-Russia,Premier League,13/12/2021,16:00,Sochi,Spartak Moscow,2.08,3.6,3.63,2.2,3.76,3.8,2.04,3.48,3.53
-Sweden,Allsvenskan,11/12/2021,14:00,Helsingborg,Halmstad,,,,3.5,3.55,2.21,3.27,3.31,2.17
-Switzerland,Swiss,11/12/2021,17:00,Lausanne,Zurich,3.36,3.75,2.08,3.39,3.81,2.16,3.19,3.62,2.1
-Switzerland,Swiss,11/12/2021,19:30,St. Gallen,Lugano,2.54,3.38,2.82,2.55,3.59,2.87,2.47,3.36,2.74
-Switzerland,Swiss,12/12/2021,13:15,Young Boys,Sion,1.24,6.23,11.31,1.25,6.86,13,1.23,6.18,10.92
-Switzerland,Swiss,12/12/2021,15:30,Grasshoppers,Luzern,2.08,3.57,3.5,2.11,3.82,3.53,2.06,3.54,3.33
-Switzerland,Swiss,12/12/2021,15:30,Servette,Basel,2.54,3.57,2.7,2.6,3.84,2.75,2.46,3.53,2.64
-USA,MLS,11/12/2021,20:00,Portland Timbers,New York City,2.92,3.18,2.7,2.92,3.58,2.77,2.76,3.22,2.6
+China,Super League,15/12/2021,07:30,Chongqing Liangjiang Athletic,Dalian Pro,4.41,3.48,1.88,4.5,3.7,2,4.04,3.44,1.88
+China,Super League,15/12/2021,07:30,Henan Songshan Longmen,Tianjin Jinmen Tiger,2.18,3.53,3.31,2.3,3.6,3.38,2.18,3.37,3.21
+China,Super League,15/12/2021,11:30,Cangzhou,Shanghai Shenhua,,,,8,4.95,1.44,7.01,4.63,1.39
+China,Super League,15/12/2021,11:30,Qingdao FC,Wuhan FC,,,,8,5.25,1.44,7.05,4.75,1.38
+China,Super League,16/12/2021,10:00,Guangzhou FC,Hebei,,,,1.34,5.45,9.6,1.32,5.06,8.41
+China,Super League,16/12/2021,10:00,Shandong Taishan,Beijing Guoan,,,,2.1,3.75,4.2,1.87,3.58,3.9
+China,Super League,16/12/2021,12:00,Changchun Yatai,Shenzhen,,,,2.43,3.4,2.95,2.36,3.29,2.88
+China,Super League,16/12/2021,12:00,Shanghai Port,Guangzhou City,,,,1.4,4.94,8.8,1.38,4.62,7.56
+Norway,Eliteserien,15/12/2021,18:00,Brann,Jerv,,,,1.73,4.05,4.75,1.7,3.88,4.53
+Poland,Ekstraklasa,14/12/2021,17:45,Radomiak Radom,Piast Gliwice,2.19,3.32,3.69,2.21,3.5,3.74,2.11,3.24,3.52
+Poland,Ekstraklasa,15/12/2021,17:00,Rakow,Gornik Z.,1.76,3.85,4.68,1.83,3.88,4.75,1.76,3.68,4.36
+Poland,Ekstraklasa,15/12/2021,19:30,Legia,Zaglebie,1.79,3.93,4.4,1.82,3.96,4.5,1.75,3.75,4.31
+Romania,Liga 1,14/12/2021,15:30,Academica Clinceni,FC Voluntari,4.49,3.35,1.9,4.6,3.45,1.95,4.16,3.26,1.89
+Romania,Liga 1,14/12/2021,18:30,Univ. Craiova,UTA Arad,1.84,3.34,4.91,1.9,3.45,5,1.83,3.24,4.53
+Romania,Liga 1,15/12/2021,13:00,FC Botosani,Gaz Metan Medias,1.71,3.52,5.22,1.75,3.71,5.5,1.7,3.44,4.93
+Romania,Liga 1,15/12/2021,15:30,FC Arges,Sepsi Sf. Gheorghe,2.87,2.78,2.89,2.93,3.01,2.95,2.76,2.83,2.74
+Romania,Liga 1,15/12/2021,18:30,FC Steaua Bucuresti,FC Rapid Bucuresti,1.65,3.65,5.54,1.68,3.82,5.8,1.63,3.64,5.19
+Romania,Liga 1,16/12/2021,13:00,Chindia Targoviste,U Craiova 1948,2.25,2.7,4.14,2.3,3.05,4.3,2.19,2.8,3.74
+Romania,Liga 1,16/12/2021,15:30,Mioveni,Din. Bucuresti,2.41,3.11,3.14,2.55,3.25,3.23,2.41,3.04,2.95
+Romania,Liga 1,16/12/2021,18:30,Farul Constanta,CFR Cluj,4.48,3.11,1.95,4.6,3.3,1.99,4.22,3.12,1.91
+Sweden,Allsvenskan,14/12/2021,18:00,Halmstad,Helsingborg,,,,1.71,4.3,7,1.57,3.82,6.04
+Switzerland,Swiss,15/12/2021,19:30,Young Boys,Basel,1.6,4.54,4.95,1.63,4.66,5.25,1.58,4.41,4.83
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
