@@ -1,30 +1,30 @@
 Country,League,Date,Time,Home,Away,PH,PD,PA,MaxH,MaxD,MaxA,AvgH,AvgD,AvgA
-China,Super League,18/12/2021,07:30,Dalian Pro,Cangzhou,1.89,3.66,4.08,1.94,3.75,4.5,1.84,3.58,4
-China,Super League,18/12/2021,07:30,Tianjin Jinmen Tiger,Qingdao FC,1.44,4.87,6.56,1.46,5,7.4,1.42,4.56,6.62
-China,Super League,18/12/2021,11:30,Shanghai Shenhua,Chongqing Liangjiang Athletic,1.26,5.44,11.35,1.32,6.5,12,1.27,5.39,10.18
-China,Super League,18/12/2021,11:30,Wuhan FC,Henan Songshan Longmen,2.43,3.31,2.93,2.5,3.8,2.98,2.37,3.33,2.83
-Poland,Ekstraklasa,17/12/2021,17:00,Wisla,Termalica B-B.,1.95,3.63,4.14,1.95,3.71,4.2,1.91,3.47,3.91
-Poland,Ekstraklasa,17/12/2021,19:30,Wisla Plock,Lechia Gdansk,2.85,3.47,2.57,2.87,3.57,2.63,2.73,3.32,2.5
-Poland,Ekstraklasa,18/12/2021,11:30,Piast Gliwice,Stal Mielec,1.93,3.8,3.82,2.05,3.8,4,1.93,3.52,3.74
-Poland,Ekstraklasa,18/12/2021,14:00,Pogon Szczecin,Warta Poznan,1.4,4.65,8.62,1.42,4.75,9,1.38,4.46,8.31
-Poland,Ekstraklasa,18/12/2021,16:30,Slask Wroclaw,Cracovia,2.2,3.39,3.46,2.23,3.5,3.47,2.16,3.28,3.32
-Poland,Ekstraklasa,18/12/2021,19:00,Rakow,Jagiellonia,1.69,3.98,4.99,1.72,4.1,5.1,1.67,3.82,4.78
-Poland,Ekstraklasa,19/12/2021,11:30,Leczna,Zaglebie,3.57,3.3,2.19,3.57,3.5,2.3,3.27,3.29,2.18
-Poland,Ekstraklasa,19/12/2021,14:00,Lech Poznan,Gornik Z.,1.54,4.09,6.69,1.6,4.2,6.8,1.53,3.99,5.96
-Poland,Ekstraklasa,19/12/2021,16:30,Legia,Radomiak Radom,2.02,3.1,4.48,2.05,3.61,4.48,2,3.27,3.85
-Romania,Liga 1,17/12/2021,18:30,FC Voluntari,UTA Arad,2.86,2.78,2.99,2.86,2.95,3.06,2.72,2.75,2.87
-Romania,Liga 1,18/12/2021,16:00,Gaz Metan Medias,Univ. Craiova,5.53,3.49,1.68,5.8,3.75,1.73,5.08,3.47,1.68
-Romania,Liga 1,18/12/2021,18:30,FC Rapid Bucuresti,FC Botosani,3.49,3.12,2.23,3.7,3.21,2.28,3.44,3.05,2.16
-Romania,Liga 1,19/12/2021,11:30,Academica Clinceni,Chindia Targoviste,3.67,2.87,2.22,3.84,3.05,2.3,3.57,2.92,2.18
-Romania,Liga 1,19/12/2021,14:00,CFR Cluj,FC Arges,1.48,3.92,6.73,1.57,4.2,8,1.5,3.71,6.75
-Romania,Liga 1,19/12/2021,18:30,Sepsi Sf. Gheorghe,FC Steaua Bucuresti,3.01,3.06,2.43,3.25,3.25,2.52,2.98,3.09,2.36
-Romania,Liga 1,20/12/2021,15:30,U Craiova 1948,Mioveni,2.34,3.21,3.17,2.42,3.28,3.45,2.29,3.02,3.18
-Romania,Liga 1,20/12/2021,18:30,Din. Bucuresti,Farul Constanta,5.67,3.57,1.65,5.95,3.85,1.79,5.11,3.45,1.69
-Switzerland,Swiss,18/12/2021,17:00,Zurich,St. Gallen,1.85,4.05,3.88,1.95,4.1,3.9,1.87,3.85,3.68
-Switzerland,Swiss,18/12/2021,19:30,Luzern,Servette,2.63,3.65,2.56,2.66,4,2.6,2.54,3.61,2.52
-Switzerland,Swiss,19/12/2021,13:15,Lugano,Young Boys,3.58,3.93,1.95,3.9,3.96,2,3.59,3.7,1.92
-Switzerland,Swiss,19/12/2021,15:30,Basel,Grasshoppers,1.83,3.7,4.35,1.85,4.09,4.5,1.79,3.76,4.12
-Switzerland,Swiss,19/12/2021,15:30,Sion,Lausanne,2.31,3.68,2.94,2.34,3.83,3,2.26,3.57,2.88
+China,Super League,21/12/2021,11:30,Cangzhou,Tianjin Jinmen Tiger,2.13,3.27,3.69,2.45,3.45,3.9,2.12,3.24,3.43
+China,Super League,21/12/2021,11:30,Qingdao FC,Dalian Pro,7.54,4.68,1.42,8,4.9,1.5,7.28,4.6,1.4
+China,Super League,22/12/2021,10:00,Beijing Guoan,Shenzhen,3.15,3.39,2.32,3.3,3.61,2.32,3.08,3.37,2.22
+China,Super League,22/12/2021,10:00,Hebei,Guangzhou City,3.95,3.55,1.91,4.2,3.77,1.94,3.92,3.56,1.87
+China,Super League,22/12/2021,12:00,Guangzhou FC,Shanghai Port,5.35,3.82,1.63,5.8,3.96,1.71,5.18,3.71,1.64
+China,Super League,22/12/2021,12:00,Shandong Taishan,Changchun Yatai,1.5,4.03,6.78,1.65,4.2,7,1.53,3.88,6.13
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
