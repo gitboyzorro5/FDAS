@@ -245,3 +245,6 @@ INSERT INTO EC VALUES('EC','11/01/2022','Boreham Wood','Wealdstone','1','0','H',
 INSERT INTO EC VALUES('EC','11/01/2022','Halifax','Grimsby','1','0','H','0','0','D','2.46','3.43','2.89','0','0','0','0','0','2','0','0');
 INSERT INTO EC VALUES('EC','11/01/2022','Kings Lynn','Notts County','2','4','A','1','0','H','6.27','4.85','1.46','0','0','0','0','3','0','0','0');
 INSERT INTO EC VALUES('EC','11/01/2022','Southend','Yeovil','2','1','H','1','0','H','2.92','3.36','2.48','0','0','0','0','3','1','0','0');
+INSERT INTO EC VALUES('EC','15/01/2022','Barnet','Chesterfield','1','4','A','0','0','D','5.37','3.78','1.64','0','0','0','0','1','2','0','0');
+INSERT INTO EC VALUES('EC','15/01/2022','Grimsby','Altrincham','2','0','H','0','0','D','1.75','3.8','4.43','0','0','0','0','0','0','0','0');
+INSERT INTO EC VALUES('EC','15/01/2022','Wealdstone','Dover Athletic','2','1','H','0','1','A','1.54','4.31','5.56','0','0','0','0','2','2','0','0');
