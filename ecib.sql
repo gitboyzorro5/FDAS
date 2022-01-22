@@ -248,3 +248,5 @@ INSERT INTO EC VALUES('EC','11/01/2022','Southend','Yeovil','2','1','H','1','0',
 INSERT INTO EC VALUES('EC','15/01/2022','Barnet','Chesterfield','1','4','A','0','0','D','5.37','3.78','1.64','0','0','0','0','1','2','0','0');
 INSERT INTO EC VALUES('EC','15/01/2022','Grimsby','Altrincham','2','0','H','0','0','D','1.75','3.8','4.43','0','0','0','0','0','0','0','0');
 INSERT INTO EC VALUES('EC','15/01/2022','Wealdstone','Dover Athletic','2','1','H','0','1','A','1.54','4.31','5.56','0','0','0','0','2','2','0','0');
+INSERT INTO EC VALUES('EC','18/01/2022','Maidenhead','Chesterfield','3','2','H','2','1','H','4.81','4.04','1.68','0','0','0','0','1','2','0','0');
+INSERT INTO EC VALUES('EC','18/01/2022','Stockport','Eastleigh','3','0','H','2','0','H','1.47','4.41','7.03','0','0','0','0','1','1','0','1');
