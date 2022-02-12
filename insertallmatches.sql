@@ -220,6 +220,8 @@ INSERT INTO ALLMATCHES VALUES('E0','09/02/2022','Man City','Brentford','2','0','
 INSERT INTO ALLMATCHES VALUES('E0','09/02/2022','Norwich','Crystal Palace','1','1','D','1','0','H','3.66','3.38','2.21','5','1','13','5','1','2','0','0');
 INSERT INTO ALLMATCHES VALUES('E0','09/02/2022','Tottenham','Southampton','2','3','A','1','1','D','1.61','4.19','6.03','8','3','23','10','2','3','0','0');
 INSERT INTO ALLMATCHES VALUES('E0','09/02/2022','Aston Villa','Leeds','3','3','D','3','2','H','1.83','4','4.4','12','4','16','8','1','3','1','0');
+INSERT INTO ALLMATCHES VALUES('E0','10/02/2022','Liverpool','Leicester','2','0','H','1','0','H','1.26','6.84','11.21','22','11','5','1','1','0','0','0');
+INSERT INTO ALLMATCHES VALUES('E0','10/02/2022','Wolves','Arsenal','0','1','A','0','1','A','3.72','3.28','2.23','15','4','12','2','2','3','0','1');
 INSERT INTO ALLMATCHES VALUES('E1','06/08/2021','Bournemouth','West Brom','2','2','D','1','1','D','2.37','3.36','3.24','7','4','15','5','1','3','0','0');
 INSERT INTO ALLMATCHES VALUES('E1','07/08/2021','Blackburn','Swansea','2','1','H','1','0','H','2.18','3.38','3.65','21','10','7','4','4','2','0','0');
 INSERT INTO ALLMATCHES VALUES('E1','07/08/2021','Bristol City','Blackpool','1','1','D','1','0','H','2.27','3.39','3.35','11','2','7','1','2','0','0','0');
@@ -4365,6 +4367,7 @@ INSERT INTO ALLMATCHES VALUES('G1','05/02/2022','Panetolikos','Giannina','0','1'
 INSERT INTO ALLMATCHES VALUES('G1','06/02/2022','AEK','Apollon','3','0','H','0','0','D','1.22','6.11','12.51','14','9','6','3','3','3','1','0');
 INSERT INTO ALLMATCHES VALUES('G1','06/02/2022','Ionikos','Olympiakos','0','3','A','0','1','A','9.26','4.2','1.39','8','6','7','4','2','1','0','0');
 INSERT INTO ALLMATCHES VALUES('G1','06/02/2022','PAOK','Panathinaikos','2','1','H','0','1','A','1.88','3.41','4.29','8','5','3','2','5','5','0','0');
+INSERT INTO ALLMATCHES VALUES('G1','10/02/2022','Atromitos','Lamia','3','1','H','0','1','A','2.17','2.93','3.94','12','7','6','3','1','2','0','0');
 INSERT INTO ALLMATCHES VALUES('SC0','31/07/2021','Rangers','Livingston','3','0','H','1','0','H','1.17','7.77','20.52','18','8','2','0','0','5','0','0');
 INSERT INTO ALLMATCHES VALUES('SC0','31/07/2021','Dundee','St Mirren','2','2','D','1','1','D','2.72','3.35','2.77','11','4','14','5','2','2','1','0');
 INSERT INTO ALLMATCHES VALUES('SC0','31/07/2021','Ross County','St Johnstone','0','0','D','0','0','D','4.06','3.4','2.05','4','0','10','2','4','1','0','0');
