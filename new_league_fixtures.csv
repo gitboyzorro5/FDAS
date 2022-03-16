@@ -1,99 +1,98 @@
 Country,League,Date,Time,Home,Away,PH,PD,PA,MaxH,MaxD,MaxA,AvgH,AvgD,AvgA
-Argentina,Copa de la Liga Profesional,11/03/2022,22:15,Arsenal Sarandi,Velez Sarsfield,3.91,3.12,2.18,3.91,3.24,2.23,3.58,3.04,2.14
-Argentina,Copa de la Liga Profesional,12/03/2022,00:30,Platense,Patronato,2.19,3.12,3.89,2.26,3.22,3.89,2.16,3.03,3.53
-Argentina,Copa de la Liga Profesional,12/03/2022,20:00,Aldosivi,Tigre,3.46,3.41,2.16,3.53,3.41,2.2,3.31,3.23,2.14
-Argentina,Copa de la Liga Profesional,12/03/2022,20:00,Huracan,Godoy Cruz,2.15,3.14,3.82,2.15,3.45,3.82,2.09,3.22,3.46
-Argentina,Copa de la Liga Profesional,12/03/2022,22:15,Rosario Central,Barracas Central,1.45,4.52,7.11,1.49,4.52,8.5,1.44,4.22,6.74
-Argentina,Copa de la Liga Profesional,12/03/2022,22:15,Sarmiento Junin,Newells Old Boys,2.62,3.09,2.96,2.65,3.27,2.96,2.52,3.1,2.77
-Argentina,Copa de la Liga Profesional,13/03/2022,00:30,Talleres Cordoba,San Lorenzo,2.13,3.02,4.08,2.14,3.27,4.1,2.05,3.09,3.76
-Argentina,Copa de la Liga Profesional,13/03/2022,20:00,Lanus,Colon Santa FE,2.32,3.29,3.23,2.35,3.52,3.35,2.22,3.25,3.09
-Argentina,Copa de la Liga Profesional,13/03/2022,20:00,Union de Santa Fe,Banfield,2.39,2.97,3.47,2.4,3.25,3.47,2.27,3.01,3.24
-Argentina,Copa de la Liga Profesional,13/03/2022,22:15,River Plate,Gimnasia L.P.,1.34,5.13,9.27,1.38,5.2,9.5,1.33,4.76,8.16
-Argentina,Copa de la Liga Profesional,14/03/2022,00:30,Estudiantes L.P.,Boca Juniors,3.67,3.26,2.15,3.74,3.39,2.26,3.37,3.16,2.14
-Argentina,Copa de la Liga Profesional,14/03/2022,22:15,Atl. Tucuman,Racing Club,3.61,3.24,2.18,3.61,3.57,2.23,3.25,3.28,2.14
-Argentina,Copa de la Liga Profesional,15/03/2022,00:30,Argentinos Jrs,Defensa y Justicia,2.31,3.31,3.23,2.4,3.42,3.23,2.29,3.19,3.03
-Argentina,Copa de la Liga Profesional,15/03/2022,00:30,Independiente,Central Cordoba,2.08,3.3,3.82,2.09,3.39,3.82,2.03,3.22,3.59
-Austria,Admiral Bundesliga,12/03/2022,16:00,Admira,Ried,2.39,3.39,3.18,2.39,3.4,3.4,2.29,3.28,3.08
-Austria,Admiral Bundesliga,12/03/2022,16:00,Altach,Hartberg,3.16,3.56,2.32,3.25,3.57,2.35,3.01,3.4,2.28
-Austria,Admiral Bundesliga,13/03/2022,13:30,A. Klagenfurt,Rapid Vienna,3.56,3.94,2.02,3.7,3.94,2.03,3.48,3.75,1.96
-Austria,Admiral Bundesliga,13/03/2022,13:30,Austria Vienna,Wolfsberger,2.28,3.45,3.29,2.28,3.65,3.29,2.21,3.44,3.11
-Austria,Admiral Bundesliga,13/03/2022,13:30,LASK,Tirol,1.52,4.62,6.13,1.52,4.75,6.5,1.48,4.51,6
-Austria,Admiral Bundesliga,13/03/2022,16:00,Salzburg,Sturm Graz,1.4,5.26,7.74,1.43,5.26,7.74,1.4,4.92,6.96
-Denmark,Superliga,11/03/2022,18:00,Nordsjaelland,Sonderjyske,1.93,3.7,4.15,1.95,3.8,4.15,1.91,3.63,3.85
-Denmark,Superliga,13/03/2022,13:00,Randers FC,Silkeborg,2.98,3.4,2.45,2.98,3.56,2.6,2.85,3.39,2.4
-Denmark,Superliga,13/03/2022,13:00,Viborg,Vejle,1.73,3.94,4.75,1.8,4.1,5.25,1.73,3.86,4.49
-Denmark,Superliga,13/03/2022,15:00,Brondby,Aarhus,1.91,3.67,4.08,2,3.7,4.2,1.94,3.48,3.86
-Denmark,Superliga,13/03/2022,17:00,Midtjylland,FC Copenhagen,2.45,3.38,2.99,2.48,3.65,3.1,2.36,3.36,2.94
-Denmark,Superliga,14/03/2022,18:00,Odense,Aalborg,2.33,3.51,3.08,2.4,3.55,3.2,2.29,3.36,3.03
-Ireland,Premier Division,11/03/2022,19:45,Drogheda,Sligo Rovers,3.64,3.11,2.32,3.64,3.22,2.32,3.39,3.07,2.24
-Ireland,Premier Division,11/03/2022,19:45,Shelbourne,Dundalk,3.6,3.32,2.22,3.6,3.4,2.22,3.39,3.22,2.17
-Ireland,Premier Division,11/03/2022,19:45,UC Dublin,Derry City,11.55,5.2,1.33,11.55,5.29,1.35,9.99,4.91,1.31
-Ireland,Premier Division,11/03/2022,20:00,Finn Harps,St. Patricks,3.42,2.99,2.5,3.42,3.25,2.5,3.18,3.03,2.36
-Ireland,Premier Division,11/03/2022,20:00,Shamrock Rovers,Bohemians,1.68,3.6,6.38,1.73,3.77,6.38,1.65,3.58,5.48
-Ireland,Premier Division,14/03/2022,19:45,Bohemians,Shelbourne,,,,2.12,3.46,3.85,2.06,3.27,3.56
-Ireland,Premier Division,14/03/2022,19:45,Derry City,Drogheda,,,,1.83,3.64,5.1,1.77,3.43,4.62
-Ireland,Premier Division,14/03/2022,19:45,Dundalk,Shamrock Rovers,,,,3.26,3.48,2.28,3.13,3.32,2.22
-Ireland,Premier Division,14/03/2022,19:45,Sligo Rovers,Finn Harps,,,,1.99,3.44,4.33,1.92,3.25,4.1
-Ireland,Premier Division,14/03/2022,19:45,St. Patricks,UC Dublin,,,,1.3,5.55,15,1.27,5.08,11.64
-Japan,J1 League,12/03/2022,05:00,Hokkaido Consadole Sapporo,Yokohama F. Marinos,3.45,3.9,2.07,3.5,3.9,2.15,3.3,3.6,2.08
-Japan,J1 League,12/03/2022,05:00,Iwata,Gamba Osaka,2.44,3.46,3.04,2.51,3.47,3.1,2.4,3.25,2.96
-Japan,J1 League,12/03/2022,05:00,Shimizu S-Pulse,Cerezo Osaka,2.94,3.24,2.64,2.95,3.25,2.65,2.82,3.13,2.57
-Japan,J1 League,12/03/2022,06:00,FC Tokyo,Sanfrecce Hiroshima,2.46,3.07,3.38,2.47,3.16,3.38,2.38,3.04,3.18
-Japan,J1 League,12/03/2022,06:00,Shonan Bellmare,Kyoto,2.35,3.15,3.5,2.4,3.19,3.7,2.3,3.04,3.34
-Japan,J1 League,12/03/2022,07:00,Kashiwa Reysol,Avispa Fukuoka,2.33,3.26,3.42,2.35,3.28,3.42,2.28,3.15,3.24
-Japan,J1 League,12/03/2022,08:00,Kawasaki Frontale,Nagoya Grampus,2,3.45,4.19,2,3.5,4.2,1.94,3.34,4.06
-Japan,J1 League,13/03/2022,06:00,Sagan Tosu,Urawa Reds,3.74,3.14,2.26,3.75,3.14,2.3,3.51,3,2.24
-Mexico,Liga MX,12/03/2022,01:00,Necaxa,Queretaro,2.03,3.3,3.98,2.08,3.42,4,2.02,3.25,3.78
-Mexico,Liga MX,12/03/2022,03:00,Juarez,Atlas,3.84,3.13,2.23,3.9,3.13,2.31,3.62,2.97,2.2
-Mexico,Liga MX,12/03/2022,03:06,Monterrey,Mazatlan FC,1.42,4.53,9.31,1.44,4.6,9.5,1.41,4.29,8.13
-Mexico,Liga MX,12/03/2022,23:00,Club Leon,U.A.N.L.- Tigres,3.27,3.42,2.33,3.27,3.49,2.38,3.07,3.27,2.29
-Mexico,Liga MX,12/03/2022,23:00,Club Leon,U.A.N.L.- Tigres,3.27,3.42,2.33,3.27,3.49,2.38,3.07,3.27,2.29
-Mexico,Liga MX,13/03/2022,01:00,Cruz Azul,U.N.A.M.- Pumas,1.97,3.44,4.32,1.97,3.5,4.5,1.9,3.36,4.11
-Mexico,Liga MX,13/03/2022,03:00,Guadalajara Chivas,Club America,2.59,3.11,3.14,2.59,3.26,3.14,2.51,3.05,2.92
-Mexico,Liga MX,13/03/2022,18:00,Toluca,Pachuca,3.25,3.51,2.29,3.3,3.51,2.38,3.07,3.34,2.25
-Mexico,Liga MX,13/03/2022,23:00,Atl. San Luis,Puebla,2.89,3.16,2.74,2.89,3.26,2.87,2.72,3.03,2.68
-Mexico,Liga MX,14/03/2022,01:00,Santos Laguna,Club Tijuana,1.97,3.42,4.35,1.99,3.51,4.35,1.93,3.35,3.98
-Poland,Ekstraklasa,11/03/2022,17:00,Termalica B-B.,Zaglebie,2.84,3.2,2.76,2.84,3.21,2.8,2.72,3.06,2.69
-Poland,Ekstraklasa,11/03/2022,19:30,Leczna,Legia,4.55,3.41,1.93,4.6,3.41,2,4.27,3.24,1.91
-Poland,Ekstraklasa,12/03/2022,14:00,Warta Poznan,Gornik Z.,2.98,3.11,2.62,3.1,3.17,2.62,2.93,3.01,2.52
-Poland,Ekstraklasa,12/03/2022,16:30,Piast Gliwice,Lechia Gdansk,2.43,3.24,3.13,2.45,3.36,3.15,2.36,3.15,3.04
-Poland,Ekstraklasa,12/03/2022,19:00,Cracovia,Pogon Szczecin,4.36,3.37,1.94,4.36,3.46,1.96,4.18,3.25,1.91
-Poland,Ekstraklasa,13/03/2022,11:30,Jagiellonia,Wisla Plock,2.31,3.28,3.32,2.35,3.47,3.32,2.25,3.22,3.16
-Poland,Ekstraklasa,13/03/2022,14:00,Slask Wroclaw,Radomiak Radom,2.6,3.12,3,2.65,3.42,3,2.52,3.13,2.82
-Poland,Ekstraklasa,13/03/2022,16:30,Wisla,Lech Poznan,6.35,3.97,1.57,6.35,4.19,1.61,5.75,3.9,1.56
-Poland,Ekstraklasa,14/03/2022,17:00,Rakow,Stal Mielec,1.35,5.07,9.55,1.38,5.1,9.55,1.35,4.76,8.44
-Romania,Liga 1,11/03/2022,15:30,UTA Arad,Academica Clinceni,1.18,6.64,17.11,1.2,7.25,18.5,1.18,6.28,15.21
-Romania,Liga 1,11/03/2022,18:30,Univ. Craiova,FC Arges,1.63,3.52,6.7,1.68,3.65,6.7,1.64,3.41,5.73
-Romania,Liga 1,12/03/2022,15:30,Chindia Targoviste,U Craiova 1948,2.87,2.78,2.89,2.87,3,2.92,2.71,2.82,2.79
-Romania,Liga 1,12/03/2022,18:30,CFR Cluj,FC Voluntari,1.46,3.86,8.38,1.5,4.1,8.5,1.46,3.81,7.47
-Romania,Liga 1,13/03/2022,15:30,Sepsi Sf. Gheorghe,Mioveni,1.58,3.57,6.7,1.66,3.7,7,1.6,3.45,6.05
-Romania,Liga 1,13/03/2022,18:30,FC Rapid Bucuresti,Din. Bucuresti,1.9,3.39,4.23,1.92,3.45,4.5,1.84,3.31,4.21
-Romania,Liga 1,14/03/2022,16:00,FC Botosani,Gaz Metan Medias,,,,1.08,12,45,1.06,9.79,27.81
-Romania,Liga 1,14/03/2022,19:00,FCSB,Farul Constanta,1.72,3.38,5.44,1.75,3.65,5.8,1.69,3.4,5.19
-Russia,Premier League,12/03/2022,11:00,Ufa,Nizhny Novgorod,2.06,3.09,4.25,2.17,3.3,4.4,2.08,3.11,4.05
-Russia,Premier League,12/03/2022,13:30,Arsenal Tula,Dynamo Moscow,4.94,3.57,1.77,5.3,3.8,1.82,4.71,3.61,1.78
-Russia,Premier League,12/03/2022,16:00,Lokomotiv Moscow,CSKA Moscow,3.4,3.2,2.28,3.45,3.42,2.42,3.31,3.21,2.29
-Russia,Premier League,13/03/2022,09:00,Ural,Akhmat Grozny,3.56,3.06,2.29,3.59,3.42,2.35,3.39,3.11,2.28
-Russia,Premier League,13/03/2022,11:00,Khimki,Sochi,3.96,3.57,1.94,4.41,3.88,2.01,3.87,3.55,1.95
-Russia,Premier League,13/03/2022,13:30,Krylya Sovetov,Zenit,5.82,4.88,1.48,6.5,4.9,1.54,6,4.7,1.48
-Russia,Premier League,13/03/2022,16:00,Spartak Moscow,Krasnodar,1.67,4.21,4.69,1.76,4.45,4.95,1.68,4.19,4.65
-Russia,Premier League,14/03/2022,16:00,Rubin Kazan,FK Rostov,1.83,3.82,4.2,1.83,4.3,4.75,1.76,3.82,4.53
-Switzerland,Swiss,12/03/2022,17:00,Zurich,St. Gallen,1.79,4.35,3.84,1.85,4.35,4.33,1.79,4.07,3.85
-Switzerland,Swiss,12/03/2022,19:30,Sion,Lugano,3.04,3.18,2.5,3.05,3.37,2.55,2.9,3.17,2.46
-Switzerland,Swiss,13/03/2022,13:15,Lausanne,Young Boys,6.97,4.65,1.44,8,5,1.47,6.63,4.71,1.42
-Switzerland,Swiss,13/03/2022,15:30,Basel,Servette,2.04,3.85,3.38,2.1,3.97,3.5,2.02,3.71,3.32
-Switzerland,Swiss,13/03/2022,15:30,Luzern,Grasshoppers,2.19,3.68,3.15,2.3,3.74,3.3,2.17,3.52,3.11
-USA,MLS,12/03/2022,18:00,New York City,CF Montreal,1.43,4.61,8.65,1.45,4.75,8.65,1.42,4.5,7.56
-USA,MLS,12/03/2022,18:30,Columbus Crew,Toronto FC,1.61,4.32,5.54,1.62,4.32,5.6,1.59,4.13,5.17
-USA,MLS,12/03/2022,18:30,Inter Miami,Los Angeles FC,4.09,4.07,1.85,4.1,4.07,1.9,3.88,3.8,1.84
-USA,MLS,12/03/2022,20:30,Seattle Sounders,Los Angeles Galaxy,2.15,3.33,3.8,2.16,3.52,3.8,2.06,3.31,3.64
-USA,MLS,12/03/2022,23:30,Houston Dynamo,Vancouver Whitecaps,1.76,3.93,4.78,1.76,3.94,5,1.73,3.76,4.59
-USA,MLS,13/03/2022,00:30,DC United,Chicago Fire,2.05,3.54,3.88,2.1,3.72,3.88,2.03,3.45,3.57
-USA,MLS,13/03/2022,00:30,New England Revolution,Real Salt Lake,1.61,4.01,6.16,1.61,4.33,6.16,1.58,4.07,5.5
-USA,MLS,13/03/2022,00:30,Orlando City,FC Cincinnati,1.49,4.63,7,1.5,4.63,7,1.47,4.42,6.52
-USA,MLS,13/03/2022,00:30,Philadelphia Union,San Jose Earthquakes,1.56,4.3,6.42,1.57,4.32,6.5,1.54,4.09,5.87
-USA,MLS,13/03/2022,01:30,FC Dallas,Nashville SC,2.64,3.26,2.92,2.64,3.39,2.92,2.52,3.23,2.8
-USA,MLS,13/03/2022,02:00,Colorado Rapids,Sporting Kansas City,1.99,3.57,4.07,1.99,3.72,4.07,1.94,3.55,3.77
-USA,MLS,13/03/2022,03:00,Portland Timbers,Austin FC,1.9,3.75,4.22,1.9,4,4.33,1.84,3.74,3.99
-USA,MLS,13/03/2022,20:30,Atlanta Utd,Charlotte,1.63,4.07,5.91,1.63,4.25,5.91,1.6,3.98,5.33
-USA,MLS,13/03/2022,23:00,New York Red Bulls,Minnesota United,1.69,3.73,5.85,1.7,4,5.85,1.65,3.74,5.27
+Japan,J1 League,18/03/2022,10:00,Yokohama F. Marinos,Sagan Tosu,1.65,4.37,5,1.7,4.4,5.1,1.64,4.07,4.76
+Mexico,Liga MX,16/03/2022,03:06,Monterrey,Juarez,1.46,4.37,8.52,1.46,4.55,8.8,1.42,4.28,7.84
+Mexico,Liga MX,18/03/2022,03:05,Queretaro,Atl. San Luis,2.36,3.25,3.37,2.36,3.5,3.37,2.26,3.21,3.17
+Poland,Ekstraklasa,15/03/2022,17:45,Legia,Termalica B-B.,1.53,4.22,7,1.55,4.5,7.75,1.49,4.15,6.34
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
