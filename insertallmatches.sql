@@ -281,6 +281,7 @@ INSERT INTO ALLMATCHES VALUES('E0','13/03/2022','Arsenal','Leicester','2','0','H
 INSERT INTO ALLMATCHES VALUES('E0','14/03/2022','Crystal Palace','Man City','0','0','D','0','0','D','9.58','5.7','1.34','7','1','18','4','3','1','0','0');
 INSERT INTO ALLMATCHES VALUES('E0','16/03/2022','Brighton','Tottenham','0','2','A','0','1','A','3.38','3.37','2.33','15','0','17','7','2','2','0','0');
 INSERT INTO ALLMATCHES VALUES('E0','16/03/2022','Arsenal','Liverpool','0','2','A','0','0','D','3.78','4.12','1.93','9','2','9','3','0','1','0','0');
+INSERT INTO ALLMATCHES VALUES('E0','17/03/2022','Everton','Newcastle','1','0','H','0','0','D','2.4','3.38','3.22','9','3','17','6','2','1','1','0');
 INSERT INTO ALLMATCHES VALUES('E1','06/08/2021','Bournemouth','West Brom','2','2','D','1','1','D','2.37','3.36','3.24','7','4','15','5','1','3','0','0');
 INSERT INTO ALLMATCHES VALUES('E1','07/08/2021','Blackburn','Swansea','2','1','H','1','0','H','2.18','3.38','3.65','21','10','7','4','4','2','0','0');
 INSERT INTO ALLMATCHES VALUES('E1','07/08/2021','Bristol City','Blackpool','1','1','D','1','0','H','2.27','3.39','3.35','11','2','7','1','2','0','0','0');
@@ -6047,4 +6048,4 @@ INSERT INTO ALLMATCHES VALUES('SC3','12/03/2022','Kelty Hearts','Albion Rvs','3'
 INSERT INTO ALLMATCHES VALUES('SC3','12/03/2022','Stenhousemuir','Edinburgh City','0','0','D','0','0','D','1.95','3.69','3.56','24','6','5','2','1','1','0','1');
 INSERT INTO ALLMATCHES VALUES('SC3','12/03/2022','Stranraer','Cowdenbeath','3','0','H','2','0','H','1.96','3.52','3.69','9','6','4','0','0','2','0','0');
 INSERT INTO ALLMATCHES VALUES('SC3','15/03/2022','Cowdenbeath','Forfar','1','2','A','1','1','D','4.04','3.18','1.99','4','1','8','2','3','1','0','0');
-INSERT INTO ALLMATCHES VALUES('SC3','16/03/2022','Albion Rvs','Kelty Hearts','0','0','D','0','0','D','5.99','4.23','1.51','','','','','0','1','0','1');
+INSERT INTO ALLMATCHES VALUES('SC3','16/03/2022','Albion Rvs','Kelty Hearts','0','0','D','0','0','D','5.99','4.23','1.51','13','3','9','4','0','1','0','1');
