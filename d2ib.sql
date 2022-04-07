@@ -249,3 +249,4 @@ INSERT INTO D2 VALUES('D2','02/04/2022','Hansa Rostock','St Pauli','1','0','H','
 INSERT INTO D2 VALUES('D2','03/04/2022','Heidenheim','Nurnberg','3','1','H','2','0','H','2.33','3.47','3.23','18','5','11','5','0','1','0','0');
 INSERT INTO D2 VALUES('D2','03/04/2022','Karlsruhe','Fortuna Dusseldorf','2','2','D','0','2','A','2.77','3.51','2.62','11','4','11','6','1','1','0','0');
 INSERT INTO D2 VALUES('D2','03/04/2022','Werder Bremen','Sandhausen','1','1','D','0','0','D','1.44','4.66','8.27','21','8','3','1','1','2','0','0');
+INSERT INTO D2 VALUES('D2','05/04/2022','Hamburg','Erzgebirge Aue','4','0','H','2','0','H','1.38','5.24','8.64','20','8','7','6','0','1','0','0');
