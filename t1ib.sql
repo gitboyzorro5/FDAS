@@ -317,3 +317,4 @@ INSERT INTO T1 VALUES('T1','10/04/2022','Yeni Malatyaspor','Giresunspor','0','1'
 INSERT INTO T1 VALUES('T1','10/04/2022','Ad. Demirspor','Altay','3','1','H','2','0','H','1.61','4.22','5.74','18','9','13','4','1','1','0','0');
 INSERT INTO T1 VALUES('T1','10/04/2022','Sivasspor','Buyuksehyr','0','2','A','0','1','A','2.83','3.35','2.67','19','7','14','2','2','3','0','0');
 INSERT INTO T1 VALUES('T1','10/04/2022','Fenerbahce','Galatasaray','2','0','H','1','0','H','1.93','3.81','4.01','8','3','6','1','3','4','0','0');
+INSERT INTO T1 VALUES('T1','11/04/2022','Antalyaspor','Hatayspor','4','1','H','3','1','H','2.18','3.76','3.25','14','8','6','4','1','1','0','1');
