@@ -329,6 +329,7 @@ INSERT INTO ALLMATCHES VALUES('E0','24/04/2022','Burnley','Wolves','1','0','H','
 INSERT INTO ALLMATCHES VALUES('E0','24/04/2022','Chelsea','West Ham','1','0','H','0','0','D','1.53','4.53','6.68','26','5','6','2','1','0','0','1');
 INSERT INTO ALLMATCHES VALUES('E0','24/04/2022','Liverpool','Everton','2','0','H','0','0','D','1.18','7.75','18','18','4','9','1','2','5','0','0');
 INSERT INTO ALLMATCHES VALUES('E0','25/04/2022','Crystal Palace','Leeds','0','0','D','0','0','D','2.11','3.69','3.6','17','7','9','2','2','2','0','0');
+INSERT INTO ALLMATCHES VALUES('E0','28/04/2022','Man United','Chelsea','1','1','D','0','0','D','3.23','3.68','2.27','6','3','21','6','0','1','0','0');
 INSERT INTO ALLMATCHES VALUES('E1','06/08/2021','Bournemouth','West Brom','2','2','D','1','1','D','2.37','3.36','3.24','7','4','15','5','1','3','0','0');
 INSERT INTO ALLMATCHES VALUES('E1','07/08/2021','Blackburn','Swansea','2','1','H','1','0','H','2.18','3.38','3.65','21','10','7','4','4','2','0','0');
 INSERT INTO ALLMATCHES VALUES('E1','07/08/2021','Bristol City','Blackpool','1','1','D','1','0','H','2.27','3.39','3.35','11','2','7','1','2','0','0','0');
