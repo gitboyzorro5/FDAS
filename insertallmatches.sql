@@ -355,6 +355,7 @@ INSERT INTO ALLMATCHES VALUES('E0','11/05/2022','Leeds','Chelsea','0','3','A','0
 INSERT INTO ALLMATCHES VALUES('E0','11/05/2022','Leicester','Norwich','3','0','H','0','0','D','1.45','5.12','7.2','20','8','9','5','0','0','0','0');
 INSERT INTO ALLMATCHES VALUES('E0','11/05/2022','Watford','Everton','0','0','D','0','0','D','4.43','3.73','1.88','6','0','16','5','1','2','0','0');
 INSERT INTO ALLMATCHES VALUES('E0','11/05/2022','Wolves','Man City','1','5','A','1','3','A','14.04','5.93','1.26','7','3','16','5','0','1','0','0');
+INSERT INTO ALLMATCHES VALUES('E0','12/05/2022','Tottenham','Arsenal','3','0','H','2','0','H','2.18','3.61','3.49','16','6','8','4','1','3','0','1');
 INSERT INTO ALLMATCHES VALUES('E1','06/08/2021','Bournemouth','West Brom','2','2','D','1','1','D','2.37','3.36','3.24','7','4','15','5','1','3','0','0');
 INSERT INTO ALLMATCHES VALUES('E1','07/08/2021','Blackburn','Swansea','2','1','H','1','0','H','2.18','3.38','3.65','21','10','7','4','4','2','0','0');
 INSERT INTO ALLMATCHES VALUES('E1','07/08/2021','Bristol City','Blackpool','1','1','D','1','0','H','2.27','3.39','3.35','11','2','7','1','2','0','0','0');
@@ -2863,6 +2864,9 @@ INSERT INTO ALLMATCHES VALUES('SP1','11/05/2022','Alaves','Espanol','2','1','H',
 INSERT INTO ALLMATCHES VALUES('SP1','11/05/2022','Osasuna','Getafe','1','1','D','1','1','D','2.79','2.98','3.05','12','1','6','0','2','4','0','1');
 INSERT INTO ALLMATCHES VALUES('SP1','11/05/2022','Sevilla','Mallorca','0','0','D','0','0','D','1.63','3.96','6.24','18','4','10','2','4','6','0','0');
 INSERT INTO ALLMATCHES VALUES('SP1','11/05/2022','Elche','Ath Madrid','0','2','A','0','1','A','5.92','3.71','1.71','9','0','11','6','2','2','0','0');
+INSERT INTO ALLMATCHES VALUES('SP1','12/05/2022','Sociedad','Cadiz','3','0','H','1','0','H','1.7','3.71','6','13','7','14','1','4','2','0','0');
+INSERT INTO ALLMATCHES VALUES('SP1','12/05/2022','Vallecano','Villarreal','1','5','A','1','4','A','4.55','3.84','1.84','17','3','11','8','5','2','0','0');
+INSERT INTO ALLMATCHES VALUES('SP1','12/05/2022','Real Madrid','Levante','6','0','H','4','0','H','1.52','5.11','5.87','27','16','16','1','2','1','0','0');
 INSERT INTO ALLMATCHES VALUES('SP2','13/08/2021','Huesca','Eibar','2','0','H','1','0','H','2.3','3.08','3.73','5','3','11','5','1','1','0','0');
 INSERT INTO ALLMATCHES VALUES('SP2','13/08/2021','Zaragoza','Ibiza','0','0','D','0','0','D','2.36','2.95','3.77','11','0','10','2','2','2','0','0');
 INSERT INTO ALLMATCHES VALUES('SP2','14/08/2021','Sociedad B','Leganes','1','0','H','0','0','D','4.27','2.98','2.15','9','4','10','3','2','2','0','0');
