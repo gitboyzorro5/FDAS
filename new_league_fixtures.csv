@@ -1,36 +1,126 @@
 Country,League,Date,Time,Home,Away,PH,PD,PA,MaxH,MaxD,MaxA,AvgH,AvgD,AvgA
-Argentina,Liga Profesional,10/06/2022,20:30,Gimnasia L.P.,Patronato,1.9,3.42,4.6,1.96,3.47,4.75,1.86,3.37,4.37
-Argentina,Liga Profesional,10/06/2022,23:00,Aldosivi,Estudiantes L.P.,3.8,3.5,2.06,3.83,3.5,2.1,3.62,3.37,2.04
-Argentina,Liga Profesional,10/06/2022,23:00,Lanus,Defensa y Justicia,2.74,3.21,2.81,2.74,3.28,2.81,2.64,3.17,2.71
-Argentina,Liga Profesional,10/06/2022,1:30,Huracan,Rosario Central,2,3.46,4.07,2.02,3.54,4.2,1.97,3.38,3.83
-Argentina,Liga Profesional,10/06/2022,1:30,Independiente,Talleres Cordoba,2.21,3.16,3.79,2.21,3.4,3.8,2.14,3.1,3.67
-Argentina,Liga Profesional,10/06/2022,19:30,Arsenal Sarandi,Banfield,2.88,3.03,2.73,2.89,3.1,2.76,2.82,3,2.67
-Argentina,Liga Profesional,10/06/2022,19:30,Tigre,Barracas Central,1.54,4.07,6.38,1.62,4.3,7,1.54,4,6.13
-Argentina,Liga Profesional,10/06/2022,22:00,Sarmiento Junin,Argentinos Jrs,3.81,3.44,2.03,4,3.47,2.14,3.61,3.31,2.07
-Brazil,Serie A,11/06/2022,20:30,Corinthians,Juventude,1.73,3.52,5.75,1.75,3.58,5.8,1.7,3.45,5.41
-Brazil,Serie A,11/06/2022,23:00,Atletico-MG,Santos,1.4,4.67,8.92,1.44,5,10.5,1.39,4.61,8.29
-Brazil,Serie A,11/06/2022,23:00,Cuiaba,Bragantino,3.15,2.93,2.67,3.15,3.13,2.7,2.96,2.95,2.6
-Brazil,Serie A,11/06/2022,23:00,Fluminense,Atletico GO,1.82,3.57,4.87,1.85,3.6,4.87,1.81,3.45,4.55
-China,Super League,11/06/2022,10:30,Guangzhou FC,Wuhan FC,6.63,3.88,1.53,8,4.2,1.55,6.49,3.93,1.49
-China,Super League,11/06/2022,12:30,Hebei,Shanghai Port,11.02,4.7,1.32,12,4.95,1.36,9.88,4.49,1.33
-China,Super League,11/06/2022,12:30,Henan Songshan Longmen,Zhejiang Professional,2.34,3.05,3.34,2.34,3.3,3.5,2.22,3.13,3.25
-USA,MLS,11/06/2022,20:00,Charlotte,New York Red Bulls,3.49,3.54,2.18,3.49,3.62,2.22,3.27,3.43,2.15
-Argentina,Liga Profesional,12/06/2022,0:30,River Plate,Atl. Tucuman,1.3,5.57,10.02,1.34,5.7,10.13,1.31,5.26,9
-Argentina,Liga Profesional,12/06/2022,17:00,Colon Santa FE,Union de Santa Fe,2.25,3.06,3.67,2.28,3.2,3.72,2.22,3.04,3.49
-Argentina,Liga Profesional,12/06/2022,19:30,Godoy Cruz,Racing Club,2.69,3.39,2.65,2.73,3.45,2.75,2.62,3.27,2.65
-Argentina,Liga Profesional,12/06/2022,22:00,Velez Sarsfield,Platense,1.7,3.8,5.04,1.8,3.85,5.25,1.75,3.6,4.66
-Brazil,Serie A,12/06/2022,1:00,Internacional,Flamengo RJ,3,3.09,2.66,3.14,3.3,2.7,2.91,3.13,2.52
-Brazil,Serie A,12/06/2022,20:00,Goias,Ceara,2.9,3.16,2.7,3,3.21,2.7,2.86,3.08,2.57
-Brazil,Serie A,12/06/2022,20:00,Sao Paulo,America MG,1.67,3.75,5.84,1.73,3.81,5.84,1.66,3.61,5.39
-Brazil,Serie A,12/06/2022,22:00,Coritiba,Palmeiras,4.24,3.51,1.94,4.24,3.61,2,3.95,3.4,1.93
-Brazil,Serie A,12/06/2022,23:00,Fortaleza,Athletico-PR,1.93,3.52,4.29,2.04,3.52,4.33,1.93,3.39,4.03
-China,Super League,12/06/2022,10:30,Guangzhou City,Shandong Taishan,11.32,5.99,1.23,15,6.5,1.25,12.62,5.69,1.22
-China,Super League,12/06/2022,12:30,Cangzhou,Chengdu Rongcheng,2.51,3.35,2.79,2.55,3.8,2.9,2.45,3.22,2.78
-China,Super League,12/06/2022,12:30,Changchun Yatai,Dalian Pro,1.33,4.65,10.24,1.41,4.95,10.24,1.37,4.44,8.25
-China,Super League,12/06/2022,12:30,Shanghai Shenhua,Wuhan Three Towns,5.53,3.46,1.69,5.75,3.8,1.71,5.2,3.59,1.65
-USA,MLS,12/06/2022,1:00,Nashville SC,San Jose Earthquakes,1.64,4.15,5.55,1.71,4.15,5.55,1.63,3.98,5.08
-USA,MLS,12/06/2022,20:00,Sporting Kansas City,New England Revolution,2.99,3.52,2.45,2.99,3.52,2.45,2.86,3.37,2.39
-Argentina,Liga Profesional,13/06/2022,0:30,Central Cordoba,Boca Juniors,3.99,3.14,2.1,4,3.3,2.16,3.75,3.12,2.09
-Brazil,Serie A,13/06/2022,23:00,Botafogo RJ,Avai,1.78,3.54,5.12,1.82,3.6,5.25,1.77,3.46,4.8
-China,Super League,13/06/2022,9:30,Beijing Guoan,Tianjin Jinmen Tiger,1.6,3.84,5.73,1.63,3.95,6,1.57,3.71,5.74
-China,Super League,13/06/2022,12:30,Shenzhen,Meizhou Hakka,2.36,3,3.35,2.4,3.2,3.4,2.33,3.06,3.11
+Argentina,Liga Profesional,14/06/2022,19:00,San Lorenzo,Arsenal Sarandi,2.43,3.08,3.36,2.43,3.18,3.36,2.35,3.06,3.21
+Argentina,Liga Profesional,14/06/2022,23:00,Patronato,Aldosivi,1.84,3.79,4.39,1.9,4,4.7,1.82,3.61,4.27
+Argentina,Liga Profesional,14/06/2022,23:00,Talleres Cordoba,Newells Old Boys,2.16,3.07,4.08,2.2,3.1,4.1,2.13,3.02,3.82
+Argentina,Liga Profesional,15/06/2022,01:30,Defensa y Justicia,Huracan,2.06,3.4,3.92,2.1,3.55,3.93,2.04,3.36,3.64
+Argentina,Liga Profesional,15/06/2022,01:30,Estudiantes L.P.,Sarmiento Junin,1.5,4.48,6.73,1.55,4.5,8,1.5,4.12,6.58
+Argentina,Liga Profesional,15/06/2022,18:00,Barracas Central,Union de Santa Fe,3.11,3.03,2.55,3.13,3.22,2.6,3.01,3.04,2.49
+Argentina,Liga Profesional,15/06/2022,20:30,Atl. Tucuman,Lanus,2.67,3.2,2.8,2.71,3.34,2.85,2.59,3.18,2.75
+Argentina,Liga Profesional,15/06/2022,20:30,Banfield,Central Cordoba,2.16,3.33,3.55,2.23,3.34,3.6,2.16,3.22,3.45
+Argentina,Liga Profesional,15/06/2022,23:00,Colon Santa FE,River Plate,4,3.61,1.93,4.12,3.64,2.01,3.79,3.48,1.95
+Argentina,Liga Profesional,16/06/2022,01:30,Boca Juniors,Tigre,1.82,3.52,4.68,1.85,3.64,5,1.8,3.44,4.55
+Argentina,Liga Profesional,16/06/2022,23:00,Argentinos Jrs,Independiente,2.32,3.12,3.41,2.33,3.25,3.5,2.25,3.1,3.34
+Argentina,Liga Profesional,16/06/2022,23:00,Rosario Central,Godoy Cruz,2.58,3.53,2.68,2.61,3.55,2.8,2.53,3.39,2.66
+Argentina,Liga Profesional,17/06/2022,01:30,Platense,Gimnasia L.P.,3.04,3.16,2.51,3.08,3.28,2.65,2.87,3.13,2.51
+Argentina,Liga Profesional,17/06/2022,01:30,Racing Club,Velez Sarsfield,2.33,3.26,3.25,2.41,3.3,3.28,2.32,3.18,3.13
+Brazil,Serie A,15/06/2022,01:30,Juventude,Santos,2.61,2.94,3.24,2.64,3.04,3.26,2.54,2.92,3.1
+Brazil,Serie A,15/06/2022,23:00,Bragantino,Coritiba,1.76,3.69,5.11,1.8,3.75,5.25,1.75,3.54,4.84
+Brazil,Serie A,15/06/2022,23:00,Ceara,Atletico-MG,3.59,3.2,2.26,3.6,3.34,2.3,3.4,3.2,2.2
+Brazil,Serie A,16/06/2022,00:30,Flamengo RJ,Cuiaba,1.31,5.43,10.84,1.34,5.5,11,1.32,5,10.09
+Brazil,Serie A,16/06/2022,00:30,Goias,Internacional,3.17,3.14,2.51,3.17,3.17,2.53,3.04,3.06,2.47
+Brazil,Serie A,16/06/2022,01:30,America MG,Fluminense,2.44,3.13,3.3,2.54,3.22,3.36,2.4,3.04,3.18
+Brazil,Serie A,16/06/2022,01:30,Athletico-PR,Corinthians,2.45,3.04,3.37,2.52,3.25,3.5,2.37,3.02,3.28
+Brazil,Serie A,16/06/2022,20:00,Botafogo RJ,Sao Paulo,3.17,3.25,2.44,3.2,3.28,2.48,3.04,3.17,2.4
+Brazil,Serie A,16/06/2022,22:00,Palmeiras,Atletico GO,1.36,5.16,9.23,1.4,5.3,9.5,1.36,4.89,8.35
+Brazil,Serie A,16/06/2022,23:00,Avai,Fortaleza,3.13,3.14,2.53,3.15,3.22,2.63,2.97,3.09,2.5
+China,Super League,15/06/2022,10:30,Shanghai Port,Guangzhou FC,1.19,6.33,15.37,1.25,6.33,19,1.21,5.63,13.57
+China,Super League,15/06/2022,12:30,Guangzhou City,Henan Songshan Longmen,10.63,4.95,1.3,11,5.25,1.33,9.84,4.9,1.3
+China,Super League,15/06/2022,12:30,Wuhan FC,Wuhan Three Towns,6.57,3.84,1.54,7,4.2,1.56,6.03,3.95,1.51
+China,Super League,16/06/2022,08:30,Hebei,Shanghai Shenhua,12.08,5.07,1.28,13,5.25,1.33,10.95,4.89,1.28
+China,Super League,16/06/2022,10:30,Dalian Pro,Zhejiang Professional,3.19,3.19,2.25,3.2,3.44,2.35,3,3.28,2.26
+China,Super League,16/06/2022,12:30,Shandong Taishan,Changchun Yatai,1.96,3.34,4.04,1.99,3.6,4.1,1.93,3.36,3.77
+USA,MLS,15/06/2022,03:30,Seattle Sounders,Vancouver Whitecaps,1.63,4.17,5.67,1.65,4.33,5.67,1.61,3.99,5.29
+USA,MLS,16/06/2022,00:30,New England Revolution,Orlando City,1.67,4.21,5.13,1.7,4.21,5.13,1.66,4,4.74
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
