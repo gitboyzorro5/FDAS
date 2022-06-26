@@ -1,81 +1,81 @@
 Country,League,Date,Time,Home,Away,PH,PD,PA,MaxH,MaxD,MaxA,AvgH,AvgD,AvgA
-Argentina,Liga Profesional,18/06/2022,22:00,Arsenal Sarandi,Talleres Cordoba,2.68,3.11,2.87,2.7,3.2,2.89,2.62,3.07,2.8
-Argentina,Liga Profesional,19/06/2022,00:30,Sarmiento Junin,Patronato,2.59,3.05,3.03,2.65,3.22,3.05,2.54,3.04,2.91
-Argentina,Liga Profesional,19/06/2022,17:00,Tigre,Banfield,2.03,3.14,4.27,2.1,3.37,4.3,2.02,3.14,3.97
-Argentina,Liga Profesional,19/06/2022,19:30,Huracan,Atl. Tucuman,1.89,3.38,4.51,1.91,3.6,4.51,1.87,3.43,4.21
-Argentina,Liga Profesional,19/06/2022,19:30,Lanus,Colon Santa FE,2.62,3.18,2.87,2.65,3.34,3,2.51,3.18,2.84
-Argentina,Liga Profesional,19/06/2022,22:00,Union de Santa Fe,River Plate,4.31,3.61,1.86,4.33,3.68,1.95,4.09,3.5,1.87
-Argentina,Liga Profesional,20/06/2022,01:30,Barracas Central,Boca Juniors,5.79,3.74,1.64,6.5,3.81,1.68,5.71,3.61,1.63
-Argentina,Liga Profesional,20/06/2022,20:30,Godoy Cruz,Defensa y Justicia,2.56,3.31,2.85,2.7,3.49,2.87,2.53,3.26,2.75
-Argentina,Liga Profesional,20/06/2022,23:00,Gimnasia L.P.,Racing Club,2.67,3.16,2.83,2.7,3.33,2.87,2.57,3.14,2.78
-Argentina,Liga Profesional,20/06/2022,23:00,Velez Sarsfield,Rosario Central,1.79,3.56,4.82,1.83,3.65,5.25,1.78,3.48,4.63
-Argentina,Liga Profesional,21/06/2022,01:30,Independiente,Estudiantes L.P.,2.35,3.14,3.32,2.38,3.31,3.39,2.32,3.12,3.19
-Argentina,Liga Profesional,21/06/2022,01:30,Newells Old Boys,Argentinos Jrs,2.63,3.04,2.99,2.7,3.27,3.1,2.5,3.08,2.93
-Argentina,Liga Profesional,21/06/2022,23:00,Aldosivi,Platense,2.81,3.18,2.67,2.83,3.35,2.7,2.74,3.14,2.6
-Argentina,Liga Profesional,22/06/2022,01:30,Central Cordoba,San Lorenzo,2.38,3.27,3.14,2.44,3.35,3.4,2.37,3.18,3.02
-Brazil,Serie A,18/06/2022,23:00,Cuiaba,Ceara,2.9,3.15,2.7,2.95,3.19,2.73,2.83,3.04,2.65
-Brazil,Serie A,19/06/2022,01:00,Santos,Bragantino,2.29,3.2,3.52,2.35,3.28,3.52,2.26,3.18,3.3
-Brazil,Serie A,19/06/2022,20:00,Atletico-MG,Flamengo RJ,2.18,3.37,3.59,2.24,3.62,3.65,2.13,3.35,3.41
-Brazil,Serie A,19/06/2022,20:00,Corinthians,Goias,1.61,3.73,6.71,1.63,3.8,6.85,1.6,3.66,6.19
-Brazil,Serie A,19/06/2022,20:00,Coritiba,Athletico-PR,2.61,3.2,2.97,2.7,3.24,2.98,2.54,3.11,2.88
-Brazil,Serie A,19/06/2022,22:00,Atletico GO,Juventude,2,3.26,4.41,2.01,3.4,4.41,1.96,3.23,4.16
-Brazil,Serie A,19/06/2022,22:00,Fortaleza,America MG,1.93,3.5,4.31,1.97,3.51,4.33,1.92,3.34,4.15
-Brazil,Serie A,19/06/2022,22:00,Internacional,Botafogo RJ,1.69,3.88,5.34,1.73,3.92,5.5,1.7,3.64,5.06
-Brazil,Serie A,19/06/2022,23:00,Fluminense,Avai,1.6,3.95,6.35,1.63,4,6.5,1.59,3.8,5.96
-Brazil,Serie A,21/06/2022,00:00,Sao Paulo,Palmeiras,3.08,3.37,2.4,3.1,3.48,2.55,2.94,3.23,2.43
-China,Super League,17/06/2022,09:30,Shenzhen,Cangzhou,2.02,3.36,3.94,2.1,3.53,4.22,1.99,3.26,3.81
-China,Super League,17/06/2022,12:30,Meizhou Hakka,Beijing Guoan,2.94,3.31,2.49,3.15,3.39,2.58,2.9,3.18,2.42
-China,Super League,19/06/2022,10:30,Wuhan Three Towns,Shanghai Port,1.89,3.41,4.22,2.1,3.66,4.4,1.92,3.38,3.84
-China,Super League,19/06/2022,12:30,Guangzhou FC,Hebei,2.05,3.18,3.72,2.1,3.52,3.8,2.02,3.25,3.57
-China,Super League,20/06/2022,10:30,Changchun Yatai,Henan Songshan Longmen,2.6,3.28,2.62,2.7,3.52,2.65,2.58,3.29,2.56
-China,Super League,20/06/2022,12:30,Guangzhou City,Zhejiang Professional,4.85,3.42,1.78,5.35,3.94,1.78,4.74,3.59,1.7
-China,Super League,20/06/2022,12:30,Shanghai Shenhua,Wuhan FC,2.19,3.07,3.46,2.21,3.51,3.46,2.16,3.21,3.29
-China,Super League,21/06/2022,12:30,Shandong Taishan,Dalian Pro,1.34,4.57,10.12,1.4,5,10.12,1.33,4.61,9.19
-Finland,Veikkausliiga,18/06/2022,13:00,Haka,Mariehamn,1.76,3.86,4.91,1.76,4,5,1.71,3.74,4.66
-Finland,Veikkausliiga,18/06/2022,13:00,Honka,KuPS,2.87,3.18,2.74,2.87,3.25,2.8,2.73,3.1,2.64
-Finland,Veikkausliiga,18/06/2022,15:00,HJK,AC Oulu,1.27,6.36,11.64,1.29,6.95,12,1.25,5.76,10.45
-Finland,Veikkausliiga,18/06/2022,15:00,Ilves,Lahti,1.88,3.82,4.26,1.9,3.85,4.26,1.85,3.67,3.95
-Finland,Veikkausliiga,18/06/2022,15:00,SJK,Inter Turku,2.88,3.4,2.59,2.95,3.45,2.6,2.78,3.25,2.49
-Finland,Veikkausliiga,18/06/2022,21:00,HIFK,VPS,3.33,3.4,2.31,3.33,3.45,2.4,3.13,3.29,2.25
-Ireland,Premier Division,17/06/2022,19:45,Bohemians,Shelbourne,1.94,3.29,4.77,1.98,3.3,4.77,1.92,3.16,4.31
-Ireland,Premier Division,17/06/2022,19:45,Derry City,Drogheda,1.2,6.81,17.64,1.2,7,17.7,1.18,6.46,14.93
-Ireland,Premier Division,17/06/2022,19:45,Dundalk,Shamrock Rovers,4.06,3.41,2.04,4.05,3.52,2.05,3.72,3.34,1.98
-Ireland,Premier Division,17/06/2022,19:45,St. Patricks,UC Dublin,1.28,5.9,12.14,1.29,6,14,1.25,5.56,11.44
-Ireland,Premier Division,18/06/2022,19:45,Sligo Rovers,Finn Harps,1.95,3.35,4.37,1.96,3.44,4.37,1.91,3.29,4.12
-Japan,J1 League,18/06/2022,10:00,Iwata,Sagan Tosu,3.68,3.48,2.13,3.75,3.5,2.16,3.48,3.35,2.09
-Japan,J1 League,18/06/2022,10:00,Kashima Antlers,Kyoto,1.49,4.71,6.7,1.5,4.75,7,1.47,4.45,6.2
-Japan,J1 League,18/06/2022,10:00,Shimizu S-Pulse,Avispa Fukuoka,2.77,3.06,2.95,2.8,3.2,2.95,2.65,2.99,2.84
-Japan,J1 League,18/06/2022,10:00,Shonan Bellmare,FC Tokyo,2.8,3.1,2.88,2.8,3.2,2.9,2.69,3.03,2.75
-Japan,J1 League,18/06/2022,11:00,Gamba Osaka,Yokohama F. Marinos,5.9,4.24,1.6,6,4.36,1.61,5.36,4.14,1.57
-Japan,J1 League,18/06/2022,11:00,Kashiwa Reysol,Vissel Kobe,2.31,3.52,3.22,2.31,3.52,3.25,2.25,3.37,3.1
-Japan,J1 League,18/06/2022,11:00,Kawasaki Frontale,Hokkaido Consadole Sapporo,1.61,4.46,5.36,1.64,4.46,5.5,1.61,4.12,5.03
-Japan,J1 League,18/06/2022,11:00,Sanfrecce Hiroshima,Cerezo Osaka,2,3.46,4.15,2.04,3.47,4.2,1.98,3.33,3.88
-Japan,J1 League,18/06/2022,11:00,Urawa Reds,Nagoya Grampus,2.34,3.06,3.65,2.36,3.2,3.75,2.28,2.96,3.49
-Norway,Eliteserien,18/06/2022,15:00,Sarpsborg 08,Stromsgodset,1.89,3.9,4.08,1.9,4,4.2,1.85,3.74,3.92
-Norway,Eliteserien,18/06/2022,17:00,Kristiansund,Bodo/Glimt,4.62,4.47,1.69,5.05,4.47,1.72,4.46,4.14,1.68
-Norway,Eliteserien,19/06/2022,17:00,Jerv,Ham-Kam,3.11,3.63,2.32,3.15,3.63,2.46,3,3.4,2.3
-Norway,Eliteserien,19/06/2022,17:00,Lillestrom,Rosenborg,2.12,3.68,3.52,2.2,3.68,3.6,2.08,3.47,3.41
-Norway,Eliteserien,19/06/2022,17:00,Odd,Molde,3.56,4.17,1.97,3.9,4.17,1.97,3.54,3.81,1.93
-Norway,Eliteserien,19/06/2022,17:00,Tromso,Haugesund,1.74,4.01,4.89,1.75,4.1,5.25,1.68,3.86,4.77
-Norway,Eliteserien,19/06/2022,17:00,Viking,Sandefjord,1.28,6.56,9.5,1.3,6.56,11,1.27,5.96,9.37
-Norway,Eliteserien,19/06/2022,19:00,Aalesund,Valerenga,2.41,3.66,2.95,2.47,3.75,2.95,2.38,3.47,2.82
-USA,MLS,18/06/2022,20:00,Seattle Sounders,Los Angeles FC,2.32,3.6,3.13,2.32,3.64,3.15,2.24,3.49,3.03
-USA,MLS,18/06/2022,22:00,Los Angeles Galaxy,Portland Timbers,1.75,4.24,4.49,1.75,4.24,4.6,1.71,4,4.39
-USA,MLS,19/06/2022,00:00,New York Red Bulls,Toronto FC,1.34,5.52,9.85,1.35,5.6,10,1.31,5.3,9.26
-USA,MLS,19/06/2022,00:30,CF Montreal,Austin FC,2.01,4.01,3.54,2.03,4.1,3.8,1.97,3.79,3.44
-USA,MLS,19/06/2022,00:30,Columbus Crew,Charlotte,1.79,3.7,4.98,1.8,3.85,5,1.74,3.67,4.64
-USA,MLS,19/06/2022,00:30,Orlando City,Houston Dynamo,1.81,3.94,4.45,1.83,3.94,4.75,1.78,3.7,4.33
-USA,MLS,19/06/2022,00:30,Philadelphia Union,FC Cincinnati,1.63,4.02,5.93,1.65,4.1,6,1.59,3.92,5.55
-USA,MLS,19/06/2022,01:00,Chicago Fire,DC United,1.99,3.71,3.89,1.99,3.75,3.9,1.93,3.61,3.7
-USA,MLS,19/06/2022,02:00,FC Dallas,Vancouver Whitecaps,1.51,4.45,6.93,1.53,4.55,7,1.48,4.28,6.55
-USA,MLS,19/06/2022,02:30,Real Salt Lake,San Jose Earthquakes,1.83,4.14,4.14,1.85,4.14,4.33,1.79,3.85,4.08
-USA,MLS,19/06/2022,20:00,Atlanta Utd,Inter Miami,1.54,4.59,6.08,1.54,4.75,6.5,1.49,4.45,5.96
-USA,MLS,19/06/2022,22:00,New England Revolution,Minnesota United,1.64,4.48,4.94,1.66,4.5,5.25,1.62,4.23,4.79
-USA,MLS,19/06/2022,22:00,New York City,Colorado Rapids,1.51,4.45,7.03,1.51,4.5,8,1.48,4.31,6.42
-USA,MLS,19/06/2022,23:00,Nashville SC,Sporting Kansas City,1.75,3.66,5.41,1.75,3.9,5.5,1.69,3.64,5.09
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
+Argentina,Liga Profesional,24/06/2022,23:00,Banfield,Barracas Central,1.67,3.81,5.7,1.7,3.84,5.8,1.65,3.66,5.46
+Argentina,Liga Profesional,24/06/2022,23:00,Rosario Central,Gimnasia L.P.,2.7,3.2,2.85,2.7,3.23,3.05,2.56,3.1,2.86
+Argentina,Liga Profesional,25/06/2022,01:30,Boca Juniors,Union de Santa Fe,1.69,3.78,5.52,1.7,3.85,5.75,1.66,3.62,5.32
+Argentina,Liga Profesional,25/06/2022,19:30,Defensa y Justicia,Velez Sarsfield,2.02,3.39,3.92,2.1,3.5,3.98,2,3.33,3.78
+Argentina,Liga Profesional,25/06/2022,19:30,Talleres Cordoba,Central Cordoba,2.44,3.1,3.22,2.45,3.24,3.23,2.37,3.1,3.13
+Argentina,Liga Profesional,25/06/2022,22:00,Colon Santa Fe,Huracan,2.89,3.36,2.5,2.92,3.39,2.6,2.8,3.24,2.5
+Argentina,Liga Profesional,25/06/2022,22:00,Estudiantes L.P.,Newells Old Boys,2.14,3.38,3.54,2.18,3.48,3.6,2.11,3.31,3.45
+Argentina,Liga Profesional,26/06/2022,00:30,River Plate,Lanus,1.45,4.5,7.14,1.5,4.6,7.7,1.44,4.36,7.01
+Argentina,Liga Profesional,26/06/2022,17:00,San Lorenzo,Tigre,3.19,3.16,2.32,3.27,3.41,2.44,3.04,3.19,2.35
+Argentina,Liga Profesional,26/06/2022,19:30,Platense,Sarmiento Junin,2.25,3.22,3.45,2.3,3.38,3.5,2.22,3.21,3.31
+Argentina,Liga Profesional,26/06/2022,22:00,Racing Club,Aldosivi,1.44,4.56,7.39,1.47,4.65,9,1.42,4.43,7.48
+Argentina,Liga Profesional,27/06/2022,00:30,Argentinos Jrs,Arsenal Sarandi,1.84,3.45,4.69,1.89,3.5,5,1.83,3.38,4.5
+Argentina,Liga Profesional,27/06/2022,19:30,Patronato,Independiente,3.1,3.13,2.48,3.3,3.18,2.52,3.03,3.03,2.46
+Argentina,Liga Profesional,28/06/2022,00:00,Atl. Tucuman,Godoy Cruz,2.77,3.19,2.71,2.79,3.4,2.75,2.67,3.16,2.66
+Brazil,Serie A,25/06/2022,01:30,Internacional,Coritiba,1.74,3.57,5.53,1.74,3.78,5.7,1.7,3.61,5.18
+Brazil,Serie A,25/06/2022,20:30,Athletico-PR,Bragantino,2.66,3.11,2.98,2.66,3.24,3.15,2.52,3.08,2.97
+Brazil,Serie A,25/06/2022,23:00,Corinthians,Santos,2.04,3.2,4.31,2.11,3.28,4.45,2.01,3.16,4.08
+Brazil,Serie A,25/06/2022,23:00,Flamengo RJ,America MG,1.45,4.66,7.48,1.48,4.9,8.5,1.43,4.49,7.21
+Brazil,Serie A,26/06/2022,01:00,Atletico-MG,Fortaleza,1.56,4.27,6.25,1.56,4.33,6.5,1.54,4.12,6
+Brazil,Serie A,26/06/2022,20:00,Avai,Palmeiras,5.66,3.9,1.65,6,4,1.66,5.44,3.83,1.63
+Brazil,Serie A,26/06/2022,20:00,Botafogo RJ,Fluminense,2.65,3.31,2.83,2.65,3.33,2.9,2.56,3.15,2.83
+Brazil,Serie A,26/06/2022,22:00,Ceara,Atletico GO,1.99,3.34,4.31,2.04,3.4,4.33,1.97,3.27,4.02
+Brazil,Serie A,26/06/2022,22:00,Goias,Cuiaba,2.16,3.21,3.85,2.21,3.21,3.86,2.15,3.12,3.64
+Brazil,Serie A,26/06/2022,22:00,Sao Paulo,Juventude,1.55,3.91,7.37,1.59,3.99,7.5,1.54,3.81,6.74
+China,Super League,24/06/2022,10:30,Guangzhou City,Changchun Yatai,14.39,5.65,1.24,14.5,6.06,1.27,11.78,5.6,1.24
+China,Super League,24/06/2022,12:30,Dalian Pro,Henan Songshan Longmen,8.52,4.23,1.43,8.52,4.63,1.45,7.58,4.38,1.41
+China,Super League,25/06/2022,09:30,Cangzhou,Beijing Guoan,7.64,3.96,1.47,9,4.6,1.47,7.41,4.2,1.42
+China,Super League,25/06/2022,12:30,Tianjin Jinmen Tiger,Meizhou Hakka,3.28,3.17,2.3,3.4,3.45,2.35,3.09,3.23,2.26
+China,Super League,25/06/2022,12:30,Wuhan FC,Shanghai Port,5.06,3.77,1.67,5.75,3.95,1.71,4.94,3.74,1.64
+China,Super League,25/06/2022,12:30,Zhejiang Professional,Shandong Taishan,5.4,3.88,1.62,6.5,4.1,1.64,5.29,3.88,1.59
+China,Super League,26/06/2022,08:30,Wuhan Three Towns,Hebei,1.12,8.63,20.77,1.12,10.5,31,1.09,8.95,22.29
+China,Super League,26/06/2022,10:30,Shanghai Shenhua,Guangzhou FC,1.32,4.67,10.7,1.42,5,12.5,1.34,4.55,9.13
+China,Super League,26/06/2022,12:30,Chengdu Rongcheng,Shenzhen,3.08,3.06,2.48,3.25,3.36,2.48,2.97,3.14,2.36
+Ireland,Premier Division,24/06/2022,19:45,Drogheda,Sligo Rovers,3.68,3.45,2.14,3.69,3.45,2.14,3.48,3.3,2.09
+Ireland,Premier Division,24/06/2022,19:45,Shamrock Rovers,Bohemians,1.61,4.2,5.84,1.64,4.2,5.84,1.58,3.93,5.5
+Ireland,Premier Division,24/06/2022,19:45,Shelbourne,Dundalk,3.3,3.22,2.42,3.31,3.28,2.42,3.16,3.1,2.32
+Ireland,Premier Division,24/06/2022,19:45,UC Dublin,Derry City,9.42,5.53,1.34,9.5,5.53,1.34,8.68,5.21,1.31
+Ireland,Premier Division,24/06/2022,20:00,Finn Harps,St. Patricks,3.37,3.43,2.27,3.37,3.43,2.31,3.15,3.27,2.23
+Ireland,Premier Division,27/06/2022,19:45,St. Patricks,Shamrock Rovers,4.74,3.54,1.83,4.75,3.56,1.85,4.46,3.4,1.8
+Japan,J1 League,25/06/2022,08:00,Yokohama F. Marinos,Kashiwa Reysol,1.71,4.45,4.5,1.71,4.5,5,1.66,4.19,4.46
+Japan,J1 League,25/06/2022,10:30,Avispa Fukuoka,Sanfrecce Hiroshima,3.99,3.17,2.16,4,3.2,2.17,3.75,3.09,2.11
+Japan,J1 League,25/06/2022,11:00,Kawasaki Frontale,Iwata,1.46,4.84,7.23,1.47,4.9,7.5,1.43,4.56,6.74
+Japan,J1 League,26/06/2022,06:00,Hokkaido Consadole Sapporo,Gamba Osaka,1.85,4.24,3.98,1.85,4.33,4.2,1.79,4.04,3.86
+Japan,J1 League,26/06/2022,10:00,Cerezo Osaka,Shimizu S-Pulse,1.96,3.72,3.98,1.98,3.75,4,1.92,3.58,3.76
+Japan,J1 League,26/06/2022,10:00,Nagoya Grampus,Kashima Antlers,3.18,3.27,2.46,3.2,3.36,2.46,3,3.23,2.37
+Japan,J1 League,26/06/2022,10:00,Vissel Kobe,Urawa Reds,2.84,3.44,2.6,2.9,3.47,2.72,2.73,3.25,2.56
+Japan,J1 League,26/06/2022,10:30,Kyoto,Shonan Bellmare,3.17,3.38,2.4,3.2,3.38,2.47,3.01,3.26,2.35
+Japan,J1 League,26/06/2022,11:00,Sagan Tosu,FC Tokyo,2.35,3.27,3.37,2.35,3.32,3.5,2.26,3.18,3.25
+Norway,Eliteserien,25/06/2022,15:00,Haugesund,Viking,3.75,3.94,1.96,3.75,4.03,2,3.54,3.81,1.94
+Norway,Eliteserien,25/06/2022,17:00,Rosenborg,Kristiansund,1.44,4.92,7.5,1.45,5.02,8,1.41,4.77,6.97
+Norway,Eliteserien,26/06/2022,17:00,Bodo/Glimt,Aalesund,1.41,5.57,6.9,1.67,6,7.5,1.4,5.13,6.63
+Norway,Eliteserien,26/06/2022,17:00,Ham-Kam,Sarpsborg 08,2.74,3.56,2.62,2.75,3.65,2.62,2.64,3.48,2.52
+Norway,Eliteserien,26/06/2022,17:00,Molde,Jerv,1.18,7.75,17.02,1.19,9,19,1.16,7.61,15.32
+Norway,Eliteserien,26/06/2022,17:00,Sandefjord,Tromso,3.16,3.6,2.31,3.25,3.75,2.31,3.05,3.48,2.24
+Norway,Eliteserien,26/06/2022,17:00,Stromsgodset,Lillestrom,2.74,3.76,2.52,2.75,3.9,2.52,2.68,3.61,2.43
+Norway,Eliteserien,26/06/2022,19:00,Valerenga,Odd,1.7,4.33,4.69,1.73,4.33,5,1.68,4.03,4.59
+Sweden,Allsvenskan,26/06/2022,14:00,Degerfors,AIK,6.07,4.31,1.57,6.07,4.5,1.59,5.57,4.23,1.55
+Sweden,Allsvenskan,26/06/2022,14:00,Hammarby,Hacken,2.02,3.63,3.87,2.02,3.89,3.91,1.96,3.64,3.63
+Sweden,Allsvenskan,26/06/2022,14:00,Mjallby,Norrkoping,3.72,3.36,2.16,3.72,3.45,2.18,3.49,3.28,2.12
+Sweden,Allsvenskan,26/06/2022,16:30,Sundsvall,Djurgarden,7.93,5.12,1.4,8,5.12,1.42,7.39,4.85,1.39
+Sweden,Allsvenskan,27/06/2022,18:00,Elfsborg,Varberg,1.36,5.24,8.93,1.43,5.3,9,1.36,4.86,8.16
+Sweden,Allsvenskan,27/06/2022,18:00,Kalmar,Varnamo,1.88,3.52,4.58,1.91,3.55,4.58,1.87,3.4,4.27
+Sweden,Allsvenskan,27/06/2022,18:00,Malmo FF,Helsingborg,1.23,6.48,13.45,1.27,6.6,14,1.23,5.98,12.3
+Sweden,Allsvenskan,27/06/2022,18:00,Sirius,Goteborg,3.01,3.52,2.4,3.01,3.6,2.45,2.87,3.39,2.37
+USA,MLS,25/06/2022,00:30,FC Cincinnati,Orlando City,2.35,3.73,3,2.38,3.81,3,2.28,3.62,2.89
+USA,MLS,25/06/2022,20:00,Seattle Sounders,Sporting Kansas City,1.74,3.93,4.99,1.77,4,5,1.72,3.79,4.61
+USA,MLS,25/06/2022,22:00,DC United,Nashville SC,2.27,3.7,3.14,2.35,3.7,3.14,2.25,3.46,3.03
+USA,MLS,26/06/2022,00:30,CF Montreal,Charlotte,1.96,3.63,4.11,1.96,3.9,4.2,1.9,3.63,3.82
+USA,MLS,26/06/2022,00:30,Toronto FC,Atlanta Utd,3,3.83,2.31,3.1,3.83,2.31,2.97,3.64,2.21
+USA,MLS,26/06/2022,01:00,Houston Dynamo,Chicago Fire,2.34,3.39,3.28,2.38,3.45,3.3,2.24,3.32,3.16
+USA,MLS,26/06/2022,01:00,Inter Miami,Minnesota United,2.54,3.57,2.82,2.54,3.6,2.82,2.44,3.45,2.75
+USA,MLS,26/06/2022,02:00,Austin FC,FC Dallas,2.22,3.68,3.26,2.22,3.72,3.26,2.16,3.55,3.13
+USA,MLS,26/06/2022,03:00,Real Salt Lake,Columbus Crew,1.85,3.78,4.41,1.9,3.78,4.5,1.82,3.6,4.22
+USA,MLS,26/06/2022,03:30,Portland Timbers,Colorado Rapids,2.19,3.52,3.47,2.25,3.66,3.47,2.18,3.43,3.21
+USA,MLS,26/06/2022,20:00,Los Angeles FC,New York Red Bulls,1.97,3.81,3.88,1.99,3.84,3.9,1.91,3.67,3.74
+USA,MLS,26/06/2022,23:00,Philadelphia Union,New York City,2.59,3.48,2.78,2.61,3.5,2.85,2.53,3.33,2.71
+USA,MLS,27/06/2022,01:00,Vancouver Whitecaps,New England Revolution,2.66,3.67,2.64,2.66,4,2.65,2.52,3.56,2.58
 ,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
