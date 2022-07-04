@@ -28,6 +28,7 @@ sed -n '2,$p' allteams20212022.csv >> allteams2010-present.csv
 sed -i -e 's/\x92//g' EC.csv
 sed -i -e "s/Nott'm Forest/Nottm Forest/g" E1.csv	
 sed -i -e "s/M'gladbach/Mgladbach/g" D1.csv 	
+sed -i -e "s/Apollon Apollon/Apollon/g" G1.csv 	
 sed -i -e "s/Nott'm Forest/Nottm Forest/g" fixtures.csv	
 sed -i -e "s/M'gladbach/Mgladbach/g" fixtures.csv 	
 sed -f insertallmatches.vim INSERTALL.sql > insertallmatches.sql
