@@ -37,7 +37,9 @@ sed -i -e "s/Switzerland,Super League/Switzerland,Swiss/g" new_league_fixtures.c
 sed -i -e "s/Wolfsberger AC/Wolfsberger/g" new_league_fixtures.csv
 sed -i -e "s/Bundesliga/Admiral Bundesliga/g" new_league_fixtures.csv
 sed -i -f autwolfberger.vim AUT.csv
+sed -i -f autwolfberger.vim new_league_fixtures.csv
 sed -i -f russovetov.vim RUS.csv
+sed -i -f russovetov.vim new_league_fixtures.csv
 sed -i -e 's:<th class="nonMob" title="Yellow"><img src="/images/yellowCard.png" alt="Yellow Card"></th>:<th class="nonMob" title="Yellow">Yellow</th>:g' *.html
 sed -i -e 's:<th class="nonMob" title="Yellow - Red"><img src="/images/redYellow.png" alt="Red and Yellow Card"></th>:<th class="nonMob" title="Yellow - Red">YellowRed</th>:g' *.html
 sed -i -e 's:<th class="nonMob" title="Red"><img src="/images/redCard.png" alt="Red Card"></th>:<th class="nonMob" title="Red">Red</th>:g' *.html
