@@ -36,6 +36,8 @@ sed -i -e 's/\x92//g' fixtures.csv
 sed -i -e "s/Switzerland,Super League/Switzerland,Swiss/g" new_league_fixtures.csv
 sed -i -e "s/Wolfsberger AC/Wolfsberger/g" new_league_fixtures.csv
 sed -i -e "s/Bundesliga/Admiral Bundesliga/g" new_league_fixtures.csv
+sed -i -e "s/Colon Santa Fe/Colon Santa FE/g" new_league_fixtures.csv
+sed -i -e "s/Colon Santa Fe/Colon Santa FE/g" ARG.csv
 sed -i -f autwolfberger.vim AUT.csv
 sed -i -f autwolfberger.vim new_league_fixtures.csv
 sed -i -f russovetov.vim RUS.csv
