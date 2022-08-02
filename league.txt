@@ -1,9 +1,9 @@
 https://www.football-data.co.uk/fixtures.csv
 https://www.football-data.co.uk/mmz4281/2122/E0.csv
-https://www.football-data.co.uk/mmz4281/2122/E1.csv
-https://www.football-data.co.uk/mmz4281/2122/E2.csv
-https://www.football-data.co.uk/mmz4281/2122/E3.csv
-https://www.football-data.co.uk/mmz4281/2122/EC.csv
+https://www.football-data.co.uk/mmz4281/2223/E1.csv
+https://www.football-data.co.uk/mmz4281/2223/E2.csv
+https://www.football-data.co.uk/mmz4281/2223/E3.csv
+https://www.football-data.co.uk/mmz4281/2223/EC.csv
 https://www.football-data.co.uk/mmz4281/2122/D1.csv
 https://www.football-data.co.uk/mmz4281/2223/D2.csv
 https://www.football-data.co.uk/mmz4281/2122/SP1.csv
@@ -11,8 +11,8 @@ https://www.football-data.co.uk/mmz4281/2122/SP2.csv
 https://www.football-data.co.uk/mmz4281/2122/I1.csv
 https://www.football-data.co.uk/mmz4281/2122/I2.csv
 https://www.football-data.co.uk/mmz4281/2122/F1.csv
-https://www.football-data.co.uk/mmz4281/2122/F2.csv
-https://www.football-data.co.uk/mmz4281/2122/SC0.csv
+https://www.football-data.co.uk/mmz4281/2223/F2.csv
+https://www.football-data.co.uk/mmz4281/2223/SC0.csv
 https://www.football-data.co.uk/mmz4281/2122/SC1.csv
 https://www.football-data.co.uk/mmz4281/2122/SC2.csv
 https://www.football-data.co.uk/mmz4281/2122/SC3.csv
