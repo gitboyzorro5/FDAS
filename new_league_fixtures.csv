@@ -1,129 +1,121 @@
 Country,League,Date,Time,Home,Away,PH,PD,PA,MaxH,MaxD,MaxA,AvgH,AvgD,AvgA
 Argentina,Liga Profesional,12/08/2022,23:00,Huracan,Sarmiento Junin,1.75,3.46,5.66,1.82,3.57,5.66,1.74,3.4,5.17
 Argentina,Liga Profesional,12/08/2022,23:00,Platense,Banfield,2.5,2.9,3.46,2.6,3.02,3.46,2.5,2.86,3.19
-Argentina,Liga Profesional,13/08/2022,01:30,Patronato,San Lorenzo,2.52,3.29,3.01,2.52,3.39,3.15,2.34,3.23,3.05
+Denmark,Superliga,12/08/2022,18:00,Horsens,Midtjylland,4.78,3.8,1.79,5,3.9,1.82,4.47,3.64,1.77
+Denmark,Superliga,12/08/2022,20:00,FC Copenhagen,Randers FC,1.46,4.95,6.94,1.49,5.15,7.5,1.44,4.73,6.69
+Finland,Veikkausliiga,12/08/2022,16:00,Haka,AC Oulu,1.64,4.35,5.26,1.64,4.4,5.35,1.6,4.16,4.99
+Ireland,Premier Division,12/08/2022,19:45,Bohemians,Dundalk,2.57,3.27,3,2.57,3.3,3,2.47,3.18,2.84
+Ireland,Premier Division,12/08/2022,19:45,Derry City,Shamrock Rovers,2.66,3.29,2.87,2.66,3.29,2.87,2.57,3.14,2.75
+Ireland,Premier Division,12/08/2022,19:45,Drogheda,Shelbourne,3.55,3.29,2.26,3.55,3.31,2.26,3.37,3.21,2.16
+Ireland,Premier Division,12/08/2022,19:45,UC Dublin,Finn Harps,3.25,3.37,2.36,3.25,3.37,2.36,3.09,3.21,2.29
+Norway,Eliteserien,12/08/2022,18:00,Sandefjord,Rosenborg,5.02,4.44,1.65,5.3,4.44,1.7,4.87,4.15,1.63
+Norway,Eliteserien,12/08/2022,18:00,Sarpsborg 08,Bodo/Glimt,4.2,4.34,1.78,4.25,4.58,1.8,4,4.16,1.74
+Poland,Ekstraklasa,12/08/2022,17:00,Legnica,Zaglebie,2.97,3.41,2.52,2.92,3.43,2.65,2.8,3.27,2.43
+Poland,Ekstraklasa,12/08/2022,19:30,Widzew Lodz,Legia,3.34,3.54,2.25,3.45,3.54,2.28,3.14,3.36,2.2
+Romania,Liga 1,12/08/2022,19:30,FC Arges,U Craiova 1948,2.79,3.13,2.74,2.79,3.15,2.74,2.67,3.03,2.65
+Russia,Premier League,12/08/2022,17:30,Fakel Voronezh,Ural,2.02,3.53,3.89,2.04,3.55,3.89,2.02,3.44,3.73
+Argentina,Liga Profesional,13/08/2022,1:30,Patronato,San Lorenzo,2.52,3.29,3.01,2.52,3.39,3.15,2.34,3.23,3.05
 Argentina,Liga Profesional,13/08/2022,19:30,Defensa y Justicia,Tigre,2.88,3.33,2.6,3,3.33,2.6,2.87,3.21,2.48
 Argentina,Liga Profesional,13/08/2022,19:30,Rosario Central,Barracas Central,1.83,3.45,4.74,1.87,3.69,4.8,1.82,3.46,4.46
 Argentina,Liga Profesional,13/08/2022,22:00,Lanus,Independiente,2.85,3.06,2.81,2.87,3.25,2.81,2.74,3.06,2.69
-Argentina,Liga Profesional,14/08/2022,00:30,River Plate,Newells Old Boys,1.51,4.38,6.82,1.53,4.4,7,1.5,4.17,6.44
-Argentina,Liga Profesional,14/08/2022,19:30,Velez Sarsfield,Gimnasia L.P.,2.11,3.18,3.88,2.15,3.28,3.9,2.09,3.14,3.72
-Argentina,Liga Profesional,14/08/2022,22:00,Argentinos Jrs,Union de Santa Fe,2.2,3.16,3.65,2.22,3.4,3.72,2.12,3.19,3.58
-Argentina,Liga Profesional,14/08/2022,22:00,Estudiantes L.P.,Talleres Cordoba,2.19,3.2,3.63,2.22,3.32,3.63,2.14,3.2,3.5
-Argentina,Liga Profesional,15/08/2022,00:30,Racing Club,Boca Juniors,2.41,3.18,3.18,2.45,3.4,3.23,2.35,3.18,3.08
 Austria,Admiral Bundesliga,13/08/2022,16:00,A. Klagenfurt,Ried,2.43,3.53,3,2.5,3.55,3.25,2.4,3.37,2.84
 Austria,Admiral Bundesliga,13/08/2022,16:00,Austria Vienna,Tirol,1.67,4.3,5.04,1.7,4.3,5.1,1.66,4.03,4.66
 Austria,Admiral Bundesliga,13/08/2022,18:30,Sturm Graz,Altach,1.54,4.64,6,1.58,4.64,6,1.52,4.35,5.59
+Brazil,Serie A,13/08/2022,20:30,Goias,Avai,2.1,3.19,4.09,2.13,3.39,4.1,2.05,3.24,3.82
+Brazil,Serie A,13/08/2022,23:00,Corinthians,Palmeiras,3.48,3.07,2.38,3.58,3.22,2.42,3.36,3.07,2.31
+China,Super League,13/08/2022,12:00,Henan Songshan Longmen,Meizhou Hakka,1.83,3.95,4.02,1.83,4.11,4.75,1.75,3.77,4.15
+China,Super League,13/08/2022,12:30,Guangzhou City,Wuhan FC,2.65,3.55,2.59,2.85,3.71,2.75,2.51,3.43,2.59
+Finland,Veikkausliiga,13/08/2022,15:00,Ilves,Honka,3.77,3.8,2,3.95,3.8,2.02,3.7,3.53,1.94
+Finland,Veikkausliiga,13/08/2022,15:00,Inter Turku,VPS,2.07,3.59,3.77,2.1,3.75,3.77,2.01,3.51,3.5
+Japan,J1 League,13/08/2022,6:00,Hokkaido Consadole Sapporo,Vissel Kobe,2.64,3.52,2.74,2.64,3.59,2.8,2.53,3.37,2.68
+Japan,J1 League,13/08/2022,10:30,Iwata,Urawa Reds,4.64,3.91,1.79,4.85,3.94,1.79,4.55,3.72,1.73
+Japan,J1 League,13/08/2022,11:00,FC Tokyo,Cerezo Osaka,2.93,3.45,2.52,2.93,3.45,2.55,2.79,3.27,2.49
+Japan,J1 League,13/08/2022,11:00,Kawasaki Frontale,Kyoto,1.44,4.92,7.36,1.46,4.92,7.75,1.43,4.54,6.94
+Japan,J1 League,13/08/2022,11:00,Yokohama F. Marinos,Shonan Bellmare,1.67,4.27,5.03,1.67,4.3,5.5,1.64,4,4.9
+Mexico,Liga MX,13/08/2022,3:00,Necaxa,Monterrey,3.41,3.33,2.3,3.41,3.39,2.32,3.21,3.22,2.23
+Mexico,Liga MX,13/08/2022,3:05,Club Tijuana,Puebla,2.18,3.49,3.54,2.2,3.51,3.54,2.14,3.32,3.33
+Mexico,Liga MX,13/08/2022,23:00,Club Leon,Mazatlan FC,1.72,4.05,4.96,1.72,4.05,6,1.67,3.8,4.79
+Norway,Eliteserien,13/08/2022,15:00,Aalesund,Haugesund,2.24,3.38,3.51,2.24,3.56,3.51,2.14,3.36,3.33
+Poland,Ekstraklasa,13/08/2022,14:00,Cracovia,Piast Gliwice,2.23,3.23,3.72,2.23,3.31,3.8,2.13,3.13,3.52
+Poland,Ekstraklasa,13/08/2022,16:30,Gornik Z.,Stal Mielec,1.71,4.09,4.99,1.8,4.09,4.99,1.71,3.79,4.54
+Poland,Ekstraklasa,13/08/2022,19:00,Pogon Szczecin,Wisla Plock,1.88,3.8,4.27,1.9,3.8,4.27,1.83,3.6,4.01
+Romania,Liga 1,13/08/2022,17:00,UTA Arad,U. Cluj,2.08,3.12,4.09,2.15,3.25,4.1,2.05,3.1,3.7
+Romania,Liga 1,13/08/2022,19:45,Petrolul,FC Rapid Bucuresti,3.77,3.01,2.23,3.8,3.2,2.23,3.57,3.02,2.12
+Russia,Premier League,13/08/2022,13:00,Lokomotiv Moscow,samara,2.51,3.64,2.77,2.53,3.65,2.89,2.45,3.52,2.76
+Russia,Premier League,13/08/2022,15:00,Zenit,CSKA Moscow,1.6,4.6,5.11,1.63,4.7,5.7,1.58,4.4,5.16
+Russia,Premier League,13/08/2022,18:00,Dynamo Moscow,Krasnodar,1.76,4.13,4.46,1.85,4.13,4.46,1.77,3.93,4.2
+Sweden,Allsvenskan,13/08/2022,16:30,Helsingborg,Sirius,2.79,3.52,2.6,2.8,3.52,2.65,2.7,3.36,2.54
+Switzerland,Swiss,13/08/2022,17:00,Sion,Grasshoppers,2.06,3.7,3.6,2.15,3.87,3.8,2.04,3.57,3.38
+Switzerland,Swiss,13/08/2022,19:30,St. Gallen,Luzern,2.04,4.04,3.37,2.05,4.1,3.7,2,3.81,3.3
+USA,MLS,13/08/2022,23:00,New York Red Bulls,Orlando City,1.72,4.19,4.72,1.75,4.19,4.8,1.7,3.89,4.59
+Argentina,Liga Profesional,14/08/2022,0:30,River Plate,Newells Old Boys,1.51,4.38,6.82,1.53,4.4,7,1.5,4.17,6.44
+Argentina,Liga Profesional,14/08/2022,19:30,Velez Sarsfield,Gimnasia L.P.,2.11,3.18,3.88,2.15,3.28,3.9,2.09,3.14,3.72
+Argentina,Liga Profesional,14/08/2022,22:00,Argentinos Jrs,Union de Santa Fe,2.2,3.16,3.65,2.22,3.4,3.72,2.12,3.19,3.58
+Argentina,Liga Profesional,14/08/2022,22:00,Estudiantes L.P.,Talleres Cordoba,2.19,3.2,3.63,2.22,3.32,3.63,2.14,3.2,3.5
 Austria,Admiral Bundesliga,14/08/2022,16:00,A. Lustenau,Hartberg,2.36,3.54,3.05,2.45,3.71,3.05,2.32,3.47,2.88
 Austria,Admiral Bundesliga,14/08/2022,16:00,LASK,Rapid Vienna,1.82,4.18,4.15,1.88,4.2,4.33,1.81,3.82,3.96
 Austria,Admiral Bundesliga,14/08/2022,16:00,Salzburg,Wolfsberger AC,1.24,6.74,11.97,1.26,7,12,1.23,6.32,10.75
-Brazil,Serie A,13/08/2022,20:30,Goias,Avai,2.1,3.19,4.09,2.13,3.39,4.1,2.05,3.24,3.82
-Brazil,Serie A,13/08/2022,23:00,Corinthians,Palmeiras,3.48,3.07,2.38,3.58,3.22,2.42,3.36,3.07,2.31
-Brazil,Serie A,14/08/2022,00:30,Cuiaba,Juventude,2.14,3.03,4.21,2.21,3.1,4.21,2.13,2.99,3.93
-Brazil,Serie A,14/08/2022,01:00,Botafogo RJ,Atletico GO,2.15,3.27,3.82,2.16,3.32,3.82,2.11,3.23,3.6
+Brazil,Serie A,14/08/2022,0:30,Cuiaba,Juventude,2.14,3.03,4.21,2.21,3.1,4.21,2.13,2.99,3.93
+Brazil,Serie A,14/08/2022,1:00,Botafogo RJ,Atletico GO,2.15,3.27,3.82,2.16,3.32,3.82,2.11,3.23,3.6
 Brazil,Serie A,14/08/2022,15:00,Coritiba,Atletico-MG,4.64,3.43,1.89,4.75,3.5,1.97,4.3,3.36,1.88
 Brazil,Serie A,14/08/2022,20:00,Ceara,Fortaleza,2.75,2.97,3,2.76,3.2,3.2,2.58,3.01,2.93
 Brazil,Serie A,14/08/2022,20:00,Flamengo RJ,Athletico-PR,1.41,4.73,8.56,1.46,4.85,8.56,1.41,4.49,7.64
 Brazil,Serie A,14/08/2022,20:00,Sao Paulo,Bragantino,2.2,3.27,3.66,2.25,3.41,3.8,2.14,3.25,3.5
 Brazil,Serie A,14/08/2022,22:00,America MG,Santos,2.38,3.04,3.46,2.38,3.27,3.6,2.3,3.08,3.3
 Brazil,Serie A,14/08/2022,23:00,Internacional,Fluminense,2.68,3,3.07,2.7,3.36,3.07,2.56,3.08,2.92
-China,Super League,13/08/2022,12:00,Henan Songshan Longmen,Meizhou Hakka,1.83,3.95,4.02,1.83,4.11,4.75,1.75,3.77,4.15
-China,Super League,13/08/2022,12:30,Guangzhou City,Wuhan FC,2.65,3.55,2.59,2.85,3.71,2.75,2.51,3.43,2.59
-Denmark,Superliga,12/08/2022,18:00,Horsens,Midtjylland,4.78,3.8,1.79,5,3.9,1.82,4.47,3.64,1.77
-Denmark,Superliga,12/08/2022,20:00,FC Copenhagen,Randers FC,1.46,4.95,6.94,1.49,5.15,7.5,1.44,4.73,6.69
 Denmark,Superliga,14/08/2022,13:00,Viborg,Silkeborg,2.99,3.63,2.33,3.01,3.76,2.4,2.9,3.54,2.3
 Denmark,Superliga,14/08/2022,15:00,Aalborg,Nordsjaelland,2.54,3.71,2.66,2.6,3.75,2.8,2.49,3.56,2.62
 Denmark,Superliga,14/08/2022,17:00,Brondby,Odense,1.96,3.53,4.03,1.97,3.75,4.2,1.89,3.58,3.9
-Denmark,Superliga,15/08/2022,18:00,Aarhus,Lyngby,1.91,3.62,4.15,2,3.79,4.4,1.93,3.51,3.84
-Finland,Veikkausliiga,12/08/2022,16:00,Haka,AC Oulu,1.64,4.35,5.26,1.64,4.4,5.35,1.6,4.16,4.99
-Finland,Veikkausliiga,13/08/2022,15:00,Ilves,Honka,3.77,3.8,2,3.95,3.8,2.02,3.7,3.53,1.94
-Finland,Veikkausliiga,13/08/2022,15:00,Inter Turku,VPS,2.07,3.59,3.77,2.1,3.75,3.77,2.01,3.51,3.5
 Finland,Veikkausliiga,14/08/2022,14:00,KuPS,Mariehamn,1.45,5.03,6.92,1.48,5.03,7.5,1.43,4.6,6.45
-Finland,Veikkausliiga,15/08/2022,16:00,HIFK,SJK,5.37,4.06,1.65,5.4,4.13,1.7,4.87,3.89,1.64
-Ireland,Premier Division,12/08/2022,19:45,Bohemians,Dundalk,2.57,3.27,3,2.57,3.3,3,2.47,3.18,2.84
-Ireland,Premier Division,12/08/2022,19:45,Derry City,Shamrock Rovers,2.66,3.29,2.87,2.66,3.29,2.87,2.57,3.14,2.75
-Ireland,Premier Division,12/08/2022,19:45,Drogheda,Shelbourne,3.55,3.29,2.26,3.55,3.31,2.26,3.37,3.21,2.16
-Ireland,Premier Division,12/08/2022,19:45,UC Dublin,Finn Harps,3.25,3.37,2.36,3.25,3.37,2.36,3.09,3.21,2.29
 Ireland,Premier Division,14/08/2022,17:00,St. Patricks,Sligo Rovers,1.87,3.47,4.59,1.92,3.47,4.59,1.86,3.34,4.19
-Japan,J1 League,13/08/2022,06:00,Hokkaido Consadole Sapporo,Vissel Kobe,2.64,3.52,2.74,2.64,3.59,2.8,2.53,3.37,2.68
-Japan,J1 League,13/08/2022,10:30,Iwata,Urawa Reds,4.64,3.91,1.79,4.85,3.94,1.79,4.55,3.72,1.73
-Japan,J1 League,13/08/2022,11:00,FC Tokyo,Cerezo Osaka,2.93,3.45,2.52,2.93,3.45,2.55,2.79,3.27,2.49
-Japan,J1 League,13/08/2022,11:00,Kawasaki Frontale,Kyoto,1.44,4.92,7.36,1.46,4.92,7.75,1.43,4.54,6.94
-Japan,J1 League,13/08/2022,11:00,Yokohama F. Marinos,Shonan Bellmare,1.67,4.27,5.03,1.67,4.3,5.5,1.64,4,4.9
 Japan,J1 League,14/08/2022,10:00,Kashima Antlers,Avispa Fukuoka,1.89,3.35,4.92,1.9,3.45,4.92,1.86,3.33,4.42
 Japan,J1 League,14/08/2022,10:30,Kashiwa Reysol,Sanfrecce Hiroshima,3.67,3.42,2.16,3.75,3.43,2.23,3.44,3.25,2.14
 Japan,J1 League,14/08/2022,11:00,Gamba Osaka,Shimizu S-Pulse,2.61,3.8,2.62,2.7,3.82,2.62,2.57,3.53,2.54
 Japan,J1 League,14/08/2022,11:00,Sagan Tosu,Nagoya Grampus,2.91,3,2.85,2.92,3.15,2.85,2.74,2.96,2.76
-Mexico,Liga MX,13/08/2022,03:00,Necaxa,Monterrey,3.41,3.33,2.3,3.41,3.39,2.32,3.21,3.22,2.23
-Mexico,Liga MX,13/08/2022,03:05,Club Tijuana,Puebla,2.18,3.49,3.54,2.2,3.51,3.54,2.14,3.32,3.33
-Mexico,Liga MX,13/08/2022,23:00,Club Leon,Mazatlan FC,1.72,4.05,4.96,1.72,4.05,6,1.67,3.8,4.79
-Mexico,Liga MX,14/08/2022,01:05,U.N.A.M.- Pumas,Club America,2.82,3.3,2.71,3,3.38,2.71,2.72,3.17,2.56
-Mexico,Liga MX,14/08/2022,03:05,Guadalajara Chivas,Atlas,2.27,3,3.93,2.27,3.21,3.93,2.17,3,3.61
-Mexico,Liga MX,14/08/2022,03:05,Juarez,Pachuca,3.51,3.18,2.33,4,3.23,2.33,3.32,3.07,2.25
+Mexico,Liga MX,14/08/2022,1:05,U.N.A.M.- Pumas,Club America,2.82,3.3,2.71,3,3.38,2.71,2.72,3.17,2.56
+Mexico,Liga MX,14/08/2022,3:05,Guadalajara Chivas,Atlas,2.27,3,3.93,2.27,3.21,3.93,2.17,3,3.61
+Mexico,Liga MX,14/08/2022,3:05,Juarez,Pachuca,3.51,3.18,2.33,4,3.23,2.33,3.32,3.07,2.25
 Mexico,Liga MX,14/08/2022,23:00,Cruz Azul,Toluca,2.16,3.3,3.8,2.16,3.45,3.8,2.08,3.26,3.5
-Mexico,Liga MX,15/08/2022,01:05,U.A.N.L.- Tigres,Santos Laguna,1.65,4.1,5.49,1.66,4.1,5.75,1.61,3.89,5.15
-Norway,Eliteserien,12/08/2022,18:00,Sandefjord,Rosenborg,5.02,4.44,1.65,5.3,4.44,1.7,4.87,4.15,1.63
-Norway,Eliteserien,12/08/2022,18:00,Sarpsborg 08,Bodo/Glimt,4.2,4.34,1.78,4.25,4.58,1.8,4,4.16,1.74
-Norway,Eliteserien,13/08/2022,15:00,Aalesund,Haugesund,2.24,3.38,3.51,2.24,3.56,3.51,2.14,3.36,3.33
 Norway,Eliteserien,14/08/2022,17:00,Jerv,Lillestrom,5.55,4.66,1.57,6,4.66,1.58,5.38,4.29,1.54
 Norway,Eliteserien,14/08/2022,17:00,Tromso,Kristiansund,1.58,4.46,5.52,1.62,4.46,6,1.55,4.17,5.52
 Norway,Eliteserien,14/08/2022,19:00,Ham-Kam,Valerenga,3.29,3.63,2.23,3.3,3.8,2.25,3.15,3.57,2.13
-Poland,Ekstraklasa,12/08/2022,17:00,Legnica,Zaglebie,2.97,3.41,2.52,2.92,3.43,2.65,2.8,3.27,2.43
-Poland,Ekstraklasa,12/08/2022,19:30,Widzew Lodz,Legia,3.34,3.54,2.25,3.45,3.54,2.28,3.14,3.36,2.2
-Poland,Ekstraklasa,13/08/2022,14:00,Cracovia,Piast Gliwice,2.23,3.23,3.72,2.23,3.31,3.8,2.13,3.13,3.52
-Poland,Ekstraklasa,13/08/2022,16:30,Gornik Z.,Stal Mielec,1.71,4.09,4.99,1.8,4.09,4.99,1.71,3.79,4.54
-Poland,Ekstraklasa,13/08/2022,19:00,Pogon Szczecin,Wisla Plock,1.88,3.8,4.27,1.9,3.8,4.27,1.83,3.6,4.01
 Poland,Ekstraklasa,14/08/2022,14:00,Radomiak Radom,Lechia Gdansk,2.31,3.37,3.23,2.4,3.5,3.23,2.28,3.25,3.05
 Poland,Ekstraklasa,14/08/2022,16:30,Rakow,Jagiellonia,1.49,4.37,6.99,1.53,4.4,7,1.48,4.14,6.28
 Poland,Ekstraklasa,14/08/2022,19:00,Lech Poznan,Slask Wroclaw,1.66,4,5.25,1.69,4.1,5.5,1.61,3.9,5.1
-Poland,Ekstraklasa,15/08/2022,18:00,Korona Kielce,Warta Poznan,2.67,2.96,3.06,2.7,3.16,3.06,2.52,3,2.9
-Romania,Liga 1,12/08/2022,19:30,FC Arges,U Craiova 1948,2.79,3.13,2.74,2.79,3.15,2.74,2.67,3.03,2.65
-Romania,Liga 1,13/08/2022,17:00,UTA Arad,U. Cluj,2.08,3.12,4.09,2.15,3.25,4.1,2.05,3.1,3.7
-Romania,Liga 1,13/08/2022,19:45,Petrolul,FC Rapid Bucuresti,3.77,3.01,2.23,3.8,3.2,2.23,3.57,3.02,2.12
 Romania,Liga 1,14/08/2022,14:00,Univ. Craiova,Mioveni,1.32,4.96,9.46,1.39,5.1,9.7,1.33,4.56,8.73
 Romania,Liga 1,14/08/2022,16:30,CFR Cluj,FC Botosani,1.56,3.66,6.82,1.64,3.75,7,1.59,3.5,5.98
 Romania,Liga 1,14/08/2022,19:30,FCSB,Chindia Targoviste,1.45,4.2,7.4,1.49,4.3,8.5,1.43,3.98,7.54
-Romania,Liga 1,15/08/2022,15:00,FC Voluntari,Sepsi Sf. Gheorghe,3.24,3.15,2.34,3.26,3.18,2.45,3.04,3.05,2.34
-Romania,Liga 1,15/08/2022,17:30,Farul Constanta,FC Hermannstadt,1.68,3.58,5.33,1.75,3.63,5.5,1.69,3.36,5.11
-Russia,Premier League,12/08/2022,17:30,Fakel Voronezh,Ural,2.02,3.53,3.89,2.04,3.55,3.89,2.02,3.44,3.73
-Russia,Premier League,13/08/2022,13:00,Lokomotiv Moscow,samara,2.51,3.64,2.77,2.53,3.65,2.89,2.45,3.52,2.76
-Russia,Premier League,13/08/2022,15:00,Zenit,CSKA Moscow,1.6,4.6,5.11,1.63,4.7,5.7,1.58,4.4,5.16
-Russia,Premier League,13/08/2022,18:00,Dynamo Moscow,Krasnodar,1.76,4.13,4.46,1.85,4.13,4.46,1.77,3.93,4.2
 Russia,Premier League,14/08/2022,13:00,Khimki,Akhmat Grozny,2.67,3.42,2.72,2.67,3.51,2.8,2.57,3.35,2.7
 Russia,Premier League,14/08/2022,15:30,Nizhny Novgorod,FK Rostov,3.75,3.52,2.02,3.86,3.63,2.12,3.63,3.45,2.03
 Russia,Premier League,14/08/2022,15:30,Orenburg,Torpedo Moscow,2.18,3.43,3.39,2.23,3.69,3.41,2.17,3.43,3.25
 Russia,Premier League,14/08/2022,18:00,Spartak Moscow,Sochi,1.94,3.85,3.67,2.02,3.98,3.92,1.95,3.77,3.59
-Sweden,Allsvenskan,13/08/2022,16:30,Helsingborg,Sirius,2.79,3.52,2.6,2.8,3.52,2.65,2.7,3.36,2.54
 Sweden,Allsvenskan,14/08/2022,14:00,AIK,Varnamo,1.64,3.97,5.87,1.65,4.05,5.87,1.61,3.87,5.54
 Sweden,Allsvenskan,14/08/2022,14:00,Djurgarden,Kalmar,1.61,4.18,5.85,1.62,4.2,5.85,1.59,4,5.52
 Sweden,Allsvenskan,14/08/2022,14:00,Malmo FF,Sundsvall,1.16,8.39,18.92,1.18,8.6,19,1.16,7.73,15.66
 Sweden,Allsvenskan,14/08/2022,16:30,Degerfors,Varberg,2.1,3.73,3.51,2.15,3.78,3.51,2.07,3.6,3.32
 Sweden,Allsvenskan,14/08/2022,16:30,Elfsborg,Norrkoping,1.89,3.85,4.17,1.89,4.02,4.33,1.84,3.79,3.96
-Sweden,Allsvenskan,15/08/2022,18:00,Hacken,Mjallby,1.56,4.5,5.67,1.57,4.5,6,1.54,4.26,5.63
-Sweden,Allsvenskan,15/08/2022,18:10,Goteborg,Hammarby,3.82,3.9,1.93,3.82,3.9,2.02,3.67,3.66,1.94
-Switzerland,Swiss,13/08/2022,17:00,Sion,Grasshoppers,2.06,3.7,3.6,2.15,3.87,3.8,2.04,3.57,3.38
-Switzerland,Swiss,13/08/2022,19:30,St. Gallen,Luzern,2.04,4.04,3.37,2.05,4.1,3.7,2,3.81,3.3
 Switzerland,Swiss,14/08/2022,13:15,Winterthur,Zurich,2.95,3.59,2.35,3,3.8,2.37,2.85,3.56,2.29
 Switzerland,Swiss,14/08/2022,15:30,Basel,Lugano,1.86,4.09,3.77,1.88,4.2,4.33,1.83,3.83,3.82
 Switzerland,Swiss,14/08/2022,15:30,Young Boys,Servette,1.53,4.74,5.41,1.58,4.8,6,1.52,4.46,5.33
-USA,MLS,13/08/2022,23:00,New York Red Bulls,Orlando City,1.72,4.19,4.72,1.75,4.19,4.8,1.7,3.89,4.59
-USA,MLS,14/08/2022,00:30,FC Cincinnati,Atlanta Utd,2.09,3.89,3.41,2.11,3.91,3.55,2.06,3.67,3.29
-USA,MLS,14/08/2022,00:30,New England Revolution,DC United,1.69,4.26,4.86,1.69,4.38,5.1,1.63,4.15,4.83
-USA,MLS,14/08/2022,00:30,Philadelphia Union,Chicago Fire,1.79,4.02,4.47,1.82,4.02,4.75,1.76,3.82,4.29
-USA,MLS,14/08/2022,00:30,Toronto FC,Portland Timbers,1.91,4.06,3.87,1.95,4.1,4,1.88,3.83,3.69
-USA,MLS,14/08/2022,01:00,Inter Miami,New York City,3,3.63,2.38,3.1,3.75,2.38,2.91,3.5,2.3
-USA,MLS,14/08/2022,02:00,Austin FC,Sporting Kansas City,1.56,4.48,6.03,1.56,4.61,6.5,1.51,4.38,5.79
-USA,MLS,14/08/2022,02:00,Colorado Rapids,Columbus Crew,1.99,3.8,3.79,2,3.84,3.8,1.95,3.63,3.63
-USA,MLS,14/08/2022,02:00,FC Dallas,San Jose Earthquakes,1.75,4.09,4.69,1.8,4.25,4.75,1.73,3.89,4.41
-USA,MLS,14/08/2022,02:00,Houston Dynamo,CF Montreal,2.62,3.66,2.69,2.62,3.68,2.8,2.5,3.46,2.67
-USA,MLS,14/08/2022,03:00,Los Angeles Galaxy,Vancouver Whitecaps,1.57,4.42,5.86,1.6,4.46,5.86,1.56,4.21,5.31
-USA,MLS,14/08/2022,03:30,Los Angeles FC,Charlotte,1.38,5.25,8.46,1.41,5.25,8.46,1.37,4.99,7.55
-USA,MLS,15/08/2022,02:00,Nashville SC,Minnesota United,1.86,3.84,4.3,1.97,3.84,4.3,1.87,3.66,3.91
-USA,MLS,15/08/2022,03:00,Seattle Sounders,Real Salt Lake,1.86,3.84,4.33,1.9,3.85,4.4,1.84,3.63,4.11
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
+USA,MLS,14/08/2022,0:30,FC Cincinnati,Atlanta Utd,2.09,3.89,3.41,2.11,3.91,3.55,2.06,3.67,3.29
+USA,MLS,14/08/2022,0:30,New England Revolution,DC United,1.69,4.26,4.86,1.69,4.38,5.1,1.63,4.15,4.83
+USA,MLS,14/08/2022,0:30,Philadelphia Union,Chicago Fire,1.79,4.02,4.47,1.82,4.02,4.75,1.76,3.82,4.29
+USA,MLS,14/08/2022,0:30,Toronto FC,Portland Timbers,1.91,4.06,3.87,1.95,4.1,4,1.88,3.83,3.69
+USA,MLS,14/08/2022,1:00,Inter Miami,New York City,3,3.63,2.38,3.1,3.75,2.38,2.91,3.5,2.3
+USA,MLS,14/08/2022,2:00,Austin FC,Sporting Kansas City,1.56,4.48,6.03,1.56,4.61,6.5,1.51,4.38,5.79
+USA,MLS,14/08/2022,2:00,Colorado Rapids,Columbus Crew,1.99,3.8,3.79,2,3.84,3.8,1.95,3.63,3.63
+USA,MLS,14/08/2022,2:00,FC Dallas,San Jose Earthquakes,1.75,4.09,4.69,1.8,4.25,4.75,1.73,3.89,4.41
+USA,MLS,14/08/2022,2:00,Houston Dynamo,CF Montreal,2.62,3.66,2.69,2.62,3.68,2.8,2.5,3.46,2.67
+USA,MLS,14/08/2022,3:00,Los Angeles Galaxy,Vancouver Whitecaps,1.57,4.42,5.86,1.6,4.46,5.86,1.56,4.21,5.31
+USA,MLS,14/08/2022,3:30,Los Angeles FC,Charlotte,1.38,5.25,8.46,1.41,5.25,8.46,1.37,4.99,7.55
+Argentina,Liga Profesional,15/08/2022,0:30,Racing Club,Boca Juniors,2.41,3.18,3.18,2.45,3.4,3.23,2.35,3.18,3.08
+Denmark,Superliga,15/08/2022,18:00,Aarhus,Lyngby,1.91,3.62,4.15,2,3.79,4.4,1.93,3.51,3.84
+Finland,Veikkausliiga,15/08/2022,16:00,HIFK,SJK,5.37,4.06,1.65,5.4,4.13,1.7,4.87,3.89,1.64
+Mexico,Liga MX,15/08/2022,1:05,U.A.N.L.- Tigres,Santos Laguna,1.65,4.1,5.49,1.66,4.1,5.75,1.61,3.89,5.15
+Poland,Ekstraklasa,15/08/2022,18:00,Korona Kielce,Warta Poznan,2.67,2.96,3.06,2.7,3.16,3.06,2.52,3,2.9
+Romania,Liga 1,15/08/2022,15:00,FC Voluntari,Sepsi Sf. Gheorghe,3.24,3.15,2.34,3.26,3.18,2.45,3.04,3.05,2.34
+Romania,Liga 1,15/08/2022,17:30,Farul Constanta,FC Hermannstadt,1.68,3.58,5.33,1.75,3.63,5.5,1.69,3.36,5.11
+Sweden,Allsvenskan,15/08/2022,18:00,Hacken,Mjallby,1.56,4.5,5.67,1.57,4.5,6,1.54,4.26,5.63
+Sweden,Allsvenskan,15/08/2022,18:10,Goteborg,Hammarby,3.82,3.9,1.93,3.82,3.9,2.02,3.67,3.66,1.94
+USA,MLS,15/08/2022,2:00,Nashville SC,Minnesota United,1.86,3.84,4.3,1.97,3.84,4.3,1.87,3.66,3.91
+USA,MLS,15/08/2022,3:00,Seattle Sounders,Real Salt Lake,1.86,3.84,4.33,1.9,3.85,4.4,1.84,3.63,4.11
