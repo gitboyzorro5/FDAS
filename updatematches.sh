@@ -1,15 +1,17 @@
 #! /bin/bash
-sed -i '92281,$d' allteams2010-present.csv
+sed -i '100103,$d' allteams2010-present.csv
 ./deleteall.sh 
 #backup the allteams2010-present data
 #cat allteams2010-present.csv >> allteams2010-present.backup
 mv allteams20182019.csv allteams20182019.bak
 mv allteams20192020.csv allteams20192020.bak
+mv allteams20212022.csv allteams20212022.bak
 mv leaguetable2010-present.csv leaguetable2010-present.bak
 rm *.csv
 rm *.html
 mv allteams20182019.bak allteams20182019.csv
 mv allteams20192020.bak allteams20192020.csv
+mv allteams20212022.bak allteams20212022.csv
 mv leaguetable2010-present.bak leaguetable2010-present.csv
 ./download.sh
 ./insertall.sh 
@@ -18,13 +20,13 @@ sed -f script.vim INSERTALL.sql > tempallmatches0.txt
 ./insertscores.sh 
 awk -v OFS=, -f magical.awk tempallmatches0.txt htcs.txt > tempallmatches1.txt
 awk -v OFS=, -f magical.awk tempallmatches1.txt cs.txt > tempallmatches2.txt
- echo "Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HTHG,HTAG,HTR,PSH,PSD,PSA,HTCS,CS" > allteams20212022.csv
-#cat tempallmatches2.txt >> allteams20212022.csv
-cut -d, -f1,1,2,3,4,5,6,7,8,9,10,11,12,13,22,23 tempallmatches2.txt >> allteams20212022.csv
- echo "Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HTHG,HTAG,HTR,PSH,PSD,PSA,HTCS,CS,HS,HST,AS,AST,HY,AY,HR,AR" > allteams20212022SOT.csv
-awk -F, '{printf("'%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s'\n",$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$22,$23,$14,$15,$16,$17,$18,$19,$20,$21)}' tempallmatches2.txt >> allteams20212022SOT.csv
+ echo "Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HTHG,HTAG,HTR,PSH,PSD,PSA,HTCS,CS" > allteams20222023.csv
+#cat tempallmatches2.txt >> allteams20222023.csv
+cut -d, -f1,1,2,3,4,5,6,7,8,9,10,11,12,13,22,23 tempallmatches2.txt >> allteams20222023.csv
+ echo "Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HTHG,HTAG,HTR,PSH,PSD,PSA,HTCS,CS,HS,HST,AS,AST,HY,AY,HR,AR" > allteams20222023SOT.csv
+awk -F, '{printf("'%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s'\n",$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$22,$23,$14,$15,$16,$17,$18,$19,$20,$21)}' tempallmatches2.txt >> allteams20222023SOT.csv
 cat allteams2010-present.backup >> allteams2010-present.csv
-sed -n '2,$p' allteams20212022.csv >> allteams2010-present.csv
+sed -n '2,$p' allteams20222023.csv >> allteams2010-present.csv
 sed -i -e 's/\x92//g' EC.csv
 sed -i -e "s/Nott'm Forest/Nottm Forest/g" E1.csv	
 sed -i -e "s/M'gladbach/Mgladbach/g" D1.csv 	
