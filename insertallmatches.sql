@@ -234,7 +234,7 @@ INSERT INTO ALLMATCHES VALUES('E2','03/09/2022','Oxford','Burton','2','1','H','0
 INSERT INTO ALLMATCHES VALUES('E2','03/09/2022','Port Vale','Cheltenham','2','2','D','2','1','H','1.92','3.64','4.2','10','3','6','2','0','0','0','0');
 INSERT INTO ALLMATCHES VALUES('E2','03/09/2022','Portsmouth','Peterboro','2','1','H','1','1','D','2.18','3.44','3.51','13','2','10','3','2','1','0','0');
 INSERT INTO ALLMATCHES VALUES('E2','03/09/2022','Sheffield Weds','Barnsley','0','2','A','0','1','A','1.61','4.01','5.99','11','3','14','5','2','4','0','0');
-INSERT INTO ALLMATCHES VALUES('E2','06/09/2022','Forest Green','Accrington','3','1','H','2','1','H','2.34','3.45','3.17','12','5','17','4','3','1','0','0');
+INSERT INTO ALLMATCHES VALUES('E2','06/09/2022','Forest Green','Accrington','2','1','H','1','0','H','2.34','3.45','3.17','12','5','17','4','3','1','0','0');
 INSERT INTO ALLMATCHES VALUES('E3','30/07/2022','AFC Wimbledon','Gillingham','2','0','H','1','0','H','2.49','3.23','3.11','7','5','5','1','3','5','0','0');
 INSERT INTO ALLMATCHES VALUES('E3','30/07/2022','Bradford','Doncaster','0','0','D','0','0','D','1.89','3.8','4.1','22','2','3','1','0','3','1','1');
 INSERT INTO ALLMATCHES VALUES('E3','30/07/2022','Carlisle','Crawley Town','1','0','H','1','0','H','2.46','3.26','3.12','23','8','6','0','1','3','0','0');
@@ -653,7 +653,7 @@ INSERT INTO ALLMATCHES VALUES('F1','04/09/2022','Clermont','Toulouse','2','0','H
 INSERT INTO ALLMATCHES VALUES('F1','04/09/2022','Reims','Lens','1','1','D','0','0','D','3.23','3.58','2.31','17','4','20','4','2','2','0','1');
 INSERT INTO ALLMATCHES VALUES('F1','04/09/2022','Troyes','Rennes','1','1','D','1','0','H','4.24','3.92','1.88','9','1','19','6','2','2','1','0');
 INSERT INTO ALLMATCHES VALUES('F1','04/09/2022','Nice','Monaco','0','1','A','0','0','D','2.82','3.73','2.51','12','5','14','2','2','1','0','0');
-INSERT INTO ALLMATCHES VALUES('F1','07/09/2022','Lorient','Lyon','2','1','H','1','0','H','4.64','4.42','1.72','11','6','15','7','1','3','0','0');
+INSERT INTO ALLMATCHES VALUES('F1','07/09/2022','Lorient','Lyon','3','1','H','2','1','H','4.64','4.42','1.72','11','6','15','7','1','3','0','0');
 INSERT INTO ALLMATCHES VALUES('F2','30/07/2022','Dijon','St Etienne','2','1','H','2','0','H','3.08','3.24','2.51','12','5','15','3','5','3','0','1');
 INSERT INTO ALLMATCHES VALUES('F2','30/07/2022','Annecy','Niort','1','2','A','0','2','A','2.49','3.01','3.34','9','2','7','4','2','2','0','0');
 INSERT INTO ALLMATCHES VALUES('F2','30/07/2022','Bastia','Laval','0','2','A','0','1','A','2.1','3.12','4.22','16','4','11','5','2','2','1','1');
