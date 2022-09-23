@@ -630,6 +630,7 @@ INSERT INTO ALLMATCHES VALUES('SP2','18/09/2022','Leganes','Burgos','0','0','D',
 INSERT INTO ALLMATCHES VALUES('SP2','18/09/2022','Alaves','Huesca','2','1','H','1','0','H','1.97','3.35','4.25','13','5','11','3','1','2','0','0');
 INSERT INTO ALLMATCHES VALUES('SP2','18/09/2022','Santander','Las Palmas','0','0','D','0','0','D','3.25','3.1','2.45','11','2','25','3','3','3','1','0');
 INSERT INTO ALLMATCHES VALUES('SP2','18/09/2022','Albacete','Ponferradina','0','1','A','0','0','D','2.13','3.29','3.74','18','6','5','2','2','6','1','0');
+INSERT INTO ALLMATCHES VALUES('SP2','19/09/2022','Tenerife','Malaga','3','1','H','1','1','D','2.08','3.22','4.03','20','6','8','3','1','5','0','1');
 INSERT INTO ALLMATCHES VALUES('D1','05/08/2022','Ein Frankfurt','Bayern Munich','1','6','A','0','5','A','5.84','5.13','1.52','8','2','23','10','2','0','0','0');
 INSERT INTO ALLMATCHES VALUES('D1','06/08/2022','Augsburg','Freiburg','0','4','A','0','0','D','3.53','3.59','2.17','10','2','19','7','0','0','0','0');
 INSERT INTO ALLMATCHES VALUES('D1','06/08/2022','Bochum','Mainz','1','2','A','1','1','D','3.34','3.43','2.32','16','3','13','6','2','3','0','0');
@@ -1525,3 +1526,5 @@ INSERT INTO ALLMATCHES VALUES('SC3','17/09/2022','Annan Athletic','East Fife','2
 INSERT INTO ALLMATCHES VALUES('SC3','17/09/2022','Dumbarton','Bonnyrigg Rose','1','0','H','1','0','H','2.16','3.54','3.14','8','4','7','1','2','4','0','0');
 INSERT INTO ALLMATCHES VALUES('SC3','17/09/2022','Stenhousemuir','Elgin','3','3','D','1','1','D','2.02','3.45','3.59','15','4','8','6','1','4','0','0');
 INSERT INTO ALLMATCHES VALUES('SC3','17/09/2022','Stirling','Stranraer','4','1','H','4','1','H','1.97','3.61','3.58','19','9','6','3','1','0','0','0');
+INSERT INTO ALLMATCHES VALUES('SC3','20/09/2022','East Fife','Stenhousemuir','1','2','A','1','0','H','2.43','3.28','2.87','6','2','13','7','0','4','1','0');
+INSERT INTO ALLMATCHES VALUES('SC3','20/09/2022','Stranraer','Dumbarton','3','2','H','0','0','D','3.53','3.46','2.03','8','5','5','2','4','2','1','0');

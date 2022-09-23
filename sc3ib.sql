@@ -33,3 +33,5 @@ INSERT INTO SC3 VALUES('SC3','17/09/2022','Annan Athletic','East Fife','2','2','
 INSERT INTO SC3 VALUES('SC3','17/09/2022','Dumbarton','Bonnyrigg Rose','1','0','H','1','0','H','2.16','3.54','3.14','8','4','7','1','2','4','0','0');
 INSERT INTO SC3 VALUES('SC3','17/09/2022','Stenhousemuir','Elgin','3','3','D','1','1','D','2.02','3.45','3.59','15','4','8','6','1','4','0','0');
 INSERT INTO SC3 VALUES('SC3','17/09/2022','Stirling','Stranraer','4','1','H','4','1','H','1.97','3.61','3.58','19','9','6','3','1','0','0','0');
+INSERT INTO SC3 VALUES('SC3','20/09/2022','East Fife','Stenhousemuir','1','2','A','1','0','H','2.43','3.28','2.87','6','2','13','7','0','4','1','0');
+INSERT INTO SC3 VALUES('SC3','20/09/2022','Stranraer','Dumbarton','3','2','H','0','0','D','3.53','3.46','2.03','8','5','5','2','4','2','1','0');
