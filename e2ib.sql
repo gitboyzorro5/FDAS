@@ -142,3 +142,6 @@ INSERT INTO E2 VALUES('E2','08/10/2022','Plymouth','Accrington','3','0','H','1',
 INSERT INTO E2 VALUES('E2','08/10/2022','Portsmouth','Fleetwood Town','1','1','D','1','1','D','1.57','4.24','6.09','18','2','5','2','2','5','0','0');
 INSERT INTO E2 VALUES('E2','08/10/2022','Sheffield Weds','Cheltenham','3','0','H','1','0','H','1.41','4.91','7.85','24','9','6','3','0','4','0','0');
 INSERT INTO E2 VALUES('E2','08/10/2022','Shrewsbury','Milton Keynes Dons','2','1','H','2','0','H','2.32','3.24','3.4','10','5','13','2','1','2','0','1');
+INSERT INTO E2 VALUES('E2','11/10/2022','Charlton','Exeter','4','2','H','2','1','H','2.41','3.4','3.08','15','6','12','4','1','0','0','0');
+INSERT INTO E2 VALUES('E2','11/10/2022','Milton Keynes Dons','Bristol Rvs','0','1','A','0','0','D','2.26','3.51','3.26','4','1','13','3','3','2','0','0');
+INSERT INTO E2 VALUES('E2','11/10/2022','Peterboro','Forest Green','4','1','H','2','1','H','1.42','4.93','7.57','21','7','8','2','1','1','0','0');
