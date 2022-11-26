@@ -1,7 +1,7 @@
 #! /bin/bash	
 # insert E0 E1 E2 E3 EC
-awk -F, -f in_E0.awk E0.csv | sed '1d' >> eoib.sql
-awk -F, -f in_E1.awk E1.csv | sed '1d'| sed "s/'Nott'm Forest'/'Nottm Forest'/g" >> e1ib.sql	
+awk -F, -f in_E0.awk E0.csv | sed '1d' | sed "s/'Nott'm Forest'/'Nottm Forest'/g" >> eoib.sql
+awk -F, -f in_E1.awk E1.csv | sed '1d' >> e1ib.sql	
 awk -F, -f in_E2.awk E2.csv | sed '1d' >> e2ib.sql
 awk -F, -f in_E3.awk E3.csv | sed '1d' >> e3ib.sql
 awk -F, -f in_EC.awk EC.csv | sed '1d'| sed "s/\x92//g"  >> ecib.sql	
