@@ -27,6 +27,7 @@ cut -d, -f1,1,2,3,4,5,6,7,8,9,10,11,12,13,24,25 tempallmatches2.txt >> allteams2
 awk -F, '{printf("'%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s'\n",$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$26,$27,$14,$15,$16,$17,$18,$19,$20,$21,$22,$23,$24,$25)}' tempallmatches2.txt >> allteams20222023SOT.csv
 cat allteams2010-present.backup >> allteams2010-present.csv
 sed -n '2,$p' allteams20222023.csv >> allteams2010-present.csv
+cat allteams20222023SOT.csv >> allteams2023-presentSOT.csv
 sed -i -e 's/\x92//g' EC.csv
 sed -i -e "s/Nott'm Forest/Nottm Forest/g" E0.csv	
 sed -i -e "s/M'gladbach/Mgladbach/g" D1.csv 	
