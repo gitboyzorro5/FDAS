@@ -1,0 +1,2492 @@
+#load the new data frames
+Sys.setenv(JAVA_HOME ="C:\\Program Files\\Java\\jre1.8.0_281")
+library('xlsx')
+library('sqldf')
+library('scales')
+source('divisions.R')
+source('Matchday.R')
+
+
+first_df <- E0_rounds[E0_rounds$e0_matchday >= 24,]
+second_df <- E1_rounds[E1_rounds$e1_matchday >=35,]
+
+first_df <- first_df[,-37]
+second_df <- second_df[,-37]
+
+FACUP <- rbind(first_df,second_df)
+#goaltotals v2
+facup_goaltotalsv2 <- tapply(FACUP$TG, FACUP[c("HomeTeam", "AwayTeam")],mean)
+facup_hgtotals <- rowSums(facup_goaltotalsv2, na.rm = T)
+facup_agtotals <- colSums(facup_goaltotalsv2, na.rm = T)
+facup_goaltotalsv2 <- cbind(facup_goaltotalsv2,facup_hgtotals,facup_agtotals)
+facup_totalgoals <- facup_hgtotals + facup_agtotals
+facup_goaltotalsv2 <- cbind(facup_goaltotalsv2,facup_totalgoals)
+facup_teams <- sort(unique(FACUP$HomeTeam))
+facup_home_games <- c()
+facup_away_games <-c()
+for (i_facup in 1:length(facup_teams))
+{
+
+  facup_home_games[i_facup] <- nrow(FACUP[FACUP$HomeTeam == facup_teams[i_facup],])
+  facup_away_games[i_facup]  <- nrow(FACUP[FACUP$AwayTeam == facup_teams[i_facup],])
+
+}
+facup_games_played <- facup_home_games + facup_away_games
+facup_goaltotalsv2 <- cbind(facup_goaltotalsv2,facup_games_played)
+facup_avg_totalgoals <- round((facup_totalgoals/ facup_games_played), digits = 4)
+facup_goaltotalsv2[is.na(facup_goaltotalsv2)] <- ""
+facup_goaltotalsv2 <- cbind(facup_goaltotalsv2,facup_avg_totalgoals)
+############################################################################################################
+#Cornertotals v2
+facup_cornertotalsv2 <- tapply(FACUP$TC, FACUP[c("HomeTeam", "AwayTeam")],mean)
+facup_hcototals <- rowSums(facup_cornertotalsv2, na.rm = T)
+facup_acototals <- colSums(facup_cornertotalsv2, na.rm = T)
+facup_cornertotalsv2 <- cbind(facup_cornertotalsv2,facup_hcototals,facup_acototals)
+facup_totalcorners <- facup_hcototals + facup_acototals
+facup_cornertotalsv2 <- cbind(facup_cornertotalsv2,facup_totalcorners)
+############################################################################################################
+#GS matrix
+facup_goalscored_h <- tapply(FACUP$FTHG, FACUP[c("HomeTeam", "Date")],mean)
+facup_goalscored_a <- tapply(FACUP$FTAG, FACUP[c("AwayTeam", "Date")],mean)
+facup_goalscored_h[is.na(facup_goalscored_h)] <- ""
+facup_goalscored_a[is.na(facup_goalscored_a)] <- ""
+for(facup_rowhgs in 1:nrow(facup_goalscored_h)) {
+  for(facup_colhgs in 1:ncol(facup_goalscored_h)) {
+
+    # print(my_matrix[row, col])
+    for(facup_rowags in 1:nrow(facup_goalscored_a)) {
+      for(facup_colags in 1:ncol(facup_goalscored_a)) {
+        ifelse(!facup_goalscored_a[facup_rowags,facup_colags]=="",facup_goalscored_h[facup_rowags,facup_colags] <- facup_goalscored_a[facup_rowags,facup_colags],next)
+        #print(my_matrix[row, col])
+      }
+    }
+
+  }
+}
+#############################################################################################################
+#Goal conceded matrix
+facup_goalconceded_h <- tapply(FACUP$FTAG, FACUP[c("HomeTeam", "Date")],mean)
+facup_goalconceded_a <- tapply(FACUP$FTHG, FACUP[c("AwayTeam", "Date")],mean)
+facup_goalconceded_h[is.na(facup_goalconceded_h)] <- ""
+facup_goalconceded_a[is.na(facup_goalconceded_a)] <- ""
+for(facup_rowhgc in 1:nrow(facup_goalconceded_h)) {
+  for(facup_colhgc in 1:ncol(facup_goalconceded_h)) {
+
+    # print(my_matrix[row, col])
+    for(facup_rowagc in 1:nrow(facup_goalconceded_a)) {
+      for(facup_colagc in 1:ncol(facup_goalconceded_a)) {
+        ifelse(!facup_goalconceded_a[facup_rowagc,facup_colagc]=="",facup_goalconceded_h[facup_rowagc,facup_colagc] <- facup_goalconceded_a[facup_rowagc,facup_colagc],next)
+        #print(my_matrix[row, col])
+      }
+    }
+
+  }
+}
+###############################################################################################################
+#corner matrix
+facup_totalcorners_h <- tapply(FACUP$TC, FACUP[c("HomeTeam", "Date")],mean)
+facup_totalcorners_a <- tapply(FACUP$TC, FACUP[c("AwayTeam", "Date")],mean)
+facup_totalcorners_h[is.na(facup_totalcorners_h)] <- ""
+facup_totalcorners_a[is.na(facup_totalcorners_a)] <- ""
+#FACUP
+for(facup_rowTC in 1:nrow(facup_totalcorners_h)) {
+  for(facup_colTC in 1:ncol(facup_totalcorners_h)) {
+
+    # print(my_matrix[row, col])
+    for(facup_rowTC in 1:nrow(facup_totalcorners_a)) {
+      for(facup_colTC in 1:ncol(facup_totalcorners_a)) {
+        ifelse(!facup_totalcorners_a[facup_rowTC,facup_colTC]=="",facup_totalcorners_h[facup_rowTC,facup_colTC] <- facup_totalcorners_a[facup_rowTC,facup_colTC],next)
+        #print(my_matrix[row, col])
+      }
+    }
+
+  }
+}
+###################################################################################################################################
+#corners awarded
+facup_coawarded_h <- tapply(FACUP$HCO, FACUP[c("HomeTeam", "Date")],mean)
+facup_coawarded_a <- tapply(FACUP$ACO, FACUP[c("AwayTeam", "Date")],mean)
+facup_coawarded_h[is.na(facup_coawarded_h)] <- ""
+facup_coawarded_a[is.na(facup_coawarded_a)] <- ""
+#FACUP
+for(facup_rowhco in 1:nrow(facup_coawarded_h)) {
+  for(facup_colhco in 1:ncol(facup_coawarded_h)) {
+
+    # print(my_matrix[row, col])
+    for(facup_rowaco in 1:nrow(facup_coawarded_a)) {
+      for(facup_colaco in 1:ncol(facup_coawarded_a)) {
+        ifelse(!facup_coawarded_a[facup_rowaco,facup_colaco]=="",facup_coawarded_h[facup_rowaco,facup_colaco] <- facup_coawarded_a[facup_rowaco,facup_colaco],next)
+        #print(my_matrix[row, col])
+      }
+    }
+
+  }
+}
+#######################################################################################################################################
+#corners conceded
+facup_cornersconceded_h <- tapply(FACUP$ACO, FACUP[c("HomeTeam", "Date")],mean)
+facup_cornersconceded_a <- tapply(FACUP$HCO, FACUP[c("AwayTeam", "Date")],mean)
+facup_cornersconceded_h[is.na(facup_cornersconceded_h)] <- ""
+facup_cornersconceded_a[is.na(facup_cornersconceded_a)] <- ""
+#FACUP
+for(facup_rowhcc in 1:nrow(facup_cornersconceded_h)) {
+  for(facup_colhcc in 1:ncol(facup_cornersconceded_h)) {
+
+    # print(my_matrix[row, col])
+    for(facup_rowacc in 1:nrow(facup_cornersconceded_a)) {
+      for(facup_colacc in 1:ncol(facup_cornersconceded_a)) {
+        ifelse(!facup_cornersconceded_a[facup_rowacc,facup_colacc]=="",facup_cornersconceded_h[facup_rowacc,facup_colacc] <- facup_cornersconceded_a[facup_rowacc,facup_colacc],next)
+        #print(my_matrix[row, col])
+      }
+    }
+
+  }
+}
+############################################################################################################################################
+#corners form
+#create home and away coscform matrices
+facup_coscform_h <- tapply(FACUP$COSC, FACUP[c("HomeTeam", "Date")],median)
+facup_coscform_a <- tapply(FACUP$COSC, FACUP[c("AwayTeam", "Date")],median)
+facup_coscform_h[is.na(facup_coscform_h)] <- ""
+facup_coscform_a[is.na(facup_coscform_a)] <- ""
+#FACUP
+for(facup_rowh_f_cosc in 1:nrow(facup_coscform_h)) {
+  for(facup_colh_f_cosc in 1:ncol(facup_coscform_h)) {
+
+    # print(my_matrix[row, col])
+    for(facup_rowa_f_cosc in 1:nrow(facup_coscform_a)) {
+      for(facup_cola_f_cosc in 1:ncol(facup_coscform_a)) {
+        ifelse(!facup_coscform_a[facup_rowa_f_cosc,facup_cola_f_cosc]=="",facup_coscform_h[facup_rowa_f_cosc,facup_cola_f_cosc] <- facup_coscform_a[facup_rowa_f_cosc,facup_cola_f_cosc],next)
+        #print(my_matrix[row, col])
+      }
+    }
+
+  }
+}
+################################################################################################################################################
+#winmargin
+facup_winmargin_h <- tapply(FACUP$FTHG - FACUP$FTAG, FACUP[c("HomeTeam", "Date")],mean)
+facup_winmargin_a <- tapply(FACUP$FTAG - FACUP$FTHG, FACUP[c("AwayTeam", "Date")],mean)
+facup_winmargin_h[is.na(facup_winmargin_h)] <- ""
+facup_winmargin_a[is.na(facup_winmargin_a)] <- ""
+#FACUP
+for(facup_rowhwm in 1:nrow(facup_winmargin_h)) {
+  for(facup_colhwm in 1:ncol(facup_winmargin_h)) {
+
+    # print(my_matrix[row, col])
+    for(facup_rowawm in 1:nrow(facup_winmargin_a)) {
+      for(facup_colawm in 1:ncol(facup_winmargin_a)) {
+        ifelse(!facup_winmargin_a[facup_rowawm,facup_colawm]=="",facup_winmargin_h[facup_rowawm,facup_colawm] <- facup_winmargin_a[facup_rowawm,facup_colawm],next)
+        #print(my_matrix[row, col])
+      }
+    }
+
+  }
+}
+#################################################################################################################################################
+#yellow card matrix
+facup_yellowscored_h <- tapply(FACUP$HY, FACUP[c("HomeTeam", "Date")],mean)
+facup_yellowscored_a <- tapply(FACUP$AY, FACUP[c("AwayTeam", "Date")],mean)
+facup_yellowscored_h[is.na(facup_yellowscored_h)] <- ""
+facup_yellowscored_a[is.na(facup_yellowscored_a)] <- ""
+#FACUP
+for(facup_rowhys in 1:nrow(facup_yellowscored_h)) {
+  for(facup_colhys in 1:ncol(facup_yellowscored_h)) {
+
+    # print(my_matrix[row, col])
+    for(facup_roways in 1:nrow(facup_yellowscored_a)) {
+      for(facup_colays in 1:ncol(facup_yellowscored_a)) {
+        ifelse(!facup_yellowscored_a[facup_roways,facup_colays]=="",facup_yellowscored_h[facup_roways,facup_colays] <- facup_yellowscored_a[facup_roways,facup_colays],next)
+        #print(my_matrix[row, col])
+      }
+    }
+
+  }
+}
+###############################################################################################################################################
+#red card matrix
+facup_redscored_h <- tapply(FACUP$HR, FACUP[c("HomeTeam", "Date")],mean)
+facup_redscored_a <- tapply(FACUP$AR, FACUP[c("AwayTeam", "Date")],mean)
+facup_redscored_h[is.na(facup_redscored_h)] <- ""
+facup_redscored_a[is.na(facup_redscored_a)] <- ""
+for(facup_rowhrs in 1:nrow(facup_redscored_h)) {
+  for(facup_colhrs in 1:ncol(facup_redscored_h)) {
+
+    # print(my_matrix[row, col])
+    for(facup_rowars in 1:nrow(facup_redscored_a)) {
+      for(facup_colars in 1:ncol(facup_redscored_a)) {
+        ifelse(!facup_redscored_a[facup_rowars,facup_colars]=="",facup_redscored_h[facup_rowars,facup_colars] <- facup_redscored_a[facup_rowars,facup_colars],next)
+        #print(my_matrix[row, col])
+      }
+    }
+
+  }
+}
+####################################################################################################################################################
+#red totals
+facup_redtotalsv2 <- tapply(FACUP$TR, FACUP[c("HomeTeam", "AwayTeam")],mean)
+facup_hrtotals <- rowSums(facup_redtotalsv2, na.rm = T)
+facup_artotals <- colSums(facup_redtotalsv2, na.rm = T)
+facup_redtotalsv2 <- cbind(facup_redtotalsv2,facup_hrtotals,facup_artotals)
+facup_totalreds <- facup_hrtotals + facup_artotals
+facup_redtotalsv2 <- cbind(facup_redtotalsv2,facup_totalreds)
+facup_redtotalsv2 <- cbind(facup_redtotalsv2,facup_games_played)
+facup_avg_totalreds <- round((facup_totalreds/ facup_games_played), digits = 4)
+facup_redtotalsv2[is.na(facup_redtotalsv2)] <- ""
+facup_redtotalsv2 <- cbind(facup_redtotalsv2,facup_avg_totalreds)
+############################################################################################################################################################
+#yellowtotals
+facup_yellowtotalsv2 <- tapply(FACUP$TY, FACUP[c("HomeTeam", "AwayTeam")],mean)
+facup_hytotals <- rowSums(facup_yellowtotalsv2, na.rm = T)
+facup_aytotals <- colSums(facup_yellowtotalsv2, na.rm = T)
+facup_yellowtotalsv2 <- cbind(facup_yellowtotalsv2,facup_hytotals,facup_aytotals)
+facup_totalyellows <- facup_hytotals + facup_aytotals
+facup_yellowtotalsv2 <- cbind(facup_yellowtotalsv2,facup_totalyellows)
+facup_yellowtotalsv2 <- cbind(facup_yellowtotalsv2,facup_games_played)
+facup_avg_totalyellows <- round((facup_totalyellows/ facup_games_played), digits = 4)
+facup_yellowtotalsv2[is.na(facup_yellowtotalsv2)] <- ""
+facup_yellowtotalsv2 <- cbind(facup_yellowtotalsv2,facup_avg_totalyellows)
+##################################################################################################################################################
+#team form
+facup_form_h <- tapply(FACUP$FTR, FACUP[c("HomeTeam", "Date")],median)
+facup_form_a <- tapply(FACUP$FTR, FACUP[c("AwayTeam", "Date")],median)
+facup_form_h[is.na(facup_form_h)] <- ""
+facup_form_a[is.na(facup_form_a)] <- ""
+facup_form_h <- sub("A","L",facup_form_h)
+facup_form_h <- sub("H","W",facup_form_h)
+facup_form_a <- sub("A","W",facup_form_a)
+facup_form_a <- sub("H","L",facup_form_a)
+for(facup_rowh_f in 1:nrow(facup_form_h)) {
+  for(facup_colh_f in 1:ncol(facup_form_h)) {
+
+    # print(my_matrix[row, col])
+    for(facup_rowa_f in 1:nrow(facup_form_a)) {
+      for(facup_cola_f in 1:ncol(facup_form_a)) {
+        ifelse(!facup_form_a[facup_rowa_f,facup_cola_f]=="",facup_form_h[facup_rowa_f,facup_cola_f] <- facup_form_a[facup_rowa_f,facup_cola_f],next)
+        #print(my_matrix[row, col])
+      }
+    }
+
+  }
+}
+###########################################################################################################################################
+#CS form
+facup_csform_h <- tapply(FACUP$CS, FACUP[c("HomeTeam", "Date")],median)
+facup_csform_a <- tapply(FACUP$CS, FACUP[c("AwayTeam", "Date")],median)
+facup_csform_h[is.na(facup_csform_h)] <- ""
+facup_csform_a[is.na(facup_csform_a)] <- ""
+#FACUP
+for(facup_rowh_f_cs in 1:nrow(facup_csform_h)) {
+  for(facup_colh_f_cs in 1:ncol(facup_csform_h)) {
+
+    # print(my_matrix[row, col])
+    for(facup_rowa_f_cs in 1:nrow(facup_csform_a)) {
+      for(facup_cola_f_cs in 1:ncol(facup_csform_a)) {
+        ifelse(!facup_csform_a[facup_rowa_f_cs,facup_cola_f_cs]=="",facup_csform_h[facup_rowa_f_cs,facup_cola_f_cs] <- facup_csform_a[facup_rowa_f_cs,facup_cola_f_cs],next)
+        #print(my_matrix[row, col])
+      }
+    }
+
+  }
+}
+####################################################################################################################################
+#TG matrix
+facup_totalgoals_h <- tapply(FACUP$TG, FACUP[c("HomeTeam", "Date")],mean)
+facup_totalgoals_a <- tapply(FACUP$TG, FACUP[c("AwayTeam", "Date")],mean)
+facup_totalgoals_h[is.na(facup_totalgoals_h)] <- ""
+facup_totalgoals_a[is.na(facup_totalgoals_a)] <- ""
+for(facup_rowh in 1:nrow(facup_totalgoals_h)) {
+  for(facup_colh in 1:ncol(facup_totalgoals_h)) {
+
+    # print(my_matrix[row, col])
+    for(facup_rowa in 1:nrow(facup_totalgoals_a)) {
+      for(facup_cola in 1:ncol(facup_totalgoals_a)) {
+        ifelse(!facup_totalgoals_a[facup_rowa,facup_cola]=="",facup_totalgoals_h[facup_rowa,facup_cola] <- facup_totalgoals_a[facup_rowa,facup_cola],next)
+        #print(my_matrix[row, col])
+      }
+    }
+
+  }
+}
+##############################################################################################################
+#Totalgoals
+#FACUP
+facup_un05_home <- c()
+facup_un05_away <- c()
+facup_ov05_home <- c()
+facup_ov05_away <- c()
+
+facup_un15_home <- c()
+facup_un15_away <- c()
+facup_ov15_home <- c()
+facup_ov15_away <- c()
+
+facup_un25_home <- c()
+facup_un25_away <- c()
+facup_ov25_home <- c()
+facup_ov25_away <- c()
+
+facup_un35_home <- c()
+facup_un35_away <- c()
+facup_ov35_home <- c()
+facup_ov35_away <- c()
+
+facup_un45_home <- c()
+facup_un45_away <- c()
+facup_ov45_home <- c()
+facup_ov45_away <- c()
+
+facup_un55_home <- c()
+facup_un55_away <- c()
+facup_ov55_home <- c()
+facup_ov55_away <- c()
+
+for (i_facup_tg in 1:length(facup_teams))
+{
+
+  facup_un05_home[i_facup_tg] <- nrow(FACUP[FACUP$HomeTeam == facup_teams[i_facup_tg] & FACUP$TG == 0,])
+  facup_un05_away[i_facup_tg] <- nrow(FACUP[FACUP$AwayTeam == facup_teams[i_facup_tg] & FACUP$TG == 0,])
+
+  facup_ov05_home[i_facup_tg] <- nrow(FACUP[FACUP$HomeTeam == facup_teams[i_facup_tg] & FACUP$TG > 0,])
+  facup_ov05_away[i_facup_tg] <- nrow(FACUP[FACUP$AwayTeam == facup_teams[i_facup_tg] & FACUP$TG > 0,])
+
+  facup_un15_home[i_facup_tg] <- nrow(FACUP[FACUP$HomeTeam == facup_teams[i_facup_tg] & FACUP$TG <= 1,])
+  facup_un15_away[i_facup_tg] <- nrow(FACUP[FACUP$AwayTeam == facup_teams[i_facup_tg] & FACUP$TG <= 1,])
+
+  facup_ov15_home[i_facup_tg] <- nrow(FACUP[FACUP$HomeTeam == facup_teams[i_facup_tg] & FACUP$TG >= 2,])
+  facup_ov15_away[i_facup_tg] <- nrow(FACUP[FACUP$AwayTeam == facup_teams[i_facup_tg] & FACUP$TG >= 2,])
+
+  facup_un25_home[i_facup_tg] <- nrow(FACUP[FACUP$HomeTeam == facup_teams[i_facup_tg] & FACUP$TG <= 2,])
+  facup_un25_away[i_facup_tg] <- nrow(FACUP[FACUP$AwayTeam == facup_teams[i_facup_tg] & FACUP$TG <= 2,])
+
+  facup_ov25_home[i_facup_tg] <- nrow(FACUP[FACUP$HomeTeam == facup_teams[i_facup_tg] & FACUP$TG >=3,])
+  facup_ov25_away[i_facup_tg] <- nrow(FACUP[FACUP$AwayTeam == facup_teams[i_facup_tg] & FACUP$TG >=3,])
+
+  facup_un35_home[i_facup_tg] <- nrow(FACUP[FACUP$HomeTeam == facup_teams[i_facup_tg] & FACUP$TG <= 3,])
+  facup_un35_away[i_facup_tg] <- nrow(FACUP[FACUP$AwayTeam == facup_teams[i_facup_tg] & FACUP$TG <= 3,])
+
+  facup_ov35_home[i_facup_tg] <- nrow(FACUP[FACUP$HomeTeam == facup_teams[i_facup_tg] & FACUP$TG >= 4,])
+  facup_ov35_away[i_facup_tg] <- nrow(FACUP[FACUP$AwayTeam == facup_teams[i_facup_tg] & FACUP$TG >= 4,])
+
+  facup_un45_home[i_facup_tg] <- nrow(FACUP[FACUP$HomeTeam == facup_teams[i_facup_tg] & FACUP$TG <= 4,])
+  facup_un45_away[i_facup_tg] <- nrow(FACUP[FACUP$AwayTeam == facup_teams[i_facup_tg] & FACUP$TG <= 4,])
+
+  facup_ov45_home[i_facup_tg] <- nrow(FACUP[FACUP$HomeTeam == facup_teams[i_facup_tg] & FACUP$TG >= 5,])
+  facup_ov45_away[i_facup_tg] <- nrow(FACUP[FACUP$AwayTeam == facup_teams[i_facup_tg] & FACUP$TG >= 5,])
+
+  facup_un55_home[i_facup_tg] <- nrow(FACUP[FACUP$HomeTeam == facup_teams[i_facup_tg] & FACUP$TG <= 5,])
+  facup_un55_away[i_facup_tg] <- nrow(FACUP[FACUP$AwayTeam == facup_teams[i_facup_tg] & FACUP$TG <= 5,])
+
+  facup_ov55_home[i_facup_tg] <- nrow(FACUP[FACUP$HomeTeam == facup_teams[i_facup_tg] & FACUP$TG >= 6,])
+  facup_ov55_away[i_facup_tg] <- nrow(FACUP[FACUP$AwayTeam == facup_teams[i_facup_tg] & FACUP$TG >= 6,])
+
+
+}
+
+facup_un05 <- facup_un05_home + facup_un05_away
+facup_ov05 <- facup_ov05_home + facup_ov05_away
+
+facup_un15 <- facup_un15_home + facup_un15_away
+facup_ov15 <- facup_ov15_home + facup_ov15_away
+
+facup_un25 <- facup_un25_home + facup_un25_away
+facup_ov25 <- facup_ov25_home + facup_ov25_away
+
+facup_un35 <- facup_un35_home + facup_un35_away
+facup_ov35 <- facup_ov35_home + facup_ov35_away
+
+facup_un45 <- facup_un45_home + facup_un45_away
+facup_ov45 <- facup_ov45_home + facup_ov45_away
+
+facup_un55 <- facup_un55_home + facup_un55_away
+facup_ov55 <- facup_ov55_home + facup_ov55_away
+
+facup_ovundata <- cbind(facup_teams,facup_un05,facup_ov05,facup_un15,facup_ov15,facup_un25,facup_ov25,facup_un35,facup_ov35,facup_un45,facup_ov45,facup_un55,facup_ov55)
+#################################################################################################################################################################
+#team against
+facup_form_team_against_h <- tapply(FACUP$AwayTeam, FACUP[c("HomeTeam", "Date")],median)
+facup_form_team_against_a <- tapply(FACUP$HomeTeam, FACUP[c("AwayTeam", "Date")],median)
+facup_form_team_against_h[is.na(facup_form_team_against_h)] <- ""
+facup_form_team_against_a[is.na(facup_form_team_against_a)] <- ""
+#FACUP
+for(facup_rowh_f_against in 1:nrow(facup_form_team_against_h)) {
+  for(facup_colh_f_against in 1:ncol(facup_form_team_against_h)) {
+
+    # print(my_matrix[row, col])
+    for(facup_rowa_f_against in 1:nrow(facup_form_team_against_a)) {
+      for(facup_cola_f_against in 1:ncol(facup_form_team_against_a)) {
+        ifelse(!facup_form_team_against_a[facup_rowa_f_against,facup_cola_f_against]=="",facup_form_team_against_h[facup_rowa_f_against,facup_cola_f_against] <- facup_form_team_against_a[facup_rowa_f_against,facup_cola_f_against],next)
+        #print(my_matrix[row, col])
+      }
+    }
+
+  }
+}
+###############################################################################################################################################3
+#shotsanalysis
+#FACUP
+#home goals scored
+facup_home_gs <- aggregate(FACUP$FTHG, by = list(FACUP$HomeTeam), FUN = sum)
+facup_home_gs_avg <- aggregate(FACUP$FTHG, by = list(FACUP$HomeTeam),mean)
+facup_home_scoring <- merge(facup_home_gs,facup_home_gs_avg, by='Group.1',all = T)
+names(facup_home_scoring)[names(facup_home_scoring) == "x.x"] <- "TFthg"
+names(facup_home_scoring)[names(facup_home_scoring) == "x.y"] <- "Avg_Fthg"
+#away goals scored
+facup_away_gs <- aggregate(FACUP$FTAG, by = list(FACUP$AwayTeam), FUN = sum)
+facup_away_gs_avg <- aggregate(FACUP$FTAG, by = list(FACUP$AwayTeam),mean)
+facup_away_scoring <- merge(facup_away_gs,facup_away_gs_avg, by='Group.1',all = T)
+names(facup_away_scoring)[names(facup_away_scoring) == "x.x"] <- "TFtag"
+names(facup_away_scoring)[names(facup_away_scoring) == "x.y"] <- "Avg_Ftag"
+#total goals scored
+facup_scoring <- merge(facup_home_scoring,facup_away_scoring,by='Group.1',all = T)
+facup_scoring$TGS <- facup_scoring$TFthg + facup_scoring$TFtag
+
+#Home shots on target
+facup_home_hst <- aggregate(FACUP$HST, by = list(FACUP$HomeTeam), FUN = sum)
+facup_away_ast <- aggregate(FACUP$AST, by = list(FACUP$AwayTeam), FUN = sum)
+facup_tst <- merge(facup_home_hst,facup_away_ast, by='Group.1',all = T)
+names(facup_tst)[names(facup_tst) == "x.x"] <- "hst"
+names(facup_tst)[names(facup_tst) == "x.y"] <- "ast"
+facup_tst$TST <- facup_tst$hst + facup_tst$ast
+#merge goals scored and shots on target
+facup_scoring_conversion <- merge(facup_tst,facup_scoring,by='Group.1',all = T)
+#add HSC ASC TSC
+facup_scoring_conversion$HSTC <- percent(facup_scoring_conversion$TFthg/facup_scoring_conversion$hst, accuracy = 0.01)
+facup_scoring_conversion$ASTC <- percent(facup_scoring_conversion$TFtag/facup_scoring_conversion$ast, accuracy = 0.01)
+facup_scoring_conversion$TSTC <- percent(facup_scoring_conversion$TGS/facup_scoring_conversion$TST, accuracy = 0.01)
+#merge games played
+facup_scoring_conversion <- cbind(facup_scoring_conversion,facup_games_played)
+#create the second part
+#home goals conceded
+facup_home_gc <- aggregate(FACUP$FTAG, by = list(FACUP$HomeTeam), FUN = sum)
+facup_home_gc_avg <- aggregate(FACUP$FTAG, by = list(FACUP$HomeTeam),mean)
+facup_home_conceding <- merge(facup_home_gc,facup_home_gc_avg, by='Group.1',all = T)
+names(facup_home_conceding)[names(facup_home_conceding) == "x.x"] <- "TFthc"
+names(facup_home_conceding)[names(facup_home_conceding) == "x.y"] <- "Avg_Fthc"
+#away goals conceded
+facup_away_gc <- aggregate(FACUP$FTHG, by = list(FACUP$AwayTeam), FUN = sum)
+facup_away_gc_avg <- aggregate(FACUP$FTHG, by = list(FACUP$AwayTeam),mean)
+facup_away_conceding <- merge(facup_away_gc,facup_away_gc_avg, by='Group.1',all = T)
+names(facup_away_conceding)[names(facup_away_conceding) == "x.x"] <- "TFtac"
+names(facup_away_conceding)[names(facup_away_conceding) == "x.y"] <- "Avg_Ftac"
+#total goals conceded
+facup_conceding <- merge(facup_home_conceding,facup_away_conceding,by='Group.1',all = T)
+facup_conceding$TGC <- facup_conceding$TFthc + facup_conceding$TFtac
+facup_home_hst
+#Home shots conceded
+facup_home_hsc <- aggregate(FACUP$AST, by = list(FACUP$HomeTeam), FUN = sum)
+facup_away_asc <- aggregate(FACUP$HST, by = list(FACUP$AwayTeam), FUN = sum)
+facup_tsc <- merge(facup_home_hsc,facup_away_asc, by='Group.1',all = T)
+names(facup_tsc)[names(facup_tsc) == "x.x"] <- "hsc"
+names(facup_tsc)[names(facup_tsc) == "x.y"] <- "asc"
+facup_tsc$TSC <- facup_tsc$hsc + facup_tsc$asc
+#merge goals conceded and shots conceded
+facup_conceding_conversion <- merge(facup_tsc,facup_conceding,by='Group.1',all = T)
+
+#add HSC ASC TSC
+facup_conceding_conversion$HSCC <- percent(facup_conceding_conversion$TFthc/facup_conceding_conversion$hsc, accuracy = 0.01)
+facup_conceding_conversion$ASCC <- percent(facup_conceding_conversion$TFtac/facup_conceding_conversion$asc, accuracy = 0.01)
+facup_conceding_conversion$TSCC <- percent(facup_conceding_conversion$TGC/facup_conceding_conversion$TSC, accuracy = 0.01)
+facup_conceding_conversion$XSTC <- round(facup_scoring$TGS/(facup_tst$TST - facup_scoring$TGS), digits = 2)
+
+#merge the two parts
+facup_shots_analysis <- merge(facup_scoring_conversion,facup_conceding_conversion,by='Group.1',all = T)
+#####################################################################################################################################
+#fouls analysis
+#FACUP
+#home fouls for
+facup_home_fouls <- aggregate(FACUP$HF, by = list(FACUP$HomeTeam), FUN = sum)
+facup_home_fouls_avg <- aggregate(FACUP$HF, by = list(FACUP$HomeTeam),mean)
+facup_home_foulsdata <- merge(facup_home_fouls,facup_home_fouls_avg, by='Group.1',all = T)
+names(facup_home_foulsdata)[names(facup_home_foulsdata) == "x.x"] <- "THfouls"
+names(facup_home_foulsdata)[names(facup_home_foulsdata) == "x.y"] <- "Avg_FTHfouls"
+#away fouls for
+facup_away_fouls <- aggregate(FACUP$HF, by = list(FACUP$AwayTeam), FUN = sum)
+facup_away_fouls_avg <- aggregate(FACUP$HF, by = list(FACUP$AwayTeam),mean)
+facup_away_foulsdata <- merge(facup_away_fouls,facup_away_fouls_avg, by='Group.1',all = T)
+names(facup_away_foulsdata)[names(facup_away_foulsdata) == "x.x"] <- "TAfouls"
+names(facup_away_foulsdata)[names(facup_away_foulsdata) == "x.y"] <- "Avg_FTAfouls"
+#total fouls for
+facup_fouls <- merge(facup_home_foulsdata,facup_away_foulsdata,by='Group.1',all = T)
+facup_fouls$TotalFouls <- facup_fouls$THfouls + facup_fouls$TAfouls
+
+#yellow cards
+facup_home_hyc <- aggregate(FACUP$HY, by = list(FACUP$HomeTeam), FUN = sum)
+facup_away_ayc <- aggregate(FACUP$AY, by = list(FACUP$AwayTeam), FUN = sum)
+facup_tyc <- merge(facup_home_hyc,facup_away_ayc, by='Group.1',all = T)
+names(facup_tyc)[names(facup_tyc) == "x.x"] <- "hyc"
+names(facup_tyc)[names(facup_tyc) == "x.y"] <- "ayc"
+facup_tyc$TotalYellows <- facup_tyc$hyc + facup_tyc$ayc
+
+#merge fouls for and yellow cards
+facup_fouls_conversion <- merge(facup_tyc,facup_fouls,by='Group.1',all = T)
+facup_fouls_conversion$YcPerfoul <- round((facup_fouls_conversion$TotalYellows/facup_fouls_conversion$TotalFouls), digits = 2)
+##################################################################################################################################################
+##
+#make div form uniform in entire data frame
+FACUP$Div <- "FACUP"
+##
+###################################################################################################################################################
+#poisson cards
+facup_GP <- nrow(FACUP)
+#Calculate total home goals for each division
+facup_T_HY <- sum(facup_home_hyc$x)
+#calculate average home goal
+facup_avg_HY <- round(facup_T_HY /facup_GP, digits = 4)
+############################################################
+#Calculate total away goals for each division
+facup_T_AY <- sum(facup_away_ayc$x)
+#calculate average away goal
+facup_avg_AY <- round(facup_T_AY /facup_GP, digits = 4)
+#get total home goals and total home games played for each division
+#calculate home attack strength
+facup_home_yas <- round(((facup_home_hyc$x/facup_home_games))/facup_avg_HY, digits = 4)
+#calculate away attack strength
+facup_away_yas <- round(((facup_away_ayc$x/facup_away_games))/facup_avg_AY, digits = 4)
+################################################################################
+#get average home concede and away concede
+facup_avg_HYC <- round(facup_T_AY /facup_GP, digits = 4)
+#avg away concede
+facup_avg_AYC <- round(facup_T_HY /facup_GP, digits = 4)
+#calculate home and away defense strength
+#home yellow cards conceded
+facup_home_ycc <- aggregate(FACUP$AY, by = list(FACUP$HomeTeam), FUN = sum)
+facup_away_ycc <- aggregate(FACUP$HY, by = list(FACUP$AwayTeam), FUN = sum)
+#home defense strength
+facup_home_yds <- round(((facup_home_ycc$x/facup_home_games))/facup_avg_HYC, digits = 4)
+#away defense strength
+facup_away_yds <- round(((facup_away_ycc$x/facup_away_games))/facup_avg_AYC, digits = 4)
+#############################################################################
+#home poisson data
+#facup
+facup_division <- c()
+facup_division[1:length(facup_teams)] <- "FACUP"
+facup_home_poisson_yc <- cbind(facup_division,facup_teams,facup_avg_HY,facup_home_yas,facup_home_yds)
+#away poisson data
+facup_division <- c()
+facup_division[1:length(facup_teams)] <- "FACUP"
+facup_away_poisson_yc <- cbind(facup_division,facup_teams,facup_avg_AY,facup_away_yas,facup_away_yds)
+###
+HomeTeam_facup_yc <- rep(facup_teams, each = length(facup_teams))
+AwayTeam_facup_yc <- rep(facup_teams, length(facup_teams))
+FACUP_fixtures_yc <- cbind(HomeTeam_facup_yc,AwayTeam_facup_yc)
+FACUP_fixtures_yc <- as.data.frame(FACUP_fixtures_yc)
+FACUP_fixtures_yc <- FACUP_fixtures_yc[!FACUP_fixtures_yc$HomeTeam_facup_yc == FACUP_fixtures_yc$AwayTeam_facup_yc,]
+rownames(FACUP_fixtures_yc) <- NULL
+FACUP_fixtures_yc$Div <- "FACUP"
+FACUP_fixtures_yc <- FACUP_fixtures_yc[,c(3,1,2)]
+
+FACUP_fixtures_yc$avg_HY_facup <- facup_avg_HY
+
+FACUP_fixtures_yc$facup_homeyas <- rep(facup_home_yas,each = length(facup_teams)-1)
+
+facup_awayyds_lookup <- cbind(facup_teams,facup_away_yds)
+
+facup_awayyds_lookup <- as.data.frame(facup_awayyds_lookup)
+
+colnames(facup_awayyds_lookup) <- c("AwayTeam_facup_yc","facup_awayyds")
+
+
+require('RH2')
+FACUP_fixtures_yc$facup_awayyds <- sqldf("SELECT facup_awayyds_lookup.facup_awayyds FROM facup_awayyds_lookup INNER JOIN FACUP_fixtures_yc ON facup_awayyds_lookup.AwayTeam_facup_yc = FACUP_fixtures_yc.AwayTeam_facup_yc")
+
+FACUP_fixtures_yc$avg_AY_facup <- facup_avg_AY
+
+facup_awayyas_lookup <- cbind(facup_teams,facup_away_yas)
+
+facup_awayyas_lookup <- as.data.frame(facup_awayyas_lookup)
+
+colnames(facup_awayyas_lookup) <- c("AwayTeam_facup_yc","facup_awayyas")
+
+FACUP_fixtures_yc$facup_awayyas <- sqldf("SELECT facup_awayyas_lookup.facup_awayyas FROM facup_awayyas_lookup INNER JOIN FACUP_fixtures_yc ON facup_awayyas_lookup.AwayTeam_facup_yc = FACUP_fixtures_yc.AwayTeam_facup_yc")
+
+FACUP_fixtures_yc$facup_homeyds <- rep(facup_home_yds,each = length(facup_teams)-1)
+
+FACUP_fixtures_yc$facup_awayyds <- as.numeric(unlist(FACUP_fixtures_yc$facup_awayyds))
+#xGH
+FACUP_fixtures_yc$facup_xHYC <- FACUP_fixtures_yc$avg_HY_facup * FACUP_fixtures_yc$facup_homeyas * FACUP_fixtures_yc$facup_awayyds
+#xGA
+
+FACUP_fixtures_yc$facup_awayyas <- as.numeric(unlist(FACUP_fixtures_yc$facup_awayyas))
+
+FACUP_fixtures_yc$facup_xAYC <- FACUP_fixtures_yc$avg_AY_facup * FACUP_fixtures_yc$facup_awayyas * FACUP_fixtures_yc$facup_homeyds
+
+FACUP_fixtures_yc$facup_0_0 <- round(stats::dpois(0,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(0,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_1_0 <- round(stats::dpois(1,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(0,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_0_1 <- round(stats::dpois(0,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(1,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_1_1 <- round(stats::dpois(1,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(1,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_2_0 <- round(stats::dpois(2,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(0,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_0_2 <- round(stats::dpois(0,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(2,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_2_2 <- round(stats::dpois(2,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(2,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_2_1 <- round(stats::dpois(2,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(1,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_1_2 <- round(stats::dpois(1,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(2,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_3_3 <- round(stats::dpois(3,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(3,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_3_0 <- round(stats::dpois(3,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(0,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_3_1 <- round(stats::dpois(3,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(1,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_3_2 <- round(stats::dpois(3,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(2,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_0_3 <- round(stats::dpois(0,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(3,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_1_3 <- round(stats::dpois(1,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(3,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_2_3 <- round(stats::dpois(2,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(3,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_4_4 <- round(stats::dpois(4,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(4,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_4_0 <- round(stats::dpois(4,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(0,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_4_1 <- round(stats::dpois(4,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(1,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_4_2 <- round(stats::dpois(4,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(2,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_4_3 <- round(stats::dpois(4,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(3,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_0_4 <- round(stats::dpois(0,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(4,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_1_4 <- round(stats::dpois(1,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(4,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_2_4 <- round(stats::dpois(2,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(4,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_3_4 <- round(stats::dpois(3,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(4,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_5_5 <- round(stats::dpois(5,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(5,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_5_0 <- round(stats::dpois(5,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(0,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_5_1 <- round(stats::dpois(5,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(1,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_5_2 <- round(stats::dpois(5,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(2,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_5_3 <- round(stats::dpois(5,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(3,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_5_4 <- round(stats::dpois(5,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(4,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_0_5 <- round(stats::dpois(0,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(5,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_1_5 <- round(stats::dpois(1,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(5,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_2_5 <- round(stats::dpois(2,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(5,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_3_5 <- round(stats::dpois(3,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(5,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_4_5 <- round(stats::dpois(4,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(5,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_6_6 <- round(stats::dpois(6,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(6,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_6_0 <- round(stats::dpois(6,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(0,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_6_1 <- round(stats::dpois(6,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(1,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_6_2 <- round(stats::dpois(6,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(2,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_6_3 <- round(stats::dpois(6,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(3,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_6_4 <- round(stats::dpois(6,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(4,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_6_5 <- round(stats::dpois(6,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(5,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_0_6 <- round(stats::dpois(0,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(6,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_1_6 <- round(stats::dpois(1,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(6,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_2_6 <- round(stats::dpois(2,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(6,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_3_6 <- round(stats::dpois(3,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(6,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_4_6 <- round(stats::dpois(4,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(6,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+FACUP_fixtures_yc$facup_5_6 <- round(stats::dpois(5,FACUP_fixtures_yc$facup_xHYC) * stats::dpois(6,FACUP_fixtures_yc$facup_xAYC), digits = 4)
+#Home win
+FACUP_fixtures_yc$facup_H <- (
+  FACUP_fixtures_yc$facup_1_0 + FACUP_fixtures_yc$facup_2_0 + FACUP_fixtures_yc$facup_2_1 + FACUP_fixtures_yc$facup_3_0 + FACUP_fixtures_yc$facup_3_1 +
+    FACUP_fixtures_yc$facup_3_2 + FACUP_fixtures_yc$facup_4_0 + FACUP_fixtures_yc$facup_4_1 + FACUP_fixtures_yc$facup_4_2 + FACUP_fixtures_yc$facup_4_3 +
+    FACUP_fixtures_yc$facup_5_0 + FACUP_fixtures_yc$facup_5_1 + FACUP_fixtures_yc$facup_5_2 + FACUP_fixtures_yc$facup_5_3 + FACUP_fixtures_yc$facup_5_4 +
+    FACUP_fixtures_yc$facup_6_0 + FACUP_fixtures_yc$facup_6_1 + FACUP_fixtures_yc$facup_6_2 + FACUP_fixtures_yc$facup_6_3 + FACUP_fixtures_yc$facup_6_4 +
+    FACUP_fixtures_yc$facup_6_5
+)
+
+FACUP_fixtures_yc$facup_H <- percent(FACUP_fixtures_yc$facup_H, accuracy = 0.1)
+
+#Draw
+FACUP_fixtures_yc$facup_D <- (
+
+  FACUP_fixtures_yc$facup_0_0 + FACUP_fixtures_yc$facup_1_1 + FACUP_fixtures_yc$facup_2_2 + FACUP_fixtures_yc$facup_3_3 + FACUP_fixtures_yc$facup_4_4 +
+    FACUP_fixtures_yc$facup_5_5 + FACUP_fixtures_yc$facup_6_6
+)
+
+FACUP_fixtures_yc$facup_D <- percent(FACUP_fixtures_yc$facup_D, accuracy = 0.1)
+
+#Away
+
+FACUP_fixtures_yc$facup_A <- (
+  FACUP_fixtures_yc$facup_0_1 + FACUP_fixtures_yc$facup_0_2 + FACUP_fixtures_yc$facup_1_2 + FACUP_fixtures_yc$facup_0_3 + FACUP_fixtures_yc$facup_1_3 +
+    FACUP_fixtures_yc$facup_2_3 + FACUP_fixtures_yc$facup_0_4 + FACUP_fixtures_yc$facup_1_4 + FACUP_fixtures_yc$facup_2_4 + FACUP_fixtures_yc$facup_3_4 +
+    FACUP_fixtures_yc$facup_0_5 + FACUP_fixtures_yc$facup_1_5 + FACUP_fixtures_yc$facup_2_5 + FACUP_fixtures_yc$facup_3_5 + FACUP_fixtures_yc$facup_4_5 +
+    FACUP_fixtures_yc$facup_0_6 + FACUP_fixtures_yc$facup_1_6 + FACUP_fixtures_yc$facup_2_6 + FACUP_fixtures_yc$facup_3_6 + FACUP_fixtures_yc$facup_4_6 +
+    FACUP_fixtures_yc$facup_5_6
+)
+
+FACUP_fixtures_yc$facup_A <- percent(FACUP_fixtures_yc$facup_A, accuracy = 0.1)
+
+#ov25
+FACUP_fixtures_yc$facup_ov25 <- (
+  FACUP_fixtures_yc$facup_2_1 + FACUP_fixtures_yc$facup_1_2 + FACUP_fixtures_yc$facup_2_2 + FACUP_fixtures_yc$facup_3_0 + FACUP_fixtures_yc$facup_3_1 +
+    FACUP_fixtures_yc$facup_3_2 + FACUP_fixtures_yc$facup_0_3 + FACUP_fixtures_yc$facup_1_3 + FACUP_fixtures_yc$facup_2_3 + FACUP_fixtures_yc$facup_3_3 +
+    FACUP_fixtures_yc$facup_4_0 + FACUP_fixtures_yc$facup_4_1 + FACUP_fixtures_yc$facup_4_2 + FACUP_fixtures_yc$facup_4_3 + FACUP_fixtures_yc$facup_0_4 +
+    FACUP_fixtures_yc$facup_1_4 + FACUP_fixtures_yc$facup_2_4 + FACUP_fixtures_yc$facup_3_4 + FACUP_fixtures_yc$facup_4_4 + FACUP_fixtures_yc$facup_5_0 +
+    FACUP_fixtures_yc$facup_5_1 + FACUP_fixtures_yc$facup_5_2 + FACUP_fixtures_yc$facup_5_3 + FACUP_fixtures_yc$facup_5_4 + FACUP_fixtures_yc$facup_0_5 +
+    FACUP_fixtures_yc$facup_1_5 + FACUP_fixtures_yc$facup_2_5 + FACUP_fixtures_yc$facup_3_5 + FACUP_fixtures_yc$facup_4_5 + FACUP_fixtures_yc$facup_5_5 +
+    FACUP_fixtures_yc$facup_6_0 + FACUP_fixtures_yc$facup_6_1 + FACUP_fixtures_yc$facup_6_2 + FACUP_fixtures_yc$facup_6_3 + FACUP_fixtures_yc$facup_6_4 +
+    FACUP_fixtures_yc$facup_6_5 + FACUP_fixtures_yc$facup_0_6 + FACUP_fixtures_yc$facup_1_6 + FACUP_fixtures_yc$facup_2_6 + FACUP_fixtures_yc$facup_3_6 +
+    FACUP_fixtures_yc$facup_4_6 + FACUP_fixtures_yc$facup_5_6 + FACUP_fixtures_yc$facup_6_6
+)
+#un25
+FACUP_fixtures_yc$facup_un25 <- (
+  FACUP_fixtures_yc$facup_0_0 + FACUP_fixtures_yc$facup_1_0 + FACUP_fixtures_yc$facup_0_1 + FACUP_fixtures_yc$facup_1_1 + FACUP_fixtures_yc$facup_2_0 + FACUP_fixtures_yc$facup_0_2
+)
+#odds
+FACUP_fixtures_yc$facup_ov25_odds <- round((1/FACUP_fixtures_yc$facup_ov25),digits = 2)
+FACUP_fixtures_yc$facup_un25_odds <- round((1/FACUP_fixtures_yc$facup_un25),digits = 2)
+
+FACUP_fixtures_yc$facup_ov25_odds
+FACUP_fixtures_yc$facup_un25_odds
+###############################################################################
+
+########Asian Handicaps######################################################################################################
+#percentages
+FACUP_fixtures_yc$facup_ov25 <- percent(FACUP_fixtures_yc$facup_ov25, accuracy = 0.1)
+
+FACUP_fixtures_yc$facup_un25 <- percent(FACUP_fixtures_yc$facup_un25, accuracy = 0.1)
+FACUP_fixtures_yc$facup_pscore <- paste(round(FACUP_fixtures_yc$facup_xHYC,digits = 0),round(FACUP_fixtures_yc$facup_xAYC,digits = 0),sep = "-")
+
+################################################################################################################################################################################
+#poisson corners
+facup_GP <- nrow(FACUP)
+#Calculate total home corners for each division
+facup_home_corners <- aggregate(FACUP$HCO, by = list(FACUP$HomeTeam), FUN = sum)
+facup_away_corners <- aggregate(FACUP$ACO, by = list(FACUP$AwayTeam), FUN = sum)
+###############################################################################
+facup_T_HCO <- sum(facup_home_corners$x)
+#calculate average home corners
+facup_avg_HCO <- round(facup_T_HCO /facup_GP, digits = 4)
+############################################################
+#Calculate total away goals for each division
+facup_T_ACO <- sum(facup_away_corners$x)
+#calculate average away goal
+facup_avg_ACO <- round(facup_T_ACO /facup_GP, digits = 4)
+#get total home goals and total home games played for each division
+#calculate home attack strength
+facup_home_coas <- round(((facup_home_corners$x/facup_home_games))/facup_avg_HCO, digits = 4)
+#calculate away attack strength
+facup_away_coas <- round(((facup_away_corners$x/facup_away_games))/facup_avg_ACO, digits = 4)
+################################################################################
+#get average home concede and away concede
+facup_avg_HCOC <- round(facup_T_ACO /facup_GP, digits = 4)
+#avg away concede
+facup_avg_ACOC <- round(facup_T_HCO /facup_GP, digits = 4)
+#calculate home and away defense strength
+#home corners conceded
+facup_home_coc <- aggregate(FACUP$ACO, by = list(FACUP$HomeTeam), FUN = sum)
+facup_away_coc <- aggregate(FACUP$HCO, by = list(FACUP$AwayTeam), FUN = sum)
+#home defense strength
+facup_home_cods <- round(((facup_home_coc$x/facup_home_games))/facup_avg_HCOC, digits = 4)
+#away defense strength
+facup_away_cods <- round(((facup_away_coc$x/facup_away_games))/facup_avg_ACOC, digits = 4)
+#############################################################################
+#home poisson data
+#facup
+facup_division <- c()
+facup_division[1:length(facup_teams)] <- "FACUP"
+facup_home_poisson_corners <- cbind(facup_division,facup_teams,facup_avg_HCO,facup_home_coas,facup_home_cods)
+#################################################################################
+#away poisson data
+#facup
+facup_division <- c()
+facup_division[1:length(facup_teams)] <- "FACUP"
+facup_away_poisson_corners <- cbind(facup_division,facup_teams,facup_avg_ACO,facup_away_coas,facup_away_cods)
+
+#FACUP
+HomeTeam_facup_co <- rep(facup_teams, each = length(facup_teams))
+AwayTeam_facup_co <- rep(facup_teams, length(facup_teams))
+FACUP_fixtures_co <- cbind(HomeTeam_facup_co,AwayTeam_facup_co)
+FACUP_fixtures_co <- as.data.frame(FACUP_fixtures_co)
+FACUP_fixtures_co <- FACUP_fixtures_co[!FACUP_fixtures_co$HomeTeam_facup_co == FACUP_fixtures_co$AwayTeam_facup_co,]
+rownames(FACUP_fixtures_co) <- NULL
+FACUP_fixtures_co$Div <- "FACUP"
+FACUP_fixtures_co <- FACUP_fixtures_co[,c(3,1,2)]
+
+FACUP_fixtures_co$avg_HCO_facup <- facup_avg_HCO
+
+FACUP_fixtures_co$facup_homecoas <- rep(facup_home_coas,each = length(facup_teams)-1)
+
+facup_awaycods_lookup <- cbind(facup_teams,facup_away_cods)
+
+facup_awaycods_lookup <- as.data.frame(facup_awaycods_lookup)
+
+colnames(facup_awaycods_lookup) <- c("AwayTeam_facup_co","facup_awaycods")
+
+
+require('RH2')
+FACUP_fixtures_co$facup_awaycods <- sqldf("SELECT facup_awaycods_lookup.facup_awaycods FROM facup_awaycods_lookup INNER JOIN FACUP_fixtures_co ON facup_awaycods_lookup.AwayTeam_facup_co = FACUP_fixtures_co.AwayTeam_facup_co")
+
+FACUP_fixtures_co$avg_ACO_facup <- facup_avg_ACO
+
+facup_awaycoas_lookup <- cbind(facup_teams,facup_away_coas)
+
+facup_awaycoas_lookup <- as.data.frame(facup_awaycoas_lookup)
+
+colnames(facup_awaycoas_lookup) <- c("AwayTeam_facup_co","facup_awaycoas")
+
+FACUP_fixtures_co$facup_awaycoas <- sqldf("SELECT facup_awaycoas_lookup.facup_awaycoas FROM facup_awaycoas_lookup INNER JOIN FACUP_fixtures_co ON facup_awaycoas_lookup.AwayTeam_facup_co = FACUP_fixtures_co.AwayTeam_facup_co")
+
+FACUP_fixtures_co$facup_homecods <- rep(facup_home_cods,each = length(facup_teams)-1)
+
+FACUP_fixtures_co$facup_awaycods <- as.numeric(unlist(FACUP_fixtures_co$facup_awaycods))
+#xGH
+FACUP_fixtures_co$facup_xHCOC <- FACUP_fixtures_co$avg_HCO_facup * FACUP_fixtures_co$facup_homecoas * FACUP_fixtures_co$facup_awaycods
+#xGA
+
+FACUP_fixtures_co$facup_awaycoas <- as.numeric(unlist(FACUP_fixtures_co$facup_awaycoas))
+
+FACUP_fixtures_co$facup_xACOC <- FACUP_fixtures_co$avg_ACO_facup * FACUP_fixtures_co$facup_awaycoas * FACUP_fixtures_co$facup_homecods
+
+FACUP_fixtures_co$facup_0_0 <- round(stats::dpois(0,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(0,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_1_0 <- round(stats::dpois(1,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(0,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_0_1 <- round(stats::dpois(0,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(1,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_1_1 <- round(stats::dpois(1,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(1,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_2_0 <- round(stats::dpois(2,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(0,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_0_2 <- round(stats::dpois(0,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(2,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_2_2 <- round(stats::dpois(2,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(2,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_2_1 <- round(stats::dpois(2,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(1,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_1_2 <- round(stats::dpois(1,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(2,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_3_3 <- round(stats::dpois(3,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(3,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_3_0 <- round(stats::dpois(3,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(0,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_3_1 <- round(stats::dpois(3,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(1,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_3_2 <- round(stats::dpois(3,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(2,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_0_3 <- round(stats::dpois(0,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(3,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_1_3 <- round(stats::dpois(1,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(3,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_2_3 <- round(stats::dpois(2,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(3,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_4_4 <- round(stats::dpois(4,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(4,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_4_0 <- round(stats::dpois(4,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(0,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_4_1 <- round(stats::dpois(4,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(1,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_4_2 <- round(stats::dpois(4,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(2,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_4_3 <- round(stats::dpois(4,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(3,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_0_4 <- round(stats::dpois(0,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(4,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_1_4 <- round(stats::dpois(1,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(4,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_2_4 <- round(stats::dpois(2,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(4,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_3_4 <- round(stats::dpois(3,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(4,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_5_5 <- round(stats::dpois(5,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(5,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_5_0 <- round(stats::dpois(5,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(0,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_5_1 <- round(stats::dpois(5,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(1,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_5_2 <- round(stats::dpois(5,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(2,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_5_3 <- round(stats::dpois(5,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(3,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_5_4 <- round(stats::dpois(5,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(4,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_0_5 <- round(stats::dpois(0,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(5,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_1_5 <- round(stats::dpois(1,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(5,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_2_5 <- round(stats::dpois(2,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(5,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_3_5 <- round(stats::dpois(3,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(5,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_4_5 <- round(stats::dpois(4,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(5,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_6_6 <- round(stats::dpois(6,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(6,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_6_0 <- round(stats::dpois(6,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(0,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_6_1 <- round(stats::dpois(6,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(1,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_6_2 <- round(stats::dpois(6,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(2,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_6_3 <- round(stats::dpois(6,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(3,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_6_4 <- round(stats::dpois(6,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(4,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_6_5 <- round(stats::dpois(6,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(5,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_0_6 <- round(stats::dpois(0,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(6,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_1_6 <- round(stats::dpois(1,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(6,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_2_6 <- round(stats::dpois(2,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(6,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_3_6 <- round(stats::dpois(3,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(6,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_4_6 <- round(stats::dpois(4,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(6,FACUP_fixtures_co$facup_xACOC), digits = 4)
+FACUP_fixtures_co$facup_5_6 <- round(stats::dpois(5,FACUP_fixtures_co$facup_xHCOC) * stats::dpois(6,FACUP_fixtures_co$facup_xACOC), digits = 4)
+#Home win
+FACUP_fixtures_co$facup_H <- (
+  FACUP_fixtures_co$facup_1_0 + FACUP_fixtures_co$facup_2_0 + FACUP_fixtures_co$facup_2_1 + FACUP_fixtures_co$facup_3_0 + FACUP_fixtures_co$facup_3_1 +
+    FACUP_fixtures_co$facup_3_2 + FACUP_fixtures_co$facup_4_0 + FACUP_fixtures_co$facup_4_1 + FACUP_fixtures_co$facup_4_2 + FACUP_fixtures_co$facup_4_3 +
+    FACUP_fixtures_co$facup_5_0 + FACUP_fixtures_co$facup_5_1 + FACUP_fixtures_co$facup_5_2 + FACUP_fixtures_co$facup_5_3 + FACUP_fixtures_co$facup_5_4 +
+    FACUP_fixtures_co$facup_6_0 + FACUP_fixtures_co$facup_6_1 + FACUP_fixtures_co$facup_6_2 + FACUP_fixtures_co$facup_6_3 + FACUP_fixtures_co$facup_6_4 +
+    FACUP_fixtures_co$facup_6_5
+)
+
+FACUP_fixtures_co$facup_H <- percent(FACUP_fixtures_co$facup_H, accuracy = 0.1)
+
+#Draw
+FACUP_fixtures_co$facup_D <- (
+
+  FACUP_fixtures_co$facup_0_0 + FACUP_fixtures_co$facup_1_1 + FACUP_fixtures_co$facup_2_2 + FACUP_fixtures_co$facup_3_3 + FACUP_fixtures_co$facup_4_4 +
+    FACUP_fixtures_co$facup_5_5 + FACUP_fixtures_co$facup_6_6
+)
+
+FACUP_fixtures_co$facup_D <- percent(FACUP_fixtures_co$facup_D, accuracy = 0.1)
+
+#Away
+
+FACUP_fixtures_co$facup_A <- (
+  FACUP_fixtures_co$facup_0_1 + FACUP_fixtures_co$facup_0_2 + FACUP_fixtures_co$facup_1_2 + FACUP_fixtures_co$facup_0_3 + FACUP_fixtures_co$facup_1_3 +
+    FACUP_fixtures_co$facup_2_3 + FACUP_fixtures_co$facup_0_4 + FACUP_fixtures_co$facup_1_4 + FACUP_fixtures_co$facup_2_4 + FACUP_fixtures_co$facup_3_4 +
+    FACUP_fixtures_co$facup_0_5 + FACUP_fixtures_co$facup_1_5 + FACUP_fixtures_co$facup_2_5 + FACUP_fixtures_co$facup_3_5 + FACUP_fixtures_co$facup_4_5 +
+    FACUP_fixtures_co$facup_0_6 + FACUP_fixtures_co$facup_1_6 + FACUP_fixtures_co$facup_2_6 + FACUP_fixtures_co$facup_3_6 + FACUP_fixtures_co$facup_4_6 +
+    FACUP_fixtures_co$facup_5_6
+)
+
+FACUP_fixtures_co$facup_A <- percent(FACUP_fixtures_co$facup_A, accuracy = 0.1)
+
+#ov25
+FACUP_fixtures_co$facup_ov25 <- (
+  FACUP_fixtures_co$facup_2_1 + FACUP_fixtures_co$facup_1_2 + FACUP_fixtures_co$facup_2_2 + FACUP_fixtures_co$facup_3_0 + FACUP_fixtures_co$facup_3_1 +
+    FACUP_fixtures_co$facup_3_2 + FACUP_fixtures_co$facup_0_3 + FACUP_fixtures_co$facup_1_3 + FACUP_fixtures_co$facup_2_3 + FACUP_fixtures_co$facup_3_3 +
+    FACUP_fixtures_co$facup_4_0 + FACUP_fixtures_co$facup_4_1 + FACUP_fixtures_co$facup_4_2 + FACUP_fixtures_co$facup_4_3 + FACUP_fixtures_co$facup_0_4 +
+    FACUP_fixtures_co$facup_1_4 + FACUP_fixtures_co$facup_2_4 + FACUP_fixtures_co$facup_3_4 + FACUP_fixtures_co$facup_4_4 + FACUP_fixtures_co$facup_5_0 +
+    FACUP_fixtures_co$facup_5_1 + FACUP_fixtures_co$facup_5_2 + FACUP_fixtures_co$facup_5_3 + FACUP_fixtures_co$facup_5_4 + FACUP_fixtures_co$facup_0_5 +
+    FACUP_fixtures_co$facup_1_5 + FACUP_fixtures_co$facup_2_5 + FACUP_fixtures_co$facup_3_5 + FACUP_fixtures_co$facup_4_5 + FACUP_fixtures_co$facup_5_5 +
+    FACUP_fixtures_co$facup_6_0 + FACUP_fixtures_co$facup_6_1 + FACUP_fixtures_co$facup_6_2 + FACUP_fixtures_co$facup_6_3 + FACUP_fixtures_co$facup_6_4 +
+    FACUP_fixtures_co$facup_6_5 + FACUP_fixtures_co$facup_0_6 + FACUP_fixtures_co$facup_1_6 + FACUP_fixtures_co$facup_2_6 + FACUP_fixtures_co$facup_3_6 +
+    FACUP_fixtures_co$facup_4_6 + FACUP_fixtures_co$facup_5_6 + FACUP_fixtures_co$facup_6_6
+)
+#un25
+FACUP_fixtures_co$facup_un25 <- (
+  FACUP_fixtures_co$facup_0_0 + FACUP_fixtures_co$facup_1_0 + FACUP_fixtures_co$facup_0_1 + FACUP_fixtures_co$facup_1_1 + FACUP_fixtures_co$facup_2_0 + FACUP_fixtures_co$facup_0_2
+)
+#odds
+FACUP_fixtures_co$facup_ov25_odds <- round((1/FACUP_fixtures_co$facup_ov25),digits = 2)
+FACUP_fixtures_co$facup_un25_odds <- round((1/FACUP_fixtures_co$facup_un25),digits = 2)
+
+FACUP_fixtures_co$facup_ov25_odds
+FACUP_fixtures_co$facup_un25_odds
+###############################################################################
+
+########Asian Handicaps######################################################################################################
+#percentages
+FACUP_fixtures_co$facup_ov25 <- percent(FACUP_fixtures_co$facup_ov25, accuracy = 0.1)
+
+FACUP_fixtures_co$facup_un25 <- percent(FACUP_fixtures_co$facup_un25, accuracy = 0.1)
+FACUP_fixtures_co$facup_pscore <- paste(round(FACUP_fixtures_co$facup_xHCOC,digits = 0),round(FACUP_fixtures_co$facup_xACOC,digits = 0),sep = "-")
+######################################################################################################################################################################
+#poisson fouls
+facup_GP <- nrow(FACUP)
+#Calculate total home goals for each division
+facup_T_HF <- sum(facup_home_fouls$x)
+#calculate average home goal
+facup_avg_HF <- round(facup_T_HF /facup_GP, digits = 4)
+############################################################
+#Calculate total away goals for each division
+facup_T_AF <- sum(facup_away_fouls$x)
+#calculate average away goal
+facup_avg_AF <- round(facup_T_AF /facup_GP, digits = 4)
+#get total home goals and total home games played for each division
+#calculate home attack strength
+facup_home_fas <- round(((facup_home_fouls$x/facup_home_games))/facup_avg_HF, digits = 4)
+#calculate away attack strength
+facup_away_fas <- round(((facup_away_fouls$x/facup_away_games))/facup_avg_AF, digits = 4)
+
+################################################################################
+#get average home concede and away concede
+facup_avg_HFC <- round(facup_T_AF /facup_GP, digits = 4)
+#avg away concede
+facup_avg_AFC <- round(facup_T_HF /facup_GP, digits = 4)
+#calculate home and away defense strength
+#home yellow cards conceded
+facup_home_fcc <- aggregate(FACUP$AF, by = list(FACUP$HomeTeam), FUN = sum)
+facup_away_fcc <- aggregate(FACUP$HF, by = list(FACUP$AwayTeam), FUN = sum)
+
+#home defense strength
+facup_home_fds <- round(((facup_home_fcc$x/facup_home_games))/facup_avg_HFC, digits = 4)
+
+#away defense strength
+facup_away_fds <- round(((facup_away_fcc$x/facup_away_games))/facup_avg_AFC, digits = 4)
+
+#############################################################################
+#home poisson data
+#facup
+facup_division <- c()
+facup_division[1:length(facup_teams)] <- "FACUP"
+facup_home_poisson_fo <- cbind(facup_division,facup_teams,facup_avg_HF,facup_home_fas,facup_home_fds)
+
+#################################################################################
+#away poisson data
+#facup
+facup_division <- c()
+facup_division[1:length(facup_teams)] <- "FACUP"
+facup_away_poisson_fo <- cbind(facup_division,facup_teams,facup_avg_AF,facup_away_fas,facup_away_fds)
+
+#FACUP
+HomeTeam_facup_fo <- rep(facup_teams, each = length(facup_teams))
+AwayTeam_facup_fo <- rep(facup_teams, length(facup_teams))
+FACUP_fixtures_fo <- cbind(HomeTeam_facup_fo,AwayTeam_facup_fo)
+FACUP_fixtures_fo <- as.data.frame(FACUP_fixtures_fo)
+FACUP_fixtures_fo <- FACUP_fixtures_fo[!FACUP_fixtures_fo$HomeTeam_facup_fo == FACUP_fixtures_fo$AwayTeam_facup_fo,]
+rownames(FACUP_fixtures_fo) <- NULL
+FACUP_fixtures_fo$Div <- "FACUP"
+FACUP_fixtures_fo <- FACUP_fixtures_fo[,c(3,1,2)]
+
+FACUP_fixtures_fo$avg_HF_facup <- facup_avg_HF
+
+FACUP_fixtures_fo$facup_homefas <- rep(facup_home_fas,each = length(facup_teams)-1)
+
+facup_awayfds_lookup <- cbind(facup_teams,facup_away_fds)
+
+facup_awayfds_lookup <- as.data.frame(facup_awayfds_lookup)
+
+colnames(facup_awayfds_lookup) <- c("AwayTeam_facup_fo","facup_awayfds")
+
+
+require('RH2')
+FACUP_fixtures_fo$facup_awayfds <- sqldf("SELECT facup_awayfds_lookup.facup_awayfds FROM facup_awayfds_lookup INNER JOIN FACUP_fixtures_fo ON facup_awayfds_lookup.AwayTeam_facup_fo = FACUP_fixtures_fo.AwayTeam_facup_fo")
+
+FACUP_fixtures_fo$avg_AF_facup <- facup_avg_AF
+
+facup_awayfas_lookup <- cbind(facup_teams,facup_away_fas)
+
+facup_awayfas_lookup <- as.data.frame(facup_awayfas_lookup)
+
+colnames(facup_awayfas_lookup) <- c("AwayTeam_facup_fo","facup_awayfas")
+
+FACUP_fixtures_fo$facup_awayfas <- sqldf("SELECT facup_awayfas_lookup.facup_awayfas FROM facup_awayfas_lookup INNER JOIN FACUP_fixtures_fo ON facup_awayfas_lookup.AwayTeam_facup_fo = FACUP_fixtures_fo.AwayTeam_facup_fo")
+
+FACUP_fixtures_fo$facup_homefds <- rep(facup_home_fds,each = length(facup_teams)-1)
+
+FACUP_fixtures_fo$facup_awayfds <- as.numeric(unlist(FACUP_fixtures_fo$facup_awayfds))
+#xGH
+FACUP_fixtures_fo$facup_xHF <- FACUP_fixtures_fo$avg_HF_facup * FACUP_fixtures_fo$facup_homefas * FACUP_fixtures_fo$facup_awayfds
+#xGA
+
+FACUP_fixtures_fo$facup_awayfas <- as.numeric(unlist(FACUP_fixtures_fo$facup_awayfas))
+
+FACUP_fixtures_fo$facup_xAF <- FACUP_fixtures_fo$avg_AF_facup * FACUP_fixtures_fo$facup_awayfas * FACUP_fixtures_fo$facup_homefds
+
+FACUP_fixtures_fo$facup_0_0 <- round(stats::dpois(0,FACUP_fixtures_fo$facup_xHF) * stats::dpois(0,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_1_0 <- round(stats::dpois(1,FACUP_fixtures_fo$facup_xHF) * stats::dpois(0,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_0_1 <- round(stats::dpois(0,FACUP_fixtures_fo$facup_xHF) * stats::dpois(1,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_1_1 <- round(stats::dpois(1,FACUP_fixtures_fo$facup_xHF) * stats::dpois(1,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_2_0 <- round(stats::dpois(2,FACUP_fixtures_fo$facup_xHF) * stats::dpois(0,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_0_2 <- round(stats::dpois(0,FACUP_fixtures_fo$facup_xHF) * stats::dpois(2,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_2_2 <- round(stats::dpois(2,FACUP_fixtures_fo$facup_xHF) * stats::dpois(2,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_2_1 <- round(stats::dpois(2,FACUP_fixtures_fo$facup_xHF) * stats::dpois(1,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_1_2 <- round(stats::dpois(1,FACUP_fixtures_fo$facup_xHF) * stats::dpois(2,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_3_3 <- round(stats::dpois(3,FACUP_fixtures_fo$facup_xHF) * stats::dpois(3,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_3_0 <- round(stats::dpois(3,FACUP_fixtures_fo$facup_xHF) * stats::dpois(0,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_3_1 <- round(stats::dpois(3,FACUP_fixtures_fo$facup_xHF) * stats::dpois(1,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_3_2 <- round(stats::dpois(3,FACUP_fixtures_fo$facup_xHF) * stats::dpois(2,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_0_3 <- round(stats::dpois(0,FACUP_fixtures_fo$facup_xHF) * stats::dpois(3,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_1_3 <- round(stats::dpois(1,FACUP_fixtures_fo$facup_xHF) * stats::dpois(3,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_2_3 <- round(stats::dpois(2,FACUP_fixtures_fo$facup_xHF) * stats::dpois(3,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_4_4 <- round(stats::dpois(4,FACUP_fixtures_fo$facup_xHF) * stats::dpois(4,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_4_0 <- round(stats::dpois(4,FACUP_fixtures_fo$facup_xHF) * stats::dpois(0,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_4_1 <- round(stats::dpois(4,FACUP_fixtures_fo$facup_xHF) * stats::dpois(1,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_4_2 <- round(stats::dpois(4,FACUP_fixtures_fo$facup_xHF) * stats::dpois(2,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_4_3 <- round(stats::dpois(4,FACUP_fixtures_fo$facup_xHF) * stats::dpois(3,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_0_4 <- round(stats::dpois(0,FACUP_fixtures_fo$facup_xHF) * stats::dpois(4,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_1_4 <- round(stats::dpois(1,FACUP_fixtures_fo$facup_xHF) * stats::dpois(4,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_2_4 <- round(stats::dpois(2,FACUP_fixtures_fo$facup_xHF) * stats::dpois(4,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_3_4 <- round(stats::dpois(3,FACUP_fixtures_fo$facup_xHF) * stats::dpois(4,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_5_5 <- round(stats::dpois(5,FACUP_fixtures_fo$facup_xHF) * stats::dpois(5,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_5_0 <- round(stats::dpois(5,FACUP_fixtures_fo$facup_xHF) * stats::dpois(0,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_5_1 <- round(stats::dpois(5,FACUP_fixtures_fo$facup_xHF) * stats::dpois(1,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_5_2 <- round(stats::dpois(5,FACUP_fixtures_fo$facup_xHF) * stats::dpois(2,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_5_3 <- round(stats::dpois(5,FACUP_fixtures_fo$facup_xHF) * stats::dpois(3,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_5_4 <- round(stats::dpois(5,FACUP_fixtures_fo$facup_xHF) * stats::dpois(4,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_0_5 <- round(stats::dpois(0,FACUP_fixtures_fo$facup_xHF) * stats::dpois(5,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_1_5 <- round(stats::dpois(1,FACUP_fixtures_fo$facup_xHF) * stats::dpois(5,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_2_5 <- round(stats::dpois(2,FACUP_fixtures_fo$facup_xHF) * stats::dpois(5,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_3_5 <- round(stats::dpois(3,FACUP_fixtures_fo$facup_xHF) * stats::dpois(5,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_4_5 <- round(stats::dpois(4,FACUP_fixtures_fo$facup_xHF) * stats::dpois(5,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_6_6 <- round(stats::dpois(6,FACUP_fixtures_fo$facup_xHF) * stats::dpois(6,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_6_0 <- round(stats::dpois(6,FACUP_fixtures_fo$facup_xHF) * stats::dpois(0,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_6_1 <- round(stats::dpois(6,FACUP_fixtures_fo$facup_xHF) * stats::dpois(1,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_6_2 <- round(stats::dpois(6,FACUP_fixtures_fo$facup_xHF) * stats::dpois(2,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_6_3 <- round(stats::dpois(6,FACUP_fixtures_fo$facup_xHF) * stats::dpois(3,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_6_4 <- round(stats::dpois(6,FACUP_fixtures_fo$facup_xHF) * stats::dpois(4,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_6_5 <- round(stats::dpois(6,FACUP_fixtures_fo$facup_xHF) * stats::dpois(5,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_0_6 <- round(stats::dpois(0,FACUP_fixtures_fo$facup_xHF) * stats::dpois(6,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_1_6 <- round(stats::dpois(1,FACUP_fixtures_fo$facup_xHF) * stats::dpois(6,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_2_6 <- round(stats::dpois(2,FACUP_fixtures_fo$facup_xHF) * stats::dpois(6,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_3_6 <- round(stats::dpois(3,FACUP_fixtures_fo$facup_xHF) * stats::dpois(6,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_4_6 <- round(stats::dpois(4,FACUP_fixtures_fo$facup_xHF) * stats::dpois(6,FACUP_fixtures_fo$facup_xAF), digits = 4)
+FACUP_fixtures_fo$facup_5_6 <- round(stats::dpois(5,FACUP_fixtures_fo$facup_xHF) * stats::dpois(6,FACUP_fixtures_fo$facup_xAF), digits = 4)
+#Home win
+FACUP_fixtures_fo$facup_H <- (
+  FACUP_fixtures_fo$facup_1_0 + FACUP_fixtures_fo$facup_2_0 + FACUP_fixtures_fo$facup_2_1 + FACUP_fixtures_fo$facup_3_0 + FACUP_fixtures_fo$facup_3_1 +
+    FACUP_fixtures_fo$facup_3_2 + FACUP_fixtures_fo$facup_4_0 + FACUP_fixtures_fo$facup_4_1 + FACUP_fixtures_fo$facup_4_2 + FACUP_fixtures_fo$facup_4_3 +
+    FACUP_fixtures_fo$facup_5_0 + FACUP_fixtures_fo$facup_5_1 + FACUP_fixtures_fo$facup_5_2 + FACUP_fixtures_fo$facup_5_3 + FACUP_fixtures_fo$facup_5_4 +
+    FACUP_fixtures_fo$facup_6_0 + FACUP_fixtures_fo$facup_6_1 + FACUP_fixtures_fo$facup_6_2 + FACUP_fixtures_fo$facup_6_3 + FACUP_fixtures_fo$facup_6_4 +
+    FACUP_fixtures_fo$facup_6_5
+)
+
+FACUP_fixtures_fo$facup_H <- percent(FACUP_fixtures_fo$facup_H, accuracy = 0.1)
+
+#Draw
+FACUP_fixtures_fo$facup_D <- (
+
+  FACUP_fixtures_fo$facup_0_0 + FACUP_fixtures_fo$facup_1_1 + FACUP_fixtures_fo$facup_2_2 + FACUP_fixtures_fo$facup_3_3 + FACUP_fixtures_fo$facup_4_4 +
+    FACUP_fixtures_fo$facup_5_5 + FACUP_fixtures_fo$facup_6_6
+)
+
+FACUP_fixtures_fo$facup_D <- percent(FACUP_fixtures_fo$facup_D, accuracy = 0.1)
+
+#Away
+
+FACUP_fixtures_fo$facup_A <- (
+  FACUP_fixtures_fo$facup_0_1 + FACUP_fixtures_fo$facup_0_2 + FACUP_fixtures_fo$facup_1_2 + FACUP_fixtures_fo$facup_0_3 + FACUP_fixtures_fo$facup_1_3 +
+    FACUP_fixtures_fo$facup_2_3 + FACUP_fixtures_fo$facup_0_4 + FACUP_fixtures_fo$facup_1_4 + FACUP_fixtures_fo$facup_2_4 + FACUP_fixtures_fo$facup_3_4 +
+    FACUP_fixtures_fo$facup_0_5 + FACUP_fixtures_fo$facup_1_5 + FACUP_fixtures_fo$facup_2_5 + FACUP_fixtures_fo$facup_3_5 + FACUP_fixtures_fo$facup_4_5 +
+    FACUP_fixtures_fo$facup_0_6 + FACUP_fixtures_fo$facup_1_6 + FACUP_fixtures_fo$facup_2_6 + FACUP_fixtures_fo$facup_3_6 + FACUP_fixtures_fo$facup_4_6 +
+    FACUP_fixtures_fo$facup_5_6
+)
+
+FACUP_fixtures_fo$facup_A <- percent(FACUP_fixtures_fo$facup_A, accuracy = 0.1)
+
+#ov25
+FACUP_fixtures_fo$facup_ov25 <- (
+  FACUP_fixtures_fo$facup_2_1 + FACUP_fixtures_fo$facup_1_2 + FACUP_fixtures_fo$facup_2_2 + FACUP_fixtures_fo$facup_3_0 + FACUP_fixtures_fo$facup_3_1 +
+    FACUP_fixtures_fo$facup_3_2 + FACUP_fixtures_fo$facup_0_3 + FACUP_fixtures_fo$facup_1_3 + FACUP_fixtures_fo$facup_2_3 + FACUP_fixtures_fo$facup_3_3 +
+    FACUP_fixtures_fo$facup_4_0 + FACUP_fixtures_fo$facup_4_1 + FACUP_fixtures_fo$facup_4_2 + FACUP_fixtures_fo$facup_4_3 + FACUP_fixtures_fo$facup_0_4 +
+    FACUP_fixtures_fo$facup_1_4 + FACUP_fixtures_fo$facup_2_4 + FACUP_fixtures_fo$facup_3_4 + FACUP_fixtures_fo$facup_4_4 + FACUP_fixtures_fo$facup_5_0 +
+    FACUP_fixtures_fo$facup_5_1 + FACUP_fixtures_fo$facup_5_2 + FACUP_fixtures_fo$facup_5_3 + FACUP_fixtures_fo$facup_5_4 + FACUP_fixtures_fo$facup_0_5 +
+    FACUP_fixtures_fo$facup_1_5 + FACUP_fixtures_fo$facup_2_5 + FACUP_fixtures_fo$facup_3_5 + FACUP_fixtures_fo$facup_4_5 + FACUP_fixtures_fo$facup_5_5 +
+    FACUP_fixtures_fo$facup_6_0 + FACUP_fixtures_fo$facup_6_1 + FACUP_fixtures_fo$facup_6_2 + FACUP_fixtures_fo$facup_6_3 + FACUP_fixtures_fo$facup_6_4 +
+    FACUP_fixtures_fo$facup_6_5 + FACUP_fixtures_fo$facup_0_6 + FACUP_fixtures_fo$facup_1_6 + FACUP_fixtures_fo$facup_2_6 + FACUP_fixtures_fo$facup_3_6 +
+    FACUP_fixtures_fo$facup_4_6 + FACUP_fixtures_fo$facup_5_6 + FACUP_fixtures_fo$facup_6_6
+)
+#un25
+FACUP_fixtures_fo$facup_un25 <- (
+  FACUP_fixtures_fo$facup_0_0 + FACUP_fixtures_fo$facup_1_0 + FACUP_fixtures_fo$facup_0_1 + FACUP_fixtures_fo$facup_1_1 + FACUP_fixtures_fo$facup_2_0 + FACUP_fixtures_fo$facup_0_2
+)
+#odds
+FACUP_fixtures_fo$facup_ov25_odds <- round((1/FACUP_fixtures_fo$facup_ov25),digits = 2)
+FACUP_fixtures_fo$facup_un25_odds <- round((1/FACUP_fixtures_fo$facup_un25),digits = 2)
+
+FACUP_fixtures_fo$facup_ov25_odds
+FACUP_fixtures_fo$facup_un25_odds
+###############################################################################
+
+########Asian Handicaps######################################################################################################
+#percentages
+FACUP_fixtures_fo$facup_ov25 <- percent(FACUP_fixtures_fo$facup_ov25, accuracy = 0.1)
+
+FACUP_fixtures_fo$facup_un25 <- percent(FACUP_fixtures_fo$facup_un25, accuracy = 0.1)
+FACUP_fixtures_fo$facup_psfore <- paste(round(FACUP_fixtures_fo$facup_xHF,digits = 0),round(FACUP_fixtures_fo$facup_xAF,digits = 0),sep = "-")
+####################################################################################################################################################################
+#poisson shots
+facup_GP <- nrow(FACUP)
+
+#Calculate total home goals for each division
+facup_T_HST <- sum(facup_home_hst$x)
+#calculate average home goal
+
+facup_avg_HST <- round(facup_T_HST /facup_GP, digits = 4)
+
+############################################################
+#Calculate total away goals for each division
+facup_T_AST <- sum(facup_away_ast$x)
+#calculate average away goal
+facup_avg_AST <- round(facup_T_AST /facup_GP, digits = 4)
+#get total home goals and total home games played for each division
+#calculate home attack strength
+facup_home_sotas <- round(((facup_home_hst$x/facup_home_games))/facup_avg_HST, digits = 4)
+#calculate away attack strength
+facup_away_sotas <- round(((facup_away_ast$x/facup_away_games))/facup_avg_AST, digits = 4)
+
+################################################################################
+#get average home concede and away concede
+facup_avg_HSC <- round(facup_T_AST /facup_GP, digits = 4)
+
+#avg away concede
+facup_avg_ASC <- round(facup_T_HST /facup_GP, digits = 4)
+#home defense strength
+facup_home_sods <- round(((facup_home_hsc$x/facup_home_games))/facup_avg_HSC, digits = 4)
+
+#away defense strength
+facup_away_sods <- round(((facup_away_ast$x/facup_away_games))/facup_avg_ASC, digits = 4)
+
+#############################################################################
+#home poisson data
+#facup
+facup_division <- c()
+facup_division[1:length(facup_teams)] <- "FACUP"
+facup_home_poisson_sot <- cbind(facup_division,facup_teams,facup_avg_HST,facup_home_sotas,facup_home_sods)
+
+#################################################################################
+#away poisson data
+#facup
+facup_division <- c()
+facup_division[1:length(facup_teams)] <- "FACUP"
+facup_away_poisson_sot <- cbind(facup_division,facup_teams,facup_avg_AST,facup_away_sotas,facup_away_sods)
+
+#FACUP
+HomeTeam_facup_sot <- rep(facup_teams, each = length(facup_teams))
+AwayTeam_facup_sot <- rep(facup_teams, length(facup_teams))
+FACUP_fixtures_sot <- cbind(HomeTeam_facup_sot,AwayTeam_facup_sot)
+FACUP_fixtures_sot <- as.data.frame(FACUP_fixtures_sot)
+FACUP_fixtures_sot <- FACUP_fixtures_sot[!FACUP_fixtures_sot$HomeTeam_facup_sot == FACUP_fixtures_sot$AwayTeam_facup_sot,]
+rownames(FACUP_fixtures_sot) <- NULL
+FACUP_fixtures_sot$Div <- "FACUP"
+FACUP_fixtures_sot <- FACUP_fixtures_sot[,c(3,1,2)]
+
+FACUP_fixtures_sot$avg_HST_facup <- facup_avg_HST
+
+FACUP_fixtures_sot$facup_homesotas <- rep(facup_home_sotas,each = length(facup_teams)-1)
+
+facup_awaysods_lookup <- cbind(facup_teams,facup_away_sods)
+
+facup_awaysods_lookup <- as.data.frame(facup_awaysods_lookup)
+
+colnames(facup_awaysods_lookup) <- c("AwayTeam_facup_sot","facup_awaysods")
+
+
+require('RH2')
+FACUP_fixtures_sot$facup_awaysods <- sqldf("SELECT facup_awaysods_lookup.facup_awaysods FROM facup_awaysods_lookup INNER JOIN FACUP_fixtures_sot ON facup_awaysods_lookup.AwayTeam_facup_sot = FACUP_fixtures_sot.AwayTeam_facup_sot")
+
+FACUP_fixtures_sot$avg_AST_facup <- facup_avg_AST
+
+facup_awaysotas_lookup <- cbind(facup_teams,facup_away_sotas)
+
+facup_awaysotas_lookup <- as.data.frame(facup_awaysotas_lookup)
+
+colnames(facup_awaysotas_lookup) <- c("AwayTeam_facup_sot","facup_awaysotas")
+
+FACUP_fixtures_sot$facup_awaysotas <- sqldf("SELECT facup_awaysotas_lookup.facup_awaysotas FROM facup_awaysotas_lookup INNER JOIN FACUP_fixtures_sot ON facup_awaysotas_lookup.AwayTeam_facup_sot = FACUP_fixtures_sot.AwayTeam_facup_sot")
+
+FACUP_fixtures_sot$facup_homesods <- rep(facup_home_sods,each = length(facup_teams)-1)
+
+FACUP_fixtures_sot$facup_awaysods <- as.numeric(unlist(FACUP_fixtures_sot$facup_awaysods))
+#xGH
+FACUP_fixtures_sot$facup_xHST <- FACUP_fixtures_sot$avg_HST_facup * FACUP_fixtures_sot$facup_homesotas * FACUP_fixtures_sot$facup_awaysods
+#xGA
+
+FACUP_fixtures_sot$facup_awaysotas <- as.numeric(unlist(FACUP_fixtures_sot$facup_awaysotas))
+
+FACUP_fixtures_sot$facup_xAST <- FACUP_fixtures_sot$avg_AST_facup * FACUP_fixtures_sot$facup_awaysotas * FACUP_fixtures_sot$facup_homesods
+
+FACUP_fixtures_sot$facup_0_0 <- round(stats::dpois(0,FACUP_fixtures_sot$facup_xHST) * stats::dpois(0,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_1_0 <- round(stats::dpois(1,FACUP_fixtures_sot$facup_xHST) * stats::dpois(0,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_0_1 <- round(stats::dpois(0,FACUP_fixtures_sot$facup_xHST) * stats::dpois(1,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_1_1 <- round(stats::dpois(1,FACUP_fixtures_sot$facup_xHST) * stats::dpois(1,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_2_0 <- round(stats::dpois(2,FACUP_fixtures_sot$facup_xHST) * stats::dpois(0,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_0_2 <- round(stats::dpois(0,FACUP_fixtures_sot$facup_xHST) * stats::dpois(2,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_2_2 <- round(stats::dpois(2,FACUP_fixtures_sot$facup_xHST) * stats::dpois(2,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_2_1 <- round(stats::dpois(2,FACUP_fixtures_sot$facup_xHST) * stats::dpois(1,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_1_2 <- round(stats::dpois(1,FACUP_fixtures_sot$facup_xHST) * stats::dpois(2,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_3_3 <- round(stats::dpois(3,FACUP_fixtures_sot$facup_xHST) * stats::dpois(3,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_3_0 <- round(stats::dpois(3,FACUP_fixtures_sot$facup_xHST) * stats::dpois(0,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_3_1 <- round(stats::dpois(3,FACUP_fixtures_sot$facup_xHST) * stats::dpois(1,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_3_2 <- round(stats::dpois(3,FACUP_fixtures_sot$facup_xHST) * stats::dpois(2,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_0_3 <- round(stats::dpois(0,FACUP_fixtures_sot$facup_xHST) * stats::dpois(3,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_1_3 <- round(stats::dpois(1,FACUP_fixtures_sot$facup_xHST) * stats::dpois(3,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_2_3 <- round(stats::dpois(2,FACUP_fixtures_sot$facup_xHST) * stats::dpois(3,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_4_4 <- round(stats::dpois(4,FACUP_fixtures_sot$facup_xHST) * stats::dpois(4,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_4_0 <- round(stats::dpois(4,FACUP_fixtures_sot$facup_xHST) * stats::dpois(0,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_4_1 <- round(stats::dpois(4,FACUP_fixtures_sot$facup_xHST) * stats::dpois(1,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_4_2 <- round(stats::dpois(4,FACUP_fixtures_sot$facup_xHST) * stats::dpois(2,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_4_3 <- round(stats::dpois(4,FACUP_fixtures_sot$facup_xHST) * stats::dpois(3,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_0_4 <- round(stats::dpois(0,FACUP_fixtures_sot$facup_xHST) * stats::dpois(4,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_1_4 <- round(stats::dpois(1,FACUP_fixtures_sot$facup_xHST) * stats::dpois(4,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_2_4 <- round(stats::dpois(2,FACUP_fixtures_sot$facup_xHST) * stats::dpois(4,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_3_4 <- round(stats::dpois(3,FACUP_fixtures_sot$facup_xHST) * stats::dpois(4,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_5_5 <- round(stats::dpois(5,FACUP_fixtures_sot$facup_xHST) * stats::dpois(5,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_5_0 <- round(stats::dpois(5,FACUP_fixtures_sot$facup_xHST) * stats::dpois(0,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_5_1 <- round(stats::dpois(5,FACUP_fixtures_sot$facup_xHST) * stats::dpois(1,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_5_2 <- round(stats::dpois(5,FACUP_fixtures_sot$facup_xHST) * stats::dpois(2,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_5_3 <- round(stats::dpois(5,FACUP_fixtures_sot$facup_xHST) * stats::dpois(3,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_5_4 <- round(stats::dpois(5,FACUP_fixtures_sot$facup_xHST) * stats::dpois(4,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_0_5 <- round(stats::dpois(0,FACUP_fixtures_sot$facup_xHST) * stats::dpois(5,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_1_5 <- round(stats::dpois(1,FACUP_fixtures_sot$facup_xHST) * stats::dpois(5,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_2_5 <- round(stats::dpois(2,FACUP_fixtures_sot$facup_xHST) * stats::dpois(5,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_3_5 <- round(stats::dpois(3,FACUP_fixtures_sot$facup_xHST) * stats::dpois(5,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_4_5 <- round(stats::dpois(4,FACUP_fixtures_sot$facup_xHST) * stats::dpois(5,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_6_6 <- round(stats::dpois(6,FACUP_fixtures_sot$facup_xHST) * stats::dpois(6,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_6_0 <- round(stats::dpois(6,FACUP_fixtures_sot$facup_xHST) * stats::dpois(0,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_6_1 <- round(stats::dpois(6,FACUP_fixtures_sot$facup_xHST) * stats::dpois(1,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_6_2 <- round(stats::dpois(6,FACUP_fixtures_sot$facup_xHST) * stats::dpois(2,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_6_3 <- round(stats::dpois(6,FACUP_fixtures_sot$facup_xHST) * stats::dpois(3,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_6_4 <- round(stats::dpois(6,FACUP_fixtures_sot$facup_xHST) * stats::dpois(4,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_6_5 <- round(stats::dpois(6,FACUP_fixtures_sot$facup_xHST) * stats::dpois(5,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_0_6 <- round(stats::dpois(0,FACUP_fixtures_sot$facup_xHST) * stats::dpois(6,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_1_6 <- round(stats::dpois(1,FACUP_fixtures_sot$facup_xHST) * stats::dpois(6,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_2_6 <- round(stats::dpois(2,FACUP_fixtures_sot$facup_xHST) * stats::dpois(6,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_3_6 <- round(stats::dpois(3,FACUP_fixtures_sot$facup_xHST) * stats::dpois(6,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_4_6 <- round(stats::dpois(4,FACUP_fixtures_sot$facup_xHST) * stats::dpois(6,FACUP_fixtures_sot$facup_xAST), digits = 4)
+FACUP_fixtures_sot$facup_5_6 <- round(stats::dpois(5,FACUP_fixtures_sot$facup_xHST) * stats::dpois(6,FACUP_fixtures_sot$facup_xAST), digits = 4)
+#Home win
+FACUP_fixtures_sot$facup_H <- (
+  FACUP_fixtures_sot$facup_1_0 + FACUP_fixtures_sot$facup_2_0 + FACUP_fixtures_sot$facup_2_1 + FACUP_fixtures_sot$facup_3_0 + FACUP_fixtures_sot$facup_3_1 +
+    FACUP_fixtures_sot$facup_3_2 + FACUP_fixtures_sot$facup_4_0 + FACUP_fixtures_sot$facup_4_1 + FACUP_fixtures_sot$facup_4_2 + FACUP_fixtures_sot$facup_4_3 +
+    FACUP_fixtures_sot$facup_5_0 + FACUP_fixtures_sot$facup_5_1 + FACUP_fixtures_sot$facup_5_2 + FACUP_fixtures_sot$facup_5_3 + FACUP_fixtures_sot$facup_5_4 +
+    FACUP_fixtures_sot$facup_6_0 + FACUP_fixtures_sot$facup_6_1 + FACUP_fixtures_sot$facup_6_2 + FACUP_fixtures_sot$facup_6_3 + FACUP_fixtures_sot$facup_6_4 +
+    FACUP_fixtures_sot$facup_6_5
+)
+
+FACUP_fixtures_sot$facup_H <- percent(FACUP_fixtures_sot$facup_H, accuracy = 0.1)
+
+#Draw
+FACUP_fixtures_sot$facup_D <- (
+
+  FACUP_fixtures_sot$facup_0_0 + FACUP_fixtures_sot$facup_1_1 + FACUP_fixtures_sot$facup_2_2 + FACUP_fixtures_sot$facup_3_3 + FACUP_fixtures_sot$facup_4_4 +
+    FACUP_fixtures_sot$facup_5_5 + FACUP_fixtures_sot$facup_6_6
+)
+
+FACUP_fixtures_sot$facup_D <- percent(FACUP_fixtures_sot$facup_D, accuracy = 0.1)
+
+#Away
+
+FACUP_fixtures_sot$facup_A <- (
+  FACUP_fixtures_sot$facup_0_1 + FACUP_fixtures_sot$facup_0_2 + FACUP_fixtures_sot$facup_1_2 + FACUP_fixtures_sot$facup_0_3 + FACUP_fixtures_sot$facup_1_3 +
+    FACUP_fixtures_sot$facup_2_3 + FACUP_fixtures_sot$facup_0_4 + FACUP_fixtures_sot$facup_1_4 + FACUP_fixtures_sot$facup_2_4 + FACUP_fixtures_sot$facup_3_4 +
+    FACUP_fixtures_sot$facup_0_5 + FACUP_fixtures_sot$facup_1_5 + FACUP_fixtures_sot$facup_2_5 + FACUP_fixtures_sot$facup_3_5 + FACUP_fixtures_sot$facup_4_5 +
+    FACUP_fixtures_sot$facup_0_6 + FACUP_fixtures_sot$facup_1_6 + FACUP_fixtures_sot$facup_2_6 + FACUP_fixtures_sot$facup_3_6 + FACUP_fixtures_sot$facup_4_6 +
+    FACUP_fixtures_sot$facup_5_6
+)
+
+FACUP_fixtures_sot$facup_A <- percent(FACUP_fixtures_sot$facup_A, accuracy = 0.1)
+
+#ov25
+FACUP_fixtures_sot$facup_ov25 <- (
+  FACUP_fixtures_sot$facup_2_1 + FACUP_fixtures_sot$facup_1_2 + FACUP_fixtures_sot$facup_2_2 + FACUP_fixtures_sot$facup_3_0 + FACUP_fixtures_sot$facup_3_1 +
+    FACUP_fixtures_sot$facup_3_2 + FACUP_fixtures_sot$facup_0_3 + FACUP_fixtures_sot$facup_1_3 + FACUP_fixtures_sot$facup_2_3 + FACUP_fixtures_sot$facup_3_3 +
+    FACUP_fixtures_sot$facup_4_0 + FACUP_fixtures_sot$facup_4_1 + FACUP_fixtures_sot$facup_4_2 + FACUP_fixtures_sot$facup_4_3 + FACUP_fixtures_sot$facup_0_4 +
+    FACUP_fixtures_sot$facup_1_4 + FACUP_fixtures_sot$facup_2_4 + FACUP_fixtures_sot$facup_3_4 + FACUP_fixtures_sot$facup_4_4 + FACUP_fixtures_sot$facup_5_0 +
+    FACUP_fixtures_sot$facup_5_1 + FACUP_fixtures_sot$facup_5_2 + FACUP_fixtures_sot$facup_5_3 + FACUP_fixtures_sot$facup_5_4 + FACUP_fixtures_sot$facup_0_5 +
+    FACUP_fixtures_sot$facup_1_5 + FACUP_fixtures_sot$facup_2_5 + FACUP_fixtures_sot$facup_3_5 + FACUP_fixtures_sot$facup_4_5 + FACUP_fixtures_sot$facup_5_5 +
+    FACUP_fixtures_sot$facup_6_0 + FACUP_fixtures_sot$facup_6_1 + FACUP_fixtures_sot$facup_6_2 + FACUP_fixtures_sot$facup_6_3 + FACUP_fixtures_sot$facup_6_4 +
+    FACUP_fixtures_sot$facup_6_5 + FACUP_fixtures_sot$facup_0_6 + FACUP_fixtures_sot$facup_1_6 + FACUP_fixtures_sot$facup_2_6 + FACUP_fixtures_sot$facup_3_6 +
+    FACUP_fixtures_sot$facup_4_6 + FACUP_fixtures_sot$facup_5_6 + FACUP_fixtures_sot$facup_6_6
+)
+#un25
+FACUP_fixtures_sot$facup_un25 <- (
+  FACUP_fixtures_sot$facup_0_0 + FACUP_fixtures_sot$facup_1_0 + FACUP_fixtures_sot$facup_0_1 + FACUP_fixtures_sot$facup_1_1 + FACUP_fixtures_sot$facup_2_0 + FACUP_fixtures_sot$facup_0_2
+)
+#odds
+FACUP_fixtures_sot$facup_ov25_odds <- round((1/FACUP_fixtures_sot$facup_ov25),digits = 2)
+FACUP_fixtures_sot$facup_un25_odds <- round((1/FACUP_fixtures_sot$facup_un25),digits = 2)
+
+FACUP_fixtures_sot$facup_ov25_odds
+FACUP_fixtures_sot$facup_un25_odds
+###############################################################################
+
+########Asian Handicaps######################################################################################################
+#percentages
+FACUP_fixtures_sot$facup_ov25 <- percent(FACUP_fixtures_sot$facup_ov25, accuracy = 0.1)
+
+FACUP_fixtures_sot$facup_un25 <- percent(FACUP_fixtures_sot$facup_un25, accuracy = 0.1)
+FACUP_fixtures_sot$facup_pssotre <- paste(round(FACUP_fixtures_sot$facup_xHST,digits = 0),round(FACUP_fixtures_sot$facup_xAST,digits = 0),sep = "-")
+######################################################################################################################################################
+#league table
+#B1
+#hwins and away wins
+facup_home_wins <- c()
+facup_away_wins <- c()
+facup_home_draws <- c()
+facup_away_draws <- c()
+facup_home_loss <- c()
+facup_away_loss <- c()
+
+
+
+for (i_facup_wins in 1:length(facup_teams))
+{
+
+  facup_home_wins[i_facup_wins] <- nrow(FACUP[FACUP$HomeTeam == facup_teams[i_facup_wins] & FACUP$FTR == "H",])
+  facup_away_wins[i_facup_wins] <- nrow(FACUP[FACUP$AwayTeam == facup_teams[i_facup_wins] & FACUP$FTR == "A",])
+  facup_home_draws[i_facup_wins] <- nrow(FACUP[FACUP$HomeTeam == facup_teams[i_facup_wins] & FACUP$FTR == "D",])
+  facup_away_draws[i_facup_wins] <- nrow(FACUP[FACUP$AwayTeam == facup_teams[i_facup_wins] & FACUP$FTR == "D",])
+  facup_home_loss[i_facup_wins] <- nrow(FACUP[FACUP$HomeTeam == facup_teams[i_facup_wins] & FACUP$FTR == "A",])
+  facup_away_loss[i_facup_wins] <- nrow(FACUP[FACUP$AwayTeam == facup_teams[i_facup_wins] & FACUP$FTR == "H",])
+
+}
+
+facup_total_wins <- facup_home_wins + facup_away_wins
+facup_total_draws <- facup_home_draws + facup_away_draws
+facup_total_loss <- facup_home_loss + facup_away_loss
+
+facup_league_table <- cbind(facup_teams,facup_games_played,facup_total_wins,facup_total_draws,facup_total_loss)
+facup_GS <- facup_scoring$TGS
+facup_GC <-facup_conceding$TGC
+facup_GD <- facup_scoring$TGS - facup_conceding$TGC
+facup_PTS <- (facup_total_wins*3) + (facup_total_draws*1)
+facup_league_table <- cbind(facup_league_table,facup_GS,facup_GC,facup_GD,facup_PTS)
+facup_league_table <- as.data.frame(facup_league_table)
+#rename the columns
+names(facup_league_table)[names(facup_league_table) == "facup_teams"] <- "Team"
+names(facup_league_table)[names(facup_league_table) == "facup_games_played"] <- "P"
+names(facup_league_table)[names(facup_league_table) == "facup_total_wins"] <- "W"
+names(facup_league_table)[names(facup_league_table) == "facup_total_draws"] <- "D"
+names(facup_league_table)[names(facup_league_table) == "facup_total_loss"] <- "L"
+names(facup_league_table)[names(facup_league_table) == "facup_GS"] <- "F"
+names(facup_league_table)[names(facup_league_table) == "facup_GC"] <- "A"
+points_facup <- facup_league_table[order(as.numeric(facup_league_table$facup_PTS), decreasing = TRUE),]
+points_facup$facup_rank <- 1:length(facup_teams)
+row.names(points_facup) <- points_facup$facup_rank
+#create final_facup_hf_against with team ranks in brackets
+for(facup_rowhrank in 1:nrow(facup_form_team_against_h)) {
+  for(facup_colhrank in 1:ncol(facup_form_team_against_h)) {
+
+    # print(my_matrix[row, col])
+
+    ifelse(!facup_form_team_against_h[facup_rowhrank,facup_colhrank]=="",facup_form_team_against_h[facup_rowhrank,facup_colhrank] <- paste(facup_form_team_against_h[facup_rowhrank,facup_colhrank],"(",points_facup$facup_rank[points_facup$Team ==facup_form_team_against_h[facup_rowhrank,facup_colhrank]],")",sep = ""),next)
+    #print(my_matrix[row, col])
+
+
+  }
+}
+
+#################################################################################################################################################
+#################################################################################################################################################
+#poisson model
+facup_GP <- nrow(FACUP)
+
+#Calculate total home goals for each division
+facup_T_HG <- sum(facup_home_gs$x)
+
+#calculate average home goal
+facup_avg_HG <- round(facup_T_HG /facup_GP, digits = 4)
+############################################################
+#Calculate total away goals for each division
+facup_T_AG <- sum(facup_away_gs$x)
+#calculate average away goal
+facup_avg_AG <- round(facup_T_AG /facup_GP, digits = 4)
+#get total home goals and total home games played for each division
+#calculate home attack strength
+facup_home_as <- round(((facup_home_gs$x/facup_home_games))/facup_avg_HG, digits = 4)
+#calculate away attack strength
+facup_away_as <- round(((facup_away_gs$x/facup_away_games))/facup_avg_AG, digits = 4)
+################################################################################
+#get average home concede and away concede
+facup_avg_HC <- round(facup_T_AG /facup_GP, digits = 4)
+#avg away concede
+facup_avg_AC <- round(facup_T_HG /facup_GP, digits = 4)
+#calculate home and away defense strength
+#home defense strength
+facup_home_ds <- round(((facup_home_gc$x/facup_home_games))/facup_avg_HC, digits = 4)
+#away defense strength
+facup_away_ds <- round(((facup_away_gc$x/facup_away_games))/facup_avg_AC, digits = 4)
+#############################################################################
+#home poisson data
+#facup
+facup_division <- c()
+facup_division[1:length(facup_teams)] <- "FACUP"
+facup_home_poisson <- cbind(facup_division,facup_teams,facup_avg_HG,facup_home_as,facup_home_ds)
+#################################################################################
+#away poisson data
+#facup
+facup_division <- c()
+facup_division[1:length(facup_teams)] <- "FACUP"
+facup_away_poisson <- cbind(facup_division,facup_teams,facup_avg_AG,facup_away_as,facup_away_ds)
+
+#FACUP
+HomeTeam_facup <- rep(facup_teams, each = length(facup_teams))
+AwayTeam_facup <- rep(facup_teams, length(facup_teams))
+FACUP_fixtures <- cbind(HomeTeam_facup,AwayTeam_facup)
+FACUP_fixtures <- as.data.frame(FACUP_fixtures)
+FACUP_fixtures <- FACUP_fixtures[!FACUP_fixtures$HomeTeam_facup == FACUP_fixtures$AwayTeam_facup,]
+rownames(FACUP_fixtures) <- NULL
+FACUP_fixtures$Div <- "FACUP"
+FACUP_fixtures <- FACUP_fixtures[,c(3,1,2)]
+
+FACUP_fixtures$avg_HG_facup <- facup_avg_HG
+
+FACUP_fixtures$facup_homeas <- rep(facup_home_as,each = length(facup_teams)-1)
+
+facup_awayds_lookup <- cbind(facup_teams,facup_away_ds)
+
+facup_awayds_lookup <- as.data.frame(facup_awayds_lookup)
+
+colnames(facup_awayds_lookup) <- c("AwayTeam_facup","facup_awayds")
+
+
+require('RH2')
+FACUP_fixtures$facup_awayds <- sqldf("SELECT facup_awayds_lookup.facup_awayds FROM facup_awayds_lookup INNER JOIN FACUP_fixtures ON facup_awayds_lookup.AwayTeam_facup = FACUP_fixtures.AwayTeam_facup")
+
+FACUP_fixtures$avg_AG_facup <- facup_avg_AG
+
+facup_awayas_lookup <- cbind(facup_teams,facup_away_as)
+
+facup_awayas_lookup <- as.data.frame(facup_awayas_lookup)
+
+colnames(facup_awayas_lookup) <- c("AwayTeam_facup","facup_awayas")
+
+
+FACUP_fixtures$facup_awayas <- sqldf("SELECT facup_awayas_lookup.facup_awayas FROM facup_awayas_lookup INNER JOIN FACUP_fixtures ON facup_awayas_lookup.AwayTeam_facup = FACUP_fixtures.AwayTeam_facup")
+
+FACUP_fixtures$facup_homeds <- rep(facup_home_ds,each = length(facup_teams)-1)
+
+FACUP_fixtures$facup_awayds <- as.numeric(unlist(FACUP_fixtures$facup_awayds))
+#xGH
+FACUP_fixtures$facup_xGH <- FACUP_fixtures$avg_HG_facup * FACUP_fixtures$facup_homeas * FACUP_fixtures$facup_awayds
+
+#xGA
+
+FACUP_fixtures$facup_awayas <- as.numeric(unlist(FACUP_fixtures$facup_awayas))
+
+FACUP_fixtures$facup_xGA <- FACUP_fixtures$avg_AG_facup * FACUP_fixtures$facup_awayas * FACUP_fixtures$facup_homeds
+
+FACUP_fixtures$facup_0_0 <- round(stats::dpois(0,FACUP_fixtures$facup_xGH) * stats::dpois(0,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_1_0 <- round(stats::dpois(1,FACUP_fixtures$facup_xGH) * stats::dpois(0,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_0_1 <- round(stats::dpois(0,FACUP_fixtures$facup_xGH) * stats::dpois(1,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_1_1 <- round(stats::dpois(1,FACUP_fixtures$facup_xGH) * stats::dpois(1,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_2_0 <- round(stats::dpois(2,FACUP_fixtures$facup_xGH) * stats::dpois(0,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_0_2 <- round(stats::dpois(0,FACUP_fixtures$facup_xGH) * stats::dpois(2,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_2_2 <- round(stats::dpois(2,FACUP_fixtures$facup_xGH) * stats::dpois(2,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_2_1 <- round(stats::dpois(2,FACUP_fixtures$facup_xGH) * stats::dpois(1,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_1_2 <- round(stats::dpois(1,FACUP_fixtures$facup_xGH) * stats::dpois(2,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_3_3 <- round(stats::dpois(3,FACUP_fixtures$facup_xGH) * stats::dpois(3,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_3_0 <- round(stats::dpois(3,FACUP_fixtures$facup_xGH) * stats::dpois(0,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_3_1 <- round(stats::dpois(3,FACUP_fixtures$facup_xGH) * stats::dpois(1,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_3_2 <- round(stats::dpois(3,FACUP_fixtures$facup_xGH) * stats::dpois(2,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_0_3 <- round(stats::dpois(0,FACUP_fixtures$facup_xGH) * stats::dpois(3,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_1_3 <- round(stats::dpois(1,FACUP_fixtures$facup_xGH) * stats::dpois(3,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_2_3 <- round(stats::dpois(2,FACUP_fixtures$facup_xGH) * stats::dpois(3,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_4_4 <- round(stats::dpois(4,FACUP_fixtures$facup_xGH) * stats::dpois(4,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_4_0 <- round(stats::dpois(4,FACUP_fixtures$facup_xGH) * stats::dpois(0,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_4_1 <- round(stats::dpois(4,FACUP_fixtures$facup_xGH) * stats::dpois(1,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_4_2 <- round(stats::dpois(4,FACUP_fixtures$facup_xGH) * stats::dpois(2,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_4_3 <- round(stats::dpois(4,FACUP_fixtures$facup_xGH) * stats::dpois(3,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_0_4 <- round(stats::dpois(0,FACUP_fixtures$facup_xGH) * stats::dpois(4,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_1_4 <- round(stats::dpois(1,FACUP_fixtures$facup_xGH) * stats::dpois(4,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_2_4 <- round(stats::dpois(2,FACUP_fixtures$facup_xGH) * stats::dpois(4,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_3_4 <- round(stats::dpois(3,FACUP_fixtures$facup_xGH) * stats::dpois(4,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_5_5 <- round(stats::dpois(5,FACUP_fixtures$facup_xGH) * stats::dpois(5,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_5_0 <- round(stats::dpois(5,FACUP_fixtures$facup_xGH) * stats::dpois(0,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_5_1 <- round(stats::dpois(5,FACUP_fixtures$facup_xGH) * stats::dpois(1,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_5_2 <- round(stats::dpois(5,FACUP_fixtures$facup_xGH) * stats::dpois(2,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_5_3 <- round(stats::dpois(5,FACUP_fixtures$facup_xGH) * stats::dpois(3,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_5_4 <- round(stats::dpois(5,FACUP_fixtures$facup_xGH) * stats::dpois(4,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_0_5 <- round(stats::dpois(0,FACUP_fixtures$facup_xGH) * stats::dpois(5,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_1_5 <- round(stats::dpois(1,FACUP_fixtures$facup_xGH) * stats::dpois(5,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_2_5 <- round(stats::dpois(2,FACUP_fixtures$facup_xGH) * stats::dpois(5,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_3_5 <- round(stats::dpois(3,FACUP_fixtures$facup_xGH) * stats::dpois(5,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_4_5 <- round(stats::dpois(4,FACUP_fixtures$facup_xGH) * stats::dpois(5,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_6_6 <- round(stats::dpois(6,FACUP_fixtures$facup_xGH) * stats::dpois(6,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_6_0 <- round(stats::dpois(6,FACUP_fixtures$facup_xGH) * stats::dpois(0,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_6_1 <- round(stats::dpois(6,FACUP_fixtures$facup_xGH) * stats::dpois(1,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_6_2 <- round(stats::dpois(6,FACUP_fixtures$facup_xGH) * stats::dpois(2,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_6_3 <- round(stats::dpois(6,FACUP_fixtures$facup_xGH) * stats::dpois(3,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_6_4 <- round(stats::dpois(6,FACUP_fixtures$facup_xGH) * stats::dpois(4,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_6_5 <- round(stats::dpois(6,FACUP_fixtures$facup_xGH) * stats::dpois(5,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_0_6 <- round(stats::dpois(0,FACUP_fixtures$facup_xGH) * stats::dpois(6,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_1_6 <- round(stats::dpois(1,FACUP_fixtures$facup_xGH) * stats::dpois(6,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_2_6 <- round(stats::dpois(2,FACUP_fixtures$facup_xGH) * stats::dpois(6,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_3_6 <- round(stats::dpois(3,FACUP_fixtures$facup_xGH) * stats::dpois(6,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_4_6 <- round(stats::dpois(4,FACUP_fixtures$facup_xGH) * stats::dpois(6,FACUP_fixtures$facup_xGA), digits = 4)
+FACUP_fixtures$facup_5_6 <- round(stats::dpois(5,FACUP_fixtures$facup_xGH) * stats::dpois(6,FACUP_fixtures$facup_xGA), digits = 4)
+#Home win
+FACUP_fixtures$facup_H <- (
+  FACUP_fixtures$facup_1_0 + FACUP_fixtures$facup_2_0 + FACUP_fixtures$facup_2_1 + FACUP_fixtures$facup_3_0 + FACUP_fixtures$facup_3_1 +
+    FACUP_fixtures$facup_3_2 + FACUP_fixtures$facup_4_0 + FACUP_fixtures$facup_4_1 + FACUP_fixtures$facup_4_2 + FACUP_fixtures$facup_4_3 +
+    FACUP_fixtures$facup_5_0 + FACUP_fixtures$facup_5_1 + FACUP_fixtures$facup_5_2 + FACUP_fixtures$facup_5_3 + FACUP_fixtures$facup_5_4 +
+    FACUP_fixtures$facup_6_0 + FACUP_fixtures$facup_6_1 + FACUP_fixtures$facup_6_2 + FACUP_fixtures$facup_6_3 + FACUP_fixtures$facup_6_4 +
+    FACUP_fixtures$facup_6_5
+)
+
+FACUP_fixtures$facup_H <- percent(FACUP_fixtures$facup_H, accuracy = 0.1)
+
+#Draw
+FACUP_fixtures$facup_D <- (
+
+  FACUP_fixtures$facup_0_0 + FACUP_fixtures$facup_1_1 + FACUP_fixtures$facup_2_2 + FACUP_fixtures$facup_3_3 + FACUP_fixtures$facup_4_4 +
+    FACUP_fixtures$facup_5_5 + FACUP_fixtures$facup_6_6
+)
+
+FACUP_fixtures$facup_D <- percent(FACUP_fixtures$facup_D, accuracy = 0.1)
+
+#Away
+
+FACUP_fixtures$facup_A <- (
+  FACUP_fixtures$facup_0_1 + FACUP_fixtures$facup_0_2 + FACUP_fixtures$facup_1_2 + FACUP_fixtures$facup_0_3 + FACUP_fixtures$facup_1_3 +
+    FACUP_fixtures$facup_2_3 + FACUP_fixtures$facup_0_4 + FACUP_fixtures$facup_1_4 + FACUP_fixtures$facup_2_4 + FACUP_fixtures$facup_3_4 +
+    FACUP_fixtures$facup_0_5 + FACUP_fixtures$facup_1_5 + FACUP_fixtures$facup_2_5 + FACUP_fixtures$facup_3_5 + FACUP_fixtures$facup_4_5 +
+    FACUP_fixtures$facup_0_6 + FACUP_fixtures$facup_1_6 + FACUP_fixtures$facup_2_6 + FACUP_fixtures$facup_3_6 + FACUP_fixtures$facup_4_6 +
+    FACUP_fixtures$facup_5_6
+)
+
+FACUP_fixtures$facup_A <- percent(FACUP_fixtures$facup_A, accuracy = 0.1)
+
+#ov25
+FACUP_fixtures$facup_ov25 <- (
+  FACUP_fixtures$facup_2_1 + FACUP_fixtures$facup_1_2 + FACUP_fixtures$facup_2_2 + FACUP_fixtures$facup_3_0 + FACUP_fixtures$facup_3_1 +
+    FACUP_fixtures$facup_3_2 + FACUP_fixtures$facup_0_3 + FACUP_fixtures$facup_1_3 + FACUP_fixtures$facup_2_3 + FACUP_fixtures$facup_3_3 +
+    FACUP_fixtures$facup_4_0 + FACUP_fixtures$facup_4_1 + FACUP_fixtures$facup_4_2 + FACUP_fixtures$facup_4_3 + FACUP_fixtures$facup_0_4 +
+    FACUP_fixtures$facup_1_4 + FACUP_fixtures$facup_2_4 + FACUP_fixtures$facup_3_4 + FACUP_fixtures$facup_4_4 + FACUP_fixtures$facup_5_0 +
+    FACUP_fixtures$facup_5_1 + FACUP_fixtures$facup_5_2 + FACUP_fixtures$facup_5_3 + FACUP_fixtures$facup_5_4 + FACUP_fixtures$facup_0_5 +
+    FACUP_fixtures$facup_1_5 + FACUP_fixtures$facup_2_5 + FACUP_fixtures$facup_3_5 + FACUP_fixtures$facup_4_5 + FACUP_fixtures$facup_5_5 +
+    FACUP_fixtures$facup_6_0 + FACUP_fixtures$facup_6_1 + FACUP_fixtures$facup_6_2 + FACUP_fixtures$facup_6_3 + FACUP_fixtures$facup_6_4 +
+    FACUP_fixtures$facup_6_5 + FACUP_fixtures$facup_0_6 + FACUP_fixtures$facup_1_6 + FACUP_fixtures$facup_2_6 + FACUP_fixtures$facup_3_6 +
+    FACUP_fixtures$facup_4_6 + FACUP_fixtures$facup_5_6 + FACUP_fixtures$facup_6_6
+)
+#un25
+FACUP_fixtures$facup_un25 <- (
+  FACUP_fixtures$facup_0_0 + FACUP_fixtures$facup_1_0 + FACUP_fixtures$facup_0_1 + FACUP_fixtures$facup_1_1 + FACUP_fixtures$facup_2_0 + FACUP_fixtures$facup_0_2
+)
+#odds
+FACUP_fixtures$facup_ov25_odds <- round((1/FACUP_fixtures$facup_ov25),digits = 2)
+FACUP_fixtures$facup_un25_odds <- round((1/FACUP_fixtures$facup_un25),digits = 2)
+
+FACUP_fixtures$facup_ov25_odds
+FACUP_fixtures$facup_un25_odds
+###############################################################################
+###BTTS########################################################################
+#BTTSY
+FACUP_fixtures$facup_BTTSY <- (
+  FACUP_fixtures$facup_1_1 + FACUP_fixtures$facup_2_1 + FACUP_fixtures$facup_1_2 + FACUP_fixtures$facup_3_1 + FACUP_fixtures$facup_3_2 +
+    FACUP_fixtures$facup_2_2 + FACUP_fixtures$facup_1_3 + FACUP_fixtures$facup_2_3 + FACUP_fixtures$facup_3_3 + FACUP_fixtures$facup_4_4 +
+    FACUP_fixtures$facup_4_1 + FACUP_fixtures$facup_4_3 + FACUP_fixtures$facup_4_2 + FACUP_fixtures$facup_1_4 + FACUP_fixtures$facup_2_4 +
+    FACUP_fixtures$facup_3_4 + FACUP_fixtures$facup_5_5 + FACUP_fixtures$facup_5_1 + FACUP_fixtures$facup_5_2 + FACUP_fixtures$facup_5_3 +
+    FACUP_fixtures$facup_5_4 + FACUP_fixtures$facup_1_5 + FACUP_fixtures$facup_2_5 + FACUP_fixtures$facup_3_5 + FACUP_fixtures$facup_4_5 +
+    FACUP_fixtures$facup_6_6 + FACUP_fixtures$facup_6_1 + FACUP_fixtures$facup_6_2 + FACUP_fixtures$facup_6_3 + FACUP_fixtures$facup_6_4 +
+    FACUP_fixtures$facup_6_5 + FACUP_fixtures$facup_1_6 + FACUP_fixtures$facup_2_6 + FACUP_fixtures$facup_3_6 + FACUP_fixtures$facup_4_6 +
+    FACUP_fixtures$facup_5_6
+)
+#BTTSN
+FACUP_fixtures$facup_BTTSN <- (
+  FACUP_fixtures$facup_0_0 + FACUP_fixtures$facup_1_0 + FACUP_fixtures$facup_0_1 + FACUP_fixtures$facup_2_0 + FACUP_fixtures$facup_0_2 +
+    FACUP_fixtures$facup_3_0 + FACUP_fixtures$facup_0_3 + FACUP_fixtures$facup_4_0 + FACUP_fixtures$facup_0_4 + FACUP_fixtures$facup_5_0 +
+    FACUP_fixtures$facup_0_5 + FACUP_fixtures$facup_6_0 + FACUP_fixtures$facup_0_6
+)
+
+FACUP_fixtures$facup_BTTSY_odds <- round((1/FACUP_fixtures$facup_BTTSY),digits = 2)
+FACUP_fixtures$facup_BTTSN_odds <- round((1/FACUP_fixtures$facup_BTTSN),digits = 2)
+
+FACUP_fixtures$facup_BTTSY <- percent(FACUP_fixtures$facup_BTTSY, accuracy = 0.1)
+FACUP_fixtures$facup_BTTSN <- percent(FACUP_fixtures$facup_BTTSN, accuracy = 0.1)
+#odds
+FACUP_fixtures$facup_BTTSY_odds
+FACUP_fixtures$facup_BTTSN_odds
+########Asian Handicaps##########################################################################################################
+##########################################################################
+#AH(0)
+#AH_0_H
+FACUP_fixtures$facup_AH_0_H <- (
+  FACUP_fixtures$facup_1_0 + FACUP_fixtures$facup_2_0 + FACUP_fixtures$facup_2_1 + FACUP_fixtures$facup_3_0 + FACUP_fixtures$facup_3_1 +
+    FACUP_fixtures$facup_3_2 + FACUP_fixtures$facup_4_0 + FACUP_fixtures$facup_4_1 + FACUP_fixtures$facup_4_2 + FACUP_fixtures$facup_4_3 +
+    FACUP_fixtures$facup_5_0 +FACUP_fixtures$facup_5_1 + FACUP_fixtures$facup_5_2 + FACUP_fixtures$facup_5_3 + FACUP_fixtures$facup_5_4 +
+    FACUP_fixtures$facup_6_0 + FACUP_fixtures$facup_6_1 + FACUP_fixtures$facup_6_2 + FACUP_fixtures$facup_6_3 + FACUP_fixtures$facup_6_4 +
+    FACUP_fixtures$facup_6_5 + FACUP_fixtures$facup_0_0 + FACUP_fixtures$facup_1_1 + FACUP_fixtures$facup_2_2 + FACUP_fixtures$facup_3_3 +
+    FACUP_fixtures$facup_4_4 + FACUP_fixtures$facup_5_5 + FACUP_fixtures$facup_6_6
+)
+#AH_0_A
+FACUP_fixtures$facup_AH_0_A <- (
+  FACUP_fixtures$facup_0_1 + FACUP_fixtures$facup_0_2 + FACUP_fixtures$facup_1_2 + FACUP_fixtures$facup_0_3 + FACUP_fixtures$facup_1_3 +
+    FACUP_fixtures$facup_2_3 + FACUP_fixtures$facup_0_4 + FACUP_fixtures$facup_1_4 + FACUP_fixtures$facup_2_4 + FACUP_fixtures$facup_3_4 +
+    FACUP_fixtures$facup_0_5 +FACUP_fixtures$facup_1_5 + FACUP_fixtures$facup_2_5 + FACUP_fixtures$facup_3_5 + FACUP_fixtures$facup_4_5 +
+    FACUP_fixtures$facup_0_6 + FACUP_fixtures$facup_1_6 + FACUP_fixtures$facup_2_6 + FACUP_fixtures$facup_3_6 + FACUP_fixtures$facup_4_6 +
+    FACUP_fixtures$facup_5_6 + FACUP_fixtures$facup_0_0 + FACUP_fixtures$facup_1_1 + FACUP_fixtures$facup_2_2 + FACUP_fixtures$facup_3_3 +
+    FACUP_fixtures$facup_4_4 + FACUP_fixtures$facup_5_5 + FACUP_fixtures$facup_6_6
+)
+
+#odds
+FACUP_fixtures$facup_AH_0_H_odds <- round((1/FACUP_fixtures$facup_AH_0_H),digits = 2)
+FACUP_fixtures$facup_AH_0_A_odds <- round((1/FACUP_fixtures$facup_AH_0_A),digits = 2)
+
+FACUP_fixtures$facup_AH_0_H_odds
+FACUP_fixtures$facup_AH_0_A_odds
+#percentages
+FACUP_fixtures$facup_AH_0_H <- percent(FACUP_fixtures$facup_AH_0_H, accuracy = 0.1)
+FACUP_fixtures$facup_AH_0_A <- percent(FACUP_fixtures$facup_AH_0_A, accuracy = 0.1)
+####################################################################################
+##########################################################################
+#AH(-0.75)
+#AH_n075_H
+FACUP_fixtures$facup_AH_n075_H <- (
+  FACUP_fixtures$facup_1_0 + FACUP_fixtures$facup_2_0 + FACUP_fixtures$facup_2_1 + FACUP_fixtures$facup_3_0 + FACUP_fixtures$facup_3_1 +
+    FACUP_fixtures$facup_3_2 + FACUP_fixtures$facup_4_0 + FACUP_fixtures$facup_4_1 + FACUP_fixtures$facup_4_2 + FACUP_fixtures$facup_4_3 +
+    FACUP_fixtures$facup_5_0 +FACUP_fixtures$facup_5_1 + FACUP_fixtures$facup_5_2 + FACUP_fixtures$facup_5_3 + FACUP_fixtures$facup_5_4 +
+    FACUP_fixtures$facup_6_0 + FACUP_fixtures$facup_6_1 + FACUP_fixtures$facup_6_2 + FACUP_fixtures$facup_6_3 + FACUP_fixtures$facup_6_4 +
+    FACUP_fixtures$facup_6_5
+)
+#AH_n075_A
+FACUP_fixtures$facup_AH_n075_A <- (
+  FACUP_fixtures$facup_0_1 + FACUP_fixtures$facup_0_2 + FACUP_fixtures$facup_1_2 + FACUP_fixtures$facup_0_3 + FACUP_fixtures$facup_1_3 +
+    FACUP_fixtures$facup_2_3 + FACUP_fixtures$facup_0_4 + FACUP_fixtures$facup_1_4 + FACUP_fixtures$facup_2_4 + FACUP_fixtures$facup_3_4 +
+    FACUP_fixtures$facup_0_5 +FACUP_fixtures$facup_1_5 + FACUP_fixtures$facup_2_5 + FACUP_fixtures$facup_3_5 + FACUP_fixtures$facup_4_5 +
+    FACUP_fixtures$facup_0_6 + FACUP_fixtures$facup_1_6 + FACUP_fixtures$facup_2_6 + FACUP_fixtures$facup_3_6 + FACUP_fixtures$facup_4_6 +
+    FACUP_fixtures$facup_5_6
+)
+
+#odds
+FACUP_fixtures$facup_AH_n075_H_odds <- round((1/FACUP_fixtures$facup_AH_n075_H),digits = 2)
+FACUP_fixtures$facup_AH_n075_A_odds <- round((1/FACUP_fixtures$facup_AH_n075_A),digits = 2)
+
+FACUP_fixtures$facup_AH_n075_H_odds
+FACUP_fixtures$facup_AH_n075_A_odds
+#percentages
+FACUP_fixtures$facup_AH_n075_H <- percent(FACUP_fixtures$facup_AH_n075_H, accuracy = 0.1)
+FACUP_fixtures$facup_AH_n075_A <- percent(FACUP_fixtures$facup_AH_n075_A, accuracy = 0.1)
+##########################################################################
+#AH(0.75)
+#AH_075_H
+FACUP_fixtures$facup_AH_075_H <- (
+  FACUP_fixtures$facup_1_0 + FACUP_fixtures$facup_2_0 + FACUP_fixtures$facup_2_1 + FACUP_fixtures$facup_3_0 + FACUP_fixtures$facup_3_1 +
+    FACUP_fixtures$facup_3_2 + FACUP_fixtures$facup_4_0 + FACUP_fixtures$facup_4_1 + FACUP_fixtures$facup_4_2 + FACUP_fixtures$facup_4_3 +
+    FACUP_fixtures$facup_5_0 +FACUP_fixtures$facup_5_1 + FACUP_fixtures$facup_5_2 + FACUP_fixtures$facup_5_3 + FACUP_fixtures$facup_5_4 +
+    FACUP_fixtures$facup_6_0 + FACUP_fixtures$facup_6_1 + FACUP_fixtures$facup_6_2 + FACUP_fixtures$facup_6_3 + FACUP_fixtures$facup_6_4 +
+    FACUP_fixtures$facup_6_5 + FACUP_fixtures$facup_0_0 + FACUP_fixtures$facup_1_1 + FACUP_fixtures$facup_2_2 + FACUP_fixtures$facup_3_3 +
+    FACUP_fixtures$facup_4_4 + FACUP_fixtures$facup_5_5 + FACUP_fixtures$facup_6_6 + FACUP_fixtures$facup_0_1 + FACUP_fixtures$facup_1_2 +
+    FACUP_fixtures$facup_2_3 + FACUP_fixtures$facup_3_4 + FACUP_fixtures$facup_4_5 + FACUP_fixtures$facup_5_6
+)
+#AH_075_A
+FACUP_fixtures$facup_AH_075_A <- (
+  FACUP_fixtures$facup_0_1 + FACUP_fixtures$facup_0_2 + FACUP_fixtures$facup_1_2 + FACUP_fixtures$facup_0_3 + FACUP_fixtures$facup_1_3 +
+    FACUP_fixtures$facup_2_3 + FACUP_fixtures$facup_0_4 + FACUP_fixtures$facup_1_4 + FACUP_fixtures$facup_2_4 + FACUP_fixtures$facup_3_4 +
+    FACUP_fixtures$facup_0_5 +FACUP_fixtures$facup_1_5 + FACUP_fixtures$facup_2_5 + FACUP_fixtures$facup_3_5 + FACUP_fixtures$facup_4_5 +
+    FACUP_fixtures$facup_0_6 + FACUP_fixtures$facup_1_6 + FACUP_fixtures$facup_2_6 + FACUP_fixtures$facup_3_6 + FACUP_fixtures$facup_4_6 +
+    FACUP_fixtures$facup_5_6 + FACUP_fixtures$facup_0_0 + FACUP_fixtures$facup_1_1 + FACUP_fixtures$facup_2_2 + FACUP_fixtures$facup_3_3 +
+    FACUP_fixtures$facup_4_4 + FACUP_fixtures$facup_5_5 + FACUP_fixtures$facup_6_6 + FACUP_fixtures$facup_1_0 + FACUP_fixtures$facup_2_1 +
+    FACUP_fixtures$facup_3_2 + FACUP_fixtures$facup_4_3 + FACUP_fixtures$facup_5_4 + FACUP_fixtures$facup_6_5
+)
+
+#odds
+FACUP_fixtures$facup_AH_075_H_odds <- round((1/FACUP_fixtures$facup_AH_075_H),digits = 2)
+FACUP_fixtures$facup_AH_075_A_odds <- round((1/FACUP_fixtures$facup_AH_075_A),digits = 2)
+
+FACUP_fixtures$facup_AH_075_H_odds
+FACUP_fixtures$facup_AH_075_A_odds
+#percentages
+FACUP_fixtures$facup_AH_075_H <- percent(FACUP_fixtures$facup_AH_075_H, accuracy = 0.1)
+FACUP_fixtures$facup_AH_075_A <- percent(FACUP_fixtures$facup_AH_075_A, accuracy = 0.1)
+####################################################################################
+#AH(-1.25)
+#AH_n125_H
+FACUP_fixtures$facup_AH_n125_H <- (
+  FACUP_fixtures$facup_1_0 + FACUP_fixtures$facup_2_0 + FACUP_fixtures$facup_2_1 + FACUP_fixtures$facup_3_0 + FACUP_fixtures$facup_3_1 +
+    FACUP_fixtures$facup_3_2 + FACUP_fixtures$facup_4_0 + FACUP_fixtures$facup_4_1 + FACUP_fixtures$facup_4_2 + FACUP_fixtures$facup_4_3 +
+    FACUP_fixtures$facup_5_0 +FACUP_fixtures$facup_5_1 + FACUP_fixtures$facup_5_2 + FACUP_fixtures$facup_5_3 + FACUP_fixtures$facup_5_4 +
+    FACUP_fixtures$facup_6_0 + FACUP_fixtures$facup_6_1 + FACUP_fixtures$facup_6_2 + FACUP_fixtures$facup_6_3 + FACUP_fixtures$facup_6_4 +
+    FACUP_fixtures$facup_6_5
+)
+#AH_n125_A
+FACUP_fixtures$facup_AH_n125_A <- (
+  FACUP_fixtures$facup_0_1 + FACUP_fixtures$facup_0_2 + FACUP_fixtures$facup_1_2 + FACUP_fixtures$facup_0_3 + FACUP_fixtures$facup_1_3 +
+    FACUP_fixtures$facup_2_3 + FACUP_fixtures$facup_0_4 + FACUP_fixtures$facup_1_4 + FACUP_fixtures$facup_2_4 + FACUP_fixtures$facup_3_4 +
+    FACUP_fixtures$facup_0_5 +FACUP_fixtures$facup_1_5 + FACUP_fixtures$facup_2_5 + FACUP_fixtures$facup_3_5 + FACUP_fixtures$facup_4_5 +
+    FACUP_fixtures$facup_0_6 + FACUP_fixtures$facup_1_6 + FACUP_fixtures$facup_2_6 + FACUP_fixtures$facup_3_6 + FACUP_fixtures$facup_4_6 +
+    FACUP_fixtures$facup_5_6
+)
+
+#odds
+FACUP_fixtures$facup_AH_n125_H_odds <- round((1/FACUP_fixtures$facup_AH_n125_H),digits = 2)
+FACUP_fixtures$facup_AH_n125_A_odds <- round((1/FACUP_fixtures$facup_AH_n125_A),digits = 2)
+
+FACUP_fixtures$facup_AH_n125_H_odds
+FACUP_fixtures$facup_AH_n125_A_odds
+#percentages
+FACUP_fixtures$facup_AH_n125_H <- percent(FACUP_fixtures$facup_AH_n125_H, accuracy = 0.1)
+FACUP_fixtures$facup_AH_n125_A <- percent(FACUP_fixtures$facup_AH_n125_A, accuracy = 0.1)
+
+####################################################################################
+##########################################################################
+#AH(1.25)
+#AH_125_H
+FACUP_fixtures$facup_AH_125_H <- (
+  FACUP_fixtures$facup_1_0 + FACUP_fixtures$facup_2_0 + FACUP_fixtures$facup_2_1 + FACUP_fixtures$facup_3_0 + FACUP_fixtures$facup_3_1 +
+    FACUP_fixtures$facup_3_2 + FACUP_fixtures$facup_4_0 + FACUP_fixtures$facup_4_1 + FACUP_fixtures$facup_4_2 + FACUP_fixtures$facup_4_3 +
+    FACUP_fixtures$facup_5_0 +FACUP_fixtures$facup_5_1 + FACUP_fixtures$facup_5_2 + FACUP_fixtures$facup_5_3 + FACUP_fixtures$facup_5_4 +
+    FACUP_fixtures$facup_6_0 + FACUP_fixtures$facup_6_1 + FACUP_fixtures$facup_6_2 + FACUP_fixtures$facup_6_3 + FACUP_fixtures$facup_6_4 +
+    FACUP_fixtures$facup_6_5 + FACUP_fixtures$facup_0_0 + FACUP_fixtures$facup_1_1 + FACUP_fixtures$facup_2_2 + FACUP_fixtures$facup_3_3 +
+    FACUP_fixtures$facup_4_4 + FACUP_fixtures$facup_5_5 + FACUP_fixtures$facup_6_6 + FACUP_fixtures$facup_0_1 + FACUP_fixtures$facup_1_2 +
+    FACUP_fixtures$facup_2_3 + FACUP_fixtures$facup_3_4 + FACUP_fixtures$facup_4_5 + FACUP_fixtures$facup_5_6
+)
+#AH_125_A
+FACUP_fixtures$facup_AH_125_A <- (
+  FACUP_fixtures$facup_0_1 + FACUP_fixtures$facup_0_2 + FACUP_fixtures$facup_1_2 + FACUP_fixtures$facup_0_3 + FACUP_fixtures$facup_1_3 +
+    FACUP_fixtures$facup_2_3 + FACUP_fixtures$facup_0_4 + FACUP_fixtures$facup_1_4 + FACUP_fixtures$facup_2_4 + FACUP_fixtures$facup_3_4 +
+    FACUP_fixtures$facup_0_5 +FACUP_fixtures$facup_1_5 + FACUP_fixtures$facup_2_5 + FACUP_fixtures$facup_3_5 + FACUP_fixtures$facup_4_5 +
+    FACUP_fixtures$facup_0_6 + FACUP_fixtures$facup_1_6 + FACUP_fixtures$facup_2_6 + FACUP_fixtures$facup_3_6 + FACUP_fixtures$facup_4_6 +
+    FACUP_fixtures$facup_5_6 + FACUP_fixtures$facup_0_0 + FACUP_fixtures$facup_1_1 + FACUP_fixtures$facup_2_2 + FACUP_fixtures$facup_3_3 +
+    FACUP_fixtures$facup_4_4 + FACUP_fixtures$facup_5_5 + FACUP_fixtures$facup_6_6 + FACUP_fixtures$facup_1_0 + FACUP_fixtures$facup_2_1 +
+    FACUP_fixtures$facup_3_2 + FACUP_fixtures$facup_4_3 + FACUP_fixtures$facup_5_4 + FACUP_fixtures$facup_6_5
+)
+
+#odds
+FACUP_fixtures$facup_AH_125_H_odds <- round((1/FACUP_fixtures$facup_AH_125_H),digits = 2)
+FACUP_fixtures$facup_AH_125_A_odds <- round((1/FACUP_fixtures$facup_AH_125_A),digits = 2)
+
+FACUP_fixtures$facup_AH_125_H_odds
+FACUP_fixtures$facup_AH_125_A_odds
+#percentages
+FACUP_fixtures$facup_AH_125_H <- percent(FACUP_fixtures$facup_AH_125_H, accuracy = 0.1)
+FACUP_fixtures$facup_AH_125_A <- percent(FACUP_fixtures$facup_AH_125_A, accuracy = 0.1)
+####################################################################################
+########Asian Handicaps######################################################################################################
+#percentages
+FACUP_fixtures$facup_ov25 <- percent(FACUP_fixtures$facup_ov25, accuracy = 0.1)
+
+FACUP_fixtures$facup_un25 <- percent(FACUP_fixtures$facup_un25, accuracy = 0.1)
+FACUP_fixtures$facup_pscore <- paste(round(FACUP_fixtures$facup_xGH,digits = 0),round(FACUP_fixtures$facup_xGA,digits = 0),sep = "-")
+############################################################################################################################################################
+#Last six
+facup_last_n_games <- 6
+
+#create final_facup_hf object
+final_facup_hf <- c()
+for(index_facup_hf in 1:length(facup_teams))
+{
+  index_facup_hf <- row.names(facup_form_h) == facup_teams[index_facup_hf]
+  form_facup_hf <- facup_form_h[index_facup_hf]
+  deleted_form_facup_hf <- form_facup_hf[!form_facup_hf[] == ""]
+  l6_form_facup_hf <- tail(deleted_form_facup_hf,facup_last_n_games)
+  l6_form_facup_hf <- paste(l6_form_facup_hf,collapse = " ")
+  final_facup_hf[index_facup_hf] <- rbind(paste(facup_teams[index_facup_hf],l6_form_facup_hf, sep = ",",collapse = ""))
+  #bundesform[] <- printf("%s\t%s\n",facup_teams[index],l6_form)
+
+}
+
+#change column nam
+final_facup_hf <- as.data.frame(final_facup_hf)
+colnames(final_facup_hf) <- "Form"
+#goals scored
+#create final_facup_gs object
+final_facup_gs <- c()
+suml6_facup_gs <- c()
+for(index_facup_gs in 1:length(facup_teams))
+{
+  index_facup_gs <- row.names(facup_goalscored_h) == facup_teams[index_facup_gs]
+  form_facup_gs <- facup_goalscored_h[index_facup_gs]
+  deleted_form_facup_gs <- form_facup_gs[!form_facup_gs[] == ""]
+  l6_form_facup_gs <- tail(deleted_form_facup_gs,facup_last_n_games)
+  l6_form_facup_gs <- as.numeric(l6_form_facup_gs)
+  suml6_facup_gs[index_facup_gs] <- sum(l6_form_facup_gs)
+  suml6_facup_gs[index_facup_gs] <- paste("(",suml6_facup_gs[index_facup_gs],")",sep = "")
+  l6_form_facup_gs <- paste(l6_form_facup_gs,collapse = " ")
+  final_facup_gs[index_facup_gs] <- rbind(paste(facup_teams[index_facup_gs],l6_form_facup_gs,suml6_facup_gs[index_facup_gs], sep = ",",collapse = ""))
+  #bundesform[] <- printf("%s\t%s\n",facup_teams[index],l6_form)
+
+}
+final_facup_gs
+#change column names
+final_facup_gs <- as.data.frame(final_facup_gs)
+colnames(final_facup_gs) <- "Goals scored"
+#goal conceded
+#create final_facup_gc object
+final_facup_gc <- c()
+suml6_facup_gc <- c()
+for(index_facup_gc in 1:length(facup_teams))
+{
+  index_facup_gc <- row.names(facup_goalconceded_h) == facup_teams[index_facup_gc]
+  form_facup_gc <- facup_goalconceded_h[index_facup_gc]
+  deleted_form_facup_gc <- form_facup_gc[!form_facup_gc[] == ""]
+  l6_form_facup_gc <- tail(deleted_form_facup_gc,facup_last_n_games)
+  l6_form_facup_gc <- as.numeric(l6_form_facup_gc)
+  suml6_facup_gc[index_facup_gc] <- sum(l6_form_facup_gc)
+  suml6_facup_gc[index_facup_gc] <- paste("(",suml6_facup_gc[index_facup_gc],")",sep = "")
+  l6_form_facup_gc <- paste(l6_form_facup_gc,collapse = " ")
+  final_facup_gc[index_facup_gc] <- rbind(paste(facup_teams[index_facup_gc],l6_form_facup_gc,suml6_facup_gc[index_facup_gc], sep = ",",collapse = ""))
+  #bundesform[] <- printf("%s\t%s\n",facup_teams[index],l6_form)
+
+}
+#change column names
+final_facup_gc <- as.data.frame(final_facup_gc)
+colnames(final_facup_gc) <- "Goals conceded"
+
+
+toString(l6_form_facup_gc)
+#total goals
+#create final_facup_tg object
+final_facup_tg <- c()
+suml6_facup_tg <- c()
+for(index_facup_tg in 1:length(facup_teams))
+{
+  index_facup_tg <- row.names(facup_totalgoals_h) == facup_teams[index_facup_tg]
+  form_facup_tg <- facup_totalgoals_h[index_facup_tg]
+  deleted_form_facup_tg <- form_facup_tg[!form_facup_tg[] == ""]
+  l6_form_facup_tg <- tail(deleted_form_facup_tg,facup_last_n_games)
+  l6_form_facup_tg <- as.numeric(l6_form_facup_tg)
+  suml6_facup_tg[index_facup_tg] <- sum(l6_form_facup_tg)
+  suml6_facup_tg[index_facup_tg] <- paste("(",suml6_facup_tg[index_facup_tg],")",sep = "")
+  l6_form_facup_tg <- paste(l6_form_facup_tg,collapse = " ")
+  final_facup_tg[index_facup_tg] <- rbind(paste(facup_teams[index_facup_tg],l6_form_facup_tg,suml6_facup_tg[index_facup_tg], sep = ",",collapse = ""))
+  #bundesform[] <- printf("%s\t%s\n",facup_teams[index],l6_form)
+
+}
+#change column names
+final_facup_tg <- as.data.frame(final_facup_tg)
+colnames(final_facup_tg) <- "Total Goals"
+###############################################
+#Csfrom
+#create final_facup_hf object
+final_facup_cs <- c()
+for(index_facup_cs in 1:length(facup_teams))
+{
+  index_facup_cs <- row.names(facup_csform_h) == facup_teams[index_facup_cs]
+  csform_facup_cs <- facup_csform_h[index_facup_cs]
+  deleted_csform_facup_cs <- csform_facup_cs[!csform_facup_cs[] == ""]
+  l6_csform_facup_cs <- tail(deleted_csform_facup_cs,facup_last_n_games)
+  l6_csform_facup_cs <- paste(l6_csform_facup_cs,collapse = " ")
+  final_facup_cs[index_facup_cs] <- rbind(paste(facup_teams[index_facup_cs],l6_csform_facup_cs, sep = ",",collapse = ""))
+  #bundescsform[] <- printf("%s\t%s\n",facup_teams[index],l6_csform)
+
+}
+
+#change column names
+final_facup_cs <- as.data.frame(final_facup_cs)
+colnames(final_facup_cs) <- "CSForm"
+#################################################
+#Win Margin
+#goals scored
+#create final_facup_wm object
+final_facup_wm <- c()
+suml6_facup_wm <- c()
+for(index_facup_wm in 1:length(facup_teams))
+{
+  index_facup_wm <- row.names(facup_winmargin_h) == facup_teams[index_facup_wm]
+  form_facup_wm <- facup_winmargin_h[index_facup_wm]
+  deleted_form_facup_wm <- form_facup_wm[!form_facup_wm[] == ""]
+  l6_form_facup_wm <- tail(deleted_form_facup_wm,facup_last_n_games)
+  l6_form_facup_wm <- as.numeric(l6_form_facup_wm)
+  suml6_facup_wm[index_facup_wm] <- sum(l6_form_facup_wm)
+  suml6_facup_wm[index_facup_wm] <- paste("(",suml6_facup_wm[index_facup_wm],")",sep = "")
+  l6_form_facup_wm <- paste(l6_form_facup_wm,collapse = " ")
+  final_facup_wm[index_facup_wm] <- rbind(paste(facup_teams[index_facup_wm],l6_form_facup_wm,suml6_facup_wm[index_facup_wm], sep = ",",collapse = ""))
+  #bundesform[] <- printf("%s\t%s\n",facup_teams[index],l6_form)
+
+}
+final_facup_wm
+#change column names
+final_facup_wm <- as.data.frame(final_facup_wm)
+colnames(final_facup_wm) <- "Win Margin"
+#################################################
+##################################################
+#corners awarded
+#create final_facup_ca object
+final_facup_ca <- c()
+suml6_facup_ca <- c()
+for(index_facup_ca in 1:length(facup_teams))
+{
+  index_facup_ca <- row.names(facup_coawarded_h) == facup_teams[index_facup_ca]
+  form_facup_ca <- facup_coawarded_h[index_facup_ca]
+  deleted_form_facup_ca <- form_facup_ca[!form_facup_ca[] == ""]
+  l6_form_facup_ca <- tail(deleted_form_facup_ca,facup_last_n_games)
+  l6_form_facup_ca <- as.numeric(l6_form_facup_ca)
+  suml6_facup_ca[index_facup_ca] <- sum(l6_form_facup_ca)
+  suml6_facup_ca[index_facup_ca] <- paste("(",suml6_facup_ca[index_facup_ca],")",sep = "")
+  l6_form_facup_ca <- paste(l6_form_facup_ca,collapse = " ")
+  final_facup_ca[index_facup_ca] <- rbind(paste(facup_teams[index_facup_ca],l6_form_facup_ca,suml6_facup_ca[index_facup_ca], sep = ",",collapse = ""))
+  #bundesform[] <- printf("%s\t%s\n",facup_teams[index],l6_form)
+
+}
+final_facup_ca
+#change column names
+final_facup_ca <- as.data.frame(final_facup_ca)
+colnames(final_facup_ca) <- "CornersAwarded"
+##################################################
+##################################################
+#corners awarded
+#create final_facup_ca object
+final_facup_cc <- c()
+suml6_facup_cc <- c()
+for(index_facup_cc in 1:length(facup_teams))
+{
+  index_facup_cc <- row.names(facup_cornersconceded_h) == facup_teams[index_facup_cc]
+  form_facup_cc <- facup_cornersconceded_h[index_facup_cc]
+  deleted_form_facup_cc <- form_facup_cc[!form_facup_cc[] == ""]
+  l6_form_facup_cc <- tail(deleted_form_facup_cc,facup_last_n_games)
+  l6_form_facup_cc <- as.numeric(l6_form_facup_cc)
+  suml6_facup_cc[index_facup_cc] <- sum(l6_form_facup_cc)
+  suml6_facup_cc[index_facup_cc] <- paste("(",suml6_facup_cc[index_facup_cc],")",sep = "")
+  l6_form_facup_cc <- paste(l6_form_facup_cc,collapse = " ")
+  final_facup_cc[index_facup_cc] <- rbind(paste(facup_teams[index_facup_cc],l6_form_facup_cc,suml6_facup_cc[index_facup_cc], sep = ",",collapse = ""))
+  #bundesform[] <- printf("%s\t%s\n",facup_teams[index],l6_form)
+
+}
+final_facup_cc
+#change column names
+final_facup_cc <- as.data.frame(final_facup_cc)
+colnames(final_facup_cc) <- "CornersConceded"
+##################################################
+##################################################
+#corners form
+final_facup_cosc <- c()
+for(index_facup_cosc in 1:length(facup_teams))
+{
+  index_facup_cosc <- row.names(facup_coscform_h) == facup_teams[index_facup_cosc]
+  coscform_facup_cosc <- facup_coscform_h[index_facup_cosc]
+  deleted_coscform_facup_cosc <- coscform_facup_cosc[!coscform_facup_cosc[] == ""]
+  l6_coscform_facup_cosc <- tail(deleted_coscform_facup_cosc,facup_last_n_games)
+  l6_coscform_facup_cosc <- paste(l6_coscform_facup_cosc,collapse = " ")
+  final_facup_cosc[index_facup_cosc] <- rbind(paste(facup_teams[index_facup_cosc],l6_coscform_facup_cosc, sep = ",",collapse = ""))
+  #bundescoscform[] <- printf("%s\t%s\n",facup_teams[index],l6_coscform)
+
+}
+final_facup_cosc
+#change column names
+final_facup_cosc <- as.data.frame(final_facup_cosc)
+colnames(final_facup_cosc) <- "CornersForm"
+##################################################
+#total corners
+#create final_facup_tcorners object
+final_facup_tcorners <- c()
+suml6_facup_tcorners <- c()
+for(index_facup_tcorners in 1:length(facup_teams))
+{
+  index_facup_tcorners <- row.names(facup_totalcorners_h) == facup_teams[index_facup_tcorners]
+  form_facup_tcorners <- facup_totalcorners_h[index_facup_tcorners]
+  deleted_form_facup_tcorners <- form_facup_tcorners[!form_facup_tcorners[] == ""]
+  l6_form_facup_tcorners <- tail(deleted_form_facup_tcorners,facup_last_n_games)
+  l6_form_facup_tcorners <- as.numeric(l6_form_facup_tcorners)
+  suml6_facup_tcorners[index_facup_tcorners] <- sum(l6_form_facup_tcorners)
+  suml6_facup_tcorners[index_facup_tcorners] <- paste("(",suml6_facup_tcorners[index_facup_tcorners],")",sep = "")
+  l6_form_facup_tcorners <- paste(l6_form_facup_tcorners,collapse = " ")
+  final_facup_tcorners[index_facup_tcorners] <- rbind(paste(facup_teams[index_facup_tcorners],l6_form_facup_tcorners,suml6_facup_tcorners[index_facup_tcorners], sep = ",",collapse = ""))
+  #bundesform[] <- printf("%s\t%s\n",facup_teams[index],l6_form)
+
+}
+#change column names
+final_facup_tcorners <- as.data.frame(final_facup_tcorners)
+colnames(final_facup_tcorners) <- "TotalCorners"
+###################################################
+#Team against
+#create final_facup_hf_against
+final_facup_hf_against <- c()
+for(index_facup_hf_against in 1:length(facup_teams))
+{
+  index_facup_hf_against <- row.names(facup_form_team_against_h) == facup_teams[index_facup_hf_against]
+  form_facup_hf_against <- facup_form_team_against_h[index_facup_hf_against]
+  deleted_form_facup_hf_against <- form_facup_hf_against[!form_facup_hf_against[] == ""]
+  l6_form_facup_hf_against <- tail(deleted_form_facup_hf_against,facup_last_n_games)
+  l6_form_facup_hf_against <- paste(l6_form_facup_hf_against,collapse = " ")
+  final_facup_hf_against[index_facup_hf_against] <- rbind(paste(facup_teams[index_facup_hf_against],l6_form_facup_hf_against, sep = ",",collapse = ""))
+  #bundesform[] <- printf("%s\t%s\n",facup_teams[index],l6_form)
+
+}
+final_facup_hf_against <- as.data.frame(final_facup_hf_against)
+colnames(final_facup_hf_against) <- "Team against"
+#combine the columns
+final_facup_all <- cbind(final_facup_hf,final_facup_gs,final_facup_gc,final_facup_tg,final_facup_ca,final_facup_cc,final_facup_tcorners,final_facup_cosc,final_facup_hf_against)
+###################################################################################################################################################################################
+#TABLE SIMULATION
+#FACUP
+FACUP_sim <- FACUP
+FACUP_sim$matchid <- paste(FACUP_sim$HomeTeam,FACUP_sim$AwayTeam,sep = "-")
+FACUP_fixtures$matchid <- paste(FACUP_fixtures$HomeTeam_facup,FACUP_fixtures$AwayTeam_facup,sep = "-")
+FACUP_fixtures$facup_FTR <- sapply(FACUP_fixtures$facup_pscore,switch,
+                             '1-0' = 'H','2-0'='H','2-1'= 'H','3-0'= 'H','3-1'= 'H','3-2'= 'H','4-0'= 'H','4-1'= 'H','4-2'= 'H','4-3'= 'H','5-0'= 'H','5-1'= 'H','5-2'= 'H','5-3'= 'H','5-4'= 'H','6-0'= 'H','6-1'= 'H','6-2'= 'H','6-3'= 'H','6-4'= 'H','6-5'= 'H','7-0'= 'H','7-2'= 'H','9-0'= 'H',
+                             '0-0' = 'D','1-1' = 'D','2-2' = 'D','3-3' = 'D','4-4' = 'D','5-5' = 'D',
+                             '0-1'= 'A','0-2' = 'A','1-2'= 'A','0-3'= 'A','1-3'= 'A','2-3'= 'A','0-4'= 'A','1-4'= 'A','2-4'= 'A','3-4'= 'A','0-5'= 'A','1-5'= 'A','2-5'= 'A','3-5'= 'A','4-5'= 'A','0-6'= 'A','1-6'= 'A','2-6'= 'A','3-6'= 'A','4-6'= 'A','3-8'= 'A','5-6'= 'A')
+
+FACUP_fixtures$facup_gamestatus <- ifelse(FACUP_fixtures$matchid %in% FACUP_sim$matchid,"played","notplayed")
+
+facup_home_wins_sim <- c()
+facup_away_wins_sim <- c()
+facup_home_draws_sim <- c()
+facup_away_draws_sim <- c()
+facup_home_loss_sim <- c()
+facup_away_loss_sim <- c()
+
+
+
+for (i_facup_wins_sim in 1:length(facup_teams))
+{
+
+  facup_home_wins_sim[i_facup_wins_sim] <- nrow(FACUP_fixtures[FACUP_fixtures$HomeTeam_facup == facup_teams[i_facup_wins_sim] & FACUP_fixtures$facup_FTR == "H" & FACUP_fixtures$facup_gamestatus =="notplayed",])
+  facup_away_wins_sim[i_facup_wins_sim] <- nrow(FACUP_fixtures[FACUP_fixtures$AwayTeam_facup == facup_teams[i_facup_wins_sim] & FACUP_fixtures$facup_FTR == "A" & FACUP_fixtures$facup_gamestatus == "notplayed",])
+  facup_home_draws_sim[i_facup_wins_sim] <- nrow(FACUP_fixtures[FACUP_fixtures$HomeTeam_facup == facup_teams[i_facup_wins_sim] & FACUP_fixtures$facup_FTR == "D" & FACUP_fixtures$facup_gamestatus == "notplayed",])
+  facup_away_draws_sim[i_facup_wins_sim] <- nrow(FACUP_fixtures[FACUP_fixtures$AwayTeam_facup == facup_teams[i_facup_wins_sim] & FACUP_fixtures$facup_FTR == "D" & FACUP_fixtures$facup_gamestatus == "notplayed",])
+  facup_home_loss_sim[i_facup_wins_sim] <- nrow(FACUP_fixtures[FACUP_fixtures$HomeTeam_facup == facup_teams[i_facup_wins_sim] & FACUP_fixtures$facup_FTR == "A" & FACUP_fixtures$facup_gamestatus == "notplayed",])
+  facup_away_loss_sim[i_facup_wins_sim] <- nrow(FACUP_fixtures[FACUP_fixtures$AwayTeam_facup == facup_teams[i_facup_wins_sim] & FACUP_fixtures$facup_FTR == "H" & FACUP_fixtures$facup_gamestatus == "notplayed", ])
+
+}
+
+facup_total_wins_sim <- facup_home_wins_sim + facup_away_wins_sim
+facup_total_draws_sim <- facup_home_draws_sim + facup_away_draws_sim
+facup_total_loss_sim <- facup_home_loss_sim + facup_away_loss_sim
+
+facup_home_games_sim <- c()
+facup_away_games_sim <-c()
+
+for (i_facup_sim in 1:length(facup_teams))
+{
+
+  facup_home_games_sim[i_facup_sim] <- nrow(FACUP_fixtures[FACUP_fixtures$HomeTeam_facup == facup_teams[i_facup_sim] & FACUP_fixtures$facup_gamestatus == "notplayed",])
+  facup_away_games_sim[i_facup_sim]  <- nrow(FACUP_fixtures[FACUP_fixtures$AwayTeam_facup == facup_teams[i_facup_sim] & FACUP_fixtures$facup_gamestatus == "notplayed",])
+
+}
+
+facup_games_played_sim <- facup_home_games_sim + facup_away_games_sim
+
+facup_league_table_sim <- cbind(facup_teams,facup_games_played_sim,facup_total_wins_sim,facup_total_draws_sim,facup_total_loss_sim)
+facup_PTS_sim <- (facup_total_wins_sim*3) + (facup_total_draws_sim*1)
+facup_league_table_sim <- cbind(facup_league_table_sim,facup_PTS_sim)
+
+facup_games_played_simfinal <- facup_games_played + facup_games_played_sim
+facup_total_wins_simfinal <- facup_total_wins + facup_total_wins_sim
+facup_total_draws_simfinal <- facup_total_draws + facup_total_draws_sim
+facup_total_loss_simfinal <- facup_total_loss + facup_total_loss_sim
+facup_PTS_simfinal <- facup_PTS + facup_PTS_sim
+
+facup_league_table_simfinal <- cbind(facup_teams,facup_games_played_simfinal,facup_total_wins_simfinal,facup_total_draws_simfinal,facup_total_loss_simfinal,facup_PTS_simfinal)
+facup_league_table_simfinal <- as.data.frame(facup_league_table_simfinal)
+names(facup_league_table_simfinal)[names(facup_league_table_simfinal) == "facup_teams"] <- "Team_f"
+names(facup_league_table_simfinal)[names(facup_league_table_simfinal) == "facup_games_played_simfinal"] <- "P_f"
+names(facup_league_table_simfinal)[names(facup_league_table_simfinal) == "facup_total_wins_simfinal"] <- "W_f"
+names(facup_league_table_simfinal)[names(facup_league_table_simfinal) == "facup_total_draws_simfinal"] <- "D_f"
+names(facup_league_table_simfinal)[names(facup_league_table_simfinal) == "facup_total_loss_simfinal"] <- "L_f"
+names(facup_league_table_simfinal)[names(facup_league_table_simfinal) == "facup_PTS_simfinal"] <- "PTS_f"
+points_facup_sim <-  facup_league_table_simfinal[order(as.numeric(facup_league_table_simfinal$PTS_f), decreasing = TRUE),]
+
+FACUP_notplayed <- FACUP_fixtures[FACUP_fixtures$facup_gamestatus == "notplayed",]
+###########################################################################################################################################################
+#decision model
+#FACUP
+FACUP_fixtures$Hometeam_facup_index <- match(FACUP_fixtures$HomeTeam_facup,facup_teams)
+FACUP_fixtures$Awayteam_facup_index <- match(FACUP_fixtures$AwayTeam_facup,facup_teams)
+facup_prediction <- c()
+facup_HWM <- c()
+facup_AWM <- c()
+facup_HWMLM <- c()
+facup_AWMLM <- c()
+facup_HY <- c()
+facup_AY <- c()
+facup_HCO <- c()
+facup_ACO <- c()
+facup_HXSC <- c()
+facup_AXSC <- c()
+facup_HYCPF <- c()
+facup_AYCPF <- c()
+for(facup_row in 1:nrow(FACUP_fixtures))
+{
+
+  facup_hometeamindex <- FACUP_fixtures[facup_row,"Hometeam_facup_index"]
+  facup_awayteamindex <- FACUP_fixtures[facup_row,"Awayteam_facup_index"]
+  #analyse team form
+  #home team
+  facup_form_vec_ht <- as.vector(facup_form_h[facup_hometeamindex,])
+  facup_form_vec_ht[is.na(facup_form_vec_ht)] <- ""
+  facup_form_vec_ht <- facup_form_vec_ht[facup_form_vec_ht != ""]
+  facup_form_vec_ht  <-tail(facup_form_vec_ht,6)
+  facup_ht_numberof_wins <- length(which(facup_form_vec_ht == "W"))
+  facup_ht_numberof_draws <- length(which(facup_form_vec_ht == "D"))
+  facup_ht_numberof_loss <- length(which(facup_form_vec_ht == "L"))
+  #awayteam
+  facup_form_vec_at <- as.vector(facup_form_h[facup_awayteamindex,])
+  facup_form_vec_at[is.na(facup_form_vec_at)] <- ""
+  facup_form_vec_at <- facup_form_vec_at[facup_form_vec_at != ""]
+  facup_form_vec_at  <-tail(facup_form_vec_at,6)
+  facup_at_numberof_wins <- length(which(facup_form_vec_at == "W"))
+  facup_at_numberof_draws <- length(which(facup_form_vec_at == "D"))
+  facup_at_numberof_loss <- length(which(facup_form_vec_at == "L"))
+
+  ######################################################################
+  #analyse goals scored
+  #hometeam
+  facup_goalscored_vec_ht <- as.vector(facup_goalscored_h[facup_hometeamindex,])
+  facup_goalscored_vec_ht[is.na(facup_goalscored_vec_ht)] <- ""
+  facup_goalscored_vec_ht <- facup_goalscored_vec_ht[facup_goalscored_vec_ht != ""]
+  facup_goalscored_vec_ht  <-tail(facup_goalscored_vec_ht,6)
+  facup_goalscored_vec_ht  <- as.numeric(facup_goalscored_vec_ht)
+  facup_ht_totalgoalscored <- sum(facup_goalscored_vec_ht)
+  facup_ht_matches_scoring <- length(which(facup_goalscored_vec_ht > 0))
+  facup_ht_matches_without_scoring <- length(which(facup_goalscored_vec_ht == "0"))
+  #awayteam
+  facup_goalscored_vec_at <- as.vector(facup_goalscored_h[facup_awayteamindex,])
+  facup_goalscored_vec_at[is.na(facup_goalscored_vec_at)] <- ""
+  facup_goalscored_vec_at <- facup_goalscored_vec_at[facup_goalscored_vec_at != ""]
+  facup_goalscored_vec_at  <-tail(facup_goalscored_vec_at,6)
+  facup_goalscored_vec_at  <- as.numeric(facup_goalscored_vec_at)
+  facup_at_totalgoalscored <- sum(facup_goalscored_vec_at)
+  facup_at_matches_scoring <- length(which(facup_goalscored_vec_at > 0))
+  facup_at_matches_without_scoring <- length(which(facup_goalscored_vec_at == "0"))
+  #####################################################################################
+  #analyse goals conceded
+  #hometeam
+  facup_goalconceded_vec_ht <- as.vector(facup_goalconceded_h[facup_hometeamindex,])
+  facup_goalconceded_vec_ht[is.na(facup_goalconceded_vec_ht)] <- ""
+  facup_goalconceded_vec_ht <- facup_goalconceded_vec_ht[facup_goalconceded_vec_ht != ""]
+  facup_goalconceded_vec_ht  <-tail(facup_goalconceded_vec_ht,6)
+  facup_goalconceded_vec_ht  <- as.numeric(facup_goalconceded_vec_ht)
+  facup_goalconceded_vec_ht
+  facup_ht_totalgoalconceded <- sum(facup_goalconceded_vec_ht)
+  facup_ht_matches_concede <- length(which(facup_goalconceded_vec_ht > 0))
+  facup_ht_matches_without_concede <- length(which(facup_goalconceded_vec_ht == "0"))
+  #awayteam
+  facup_goalconceded_vec_at <- as.vector(facup_goalconceded_h[facup_awayteamindex,])
+  facup_goalconceded_vec_at[is.na(facup_goalconceded_vec_at)] <- ""
+  facup_goalconceded_vec_at <- facup_goalconceded_vec_at[facup_goalconceded_vec_at != ""]
+  facup_goalconceded_vec_at  <-tail(facup_goalconceded_vec_at,6)
+  facup_goalconceded_vec_at  <- as.numeric(facup_goalconceded_vec_at)
+  facup_at_totalgoalconceded <- sum(facup_goalconceded_vec_at)
+  facup_at_matches_concede <- length(which(facup_goalconceded_vec_at > 0))
+  facup_at_matches_without_concede <- length(which(facup_goalconceded_vec_at == "0"))
+
+  ####################################################################################
+  #analyse total combined goals
+  #hometeam
+  facup_totalgoals_vec_ht <- as.vector(facup_totalgoals_h[facup_hometeamindex,])
+  facup_totalgoals_vec_ht[is.na(facup_totalgoals_vec_ht)] <- ""
+  facup_totalgoals_vec_ht <- facup_totalgoals_vec_ht[facup_totalgoals_vec_ht != ""]
+  facup_totalgoals_vec_ht  <-tail(facup_totalgoals_vec_ht,6)
+  facup_totalgoals_vec_ht  <- as.numeric(facup_totalgoals_vec_ht)
+  facup_totalgoals_vec_ht
+  facup_ht_totalgoals <- sum(facup_totalgoals_vec_ht)
+  facup_ht_avgtotalgoals <- (facup_ht_totalgoals/6)
+  facup_ht_no_of_ov25 <- length(which(facup_totalgoals_vec_ht >= 3))
+  facup_ht_no_of_un25 <- length(which(facup_totalgoals_vec_ht <= 2))
+  #awayteam
+  facup_totalgoals_vec_at <- as.vector(facup_totalgoals_h[facup_awayteamindex,])
+  facup_totalgoals_vec_at[is.na(facup_totalgoals_vec_at)] <- ""
+  facup_totalgoals_vec_at <- facup_totalgoals_vec_at[facup_totalgoals_vec_at != ""]
+  facup_totalgoals_vec_at  <-tail(facup_totalgoals_vec_at,6)
+  facup_totalgoals_vec_at  <- as.numeric(facup_totalgoals_vec_at)
+  facup_totalgoals_vec_at
+  facup_at_totalgoals <- sum(facup_totalgoals_vec_at)
+  facup_at_avgtotalgoals <- (facup_at_totalgoals/6)
+  facup_at_no_of_ov25 <- length(which(facup_totalgoals_vec_at >= 3))
+  facup_at_no_of_un25 <- length(which(facup_totalgoals_vec_at <= 2))
+  ################################################################################
+  #analyse win margin
+  #hometeam
+  facup_winmargin_vec_ht <- as.vector(facup_winmargin_h[facup_hometeamindex,])
+  facup_winmargin_vec_ht[is.na(facup_winmargin_vec_ht)] <- ""
+  facup_winmargin_vec_ht <- facup_winmargin_vec_ht[facup_winmargin_vec_ht != ""]
+  facup_winmargin_vec_ht  <-tail(facup_winmargin_vec_ht,6)
+  facup_winmargin_vec_ht  <- as.numeric(facup_winmargin_vec_ht)
+
+  facup_ht_totalwinmargin <- sum(facup_winmargin_vec_ht)
+  facup_ht_no_of_winmargin_ov0 <- length(which(facup_winmargin_vec_ht >= 0))
+  facup_ht_no_of_winmargin_ov1 <- length(which(facup_winmargin_vec_ht >= 1))
+  facup_ht_no_of_winmargin_un0 <- length(which(facup_winmargin_vec_ht <= 0))
+  facup_ht_no_of_winmargin_un1 <- length(which(facup_winmargin_vec_ht <= 1))
+  #awayteam
+  facup_winmargin_vec_at <- as.vector(facup_winmargin_h[facup_awayteamindex,])
+  facup_winmargin_vec_at[is.na(facup_winmargin_vec_at)] <- ""
+  facup_winmargin_vec_at <- facup_winmargin_vec_at[facup_winmargin_vec_at != ""]
+  facup_winmargin_vec_at  <-tail(facup_winmargin_vec_at,6)
+  facup_winmargin_vec_at  <- as.numeric(facup_winmargin_vec_at)
+
+  facup_at_totalwinmargin <- sum(facup_winmargin_vec_at)
+  facup_at_no_of_winmargin_ov0 <- length(which(facup_winmargin_vec_at >= 0))
+  facup_at_no_of_winmargin_ov1 <- length(which(facup_winmargin_vec_at >= 1))
+  facup_at_no_of_winmargin_un0 <- length(which(facup_winmargin_vec_at <= 0))
+  facup_at_no_of_winmargin_un1 <- length(which(facup_winmargin_vec_at <= 1))
+  ##################################################################################
+  #very last win margin
+  #hometeam
+  facup_winmargin_vec_ht_lm <- as.vector(facup_winmargin_h[facup_hometeamindex,])
+  facup_winmargin_vec_ht_lm[is.na(facup_winmargin_vec_ht_lm)] <- ""
+  facup_winmargin_vec_ht_lm <- facup_winmargin_vec_ht_lm[facup_winmargin_vec_ht_lm != ""]
+  facup_winmargin_vec_ht_lm  <-tail(facup_winmargin_vec_ht_lm,1)
+  #awayteam
+  facup_winmargin_vec_at_lm <- as.vector(facup_winmargin_h[facup_awayteamindex,])
+  facup_winmargin_vec_at_lm[is.na(facup_winmargin_vec_at_lm)] <- ""
+  facup_winmargin_vec_at_lm <- facup_winmargin_vec_at_lm[facup_winmargin_vec_at_lm != ""]
+  facup_winmargin_vec_at_lm  <-tail(facup_winmargin_vec_at_lm,1)
+  #################################################################################
+  #pick average yellow cards
+  #hometeam
+  facup_yellowtotals_vec_ht <- as.vector(facup_yellowtotalsv2[facup_hometeamindex,])
+  facup_yellowtotals_vec_ht[is.na(facup_yellowtotals_vec_ht)] <- ""
+  facup_yellowtotals_vec_ht <- facup_yellowtotals_vec_ht[facup_yellowtotals_vec_ht != ""]
+  facup_yellowtotals_vec_ht  <-tail(facup_yellowtotals_vec_ht,1)
+  #awayteam
+  facup_yellowtotals_vec_at <- as.vector(facup_yellowtotalsv2[facup_awayteamindex,])
+  facup_yellowtotals_vec_at[is.na(facup_yellowtotals_vec_at)] <- ""
+  facup_yellowtotals_vec_at <- facup_yellowtotals_vec_at[facup_yellowtotals_vec_at != ""]
+  facup_yellowtotals_vec_at  <-tail(facup_yellowtotals_vec_at,1)
+
+  #################################################################################
+  #pick average corners
+  #hometeam
+  facup_cornertotals_vec_ht <- as.vector(facup_cornertotalsv2[facup_hometeamindex,])
+  facup_cornertotals_vec_ht[is.na(facup_cornertotals_vec_ht)] <- ""
+  facup_cornertotals_vec_ht <- facup_cornertotals_vec_ht[facup_cornertotals_vec_ht != ""]
+  facup_cornertotals_vec_ht  <-tail(facup_cornertotals_vec_ht,1)
+  #awayteam
+  facup_cornertotals_vec_at <- as.vector(facup_cornertotalsv2[facup_awayteamindex,])
+  facup_cornertotals_vec_at[is.na(facup_cornertotals_vec_at)] <- ""
+  facup_cornertotals_vec_at <- facup_cornertotals_vec_at[facup_cornertotals_vec_at != ""]
+  facup_cornertotals_vec_at  <-tail(facup_cornertotals_vec_at,1)
+  #################################################################################
+  #pick xpected shots conversion
+  #hometeam
+  facup_xshotsconversion_vec_ht <- as.vector(facup_shots_analysis[facup_hometeamindex,])
+  facup_xshotsconversion_vec_ht[is.na(facup_xshotsconversion_vec_ht)] <- ""
+  facup_xshotsconversion_vec_ht <- facup_xshotsconversion_vec_ht[facup_xshotsconversion_vec_ht != ""]
+  facup_xshotsconversion_vec_ht  <-tail(facup_xshotsconversion_vec_ht,1)
+  #awayteam
+  facup_xshotsconversion_vec_at <- as.vector(facup_shots_analysis[facup_awayteamindex,])
+  facup_xshotsconversion_vec_at[is.na(facup_xshotsconversion_vec_at)] <- ""
+  facup_xshotsconversion_vec_at <- facup_xshotsconversion_vec_at[facup_xshotsconversion_vec_at != ""]
+  facup_xshotsconversion_vec_at  <-tail(facup_xshotsconversion_vec_at,1)
+  #################################################################################
+  #pick yellow cards per foul
+  #hometeam
+  facup_fouls_conversion_vec_ht <- as.vector(facup_fouls_conversion[facup_hometeamindex,])
+  facup_fouls_conversion_vec_ht[is.na(facup_fouls_conversion_vec_ht)] <- ""
+  facup_fouls_conversion_vec_ht <- facup_fouls_conversion_vec_ht[facup_fouls_conversion_vec_ht != ""]
+  facup_fouls_conversion_vec_ht  <-tail(facup_fouls_conversion_vec_ht,1)
+  #awayteam
+  facup_fouls_conversion_vec_at <- as.vector(facup_fouls_conversion[facup_awayteamindex,])
+  facup_fouls_conversion_vec_at[is.na(facup_fouls_conversion_vec_at)] <- ""
+  facup_fouls_conversion_vec_at <- facup_fouls_conversion_vec_at[facup_fouls_conversion_vec_at != ""]
+  facup_fouls_conversion_vec_at  <-tail(facup_fouls_conversion_vec_at,1)
+  #################################################################################
+
+  ####we need to decide ############
+  #winner goals
+  facup_ht_last6points <- facup_ht_numberof_wins*3 + facup_ht_numberof_draws*1
+  facup_at_last6points <- facup_at_numberof_wins*3 + facup_at_numberof_draws*1
+
+  if(facup_ht_last6points > facup_at_last6points) {facup_3waypick <- "1"}  else {facup_3waypick <- "X2"}
+
+  if(facup_at_last6points > facup_ht_last6points ) {facup_3waypick <- "2"} else {facup_3waypick <- "1X"}
+
+  if(facup_ht_no_of_ov25 + facup_at_no_of_ov25 >= 6) {facup_goalspick <- "ov25"} else {facup_goalspick <- "un25"}
+
+  if(facup_ht_no_of_un25 + facup_at_no_of_un25 >= 6) {facup_goalspick <- "un25"} else {facup_goalspick <- "ov25"}
+
+  if(facup_ht_matches_scoring >= 4 && facup_at_matches_scoring >=4) {facup_btts <- "BTTS-Y"} else {facup_btts <- "BTTS-N"}
+
+
+  facup_prediction[facup_row] <- rbind(paste(facup_3waypick,facup_goalspick,facup_btts,sep = ","))
+  facup_HWM[facup_row] <- facup_ht_totalwinmargin
+  facup_AWM[facup_row] <- facup_at_totalwinmargin
+
+  facup_HWMLM[facup_row] <- facup_winmargin_vec_ht_lm
+  facup_AWMLM[facup_row] <- facup_winmargin_vec_at_lm
+
+  facup_HY[facup_row] <- facup_yellowtotals_vec_ht
+  facup_AY[facup_row] <- facup_yellowtotals_vec_at
+
+  facup_HCO[facup_row] <- facup_cornertotals_vec_ht
+  facup_ACO[facup_row] <- facup_cornertotals_vec_at
+
+  facup_HXSC[facup_row] <- facup_xshotsconversion_vec_ht
+  facup_AXSC[facup_row] <- facup_xshotsconversion_vec_at
+
+  facup_HYCPF[facup_row] <- facup_fouls_conversion_vec_ht
+  facup_AYCPF[facup_row] <- facup_fouls_conversion_vec_at
+}
+
+facup_prediction <- as.data.frame(facup_prediction)
+colnames(facup_prediction) <- "prediction"
+
+facup_HWM <- as.data.frame(facup_HWM)
+colnames(facup_HWM) <- "HWM"
+
+facup_AWM <- as.data.frame(facup_AWM)
+colnames(facup_AWM) <- "AWM"
+
+facup_HWMLM <- as.data.frame(facup_HWMLM)
+colnames(facup_HWMLM) <- "HWMLM"
+
+facup_AWMLM <- as.data.frame(facup_AWMLM)
+colnames(facup_AWMLM) <- "AWMLM"
+
+facup_HY <- as.data.frame(facup_HY)
+colnames(facup_HY) <- "AVGHY"
+
+facup_AY <- as.data.frame(facup_AY)
+colnames(facup_AY) <- "AVGAY"
+
+facup_HCO <- as.data.frame(facup_HCO)
+colnames(facup_HCO) <- "AVGHCO"
+
+facup_ACO <- as.data.frame(facup_ACO)
+colnames(facup_ACO) <- "AVGACO"
+
+facup_HXSC <- as.data.frame(facup_HXSC)
+colnames(facup_HXSC) <- "HXSC"
+
+facup_AXSC <- as.data.frame(facup_AXSC)
+colnames(facup_AXSC) <- "AXSC"
+
+facup_HYCPF <- as.data.frame(facup_HYCPF)
+colnames(facup_HYCPF) <- "HYCPF"
+
+facup_AYCPF <- as.data.frame(facup_AYCPF)
+colnames(facup_AYCPF) <- "AYCPF"
+
+facup_picks <- cbind(FACUP_fixtures$Div,FACUP_fixtures$HomeTeam_facup,FACUP_fixtures$AwayTeam_facup,facup_prediction,facup_HWM,facup_AWM,facup_HWMLM,facup_AWMLM,facup_HY,facup_AY,facup_HCO,facup_ACO,facup_HXSC,facup_AXSC,facup_HYCPF,facup_AYCPF)
+
+colnames(facup_picks)[1] <- "picks_Div"
+colnames(facup_picks)[2] <- "picks_HomeTeam"
+colnames(facup_picks)[3] <- "picks_AwayTeam"
+facup_picks$matchid <- paste(facup_picks$picks_HomeTeam,facup_picks$picks_AwayTeam,sep = "-")
+############################################################################################
+#end of FACUP
+facup_picks
+#############################################################################################################################################################################
+#clone fixtures
+FACUP_fixtures_clone <- FACUP_fixtures
+colnames(FACUP_fixtures_clone)[61] <- "Hwin"
+colnames(FACUP_fixtures_clone)[62] <- "Draw"
+colnames(FACUP_fixtures_clone)[63] <- "Awin"
+
+FACUP_fixtures_clone$Hwinodds <-   FACUP_fixtures$facup_1_0 + FACUP_fixtures$facup_2_0 + FACUP_fixtures$facup_2_1 + FACUP_fixtures$facup_3_0 + FACUP_fixtures$facup_3_1 +
+  FACUP_fixtures$facup_3_2 + FACUP_fixtures$facup_4_0 + FACUP_fixtures$facup_4_1 + FACUP_fixtures$facup_4_2 + FACUP_fixtures$facup_4_3 +
+  FACUP_fixtures$facup_5_0 + FACUP_fixtures$facup_5_1 + FACUP_fixtures$facup_5_2 + FACUP_fixtures$facup_5_3 + FACUP_fixtures$facup_5_4 +
+  FACUP_fixtures$facup_6_0 + FACUP_fixtures$facup_6_1 + FACUP_fixtures$facup_6_2 + FACUP_fixtures$facup_6_3 + FACUP_fixtures$facup_6_4 +
+  FACUP_fixtures$facup_6_5
+FACUP_fixtures_clone$Hwinodds <- round(1/FACUP_fixtures_clone$Hwinodds, digits = 3)
+
+FACUP_fixtures_clone$Drawodds <-  FACUP_fixtures$facup_0_0 + FACUP_fixtures$facup_1_1 + FACUP_fixtures$facup_2_2 + FACUP_fixtures$facup_3_3 + FACUP_fixtures$facup_4_4 +
+  FACUP_fixtures$facup_5_5 + FACUP_fixtures$facup_6_6
+
+FACUP_fixtures_clone$Drawodds <- round(1/FACUP_fixtures_clone$Drawodds, digits = 3)
+
+FACUP_fixtures_clone$Awinodds <-   FACUP_fixtures$facup_0_1 + FACUP_fixtures$facup_0_2 + FACUP_fixtures$facup_1_2 + FACUP_fixtures$facup_0_3 + FACUP_fixtures$facup_1_3 +
+  FACUP_fixtures$facup_2_3 + FACUP_fixtures$facup_0_4 + FACUP_fixtures$facup_1_4 + FACUP_fixtures$facup_2_4 + FACUP_fixtures$facup_3_4 +
+  FACUP_fixtures$facup_0_5 + FACUP_fixtures$facup_1_5 + FACUP_fixtures$facup_2_5 + FACUP_fixtures$facup_3_5 + FACUP_fixtures$facup_4_5 +
+  FACUP_fixtures$facup_0_6 + FACUP_fixtures$facup_1_6 + FACUP_fixtures$facup_2_6 + FACUP_fixtures$facup_3_6 + FACUP_fixtures$facup_4_6 +
+  FACUP_fixtures$facup_5_6
+
+FACUP_fixtures_clone$Awinodds <- round(1/FACUP_fixtures_clone$Awinodds, digits = 3)
+
+colnames(FACUP_fixtures_clone)[15] <- "CS_1-1"
+colnames(FACUP_fixtures_clone)[13] <- "CS_1-0"
+colnames(FACUP_fixtures_clone)[14] <- "CS_0-1"
+colnames(FACUP_fixtures_clone)[16] <- "CS_2-0"
+colnames(FACUP_fixtures_clone)[17] <- "CS_0-2"
+colnames(FACUP_fixtures_clone)[19] <- "CS_2-1"
+colnames(FACUP_fixtures_clone)[20] <- "CS_1-2"
+
+FACUP_fixtures_clone$`CS_1-1` <- round(1/FACUP_fixtures_clone$`CS_1-1`, digits = 3)
+FACUP_fixtures_clone$`CS_1-0` <- round(1/FACUP_fixtures_clone$`CS_1-0`, digits = 3)
+FACUP_fixtures_clone$`CS_0-1` <- round(1/FACUP_fixtures_clone$`CS_0-1`, digits = 3)
+FACUP_fixtures_clone$`CS_2-0` <- round(1/FACUP_fixtures_clone$`CS_2-0`, digits = 3)
+FACUP_fixtures_clone$`CS_0-2` <- round(1/FACUP_fixtures_clone$`CS_0-2`, digits = 3)
+FACUP_fixtures_clone$`CS_2-1` <- round(1/FACUP_fixtures_clone$`CS_2-1`, digits = 3)
+FACUP_fixtures_clone$`CS_1-2` <- round(1/FACUP_fixtures_clone$`CS_1-2`, digits = 3)
+
+colnames(FACUP_fixtures_clone)[1] <- "league"
+colnames(FACUP_fixtures_clone)[2] <- "Hometeam"
+colnames(FACUP_fixtures_clone)[3] <- "Awayteam"
+colnames(FACUP_fixtures_clone)[92] <- "predscore"
+colnames(FACUP_fixtures_clone)[64] <- "ov25"
+colnames(FACUP_fixtures_clone)[66] <- "ov25odds"
+colnames(FACUP_fixtures_clone)[65] <- "un25"
+colnames(FACUP_fixtures_clone)[67] <- "un25odds"
+colnames(FACUP_fixtures_clone)[68] <- "BTTSY"
+colnames(FACUP_fixtures_clone)[69] <- "BTTSN"
+colnames(FACUP_fixtures_clone)[70] <- "BTTSYodds"
+colnames(FACUP_fixtures_clone)[71] <- "BTTSNodds"
+
+FACUP_fixtures_clone <- FACUP_fixtures_clone[,c(1,2,3,98,61,62,63,95,96,97,64,66,65,67,68,70,69,71,13,14,15,16,17,19,20,92)]
+FACUP_fixtures_clone$matchid <- paste(FACUP_fixtures_clone$Hometeam,FACUP_fixtures_clone$Awayteam,sep = '-')
+####################################################################################################################################################
+#all events
+FACUP_fixtures_clone_final <- FACUP_fixtures_clone[,-c(8,9,10,27)]
+FACUP_fixtures_clone_final[,'sep'] <- ''
+
+facup_dmprediction <-  facup_picks[,c(4,5,6,7,8)]
+facup_dmprediction[,'sep2'] <- ''
+
+facup_avgyellow <- facup_picks[,c(9,10)]
+facup_avgyellow[,'sep3'] <- ''
+
+facup_avgcorners <- facup_picks[,c(11,12)]
+facup_avgcorners[,'sep4'] <- ''
+
+facup_goals <- FACUP_fixtures[,c(10,11)]
+facup_goals$facup_xGH <- round(facup_goals$facup_xGH, digits = 2)
+facup_goals$facup_xGA <- round(facup_goals$facup_xGA, digits = 2)
+facup_goals$facup_TxG <- facup_goals$facup_xGH + facup_goals$facup_xGA
+facup_goals[,'sep5'] <- ''
+
+facup_shots <- FACUP_fixtures_sot[,c(10,11)]
+facup_shots$facup_xHST <- round(facup_shots$facup_xHST, digits = 2)
+facup_shots$facup_xAST <- round(facup_shots$facup_xAST, digits = 2)
+facup_shots$TxSOT <- facup_shots$facup_xHST + facup_shots$facup_xAST
+facup_shots[,'sep6'] <- ''
+
+facup_fouls <- FACUP_fixtures_fo[,c(10,11)]
+facup_fouls$facup_xHF <- round(facup_fouls$facup_xHF, digits = 2)
+facup_fouls$facup_xAF <- round(facup_fouls$facup_xAF, digits = 2)
+facup_fouls$facup_TxF <- facup_fouls$facup_xHF + facup_fouls$facup_xAF
+
+facup_ycpf <- facup_picks[,c(15,16)]
+facup_fouls <- cbind(facup_fouls,facup_ycpf)
+facup_fouls$HYCPF <- as.numeric(facup_fouls$HYCPF)
+facup_fouls$AYCPF <- as.numeric(facup_fouls$AYCPF)
+facup_fouls$x_hyc <- (facup_fouls$facup_xHF) * (facup_fouls$HYCPF)
+facup_fouls$x_ayc <- (facup_fouls$facup_xAF) * (facup_fouls$AYCPF)
+facup_fouls$x_TYC <- round((facup_fouls$x_hyc + facup_fouls$x_ayc),digits = 2)
+facup_fouls[,'sep7'] <- ''
+
+facup_bookings <- FACUP_fixtures_yc[,c(10,11)]
+facup_bookings$facup_xHYC <- round(facup_bookings$facup_xHYC, digits = 2)
+facup_bookings$facup_xAYC <- round(facup_bookings$facup_xAYC, digits = 2)
+facup_bookings$facup_TYcards <- facup_bookings$facup_xHYC + facup_bookings$facup_xAYC
+facup_bookings[,'sep8'] <- ''
+
+facup_corners <- FACUP_fixtures_co[,c(10,11)]
+facup_corners$facup_xHCOC <- round(facup_corners$facup_xHCOC, digits = 2)
+facup_corners$facup_xACOC <- round(facup_corners$facup_xACOC, digits = 2)
+facup_corners$facup_TCOs <- facup_corners$facup_xHCOC + facup_corners$facup_xACOC
+facup_corners[,'sep9'] <- ''
+
+facup_shotsconversion <- facup_picks[,c(13,14)]
+facup_shotsconversion <- cbind(facup_shotsconversion,facup_shots)
+facup_shotsconversion$HXSC <- as.numeric(facup_shotsconversion$HXSC)
+facup_shotsconversion$AXSC <- as.numeric(facup_shotsconversion$AXSC)
+facup_shotsconversion$facup_hXgoals <- round((facup_shotsconversion$HXSC * facup_shotsconversion$facup_xHST), digits = 2)
+facup_shotsconversion$facup_aXgoals <- round((facup_shotsconversion$AXSC * facup_shotsconversion$facup_xAST), digits = 2)
+facup_shotsconversion$Xgoals <- facup_shotsconversion$facup_hXgoals + facup_shotsconversion$facup_aXgoals
+
+FACUP_all <- cbind(FACUP_fixtures_clone_final,facup_dmprediction,facup_avgyellow,facup_avgcorners,facup_goals,facup_shots,facup_fouls,facup_bookings,facup_corners,facup_shotsconversion)
+unlink('Divisions/FACUP.xlsx')
+write.xlsx(FACUP_all,'Divisions/FACUP.xlsx', sheetName = "FACUP_all", append = TRUE)
+write.xlsx(points_facup,'Divisions/FACUP.xlsx', sheetName = "Table", append = TRUE)
+
+
+
