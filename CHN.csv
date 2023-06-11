@@ -2119,3 +2119,59 @@ China,Super League,2023,30/04/2023,10:30,Shenzhen,Henan Songshan Longmen,1,1,D,2
 China,Super League,2023,30/04/2023,12:35,Cangzhou,Nantong Zhiyun,1,1,D,2.39,3,3.41,2.42,3.22,3.41,2.33,3.02,3.13
 China,Super League,2023,30/04/2023,12:35,Shanghai Port,Shanghai Shenhua,1,1,D,1.71,3.53,5.48,1.74,3.75,5.9,1.68,3.5,5.11
 China,Super League,2023,01/05/2023,12:35,Dalian Pro,Meizhou Hakka,1,1,D,2.26,3.41,3.24,2.35,3.44,3.45,2.25,3.25,3.06
+China,Super League,2023,05/05/2023,12:35,Henan Songshan Longmen,Beijing Guoan,0,1,A,4.95,3.47,1.79,5.5,3.88,1.82,4.74,3.5,1.72
+China,Super League,2023,05/05/2023,12:35,Shanghai Shenhua,Dalian Pro,1,0,H,1.93,3.22,4.61,1.93,3.74,5.6,1.78,3.4,4.63
+China,Super League,2023,05/05/2023,12:35,Shenzhen,Cangzhou,0,1,A,2.6,3.27,2.83,2.69,3.32,2.88,2.51,3.18,2.75
+China,Super League,2023,05/05/2023,12:35,Wuhan Three Towns,Zhejiang Professional,0,0,D,1.22,6.25,12.96,1.35,7,13,1.22,6,11.58
+China,Super League,2023,06/05/2023,08:30,Meizhou Hakka,Shandong Taishan,2,1,H,5.85,4.23,1.56,6.05,4.4,1.62,5.35,4.05,1.55
+China,Super League,2023,06/05/2023,12:35,Chengdu Rongcheng,Qingdao Hainiu,3,2,H,1.56,4.13,6.04,1.6,4.36,6.7,1.52,4.02,5.86
+China,Super League,2023,06/05/2023,12:35,Nantong Zhiyun,Changchun Yatai,0,1,A,2.78,2.91,2.94,3.26,3.29,2.94,2.7,2.98,2.68
+China,Super League,2023,06/05/2023,12:35,Tianjin Jinmen Tiger,Shanghai Port,0,0,D,4.34,3.59,1.86,4.77,3.79,1.92,4.08,3.48,1.83
+China,Super League,2023,09/05/2023,12:35,Dalian Pro,Cangzhou,1,1,D,2.22,3.28,3.46,2.25,3.4,3.76,2.15,3.18,3.37
+China,Super League,2023,09/05/2023,12:35,Henan Songshan Longmen,Wuhan Three Towns,1,1,D,5.07,3.92,1.68,5.6,4.2,1.7,4.93,3.92,1.62
+China,Super League,2023,09/05/2023,12:35,Shenzhen,Shanghai Shenhua,1,3,A,9.55,4.57,1.37,10,4.65,1.61,9.26,4.35,1.35
+China,Super League,2023,10/05/2023,12:35,Beijing Guoan,Tianjin Jinmen Tiger,1,1,D,1.76,3.62,4.96,1.95,3.7,5,1.79,3.41,4.45
+China,Super League,2023,10/05/2023,12:35,Changchun Yatai,Meizhou Hakka,2,4,A,1.91,3.39,4.39,2.1,3.5,4.44,1.95,3.31,3.84
+China,Super League,2023,10/05/2023,12:35,Chengdu Rongcheng,Shandong Taishan,2,2,D,2.47,3.24,3.03,2.61,3.34,3.27,2.39,3.13,2.93
+China,Super League,2023,10/05/2023,12:35,Nantong Zhiyun,Zhejiang Professional,1,2,A,3.06,3.05,2.57,3.11,3.35,2.65,2.86,2.98,2.57
+China,Super League,2023,10/05/2023,12:35,Shanghai Port,Qingdao Hainiu,2,1,H,1.43,4.77,7.06,1.44,5.05,7.83,1.4,4.68,6.63
+China,Super League,2023,13/05/2023,08:30,Shanghai Shenhua,Wuhan Three Towns,1,1,D,3.39,3.43,2.18,3.6,3.55,2.18,3.32,3.37,2.08
+China,Super League,2023,13/05/2023,12:35,Shenzhen,Dalian Pro,2,1,H,3.96,3.37,2.01,4.2,3.5,2.15,3.84,3.27,1.95
+China,Super League,2023,14/05/2023,08:30,Qingdao Hainiu,Meizhou Hakka,2,0,H,2.42,3.33,2.91,2.64,3.55,2.92,2.39,3.35,2.76
+China,Super League,2023,14/05/2023,10:30,Chengdu Rongcheng,Changchun Yatai,2,2,D,1.55,4.32,5.83,1.57,4.33,6.5,1.52,4.08,5.66
+China,Super League,2023,14/05/2023,12:35,Cangzhou,Shandong Taishan,1,1,D,6.41,4.43,1.5,7.5,4.45,1.58,6.12,4.16,1.48
+China,Super League,2023,14/05/2023,12:35,Tianjin Jinmen Tiger,Henan Songshan Longmen,1,0,H,1.76,3.62,4.86,1.8,3.65,5.2,1.73,3.46,4.73
+China,Super League,2023,14/05/2023,12:35,Zhejiang Professional,Shanghai Port,1,2,A,4.8,3.96,1.7,5.25,4.15,1.71,4.71,3.81,1.66
+China,Super League,2023,15/05/2023,12:35,Beijing Guoan,Nantong Zhiyun,1,0,H,1.51,4.2,6.64,1.57,4.3,7,1.48,4,6.42
+China,Super League,2023,19/05/2023,10:30,Wuhan Three Towns,Chengdu Rongcheng,3,3,D,2.54,3.24,2.93,2.54,3.43,3.89,2.42,3.14,2.9
+China,Super League,2023,19/05/2023,12:35,Cangzhou,Changchun Yatai,2,4,A,2.27,3.33,3.29,2.3,3.38,3.4,2.21,3.23,3.17
+China,Super League,2023,19/05/2023,12:35,Nantong Zhiyun,Shenzhen,1,1,D,1.81,3.46,4.85,2.1,3.65,5.09,1.87,3.31,4.25
+China,Super League,2023,19/05/2023,12:35,Qingdao Hainiu,Zhejiang Professional,2,2,D,2.94,3.17,2.57,2.97,3.33,2.61,2.81,3.13,2.48
+China,Super League,2023,19/05/2023,12:35,Shanghai Shenhua,Beijing Guoan,1,1,D,2.15,3.11,3.87,2.39,3.25,4.04,2.06,3.12,3.71
+China,Super League,2023,20/05/2023,12:35,Henan Songshan Longmen,Dalian Pro,1,0,H,2.76,3.09,2.8,2.93,3.22,2.82,2.72,2.98,2.67
+China,Super League,2023,20/05/2023,12:35,Meizhou Hakka,Shanghai Port,0,2,A,6.31,4.42,1.5,6.7,4.6,1.67,6.02,4.21,1.49
+China,Super League,2023,20/05/2023,12:35,Tianjin Jinmen Tiger,Shandong Taishan,3,3,D,4.13,3.68,1.88,4.75,3.86,2.03,4.04,3.55,1.83
+China,Super League,2023,23/05/2023,12:35,Beijing Guoan,Cangzhou,6,2,H,1.87,3.34,4.45,1.91,4.1,6.5,1.82,3.4,4.34
+China,Super League,2023,23/05/2023,12:35,Changchun Yatai,Qingdao Hainiu,1,0,H,2.17,3.67,3.2,2.21,3.86,3.9,2.11,3.65,3.04
+China,Super League,2023,23/05/2023,12:35,Chengdu Rongcheng,Shanghai Shenhua,2,1,H,1.91,3.27,4.59,2.26,3.42,4.72,1.94,3.21,4.05
+China,Super League,2023,23/05/2023,12:35,Nantong Zhiyun,Wuhan Three Towns,0,5,A,4.61,3.61,1.81,7,4.2,1.85,4.47,3.57,1.76
+China,Super League,2023,24/05/2023,12:35,Dalian Pro,Zhejiang Professional,1,2,A,2.89,3.27,2.55,2.91,3.38,2.58,2.8,3.21,2.44
+China,Super League,2023,24/05/2023,12:35,Meizhou Hakka,Tianjin Jinmen Tiger,1,1,D,3,3.15,2.54,3.09,3.24,2.98,2.88,3.08,2.47
+China,Super League,2023,24/05/2023,12:35,Shandong Taishan,Shenzhen,3,0,H,1.17,7.46,15.25,1.22,7.57,18,1.18,6.58,13.04
+China,Super League,2023,24/05/2023,12:35,Shanghai Port,Henan Songshan Longmen,3,2,H,1.15,7.86,17,1.21,8.4,23,1.15,7.34,16.11
+China,Super League,2023,27/05/2023,08:00,Chengdu Rongcheng,Nantong Zhiyun,1,0,H,1.56,3.97,6.42,1.56,5.3,10,1.41,4.41,7.53
+China,Super League,2023,27/05/2023,12:35,Cangzhou,Wuhan Three Towns,2,1,H,4.72,3.93,1.72,5.95,4.9,1.74,4.73,4.05,1.63
+China,Super League,2023,28/05/2023,10:30,Qingdao Hainiu,Shandong Taishan,0,1,A,3.98,3.7,1.91,5.07,3.91,1.96,3.97,3.59,1.83
+China,Super League,2023,28/05/2023,10:30,Zhejiang Professional,Beijing Guoan,3,2,H,2.5,3.45,2.89,2.93,3.52,2.94,2.47,3.31,2.71
+China,Super League,2023,28/05/2023,12:35,Dalian Pro,Tianjin Jinmen Tiger,0,1,A,2.77,3.14,2.74,2.96,3.32,2.74,2.76,3.12,2.53
+China,Super League,2023,28/05/2023,12:35,Shanghai Shenhua,Henan Songshan Longmen,1,1,D,1.51,4.15,6.91,1.63,4.2,7.37,1.49,3.93,6.56
+China,Super League,2023,28/05/2023,12:35,Shenzhen,Meizhou Hakka,3,2,H,3.04,3.08,2.57,3.18,3.41,2.57,2.97,3.09,2.39
+China,Super League,2023,29/05/2023,12:35,Changchun Yatai,Shanghai Port,0,3,A,5.84,4.39,1.53,6,4.5,1.7,5.16,4.17,1.55
+China,Super League,2023,02/06/2023,12:35,Beijing Guoan,Changchun Yatai,4,3,H,1.56,4.37,5.49,1.76,4.52,5.8,1.57,4.12,5.03
+China,Super League,2023,02/06/2023,12:35,Zhejiang Professional,Shenzhen,3,0,H,1.68,4.15,4.73,1.68,4.27,5.87,1.61,3.98,4.87
+China,Super League,2023,03/06/2023,10:30,Shanghai Port,Chengdu Rongcheng,0,1,A,1.73,3.82,4.79,1.8,3.84,4.83,1.72,3.66,4.47
+China,Super League,2023,03/06/2023,12:35,Henan Songshan Longmen,Meizhou Hakka,2,1,H,2.34,3.14,3.35,2.34,3.35,3.45,2.23,3.18,3.19
+China,Super League,2023,03/06/2023,12:35,Shandong Taishan,Dalian Pro,2,0,H,1.42,4.65,7.71,1.42,5.59,10.84,1.37,4.65,7.71
+China,Super League,2023,04/06/2023,08:30,Cangzhou,Shanghai Shenhua,0,1,A,3.08,3.25,2.43,3.59,3.32,2.5,3.03,3.16,2.32
+China,Super League,2023,04/06/2023,10:30,Nantong Zhiyun,Qingdao Hainiu,1,0,H,2.7,3.05,2.9,2.71,3.2,3,2.57,3.02,2.79
+China,Super League,2023,04/06/2023,12:35,Tianjin Jinmen Tiger,Wuhan Three Towns,1,1,D,3.29,3.32,2.27,3.87,3.5,2.43,3.12,3.3,2.21
