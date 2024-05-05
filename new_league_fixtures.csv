@@ -1,129 +1,126 @@
 Country,League,Date,Time,Home,Away,PH,PD,PA,MaxH,MaxD,MaxA,AvgH,AvgD,AvgA
-Argentina,Copa De La Liga Profesional,13/04/2024,21:00,Tigre,Union de Santa Fe,3.27,3.07,2.46,3.27,3.2,2.6,3.07,3.02,2.41
-Argentina,Copa De La Liga Profesional,13/04/2024,23:00,Huracan,Atl. Tucuman,2.13,3.11,4.03,2.13,3.25,4.25,2.04,3.08,3.87
-Argentina,Copa De La Liga Profesional,14/04/2024,21:00,Sarmiento Junin,Platense,2.55,2.83,3.28,2.59,3.1,3.29,2.47,2.84,3.13
-Argentina,Copa De La Liga Profesional,14/04/2024,22:15,Gimnasia L.P.,Banfield,2.47,2.93,3.29,2.52,3.2,3.3,2.4,2.93,3.14
-Argentina,Copa De La Liga Profesional,14/04/2024,23:00,Central Cordoba,San Lorenzo,3.26,2.92,2.5,3.3,3.1,2.5,3.14,2.9,2.43
-Argentina,Copa De La Liga Profesional,16/04/2024,00:00,Argentinos Jrs,Barracas Central,2.06,2.76,4.89,2.09,3.05,4.93,2.02,2.82,4.49
-Argentina,Copa De La Liga Profesional,16/04/2024,00:00,Ind. Rivadavia,Velez Sarsfield,3.8,3.22,2.1,3.84,3.3,2.11,3.6,3.18,2.06
-Argentina,Copa De La Liga Profesional,16/04/2024,00:00,Independiente,Talleres Cordoba,2.38,3.03,3.33,2.4,3.4,3.34,2.32,3.05,3.15
-Argentina,Copa De La Liga Profesional,16/04/2024,00:00,Instituto,River Plate,4.85,3.6,1.76,4.85,3.6,1.82,4.59,3.47,1.76
-Argentina,Copa De La Liga Profesional,16/04/2024,23:30,Belgrano,Racing Club,4.03,3.35,1.98,4.05,3.45,2,3.85,3.28,1.95
-Argentina,Copa De La Liga Profesional,16/04/2024,23:30,Boca Juniors,Godoy Cruz,1.88,3.35,4.49,1.94,3.5,4.55,1.87,3.28,4.23
-Argentina,Copa De La Liga Profesional,16/04/2024,23:30,Defensa y Justicia,Newells Old Boys,2.32,3.11,3.37,2.33,3.4,3.41,2.27,3.09,3.21
-Argentina,Copa De La Liga Profesional,16/04/2024,23:30,Lanus,Estudiantes L.P.,2.53,3.06,3.05,2.54,3.2,3.06,2.46,3.01,2.95
-Argentina,Copa De La Liga Profesional,17/04/2024,23:30,Rosario Central,Dep. Riestra,1.78,3.41,5.04,1.86,3.6,5.1,1.77,3.34,4.72
-Austria,Admiral Bundesliga,12/04/2024,18:30,LASK,Salzburg,4.87,3.68,1.79,5,3.69,1.82,4.52,3.57,1.77
-Austria,Admiral Bundesliga,13/04/2024,16:00,A. Lustenau,Altach,4.71,3.48,1.87,4.71,3.48,1.94,4.32,3.32,1.88
-Austria,Admiral Bundesliga,13/04/2024,16:00,Tirol,BW Linz,2.66,3.16,2.93,2.66,3.3,2.93,2.56,3.13,2.81
-Austria,Admiral Bundesliga,13/04/2024,16:00,Wolfsberger AC,Austria Vienna,3.1,3.15,2.54,3.1,3.28,2.54,2.92,3.16,2.46
-Austria,Admiral Bundesliga,14/04/2024,13:30,Hartberg,Sturm Graz,4.98,3.82,1.75,5,3.83,1.8,4.59,3.61,1.74
-Austria,Admiral Bundesliga,14/04/2024,16:00,SK Rapid,A. Klagenfurt,1.58,4.26,5.94,1.59,4.3,6,1.54,4.08,5.67
-Brazil,Serie A,17/04/2024,01:30,Bahia,Fluminense,2.21,3.42,3.45,2.25,3.46,3.45,2.18,3.35,3.3
-Brazil,Serie A,17/04/2024,23:00,Bragantino,Vasco,1.91,3.41,4.56,1.95,3.55,4.56,1.89,3.39,4.22
-Brazil,Serie A,17/04/2024,23:00,Gremio,Athletico-PR,2.41,3.35,3.14,2.41,3.45,3.25,2.33,3.31,3.06
-Brazil,Serie A,18/04/2024,00:00,Atletico-MG,Criciuma,1.38,4.84,9.1,1.41,4.84,10.5,1.38,4.54,8.48
-Brazil,Serie A,18/04/2024,00:00,Fortaleza,Cruzeiro,1.93,3.44,4.41,2,3.44,4.5,1.93,3.31,4.16
-Brazil,Serie A,18/04/2024,00:00,Juventude,Corinthians,3.09,3.02,2.64,3.09,3.13,2.65,2.94,3.02,2.57
-Brazil,Serie A,18/04/2024,00:00,Palmeiras,Internacional,1.71,3.8,5.32,1.72,3.8,5.6,1.68,3.68,5.17
-Brazil,Serie A,18/04/2024,01:30,Flamengo RJ,Sao Paulo,1.56,4.12,6.54,1.6,4.12,7,1.56,3.95,6.08
-Brazil,Serie A,19/04/2024,01:30,Botafogo RJ,Atletico GO,1.72,3.91,5.02,1.72,3.98,5.5,1.68,3.72,5.01
-China,Super League,13/04/2024,08:30,Henan Songshan Longmen,Nantong Zhiyun,,,,1.98,3.67,3.91,1.92,3.48,3.63
-China,Super League,13/04/2024,12:35,Shanghai Shenhua,Beijing Guoan,1.57,3.95,5.98,1.63,4.02,6,1.57,3.84,5.56
-China,Super League,14/04/2024,08:30,Changchun Yatai,Chengdu Rongcheng,,,,4.01,3.75,1.9,3.73,3.6,1.86
-China,Super League,14/04/2024,12:00,Tianjin Jinmen Tiger,Meizhou Hakka,,,,1.45,4.6,7.38,1.4,4.41,7.01
-China,Super League,14/04/2024,12:35,Cangzhou,Qingdao West Coast,,,,1.95,3.7,3.85,1.89,3.53,3.68
-China,Super League,14/04/2024,12:35,Qingdao Hainiu,Zhejiang Professional,,,,3.64,3.45,2.11,3.38,3.29,2.07
-China,Super League,14/04/2024,12:35,Shanghai Port,Shandong Taishan,,,,1.87,3.8,4.06,1.81,3.64,3.87
-China,Super League,14/04/2024,13:00,Shenzhen Xinpengcheng,Wuhan Three Towns,,,,2.2,3.6,3.05,2.12,3.48,2.9
-Denmark,Superliga,12/04/2024,18:00,Odense,Viborg,2.41,3.25,3.16,2.43,3.5,3.16,2.34,3.31,3.01
-Denmark,Superliga,14/04/2024,13:00,Lyngby,Hvidovre IF,1.8,4.11,3.93,1.82,4.2,4.33,1.77,3.92,4.1
-Denmark,Superliga,14/04/2024,13:00,Vejle,Randers FC,3.07,3.24,2.41,3.1,3.28,2.46,3,3.19,2.39
-Denmark,Superliga,14/04/2024,15:00,Aarhus,Brondby,3.62,3.36,2.1,3.62,3.45,2.21,3.45,3.32,2.1
-Denmark,Superliga,14/04/2024,17:00,Midtjylland,FC Copenhagen,2.64,3.45,2.63,2.7,3.54,2.69,2.61,3.4,2.57
-Denmark,Superliga,15/04/2024,18:00,Silkeborg,Nordsjaelland,3.67,3.63,1.99,3.75,3.8,2.13,3.48,3.65,1.99
-Finland,Veikkausliiga,12/04/2024,16:00,Haka,Ekenas,1.66,4.19,5.11,1.68,4.2,5.2,1.63,3.98,4.8
-Finland,Veikkausliiga,12/04/2024,17:00,VPS,SJK,2.33,3.54,3.12,2.38,3.55,3.15,2.27,3.37,2.96
-Finland,Veikkausliiga,12/04/2024,18:00,Inter Turku,AC Oulu,1.82,3.86,4.39,1.88,3.86,4.39,1.79,3.68,4.12
-Finland,Veikkausliiga,13/04/2024,12:00,Ilves,Gnistan,1.8,3.77,4.67,1.81,4,4.67,1.74,3.63,4.43
-Finland,Veikkausliiga,13/04/2024,15:00,Mariehamn,KuPS,4.88,3.8,1.76,4.88,3.8,1.81,4.45,3.62,1.74
-Ireland,Premier Division,12/04/2024,19:45,Drogheda,Derry City,4.65,3.74,1.79,4.8,3.74,1.8,4.57,3.55,1.74
-Ireland,Premier Division,12/04/2024,19:45,Dundalk,St. Patricks,3.42,3.3,2.26,3.42,3.35,2.26,3.25,3.23,2.17
-Ireland,Premier Division,12/04/2024,19:45,Shelbourne,Bohemians,1.99,3.27,4.32,2,3.34,4.4,1.94,3.19,3.99
-Ireland,Premier Division,12/04/2024,19:45,Waterford,Galway,3.28,3.08,2.44,3.28,3.16,2.45,3.07,3.03,2.36
-Ireland,Premier Division,12/04/2024,20:00,Shamrock Rovers,Sligo Rovers,1.36,5.24,8.37,1.37,5.24,9.8,1.35,4.74,8.12
-Japan,J1 League,12/04/2024,11:00,Kashiwa Reysol,Urawa Reds,3.13,3.13,2.53,3.16,3.3,2.55,3,3.09,2.44
-Japan,J1 League,13/04/2024,06:00,Albirex Niigata,Hokkaido Consadole Sapporo,2.4,3.37,3.12,2.4,3.55,3.12,2.35,3.31,2.95
-Japan,J1 League,13/04/2024,06:00,Avispa Fukuoka,Sanfrecce Hiroshima,5.34,3.61,1.75,5.5,3.63,1.81,4.99,3.44,1.74
-Japan,J1 League,13/04/2024,06:00,Iwata,Nagoya Grampus,2.64,3.13,2.99,2.64,3.2,2.99,2.54,3.08,2.86
-Japan,J1 League,13/04/2024,06:00,Yokohama F. Marinos,Shonan Bellmare,1.81,3.91,4.37,1.82,4,4.4,1.77,3.8,4.18
-Japan,J1 League,13/04/2024,07:00,Cerezo Osaka,Kawasaki Frontale,2.75,3.33,2.71,2.76,3.41,2.71,2.66,3.26,2.6
-Japan,J1 League,13/04/2024,07:00,Kashima Antlers,Kyoto,1.95,3.44,4.32,1.97,3.47,4.5,1.9,3.35,4.15
-Japan,J1 League,13/04/2024,07:00,Machida,Vissel Kobe,3.17,3.27,2.42,3.18,3.28,2.43,3.02,3.21,2.36
-Japan,J1 League,13/04/2024,08:00,Verdy,FC Tokyo,2.92,3.05,2.76,2.94,3.2,2.76,2.75,3.07,2.67
-Japan,J1 League,14/04/2024,07:00,Gamba Osaka,Sagan Tosu,1.89,3.73,4.18,1.91,3.77,4.23,1.85,3.62,4.02
-Mexico,Liga MX,13/04/2024,02:06,Queretaro,Mazatlan FC,1.98,3.74,3.81,2.05,3.74,4,1.98,3.54,3.54
-Mexico,Liga MX,13/04/2024,04:00,Necaxa,Santos Laguna,2.23,3.51,3.34,2.3,3.55,3.34,2.22,3.38,3.11
-Mexico,Liga MX,13/04/2024,04:00,Puebla,Cruz Azul,5.08,4.64,1.6,5.25,4.64,1.64,4.83,4.39,1.58
-Mexico,Liga MX,14/04/2024,00:00,Pachuca,Guadalajara Chivas,2.26,3.66,3.14,2.26,3.7,3.3,2.18,3.51,3.07
-Mexico,Liga MX,14/04/2024,02:05,Club America,Toluca,1.79,3.99,4.41,1.82,3.99,4.5,1.77,3.76,4.18
-Mexico,Liga MX,14/04/2024,04:10,Monterrey,U.A.N.L.- Tigres,2.19,3.46,3.47,2.19,3.5,3.6,2.11,3.38,3.35
-Mexico,Liga MX,15/04/2024,01:00,Atlas,Atl. San Luis,1.93,3.77,3.95,2,3.77,4.2,1.93,3.58,3.7
-Mexico,Liga MX,15/04/2024,01:00,U.N.A.M.- Pumas,Club Leon,2.01,3.88,3.59,2.01,3.88,3.8,1.94,3.73,3.5
-Mexico,Liga MX,15/04/2024,03:06,Juarez,Club Tijuana,2.4,3.3,3.19,2.45,3.38,3.4,2.35,3.21,3.01
-Norway,Eliteserien,16/04/2024,18:00,KFUM Oslo,Stromsgodset,2.75,3.61,2.51,2.75,3.61,2.55,2.66,3.44,2.5
-Norway,Eliteserien,17/04/2024,17:00,Brann,HamKam,1.32,6.04,8.76,1.32,6.04,10,1.3,5.5,8.63
-Norway,Eliteserien,17/04/2024,17:00,Molde,Odd,1.32,5.93,9.03,1.32,5.93,10,1.31,5.49,8.7
-Poland,Ekstraklasa,12/04/2024,17:00,Warta Poznan,Korona Kielce,3.05,2.78,2.85,3.05,2.98,2.88,2.88,2.83,2.69
-Poland,Ekstraklasa,12/04/2024,19:30,Pogon Szczecin,Ruch Chorzow,1.43,4.88,7.04,1.45,4.88,7.04,1.42,4.61,6.58
-Poland,Ekstraklasa,13/04/2024,14:00,Stal Mielec,Widzew Lodz,3.1,3.26,2.44,3.1,3.4,2.45,2.93,3.25,2.36
-Poland,Ekstraklasa,13/04/2024,16:30,Puszcza,Lech Poznan,4.64,3.77,1.78,4.75,3.77,1.79,4.48,3.59,1.75
-Poland,Ekstraklasa,13/04/2024,19:00,Rakow,Legia,2.17,3.46,3.44,2.21,3.48,3.45,2.13,3.31,3.32
-Poland,Ekstraklasa,14/04/2024,11:30,LKS Lodz,Radomiak Radom,3.67,3.41,2.06,3.67,3.5,2.11,3.45,3.38,2.03
-Poland,Ekstraklasa,14/04/2024,14:00,Jagiellonia,Cracovia,1.72,3.76,4.85,1.84,3.81,4.85,1.75,3.63,4.37
-Poland,Ekstraklasa,14/04/2024,16:30,Gornik Zabrze,Slask Wroclaw,2.33,3.33,3.11,2.38,3.33,3.11,2.3,3.25,2.99
-Poland,Ekstraklasa,15/04/2024,18:00,Piast Gliwice,Zaglebie,2.15,3.17,3.71,2.2,3.2,3.72,2.12,3.11,3.52
-Romania,Liga 1,12/04/2024,15:30,UTA Arad,FC Hermannstadt,2.7,2.85,3.05,2.7,3.01,3.2,2.59,2.87,2.89
-Romania,Liga 1,12/04/2024,18:30,Univ. Craiova,Farul Constanta,1.85,3.49,4.42,1.88,3.64,4.42,1.82,3.45,4.15
-Romania,Liga 1,13/04/2024,15:00,FC Voluntari,Otelul,2.89,2.91,2.78,2.89,3.05,2.78,2.74,2.91,2.68
-Romania,Liga 1,13/04/2024,19:30,U. Cluj,Petrolul,1.89,3.2,4.72,1.95,3.35,4.8,1.87,3.2,4.31
-Romania,Liga 1,14/04/2024,11:30,FC Botosani,U Craiova 1948,2.43,3.16,3.04,2.45,3.25,3.1,2.38,3.1,2.92
-Romania,Liga 1,14/04/2024,16:15,Din. Bucuresti,Poli Iasi,2.15,3.28,3.44,2.23,3.35,3.6,2.12,3.23,3.28
-Romania,Liga 1,14/04/2024,19:00,CFR Cluj,FCSB,2.47,3.17,2.94,2.5,3.25,3,2.4,3.16,2.84
-Romania,Liga 1,15/04/2024,18:30,FC Rapid Bucuresti,Sepsi Sf. Gheorghe,1.88,3.56,3.99,1.99,3.56,4.1,1.9,3.42,3.73
-Russia,Premier League,13/04/2024,12:00,Sochi,Spartak Moscow,2.68,3.57,2.59,2.75,3.66,2.64,2.66,3.51,2.57
-Russia,Premier League,13/04/2024,14:30,Akhmat Grozny,Baltika,,,,2.12,3.43,3.98,2.03,3.34,3.87
-Russia,Premier League,13/04/2024,15:00,Krasnodar,Zenit,2.82,3.38,2.58,3.08,3.62,2.41,2.97,3.52,2.33
-Russia,Premier League,13/04/2024,17:30,Lokomotiv Moscow,CSKA Moscow,2.82,3.38,2.58,2.85,3.68,2.58,2.8,3.44,2.52
-Russia,Premier League,14/04/2024,10:00,Orenburg,Pari NN,2.01,3.3,3.99,2.06,3.52,4.09,2.03,3.31,3.91
-Russia,Premier League,14/04/2024,12:15,Ural,Dynamo Moscow,,,,3.33,3.64,2.27,3.16,3.54,2.2
-Russia,Premier League,14/04/2024,14:45,Fakel Voronezh,FK Rostov,,,,2.72,3.34,2.87,2.62,3.25,2.77
-Russia,Premier League,14/04/2024,17:00,samara,Rubin Kazan,,,,2.3,3.44,3.44,2.22,3.34,3.28
-Sweden,Allsvenskan,13/04/2024,14:00,Mjallby,AIK,2.71,3.32,2.76,2.72,3.33,2.76,2.64,3.21,2.69
-Sweden,Allsvenskan,13/04/2024,16:30,Vasteras SK,Halmstad,1.89,3.58,4.4,1.94,3.6,4.4,1.88,3.5,4.15
-Sweden,Allsvenskan,14/04/2024,13:00,Kalmar,Goteborg,2.42,3.33,3.13,2.42,3.4,3.2,2.34,3.27,3.06
-Sweden,Allsvenskan,14/04/2024,13:00,Norrkoping,GAIS,2.05,4.14,3.27,2.15,4.14,3.3,2.07,3.78,3.2
-Sweden,Allsvenskan,14/04/2024,15:30,Djurgarden,Sirius,1.65,4.38,4.94,1.65,4.38,5.5,1.61,4.16,5.02
-Sweden,Allsvenskan,15/04/2024,18:00,Hacken,Brommapojkarna,1.81,4.24,3.95,1.82,4.3,4.33,1.78,4.1,3.93
-Sweden,Allsvenskan,15/04/2024,18:00,Varnamo,Malmo FF,9.96,5.78,1.31,11,5.8,1.37,9.16,5.32,1.31
-Sweden,Allsvenskan,15/04/2024,18:10,Hammarby,Elfsborg,2.54,3.71,2.66,2.55,3.75,2.7,2.48,3.58,2.64
-Switzerland,Swiss,13/04/2024,17:00,Grasshoppers,Lugano,3.66,3.61,2.04,3.68,3.65,2.11,3.4,3.52,2.04
-Switzerland,Swiss,13/04/2024,17:00,Lausanne,Zurich,2.61,3.38,2.79,2.62,3.5,2.8,2.51,3.34,2.69
-Switzerland,Swiss,13/04/2024,19:30,St. Gallen,Yverdon,1.43,5.25,6.5,1.45,5.3,7,1.41,4.98,6.32
-Switzerland,Swiss,14/04/2024,13:15,Basel,Servette,3.27,3.58,2.15,3.4,3.65,2.16,3.25,3.51,2.09
-Switzerland,Swiss,14/04/2024,15:30,Lausanne Ouchy,Winterthur,3.3,3.57,2.14,3.34,3.66,2.17,3.17,3.53,2.11
-Switzerland,Swiss,14/04/2024,15:30,Young Boys,Luzern,1.68,4.22,4.5,1.79,4.33,4.6,1.69,4.12,4.25
-USA,MLS,13/04/2024,21:45,Portland Timbers,Los Angeles FC,2.83,3.77,2.41,2.9,3.77,2.41,2.77,3.6,2.36
-USA,MLS,14/04/2024,00:30,CF Montreal,FC Cincinnati,2.62,3.47,2.76,2.62,3.55,2.76,2.52,3.43,2.68
-USA,MLS,14/04/2024,00:30,Charlotte,Toronto FC,1.67,3.99,5.34,1.7,4,5.4,1.66,3.86,5
-USA,MLS,14/04/2024,00:30,DC United,Orlando City,2.05,3.62,3.69,2.1,3.75,3.7,2.04,3.6,3.43
-USA,MLS,14/04/2024,00:30,New York City,New England Revolution,1.76,3.9,4.71,1.77,4,4.75,1.73,3.79,4.54
-USA,MLS,14/04/2024,00:30,New York Red Bulls,Chicago Fire,1.63,3.88,6,1.64,4.1,6,1.6,3.9,5.53
-USA,MLS,14/04/2024,01:30,FC Dallas,Seattle Sounders,3.07,3.24,2.5,3.1,3.3,2.5,2.97,3.18,2.44
-USA,MLS,14/04/2024,01:30,Minnesota United,Houston Dynamo,2.18,3.45,3.5,2.18,3.6,3.6,2.11,3.43,3.38
-USA,MLS,14/04/2024,01:30,Sporting Kansas City,Inter Miami,2.23,3.6,3.25,2.3,3.75,3.25,2.22,3.59,3.04
-USA,MLS,14/04/2024,02:30,Real Salt Lake,Columbus Crew,2.23,3.66,3.21,2.25,3.66,3.21,2.2,3.56,3.07
-USA,MLS,14/04/2024,03:30,San Jose Earthquakes,Colorado Rapids,2.33,3.45,3.17,2.33,3.65,3.35,2.24,3.4,3.14
-USA,MLS,14/04/2024,03:30,Vancouver Whitecaps,Los Angeles Galaxy,2.03,4.17,3.32,2.1,4.2,3.32,2.02,3.92,3.21
-USA,MLS,14/04/2024,19:30,Atlanta Utd,Philadelphia Union,2.11,3.92,3.27,2.14,4,3.3,2.07,3.77,3.18
-USA,MLS,14/04/2024,21:45,St. Louis City,Austin FC,1.68,4.02,5.14,1.72,4.2,5.14,1.68,3.97,4.63
+Argentina,Copa De La Liga Profesional,01/05/2024,00:00,Estudiantes L.P.,Boca Juniors,3.21,3,2.54,3.21,3.1,2.56,3.02,2.97,2.46
+China,Super League,30/04/2024,11:00,Shandong Taishan,Nantong Zhiyun,1.24,5.74,10.93,1.33,5.8,12,1.26,5.25,10.26
+China,Super League,30/04/2024,12:35,Tianjin Jinmen Tiger,Beijing Guoan,3.13,3.41,2.28,3.21,3.42,2.3,3.01,3.32,2.23
+China,Super League,30/04/2024,13:00,Meizhou Hakka,Qingdao West Coast,1.94,3.44,4.05,1.98,3.6,4.1,1.93,3.36,3.8
+China,Super League,30/04/2024,13:00,Zhejiang Professional,Henan Songshan Longmen,1.63,4.33,4.76,1.64,4.54,4.76,1.61,4.25,4.5
+China,Super League,01/05/2024,08:30,Changchun Yatai,Shenzhen Xinpengcheng,2.34,3.54,2.95,2.37,3.55,3.1,2.27,3.34,2.93
+China,Super League,01/05/2024,11:00,Qingdao Hainiu,Shanghai Port,8.42,5.36,1.33,10.5,5.5,1.35,8.67,5.08,1.3
+China,Super League,01/05/2024,12:35,Chengdu Rongcheng,Wuhan Three Towns,1.61,4.04,5.31,1.61,4.24,5.75,1.58,3.96,5.08
+China,Super League,01/05/2024,13:00,Shanghai Shenhua,Cangzhou,1.17,7.53,13.79,1.2,8.5,21,1.16,6.85,13.47
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,

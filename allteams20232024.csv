@@ -322,6 +322,29 @@ E0,14/04/2024,Liverpool,Crystal Palace,0,1,A,0,1,A,1.19,7.62,14.15,10,10
 E0,14/04/2024,West Ham,Fulham,0,2,A,0,1,A,2.4,3.66,2.91,6,13
 E0,14/04/2024,Arsenal,Aston Villa,0,2,A,0,0,D,1.29,6.27,9.5,12,7
 E0,15/04/2024,Chelsea,Everton,6,0,H,4,0,H,1.73,4.16,4.57,5,21
+E0,20/04/2024,Luton,Brentford,1,5,A,0,2,A,3.28,3.76,2.16,13,9
+E0,20/04/2024,Sheffield United,Burnley,1,4,A,0,2,A,2.77,3.64,2.52,10,9
+E0,20/04/2024,Wolves,Arsenal,0,2,A,0,1,A,8.02,5.14,1.39,14,9
+E0,21/04/2024,Everton,Nottm Forest,2,0,H,1,0,H,2.06,3.52,3.78,15,9
+E0,21/04/2024,Aston Villa,Bournemouth,3,1,H,1,1,D,1.87,4.17,3.83,8,14
+E0,21/04/2024,Crystal Palace,West Ham,5,2,H,4,1,H,2.12,3.66,3.45,9,9
+E0,21/04/2024,Fulham,Liverpool,1,3,A,1,1,D,5.14,4.66,1.59,5,11
+E0,23/04/2024,Arsenal,Chelsea,5,0,H,1,0,H,1.45,5.03,6.76,12,11
+E0,24/04/2024,Wolves,Bournemouth,0,1,A,0,1,A,2.74,3.53,2.6,10,17
+E0,24/04/2024,Crystal Palace,Newcastle,2,0,H,0,0,D,2.76,3.7,2.49,10,15
+E0,24/04/2024,Everton,Liverpool,2,0,H,1,0,H,7.49,5,1.42,6,13
+E0,24/04/2024,Man United,Sheffield United,4,2,H,1,1,D,1.32,6.28,8.27,7,9
+E0,25/04/2024,Brighton,Man City,0,4,A,0,3,A,6.84,4.9,1.45,10,3
+E0,27/04/2024,West Ham,Liverpool,2,2,D,1,0,H,5.84,5.03,1.5,8,10
+E0,27/04/2024,Fulham,Crystal Palace,1,1,D,0,0,D,2.14,3.63,3.43,11,15
+E0,27/04/2024,Man United,Burnley,1,1,D,0,0,D,1.53,5.01,5.35,7,11
+E0,27/04/2024,Newcastle,Sheffield United,5,1,H,1,1,D,1.24,7.18,10.5,9,10
+E0,27/04/2024,Wolves,Luton,2,1,H,1,0,H,1.98,3.9,3.65,14,14
+E0,27/04/2024,Everton,Brentford,1,0,H,0,0,D,2.34,3.54,3.09,10,12
+E0,27/04/2024,Aston Villa,Chelsea,2,2,D,2,0,H,2.14,4.04,3.13,13,14
+E0,28/04/2024,Bournemouth,Brighton,3,0,H,1,0,H,2.27,3.85,2.99,14,10
+E0,28/04/2024,Tottenham,Arsenal,2,3,A,0,3,A,4.19,4.07,1.81,12,16
+E0,28/04/2024,Nottm Forest,Man City,0,2,A,0,1,A,10.15,5.89,1.3,8,6
 E1,04/08/2023,Sheffield Weds,Southampton,1,2,A,0,1,A,3.3,3.44,2.3,12,10
 E1,05/08/2023,Blackburn,West Brom,2,1,H,2,0,H,2.92,3.24,2.65,11,11
 E1,05/08/2023,Bristol City,Preston,1,1,D,0,0,D,2.13,3.45,3.72,10,11
@@ -835,6 +858,32 @@ E1,13/04/2024,Sheffield Weds,Stoke,1,1,D,0,0,D,2.69,3.2,2.87,9,20
 E1,13/04/2024,Southampton,Watford,3,2,H,2,1,H,1.43,5.13,6.94,6,15
 E1,13/04/2024,Swansea,Rotherham,1,0,H,0,0,D,1.4,4.76,8.95,10,9
 E1,13/04/2024,West Brom,Sunderland,0,1,A,0,1,A,1.86,3.59,4.57,15,12
+E1,16/04/2024,Southampton,Preston,3,0,H,3,0,H,1.36,5.23,8.96,7,12
+E1,20/04/2024,Leicester,West Brom,2,1,H,1,0,H,1.56,4.32,6.07,15,13
+E1,20/04/2024,Cardiff,Southampton,2,1,H,0,1,A,7.55,4.93,1.42,12,8
+E1,20/04/2024,Huddersfield,Swansea,0,4,A,0,0,D,2.14,3.62,3.46,15,10
+E1,20/04/2024,Norwich,Bristol City,1,1,D,0,0,D,1.66,4.15,5.15,13,9
+E1,20/04/2024,Rotherham,Birmingham,0,0,D,0,0,D,5.61,4.06,1.63,16,11
+E1,20/04/2024,Stoke,Plymouth,3,0,H,2,0,H,1.85,3.29,5.26,14,11
+E1,20/04/2024,Sunderland,Millwall,0,1,A,0,0,D,2.23,3.26,3.59,11,9
+E1,20/04/2024,Watford,Hull,0,0,D,0,0,D,2.95,3.5,2.45,19,13
+E1,20/04/2024,QPR,Preston,1,0,H,1,0,H,1.89,3.58,4.39,9,16
+E1,21/04/2024,Blackburn,Sheffield Weds,1,3,A,1,1,D,2.09,3.54,3.68,9,12
+E1,22/04/2024,Middlesbrough,Leeds,3,4,A,2,3,A,4.31,3.94,1.8,14,11
+E1,23/04/2024,Leicester,Southampton,5,0,H,1,0,H,2.1,3.98,3.26,20,7
+E1,24/04/2024,Coventry,Hull,2,3,A,1,2,A,2.24,3.8,3.09,7,13
+E1,26/04/2024,QPR,Leeds,4,0,H,2,0,H,5.56,4.38,1.59,9,14
+E1,27/04/2024,Blackburn,Coventry,0,0,D,0,0,D,2.16,3.71,3.3,10,9
+E1,27/04/2024,Bristol City,Rotherham,2,0,H,1,0,H,1.37,4.94,8.96,5,10
+E1,27/04/2024,Cardiff,Middlesbrough,1,4,A,0,1,A,3.77,3.56,2.02,7,10
+E1,27/04/2024,Huddersfield,Birmingham,1,1,D,0,1,A,2.33,3.3,3.31,7,19
+E1,27/04/2024,Millwall,Plymouth,1,0,H,0,0,D,2.19,3.49,3.44,9,8
+E1,27/04/2024,Norwich,Swansea,2,2,D,2,1,H,1.66,4.32,4.9,13,7
+E1,27/04/2024,Sheffield Weds,West Brom,3,0,H,1,0,H,2.99,3.36,2.5,7,6
+E1,27/04/2024,Southampton,Stoke,0,1,A,0,1,A,1.79,4.49,3.93,4,14
+E1,27/04/2024,Watford,Sunderland,1,0,H,0,0,D,2.41,3.17,3.25,11,9
+E1,27/04/2024,Hull,Ipswich,3,3,D,1,2,A,3.27,3.72,2.18,13,14
+E1,29/04/2024,Preston,Leicester,0,3,A,0,1,A,6.65,4.7,1.47,9,7
 E2,05/08/2023,Barnsley,Port Vale,7,0,H,2,0,H,1.8,3.72,4.72,15,14
 E2,05/08/2023,Blackpool,Burton,2,0,H,2,0,H,1.61,4.33,5.45,10,12
 E2,05/08/2023,Bolton,Lincoln,3,0,H,1,0,H,1.66,3.74,5.02,19,16
@@ -1354,6 +1403,39 @@ E2,13/04/2024,Oxford,Peterboro,5,0,H,3,0,H,2.79,3.88,2.37,5,5
 E2,13/04/2024,Port Vale,Exeter,2,4,A,2,0,H,2.17,3.51,3.4,11,13
 E2,13/04/2024,Shrewsbury,Wycombe,0,2,A,0,0,D,2.88,3.2,2.65,13,6
 E2,13/04/2024,Stevenage,Burton,1,2,A,0,1,A,1.57,4.22,5.89,9,15
+E2,16/04/2024,Bolton,Shrewsbury,2,2,D,1,2,A,1.32,5.37,9.72,4,9
+E2,16/04/2024,Bristol Rvs,Cambridge,1,0,H,0,0,D,2.2,3.55,3.31,8,8
+E2,16/04/2024,Burton,Cheltenham,1,2,A,1,0,H,2.4,3.07,3.38,19,9
+E2,16/04/2024,Oxford,Lincoln,0,1,A,0,0,D,2,3.77,3.64,12,16
+E2,16/04/2024,Peterboro,Fleetwood Town,4,1,H,1,1,D,1.57,4.55,5.29,9,7
+E2,16/04/2024,Port Vale,Wycombe,1,2,A,0,1,A,2.57,3.3,2.89,12,11
+E2,16/04/2024,Portsmouth,Barnsley,3,2,H,1,1,D,1.82,3.74,4.45,15,10
+E2,19/04/2024,Oxford,Stevenage,1,1,D,0,1,A,1.9,3.58,4.25,9,17
+E2,20/04/2024,Northampton,Exeter,1,2,A,0,1,A,2.65,3.25,2.83,12,9
+E2,20/04/2024,Blackpool,Barnsley,3,2,H,2,0,H,2,3.57,3.86,12,17
+E2,20/04/2024,Bolton,Port Vale,2,0,H,0,0,D,1.4,4.71,8.49,12,11
+E2,20/04/2024,Bristol Rvs,Peterboro,0,2,A,0,1,A,4.57,4.04,1.74,8,7
+E2,20/04/2024,Burton,Reading,3,2,H,3,1,H,2.91,3.5,2.44,13,6
+E2,20/04/2024,Cambridge,Derby,0,1,A,0,1,A,5.88,3.99,1.61,8,10
+E2,20/04/2024,Carlisle,Wycombe,1,3,A,1,1,D,3.8,3.48,2.04,12,16
+E2,20/04/2024,Charlton,Shrewsbury,1,1,D,0,1,A,1.83,3.5,4.81,8,8
+E2,20/04/2024,Cheltenham,Lincoln,1,2,A,1,1,D,3.45,3.26,2.26,13,14
+E2,20/04/2024,Leyton Orient,Fleetwood Town,0,1,A,0,0,D,2.14,3.62,3.39,14,6
+E2,20/04/2024,Portsmouth,Wigan,1,2,A,0,1,A,1.72,3.95,4.76,14,12
+E2,23/04/2024,Cambridge,Wycombe,1,1,D,0,0,D,3.09,3.21,2.48,13,13
+E2,23/04/2024,Cheltenham,Peterboro,2,0,H,2,0,H,3.05,4.1,2.14,18,9
+E2,27/04/2024,Barnsley,Northampton,1,1,D,1,0,H,1.46,4.86,6.54,11,7
+E2,27/04/2024,Derby,Carlisle,2,0,H,1,0,H,1.21,6.39,12.42,12,10
+E2,27/04/2024,Exeter,Oxford,1,2,A,0,2,A,4.86,4.23,1.67,20,9
+E2,27/04/2024,Fleetwood Town,Burton,3,0,H,2,0,H,2.86,3.87,2.26,9,10
+E2,27/04/2024,Lincoln,Portsmouth,0,2,A,0,0,D,2.06,3.57,3.51,14,14
+E2,27/04/2024,Peterboro,Bolton,3,3,D,0,2,A,2.88,3.94,2.28,17,17
+E2,27/04/2024,Port Vale,Cambridge,0,0,D,0,0,D,2.51,3.23,2.92,8,16
+E2,27/04/2024,Reading,Blackpool,3,2,H,1,1,D,3.61,3.77,2.01,8,11
+E2,27/04/2024,Shrewsbury,Leyton Orient,1,3,A,0,2,A,2.69,3.22,2.81,9,9
+E2,27/04/2024,Stevenage,Cheltenham,2,1,H,1,0,H,2.71,3.4,2.66,16,17
+E2,27/04/2024,Wigan,Bristol Rvs,2,0,H,1,0,H,2.14,3.49,3.5,5,13
+E2,27/04/2024,Wycombe,Charlton,1,0,H,1,0,H,2.26,3.54,3.19,12,12
 E3,05/08/2023,Accrington,Newport County,3,0,H,1,0,H,2.49,3.27,3.07,11,13
 E3,05/08/2023,Crawley Town,Bradford,1,0,H,1,0,H,4.1,3.5,1.98,14,14
 E3,05/08/2023,Crewe,Mansfield,2,2,D,1,2,A,4.15,3.75,1.87,8,16
@@ -1875,6 +1957,37 @@ E3,13/04/2024,Stockport,Morecambe,2,0,H,2,0,H,1.29,5.72,10.9,7,15
 E3,13/04/2024,Swindon,AFC Wimbledon,3,2,H,0,1,A,3.01,3.4,2.42,6,15
 E3,13/04/2024,Walsall,Notts County,1,3,A,0,2,A,2.09,3.64,3.49,14,5
 E3,13/04/2024,Wrexham,Forest Green,6,0,H,4,0,H,1.36,5.3,8.32,9,12
+E3,16/04/2024,Colchester,Grimsby,2,0,H,1,0,H,2.25,3.24,3.49,12,13
+E3,16/04/2024,Crawley Town,Barrow,1,1,D,0,1,A,2.32,3.5,3.11,11,6
+E3,16/04/2024,Mansfield,Accrington,2,1,H,1,0,H,1.34,5.51,8.74,15,16
+E3,16/04/2024,Notts County,Stockport,2,5,A,0,3,A,3.85,4.07,1.86,6,8
+E3,16/04/2024,Walsall,Swindon,2,1,H,1,0,H,1.91,3.79,3.93,7,6
+E3,20/04/2024,Crewe,Wrexham,0,3,A,0,2,A,2.99,3.82,2.26,10,10
+E3,20/04/2024,Doncaster,Barrow,4,2,H,0,2,A,2.12,3.53,3.52,12,6
+E3,20/04/2024,Grimsby,Swindon,2,0,H,0,0,D,1.94,3.75,3.87,11,12
+E3,20/04/2024,Harrogate,Milton Keynes Dons,3,5,A,2,2,D,3.27,3.73,2.15,9,10
+E3,20/04/2024,Mansfield,Gillingham,2,1,H,0,1,A,2,3.82,3.59,4,13
+E3,20/04/2024,Morecambe,Forest Green,1,2,A,1,2,A,2.13,3.58,3.45,7,13
+E3,20/04/2024,Newport County,Salford,0,1,A,0,0,D,3.7,3.61,2.03,13,11
+E3,20/04/2024,Notts County,Colchester,1,0,H,0,0,D,2.45,3.75,2.74,8,9
+E3,20/04/2024,Stockport,Accrington,4,2,H,2,1,H,1.3,5.91,9.44,4,15
+E3,20/04/2024,Sutton,Crawley Town,2,2,D,0,1,A,2.36,3.64,2.93,15,10
+E3,20/04/2024,Tranmere,AFC Wimbledon,3,2,H,2,0,H,3.09,3.24,2.46,5,15
+E3,20/04/2024,Walsall,Bradford,2,3,A,2,2,D,2.29,3.57,3.1,13,14
+E3,23/04/2024,Barrow,Bradford,1,2,A,0,1,A,2.44,3.32,3.05,15,13
+E3,23/04/2024,Colchester,Doncaster,1,4,A,1,2,A,3.41,3.72,2.09,14,9
+E3,27/04/2024,Accrington,Tranmere,4,1,H,1,1,D,2.48,3.7,2.74,13,10
+E3,27/04/2024,AFC Wimbledon,Walsall,5,1,H,2,1,H,2.36,3.7,2.9,8,10
+E3,27/04/2024,Barrow,Mansfield,1,1,D,0,1,A,2.45,3.64,2.72,12,15
+E3,27/04/2024,Bradford,Newport County,4,1,H,2,0,H,1.32,5.64,9.26,8,12
+E3,27/04/2024,Colchester,Crewe,1,1,D,1,0,H,2.74,2.46,3.59,7,12
+E3,27/04/2024,Crawley Town,Grimsby,2,0,H,2,0,H,1.7,4.23,4.55,7,9
+E3,27/04/2024,Forest Green,Notts County,1,0,H,0,0,D,3.23,3.88,2.07,18,9
+E3,27/04/2024,Gillingham,Doncaster,2,2,D,0,2,A,3.66,3.72,2.01,11,12
+E3,27/04/2024,Milton Keynes Dons,Sutton,4,4,D,2,0,H,2.19,4.03,2.99,10,13
+E3,27/04/2024,Salford,Harrogate,2,2,D,2,2,D,1.74,4.2,4.39,13,9
+E3,27/04/2024,Swindon,Morecambe,3,3,D,2,2,D,1.86,4.13,3.83,5,12
+E3,27/04/2024,Wrexham,Stockport,2,1,H,0,1,A,2.44,3.48,2.83,14,14
 EC,05/08/2023,Aldershot,Oxford City,5,2,H,3,1,H,1.99,3.68,3.69,0,0
 EC,05/08/2023,Altrincham,Dag and Red,1,1,D,0,0,D,2.25,3.43,3.23,0,0
 EC,05/08/2023,Barnet,Hartlepool,3,2,H,1,0,H,2.09,3.65,3.35,0,0
@@ -2409,6 +2522,24 @@ EC,13/04/2024,Wealdstone,Chesterfield,1,0,H,0,0,D,3.8,3.83,1.89,0,0
 EC,13/04/2024,York,Woking,2,0,H,0,0,D,2.7,3.37,2.61,0,0
 EC,13/04/2024,Aldershot,Boreham Wood,0,3,A,0,2,A,2.11,3.92,3.11,0,0
 EC,15/04/2024,Gateshead,Chesterfield,2,1,H,2,0,H,,,,0,0
+EC,16/04/2024,Halifax,Ebbsfleet,0,0,D,0,0,D,2.23,3.49,3.18,0,0
+EC,16/04/2024,Oxford City,Bromley,1,3,A,0,2,A,6.78,4.57,1.45,0,0
+EC,16/04/2024,Rochdale,Boreham Wood,0,0,D,0,0,D,3.01,3.82,2.19,0,0
+EC,16/04/2024,Wealdstone,Eastleigh,0,1,A,0,0,D,1.85,4.05,3.76,0,0
+EC,17/04/2024,Gateshead,Aldershot,0,1,A,0,0,D,1.75,4.28,4.03,0,0
+EC,18/04/2024,Halifax,Oldham,2,2,D,1,1,D,2.17,3.29,3.5,0,0
+EC,20/04/2024,Altrincham,Oxford City,1,0,H,1,0,H,1.28,5.77,9.67,0,0
+EC,20/04/2024,Barnet,Kidderminster,4,1,H,2,0,H,1.58,4.15,5.42,0,0
+EC,20/04/2024,Boreham Wood,Ebbsfleet,0,0,D,0,0,D,2.32,3.53,2.99,0,0
+EC,20/04/2024,Chesterfield,Maidenhead,3,2,H,2,0,H,1.53,4.54,5.52,0,0
+EC,20/04/2024,Dag and Red,Aldershot,3,3,D,1,0,H,2.81,3.79,2.33,0,0
+EC,20/04/2024,Dorking,Hartlepool,3,4,A,1,3,A,2.57,3.63,2.61,0,0
+EC,20/04/2024,Eastleigh,Halifax,0,3,A,0,1,A,3.52,3.73,2,0,0
+EC,20/04/2024,Gateshead,Bromley,2,1,H,0,1,A,2.13,3.68,3.24,0,0
+EC,20/04/2024,Oldham,Wealdstone,2,3,A,1,0,H,1.83,3.69,4.22,0,0
+EC,20/04/2024,Solihull,York,1,0,H,0,0,D,2.18,3.13,3.68,0,0
+EC,20/04/2024,Southend,Rochdale,1,2,A,1,1,D,1.58,4.1,5.61,0,0
+EC,20/04/2024,Woking,Fylde,3,0,H,1,0,H,1.69,3.9,4.85,0,0
 SP1,11/08/2023,Almeria,Vallecano,0,2,A,0,2,A,2.62,3.3,2.96,16,25
 SP1,11/08/2023,Sevilla,Valencia,1,2,A,0,0,D,1.95,3.47,4.48,15,17
 SP1,12/08/2023,Sociedad,Girona,1,1,D,1,0,H,1.65,4.05,5.66,22,9
@@ -2719,6 +2850,26 @@ SP1,14/04/2024,Granada,Alaves,2,0,H,2,0,H,3.12,3.14,2.54,16,11
 SP1,14/04/2024,Ath Bilbao,Villarreal,1,1,D,0,0,D,1.78,4.02,4.47,13,12
 SP1,14/04/2024,Sociedad,Almeria,2,2,D,1,1,D,1.34,5.32,9.55,16,8
 SP1,15/04/2024,Osasuna,Valencia,0,1,A,0,1,A,2.2,3.14,3.68,10,10
+SP1,19/04/2024,Ath Bilbao,Granada,1,1,D,1,1,D,1.28,6.09,12.01,11,15
+SP1,20/04/2024,Celta,Las Palmas,4,1,H,2,1,H,1.76,3.72,4.99,10,9
+SP1,20/04/2024,Vallecano,Osasuna,2,1,H,0,1,A,2.24,3.12,3.73,9,15
+SP1,20/04/2024,Valencia,Betis,1,2,A,0,1,A,2.25,3.28,3.52,18,10
+SP1,20/04/2024,Girona,Cadiz,4,1,H,2,0,H,1.43,4.89,7.51,11,14
+SP1,21/04/2024,Getafe,Sociedad,1,1,D,1,1,D,3.88,3.07,2.22,12,18
+SP1,21/04/2024,Almeria,Villarreal,1,2,A,1,1,D,3.32,3.81,2.05,10,16
+SP1,21/04/2024,Alaves,Ath Madrid,2,0,H,1,0,H,4.21,3.4,1.99,20,12
+SP1,21/04/2024,Real Madrid,Barcelona,3,2,H,1,1,D,1.88,3.96,3.99,11,12
+SP1,22/04/2024,Sevilla,Mallorca,2,1,H,0,0,D,2.02,3.02,4.81,10,8
+SP1,26/04/2024,Sociedad,Real Madrid,0,1,A,0,1,A,2.51,3.23,3.14,13,11
+SP1,27/04/2024,Las Palmas,Girona,0,2,A,0,1,A,4.49,4.04,1.77,12,10
+SP1,27/04/2024,Almeria,Getafe,1,3,A,1,1,D,2.69,3.3,2.67,15,31
+SP1,27/04/2024,Alaves,Celta,3,0,H,0,0,D,2.7,3.09,2.95,10,9
+SP1,27/04/2024,Ath Madrid,Ath Bilbao,3,1,H,1,1,D,1.97,3.57,4.05,16,15
+SP1,28/04/2024,Cadiz,Mallorca,1,1,D,0,1,A,2.69,2.85,3.23,14,21
+SP1,28/04/2024,Granada,Osasuna,3,0,H,1,0,H,2.64,3.15,2.97,17,5
+SP1,28/04/2024,Villarreal,Vallecano,3,0,H,1,0,H,1.74,3.93,4.84,15,8
+SP1,28/04/2024,Betis,Sevilla,1,1,D,1,0,H,2.08,3.42,3.84,9,20
+SP1,29/04/2024,Barcelona,Valencia,4,2,H,1,2,A,1.36,5.49,8.18,12,5
 SP2,11/08/2023,Amorebieta,Levante,1,1,D,0,1,A,3.32,3.1,2.48,20,18
 SP2,11/08/2023,Valladolid,Sp Gijon,2,0,H,1,0,H,1.93,3.36,4.67,12,15
 SP2,12/08/2023,Santander,Eibar,4,0,H,3,0,H,3.05,2.98,2.74,10,14
@@ -3104,6 +3255,28 @@ SP2,14/04/2024,Burgos,Santander,2,1,H,1,1,D,2.17,3.45,3.55,10,15
 SP2,14/04/2024,Zaragoza,Elche,1,1,D,0,0,D,3.3,2.75,2.73,12,10
 SP2,14/04/2024,Ferrol,Huesca,2,1,H,0,1,A,2.3,2.7,3.92,16,16
 SP2,15/04/2024,Alcorcon,Villarreal B,1,0,H,0,0,D,2.26,3.18,3.55,12,8
+SP2,19/04/2024,Tenerife,Leganes,0,0,D,0,0,D,2.83,2.7,3.24,18,15
+SP2,20/04/2024,Amorebieta,Valladolid,0,3,A,0,0,D,3.8,3.05,2.13,10,9
+SP2,20/04/2024,Santander,Levante,0,0,D,0,0,D,2.14,3.34,3.39,11,17
+SP2,20/04/2024,Villarreal B,Ferrol,1,0,H,0,0,D,2.47,3.05,3.05,14,7
+SP2,20/04/2024,Elche,Sp Gijon,2,1,H,2,0,H,1.74,3.72,5.18,15,13
+SP2,20/04/2024,Huesca,Zaragoza,1,2,A,1,2,A,2.63,2.61,3.37,14,17
+SP2,21/04/2024,Espanol,Andorra,1,1,D,0,1,A,1.67,3.67,5.17,12,6
+SP2,21/04/2024,Eibar,Alcorcon,2,0,H,1,0,H,1.47,4.37,7.96,14,11
+SP2,21/04/2024,Eldense,Albacete,0,1,A,0,0,D,2.44,3.12,3.04,17,8
+SP2,21/04/2024,Mirandes,Burgos,2,1,H,0,0,D,2.5,3.15,3.16,11,11
+SP2,22/04/2024,Cartagena,Oviedo,2,0,H,0,0,D,3.42,3.01,2.42,13,18
+SP2,26/04/2024,Andorra,Santander,1,1,D,1,0,H,2.1,3.46,3.71,11,11
+SP2,27/04/2024,Burgos,Amorebieta,2,2,D,1,0,H,1.74,3.45,5.01,5,11
+SP2,27/04/2024,Leganes,Zaragoza,1,1,D,0,0,D,2.07,2.99,4.61,14,18
+SP2,27/04/2024,Elche,Espanol,2,2,D,1,1,D,2.1,3.26,3.99,12,22
+SP2,28/04/2024,Sp Gijon,Villarreal B,0,3,A,0,2,A,1.72,3.57,4.87,9,9
+SP2,28/04/2024,Alcorcon,Eldense,0,0,D,0,0,D,2.32,2.91,3.48,11,16
+SP2,28/04/2024,Oviedo,Tenerife,0,1,A,0,1,A,1.85,3.16,4.83,9,19
+SP2,28/04/2024,Levante,Cartagena,0,1,A,0,0,D,1.69,3.56,5.15,9,9
+SP2,28/04/2024,Valladolid,Huesca,1,0,H,1,0,H,1.61,3.46,6.42,19,6
+SP2,28/04/2024,Albacete,Eibar,2,1,H,1,1,D,2.55,3.12,2.88,11,8
+SP2,29/04/2024,Ferrol,Mirandes,0,2,A,0,1,A,2.13,3.09,4.05,9,9
 D1,18/08/2023,Werder Bremen,Bayern Munich,0,4,A,0,1,A,8.59,6.36,1.33,16,11
 D1,19/08/2023,Augsburg,Mgladbach,4,4,D,3,3,D,2.74,3.78,2.51,9,14
 D1,19/08/2023,Hoffenheim,Freiburg,1,2,A,0,2,A,2.43,3.67,2.92,9,9
@@ -3365,6 +3538,24 @@ D1,13/04/2024,RB Leipzig,Wolfsburg,3,0,H,1,0,H,1.36,5.66,7.8,12,7
 D1,13/04/2024,Stuttgart,Ein Frankfurt,3,0,H,3,0,H,1.51,4.76,6.01,4,15
 D1,14/04/2024,Darmstadt,Freiburg,0,1,A,0,1,A,3.98,3.98,1.88,6,12
 D1,14/04/2024,Leverkusen,Werder Bremen,5,0,H,1,0,H,1.2,7.49,12.7,10,4
+D1,19/04/2024,Ein Frankfurt,Augsburg,3,1,H,0,1,A,2.06,3.76,3.6,2,19
+D1,20/04/2024,FC Koln,Darmstadt,0,2,A,0,0,D,1.49,4.61,6.76,10,13
+D1,20/04/2024,Heidenheim,RB Leipzig,1,2,A,0,1,A,6.19,5.19,1.46,14,7
+D1,20/04/2024,Hoffenheim,Mgladbach,4,3,H,1,1,D,2.16,4.04,3.09,6,11
+D1,20/04/2024,Wolfsburg,Bochum,1,0,H,1,0,H,1.81,3.88,4.43,11,16
+D1,20/04/2024,Union Berlin,Bayern Munich,1,5,A,0,2,A,4.94,4.62,1.62,5,4
+D1,21/04/2024,Werder Bremen,Stuttgart,2,1,H,1,0,H,5.11,4.66,1.6,11,10
+D1,21/04/2024,Dortmund,Leverkusen,1,1,D,0,0,D,2.56,3.84,2.5,14,11
+D1,21/04/2024,Freiburg,Mainz,1,1,D,1,1,D,2.58,3.59,2.72,17,15
+D1,26/04/2024,Bochum,Hoffenheim,3,2,H,2,0,H,2.21,4,3.06,13,10
+D1,27/04/2024,Augsburg,Werder Bremen,0,3,A,0,0,D,1.8,4.19,4.13,18,8
+D1,27/04/2024,Bayern Munich,Ein Frankfurt,2,1,H,1,1,D,1.42,5.46,6.65,11,7
+D1,27/04/2024,Freiburg,Wolfsburg,1,2,A,1,0,H,2.37,3.58,3.01,12,7
+D1,27/04/2024,RB Leipzig,Dortmund,4,1,H,2,1,H,1.68,4.45,4.61,11,7
+D1,27/04/2024,Leverkusen,Stuttgart,2,2,D,0,0,D,1.76,4.31,4.25,10,19
+D1,28/04/2024,Mgladbach,Union Berlin,0,0,D,0,0,D,2.38,3.45,3.1,3,13
+D1,28/04/2024,Mainz,FC Koln,1,1,D,1,0,H,1.54,4.37,6.2,17,13
+D1,28/04/2024,Darmstadt,Heidenheim,0,1,A,0,0,D,3.42,3.71,2.12,14,12
 D2,28/07/2023,Hamburg,Schalke 04,5,3,H,1,2,A,2.43,3.81,2.83,10,13
 D2,29/07/2023,Hannover,Elversberg,2,2,D,1,2,A,2.12,3.88,3.34,5,18
 D2,29/07/2023,Kaiserslautern,St Pauli,1,2,A,0,0,D,3.19,3.5,2.33,11,10
@@ -3626,6 +3817,24 @@ D2,13/04/2024,Schalke 04,Nurnberg,2,0,H,1,0,H,1.68,4.1,5.08,12,14
 D2,14/04/2024,Braunschweig,Hannover,0,0,D,0,0,D,2.85,3.32,2.62,8,5
 D2,14/04/2024,Magdeburg,Hamburg,2,2,D,2,0,H,3.13,3.89,2.19,12,12
 D2,14/04/2024,St Pauli,Elversberg,3,4,A,1,0,H,1.47,4.8,6.68,12,8
+D2,19/04/2024,Elversberg,Schalke 04,1,1,D,1,0,H,2.63,3.57,2.68,8,13
+D2,19/04/2024,Nurnberg,Paderborn,0,2,A,0,1,A,3.18,3.71,2.22,10,13
+D2,20/04/2024,Fortuna Dusseldorf,Greuther Furth,1,0,H,0,0,D,1.6,4.42,5.37,12,11
+D2,20/04/2024,Kaiserslautern,Wehen,1,1,D,1,0,H,1.77,4.03,4.5,12,17
+D2,20/04/2024,Osnabruck,Braunschweig,0,3,A,0,2,A,2.57,3.43,2.84,13,16
+D2,20/04/2024,Hamburg,Holstein Kiel,0,1,A,0,0,D,2.08,3.94,3.34,12,8
+D2,21/04/2024,Hannover,St Pauli,1,2,A,1,1,D,3.11,3.42,2.38,10,12
+D2,21/04/2024,Hansa Rostock,Magdeburg,0,2,A,0,2,A,2.87,3.51,2.5,17,11
+D2,21/04/2024,Karlsruhe,Hertha,3,2,H,2,1,H,1.95,3.94,3.7,14,12
+D2,26/04/2024,Hertha,Hannover,1,1,D,1,0,H,2.27,3.72,3.08,9,10
+D2,26/04/2024,St Pauli,Hansa Rostock,1,0,H,0,0,D,1.35,5.41,8.72,8,19
+D2,27/04/2024,Braunschweig,Hamburg,0,4,A,0,2,A,3.24,3.65,2.22,8,10
+D2,27/04/2024,Holstein Kiel,Kaiserslautern,1,3,A,1,2,A,1.79,4.14,4.25,14,9
+D2,27/04/2024,Paderborn,Elversberg,3,1,H,0,0,D,1.94,4.09,3.62,3,12
+D2,27/04/2024,Schalke 04,Fortuna Dusseldorf,1,1,D,0,0,D,2.94,3.6,2.41,14,7
+D2,28/04/2024,Magdeburg,Osnabruck,1,1,D,1,1,D,1.67,4.27,4.95,14,15
+D2,28/04/2024,Nurnberg,Karlsruhe,0,1,A,0,1,A,3.27,3.83,2.14,10,11
+D2,28/04/2024,Wehen,Greuther Furth,3,5,A,2,3,A,2.45,3.46,2.97,17,7
 F1,11/08/2023,Nice,Lille,1,1,D,1,0,H,2.63,3.47,2.83,13,9
 F1,12/08/2023,Marseille,Reims,2,1,H,1,1,D,1.73,4.04,4.89,7,16
 F1,12/08/2023,Paris SG,Lorient,0,0,D,0,0,D,1.35,5.73,8.38,8,6
@@ -3884,6 +4093,27 @@ F1,13/04/2024,Rennes,Toulouse,1,2,A,1,2,A,1.81,3.79,4.59,20,18
 F1,14/04/2024,Le Havre,Nantes,0,1,A,0,0,D,2.63,2.99,3.14,14,12
 F1,14/04/2024,Clermont,Montpellier,1,1,D,1,0,H,3.37,3.65,2.16,12,14
 F1,14/04/2024,Lyon,Brest,4,3,H,1,0,H,2.28,3.31,3.41,12,7
+F1,19/04/2024,Nice,Lorient,3,0,H,1,0,H,1.57,4.26,6.2,11,7
+F1,20/04/2024,Nantes,Rennes,0,3,A,0,0,D,3.11,3.3,2.45,16,11
+F1,20/04/2024,Lens,Clermont,1,0,H,1,0,H,1.4,4.78,8.58,17,17
+F1,21/04/2024,Le Havre,Metz,0,1,A,0,0,D,2.24,3.18,3.67,9,19
+F1,21/04/2024,Lille,Strasbourg,1,0,H,1,0,H,1.62,4.07,5.71,11,19
+F1,21/04/2024,Reims,Montpellier,1,2,A,0,1,A,2,3.69,3.79,15,10
+F1,21/04/2024,Brest,Monaco,0,2,A,0,1,A,2.73,3.43,2.67,8,9
+F1,21/04/2024,Toulouse,Marseille,2,2,D,1,1,D,2.85,3.25,2.67,11,13
+F1,21/04/2024,Paris SG,Lyon,4,1,H,4,1,H,1.5,5.06,5.71,9,10
+F1,24/04/2024,Lorient,Paris SG,1,4,A,0,2,A,7.76,5.46,1.38,8,7
+F1,24/04/2024,Marseille,Nice,2,2,D,1,1,D,2.27,3.45,3.31,10,14
+F1,24/04/2024,Monaco,Lille,1,0,H,0,0,D,2.32,3.63,3.07,9,9
+F1,26/04/2024,Montpellier,Nantes,1,1,D,1,1,D,2.04,3.6,3.85,11,14
+F1,27/04/2024,Paris SG,Le Havre,3,3,D,1,2,A,1.34,5.5,9.32,10,8
+F1,28/04/2024,Metz,Lille,1,2,A,1,2,A,4.73,3.92,1.76,15,12
+F1,28/04/2024,Clermont,Reims,4,1,H,1,1,D,3.56,3.6,2.1,9,12
+F1,28/04/2024,Lorient,Toulouse,1,2,A,1,0,H,2.69,3.41,2.72,14,17
+F1,28/04/2024,Strasbourg,Nice,1,3,A,1,1,D,3.24,3.22,2.42,11,14
+F1,28/04/2024,Rennes,Brest,4,5,A,2,1,H,2.28,3.39,3.33,14,15
+F1,28/04/2024,Lyon,Monaco,3,2,H,2,1,H,2.61,3.79,2.59,15,14
+F1,28/04/2024,Marseille,Lens,2,1,H,1,0,H,2.51,3.52,2.85,8,12
 F2,05/08/2023,St Etienne,Grenoble,0,1,A,0,0,D,1.65,3.78,6.05,14,12
 F2,05/08/2023,Ajaccio,Rodez,1,1,D,1,1,D,1.96,3.22,4.69,9,12
 F2,05/08/2023,Amiens,Quevilly Rouen,1,0,H,0,0,D,2.59,3.46,2.79,12,17
@@ -4204,6 +4434,36 @@ F2,13/04/2024,Quevilly Rouen,Auxerre,4,3,H,1,1,D,3.88,3.3,2.1,13,10
 F2,13/04/2024,Troyes,Paris FC,1,2,A,0,1,A,3.29,3.13,2.41,11,16
 F2,13/04/2024,Valenciennes,Pau FC,1,4,A,0,2,A,3.22,3.31,2.35,7,14
 F2,15/04/2024,Grenoble,Angers,0,0,D,0,0,D,2.91,3.07,2.64,9,14
+F2,20/04/2024,Rodez,Auxerre,2,0,H,0,0,D,3.2,3.68,2.2,7,8
+F2,20/04/2024,Ajaccio,Caen,2,1,H,2,0,H,2.7,2.74,3.3,15,9
+F2,20/04/2024,Amiens,Dunkerque,0,1,A,0,0,D,2.09,3.25,3.94,12,12
+F2,20/04/2024,Angers,Troyes,2,1,H,0,1,A,1.65,3.97,5.34,13,12
+F2,20/04/2024,Annecy,Grenoble,0,1,A,0,0,D,1.95,3.38,4.3,12,11
+F2,20/04/2024,Concarneau,Quevilly Rouen,0,0,D,0,0,D,3.4,3.21,2.3,7,20
+F2,20/04/2024,Guingamp,Bastia,0,1,A,0,1,A,1.78,3.39,5.41,13,12
+F2,20/04/2024,Paris FC,Valenciennes,2,1,H,2,1,H,1.38,4.72,9.39,15,9
+F2,20/04/2024,Pau FC,Laval,3,0,H,2,0,H,2.62,3.1,2.99,12,17
+F2,20/04/2024,St Etienne,Bordeaux,2,1,H,0,1,A,1.75,3.87,4.77,20,11
+F2,23/04/2024,Auxerre,Laval,4,0,H,3,0,H,1.55,4.16,6.29,12,8
+F2,23/04/2024,Bastia,Concarneau,2,0,H,0,0,D,2.4,3.15,3.28,16,8
+F2,23/04/2024,Bordeaux,Dunkerque,2,0,H,1,0,H,1.72,3.52,5.64,12,10
+F2,23/04/2024,Caen,Annecy,2,1,H,1,0,H,2.42,3.19,3.21,9,17
+F2,23/04/2024,Grenoble,St Etienne,0,2,A,0,0,D,3.84,3.35,2.08,13,11
+F2,23/04/2024,Guingamp,Angers,1,2,A,1,1,D,2.33,3.04,3.56,14,10
+F2,23/04/2024,Quevilly Rouen,Amiens,3,3,D,1,3,A,2.22,3.04,3.85,15,9
+F2,23/04/2024,Rodez,Paris FC,1,0,H,1,0,H,2.46,3.2,3.13,7,9
+F2,23/04/2024,Troyes,Pau FC,2,2,D,0,1,A,2.46,3.32,3.03,12,13
+F2,23/04/2024,Valenciennes,Ajaccio,1,0,H,0,0,D,5.38,2.97,1.93,16,22
+F2,27/04/2024,St Etienne,Caen,1,0,H,1,0,H,1.71,3.87,5,13,13
+F2,27/04/2024,Ajaccio,Quevilly Rouen,1,1,D,0,1,A,2.63,2.9,3.2,6,18
+F2,27/04/2024,Amiens,Troyes,0,0,D,0,0,D,2.27,3.45,3.24,16,11
+F2,27/04/2024,Annecy,Bastia,3,2,H,3,0,H,1.93,3.48,4.25,21,13
+F2,27/04/2024,Concarneau,Rodez,1,2,A,0,0,D,2.78,3.28,2.68,6,18
+F2,27/04/2024,Laval,Bordeaux,1,0,H,0,0,D,2.91,3.29,2.56,10,12
+F2,27/04/2024,Paris FC,Angers,3,1,H,1,1,D,2.2,3.19,3.67,13,9
+F2,27/04/2024,Pau FC,Guingamp,1,2,A,0,1,A,3.21,3.15,2.44,7,11
+F2,27/04/2024,Valenciennes,Grenoble,2,0,H,1,0,H,3.95,3.25,2.09,15,14
+F2,29/04/2024,Dunkerque,Auxerre,1,3,A,1,0,H,4.24,3.73,1.82,10,10
 I1,19/08/2023,Empoli,Verona,0,1,A,0,0,D,2.3,3.3,3.44,17,18
 I1,19/08/2023,Frosinone,Napoli,1,3,A,1,2,A,8.85,5.25,1.37,14,17
 I1,19/08/2023,Genoa,Fiorentina,1,4,A,0,3,A,3.54,3.36,2.23,14,13
@@ -4522,6 +4782,27 @@ I1,14/04/2024,Sassuolo,Milan,3,3,D,2,1,H,4.43,3.94,1.8,12,9
 I1,14/04/2024,Inter,Cagliari,2,2,D,1,0,H,1.18,8.14,14.02,5,10
 I1,15/04/2024,Fiorentina,Genoa,1,1,D,0,1,A,1.92,3.49,4.42,8,19
 I1,15/04/2024,Atalanta,Verona,2,2,D,2,0,H,1.47,4.72,6.93,6,10
+I1,19/04/2024,Genoa,Lazio,0,1,A,0,0,D,3.24,3.16,2.49,7,13
+I1,19/04/2024,Cagliari,Juventus,2,2,D,2,0,H,5.16,3.58,1.79,16,15
+I1,20/04/2024,Empoli,Napoli,1,0,H,1,0,H,5.1,4.06,1.68,14,12
+I1,20/04/2024,Verona,Udinese,1,0,H,0,0,D,2.63,3.05,3.08,18,12
+I1,21/04/2024,Sassuolo,Lecce,0,3,A,0,2,A,2.34,3.37,3.24,10,13
+I1,21/04/2024,Torino,Frosinone,0,0,D,0,0,D,1.67,3.94,5.4,10,17
+I1,21/04/2024,Salernitana,Fiorentina,0,2,A,0,0,D,5.17,4.04,1.68,13,11
+I1,21/04/2024,Monza,Atalanta,1,2,A,0,1,A,4.09,3.68,1.93,8,13
+I1,22/04/2024,Roma,Bologna,1,3,A,0,2,A,2.41,3.16,3.31,8,12
+I1,22/04/2024,Milan,Inter,1,2,A,0,1,A,3.96,3.68,1.96,19,10
+I1,25/04/2024,Udinese,Roma,1,2,A,1,0,H,3.44,3.25,2.3,15,10
+I1,26/04/2024,Frosinone,Salernitana,3,0,H,2,0,H,1.42,5.12,7.63,13,10
+I1,27/04/2024,Lecce,Monza,1,1,D,0,0,D,2.06,3.27,4.12,13,18
+I1,27/04/2024,Juventus,Milan,0,0,D,0,0,D,2.09,3.46,3.74,10,4
+I1,27/04/2024,Lazio,Verona,1,0,H,0,0,D,1.66,3.96,5.53,13,18
+I1,28/04/2024,Inter,Torino,2,0,H,0,0,D,1.54,4.12,6.94,6,8
+I1,28/04/2024,Bologna,Udinese,1,1,D,0,1,A,1.62,3.85,6.27,11,21
+I1,28/04/2024,Atalanta,Empoli,2,0,H,1,0,H,1.45,4.77,7.14,19,14
+I1,28/04/2024,Napoli,Roma,2,2,D,0,0,D,2,3.67,3.83,11,5
+I1,28/04/2024,Fiorentina,Sassuolo,5,1,H,1,0,H,1.74,3.98,4.8,9,9
+I1,29/04/2024,Genoa,Cagliari,3,0,H,2,0,H,2.33,3.11,3.53,12,14
 I2,18/08/2023,Bari,Palermo,0,0,D,0,0,D,2.83,3.12,2.83,13,15
 I2,19/08/2023,Cosenza,Ascoli,3,0,H,1,0,H,2.84,2.96,2.97,11,12
 I2,19/08/2023,Cremonese,Catanzaro,0,0,D,0,0,D,1.98,3.37,4.41,7,18
@@ -4852,6 +5133,26 @@ I2,13/04/2024,Cosenza,Palermo,1,1,D,0,1,A,2.86,3.24,2.66,9,11
 I2,13/04/2024,Lecco,Reggiana,1,0,H,0,0,D,2.98,3.29,2.55,16,18
 I2,13/04/2024,Parma,Spezia,2,0,H,1,0,H,1.75,3.86,4.9,11,20
 I2,14/04/2024,Venezia,Brescia,2,0,H,1,0,H,1.71,3.69,5.53,13,15
+I2,19/04/2024,Palermo,Parma,0,0,D,0,0,D,3.06,3.36,2.44,7,13
+I2,19/04/2024,Reggiana,Cosenza,0,4,A,0,2,A,2.5,2.77,3.68,15,11
+I2,20/04/2024,Ascoli,Modena,0,0,D,0,0,D,3.01,2.88,2.82,18,19
+I2,20/04/2024,Bari,Pisa,1,1,D,0,1,A,2.67,2.95,3.13,11,15
+I2,20/04/2024,Brescia,Ternana,0,0,D,0,0,D,2.01,3.51,3.97,13,11
+I2,20/04/2024,FeralpiSalo,Como,2,5,A,2,3,A,3.84,3.42,1.96,8,18
+I2,20/04/2024,Catanzaro,Cremonese,0,0,D,0,0,D,3.14,3.39,2.38,16,9
+I2,20/04/2024,Lecco,Venezia,1,2,A,1,0,H,4.83,3.98,1.73,15,11
+I2,20/04/2024,Spezia,Sampdoria,0,0,D,0,0,D,2.5,3.11,2.95,22,16
+I2,20/04/2024,Sudtirol,Cittadella,0,0,D,0,0,D,2.63,2.79,3.12,9,12
+I2,26/04/2024,Pisa,Catanzaro,2,2,D,0,1,A,2.29,3.23,3.47,15,17
+I2,26/04/2024,Venezia,Cremonese,2,1,H,0,1,A,2.21,3.61,3.28,23,11
+I2,27/04/2024,Brescia,Spezia,0,0,D,0,0,D,2.7,3.01,3.03,17,18
+I2,27/04/2024,Modena,Sudtirol,1,0,H,0,0,D,1.86,3.26,4.54,13,17
+I2,27/04/2024,Parma,Lecco,4,0,H,3,0,H,1.38,5.25,8.02,15,7
+I2,27/04/2024,Ternana,Ascoli,0,1,A,0,0,D,2.63,3.16,2.97,14,10
+I2,27/04/2024,Cittadella,FeralpiSalo,1,1,D,1,0,H,1.93,3.61,4.17,16,15
+I2,27/04/2024,Cosenza,Bari,4,1,H,2,1,H,2.1,3.11,4.22,14,11
+I2,27/04/2024,Palermo,Reggiana,1,2,A,1,0,H,1.81,3.71,4.71,13,12
+I2,27/04/2024,Sampdoria,Como,1,1,D,0,0,D,3.2,3.26,2.27,12,13
 P1,11/08/2023,Sp Braga,Famalicao,1,2,A,1,0,H,1.45,4.86,7.21,17,12
 P1,12/08/2023,Gil Vicente,Portimonense,5,0,H,2,0,H,2.05,3.38,4.07,11,14
 P1,12/08/2023,Farense,Casa Pia,0,3,A,0,1,A,2.59,3.07,3.17,13,13
@@ -5112,6 +5413,25 @@ P1,14/04/2024,Arouca,Boavista,2,1,H,2,0,H,1.67,4,5.36,17,9
 P1,14/04/2024,Portimonense,Casa Pia,2,2,D,2,1,H,2.83,3.08,2.81,10,14
 P1,14/04/2024,Benfica,Moreirense,3,0,H,2,0,H,1.27,5.99,11.57,11,11
 P1,15/04/2024,Vizela,Chaves,0,1,A,0,1,A,2.01,3.54,3.83,17,13
+P1,16/04/2024,Famalicao,Sp Lisbon,0,1,A,0,1,A,10.23,5.83,1.3,10,15
+P1,19/04/2024,Rio Ave,Arouca,1,1,D,1,0,H,2.67,3.17,2.91,15,13
+P1,20/04/2024,Moreirense,Gil Vicente,0,1,A,0,1,A,2.21,3.27,3.64,10,8
+P1,20/04/2024,Boavista,Estrela,1,1,D,0,0,D,2.68,3.27,2.83,16,7
+P1,20/04/2024,Sp Braga,Vizela,2,1,H,0,0,D,1.26,6.39,10.63,15,16
+P1,21/04/2024,Chaves,Estoril,2,2,D,1,0,H,2.9,3.32,2.59,11,12
+P1,21/04/2024,Famalicao,Portimonense,2,2,D,0,1,A,1.6,4.11,5.9,11,18
+P1,21/04/2024,Casa Pia,Porto,1,2,A,1,1,D,9.54,4.88,1.37,18,15
+P1,21/04/2024,Sp Lisbon,Guimaraes,3,0,H,2,0,H,1.28,6.04,10.81,10,10
+P1,22/04/2024,Farense,Benfica,1,3,A,1,2,A,6.63,5.28,1.42,12,10
+P1,26/04/2024,Gil Vicente,Arouca,2,2,D,0,0,D,2.62,3.49,2.74,7,9
+P1,27/04/2024,Casa Pia,Chaves,3,1,H,1,0,H,2.07,3.28,4.05,14,12
+P1,27/04/2024,Vizela,Rio Ave,1,1,D,1,1,D,2.77,3.18,2.8,16,14
+P1,27/04/2024,Benfica,Sp Braga,3,1,H,0,1,A,1.57,4.52,5.59,13,12
+P1,27/04/2024,Guimaraes,Boavista,1,0,H,1,0,H,1.57,3.87,5.72,15,14
+P1,28/04/2024,Portimonense,Moreirense,0,2,A,0,0,D,2.9,3.4,2.37,13,9
+P1,28/04/2024,Estoril,Famalicao,1,0,H,1,0,H,2.33,3.34,3.28,13,12
+P1,28/04/2024,Porto,Sp Lisbon,2,2,D,2,0,H,2.63,3.46,2.75,9,11
+P1,29/04/2024,Estrela,Farense,0,3,A,0,1,A,2.2,3.33,3.53,8,9
 N1,11/08/2023,Volendam,Vitesse,1,2,A,1,0,H,3.47,3.88,2.07,12,10
 N1,12/08/2023,PSV Eindhoven,Utrecht,2,0,H,1,0,H,1.37,5.75,7.93,15,14
 N1,12/08/2023,Heerenveen,Waalwijk,3,1,H,3,0,H,1.78,4.1,4.46,9,8
@@ -5382,6 +5702,15 @@ N1,14/04/2024,For Sittard,Feyenoord,0,1,A,0,1,A,8.1,5.33,1.37,7,15
 N1,14/04/2024,Utrecht,Go Ahead Eagles,2,1,H,1,1,D,1.76,3.99,4.6,7,7
 N1,14/04/2024,Ajax,Twente,2,1,H,0,1,A,2.79,3.61,2.51,4,14
 N1,14/04/2024,Nijmegen,Zwolle,2,2,D,0,1,A,1.56,4.61,5.64,7,22
+N1,24/04/2024,Twente,Almere City,3,1,H,1,0,H,1.29,5.84,11.11,6,11
+N1,24/04/2024,Ajax,Excelsior,2,2,D,1,1,D,1.29,6.27,9.21,6,11
+N1,25/04/2024,Heerenveen,PSV Eindhoven,0,8,A,0,5,A,7.1,5.79,1.38,9,6
+N1,25/04/2024,Go Ahead Eagles,Feyenoord,1,3,A,1,2,A,5.43,4.97,1.53,6,11
+N1,28/04/2024,Nijmegen,AZ Alkmaar,0,3,A,0,1,A,3.42,3.75,2.1,7,15
+N1,28/04/2024,Zwolle,Heracles,3,1,H,1,1,D,2.16,3.65,3.38,12,14
+N1,28/04/2024,Sparta Rotterdam,Volendam,1,0,H,0,0,D,1.34,5.95,8.2,7,11
+N1,28/04/2024,Waalwijk,Utrecht,2,2,D,1,0,H,3.26,3.71,2.19,14,10
+N1,28/04/2024,Vitesse,For Sittard,3,2,H,1,1,D,3.6,3.73,2.05,20,8
 B1,28/07/2023,St. Gilloise,Anderlecht,2,0,H,1,0,H,2.22,3.63,3.24,16,13
 B1,29/07/2023,Eupen,Westerlo,2,2,D,1,0,H,3.56,3.56,2.12,14,7
 B1,29/07/2023,Charleroi,Oud-Heverlee Leuven,1,1,D,1,0,H,2.03,3.73,3.65,7,12
@@ -5644,6 +5973,28 @@ B1,14/04/2024,Club Brugge,Antwerp,3,0,H,1,0,H,1.78,3.93,4.47,10,14
 B1,14/04/2024,Kortrijk,Charleroi,1,2,A,1,0,H,2.88,3.24,2.54,11,12
 B1,14/04/2024,Anderlecht,St. Gilloise,2,1,H,1,0,H,2.75,3.28,2.62,10,16
 B1,14/04/2024,Oud-Heverlee Leuven,Gent,2,1,H,2,1,H,4.1,3.93,1.8,8,6
+B1,20/04/2024,Oud-Heverlee Leuven,St Truiden,1,0,H,0,0,D,2.67,3.53,2.63,11,11
+B1,20/04/2024,Westerlo,Standard,3,3,D,1,1,D,2.66,3.57,2.61,8,12
+B1,20/04/2024,Gent,Mechelen,3,1,H,1,0,H,1.58,4.18,5.79,8,4
+B1,20/04/2024,Genk,Anderlecht,2,1,H,1,0,H,2.18,3.52,3.37,10,10
+B1,21/04/2024,Cercle Brugge,Antwerp,0,1,A,0,0,D,2.66,3.42,2.71,12,5
+B1,21/04/2024,Kortrijk,RWD Molenbeek,2,4,A,1,3,A,2.08,3.36,3.67,11,10
+B1,21/04/2024,St. Gilloise,Club Brugge,1,2,A,0,0,D,2.31,3.39,3.1,14,11
+B1,21/04/2024,Charleroi,Eupen,1,0,H,1,0,H,1.67,3.9,5,12,8
+B1,23/04/2024,St Truiden,Gent,0,2,A,0,1,A,3.86,3.81,1.93,12,8
+B1,23/04/2024,Standard,Mechelen,0,0,D,0,0,D,2.48,3.44,2.89,9,6
+B1,23/04/2024,Westerlo,Oud-Heverlee Leuven,1,1,D,1,0,H,2.53,3.55,2.77,7,14
+B1,24/04/2024,Anderlecht,Cercle Brugge,3,0,H,2,0,H,1.93,3.67,3.98,6,12
+B1,24/04/2024,Club Brugge,Genk,4,0,H,1,0,H,1.79,3.9,4.41,12,16
+B1,25/04/2024,Antwerp,St. Gilloise,0,3,A,0,0,D,3.02,3.3,2.41,9,19
+B1,26/04/2024,Eupen,Charleroi,1,2,A,0,2,A,3.5,3.21,2.26,13,15
+B1,27/04/2024,Mechelen,Oud-Heverlee Leuven,3,0,H,0,0,D,1.98,3.83,3.64,10,12
+B1,27/04/2024,Standard,St Truiden,1,1,D,0,1,A,2.25,3.49,3.25,6,10
+B1,27/04/2024,Gent,Westerlo,3,2,H,2,2,D,1.35,5.72,7.81,9,12
+B1,28/04/2024,Genk,Club Brugge,0,3,A,0,1,A,2.95,3.53,2.34,8,10
+B1,28/04/2024,Cercle Brugge,Anderlecht,1,1,D,0,1,A,2.91,3.47,2.4,9,9
+B1,28/04/2024,St. Gilloise,Antwerp,4,1,H,2,1,H,1.68,4.01,4.77,14,9
+B1,28/04/2024,RWD Molenbeek,Kortrijk,0,1,A,0,1,A,2.4,3.4,2.95,13,10
 T1,11/08/2023,Trabzonspor,Antalyaspor,1,0,H,1,0,H,1.92,3.81,4.06,18,11
 T1,12/08/2023,Kasimpasa,Ankaragucu,3,2,H,1,0,H,2.36,3.73,2.98,8,15
 T1,12/08/2023,Konyaspor,Istanbulspor,1,1,D,0,1,A,1.8,3.93,4.55,13,10
@@ -5963,6 +6314,26 @@ T1,14/04/2024,Hatayspor,Istanbulspor,0,3,A,0,0,D,1.44,4.63,7.88,17,9
 T1,14/04/2024,Rizespor,Antalyaspor,3,0,H,1,0,H,2.28,3.35,3.37,13,7
 T1,14/04/2024,Karagumruk,Fenerbahce,1,2,A,1,0,H,7.93,5.15,1.39,11,14
 T1,15/04/2024,Alanyaspor,Galatasaray,0,4,A,0,0,D,5.71,4.82,1.51,12,14
+T1,19/04/2024,Besiktas,Ankaragucu,2,0,H,1,0,H,1.84,3.78,4.39,12,13
+T1,20/04/2024,Istanbulspor,Karagumruk,1,2,A,0,0,D,5.13,4.23,1.65,11,15
+T1,20/04/2024,Konyaspor,Alanyaspor,0,2,A,0,1,A,2.24,3.51,3.32,6,9
+T1,20/04/2024,Kayserispor,Trabzonspor,1,2,A,0,1,A,3.15,3.91,2.17,13,4
+T1,20/04/2024,Samsunspor,Ad. Demirspor,1,1,D,0,1,A,2.25,3.53,3.26,18,6
+T1,21/04/2024,Buyuksehyr,Rizespor,2,0,H,1,0,H,2.18,3.59,3.37,10,12
+T1,21/04/2024,Antalyaspor,Hatayspor,2,1,H,0,1,A,1.94,3.5,4.27,12,14
+T1,21/04/2024,Galatasaray,Pendikspor,4,1,H,2,0,H,1.22,7.41,11.65,15,8
+T1,21/04/2024,Gaziantep,Kasimpasa,2,0,H,2,0,H,2.34,3.63,3.03,11,10
+T1,22/04/2024,Sivasspor,Fenerbahce,2,2,D,0,1,A,7.15,5.11,1.41,6,11
+T1,26/04/2024,Ad. Demirspor,Galatasaray,0,3,A,0,0,D,6.26,4.95,1.48,8,9
+T1,27/04/2024,Kasimpasa,Samsunspor,1,0,H,1,0,H,2.21,3.88,3.1,16,17
+T1,27/04/2024,Sivasspor,Konyaspor,1,0,H,0,0,D,2.54,3.2,3.06,12,11
+T1,27/04/2024,Fenerbahce,Besiktas,2,1,H,1,0,H,1.46,5,6.51,14,18
+T1,27/04/2024,Hatayspor,Buyuksehyr,1,2,A,0,1,A,3.01,3.41,2.45,12,20
+T1,28/04/2024,Alanyaspor,Istanbulspor,6,0,H,3,0,H,1.38,5.31,8.09,12,10
+T1,28/04/2024,Pendikspor,Kayserispor,1,2,A,1,1,D,2.17,3.56,3.42,12,14
+T1,28/04/2024,Rizespor,Ankaragucu,2,2,D,2,0,H,2.14,3.37,3.7,12,11
+T1,28/04/2024,Trabzonspor,Gaziantep,4,2,H,0,2,A,1.48,4.56,7.06,12,12
+T1,29/04/2024,Karagumruk,Antalyaspor,4,1,H,1,0,H,2.23,3.27,3.51,14,10
 G1,18/08/2023,Volos NFC,Lamia,2,2,D,0,0,D,2.5,3.01,3.2,13,16
 G1,20/08/2023,Giannina,Kifisia,3,0,H,1,0,H,2.26,2.88,3.93,16,19
 G1,20/08/2023,OFI Crete,Aris,3,2,H,2,1,H,2.45,3.17,3.02,25,13
@@ -6174,6 +6545,23 @@ G1,13/04/2024,Giannina,Asteras Tripolis,0,1,A,0,0,D,2.49,3.06,3.11,12,21
 G1,13/04/2024,Kifisia,Panetolikos,0,1,A,0,0,D,2.21,3.25,3.44,11,21
 G1,14/04/2024,Panathinaikos,Lamia,3,1,H,1,1,D,1.13,8.63,19.81,8,18
 G1,14/04/2024,AEK,Aris,2,0,H,2,0,H,1.2,6.33,12.06,21,18
+G1,20/04/2024,OFI Crete,Volos NFC,2,1,H,1,0,H,2.15,2.94,4.07,11,6
+G1,20/04/2024,Asteras Tripolis,Panetolikos,0,2,A,0,1,A,2.68,3.26,2.71,16,7
+G1,20/04/2024,Atromitos,Kifisia,1,2,A,1,0,H,2.67,3.5,2.57,19,15
+G1,21/04/2024,Panserraikos,Giannina,2,1,H,2,0,H,2,3.25,4.11,12,19
+G1,21/04/2024,Lamia,Panathinaikos,0,5,A,0,2,A,13.76,5.88,1.2,11,19
+G1,21/04/2024,Aris,AEK,1,2,A,1,0,H,6.83,4.73,1.4,15,16
+G1,21/04/2024,Olympiakos,PAOK,2,1,H,1,0,H,2.09,3.53,3.33,17,6
+G1,24/04/2024,Lamia,PAOK,1,1,D,1,0,H,15.85,7.11,1.17,15,14
+G1,24/04/2024,Aris,Olympiakos,1,1,D,0,0,D,7.05,4.44,1.45,9,19
+G1,24/04/2024,AEK,Panathinaikos,3,0,H,2,0,H,1.89,3.51,4.18,20,14
+G1,27/04/2024,Asteras Tripolis,OFI Crete,1,1,D,1,0,H,2.82,2.56,3.3,13,8
+G1,27/04/2024,Kifisia,Giannina,2,3,A,1,1,D,1.35,4.33,7.7,19,19
+G1,27/04/2024,Panetolikos,Atromitos,1,0,H,0,0,D,1.76,3.64,4.71,15,10
+G1,27/04/2024,Volos NFC,Panserraikos,1,0,H,0,0,D,1.22,5.49,9.54,20,21
+G1,28/04/2024,Olympiakos,Lamia,4,1,H,2,0,H,1.07,11.9,21.29,12,11
+G1,28/04/2024,PAOK,AEK,3,2,H,1,1,D,2.94,3.3,2.4,17,17
+G1,28/04/2024,Panathinaikos,Aris,0,1,A,0,1,A,1.27,5.59,9.47,14,15
 SC0,05/08/2023,Celtic,Ross County,4,2,H,3,0,H,1.12,11.1,20.81,6,14
 SC0,05/08/2023,Dundee,Motherwell,1,1,D,0,1,A,2.65,3.38,2.82,12,12
 SC0,05/08/2023,Livingston,Aberdeen,0,0,D,0,0,D,2.99,3.32,2.55,22,13
@@ -6371,6 +6759,13 @@ SC0,13/04/2024,Hearts,Livingston,4,2,H,4,2,H,1.37,4.96,9.22,9,17
 SC0,13/04/2024,Motherwell,Hibernian,1,1,D,0,0,D,2.75,3.54,2.59,7,10
 SC0,13/04/2024,St Johnstone,Kilmarnock,0,2,A,0,1,A,3.98,3.51,2.01,8,14
 SC0,14/04/2024,Ross County,Rangers,3,2,H,0,1,A,11.46,7.06,1.23,6,10
+SC0,17/04/2024,Dundee,Rangers,0,0,D,0,0,D,10.15,6.05,1.28,11,13
+SC0,27/04/2024,Aberdeen,Motherwell,1,0,H,0,0,D,2.12,3.43,3.71,9,14
+SC0,27/04/2024,Kilmarnock,Hearts,0,0,D,0,0,D,2.31,3.26,3.41,9,6
+SC0,27/04/2024,Livingston,Ross County,2,0,H,1,0,H,2.85,3.4,2.57,13,13
+SC0,27/04/2024,St Johnstone,Hibernian,1,3,A,0,2,A,4.18,3.47,1.97,11,8
+SC0,28/04/2024,St Mirren,Rangers,1,2,A,1,1,D,8.11,5.1,1.39,12,12
+SC0,28/04/2024,Dundee,Celtic,1,2,A,0,1,A,9.95,6.27,1.28,10,7
 SC1,04/08/2023,Arbroath,Dundee United,0,4,A,0,4,A,3.88,3.26,2.08,13,3
 SC1,05/08/2023,Dunfermline,Airdrie Utd,2,1,H,1,1,D,1.96,3.69,3.78,11,9
 SC1,05/08/2023,Inverness C,Queens Park,1,2,A,0,1,A,2.21,3.63,3.16,9,10
@@ -6536,6 +6931,16 @@ SC1,13/04/2024,Airdrie Utd,Dunfermline,2,1,H,1,0,H,2.27,3.32,3.25,12,7
 SC1,13/04/2024,Ayr,Arbroath,5,0,H,3,0,H,1.43,4.64,6.98,12,13
 SC1,13/04/2024,Queens Park,Inverness C,0,1,A,0,1,A,2.63,3.42,2.65,14,13
 SC1,13/04/2024,Raith Rvs,Partick,0,0,D,0,0,D,2.24,3.5,3.15,7,14
+SC1,19/04/2024,Inverness C,Raith Rvs,0,1,A,0,0,D,2.85,3.03,2.71,8,6
+SC1,20/04/2024,Arbroath,Morton,1,2,A,0,0,D,4.81,4.4,1.61,11,9
+SC1,20/04/2024,Dundee United,Ayr,1,0,H,0,0,D,1.34,5.33,8.39,10,9
+SC1,20/04/2024,Dunfermline,Queens Park,0,0,D,0,0,D,2.06,3.65,3.43,4,6
+SC1,20/04/2024,Partick,Airdrie Utd,4,0,H,0,0,D,2.19,3.66,3.12,7,3
+SC1,26/04/2024,Airdrie Utd,Dundee United,0,0,D,0,0,D,6.14,4.54,1.49,3,9
+SC1,27/04/2024,Arbroath,Queens Park,0,5,A,0,3,A,,,,6,9
+SC1,27/04/2024,Dunfermline,Inverness C,1,1,D,1,0,H,2.89,3.32,2.49,13,8
+SC1,27/04/2024,Morton,Raith Rvs,0,0,D,0,0,D,2.63,3.25,2.77,13,8
+SC1,27/04/2024,Partick,Ayr,0,0,D,0,0,D,2.11,3.58,3.35,4,7
 SC2,05/08/2023,Falkirk,Annan Athletic,3,0,H,0,0,D,,,,14,5
 SC2,05/08/2023,Hamilton,Cove Rangers,1,0,H,1,0,H,,,,8,2
 SC2,05/08/2023,Montrose,Kelty Hearts,0,2,A,0,0,D,2.26,3.4,2.93,17,13
@@ -6700,6 +7105,17 @@ SC2,13/04/2024,Annan Athletic,Cove Rangers,4,2,H,2,2,D,2.86,3.72,2.24,10,6
 SC2,13/04/2024,Kelty Hearts,Stirling,1,0,H,1,0,H,2.32,3.77,2.72,12,11
 SC2,13/04/2024,Queen of Sth,Edinburgh City,2,0,H,0,0,D,1.13,8.26,16.97,11,11
 SC2,13/04/2024,Hamilton,Falkirk,0,2,A,0,0,D,3.49,3.61,2,18,11
+SC2,16/04/2024,Edinburgh City,Montrose,1,0,H,0,0,D,8.42,5.58,1.31,9,8
+SC2,20/04/2024,Edinburgh City,Annan Athletic,1,2,A,1,1,D,6.3,5.01,1.42,16,10
+SC2,20/04/2024,Falkirk,Kelty Hearts,2,2,D,2,2,D,1.15,8.76,12.59,10,8
+SC2,20/04/2024,Montrose,Hamilton,1,2,A,1,1,D,3.66,3.92,1.86,11,8
+SC2,20/04/2024,Stirling,Queen of Sth,0,0,D,0,0,D,2.69,3.6,2.41,16,7
+SC2,20/04/2024,Cove Rangers,Alloa,2,3,A,0,1,A,2.77,3.77,2.29,7,5
+SC2,27/04/2024,Alloa,Hamilton,0,1,A,0,1,A,3.79,3.77,1.87,11,12
+SC2,27/04/2024,Annan Athletic,Falkirk,3,3,D,1,1,D,4.24,5.71,1.53,7,17
+SC2,27/04/2024,Edinburgh City,Stirling,1,3,A,1,1,D,7.66,5.24,1.35,14,14
+SC2,27/04/2024,Kelty Hearts,Montrose,0,2,A,0,1,A,2.55,3.54,2.57,11,9
+SC2,27/04/2024,Queen of Sth,Cove Rangers,2,0,H,2,0,H,1.65,4.14,4.57,11,13
 SC3,05/08/2023,Bonnyrigg Rose,Dumbarton,1,1,D,0,1,A,2.53,3.26,2.77,13,12
 SC3,05/08/2023,East Fife,Peterhead,0,3,A,0,1,A,1.78,3.66,4.39,10,12
 SC3,05/08/2023,Elgin,Stranraer,0,1,A,0,1,A,2.56,3.38,2.65,12,18
@@ -6865,3 +7281,13 @@ SC3,13/04/2024,East Fife,Bonnyrigg Rose,1,4,A,1,3,A,2.15,3.6,3.11,5,9
 SC3,13/04/2024,Peterhead,Forfar,2,1,H,0,0,D,1.99,3.38,3.75,7,14
 SC3,13/04/2024,Spartans,Stranraer,0,0,D,0,0,D,1.99,3.45,3.67,12,6
 SC3,13/04/2024,Stenhousemuir,Elgin,1,1,D,1,0,H,1.77,3.66,4.44,14,16
+SC3,20/04/2024,Bonnyrigg Rose,Spartans,0,1,A,0,0,D,2.34,3.41,2.91,16,14
+SC3,20/04/2024,Clyde,Stenhousemuir,2,2,D,1,1,D,2.62,2.99,2.87,6,13
+SC3,20/04/2024,Elgin,Peterhead,1,1,D,1,0,H,3.25,3.41,2.16,9,15
+SC3,20/04/2024,Forfar,East Fife,2,1,H,0,1,A,2.53,3.11,2.88,10,13
+SC3,20/04/2024,Stranraer,Dumbarton,0,0,D,0,0,D,3.55,3.47,2.02,6,5
+SC3,27/04/2024,Clyde,East Fife,1,0,H,1,0,H,1.88,3.61,3.91,11,16
+SC3,27/04/2024,Dumbarton,Elgin,2,2,D,1,2,A,1.61,3.96,5.17,9,8
+SC3,27/04/2024,Forfar,Stranraer,2,0,H,2,0,H,2.71,3.52,2.43,11,10
+SC3,27/04/2024,Spartans,Peterhead,2,2,D,1,1,D,2.64,3.27,2.64,8,11
+SC3,27/04/2024,Stenhousemuir,Bonnyrigg Rose,1,1,D,1,0,H,1.9,4.14,3.36,9,12
