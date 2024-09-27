@@ -1,128 +1,15 @@
 ﻿Country,League,Date,Time,Home,Away,PSH,PSD,PSA,MaxH,MaxD,MaxA,AvgH,AvgD,AvgA,BFEH,BFED,BFEA
-Argentina,Liga Profesional,30/08/2024,23:00,Sarmiento Junin,Lanus,3.51,2.91,2.4,3.54,3.2,2.45,3.42,2.97,2.34,3.65,3.05,2.44
-Argentina,Liga Profesional,31/08/2024,01:00,Union de Santa Fe,Dep. Riestra,1.78,3.24,5.63,1.93,3.5,6.25,1.76,3.24,5.49,1.8,3.35,6.2
-Argentina,Liga Profesional,31/08/2024,19:00,Defensa y Justicia,Barracas Central,1.65,3.65,5.54,1.76,3.75,5.75,1.68,3.61,5.4,1.75,3.65,6
-Argentina,Liga Profesional,31/08/2024,19:00,Newells Old Boys,Belgrano,2.13,3.03,3.9,2.18,3.11,4.08,2.1,3.02,3.91,2.14,2.94,4.5
-Argentina,Liga Profesional,31/08/2024,22:00,Talleres Cordoba,Estudiantes L.P.,2.2,2.99,3.77,2.24,3.2,3.86,2.17,3.06,3.69,2.26,3.05,3.85
-Argentina,Liga Profesional,31/08/2024,22:00,Velez Sarsfield,Ind. Rivadavia,1.56,3.68,6.73,1.63,3.81,7.5,1.58,3.61,6.65,1.61,3.55,7.8
-Argentina,Liga Profesional,01/09/2024,01:00,Boca Juniors,Rosario Central,1.78,3.41,4.88,1.8,3.41,5.5,1.79,3.29,5.04,1.85,3.25,5.6
-Argentina,Liga Profesional,01/09/2024,18:30,Huracan,Tigre,1.74,3.31,5.44,1.84,3.5,5.6,1.76,3.33,5.18,1.71,3.1,5.8
-Argentina,Liga Profesional,01/09/2024,18:30,Platense,San Lorenzo,2.63,2.72,3.25,2.63,2.88,3.25,2.59,2.78,3.15,2.56,2.46,3.2
-Argentina,Liga Profesional,01/09/2024,21:00,Independiente,River Plate,3.69,3.04,2.2,3.69,3.25,2.2,3.53,3.13,2.17,3.45,3.05,2.3
-Argentina,Liga Profesional,01/09/2024,23:00,Atl. Tucuman,Racing Club,2.88,2.99,2.68,2.91,3.18,2.75,2.84,3,2.65,2.98,2.96,2.66
-Argentina,Liga Profesional,02/09/2024,01:00,Banfield,Instituto,2.64,2.87,3.05,2.7,2.88,3.05,2.61,2.88,3.02,2.58,2.76,3
-Argentina,Liga Profesional,02/09/2024,21:00,Gimnasia L.P.,Argentinos Jrs,2.27,3.01,3.55,2.3,3.01,3.55,2.27,3,3.45,2.2,2.78,3.5
-Argentina,Liga Profesional,02/09/2024,23:00,Godoy Cruz,Central Cordoba,1.67,3.63,5.35,1.76,3.76,5.5,1.68,3.61,5.23,1.67,3.55,5.7
-Austria,Admiral Bundesliga,31/08/2024,16:00,A. Klagenfurt,BW Linz,2.22,3.62,3.09,2.25,3.7,3.13,2.18,3.55,3.04,2.28,3.65,3.15
-Austria,Admiral Bundesliga,31/08/2024,16:00,Hartberg,Grazer AK,2.01,3.89,3.36,2.06,3.96,3.5,2,3.7,3.37,2.04,3.85,3.6
-Austria,Admiral Bundesliga,31/08/2024,18:30,Sturm Graz,Tirol,1.32,5.4,8.9,1.34,5.6,10,1.31,5.24,8.88,1.31,5.6,11
-Austria,Admiral Bundesliga,01/09/2024,16:00,Altach,Austria Vienna,2.89,3.58,2.36,2.93,3.65,2.4,2.84,3.51,2.33,3,3.55,2.36
-Austria,Admiral Bundesliga,01/09/2024,16:00,LASK,Wolfsberger AC,1.81,3.83,4.14,1.85,3.93,4.33,1.79,3.78,4.1,1.81,3.8,4.1
-Austria,Admiral Bundesliga,01/09/2024,16:00,SK Rapid,Salzburg,4.24,4.02,1.76,4.33,4.1,1.83,4.09,3.95,1.76,4.3,4.1,1.79
-Brazil,Serie A,31/08/2024,22:30,Cuiaba,Criciuma,2.16,3.17,3.67,2.2,3.45,3.8,2.12,3.21,3.64,2.16,3.15,3.65
-Brazil,Serie A,01/09/2024,01:00,Botafogo RJ,Fortaleza,1.73,3.67,4.92,1.8,3.75,5,1.75,3.62,4.78,1.81,3.7,5.4
-Brazil,Serie A,01/09/2024,15:00,Cruzeiro,Atletico GO,1.57,3.98,5.94,1.64,4.1,6.25,1.58,3.94,5.77,1.56,3.85,6.4
-Brazil,Serie A,01/09/2024,15:00,Gremio,Atletico-MG,2.23,3.1,3.58,2.33,3.3,3.61,2.24,3.12,3.42,2.28,3.15,3.7
-Brazil,Serie A,01/09/2024,20:00,Corinthians,Flamengo RJ,3.04,3.11,2.51,3.2,3.25,2.54,3,3.14,2.46,3.1,3.15,2.6
-Brazil,Serie A,01/09/2024,22:30,Athletico-PR,Palmeiras,3.23,3.32,2.28,3.45,3.4,2.35,3.15,3.28,2.29,3.55,3.25,2.32
-Brazil,Serie A,01/09/2024,22:30,Bragantino,Bahia,2.3,3.37,3.14,2.32,3.45,3.25,2.25,3.36,3.14,2.3,3.3,3.35
-Brazil,Serie A,01/09/2024,22:30,Fluminense,Sao Paulo,2.28,3.06,3.52,2.33,3.3,3.57,2.26,3.09,3.41,2.3,3.1,3.75
-Brazil,Serie A,01/09/2024,22:30,Juventude,Internacional,3.27,3.24,2.3,3.5,3.35,2.32,3.26,3.23,2.25,3.45,3.35,2.3
-Brazil,Serie A,01/09/2024,22:30,Vitoria,Vasco,2.35,3.16,3.24,2.38,3.45,3.3,2.32,3.19,3.17,2.42,3.1,3.35
-Denmark,Superliga,30/08/2024,18:00,Lyngby,Vejle,2.55,3.37,2.9,2.55,3.67,2.9,2.45,3.41,2.79,2.58,3.5,3
-Denmark,Superliga,31/08/2024,15:00,Aarhus,Nordsjaelland,2.05,3.77,3.36,2.1,3.83,3.36,2.05,3.7,3.3,2.1,3.95,3.5
-Denmark,Superliga,01/09/2024,13:00,FC Copenhagen,Brondby,2.2,3.56,3.18,2.23,3.7,3.27,2.18,3.56,3.12,2.2,3.65,3.1
-Denmark,Superliga,01/09/2024,13:00,Sonderjyske,Viborg,2.44,3.53,2.81,2.48,3.65,2.85,2.43,3.52,2.74,2.44,3.5,2.74
-Denmark,Superliga,01/09/2024,15:00,Silkeborg,Midtjylland,2.69,4.05,2.32,2.8,4.05,2.38,2.72,3.84,2.32,2.74,3.95,2.4
-Denmark,Superliga,01/09/2024,17:00,Randers FC,Aalborg,1.76,3.96,4.3,1.81,4.1,4.5,1.77,3.88,4.22,1.8,3.95,4.3
-Finland,Veikkausliiga,01/09/2024,14:00,Ekenas,SJK,6.12,5.08,1.43,6.7,5.12,1.47,6.04,4.87,1.42,6.8,5.1,1.47
-Finland,Veikkausliiga,01/09/2024,14:00,Gnistan,Ilves,3.38,3.96,1.99,3.45,4,2.02,3.31,3.82,1.95,3.45,4.1,2
-Finland,Veikkausliiga,01/09/2024,14:00,Haka,Lahti,1.85,3.94,3.88,1.87,4,4,1.81,3.82,3.8,1.93,3.9,3.9
-Finland,Veikkausliiga,01/09/2024,14:00,KuPS,Inter Turku,1.81,3.89,4.11,1.84,3.95,4.35,1.78,3.75,4.04,1.85,3.85,4.3
-Finland,Veikkausliiga,01/09/2024,14:00,Mariehamn,AC Oulu,2.64,3.29,2.73,2.65,3.34,2.8,2.55,3.19,2.69,2.66,3.25,3
-Finland,Veikkausliiga,01/09/2024,14:00,VPS,HJK,3.08,3.67,2.21,3.2,3.75,2.22,3.04,3.57,2.15,3.25,3.65,2.24
-Ireland,Premier Division,30/08/2024,19:45,Dundalk,Shelbourne,3.68,2.99,2.31,3.68,3.02,2.31,3.49,2.95,2.23,3.85,2.98,2.36
-Ireland,Premier Division,30/08/2024,19:45,Galway,Derry City,3.43,3.06,2.38,3.43,3.2,2.38,3.27,3,2.3,3.65,3,2.46
-Ireland,Premier Division,31/08/2024,19:45,Sligo Rovers,Waterford,2.59,3.3,2.74,2.6,3.4,2.75,2.51,3.26,2.68,2.64,3.35,2.84
-Ireland,Premier Division,01/09/2024,11:30,Bohemians,Shamrock Rovers,3.32,3.6,2.09,3.45,3.7,2.14,3.26,3.53,2.05,2.96,2.6,2.06
-Ireland,Premier Division,01/09/2024,18:00,St. Patricks,Drogheda,1.83,3.69,4.13,1.9,3.76,4.13,1.84,3.61,3.93,1.88,3.5,1.04
-Japan,J1 League,31/08/2024,10:00,Machida,Urawa Reds,2.23,3.27,3.37,2.23,3.4,3.52,2.17,3.29,3.34,2.16,2.74,3.25
-Japan,J1 League,31/08/2024,10:30,Sanfrecce Hiroshima,FC Tokyo,1.47,4.46,6.62,1.49,4.7,7,1.45,4.46,6.62,1.46,4.7,7.4
-Japan,J1 League,31/08/2024,11:00,Cerezo Osaka,Gamba Osaka,2.73,3.3,2.64,2.77,3.36,2.7,2.7,3.26,2.62,2.8,3.3,2.68
-Japan,J1 League,31/08/2024,11:00,Iwata,Yokohama F. Marinos,4.11,4.23,1.74,4.2,4.3,1.8,4.03,4.09,1.76,3.8,3.35,1.7
-Japan,J1 League,31/08/2024,11:00,Kashiwa Reysol,Verdy,2.08,3.34,3.7,2.13,3.5,3.9,2.04,3.35,3.63,2.14,3.35,3.85
-Japan,J1 League,31/08/2024,11:00,Kyoto,Kashima Antlers,3.08,3.57,2.25,3.2,3.7,2.27,3.08,3.5,2.22,2.92,3.4,2.12
-Japan,J1 League,31/08/2024,11:00,Nagoya Grampus,Albirex Niigata,2.54,3.28,2.85,2.57,3.34,2.91,2.5,3.26,2.84,2.42,2.74,2.72
-Japan,J1 League,31/08/2024,11:00,Sagan Tosu,Shonan Bellmare,3.11,3.54,2.24,3.16,3.7,2.27,3.05,3.53,2.2,2.84,3.6,2.12
-Japan,J1 League,01/09/2024,06:00,Hokkaido Consadole Sapporo,Kawasaki Frontale,3.29,4.13,1.98,3.7,4.2,2.01,3.42,3.94,1.93,3.6,3.95,1.93
-Japan,J1 League,01/09/2024,11:00,Avispa Fukuoka,Vissel Kobe,4.65,3.37,1.85,4.8,3.45,1.94,4.52,3.32,1.85,4.7,3.2,1.84
-Mexico,Liga MX,31/08/2024,02:00,Atl. San Luis,Atlas,2.4,3.37,3.07,2.42,3.6,3.16,2.31,3.36,2.98,2.46,3.55,3.05
-Mexico,Liga MX,31/08/2024,03:00,Mazatlan FC,Puebla,1.77,3.99,4.41,1.82,4,4.75,1.74,3.88,4.26,1.77,4,4.6
-Mexico,Liga MX,31/08/2024,04:05,Club Tijuana,Club Leon,2.06,3.58,3.63,2.1,3.8,3.64,2.01,3.56,3.45,2.06,3.8,3.7
-Mexico,Liga MX,01/09/2024,00:00,Pachuca,Queretaro,1.48,4.46,6.42,1.51,4.75,7,1.46,4.39,6.4,1.48,4.5,6.4
-Mexico,Liga MX,01/09/2024,00:05,Guadalajara Chivas,Juarez,1.7,3.96,4.64,1.76,4.11,5,1.7,3.84,4.58,1.67,3.75,3.9
-Mexico,Liga MX,01/09/2024,02:00,Monterrey,Toluca,2.05,3.63,3.48,2.07,3.75,3.75,2.01,3.59,3.39,2.04,3.85,3.55
-Mexico,Liga MX,01/09/2024,04:10,Cruz Azul,Club America,2.13,3.39,3.5,2.15,3.7,3.55,2.09,3.41,3.4,2.14,3.45,3.55
-Mexico,Liga MX,02/09/2024,00:00,U.N.A.M.- Pumas,U.A.N.L.- Tigres,2.44,3.41,2.89,2.45,3.5,2.95,2.38,3.37,2.84,2.46,3.25,2.72
-Mexico,Liga MX,02/09/2024,02:05,Santos Laguna,Necaxa,2.9,3.52,2.37,2.9,3.58,2.39,2.83,3.48,2.33,2.9,3.6,2.34
-Norway,Eliteserien,30/08/2024,18:00,KFUM Oslo,Lillestrom,2.22,3.62,3.26,2.23,3.65,3.26,2.19,3.51,3.15,2.28,3.6,3.4
-Norway,Eliteserien,31/08/2024,17:00,Fredrikstad,Odd,1.54,4.17,5.96,1.57,4.4,6,1.53,4.17,5.83,1.59,4.2,6.8
-Norway,Eliteserien,01/09/2024,16:00,HamKam,Sandefjord,2.09,3.67,3.34,2.11,3.79,3.45,2.06,3.65,3.3,2.08,3.65,3.3
-Norway,Eliteserien,01/09/2024,16:00,Kristiansund,Haugesund,2.5,3.46,2.77,2.55,3.73,2.88,2.43,3.51,2.73,2.28,3.65,2.64
-Norway,Eliteserien,01/09/2024,16:00,Rosenborg,Molde,2.35,3.66,2.85,2.45,3.8,2.9,2.31,3.63,2.83,2.34,3.8,2.84
-Norway,Eliteserien,01/09/2024,16:00,Stromsgodset,Bodo/Glimt,4.49,4.39,1.65,4.59,4.55,1.7,4.36,4.36,1.65,4.6,4.7,1.66
-Norway,Eliteserien,01/09/2024,16:00,Tromso,Viking,2.62,3.55,2.59,2.7,3.61,2.62,2.6,3.48,2.56,2.62,3.55,2.58
-Norway,Eliteserien,01/09/2024,18:15,Brann,Sarpsborg 08,1.46,5.13,5.64,1.49,5.5,6,1.45,5.05,5.6,1.47,5.3,5.6
-Poland,Ekstraklasa,30/08/2024,17:00,Rakow,Piast Gliwice,2,3.01,4.78,2.01,3.25,4.78,1.95,3.07,4.28,2.04,3.2,4.8
-Poland,Ekstraklasa,30/08/2024,19:30,Stal Mielec,Lech Poznan,4.03,3.5,1.97,4.03,3.6,2,3.87,3.38,1.93,4.2,3.6,2
-Poland,Ekstraklasa,31/08/2024,13:45,Puszcza,Korona Kielce,2.48,2.92,3.24,2.5,3.3,3.24,2.38,3.11,3.05,2.48,3.25,3.15
-Poland,Ekstraklasa,31/08/2024,16:30,Zaglebie,GKS Katowice,2.07,3.42,3.55,2.16,3.52,3.55,2.06,3.44,3.4,2.12,3.25,3.45
-Poland,Ekstraklasa,31/08/2024,19:15,Radomiak Radom,Cracovia,2.44,3.35,2.89,2.45,3.5,2.95,2.38,3.33,2.83,2.46,3.45,2.9
-Poland,Ekstraklasa,01/09/2024,11:15,Gornik Zabrze,Lechia Gdansk,1.85,3.72,4,1.87,3.78,4.25,1.83,3.61,3.94,1.77,3.4,2.04
-Poland,Ekstraklasa,01/09/2024,13:45,Legia,Motor Lublin,1.46,4.39,6.71,1.48,4.45,7,1.45,4.29,6.55,1.46,1.1,1.04
-Poland,Ekstraklasa,01/09/2024,16:30,Pogon Szczecin,Slask Wroclaw,1.77,3.74,4.42,1.8,3.8,4.42,1.75,3.71,4.26,1.72,3.2,3.7
-Poland,Ekstraklasa,01/09/2024,19:15,Jagiellonia,Widzew Lodz,1.76,4.04,4.11,1.83,4.06,4.33,1.75,3.93,4,1.73,3.4,3.95
-Romania,Liga 1,30/08/2024,19:00,Otelul,Sepsi Sf. Gheorghe,2.49,2.83,3.42,2.55,2.9,3.43,2.44,2.83,3.19,2.52,3,3.5
-Romania,Liga 1,31/08/2024,16:30,FC Hermannstadt,Poli Iasi,1.91,3.25,4.27,1.96,3.5,4.3,1.91,3.29,4,1.97,3.25,4.5
-Romania,Liga 1,31/08/2024,19:30,Univ. Craiova,FC Rapid Bucuresti,2.05,3.68,3.28,2.1,3.78,3.35,2.03,3.61,3.2,2.18,3.9,3.35
-Romania,Liga 1,01/09/2024,14:30,FC Botosani,Petrolul,2.67,2.96,2.88,2.7,3.1,2.9,2.58,2.94,2.81,2.72,3.05,2.9
-Romania,Liga 1,01/09/2024,16:45,Farul Constanta,CFR Cluj,2.91,3.36,2.39,2.91,3.42,2.5,2.8,3.29,2.37,2.9,3.3,2.48
-Romania,Liga 1,01/09/2024,19:30,FCSB,UTA Arad,1.5,4.25,6,1.52,4.33,6.5,1.48,4.21,5.96,1.51,4.3,6.4
-Romania,Liga 1,02/09/2024,17:00,Unirea Slobozia,Gloria Buzau,2.13,3.21,3.56,2.13,3.34,3.75,2.07,3.2,3.47,2.14,3.2,3.55
-Romania,Liga 1,02/09/2024,19:30,U. Cluj,Din. Bucuresti,1.79,3.45,4.57,1.86,3.53,4.6,1.8,3.38,4.35,1.93,3.3,4.6
-Russia,Premier League,31/08/2024,13:00,Khimki,CSKA Moscow,4.61,3.8,1.74,4.77,4.04,1.79,4.51,3.79,1.74,,,
-Russia,Premier League,31/08/2024,15:30,Pari NN,Zenit,10.22,5.3,1.3,11,5.4,1.35,9.59,5.08,1.32,,,
-Russia,Premier League,31/08/2024,17:45,Spartak Moscow,Rubin Kazan,1.55,4.19,5.84,1.6,4.41,6.14,1.54,4.17,5.77,,,
-Russia,Premier League,31/08/2024,18:00,Akhmat Grozny,Akron Togliatti,1.85,3.65,4.18,1.93,3.83,4.3,1.87,3.62,4.13,,,
-Russia,Premier League,01/09/2024,13:00,Orenburg,Dynamo Moscow,3.17,3.7,2.15,3.26,3.96,2.25,3.12,3.72,2.16,,,
-Russia,Premier League,01/09/2024,15:30,samara,Dynamo Makhachkala,1.76,3.56,4.92,1.85,3.73,5,1.77,3.55,4.8,,,
-Russia,Premier League,01/09/2024,17:45,Lokomotiv Moscow,Krasnodar,2.25,3.55,3.09,2.3,3.74,3.2,2.23,3.56,3.06,,,
-Russia,Premier League,01/09/2024,18:00,FK Rostov,Fakel Voronezh,1.47,4.21,7.22,1.53,4.41,7.5,1.48,4.17,7.12,,,
-Sweden,Allsvenskan,31/08/2024,14:00,GAIS,Kalmar,1.64,4.02,5.09,1.71,4.15,5.2,1.66,3.97,4.89,1.71,4.1,5.3
-Sweden,Allsvenskan,31/08/2024,14:00,Varnamo,AIK,3.55,3.38,2.11,3.61,3.5,2.2,3.46,3.36,2.12,3.7,3.4,2.18
-Sweden,Allsvenskan,31/08/2024,16:30,Mjallby,Halmstad,1.51,4.29,6.15,1.54,4.4,6.5,1.51,4.23,6.08,1.57,4.4,6.6
-Sweden,Allsvenskan,31/08/2024,16:30,Vasteras SK,Sirius,2.43,3.58,2.79,2.46,3.75,2.88,2.4,3.59,2.75,2.56,3.75,2.82
-Sweden,Allsvenskan,01/09/2024,13:00,Brommapojkarna,Elfsborg,2.66,3.63,2.51,2.8,3.85,2.56,2.63,3.66,2.46,2.66,3.6,2.5
-Sweden,Allsvenskan,01/09/2024,13:00,Malmo FF,Djurgarden,1.56,4.13,5.7,1.61,4.4,6,1.57,4.15,5.51,1.6,4.4,6
-Sweden,Allsvenskan,01/09/2024,15:30,Goteborg,Hammarby,2.74,3.6,2.46,2.78,3.65,2.55,2.68,3.57,2.47,2.7,3.6,2.4
-Sweden,Allsvenskan,01/09/2024,15:30,Norrkoping,Hacken,3,3.93,2.16,3.06,4.02,2.21,2.96,3.91,2.15,3,4.1,2.16
-Switzerland,Swiss,31/08/2024,17:00,Sion,Basel,2.63,3.59,2.52,2.67,3.75,2.56,2.59,3.59,2.47,2.68,3.9,2.54
-Switzerland,Swiss,31/08/2024,17:00,Yverdon,Grasshoppers,2.89,3.44,2.39,2.95,3.6,2.43,2.83,3.44,2.34,2.9,3.55,2.56
-Switzerland,Swiss,31/08/2024,19:30,Young Boys,Lausanne,1.69,4.22,4.3,1.77,4.33,4.4,1.72,4.15,4.1,1.72,4.2,4.1
-Switzerland,Swiss,01/09/2024,13:15,Winterthur,Servette,3.72,3.9,1.88,3.84,4,1.95,3.61,3.87,1.88,3.7,3.95,1.97
-Switzerland,Swiss,01/09/2024,15:30,Lugano,St. Gallen,2.31,3.6,2.9,2.34,3.85,2.95,2.26,3.69,2.8,2.36,3.8,2.82
-Switzerland,Swiss,01/09/2024,15:30,Zurich,Luzern,1.87,3.82,3.84,1.98,3.94,3.96,1.89,3.78,3.64,1.93,3.95,3.7
-USA,MLS,01/09/2024,00:30,Charlotte,Atlanta Utd,1.92,3.87,3.68,1.96,4.05,3.8,1.91,3.86,3.66,1.94,4,3.8
-USA,MLS,01/09/2024,00:30,Columbus Crew,New York City,1.71,4.12,4.41,1.76,4.2,4.69,1.72,4.06,4.36,1.67,3.9,1.04
-USA,MLS,01/09/2024,00:30,FC Cincinnati,CF Montreal,1.39,5.23,6.78,1.45,5.5,7.5,1.4,5.06,6.77,1.43,5.4,7.4
-USA,MLS,01/09/2024,00:30,New York Red Bulls,Philadelphia Union,1.71,4.03,4.49,1.75,4.2,4.74,1.72,3.98,4.41,1.72,4.2,4.5
-USA,MLS,01/09/2024,00:30,Orlando City,Nashville SC,1.51,4.43,5.94,1.56,4.6,6.4,1.51,4.4,5.9,1.53,4.4,6.4
-USA,MLS,01/09/2024,00:30,Toronto FC,DC United,2.2,3.74,3.05,2.24,3.85,3.2,2.17,3.72,3.04,2.24,3.9,3.2
-USA,MLS,01/09/2024,01:30,Austin FC,Vancouver Whitecaps,2.43,3.5,2.84,2.47,3.6,2.88,2.41,3.51,2.78,2.46,3.55,2.84
-USA,MLS,01/09/2024,01:30,Chicago Fire,Inter Miami,2.48,3.81,2.6,2.55,3.89,2.7,2.48,3.76,2.58,2.52,3.9,2.76
-USA,MLS,01/09/2024,01:30,FC Dallas,Colorado Rapids,2.29,3.71,2.91,2.33,3.8,3,2.27,3.67,2.89,2.32,3.95,2.96
-USA,MLS,01/09/2024,02:30,Real Salt Lake,New England Revolution,1.47,4.81,5.93,1.52,5,6.25,1.47,4.79,5.86,1.49,4.8,6
-USA,MLS,01/09/2024,03:30,Los Angeles FC,Houston Dynamo,1.59,4.26,5.24,1.64,4.4,5.5,1.59,4.22,5.21,1.59,4.1,5.5
-USA,MLS,01/09/2024,03:30,Portland Timbers,Seattle Sounders,2.26,3.58,3.06,2.3,3.75,3.11,2.23,3.62,3.01,1.84,2.04,2.44
-USA,MLS,01/09/2024,03:30,San Jose Earthquakes,Minnesota United,2.18,3.84,3.01,2.23,4,3.1,2.18,3.83,2.96,2.18,4.1,3
-USA,MLS,01/09/2024,19:45,St. Louis City,Los Angeles Galaxy,2.38,3.85,2.7,2.41,4.09,2.88,2.35,3.86,2.69,,,
+Austria,Admiral Bundesliga,25/09/2024,17:30,Austria Vienna,Sturm Graz,3.3,3.59,2.13,3.34,3.68,2.16,3.23,3.55,2.1,3.3,3.8,2.18
+Austria,Admiral Bundesliga,26/09/2024,17:30,Hartberg,Tirol,1.86,4.01,3.74,1.89,4.1,4.2,1.83,3.85,3.8,1.78,3.6,3.5
+Brazil,Serie A,25/09/2024,23:00,Bragantino,Internacional,3.07,3.17,2.45,3.09,3.25,2.55,3.01,3.16,2.45,3.15,3.2,2.5
+Brazil,Serie A,25/09/2024,23:00,Gremio,Criciuma,1.65,3.83,5.28,1.7,4,5.4,1.67,3.79,5.14,1.67,3.8,5.8
+Finland,Veikkausliiga,24/09/2024,16:00,AC Oulu,Inter Turku,2.92,3.55,2.44,2.96,3.6,2.44,2.85,3.42,2.34,3.05,3.65,2.48
+Finland,Veikkausliiga,24/09/2024,17:00,Ilves,KuPS,2.32,3.54,3.12,2.35,3.6,3.12,2.27,3.43,2.96,2.36,3.65,3.15
+Poland,Ekstraklasa,25/09/2024,18:00,Motor Lublin,Jagiellonia,2.95,3.45,2.35,3,3.48,2.38,2.9,3.38,2.31,3.05,3.55,2.36
+Sweden,Allsvenskan,25/09/2024,18:00,Djurgarden,Brommapojkarna,1.7,4.07,4.52,1.73,4.2,4.75,1.7,4.05,4.48,1.71,4.2,4.8
+Sweden,Allsvenskan,25/09/2024,18:00,Mjallby,Varnamo,1.93,3.55,3.96,2,3.63,4,1.94,3.54,3.87,1.97,3.55,4.2
+Sweden,Allsvenskan,25/09/2024,18:00,Sirius,AIK,2.79,3.42,2.51,2.81,3.56,2.55,2.73,3.45,2.48,2.78,3.65,2.54
+Sweden,Allsvenskan,26/09/2024,18:00,Halmstad,Kalmar,2.82,3.54,2.42,2.86,3.62,2.5,2.77,3.52,2.4,2.82,3.6,2.52
+Sweden,Allsvenskan,26/09/2024,18:00,Hammarby,Hacken,2.19,3.84,2.99,2.24,4,3.1,2.17,3.81,2.97,2.16,4.2,3
+Sweden,Allsvenskan,26/09/2024,18:00,Vasteras SK,Goteborg,2.32,3.39,3.1,2.35,3.6,3.15,2.3,3.41,3.01,2.34,3.35,3.1
+Switzerland,Swiss,24/09/2024,19:30,St. Gallen,Zurich,2.26,3.62,3.12,2.28,3.75,3.12,2.21,3.59,2.98,2.34,3.7,3.15
